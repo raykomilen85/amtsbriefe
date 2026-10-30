@@ -1,0 +1,425 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Fristen-Rechner – Widerspruchsfrist, Anmeldung, Führerschein | Amtsbriefe</title>
+<link rel="canonical" href="https://amtsbriefe.de/frist-rechner.html">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%233347F5'/%3E%3Ccircle cx='32' cy='34' r='17' fill='none' stroke='white' stroke-width='5'/%3E%3Cpath d='M32 24v11l7 5' fill='none' stroke='white' stroke-width='5' stroke-linecap='round'/%3E%3C/svg%3E">
+<meta name="theme-color" content="#3347F5">
+<meta name="description" content="Kostenloser Fristen-Rechner: letzter Tag für den Widerspruch gegen einen Bescheid, die Anmeldung nach dem Umzug, den ausländischen Führerschein und die Arbeitsuchend-Meldung – mit Feiertagen aller Bundesländer, in 8 Sprachen.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://amtsbriefe.de/frist-rechner.html">
+<meta property="og:title" content="Fristen-Rechner – wie lange habe ich Zeit?">
+<meta property="og:description" content="Widerspruchsfrist, Anmeldung, Führerschein, Arbeitsuchend-Meldung: der letzte Tag in Sekunden. Kostenlos, 8 Sprachen.">
+<style>
+:root{
+  --paper:#F4F5FB; --sheet:#FFFFFF; --ink:#11132A; --muted:#565B7C; --line:#E1E3F0;
+  --accent:#3347F5; --accent-ink:#FFFFFF; --soft:#ECEEFF; --glow:#E3E7FF;
+  --pop:#FF6B4A; --sun:#FFC23C; --mint:#14BF8F; --berry:#D94FA8; --sun-ink:#5A3E00;
+  --f-display:"Segoe UI Variable Display","SF Pro Display",system-ui,-apple-system,Roboto,"Noto Sans","Helvetica Neue",Arial,sans-serif;
+  --f-body:"Segoe UI",system-ui,-apple-system,Roboto,"Noto Sans","Noto Sans Arabic","Helvetica Neue",Arial,sans-serif;
+  --shadow:0 18px 40px -26px rgba(30,40,120,.45);
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --paper:#0B0D1C; --sheet:#151834; --ink:#F0F1FA; --muted:#A7ABCB; --line:#272B52;
+  --accent:#8E98FF; --accent-ink:#0B0D1C; --soft:#1C2050; --glow:#1A1F4A; --pop:#FF8A6E; --sun:#FFD45C; --mint:#3EE0B4; --berry:#F07BC8; --sun-ink:#FFE9A8;
+  --shadow:0 18px 40px -26px rgba(0,0,0,.8); color-scheme:dark}}
+:root[data-theme="dark"]{
+  --paper:#0B0D1C; --sheet:#151834; --ink:#F0F1FA; --muted:#A7ABCB; --line:#272B52;
+  --accent:#8E98FF; --accent-ink:#0B0D1C; --soft:#1C2050; --glow:#1A1F4A; --pop:#FF8A6E; --sun:#FFD45C; --mint:#3EE0B4; --berry:#F07BC8; --sun-ink:#FFE9A8;
+  --shadow:0 18px 40px -26px rgba(0,0,0,.8); color-scheme:dark}
+*{box-sizing:border-box}
+[hidden]{display:none!important}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background-color:var(--paper);background-image:radial-gradient(40% 380px at 92% 0,color-mix(in srgb,var(--pop) 16%,transparent),transparent 70%),radial-gradient(45% 420px at 8% 0,var(--glow),transparent 70%);background-repeat:no-repeat;color:var(--ink);font-family:var(--f-body);font-size:16px;line-height:1.5;padding-bottom:env(safe-area-inset-bottom,0px)}
+.wrap{max-width:1120px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+a{color:var(--accent)}
+header.top{position:sticky;top:0;z-index:5;background:color-mix(in srgb,var(--paper) 92%,transparent);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);padding-top:env(safe-area-inset-top,0px)}
+header.top::after{content:"";display:block;height:5px;background:linear-gradient(90deg,var(--accent) 0 25%,var(--pop) 25% 50%,var(--sun) 50% 75%,var(--mint) 75%)}
+header.top .wrap{display:flex;gap:12px;align-items:center;padding-block:10px;flex-wrap:wrap}
+.brand{font-family:var(--f-display);font-weight:800;font-size:22px;margin-inline-end:auto;display:flex;align-items:center;gap:8px;color:var(--ink);text-decoration:none}
+.brand i{display:inline-block;width:18px;height:24px;border:2px solid var(--accent);border-radius:2px;position:relative}
+.brand i::after{content:"";position:absolute;left:-6px;top:6px;width:6px;border-top:2px solid var(--accent)}
+.langs{display:flex;gap:4px;overflow-x:auto;max-width:100%;scrollbar-width:none}
+.langs::-webkit-scrollbar{display:none}
+.langs button{font:inherit;font-size:13px;border:1px solid var(--line);background:var(--sheet);color:var(--ink);padding:5px 9px;border-radius:999px;cursor:pointer;white-space:nowrap}
+.langs button[aria-pressed="true"]{background:var(--accent);color:var(--accent-ink);border-color:var(--accent)}
+
+.hero{padding-block:30px 18px;display:grid;gap:10px}
+.back{font-size:14px;font-weight:600;text-decoration:none;display:inline-flex;gap:6px;align-items:center;width:fit-content}
+.kicker{display:flex;flex-wrap:wrap;gap:6px}
+.kicker span{font-size:12.5px;font-weight:700;padding:4px 10px;border-radius:999px;background:var(--sheet);border:1px solid var(--line);color:var(--muted)}
+.hero h1{font-family:var(--f-display);font-weight:800;font-size:clamp(38px,7vw,72px);letter-spacing:-.035em;line-height:.95;margin:4px 0 0;text-wrap:balance}
+.hero h1 span{color:var(--accent);background:linear-gradient(transparent 72%,color-mix(in srgb,var(--sun) 70%,transparent) 72% 92%,transparent 92%)}
+.hero p{margin:0;max-width:60ch;color:var(--muted);font-size:17px}
+
+.grid{display:grid;grid-template-columns:minmax(0,1.08fr) minmax(0,.92fr);gap:22px;align-items:start;padding-bottom:28px}
+@media (max-width:860px){.grid{grid-template-columns:1fr}}
+.card{background:var(--sheet);border:1px solid var(--line);border-radius:22px;padding:20px;box-shadow:var(--shadow)}
+.step{font-size:12px;text-transform:uppercase;letter-spacing:.08em;color:var(--muted);font-weight:800;margin:0 0 12px;display:flex;align-items:center;gap:8px}
+.step b{display:inline-grid;place-items:center;width:22px;height:22px;border-radius:7px;background:var(--ink);color:var(--paper);font-size:12px;letter-spacing:0}
+
+.cases{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;margin-bottom:22px}
+.case{--c:var(--accent);font:inherit;color:var(--ink);text-align:start;background:var(--paper);border:2px solid transparent;border-radius:16px;padding:14px;cursor:pointer;display:grid;grid-template-columns:44px minmax(0,1fr);gap:12px;align-items:center;transition:border-color .15s,background-color .15s,transform .15s}
+.case:hover{border-color:color-mix(in srgb,var(--c) 45%,transparent)}
+.case:active{transform:scale(.985)}
+.case[aria-pressed="true"]{border-color:var(--c);background:color-mix(in srgb,var(--c) 12%,var(--sheet))}
+.case .ic{width:44px;height:44px;border-radius:13px;background:var(--c);display:grid;place-items:center}
+.case .ic svg{width:24px;height:24px;stroke:#fff;fill:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+.case b{display:block;font-family:var(--f-display);font-size:15.5px;line-height:1.2;hyphens:auto}
+.case small{display:block;color:var(--muted);font-size:12.5px;line-height:1.3;margin-top:2px}
+.case:focus-visible,.seg button:focus-visible,input:focus-visible,select:focus-visible,.btn:focus-visible{outline:3px solid color-mix(in srgb,var(--accent) 55%,transparent);outline-offset:2px}
+@media (max-width:420px){.cases{grid-template-columns:1fr}}
+
+.fields{display:grid;gap:16px}
+.f{display:grid;gap:6px}
+.f > span{font-weight:700;font-size:14.5px}
+.f input,.f select{font:inherit;font-size:16px;width:100%;min-height:48px;padding:10px 14px;border-radius:12px;border:2px solid var(--line);background:var(--paper);color:var(--ink)}
+.f input:focus,.f select:focus{border-color:var(--accent);outline:none}
+.seg{display:grid;grid-auto-flow:column;grid-auto-columns:1fr;gap:4px;background:var(--paper);border:2px solid var(--line);border-radius:14px;padding:4px}
+.seg button{font:inherit;font-size:14px;font-weight:600;line-height:1.25;color:var(--muted);background:transparent;border:0;border-radius:10px;padding:10px 8px;cursor:pointer;min-height:44px}
+.seg button[aria-pressed="true"]{background:var(--sheet);color:var(--ink);box-shadow:0 2px 8px -3px rgba(20,30,90,.35)}
+@media (max-width:420px){.seg.stack{grid-auto-flow:row}}
+.hint{font-size:13px;color:var(--muted);margin:0}
+
+.result{position:sticky;top:84px;padding:0;overflow:hidden}
+@media (max-width:860px){.result{position:static}}
+.rtop{--h:#3347F5;padding:22px 22px 20px;background:linear-gradient(135deg,var(--h),color-mix(in srgb,var(--h) 55%,#7A2E8E));color:#fff}
+.rtop .lbl{font-size:12.5px;text-transform:uppercase;letter-spacing:.09em;font-weight:800;opacity:.9}
+.big{font-family:var(--f-display);font-weight:800;font-size:clamp(40px,6vw,56px);letter-spacing:-.03em;line-height:1;margin:6px 0 4px;font-variant-numeric:tabular-nums}
+[dir="rtl"] .big{text-align:right}
+.wd{font-size:18px;font-weight:600;opacity:.95}
+.pill{display:inline-flex;align-items:center;gap:6px;margin-top:14px;padding:6px 12px;border-radius:999px;font-weight:800;font-size:14px;background:#fff;color:#11132A}
+.pill i{width:9px;height:9px;border-radius:50%;background:var(--pc,#14BF8F)}
+.rbody{padding:20px 22px 22px;display:grid;gap:18px}
+.tl{list-style:none;margin:0;padding:0;display:grid;gap:0}
+.tl li{position:relative;padding:0 0 16px 30px;display:grid;gap:1px}
+.tl li:last-child{padding-bottom:0}
+.tl li::before{content:"";position:absolute;left:4px;top:5px;width:12px;height:12px;border-radius:50%;background:var(--sheet);border:3px solid var(--line)}
+.tl li::after{content:"";position:absolute;left:10px;top:22px;bottom:2px;width:2px;background:var(--line)}
+.tl li:last-child::after{display:none}
+.tl li.end::before{border-color:var(--pop);background:var(--pop)}
+.tl li.mid::before{border-color:var(--accent)}
+[dir="rtl"] .tl li{padding:0 30px 16px 0}[dir="rtl"] .tl li::before{left:auto;right:4px}[dir="rtl"] .tl li::after{left:auto;right:10px}
+.tl small{color:var(--muted);font-size:13px}
+.tl b{font-variant-numeric:tabular-nums}
+.notes{list-style:none;margin:0;padding:0;display:grid;gap:10px}
+.notes li{font-size:14.5px;padding:12px 14px;border-radius:14px;background:var(--paper);border-inline-start:4px solid var(--accent)}
+.notes li.warn{border-color:var(--pop);background:color-mix(in srgb,var(--pop) 10%,var(--sheet))}
+.notes li.shift{border-color:var(--sun);background:color-mix(in srgb,var(--sun) 16%,var(--sheet))}
+.acts{display:flex;flex-wrap:wrap;gap:8px}
+.btn{font:inherit;font-weight:700;font-size:15px;display:inline-flex;align-items:center;gap:8px;border-radius:12px;padding:11px 16px;cursor:pointer;text-decoration:none;border:0;background:var(--accent);color:var(--accent-ink)}
+.btn.ghost{background:var(--sheet);color:var(--ink);border:1.5px solid var(--line)}
+.btn svg{width:18px;height:18px;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+.empty{padding:34px 22px;text-align:center;color:var(--muted)}
+.empty svg{width:64px;height:64px;margin:0 auto 10px;display:block;stroke:var(--accent);fill:none;stroke-width:2;stroke-linecap:round;opacity:.8}
+
+.how{padding-block:8px 34px;display:grid;gap:12px}
+.how h2{font-family:var(--f-display);font-size:26px;letter-spacing:-.02em;margin:0}
+.rules{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:12px}
+.rule{background:var(--sheet);border:1px solid var(--line);border-radius:18px;padding:16px;display:grid;gap:4px;align-content:start}
+.rule b{font-family:var(--f-display);font-size:16px}
+.rule p{margin:0;color:var(--muted);font-size:14.5px}
+.rule code{font-family:inherit;font-size:12.5px;font-weight:700;color:var(--accent);background:var(--soft);padding:2px 8px;border-radius:999px;width:fit-content;margin-top:6px}
+footer{border-top:1px solid var(--line);padding-block:16px 30px;font-size:13px;color:var(--muted)}
+footer p{margin:0 0 6px;max-width:80ch}
+@media (prefers-reduced-motion:reduce){*{transition:none!important}}
+@media print{header.top,.cases,.acts,.how,footer,.back{display:none!important}.grid{grid-template-columns:1fr}.card{box-shadow:none}.rtop{color:#000;background:none;border-bottom:2px solid #000}.pill{border:1px solid #000}}
+</style>
+</head>
+<body>
+<header class="top"><div class="wrap">
+  <a class='brand' href='/'><i aria-hidden="true"></i>Amtsbriefe</a>
+  <nav class="langs" id="langs" aria-label="Sprache"></nav>
+</div></header>
+
+<main class="wrap">
+  <section class="hero">
+    <a class='back' href='/' id='t-back'></a>
+    <div class="kicker"><span id="t-k1"></span><span id="t-k2"></span><span>DE · TR · BG · AR · UK · PL · EN · KU</span></div>
+    <h1 id="t-h1"></h1>
+    <p id="t-sub"></p>
+  </section>
+
+  <div class="grid">
+    <section class="card" aria-labelledby="t-s1">
+      <p class="step" id="t-s1"></p>
+      <div class="cases" id="cases" role="group"></div>
+      <p class="step" id="t-s2"></p>
+      <div class="fields" id="fields"></div>
+    </section>
+    <section class="card result" id="result" aria-live="polite"></section>
+  </div>
+
+  <section class="how">
+    <h2 id="t-howh"></h2>
+    <div class="rules" id="rules"></div>
+  </section>
+</main>
+
+<footer><div class="wrap"><p id="t-disc"></p><p>Stand: Oktober 2026 · § 37 Abs. 2 SGB X, § 41 Abs. 2 VwVfG, § 122 Abs. 2 AO (4-Tage-Regel seit 1.1.2025) · § 84, § 64, § 66 SGG · § 17 BMG · § 29 FeV · § 38 SGB III</p><p><a href='/'>Amtsbriefe</a> · <a href='/woerterbuch'>Wörterbuch</a> · <a href='/ki-hilfe'>Brief übersetzen</a> · <a href='/impressum'>Impressum</a> · <a href='/datenschutz'>Datenschutz</a></p></div></footer>
+
+<script>
+const LANGS=[["de","Deutsch"],["tr","Türkçe"],["bg","Български"],["ar","العربية"],["uk","Українська"],["pl","Polski"],["en","English"],["ku","Kurdî"]];
+const S={
+back:{de:"← Zu den Briefvorlagen",tr:"← Mektup şablonlarına",bg:"← Към шаблоните за писма",ar:"→ إلى نماذج الرسائل",uk:"← До шаблонів листів",pl:"← Do wzorów pism",en:"← Back to letter templates",ku:"← Vegere şablonên nameyan"},
+k1:{de:"Kostenlos",tr:"Ücretsiz",bg:"Безплатно",ar:"مجاني",uk:"Безкоштовно",pl:"Za darmo",en:"Free",ku:"Belaş"},
+k2:{de:"Mit Feiertagen aller Bundesländer",tr:"Tüm eyaletlerin resmî tatilleriyle",bg:"С празниците на всички провинции",ar:"مع العطل الرسمية لكل الولايات",uk:"Зі святами всіх земель",pl:"Ze świętami wszystkich landów",en:"With holidays of every state",ku:"Bi betlaneyên hemû eyaletan"},
+h1:{de:["Wie lange habe ich ","Zeit?"],tr:["Ne kadar ","sürem var?"],bg:["Колко ","време имам?"],ar:["كم لديّ من ","الوقت؟"],uk:["Скільки в мене ","часу?"],pl:["Ile mam ","czasu?"],en:["How much ","time do I have?"],ku:["Çiqas ","wextê min heye?"]},
+sub:{de:"Wähle deinen Fall und gib das Datum ein. Der Rechner zeigt dir den letzten Tag der Frist – mit Wochenenden und Feiertagen.",tr:"Durumunu seç ve tarihi gir. Hesaplayıcı sana son günü gösterir – hafta sonları ve resmî tatiller dahil.",bg:"Изберете случая си и въведете датата. Калкулаторът показва последния ден от срока – с почивните и празничните дни.",ar:"اختر حالتك وأدخل التاريخ. تُظهر لك الحاسبة آخر يوم في المهلة، مع احتساب عطلات نهاية الأسبوع والعطل الرسمية.",uk:"Оберіть свій випадок і введіть дату. Калькулятор покаже останній день строку – з урахуванням вихідних і свят.",pl:"Wybierz swoją sprawę i wpisz datę. Kalkulator pokaże ostatni dzień terminu – z weekendami i świętami.",en:"Pick your case and enter the date. The calculator shows the last day of the deadline – including weekends and public holidays.",ku:"Rewşa xwe hilbijêre û dîrokê binivîse. Hesabker roja dawî ya demê nîşan dide – bi dawiya hefteyê û betlaneyan re."},
+s1:{de:"Worum geht es?",tr:"Konu ne?",bg:"За какво става дума?",ar:"ما موضوعك؟",uk:"Про що йдеться?",pl:"O co chodzi?",en:"What is it about?",ku:"Mijar çi ye?"},
+s2:{de:"Deine Angaben",tr:"Bilgilerin",bg:"Вашите данни",ar:"بياناتك",uk:"Ваші дані",pl:"Twoje dane",en:"Your details",ku:"Agahiyên te"},
+c_b:{de:"Widerspruch gegen einen Bescheid",tr:"Karara (Bescheid) itiraz",bg:"Възражение срещу решение",ar:"اعتراض على قرار (Bescheid)",uk:"Заперечення проти рішення",pl:"Odwołanie od decyzji",en:"Objecting to a decision",ku:"Îtiraz li biryarekê"},
+c_bd:{de:"Jobcenter, Krankenkasse, Finanzamt …",tr:"Jobcenter, sağlık kasası, vergi dairesi …",bg:"Jobcenter, здравна каса, данъчна служба …",ar:"جوب سنتر، صندوق التأمين الصحي، مكتب الضرائب …",uk:"Jobcenter, лікарняна каса, податкова …",pl:"Jobcenter, kasa chorych, urząd skarbowy …",en:"Jobcenter, health insurer, tax office …",ku:"Jobcenter, sindoqa tenduristiyê, fermangeha bacê …"},
+c_u:{de:"Anmeldung nach dem Umzug",tr:"Taşındıktan sonra adres kaydı",bg:"Адресна регистрация след преместване",ar:"تسجيل السكن بعد الانتقال",uk:"Реєстрація після переїзду",pl:"Zameldowanie po przeprowadzce",en:"Registering after a move",ku:"Qeyda navnîşanê piştî barkirinê"},
+c_ud:{de:"Bürgeramt · 2 Wochen",tr:"Bürgeramt · 2 hafta",bg:"Bürgeramt · 2 седмици",ar:"مكتب المواطنين · أسبوعان",uk:"Bürgeramt · 2 тижні",pl:"Bürgeramt · 2 tygodnie",en:"Bürgeramt · 2 weeks",ku:"Bürgeramt · 2 hefte"},
+c_f:{de:"Ausländischer Führerschein",tr:"Yabancı ehliyet",bg:"Чуждестранна шофьорска книжка",ar:"رخصة قيادة أجنبية",uk:"Іноземне посвідчення водія",pl:"Zagraniczne prawo jazdy",en:"Foreign driving licence",ku:"Ehliyeta biyanî"},
+c_fd:{de:"Nicht-EU · 6 Monate",tr:"AB dışı · 6 ay",bg:"Извън ЕС · 6 месеца",ar:"من خارج الاتحاد الأوروبي · 6 أشهر",uk:"Не з ЄС · 6 місяців",pl:"Spoza UE · 6 miesięcy",en:"Non-EU · 6 months",ku:"Ne ji YE · 6 meh"},
+c_j:{de:"Arbeitsuchend melden",tr:"İş arayan olarak bildirim",bg:"Регистрация като търсещ работа",ar:"التسجيل كباحث عن عمل",uk:"Зареєструватися як шукач роботи",pl:"Zgłoszenie jako poszukujący pracy",en:"Registering as job-seeker",ku:"Xwe wek karger qeyd bike"},
+c_jd:{de:"Job endet · Agentur für Arbeit",tr:"İş bitiyor · İş Ajansı",bg:"Работата приключва · Агенция по труда",ar:"العمل ينتهي · وكالة العمل",uk:"Робота закінчується · Агентство праці",pl:"Praca się kończy · Agencja Pracy",en:"Job ending · employment agency",ku:"Kar diqede · Ajansa Kar"},
+from:{de:"Von wem ist der Bescheid?",tr:"Karar (Bescheid) kimden geldi?",bg:"От кого е решението?",ar:"من أي جهة القرار؟",uk:"Від кого рішення?",pl:"Od kogo jest decyzja?",en:"Who sent the decision?",ku:"Biryar ji kê hatiye?"},
+other:{de:"Andere Behörde",tr:"Başka bir kurum",bg:"Друга институция",ar:"جهة أخرى",uk:"Інша установа",pl:"Inny urząd",en:"Other authority",ku:"Saziyeke din"},
+how:{de:"Wie kam der Bescheid?",tr:"Karar nasıl geldi?",bg:"Как получихте решението?",ar:"كيف وصلك القرار؟",uk:"Як надійшло рішення?",pl:"Jak przyszła decyzja?",en:"How did it arrive?",ku:"Biryar çawa hat?"},
+post:{de:"Normaler Brief",tr:"Normal mektup",bg:"Обикновено писмо",ar:"رسالة عادية بالبريد",uk:"Звичайний лист",pl:"Zwykły list",en:"Ordinary letter",ku:"Nameya asayî"},
+hand:{de:"Gelber Umschlag / persönlich",tr:"Sarı zarf / elden",bg:"Жълт плик / лично",ar:"ظرف أصفر / باليد",uk:"Жовтий конверт / особисто",pl:"Żółta koperta / osobiście",en:"Yellow envelope / in person",ku:"Zerfa zer / bi destan"},
+bdate:{de:"Datum oben auf dem Bescheid",tr:"Kararın üstündeki tarih",bg:"Датата горе на решението",ar:"التاريخ المكتوب أعلى القرار",uk:"Дата вгорі на рішенні",pl:"Data u góry decyzji",en:"Date at the top of the decision",ku:"Dîroka li jorê biryarê"},
+hdate:{de:"Datum der Zustellung (steht auf dem gelben Umschlag) oder Übergabe",tr:"Teslim tarihi (sarı zarfın üstünde yazar) veya elden verildiği gün",bg:"Дата на връчване (на жълтия плик) или на предаване",ar:"تاريخ التسليم (مكتوب على الظرف الأصفر) أو يوم الاستلام باليد",uk:"Дата вручення (на жовтому конверті) або передачі",pl:"Data doręczenia (na żółtej kopercie) lub przekazania",en:"Date of service (written on the yellow envelope) or hand-over",ku:"Dîroka radestkirinê (li ser zerfa zer) an roja ku bi destan hat dayîn"},
+rbb:{de:"Steht am Ende eine „Rechtsbehelfsbelehrung“?",tr:"Sonunda „Rechtsbehelfsbelehrung“ (itiraz hakkı bilgisi) var mı?",bg:"Има ли накрая „Rechtsbehelfsbelehrung“ (указание за обжалване)?",ar:"هل يوجد في آخره «Rechtsbehelfsbelehrung» (معلومات حق الاعتراض)؟",uk:"Чи є наприкінці «Rechtsbehelfsbelehrung» (роз'яснення про оскарження)?",pl:"Czy na końcu jest „Rechtsbehelfsbelehrung” (pouczenie o odwołaniu)?",en:"Is there a “Rechtsbehelfsbelehrung” (how to object) at the end?",ku:"Li dawiyê „Rechtsbehelfsbelehrung“ (agahiya mafê îtirazê) heye?"},
+yes:{de:"Ja",tr:"Evet",bg:"Да",ar:"نعم",uk:"Так",pl:"Tak",en:"Yes",ku:"Erê"},
+no:{de:"Nein / fehlt",tr:"Hayır / yok",bg:"Не / липсва",ar:"لا / غير موجود",uk:"Ні / відсутнє",pl:"Nie / brak",en:"No / missing",ku:"Na / tune"},
+move:{de:"Tag des Einzugs",tr:"Yeni eve taşındığın gün",bg:"Ден на нанасяне",ar:"يوم الانتقال إلى السكن",uk:"День заселення",pl:"Dzień wprowadzenia się",en:"Move-in day",ku:"Roja barkirina malê"},
+res:{de:"Seit wann wohnst du in Deutschland? (Datum der ersten Anmeldung)",tr:"Ne zamandan beri Almanya'da oturuyorsun? (ilk adres kaydı tarihi)",bg:"От кога живеете в Германия? (дата на първата регистрация)",ar:"منذ متى تسكن في ألمانيا؟ (تاريخ أول تسجيل سكن)",uk:"З якого часу ви живете в Німеччині? (дата першої реєстрації)",pl:"Od kiedy mieszkasz w Niemczech? (data pierwszego zameldowania)",en:"Since when do you live in Germany? (date of first registration)",ku:"Ji kengê ve li Almanyayê dijî? (dîroka qeyda yekem)"},
+end:{de:"Letzter Tag des Arbeitsvertrags",tr:"İş sözleşmesinin son günü",bg:"Последен ден по трудовия договор",ar:"آخر يوم في عقد العمل",uk:"Останній день трудового договору",pl:"Ostatni dzień umowy o pracę",en:"Last day of the employment contract",ku:"Roja dawî ya peymana kar"},
+know:{de:"Wann hast du davon erfahren? (z. B. Kündigung erhalten)",tr:"Bunu ne zaman öğrendin? (ör. fesih mektubu aldığın gün)",bg:"Кога научихте за това? (напр. получено предизвестие)",ar:"متى علمت بذلك؟ (مثلاً يوم استلام إنهاء العقد)",uk:"Коли ви про це дізналися? (напр. отримали звільнення)",pl:"Kiedy się o tym dowiedziałeś? (np. otrzymane wypowiedzenie)",en:"When did you find out? (e.g. notice received)",ku:"Te kengê pê hesiya? (mînak: nameya betalkirinê hat)"},
+land:{de:"Bundesland (für die Feiertage)",tr:"Eyalet (resmî tatiller için)",bg:"Провинция (за празниците)",ar:"الولاية (لأجل العطل الرسمية)",uk:"Земля (для свят)",pl:"Land (dla świąt)",en:"State (for public holidays)",ku:"Eyalet (ji bo betlaneyan)"},
+pick:{de:"Bitte wählen",tr:"Lütfen seç",bg:"Моля, изберете",ar:"يرجى الاختيار",uk:"Оберіть",pl:"Wybierz",en:"Please choose",ku:"Ji kerema xwe hilbijêre"},
+nolandhint:{de:"Ohne Bundesland rechnen wir nur mit bundesweiten Feiertagen.",tr:"Eyalet seçmezsen sadece tüm ülkedeki tatilleri hesaba katarız.",bg:"Без провинция смятаме само с общодържавните празници.",ar:"بدون اختيار الولاية نحسب العطل الرسمية على مستوى ألمانيا فقط.",uk:"Без землі враховуємо лише загальнодержавні свята.",pl:"Bez landu liczymy tylko święta ogólnokrajowe.",en:"Without a state we only count nationwide holidays.",ku:"Bê eyalet em tenê betlaneyên tevahiya welêt dihesibînin."},
+last:{de:"Letzter Tag",tr:"Son gün",bg:"Последен ден",ar:"آخر يوم",uk:"Останній день",pl:"Ostatni dzień",en:"Last day",ku:"Roja dawî"},
+lastfs:{de:"Fahren mit diesem Führerschein bis einschließlich",tr:"Bu ehliyetle şu güne kadar (dahil) araç kullanabilirsin",bg:"Може да карате с тази книжка до (включително)",ar:"يمكنك القيادة بهذه الرخصة حتى (ضمناً)",uk:"Керувати з цим посвідченням можна до (включно)",pl:"Jazda z tym prawem jazdy do (włącznie)",en:"Driving with this licence until (inclusive)",ku:"Bi vê ehliyetê heta (tê de) ajotin"},
+left:{de:"noch {n} Tage",tr:"{n} gün kaldı",bg:"остават {n} дни",ar:"متبقٍ {n} يوماً",uk:"залишилось {n} дн.",pl:"zostało {n} dni",en:"{n} days left",ku:"{n} roj maye"},
+left1:{de:"nur noch 1 Tag",tr:"sadece 1 gün kaldı",bg:"остава само 1 ден",ar:"متبقٍ يوم واحد فقط",uk:"залишився 1 день",pl:"został tylko 1 dzień",en:"only 1 day left",ku:"tenê 1 roj maye"},
+today:{de:"Heute ist der letzte Tag!",tr:"Bugün son gün!",bg:"Днес е последният ден!",ar:"اليوم هو آخر يوم!",uk:"Сьогодні останній день!",pl:"Dziś jest ostatni dzień!",en:"Today is the last day!",ku:"Îro roja dawî ye!"},
+past:{de:"Frist seit {n} Tagen vorbei",tr:"Süre {n} gün önce doldu",bg:"Срокът изтече преди {n} дни",ar:"انتهت المهلة منذ {n} يوماً",uk:"Строк минув {n} дн. тому",pl:"Termin minął {n} dni temu",en:"Deadline passed {n} days ago",ku:"Dem berî {n} rojan qediya"},
+pastnote:{de:"Die Frist ist vorbei. Lass dich trotzdem beraten: In manchen Fällen hilft ein „Überprüfungsantrag“ oder „Wiedereinsetzung in den vorigen Stand“.",tr:"Süre dolmuş. Yine de danışmanlık al: Bazı durumlarda „Überprüfungsantrag“ (yeniden inceleme başvurusu) veya „Wiedereinsetzung in den vorigen Stand“ işe yarar.",bg:"Срокът е изтекъл. Все пак потърсете консултация: понякога помага „Überprüfungsantrag“ или „Wiedereinsetzung in den vorigen Stand“.",ar:"انتهت المهلة. استشر رغم ذلك: في بعض الحالات يفيد «Überprüfungsantrag» (طلب مراجعة) أو «Wiedereinsetzung in den vorigen Stand» (إعادة المهلة).",uk:"Строк минув. Все одно зверніться по консультацію: іноді допомагає «Überprüfungsantrag» або «Wiedereinsetzung in den vorigen Stand».",pl:"Termin minął. Mimo to skorzystaj z porady: czasem pomaga „Überprüfungsantrag” lub „Wiedereinsetzung in den vorigen Stand”.",en:"The deadline has passed. Get advice anyway: sometimes an “Überprüfungsantrag” (review request) or “Wiedereinsetzung in den vorigen Stand” (reinstatement) helps.",ku:"Dem qediya. Dîsa jî şêwrê bistîne: carinan „Überprüfungsantrag“ an „Wiedereinsetzung in den vorigen Stand“ alîkar e."},
+tl_date:{de:"Datum auf dem Bescheid",tr:"Karardaki tarih",bg:"Дата на решението",ar:"تاريخ القرار",uk:"Дата на рішенні",pl:"Data na decyzji",en:"Date on the decision",ku:"Dîroka li ser biryarê"},
+tl_known:{de:"Gilt als erhalten",tr:"Alınmış sayılır",bg:"Счита се за получено",ar:"يُعتبر مستلَماً",uk:"Вважається отриманим",pl:"Uważa się za doręczone",en:"Deemed received",ku:"Wek wergirtî tê hesibandin"},
+tl_hand:{de:"Zugestellt / übergeben",tr:"Teslim edildi",bg:"Връчено",ar:"تم التسليم",uk:"Вручено",pl:"Doręczono",en:"Served / handed over",ku:"Hat radestkirin"},
+tl_end:{de:"Fristende",tr:"Sürenin sonu",bg:"Край на срока",ar:"نهاية المهلة",uk:"Кінець строку",pl:"Koniec terminu",en:"Deadline",ku:"Dawiya demê"},
+tl_move:{de:"Einzug",tr:"Taşınma",bg:"Нанасяне",ar:"الانتقال",uk:"Заселення",pl:"Wprowadzenie się",en:"Move-in",ku:"Barkirin"},
+tl_reg:{de:"Spätestens anmelden",tr:"En geç kayıt",bg:"Регистрация най-късно",ar:"آخر موعد للتسجيل",uk:"Зареєструватися не пізніше",pl:"Zameldować się najpóźniej",en:"Register by",ku:"Herî dereng qeyd bike"},
+tl_res:{de:"Wohnsitz in Deutschland",tr:"Almanya'da ikamet",bg:"Местожителство в Германия",ar:"السكن في ألمانيا",uk:"Проживання в Німеччині",pl:"Zamieszkanie w Niemczech",en:"Residence in Germany",ku:"Rûniştin li Almanyayê"},
+tl_apply:{de:"Empfohlen: Umschreibung beantragen",tr:"Önerilen: ehliyet değişimine başvur",bg:"Препоръчително: подайте заявление за подмяна",ar:"يُنصح: قدّم طلب تحويل الرخصة",uk:"Рекомендовано: подати заяву на заміну",pl:"Zalecane: złóż wniosek o wymianę",en:"Recommended: apply for conversion",ku:"Tê pêşniyar kirin: serlêdana guhertinê bike"},
+tl_fsend:{de:"Letzter Tag mit diesem Führerschein",tr:"Bu ehliyetle son gün",bg:"Последен ден с тази книжка",ar:"آخر يوم بهذه الرخصة",uk:"Останній день з цим посвідченням",pl:"Ostatni dzień z tym prawem jazdy",en:"Last day with this licence",ku:"Roja dawî bi vê ehliyetê"},
+tl_know:{de:"Davon erfahren",tr:"Öğrendiğin gün",bg:"Научихте",ar:"يوم العلم بالأمر",uk:"Дізналися",pl:"Dowiedziałeś się",en:"Found out",ku:"Pê hesiyayî"},
+tl_jend:{de:"Arbeitsende",tr:"İşin bitişi",bg:"Край на работата",ar:"نهاية العمل",uk:"Кінець роботи",pl:"Koniec pracy",en:"Job ends",ku:"Dawiya kar"},
+tl_meld:{de:"Spätestens arbeitsuchend melden",tr:"En geç iş arayan bildirimi",bg:"Регистрация най-късно",ar:"آخر موعد للتسجيل كباحث عن عمل",uk:"Зареєструватися не пізніше",pl:"Zgłosić się najpóźniej",en:"Register as job-seeker by",ku:"Herî dereng xwe qeyd bike"},
+tl_alo:{de:"Spätestens arbeitslos melden",tr:"En geç işsizlik bildirimi",bg:"Регистрация като безработен най-късно",ar:"آخر موعد للتسجيل كعاطل عن العمل",uk:"Зареєструватися безробітним не пізніше",pl:"Zarejestrować się jako bezrobotny najpóźniej",en:"Register as unemployed by",ku:"Herî dereng xwe wek bêkar qeyd bike"},
+shift:{de:"Das Fristende fiele auf {x} – deshalb verschiebt es sich auf den nächsten Werktag.",tr:"Süre {x} gününe denk geliyordu – bu yüzden bir sonraki iş gününe kayar.",bg:"Срокът би изтекъл в {x} – затова се премества на следващия работен ден.",ar:"كانت نهاية المهلة ستقع يوم {x} – لذلك تنتقل إلى يوم العمل التالي.",uk:"Кінець строку припав би на {x} – тому він переноситься на наступний робочий день.",pl:"Koniec terminu przypadałby na {x} – dlatego przesuwa się na następny dzień roboczy.",en:"The deadline would fall on {x} – so it moves to the next working day.",ku:"Dawiya demê dê bikeve {x} – ji ber vê yekê derbasî roja kar a din dibe."},
+hol:{de:"Feiertag",tr:"resmî tatil",bg:"празник",ar:"عطلة رسمية",uk:"свято",pl:"święto",en:"public holiday",ku:"betlane"},
+n_post:{de:"Bei einem normalen Brief gilt der Bescheid am 4. Tag nach dem Datum als erhalten (Regel seit 2025). Kam er nachweislich später an, zählt der spätere Tag – heb den Umschlag auf.",tr:"Normal mektupta karar, üzerindeki tarihten sonraki 4. gün alınmış sayılır (2025'ten beri). Daha geç geldiği kanıtlanabilirse geç gün sayılır – zarfı sakla.",bg:"При обикновено писмо решението се счита за получено на 4-тия ден след датата (от 2025 г.). Ако доказуемо е пристигнало по-късно, важи по-късният ден – пазете плика.",ar:"في الرسالة العادية يُعتبر القرار مستلَماً في اليوم الرابع بعد تاريخه (قاعدة منذ 2025). إذا وصل متأخراً وأمكن إثبات ذلك يُحتسب اليوم الأحدث – احتفظ بالظرف.",uk:"Для звичайного листа рішення вважається отриманим на 4-й день після дати (правило з 2025 р.). Якщо воно доказово прийшло пізніше, рахується пізніший день – збережіть конверт.",pl:"Przy zwykłym liście decyzję uważa się za doręczoną 4. dnia po dacie (zasada od 2025 r.). Jeśli udowodnisz, że przyszła później, liczy się późniejszy dzień – zachowaj kopertę.",en:"For an ordinary letter the decision counts as received on the 4th day after its date (rule since 2025). If it provably arrived later, the later day counts – keep the envelope.",ku:"Di nameya asayî de biryar roja 4an piştî dîroka xwe wek wergirtî tê hesibandin (ji 2025an ve). Heke were îspatkirin ku dereng hatiye, roja dereng tê hesibandin – zerfê biparêze."},
+n_1y:{de:"Fehlt die Rechtsbehelfsbelehrung oder ist sie falsch, hast du in der Regel 1 Jahr Zeit. Warte trotzdem nicht unnötig.",tr:"Rechtsbehelfsbelehrung yoksa ya da yanlışsa genelde 1 yıl süren vardır. Yine de boşuna bekleme.",bg:"Ако указанието за обжалване липсва или е грешно, обикновено имате 1 година. Все пак не чакайте излишно.",ar:"إذا كانت معلومات حق الاعتراض غير موجودة أو خاطئة، فلديك عادةً سنة كاملة. مع ذلك لا تنتظر بلا داعٍ.",uk:"Якщо роз'яснення про оскарження немає або воно хибне, зазвичай у вас є 1 рік. Але не зволікайте без потреби.",pl:"Jeśli brakuje pouczenia lub jest błędne, zwykle masz 1 rok. Mimo to nie zwlekaj.",en:"If the instructions on how to object are missing or wrong, you usually have 1 year. Still, don't wait unnecessarily.",ku:"Heke agahiya mafê îtirazê tune be an şaş be, bi gelemperî 1 salê te heye. Dîsa jî bêhewce li bendê nemîne."},
+n_ab:{de:"Ausländerbehörde: In vielen Bundesländern gibt es keinen Widerspruch, sondern direkt eine Klage beim Verwaltungsgericht – meist ebenfalls 1 Monat. Was gilt, steht in der Rechtsbehelfsbelehrung.",tr:"Yabancılar Dairesi: Birçok eyalette itiraz (Widerspruch) yoktur, doğrudan idare mahkemesinde dava açılır – genelde yine 1 ay. Hangisinin geçerli olduğu Rechtsbehelfsbelehrung'da yazar.",bg:"Служба за чужденци: в много провинции няма възражение, а директно жалба до административния съд – обикновено също 1 месец. Какво важи, пише в указанието за обжалване.",ar:"دائرة الأجانب: في كثير من الولايات لا يوجد اعتراض، بل دعوى مباشرة أمام المحكمة الإدارية – غالباً خلال شهر أيضاً. ما ينطبق عليك مكتوب في معلومات حق الاعتراض.",uk:"Відомство у справах іноземців: у багатьох землях немає заперечення, а одразу позов до адмінсуду – зазвичай теж 1 місяць. Що діє, написано в роз'ясненні.",pl:"Urząd ds. cudzoziemców: w wielu landach nie ma odwołania, tylko od razu skarga do sądu administracyjnego – zwykle też 1 miesiąc. Co obowiązuje, jest w pouczeniu.",en:"Immigration office: in many states there is no objection stage but a lawsuit at the administrative court – usually also 1 month. The instructions at the end tell you which applies.",ku:"Fermangeha biyaniyan: li gelek eyaletan îtiraz tune, rasterast doz li dadgeha îdarî tê vekirin – bi gelemperî dîsa 1 meh. Ya derbasdar di Rechtsbehelfsbelehrung de nivîsandî ye."},
+n_fa:{de:"Beim Finanzamt heißt es „Einspruch“. Du kannst ihn einfach über ELSTER einreichen.",tr:"Vergi dairesinde buna „Einspruch“ denir. ELSTER üzerinden kolayca gönderebilirsin.",bg:"При данъчната служба се нарича „Einspruch“. Можете да го подадете лесно през ELSTER.",ar:"في مكتب الضرائب يُسمّى «Einspruch». يمكنك تقديمه بسهولة عبر ELSTER.",uk:"У податковій це називається «Einspruch». Його можна легко подати через ELSTER.",pl:"W urzędzie skarbowym to „Einspruch”. Możesz go łatwo złożyć przez ELSTER.",en:"At the tax office it's called “Einspruch”. You can file it easily via ELSTER.",ku:"Li fermangeha bacê jê re „Einspruch“ tê gotin. Tu dikarî bi hêsanî bi ELSTER bişînî."},
+n_send:{de:"Der Widerspruch muss schriftlich sein – eine normale E-Mail reicht meist nicht. Sicher: persönlich abgeben und Eingangsstempel auf deine Kopie geben lassen, Fax mit Sendebericht oder Einschreiben.",tr:"İtiraz yazılı olmalı – normal e-posta genelde yetmez. Güvenli yollar: elden teslim edip kopyana giriş damgası vurdur, gönderim raporlu faks veya taahhütlü mektup.",bg:"Възражението трябва да е писмено – обикновен имейл обикновено не стига. Сигурно: лично с входящ печат върху копието ви, факс с отчет или препоръчано писмо.",ar:"يجب أن يكون الاعتراض كتابياً – البريد الإلكتروني العادي لا يكفي غالباً. الطرق الآمنة: التسليم باليد مع ختم الاستلام على نسختك، أو فاكس مع تقرير الإرسال، أو رسالة مسجلة.",uk:"Заперечення має бути письмовим – звичайного e-mail зазвичай недостатньо. Надійно: особисто з вхідним штампом на копії, факс зі звітом або рекомендований лист.",pl:"Odwołanie musi być pisemne – zwykły e-mail zwykle nie wystarcza. Bezpiecznie: osobiście z pieczątką wpływu na kopii, faks z raportem lub list polecony.",en:"The objection must be in writing – a normal e-mail is usually not enough. Safe options: hand it in and get a receipt stamp on your copy, fax with transmission report, or registered mail.",ku:"Îtiraz divê bi nivîskî be – e-nameya asayî bi gelemperî têr nake. Rêyên ewle: bi destan bide û mohra wergirtinê li kopiya xwe bide lêxistin, faks bi rapora şandinê an nameya qeydkirî."},
+n_u:{de:"Die 2 Wochen zählen ab dem Einzug. Viele Bürgerämter haben lange Wartezeiten – buche sofort einen Termin. Du brauchst die Wohnungsgeberbestätigung vom Vermieter.",tr:"2 hafta taşındığın günden itibaren sayılır. Birçok Bürgeramt'ta randevu beklemesi uzundur – hemen randevu al. Ev sahibinden Wohnungsgeberbestätigung (ev sahibi onayı) lazım.",bg:"2-те седмици текат от нанасянето. В много служби се чака дълго – запазете час веднага. Нужно ви е удостоверение от наемодателя (Wohnungsgeberbestätigung).",ar:"يُحتسب الأسبوعان من يوم الانتقال. لدى كثير من مكاتب المواطنين انتظار طويل – احجز موعداً فوراً. تحتاج إلى تأكيد المؤجّر (Wohnungsgeberbestätigung).",uk:"2 тижні рахуються від дня заселення. У багатьох Bürgeramt довго чекати – записуйтесь одразу. Потрібне підтвердження від орендодавця (Wohnungsgeberbestätigung).",pl:"2 tygodnie liczą się od wprowadzenia. W wielu urzędach długo się czeka – umów termin od razu. Potrzebujesz potwierdzenia od wynajmującego (Wohnungsgeberbestätigung).",en:"The 2 weeks count from the move-in day. Many offices have long waits – book an appointment right away. You need the landlord's confirmation (Wohnungsgeberbestätigung).",ku:"2 hefte ji roja barkirinê tên hejmartin. Li gelek Bürgeramtan dem dirêj e – zû randevûyê bigire. Ji xwedanmalê Wohnungsgeberbestätigung lazim e."},
+n_u2:{de:"Bekommst du keinen Termin rechtzeitig: Buche den frühesten Termin und heb die Bestätigung auf – das zeigt, dass du dich gekümmert hast.",tr:"Zamanında randevu alamazsan: En erken randevuyu al ve onay mailini sakla – ilgilendiğini gösterir.",bg:"Ако не получите час навреме: запазете най-ранния и пазете потвърждението – то показва, че сте се погрижили.",ar:"إذا لم تحصل على موعد في الوقت المناسب: احجز أقرب موعد واحتفظ بالتأكيد – فهو يثبت أنك تابعت الأمر.",uk:"Якщо вчасно не вдається записатися: візьміть найближчий термін і збережіть підтвердження – це показує, що ви подбали.",pl:"Jeśli nie dostaniesz terminu na czas: zarezerwuj najwcześniejszy i zachowaj potwierdzenie – to pokazuje, że się postarałeś.",en:"Can't get an appointment in time? Book the earliest one and keep the confirmation – it shows you acted.",ku:"Heke di wextê de randevû nebînî: ya herî zû bigire û pejirandinê biparêze – ev nîşan dide ku te xwe pê re mijûl kiriye."},
+n_f:{de:"Gilt für Führerscheine aus Ländern außerhalb von EU/EWR. Danach darfst du in Deutschland damit nicht mehr fahren. Die Umschreibung dauert oft Wochen – beantrage sie früh. EU-Führerscheine gelten weiter.",tr:"AB/AEA dışı ülkelerin ehliyetleri için geçerli. Bu tarihten sonra Almanya'da o ehliyetle araç kullanamazsın. Değişim çoğu zaman haftalar sürer – erken başvur. AB ehliyetleri geçerli kalır.",bg:"Важи за книжки от държави извън ЕС/ЕИП. След това не можете да карате с нея в Германия. Подмяната често отнема седмици – подайте рано. Книжките от ЕС остават валидни.",ar:"ينطبق على رخص الدول من خارج الاتحاد الأوروبي/المنطقة الاقتصادية الأوروبية. بعد ذلك لا يجوز لك القيادة بها في ألمانيا. التحويل يستغرق غالباً أسابيع – قدّم مبكراً. رخص الاتحاد الأوروبي تبقى صالحة.",uk:"Стосується посвідчень із країн поза ЄС/ЄЕЗ. Після цього в Німеччині з ним керувати не можна. Заміна часто триває тижні – подавайте заздалегідь. Посвідчення ЄС діють далі.",pl:"Dotyczy praw jazdy spoza UE/EOG. Potem nie wolno ci nim jeździć w Niemczech. Wymiana trwa często tygodnie – złóż wniosek wcześnie. Prawa jazdy z UE pozostają ważne.",en:"Applies to licences from outside the EU/EEA. After that you may no longer drive with it in Germany. Conversion often takes weeks – apply early. EU licences stay valid.",ku:"Ji bo ehliyetên welatên derveyî YE/EEA derbasdar e. Piştî vê tu nikarî li Almanyayê pê bajoyî. Guhertin pir caran hefteyan dikişîne – zû serlêdan bike. Ehliyetên YE derbasdar dimînin."},
+n_f2:{de:"Wir rechnen vorsichtig mit einem Tag weniger. Wenn du nachweisen kannst, dass du höchstens 12 Monate bleibst, kann die Führerscheinstelle um bis zu 6 Monate verlängern.",tr:"Güvenli olsun diye bir gün eksik hesaplıyoruz. En fazla 12 ay kalacağını kanıtlayabilirsen Führerscheinstelle süreyi 6 aya kadar uzatabilir.",bg:"Смятаме предпазливо с един ден по-малко. Ако докажете, че оставате най-много 12 месеца, службата може да удължи срока с до 6 месеца.",ar:"نحسب بحذر بيوم أقل. إذا أثبتّ أنك ستبقى 12 شهراً كحد أقصى، يمكن لمكتب رخص القيادة التمديد حتى 6 أشهر.",uk:"Ми рахуємо обережно – на один день менше. Якщо доведете, що пробудете щонайбільше 12 місяців, відомство може продовжити до 6 місяців.",pl:"Liczymy ostrożnie o jeden dzień mniej. Jeśli udowodnisz, że zostajesz maksymalnie 12 miesięcy, urząd może przedłużyć o do 6 miesięcy.",en:"We count cautiously with one day less. If you can show you'll stay 12 months at most, the licence office can extend by up to 6 months.",ku:"Em bi baldarî rojekê kêmtir dihesibînin. Heke tu îspat bikî ku herî zêde 12 mehan dimînî, Führerscheinstelle dikare heta 6 mehan dirêj bike."},
+n_j:{de:"Die Meldung geht auch online bei der Agentur für Arbeit. Wer zu spät meldet, riskiert eine Sperrzeit von 1 Woche beim Arbeitslosengeld.",tr:"Bildirim İş Ajansı'na online da yapılabilir. Geç bildirim yapan, işsizlik parasında 1 haftalık kesinti (Sperrzeit) riskiyle karşılaşır.",bg:"Регистрацията може и онлайн в Агенцията по труда. При закъснение рискувате 1 седмица без обезщетение (Sperrzeit).",ar:"يمكن التسجيل أيضاً عبر الإنترنت لدى وكالة العمل. من يتأخر يخاطر بإيقاف إعانة البطالة لمدة أسبوع (Sperrzeit).",uk:"Зареєструватися можна й онлайн в Агентстві праці. За запізнення – ризик тижневого блокування допомоги (Sperrzeit).",pl:"Zgłoszenia można dokonać też online w Agencji Pracy. Za spóźnienie grozi tydzień bez zasiłku (Sperrzeit).",en:"You can also register online with the employment agency. Registering late risks a 1-week block on unemployment benefit (Sperrzeit).",ku:"Qeyd dikare bi înternetê jî li Ajansa Kar were kirin. Yê ku dereng qeyd bike, xetera 1 hefte rawestandina pereyê bêkariyê (Sperrzeit) heye."},
+n_j3:{de:"Zwischen „davon erfahren“ und Arbeitsende liegen weniger als 3 Monate – deshalb gilt: innerhalb von 3 Tagen melden.",tr:"Öğrendiğin gün ile işin bitişi arasında 3 aydan az var – bu yüzden 3 gün içinde bildirmelisin.",bg:"Между узнаването и края на работата има по-малко от 3 месеца – затова: регистрация до 3 дни.",ar:"بين يوم علمك ونهاية العمل أقل من 3 أشهر – لذلك يجب التسجيل خلال 3 أيام.",uk:"Між тим, як дізналися, і кінцем роботи менше 3 місяців – тому треба зареєструватися протягом 3 днів.",pl:"Między dowiedzeniem się a końcem pracy są mniej niż 3 miesiące – dlatego zgłoś się w ciągu 3 dni.",en:"Less than 3 months lie between finding out and the job ending – so you must register within 3 days.",ku:"Di navbera pêhesiyanê û dawiya kar de kêmtirî 3 mehan heye – ji ber vê di nav 3 rojan de qeyd bike."},
+n_jbad:{de:"Bitte prüfe die Daten: Das Arbeitsende liegt vor dem Tag, an dem du davon erfahren hast.",tr:"Lütfen tarihleri kontrol et: İşin bitişi, öğrendiğin günden önce görünüyor.",bg:"Моля, проверете датите: краят на работата е преди деня, в който сте научили.",ar:"يرجى التحقق من التواريخ: نهاية العمل تقع قبل يوم علمك بها.",uk:"Перевірте дати: кінець роботи раніше за день, коли ви дізналися.",pl:"Sprawdź daty: koniec pracy jest przed dniem, w którym się dowiedziałeś.",en:"Please check the dates: the job end is before the day you found out.",ku:"Ji kerema xwe dîrokan kontrol bike: dawiya kar berî roja pêhesiyanê ye."},
+safe:{de:"Wir rechnen immer zur sicheren Seite: Im Zweifel zeigen wir den früheren Tag.",tr:"Hep güvenli tarafta hesaplıyoruz: Şüphede erken günü gösteriyoruz.",bg:"Винаги смятаме в безопасна посока: при съмнение показваме по-ранния ден.",ar:"نحسب دائماً بحذر: عند الشك نعرض اليوم الأبكر.",uk:"Ми завжди рахуємо з запасом: у разі сумніву показуємо раніший день.",pl:"Zawsze liczymy ostrożnie: w razie wątpliwości pokazujemy wcześniejszy dzień.",en:"We always calculate on the safe side: when in doubt, we show the earlier day.",ku:"Em her tim bi ewlehî dihesibînin: di gumanê de roja zûtir nîşan didin."},
+ics:{de:"In den Kalender",tr:"Takvime ekle",bg:"В календара",ar:"أضف إلى التقويم",uk:"Додати в календар",pl:"Dodaj do kalendarza",en:"Add to calendar",ku:"Têxe salnameyê"},
+letter:{de:"Passenden Brief schreiben",tr:"Uygun mektubu yaz",bg:"Напишете подходящо писмо",ar:"اكتب الرسالة المناسبة",uk:"Написати відповідний лист",pl:"Napisz odpowiednie pismo",en:"Write the matching letter",ku:"Nameya guncav binivîse"},
+icsrem:{de:"Erinnerung 3 Tage vorher",tr:"3 gün önce hatırlatma",bg:"Напомняне 3 дни преди това",ar:"تذكير قبل 3 أيام",uk:"Нагадування за 3 дні",pl:"Przypomnienie 3 dni wcześniej",en:"Reminder 3 days before",ku:"Bîrxistin 3 roj berê"},
+empty:{de:"Gib ein Datum ein – hier erscheint dein letzter Tag.",tr:"Bir tarih gir – son günün burada görünecek.",bg:"Въведете дата – тук ще се появи последният ви ден.",ar:"أدخل تاريخاً – سيظهر آخر يوم لك هنا.",uk:"Введіть дату – тут з'явиться ваш останній день.",pl:"Wpisz datę – tutaj pojawi się twój ostatni dzień.",en:"Enter a date – your last day will appear here.",ku:"Dîrokekê binivîse – roja te ya dawî li vir xuya dibe."},
+howh:{de:"So rechnen wir",tr:"Nasıl hesaplıyoruz",bg:"Как смятаме",ar:"كيف نحسب",uk:"Як ми рахуємо",pl:"Jak liczymy",en:"How we calculate",ku:"Em çawa dihesibînin"},
+r1:{de:["4-Tage-Regel","Ein Bescheid per Post gilt am 4. Tag nach dem Datum als bekannt gegeben."],tr:["4 gün kuralı","Postayla gelen karar, tarihten sonraki 4. gün tebliğ edilmiş sayılır."],bg:["Правило на 4-те дни","Решение по пощата се счита за съобщено на 4-тия ден след датата."],ar:["قاعدة الأيام الأربعة","القرار المرسل بالبريد يُعتبر مُبلَّغاً في اليوم الرابع بعد تاريخه."],uk:["Правило 4 днів","Рішення поштою вважається оголошеним на 4-й день після дати."],pl:["Zasada 4 dni","Decyzja pocztą uważa się za doręczoną 4. dnia po dacie."],en:["4-day rule","A decision sent by post counts as notified on the 4th day after its date."],ku:["Qaîdeya 4 rojan","Biryara bi postê roja 4an piştî dîrokê wek ragihandî tê hesibandin."]},
+r2:{de:["1 Monat","Die Frist endet am Tag mit derselben Zahl im nächsten Monat (31.1. → 28./29.2.)."],tr:["1 ay","Süre bir sonraki ayda aynı sayılı günde biter (31.1. → 28./29.2.)."],bg:["1 месец","Срокът изтича в деня със същото число през следващия месец (31.1. → 28./29.2.)."],ar:["شهر واحد","تنتهي المهلة في اليوم الذي يحمل الرقم نفسه في الشهر التالي (31.1 ← 28/29.2)."],uk:["1 місяць","Строк закінчується в день з тим самим числом наступного місяця (31.1. → 28./29.2.)."],pl:["1 miesiąc","Termin kończy się w dniu o tym samym numerze w następnym miesiącu (31.1. → 28./29.2.)."],en:["1 month","The deadline ends on the day with the same number in the next month (31 Jan → 28/29 Feb)."],ku:["1 meh","Dem di meha din de di roja bi heman hejmarê de diqede (31.1. → 28./29.2.)."]},
+r3:{de:["Wochenende & Feiertag","Fällt das Ende auf Samstag, Sonntag oder einen Feiertag, gilt der nächste Werktag."],tr:["Hafta sonu ve tatil","Son gün cumartesi, pazar veya resmî tatile denk gelirse bir sonraki iş günü geçerlidir."],bg:["Почивни и празнични дни","Ако краят е събота, неделя или празник, важи следващият работен ден."],ar:["نهاية الأسبوع والعطل","إذا وقع آخر يوم في سبت أو أحد أو عطلة رسمية، يُعتمد يوم العمل التالي."],uk:["Вихідні та свята","Якщо кінець припадає на суботу, неділю чи свято, діє наступний робочий день."],pl:["Weekend i święta","Jeśli koniec wypada w sobotę, niedzielę lub święto, obowiązuje następny dzień roboczy."],en:["Weekends & holidays","If the end falls on a Saturday, Sunday or public holiday, the next working day counts."],ku:["Dawiya hefteyê û betlane","Heke dawî bikeve şemî, yekşem an betlaneyê, roja kar a din derbasdar e."]},
+r4:{de:["Ohne Belehrung: 1 Jahr","Fehlt die Rechtsbehelfsbelehrung, verlängert sich die Frist in der Regel auf 1 Jahr."],tr:["Bilgilendirme yoksa: 1 yıl","Rechtsbehelfsbelehrung yoksa süre genelde 1 yıla uzar."],bg:["Без указание: 1 година","Ако липсва указание за обжалване, срокът обикновено е 1 година."],ar:["بدون معلومات الاعتراض: سنة","إذا غابت معلومات حق الاعتراض تمتد المهلة عادةً إلى سنة."],uk:["Без роз'яснення: 1 рік","Якщо роз'яснення немає, строк зазвичай подовжується до 1 року."],pl:["Bez pouczenia: 1 rok","Jeśli brak pouczenia, termin zwykle wydłuża się do 1 roku."],en:["No instructions: 1 year","If the instructions on how to object are missing, the deadline is usually 1 year."],ku:["Bê agahî: 1 sal","Heke agahiya mafê îtirazê tune be, dem bi gelemperî dibe 1 sal."]},
+disc:{de:"Allgemeine Hilfe, keine Rechtsberatung, ohne Gewähr. Im Zweifel: Beratungsstelle, Sozialverband oder Anwalt. Deine Eingaben bleiben in deinem Browser.",tr:"Genel yardımdır, hukuki danışmanlık değildir, garanti verilmez. Şüphede: danışma merkezi, sosyal dernek veya avukat. Girdiğin bilgiler tarayıcında kalır.",bg:"Обща помощ, не е правна консултация, без гаранция. При съмнение: консултантски център, социална организация или адвокат. Данните остават във вашия браузър.",ar:"مساعدة عامة وليست استشارة قانونية ودون ضمان. عند الشك: مركز استشارات أو جمعية اجتماعية أو محامٍ. تبقى بياناتك في متصفحك.",uk:"Загальна допомога, не юридична консультація, без гарантій. У разі сумніву: консультаційний центр, соціальна організація або адвокат. Ваші дані залишаються у браузері.",pl:"Ogólna pomoc, nie porada prawna, bez gwarancji. W razie wątpliwości: poradnia, organizacja społeczna lub adwokat. Twoje dane zostają w przeglądarce.",en:"General help, not legal advice, no guarantee. When in doubt: an advice centre, welfare association or lawyer. Your entries stay in your browser.",ku:"Alîkariya giştî ye, ne şêwra hiqûqî ye, bê garantî. Di gumanê de: navenda şêwrê, komeleya civakî an parêzer. Agahiyên te di gerokê te de dimînin."},
+title:{de:"Fristen-Rechner",tr:"Süre hesaplayıcı",bg:"Калкулатор за срокове",ar:"حاسبة المُهَل",uk:"Калькулятор строків",pl:"Kalkulator terminów",en:"Deadline calculator",ku:"Hesabkera deman"}
+};
+const T=(o,l)=>o[l]??o.de;
+const WD={ku:["Yekşem","Duşem","Sêşem","Çarşem","Pêncşem","În","Şemî"]};
+const LOC={de:"de-DE",tr:"tr-TR",bg:"bg-BG",ar:"ar-u-nu-latn",uk:"uk-UA",pl:"pl-PL",en:"en-GB"};
+const OFF=[["jc","Jobcenter"],["ag","Agentur für Arbeit"],["kk","Krankenkasse"],["fa","Finanzamt"],["ab","Ausländerbehörde"],["bf","BAföG-Amt"],["fk","Familienkasse"],["dr","Rentenversicherung"],["x",""]];
+const LETTER={jc:"j1",ag:"a1",bf:"bf2"};
+const LANDS=["Baden-Württemberg","Bayern","Berlin","Brandenburg","Bremen","Hamburg","Hessen","Mecklenburg-Vorpommern","Niedersachsen","Nordrhein-Westfalen","Rheinland-Pfalz","Saarland","Sachsen","Sachsen-Anhalt","Schleswig-Holstein","Thüringen"];
+const ICON={
+ b:'<svg viewBox="0 0 24 24"><path d="M14 3H6a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z"/><path d="M14 3v6h6"/><path d="M8 13h8M8 17h5"/></svg>',
+ u:'<svg viewBox="0 0 24 24"><path d="M3 11l9-7 9 7"/><path d="M5 10v10h14V10"/><path d="M10 20v-6h4v6"/></svg>',
+ f:'<svg viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2"/><circle cx="9" cy="11" r="2.3"/><path d="M5.8 16c.6-1.6 1.8-2.4 3.2-2.4s2.6.8 3.2 2.4M14.5 10h4M14.5 13.5h3"/></svg>',
+ j:'<svg viewBox="0 0 24 24"><rect x="3" y="7" width="18" height="13" rx="2"/><path d="M8 7V5a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2M3 13h18"/></svg>'};
+const CASES=[["b","var(--accent)","#3347F5"],["u","var(--pop)","#D9482A"],["f","var(--berry)","#B8357F"],["j","var(--mint)","#0B8A66"]];
+
+/* ---------- date helpers (UTC, no time-zone surprises) ---------- */
+const D=(y,m,d)=>new Date(Date.UTC(y,m-1,d));
+const parse=s=>{const m=/^(\d{4})-(\d{2})-(\d{2})$/.exec(s||""); return m?D(+m[1],+m[2],+m[3]):null};
+const iso=d=>d.toISOString().slice(0,10);
+const addDays=(d,n)=>new Date(d.getTime()+n*864e5);
+const dim=(y,m0)=>new Date(Date.UTC(y,m0+1,0)).getUTCDate();
+function addMonths(d,n){const y=d.getUTCFullYear(),m=d.getUTCMonth()+n; const ny=y+Math.floor(m/12), nm=((m%12)+12)%12; return new Date(Date.UTC(ny,nm,Math.min(d.getUTCDate(),dim(ny,nm))));}
+function easter(y){const a=y%19,b=Math.floor(y/100),c=y%100,d=Math.floor(b/4),e=b%4,f=Math.floor((b+8)/25),g=Math.floor((b-f+1)/3),h=(19*a+b-d-g+15)%30,i=Math.floor(c/4),k=c%4,l=(32+2*e+2*i-h-k)%7,m=Math.floor((a+11*h+22*l)/451),mo=Math.floor((h+l-7*m+114)/31),da=((h+l-7*m+114)%31)+1;return D(y,mo,da);}
+/* Only holidays valid in the whole state are counted (partial ones are left out → earlier, safer date). */
+function holidays(y,land){
+  const E=easter(y), H={};
+  const add=(d,n)=>{H[iso(d)]=n};
+  add(D(y,1,1),"Neujahr"); add(addDays(E,-2),"Karfreitag"); add(addDays(E,1),"Ostermontag"); add(D(y,5,1),"Tag der Arbeit");
+  add(addDays(E,39),"Christi Himmelfahrt"); add(addDays(E,50),"Pfingstmontag"); add(D(y,10,3),"Tag der Deutschen Einheit");
+  add(D(y,12,25),"1. Weihnachtstag"); add(D(y,12,26),"2. Weihnachtstag");
+  const has=l=>l.includes(land);
+  if(has(["Baden-Württemberg","Bayern","Sachsen-Anhalt"])) add(D(y,1,6),"Heilige Drei Könige");
+  if(has(["Berlin","Mecklenburg-Vorpommern"])) add(D(y,3,8),"Internationaler Frauentag");
+  if(has(["Baden-Württemberg","Bayern","Hessen","Nordrhein-Westfalen","Rheinland-Pfalz","Saarland"])) add(addDays(E,60),"Fronleichnam");
+  if(has(["Saarland"])) add(D(y,8,15),"Mariä Himmelfahrt");
+  if(has(["Thüringen"])) add(D(y,9,20),"Weltkindertag");
+  if(has(["Brandenburg","Bremen","Hamburg","Mecklenburg-Vorpommern","Niedersachsen","Sachsen","Sachsen-Anhalt","Schleswig-Holstein","Thüringen"])) add(D(y,10,31),"Reformationstag");
+  if(has(["Baden-Württemberg","Bayern","Nordrhein-Westfalen","Rheinland-Pfalz","Saarland"])) add(D(y,11,1),"Allerheiligen");
+  if(has(["Sachsen"])){const n=D(y,11,23); let d=addDays(n,-1); while(d.getUTCDay()!==3) d=addDays(d,-1); add(d,"Buß- und Bettag");}
+  return H;
+}
+function holName(d,land){return holidays(d.getUTCFullYear(),land)[iso(d)]||null}
+/* § 64 Abs. 3 SGG / § 193 BGB: Saturday, Sunday or holiday → next working day */
+function shiftEnd(d,land){let why=null,x=d; while(true){const w=x.getUTCDay(), h=holName(x,land); if(w===0||w===6||h){ if(!why) why={day:x,hol:h}; x=addDays(x,1);} else break;} return {date:x,why};}
+function today(){const n=new Date(); return D(n.getFullYear(),n.getMonth()+1,n.getDate());}
+function wd(d){ if(lang==="ku") return WD.ku[d.getUTCDay()]; return new Intl.DateTimeFormat(LOC[lang],{weekday:"long",timeZone:"UTC"}).format(d); }
+const fmt=d=>{const p=n=>String(n).padStart(2,"0"); return p(d.getUTCDate())+"."+p(d.getUTCMonth()+1)+"."+d.getUTCFullYear();};
+const cap=s=>s.charAt(0).toLocaleUpperCase()+s.slice(1);
+
+/* ---------- state ---------- */
+let lang="de", kase="b", st={from:"jc",how:"post",rbb:"y",bdate:"",move:"",res:"",end:"",know:""}, land="";
+try{lang=localStorage.getItem("bb-lang")||lang; land=localStorage.getItem("bb-land")||"";}catch(e){}
+if(!LANGS.some(l=>l[0]===lang)) lang="de";
+if(!LANDS.includes(land)) land="";
+{const t=iso(today()); st.bdate=t; st.move=t; st.res=t; st.know=t;}
+const $=id=>document.getElementById(id);
+const esc=s=>String(s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+
+function seg(key,opts,stack){return `<div class="seg${stack?" stack":""}" role="group">${opts.map(([v,l])=>`<button type="button" data-seg="${key}" data-v="${v}" aria-pressed="${st[key]===v}">${esc(l)}</button>`).join("")}</div>`;}
+function dateField(key,label){return `<label class="f"><span>${esc(label)}</span><input type="date" data-k="${key}" value="${esc(st[key])}" min="2000-01-01" max="2100-12-31"></label>`;}
+function landField(){return `<label class="f"><span>${esc(T(S.land,lang))}</span><select id="landsel"><option value="">${esc(T(S.pick,lang))}</option>${LANDS.map(l=>`<option${l===land?" selected":""}>${l}</option>`).join("")}</select>${land?"":`<p class="hint">${esc(T(S.nolandhint,lang))}</p>`}</label>`;}
+
+function renderStatic(){
+  document.documentElement.lang=lang; document.documentElement.dir=lang==="ar"?"rtl":"ltr";
+  document.title=T(S.title,lang)+" – Amtsbriefe";
+  $("langs").innerHTML=LANGS.map(([c,n])=>`<button type="button" data-lang="${c}" aria-pressed="${c===lang}" lang="${c}">${n}</button>`).join("");
+  $("t-back").textContent=T(S.back,lang); $("t-k1").textContent=T(S.k1,lang); $("t-k2").textContent=T(S.k2,lang);
+  const h=T(S.h1,lang); $("t-h1").innerHTML=esc(h[0])+"<span>"+esc(h[1])+"</span>";
+  $("t-sub").textContent=T(S.sub,lang);
+  $("t-s1").innerHTML="<b>1</b>"+esc(T(S.s1,lang)); $("t-s2").innerHTML="<b>2</b>"+esc(T(S.s2,lang));
+  $("cases").innerHTML=CASES.map(([k,c])=>`<button type="button" class="case" style="--c:${c}" data-case="${k}" aria-pressed="${k===kase}"><span class="ic">${ICON[k]}</span><span><b lang="${lang}">${esc(T(S["c_"+k],lang))}</b><small>${esc(T(S["c_"+k+"d"],lang))}</small></span></button>`).join("");
+  $("t-howh").textContent=T(S.howh,lang);
+  $("rules").innerHTML=["r1","r2","r3","r4"].map((k,i)=>{const r=T(S[k],lang);return `<div class="rule"><b>${esc(r[0])}</b><p>${esc(r[1])}</p><code dir="ltr">${["§ 37 SGB X · § 41 VwVfG · § 122 AO","§ 64 SGG · § 188 BGB","§ 64 Abs. 3 SGG · § 193 BGB","§ 66 SGG · § 58 VwGO"][i]}</code></div>`}).join("");
+  $("t-disc").textContent=T(S.disc,lang);
+}
+function renderFields(){
+  let h="";
+  if(kase==="b"){
+    h+=`<label class="f"><span>${esc(T(S.from,lang))}</span><select id="fromsel">${OFF.map(([v,n])=>`<option value="${v}"${v===st.from?" selected":""}>${esc(v==="x"?T(S.other,lang):n)}</option>`).join("")}</select></label>`;
+    h+=`<div class="f"><span>${esc(T(S.how,lang))}</span>${seg("how",[["post",T(S.post,lang)],["hand",T(S.hand,lang)]],true)}</div>`;
+    h+=dateField("bdate",st.how==="post"?T(S.bdate,lang):T(S.hdate,lang));
+    h+=`<div class="f"><span>${esc(T(S.rbb,lang))}</span>${seg("rbb",[["y",T(S.yes,lang)],["n",T(S.no,lang)]])}</div>`;
+    h+=landField();
+  } else if(kase==="u"){ h+=dateField("move",T(S.move,lang)); }
+  else if(kase==="f"){ h+=dateField("res",T(S.res,lang)); }
+  else { h+=dateField("end",T(S.end,lang))+dateField("know",T(S.know,lang)); }
+  $("fields").innerHTML=h;
+}
+function pill(end){
+  const n=Math.round((end-today())/864e5);
+  if(n<0) return {t:T(S.past,lang).replace("{n}",-n),c:"#8A8FB0",n};
+  if(n===0) return {t:T(S.today,lang),c:"#FF6B4A",n};
+  if(n===1) return {t:T(S.left1,lang),c:"#FF6B4A",n};
+  return {t:T(S.left,lang).replace("{n}",n),c:n<=3?"#FF6B4A":n<=14?"#FFC23C":"#14BF8F",n};
+}
+function compute(){
+  if(kase==="b"){
+    const d=parse(st.bdate); if(!d) return null;
+    const known=st.how==="post"?addDays(d,4):d;
+    const raw=addMonths(known,st.rbb==="y"?1:12);
+    const s=shiftEnd(raw,land);
+    const tl=[];
+    if(st.how==="post"){ tl.push([T(S.tl_date,lang),d,""]); tl.push([T(S.tl_known,lang),known,"mid"]); }
+    else tl.push([T(S.tl_hand,lang),d,"mid"]);
+    tl.push([T(S.tl_end,lang),s.date,"end"]);
+    const notes=[];
+    if(s.why) notes.push(["shift",T(S.shift,lang).replace("{x}",(s.why.hol?s.why.hol+" ("+T(S.hol,lang)+")":wd(s.why.day))+", "+fmt(s.why.day))]);
+    if(st.how==="post") notes.push(["",T(S.n_post,lang)]);
+    if(st.rbb==="n") notes.push(["",T(S.n_1y,lang)]);
+    if(st.from==="ab") notes.push(["warn",T(S.n_ab,lang)]);
+    if(st.from==="fa") notes.push(["",T(S.n_fa,lang)]);
+    notes.push(["",T(S.n_send,lang)]);
+    const L=LETTER[st.from];
+    return {end:s.date,label:T(S.last,lang),tl,notes,link:L?`index.html#brief=${L}&bdate=${fmt(d)}`:"index.html",cal:T(S.c_b,lang)};
+  }
+  if(kase==="u"){
+    const d=parse(st.move); if(!d) return null;
+    const end=addDays(d,14);
+    return {end,label:T(S.last,lang),tl:[[T(S.tl_move,lang),d,"mid"],[T(S.tl_reg,lang),end,"end"]],notes:[["",T(S.n_u,lang)],["",T(S.n_u2,lang)]],link:"index.html#brief=r5",cal:T(S.c_u,lang)};
+  }
+  if(kase==="f"){
+    const d=parse(st.res); if(!d) return null;
+    const end=addDays(addMonths(d,6),-1), apply=addMonths(d,3);
+    const tl=[[T(S.tl_res,lang),d,"mid"]]; tl.push([T(S.tl_apply,lang),apply,""]); tl.push([T(S.tl_fsend,lang),end,"end"]);
+    return {end,label:T(S.lastfs,lang),tl,notes:[["",T(S.n_f,lang)],["",T(S.n_f2,lang)]],link:"index.html#brief=fs1",cal:T(S.c_f,lang)};
+  }
+  const e=parse(st.end), k=parse(st.know); if(!e||!k) return null;
+  if(e<k) return {err:T(S.n_jbad,lang)};
+  const lim=addMonths(e,-3); let end, short=false;
+  if(k<=lim) end=lim; else {end=addDays(k,3); short=true;}
+  if(end>e) end=e;
+  const tl=[[T(S.tl_know,lang),k,""],[T(S.tl_meld,lang),end,"end"],[T(S.tl_alo,lang),addDays(e,1),"mid"]];
+  tl.sort((a,b)=>a[1]-b[1]);
+  const notes=[]; if(short) notes.push(["warn",T(S.n_j3,lang)]); notes.push(["",T(S.n_j,lang)]);
+  return {end,label:T(S.last,lang),tl,notes,link:`index.html#brief=a3&enddate=${fmt(e)}`,cal:T(S.c_j,lang)};
+}
+let last=null;
+function renderResult(){
+  const r=compute(); last=r;
+  const box=$("result");
+  if(!r){ box.innerHTML=`<div class="empty"><svg viewBox="0 0 64 64"><rect x="10" y="14" width="44" height="40" rx="6"/><path d="M10 26h44M22 8v10M42 8v10"/><path d="M24 38l6 6 12-12"/></svg>${esc(T(S.empty,lang))}</div>`; return; }
+  if(r.err){ box.innerHTML=`<div class="rbody"><ul class="notes"><li class="warn">${esc(r.err)}</li></ul></div>`; return; }
+  const p=pill(r.end), c=CASES.find(x=>x[0]===kase)[2];
+  const notes=[...r.notes]; if(p.n<0) notes.unshift(["warn",T(S.pastnote,lang)]);
+  box.innerHTML=`<div class="rtop" style="--h:${c}"><div class="lbl">${esc(r.label)}</div><div class="big" dir="ltr">${fmt(r.end)}</div><div class="wd">${esc(cap(wd(r.end)))}</div><span class="pill" style="--pc:${p.c}"><i></i>${esc(p.t)}</span></div>
+  <div class="rbody">
+    <ol class="tl">${r.tl.map(([l,d,cl])=>`<li class="${cl}"><small>${esc(l)}</small><b><bdi dir="ltr">${fmt(d)}</bdi> · ${esc(cap(wd(d)))}</b></li>`).join("")}</ol>
+    <ul class="notes">${notes.map(([cl,t])=>`<li class="${cl}">${esc(t)}</li>`).join("")}<li>${esc(T(S.safe,lang))}</li></ul>
+    <div class="acts">${p.n>=0?`<button type="button" class="btn" id="ics"><svg viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 10h18M8 3v4M16 3v4M12 13v5M9.5 15.5h5"/></svg>${esc(T(S.ics,lang))}</button>`:""}<a class="btn ghost" href="${esc(r.link)}"><svg viewBox="0 0 24 24"><path d="M4 20h4L19 9l-4-4L4 16z"/><path d="M13.5 6.5l4 4"/></svg>${esc(T(S.letter,lang))}</a></div>
+  </div>`;
+}
+function render(){renderStatic(); renderFields(); renderResult();}
+
+function downloadIcs(){
+  if(!last||!last.end) return;
+  const d=iso(last.end).replace(/-/g,""), d2=iso(addDays(last.end,1)).replace(/-/g,"");
+  const now=new Date().toISOString().replace(/[-:]/g,"").slice(0,15)+"Z";
+  const txt=s=>s.replace(/[\\;,]/g,m=>"\\"+m).replace(/\n/g,"\\n");
+  const ics=["BEGIN:VCALENDAR","VERSION:2.0","PRODID:-//amtsbriefe.de//Fristen-Rechner//DE","CALSCALE:GREGORIAN","BEGIN:VEVENT",
+    "UID:"+d+"-"+kase+"-"+Math.random().toString(36).slice(2)+"@amtsbriefe.de","DTSTAMP:"+now,"DTSTART;VALUE=DATE:"+d,"DTEND;VALUE=DATE:"+d2,
+    "SUMMARY:"+txt("⏰ "+T(S.tl_end,lang)+": "+last.cal),"DESCRIPTION:"+txt(T(S.title,lang)+" – amtsbriefe.de"),
+    "BEGIN:VALARM","ACTION:DISPLAY","DESCRIPTION:"+txt(T(S.icsrem,lang)),"TRIGGER:-P3D","END:VALARM","END:VEVENT","END:VCALENDAR"].join("\r\n");
+  const a=document.createElement("a"); a.href=URL.createObjectURL(new Blob([ics],{type:"text/calendar"})); a.download="frist-"+iso(last.end)+".ics";
+  document.body.appendChild(a); a.click(); setTimeout(()=>{URL.revokeObjectURL(a.href); a.remove();},500);
+}
+
+document.addEventListener("click",e=>{
+  const b=e.target.closest("button"); if(!b) return;
+  if(b.dataset.lang){lang=b.dataset.lang; try{localStorage.setItem("bb-lang",lang)}catch(x){} render(); return;}
+  if(b.dataset.case){kase=b.dataset.case; render(); return;}
+  if(b.dataset.seg){st[b.dataset.seg]=b.dataset.v; renderFields(); renderResult(); return;}
+  if(b.id==="ics") downloadIcs();
+});
+document.addEventListener("input",e=>{const k=e.target.dataset&&e.target.dataset.k; if(k){st[k]=e.target.value; renderResult();}});
+document.addEventListener("change",e=>{
+  if(e.target.id==="landsel"){land=e.target.value; try{localStorage.setItem("bb-land",land)}catch(x){} renderFields(); renderResult();}
+  if(e.target.id==="fromsel"){st.from=e.target.value; renderResult();}
+});
+render();
+</script>
+<script data-goatcounter="https://amtsbriefede.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+</body>
+</html>

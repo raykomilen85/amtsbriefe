@@ -1,0 +1,25 @@
+name: Import live site files
+on:
+  workflow_dispatch:
+  push:
+    paths: [".github/workflows/import-live.yml"]
+permissions:
+  contents: write
+jobs:
+  import:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Download current site from amtsbriefe.de
+        run: |
+          for f in index.html ki-hilfe.html frist-rechner.html woerterbuch.html impressum.html datenschutz.html; do
+            curl -fsSL "https://amtsbriefe.de/$f" -o "$f"
+          done
+          ls -la
+      - name: Commit
+        run: |
+          git config user.name "amtsbriefe-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add -A
+          git commit -m "Import live site files from amtsbriefe.de" || echo nothing
+          git push

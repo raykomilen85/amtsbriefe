@@ -20,6 +20,13 @@ const SAMPLE = {
   doctor: "Dr. med. Muster, Facharzt für Innere Medizin",
   date: "30.10.2026",
   today: "30.10.2026",
+  month: "November 2026",
+  kgnr: "123FK456789",
+  child: "Emre Yılmaz, geb. 02.05.2019",
+  vsnr: "12 140390 Y 123",
+  adate: "15.08.2026",
+  benefit: "Wohngeld",
+  otherparent: "Mehmet Demir, letzte bekannte Anschrift: Beispielweg 3, 20095 Hamburg",
   hardship: "Ich lebe seit 9 Jahren in Deutschland, spreche Deutsch auf B1-Niveau, arbeite in Vollzeit und meine zwei Kinder gehen hier zur Schule.",
 };
 
@@ -30,7 +37,8 @@ const LABELS = {
   expiry: "Ablaufdatum", bdate: "Datum des Bescheids/Schreibens", phone: "Telefonnummer",
   reason: "Ihre Gründe und Nachweise", impossible: "Warum die Ausreise/Abschiebung nicht möglich ist",
   until: "gewünschtes Datum", why: "Ihre Gründe", doctor: "Name des Arztes / der Ärztin",
-  date: "Datum der Bescheinigung", today: "heutiges Datum", hardship: "Ihre persönliche Situation",
+  date: "Datum der Bescheinigung", month: "Monat (ab wann)", kgnr: "Kindergeldnummer", child: "Name und Geburtsdatum des Kindes",
+  vsnr: "Rentenversicherungsnummer", adate: "Datum Ihres Antrags", benefit: "Name der Leistung", otherparent: "Name und letzte Adresse des anderen Elternteils", today: "heutiges Datum", hardship: "Ihre persönliche Situation",
 };
 
 const head = `{{name}}
@@ -157,6 +165,85 @@ Meine persönliche Situation:
 {{hardship}}
 
 Nachweise (z. B. Arbeitsvertrag, Schulbescheinigungen, Sprachzertifikate, Empfehlungsschreiben) lege ich bei.`,
+  },
+  wohngeld: {
+    sample: { office: "Stadt Musterstadt – Wohngeldstelle", officeaddr: "Rathausplatz 1\n12345 Musterstadt" },
+    subj: "Antrag auf Wohngeld",
+    body: `Sehr geehrte Damen und Herren,
+
+hiermit beantrage ich Wohngeld ab dem {{month}}.
+
+Name: {{name}}, geboren am {{dob}}
+
+Bitte senden Sie mir die Antragsformulare zu. Ich fülle sie aus und reiche alle Nachweise (Mietvertrag, Einkommensnachweise) sofort nach. Ich stelle diesen Antrag jetzt, weil der Bewilligungszeitraum mit dem Monat der Antragstellung beginnt (§ 25 Abs. 2 WoGG).
+
+Bitte bestätigen Sie mir den Eingang dieses Antrags.`,
+  },
+  kiz: {
+    sample: { office: "Familienkasse", officeaddr: "Postfach (siehe Ihr Kindergeld-Schreiben)" },
+    subj: "Antrag auf Kinderzuschlag – Kindergeldnummer: {{kgnr}}",
+    body: `Sehr geehrte Damen und Herren,
+
+hiermit beantrage ich Kinderzuschlag für mein Kind / meine Kinder ab dem {{month}}.
+
+Name: {{name}}, geboren am {{dob}}
+Kindergeldnummer: {{kgnr}}
+Kind: {{child}}
+
+Bitte senden Sie mir die nötigen Formulare zu oder teilen Sie mir mit, welche Unterlagen fehlen. Ich reiche sie umgehend nach.
+
+Bitte bestätigen Sie mir den Eingang dieses Antrags.`,
+  },
+  uvg: {
+    sample: { office: "Kreis Musterkreis – Jugendamt, Unterhaltsvorschusskasse", officeaddr: "Kreishausstraße 1\n12345 Musterstadt" },
+    subj: "Antrag auf Unterhaltsvorschuss für {{child}}",
+    body: `Sehr geehrte Damen und Herren,
+
+hiermit beantrage ich Unterhaltsvorschuss nach dem Unterhaltsvorschussgesetz für mein Kind {{child}}.
+
+Das Kind lebt bei mir. Der andere Elternteil zahlt keinen oder nicht regelmäßig Unterhalt:
+{{otherparent}}
+
+Ich habe den anderen Elternteil zur Zahlung aufgefordert (Nachweis anbei). Bitte senden Sie mir die Antragsformulare zu. Fehlende Unterlagen reiche ich sofort nach.
+
+Bitte bestätigen Sie mir den Eingang dieses Antrags.`,
+  },
+  grusi: {
+    sample: { office: "Stadt Musterstadt – Sozialamt", officeaddr: "Rathausplatz 1\n12345 Musterstadt" },
+    subj: "Antrag auf Grundsicherung im Alter und bei Erwerbsminderung",
+    body: `Sehr geehrte Damen und Herren,
+
+hiermit beantrage ich Leistungen der Grundsicherung im Alter und bei Erwerbsminderung nach dem SGB XII.
+
+Name: {{name}}, geboren am {{dob}}
+Rentenversicherungsnummer: {{vsnr}}
+
+Bitte senden Sie mir die Antragsformulare zu. Unterlagen über Einkommen, Vermögen und Miete reiche ich sofort nach. Der Antrag wirkt auf den Ersten des Monats zurück, in dem er gestellt wird (§ 44 Abs. 2 SGB XII).
+
+Bitte bestätigen Sie mir den Eingang dieses Antrags.`,
+  },
+  rente: {
+    sample: { office: "Deutsche Rentenversicherung", officeaddr: "(Adresse aus Ihrem letzten Rentenschreiben)" },
+    subj: "Antrag auf Kontenklärung und Rentenauskunft – Versicherungsnummer: {{vsnr}}",
+    body: `Sehr geehrte Damen und Herren,
+
+ich bitte um Klärung meines Versicherungskontos und um eine aktuelle Rentenauskunft.
+
+Name: {{name}}, geboren am {{dob}}
+Versicherungsnummer: {{vsnr}}
+
+Bitte teilen Sie mir mit, welche Zeiten in meinem Konto noch fehlen. Nachweise über Schule, Ausbildung, Arbeit und Kindererziehung – auch aus dem Ausland – reiche ich gerne ein.`,
+  },
+  sach: {
+    sample: { office: "Stadt Musterstadt – Wohngeldstelle", officeaddr: "Rathausplatz 1\n12345 Musterstadt" },
+    subj: "Sachstandsanfrage zu meinem Antrag auf {{benefit}} vom {{adate}} – Aktenzeichen: {{file}}",
+    body: `Sehr geehrte Damen und Herren,
+
+am {{adate}} habe ich {{benefit}} beantragt. Bisher habe ich keinen Bescheid erhalten.
+
+Bitte teilen Sie mir den aktuellen Stand der Bearbeitung mit und ob noch Unterlagen fehlen. Bitte nennen Sie mir außerdem, bis wann ich mit einer Entscheidung rechnen kann.
+
+Ich bitte um eine kurze Antwort innerhalb von zwei Wochen.`,
   },
 };
 

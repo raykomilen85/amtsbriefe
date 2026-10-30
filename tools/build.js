@@ -4,14 +4,18 @@ const fs = require("fs");
 const path = require("path");
 const { SAMPLE, LABELS, LETTERS, head, foot } = require("./src/letters");
 const C = Object.assign({}, require("./src/content-de-en-tr"), require("./src/content-bg-ar-uk"), require("./src/content-pl-ku"));
+const SZ = require("./src/content-sozial");
+for (const l of Object.keys(SZ)) C[l].sozial = SZ[l].sozial;
 
 const SITE = "https://amtsbriefe.de";
-const STAND = "30.10.2026";
+const STAND = "31.10.2026";
 const LANGS = [["de","Deutsch"],["tr","Türkçe"],["bg","Български"],["ar","العربية"],["uk","Українська"],["pl","Polski"],["en","English"],["ku","Kurdî"]];
 const STEP = { de: "Schritt für Schritt", tr: "Adım adım", bg: "Стъпка по стъпка", ar: "خطوة بخطوة", uk: "Крок за кроком", pl: "Krok po kroku", en: "Step by step", ku: "Gav bi gav" };
-const PAGES = { aufenthalt: "aufenthalt-laeuft-ab", abschiebung: "abschiebung-hilfe" };
+const PAGES = { aufenthalt: "aufenthalt-laeuft-ab", abschiebung: "abschiebung-hilfe", sozial: "sozialleistungen-antrag" };
+const SRC_SOZ = [["§ 25 WoGG","wogg/__25.html"],["§ 7 WoGG","wogg/__7.html"],["§ 6a BKGG","bkgg_1996/__6a.html"],["§ 7 BEEG","beeg/__7.html"],["§ 13 BEEG","beeg/__13.html"],["§ 4 UVG","uhvorschg/__4.html"],["§ 44 SGB XII","sgb_12/__44.html"],["§ 88 SGG","sgg/__88.html"],["§ 75 VwGO","vwgo/__75.html"]];
 const SOURCES = {
   aufenthalt: [["§ 81 AufenthG","aufenthg_2004/__81.html"],["§ 84 AufenthG","aufenthg_2004/__84.html"],["§ 58 VwGO","vwgo/__58.html"],["§ 81 VwGO","vwgo/__81.html"],["§ 29 VwVfG","vwvfg/__29.html"],["§ 1 BerHG","berathig/__1.html"]],
+  sozial: SRC_SOZ,
   abschiebung: [["§ 59 AufenthG","aufenthg_2004/__59.html"],["§ 60a AufenthG","aufenthg_2004/__60a.html"],["§ 23a AufenthG","aufenthg_2004/__23a.html"],["§ 11 AufenthG","aufenthg_2004/__11.html"],["§ 84 AufenthG","aufenthg_2004/__84.html"],["§ 74 AsylG","asylvfg_1992/__74.html"],["§ 1 BerHG","berathig/__1.html"]],
 };
 const HELP = [
@@ -29,11 +33,11 @@ function letterHTML(k, filled) {
   const L = LETTERS[k];
   const full = `${head}\n\nBetreff: ${L.subj}\n\n${L.body}\n\n${foot}`;
   return esc(full).replace(/\{\{(\w+)\}\}/g, (m, f) =>
-    filled ? `<span class="v">${esc(SAMPLE[f]).replace(/\n/g, "\n")}</span>` : `<mark>[${esc(LABELS[f])}]</mark>`);
+    filled ? `<span class="v">${esc(Object.assign({}, SAMPLE, L.sample || {})[f]).replace(/\n/g, "\n")}</span>` : `<mark>[${esc(LABELS[f])}]</mark>`);
 }
 function letterText(k, filled) {
   const L = LETTERS[k];
-  return `${head}\n\nBetreff: ${L.subj}\n\n${L.body}\n\n${foot}`.replace(/\{\{(\w+)\}\}/g, (m, f) => filled ? SAMPLE[f] : `[${LABELS[f]}]`);
+  return `${head}\n\nBetreff: ${L.subj}\n\n${L.body}\n\n${foot}`.replace(/\{\{(\w+)\}\}/g, (m, f) => filled ? Object.assign({}, SAMPLE, L.sample || {})[f] : `[${LABELS[f]}]`);
 }
 
 const CSS = `:root{--ink:#16233a;--muted:#5b6b82;--bg:#f6f8fb;--card:#fff;--line:#dde4ee;--brand:#1F4E8C;--brand2:#2c66b0;--warn:#fff4d6;--warnb:#f0c75e;--mark:#FBE27C;--ok:#1d7a4f}
@@ -45,7 +49,7 @@ header{background:var(--card);border-bottom:1px solid var(--line)}header .wrap{d
 .langs{display:flex;flex-wrap:wrap;gap:6px}.langs a{font-size:14px;padding:4px 9px;border:1px solid var(--line);border-radius:99px;text-decoration:none;color:var(--ink)}.langs a[aria-current]{background:var(--brand);border-color:var(--brand);color:#fff}
 nav.crumb{font-size:14px;color:var(--muted);margin:18px 0 0}h1{font-size:clamp(26px,5vw,36px);line-height:1.2;margin:10px 0 14px}
 h2{font-size:23px;margin:34px 0 12px}.intro{background:var(--warn);border:1px solid var(--warnb);border-radius:14px;padding:14px 16px;font-weight:600}
-table{width:100%;table-layout:fixed;border-collapse:collapse;background:var(--card);border:1px solid var(--line);border-radius:12px;overflow:hidden}td{padding:10px 12px;overflow-wrap:anywhere;hyphens:auto;border-top:1px solid var(--line);vertical-align:top}tr:first-child td{border-top:0}td:first-child{font-weight:600;width:45%}
+table{width:100%;table-layout:fixed;border-collapse:collapse;background:var(--card);border:1px solid var(--line);border-radius:12px;overflow:hidden}td{padding:10px 12px;overflow-wrap:anywhere;hyphens:auto;border-top:1px solid var(--line);vertical-align:top}tr:first-child td{border-top:0}td:first-child{font-weight:600;width:45%}td small{font-weight:400;color:var(--muted)}
 ol.steps{list-style:none;padding:0;margin:0;counter-reset:s;display:grid;gap:10px}ol.steps li{counter-increment:s;background:var(--card);border:1px solid var(--line);border-radius:14px;padding:14px 16px 14px 58px;position:relative}
 ol.steps li::before{content:counter(s);position:absolute;inset-inline-start:14px;top:14px;width:30px;height:30px;border-radius:50%;background:var(--brand);color:#fff;font-weight:700;display:grid;place-items:center;font-size:15px}
 [dir=rtl] ol.steps li{padding:14px 58px 14px 16px}ol.steps h3{margin:0 0 4px;font-size:18px}ol.steps p{margin:0}
@@ -63,7 +67,7 @@ const LOGO = `<svg viewBox="0 0 64 64" aria-hidden="true"><rect width="64" heigh
 
 function page(lang, key) {
   const t = C[lang], u = t.ui, p = t[key];
-  const other = key === "aufenthalt" ? "abschiebung" : "aufenthalt";
+  const others = Object.keys(PAGES).filter(k => k !== key);
   const dir = lang === "ar" ? "rtl" : "ltr";
   const alts = LANGS.map(([l]) => `<link rel="alternate" hreflang="${l}" href="${url(l, key)}">`).join("\n") + `\n<link rel="alternate" hreflang="x-default" href="${url("de", key)}">`;
   const faq = { "@context": "https://schema.org", "@type": "FAQPage", inLanguage: lang,
@@ -114,12 +118,14 @@ ${alts}
 <table>${p.deadlines.map(([a, b]) => `<tr><td>${esc(a)}</td><td>${esc(b)}</td></tr>`).join("")}</table>
 <h2>${esc(STEP[lang])}</h2>
 <ol class="steps">${p.steps.map(([h, x]) => `<li><h3>${esc(h)}</h3><p>${esc(x)}</p></li>`).join("")}</ol>
+${p.contacts ? `<h2>${esc(p.contactsTitle)}</h2>
+<table class="ct">${p.contacts.map(([n, w, c, h]) => `<tr><td><a href="${h}" rel="noopener" target="_blank">${esc(n)} ↗</a><br><small>${esc(w)}</small></td><td>${esc(c)}</td></tr>`).join("")}</table>` : ""}
 <h2>${esc(u.letters)}</h2>
 <p class="note">${esc(u.lettersNote)}</p>
 ${letters}
-<h2>${esc(u.help)}</h2>
-<ul class="help">${HELP.map(([n, h]) => `<li><a href="${h}" rel="noopener" target="_blank">${esc(n)} ↗</a></li>`).join("")}</ul>
-<p class="other"><strong>${esc(u.other)}:</strong> <a href="${rel(lang, lang, other)}">${esc(t[other].h1)}</a> · <a href="${root(lang)}">${esc(u.home)}</a></p>
+${key === "sozial" ? "" : `<h2>${esc(u.help)}</h2>
+<ul class="help">${HELP.map(([n, h]) => `<li><a href="${h}" rel="noopener" target="_blank">${esc(n)} ↗</a></li>`).join("")}</ul>`}
+<p class="other"><strong>${esc(u.other)}:</strong> ${others.map(o => `<a href="${rel(lang, lang, o)}">${esc(t[o].h1)}</a>`).join(" · ")} · <a href="${root(lang)}">${esc(u.home)}</a></p>
 <p class="src"><strong>${esc(u.sources)}:</strong> ${SOURCES[key].map(([n, h]) => `<a href="https://www.gesetze-im-internet.de/${h}" rel="noopener" target="_blank">${n}</a>`).join("")}<br>${esc(u.stand)}: ${STAND}</p>
 <p class="note">${esc(u.disclaimer)}</p>
 </main>

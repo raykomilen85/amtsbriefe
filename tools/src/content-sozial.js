@@ -15,7 +15,7 @@ de: { sozial: {
   h1: "Sozialleistungen beantragen – ohne Geld zu verlieren",
   intro: "Wichtigster Tipp: Stellen Sie den Antrag sofort – ein kurzer formloser Brief reicht. Wohngeld, Kinderzuschlag und Grundsicherung gibt es erst ab dem Monat, in dem der Antrag eingeht. Formulare und Nachweise können Sie nachreichen.",
   steps: [
-    ["Wohngeld (Mietzuschuss)", "Zuständig: die Wohngeldbehörde Ihrer Stadt oder Gemeinde. Gezahlt wird ab dem Ersten des Monats, in dem Sie den Antrag stellen (§ 25 Abs. 2 WoGG). Wer Bürgergeld/Grundsicherung mit Wohnkosten bekommt, erhält kein Wohngeld zusätzlich (§ 7 WoGG)."],
+    ["Wohngeld (Mietzuschuss)", "Zuständig: die Wohngeldbehörde Ihrer Stadt oder Gemeinde. Gezahlt wird ab dem Ersten des Monats, in dem Sie den Antrag stellen (§ 25 Abs. 2 WoGG). Wer Grundsicherungsgeld (früher Bürgergeld) bzw. Grundsicherung mit Wohnkosten bekommt, erhält kein Wohngeld zusätzlich (§ 7 WoGG)."],
     ["Kinderzuschlag", "Für Eltern mit kleinem Einkommen, die Kindergeld bekommen. Zuständig: Familienkasse. Gezahlt ab dem Antragsmonat, bewilligt jeweils für 6 Monate – danach neu beantragen (§ 6a BKGG)."],
     ["Elterngeld", "Zuständig: die Elterngeldstelle Ihres Landes oder Kreises. Rückwirkend gibt es Elterngeld nur für die letzten 3 Lebensmonate vor dem Monat, in dem der Antrag eingeht (§ 7 BEEG). Beantragen Sie es also spätestens im 3. Lebensmonat des Kindes."],
     ["Unterhaltsvorschuss", "Wenn der andere Elternteil keinen Unterhalt zahlt. Zuständig: das Jugendamt. Rückwirkend höchstens für den Monat vor dem Antrag – und nur, wenn Sie sich zumutbar um Unterhalt bemüht haben (§ 4 UVG)."],
@@ -50,7 +50,7 @@ en: { sozial: {
   h1: "Applying for social benefits in Germany – without losing money",
   intro: "Most important tip: apply immediately – a short informal letter is enough. Housing benefit, child supplement and basic income support are only paid from the month the application arrives. Forms and documents can follow later.",
   steps: [
-    ["Housing benefit (Wohngeld)", "Responsible: the housing benefit office of your town. Paid from the first day of the month you apply (§ 25(2) WoGG). People receiving citizen's income/basic income that covers housing costs do not get housing benefit on top (§ 7 WoGG)."],
+    ["Housing benefit (Wohngeld)", "Responsible: the housing benefit office of your town. Paid from the first day of the month you apply (§ 25(2) WoGG). People receiving Grundsicherungsgeld (formerly Bürgergeld/citizen's income) or basic income support that covers housing costs do not get housing benefit on top (§ 7 WoGG)."],
     ["Child supplement (Kinderzuschlag)", "For parents with a low income who receive child benefit. Responsible: Familienkasse. Paid from the month of application, granted for 6 months at a time – then apply again (§ 6a BKGG)."],
     ["Parental allowance (Elterngeld)", "Responsible: the Elterngeld office of your state or district. Retroactively only for the last 3 months of the child's life before the month the application arrives (§ 7 BEEG). So apply no later than the child's 3rd month."],
     ["Maintenance advance (Unterhaltsvorschuss)", "If the other parent does not pay child maintenance. Responsible: the youth welfare office (Jugendamt). Retroactively for at most the month before the application – and only if you made reasonable efforts to get maintenance (§ 4 UVG)."],
@@ -85,7 +85,7 @@ tr: { sozial: {
   h1: "Sosyal yardımlara başvuru – para kaybetmeden",
   intro: "En önemli ipucu: Hemen başvurun – kısa, serbest bir mektup yeterlidir. Wohngeld, Kinderzuschlag ve Grundsicherung ancak başvurunun ulaştığı aydan itibaren ödenir. Formları ve belgeleri sonradan gönderebilirsiniz.",
   steps: [
-    ["Wohngeld (kira yardımı)", "Yetkili: şehrinizin veya belediyenizin Wohngeld dairesi. Başvurduğunuz ayın ilk gününden itibaren ödenir (§ 25 Abs. 2 WoGG). Konut masrafları dahil Bürgergeld/Grundsicherung alanlar ayrıca Wohngeld alamaz (§ 7 WoGG)."],
+    ["Wohngeld (kira yardımı)", "Yetkili: şehrinizin veya belediyenizin Wohngeld dairesi. Başvurduğunuz ayın ilk gününden itibaren ödenir (§ 25 Abs. 2 WoGG). Konut masrafları dahil Grundsicherungsgeld (eski adıyla Bürgergeld) veya Grundsicherung alanlar ayrıca Wohngeld alamaz (§ 7 WoGG)."],
     ["Kinderzuschlag (çocuk ek ödemesi)", "Kindergeld alan, geliri düşük ebeveynler için. Yetkili: Familienkasse. Başvuru ayından itibaren ödenir, her seferinde 6 ay için verilir – sonra yeniden başvurun (§ 6a BKGG)."],
     ["Elterngeld (ebeveyn parası)", "Yetkili: eyaletinizin veya ilçenizin Elterngeld dairesi. Geriye dönük sadece başvurunun ulaştığı aydan önceki son 3 ay için ödenir (§ 7 BEEG). Yani en geç çocuğun 3. ayında başvurun."],
     ["Unterhaltsvorschuss (nafaka avansı)", "Diğer ebeveyn nafaka ödemiyorsa. Yetkili: Jugendamt. Geriye dönük en fazla başvurudan önceki ay için – ve sadece nafaka almak için makul çaba gösterdiyseniz (§ 4 UVG)."],
@@ -120,7 +120,7 @@ bg: { sozial: {
   h1: "Социални помощи в Германия – без да губите пари",
   intro: "Най-важното: подайте заявление веднага – кратко неформално писмо е достатъчно. Wohngeld, Kinderzuschlag и Grundsicherung се плащат едва от месеца, в който заявлението пристигне. Формулярите и документите може да изпратите по-късно.",
   steps: [
-    ["Wohngeld (помощ за наем)", "Отговаря: службата за Wohngeld на вашия град или община. Плаща се от първо число на месеца на подаване (§ 25, ал. 2 WoGG). Получателите на Bürgergeld/Grundsicherung с разходи за жилище не получават Wohngeld допълнително (§ 7 WoGG)."],
+    ["Wohngeld (помощ за наем)", "Отговаря: службата за Wohngeld на вашия град или община. Плаща се от първо число на месеца на подаване (§ 25, ал. 2 WoGG). Получателите на Grundsicherungsgeld (бивш Bürgergeld) или Grundsicherung с разходи за жилище не получават Wohngeld допълнително (§ 7 WoGG)."],
     ["Kinderzuschlag (добавка за деца)", "За родители с нисък доход, които получават Kindergeld. Отговаря: Familienkasse. Плаща се от месеца на заявлението, отпуска се за 6 месеца – после ново заявление (§ 6a BKGG)."],
     ["Elterngeld (родителски)", "Отговаря: службата за Elterngeld на провинцията или окръга. Със задна дата само за последните 3 месеца преди месеца на заявлението (§ 7 BEEG). Подайте най-късно през 3-тия месец на детето."],
     ["Unterhaltsvorschuss (аванс за издръжка)", "Ако другият родител не плаща издръжка. Отговаря: Jugendamt. Със задна дата най-много за месеца преди заявлението – и само ако сте положили разумни усилия за издръжката (§ 4 UVG)."],
@@ -155,7 +155,7 @@ ar: { sozial: {
   h1: "طلب المساعدات الاجتماعية في ألمانيا – دون أن تخسر المال",
   intro: "أهم نصيحة: قدّم الطلب فوراً – تكفي رسالة قصيرة غير رسمية. تُدفع Wohngeld وKinderzuschlag وGrundsicherung فقط ابتداءً من الشهر الذي يصل فيه الطلب. يمكنك إرسال النماذج والوثائق لاحقاً.",
   steps: [
-    ["Wohngeld (دعم الإيجار)", "المختص: دائرة Wohngeld في مدينتك أو بلديتك. يُدفع من أول الشهر الذي تقدّم فيه الطلب (المادة 25 الفقرة 2 WoGG). من يحصل على Bürgergeld/Grundsicherung مع تكاليف السكن لا يحصل على Wohngeld إضافياً (المادة 7 WoGG)."],
+    ["Wohngeld (دعم الإيجار)", "المختص: دائرة Wohngeld في مدينتك أو بلديتك. يُدفع من أول الشهر الذي تقدّم فيه الطلب (المادة 25 الفقرة 2 WoGG). من يحصل على Grundsicherungsgeld (سابقاً Bürgergeld) أو Grundsicherung مع تكاليف السكن لا يحصل على Wohngeld إضافياً (المادة 7 WoGG)."],
     ["Kinderzuschlag (إضافة الأطفال)", "للوالدين ذوي الدخل المنخفض الذين يحصلون على Kindergeld. المختص: Familienkasse. يُدفع من شهر الطلب ويُمنح لمدة 6 أشهر – ثم يجب التقديم من جديد (المادة 6a BKGG)."],
     ["Elterngeld (إعانة الوالدين)", "المختص: دائرة Elterngeld في ولايتك أو مقاطعتك. بأثر رجعي فقط لآخر 3 أشهر قبل شهر وصول الطلب (المادة 7 BEEG). لذلك قدّم في موعد أقصاه الشهر الثالث من عمر الطفل."],
     ["Unterhaltsvorschuss (سلفة النفقة)", "إذا لم يدفع الوالد الآخر النفقة. المختص: Jugendamt. بأثر رجعي لشهر واحد كحد أقصى قبل الطلب – وفقط إذا بذلت جهداً معقولاً للحصول على النفقة (المادة 4 UVG)."],
@@ -190,7 +190,7 @@ uk: { sozial: {
   h1: "Соціальні виплати в Німеччині – не втрачаючи гроші",
   intro: "Найважливіше: подайте заяву одразу – достатньо короткого неформального листа. Wohngeld, Kinderzuschlag і Grundsicherung платять лише з місяця, коли заява надійшла. Форми та документи можна надіслати пізніше.",
   steps: [
-    ["Wohngeld (допомога на оренду)", "Відповідає: відділ Wohngeld вашого міста чи громади. Платять з першого числа місяця подання (§ 25 абз. 2 WoGG). Хто отримує Bürgergeld/Grundsicherung із житловими витратами, не отримує Wohngeld додатково (§ 7 WoGG)."],
+    ["Wohngeld (допомога на оренду)", "Відповідає: відділ Wohngeld вашого міста чи громади. Платять з першого числа місяця подання (§ 25 абз. 2 WoGG). Хто отримує Grundsicherungsgeld (раніше Bürgergeld) або Grundsicherung із житловими витратами, не отримує Wohngeld додатково (§ 7 WoGG)."],
     ["Kinderzuschlag (доплата на дітей)", "Для батьків з низьким доходом, які отримують Kindergeld. Відповідає: Familienkasse. Платять з місяця заяви, призначають на 6 місяців – потім подавати знову (§ 6a BKGG)."],
     ["Elterngeld (батьківська допомога)", "Відповідає: відділ Elterngeld вашої землі чи округу. Заднім числом лише за останні 3 місяці до місяця надходження заяви (§ 7 BEEG). Тож подавайте не пізніше 3-го місяця життя дитини."],
     ["Unterhaltsvorschuss (аванс аліментів)", "Якщо інший з батьків не платить аліменти. Відповідає: Jugendamt. Заднім числом щонайбільше за місяць до заяви – і лише якщо ви доклали розумних зусиль, щоб отримати аліменти (§ 4 UVG)."],
@@ -225,7 +225,7 @@ pl: { sozial: {
   h1: "Świadczenia socjalne w Niemczech – bez utraty pieniędzy",
   intro: "Najważniejsza rada: złóż wniosek od razu – wystarczy krótkie nieformalne pismo. Wohngeld, Kinderzuschlag i Grundsicherung są wypłacane dopiero od miesiąca, w którym wniosek wpłynął. Formularze i dokumenty możesz dosłać później.",
   steps: [
-    ["Wohngeld (dodatek mieszkaniowy)", "Właściwy: urząd ds. Wohngeld Twojego miasta lub gminy. Wypłacany od pierwszego dnia miesiąca złożenia wniosku (§ 25 ust. 2 WoGG). Kto pobiera Bürgergeld/Grundsicherung z kosztami mieszkania, nie dostaje dodatkowo Wohngeld (§ 7 WoGG)."],
+    ["Wohngeld (dodatek mieszkaniowy)", "Właściwy: urząd ds. Wohngeld Twojego miasta lub gminy. Wypłacany od pierwszego dnia miesiąca złożenia wniosku (§ 25 ust. 2 WoGG). Kto pobiera Grundsicherungsgeld (dawniej Bürgergeld) lub Grundsicherung z kosztami mieszkania, nie dostaje dodatkowo Wohngeld (§ 7 WoGG)."],
     ["Kinderzuschlag (dodatek na dzieci)", "Dla rodziców o niskich dochodach, którzy pobierają Kindergeld. Właściwa: Familienkasse. Wypłacany od miesiąca wniosku, przyznawany na 6 miesięcy – potem nowy wniosek (§ 6a BKGG)."],
     ["Elterngeld (zasiłek rodzicielski)", "Właściwy: urząd ds. Elterngeld Twojego landu lub powiatu. Wstecz tylko za ostatnie 3 miesiące przed miesiącem wpływu wniosku (§ 7 BEEG). Złóż go najpóźniej w 3. miesiącu życia dziecka."],
     ["Unterhaltsvorschuss (zaliczka alimentacyjna)", "Gdy drugi rodzic nie płaci alimentów. Właściwy: Jugendamt. Wstecz najwyżej za miesiąc przed wnioskiem – i tylko jeśli podjąłeś rozsądne starania o alimenty (§ 4 UVG)."],
@@ -260,7 +260,7 @@ ku: { sozial: {
   h1: "Serlêdana alîkariyên civakî – bê ku pere winda bikî",
   intro: "Şîreta herî girîng: yekser serlêdan bike – nameyeke kurt û ne fermî bes e. Wohngeld, Kinderzuschlag û Grundsicherung tenê ji meha ku serlêdan digihêje têne dayîn. Form û belgeyan dikarî paşê bişînî.",
   steps: [
-    ["Wohngeld (alîkariya kirê)", "Berpirsiyar: daîreya Wohngeld a bajar an şaredariya te. Ji roja yekem a meha serlêdanê tê dayîn (§ 25 Abs. 2 WoGG). Kî Bürgergeld/Grundsicherung bi lêçûnên xanî digire, Wohngeld zêde nagire (§ 7 WoGG)."],
+    ["Wohngeld (alîkariya kirê)", "Berpirsiyar: daîreya Wohngeld a bajar an şaredariya te. Ji roja yekem a meha serlêdanê tê dayîn (§ 25 Abs. 2 WoGG). Kî Grundsicherungsgeld (berê Bürgergeld) an Grundsicherung bi lêçûnên xanî digire, Wohngeld zêde nagire (§ 7 WoGG)."],
     ["Kinderzuschlag (zêdekirina zarokan)", "Ji bo dêûbavên bi dahata kêm ku Kindergeld digirin. Berpirsiyar: Familienkasse. Ji meha serlêdanê tê dayîn, her car ji bo 6 mehan – paşê dîsa serlêdan bike (§ 6a BKGG)."],
     ["Elterngeld (pereyê dêûbavan)", "Berpirsiyar: daîreya Elterngeld a eyalet an navçeya te. Bi paşve tenê ji bo 3 mehên dawî berî meha ku serlêdan digihêje (§ 7 BEEG). Herî dereng di meha 3. a zarokê de serlêdan bike."],
     ["Unterhaltsvorschuss (pêşdayîna nafeqê)", "Heke dêûbavê din nafeqe nede. Berpirsiyar: Jugendamt. Bi paşve herî zêde ji bo meha berî serlêdanê – û tenê heke te hewldaneke maqûl kiribe (§ 4 UVG)."],

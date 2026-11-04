@@ -1,4 +1,4 @@
-// Builds the static "Aufenthalt läuft ab" and "Abschiebung" pages in 8 languages.
+// Builds the static help pages (Aufenthalt, Abschiebung, Sozialleistungen, Alltag) in 8 languages.
 // Usage: node build.js  -> writes into ./out
 const fs = require("fs");
 const path = require("path");
@@ -6,16 +6,19 @@ const { SAMPLE, LABELS, LETTERS, head, foot } = require("./src/letters");
 const C = Object.assign({}, require("./src/content-de-en-tr"), require("./src/content-bg-ar-uk"), require("./src/content-pl-ku"));
 const SZ = require("./src/content-sozial");
 for (const l of Object.keys(SZ)) C[l].sozial = SZ[l].sozial;
+const AL = require("./src/content-alltag");
+for (const l of Object.keys(AL)) C[l].alltag = AL[l].alltag;
 
 const SITE = "https://amtsbriefe.de";
-const STAND = "31.10.2026";
+const STAND = "04.11.2026";
 const LANGS = [["de","Deutsch"],["tr","Türkçe"],["bg","Български"],["ar","العربية"],["uk","Українська"],["pl","Polski"],["en","English"],["ku","Kurdî"]];
 const STEP = { de: "Schritt für Schritt", tr: "Adım adım", bg: "Стъпка по стъпка", ar: "خطوة بخطوة", uk: "Крок за кроком", pl: "Krok po kroku", en: "Step by step", ku: "Gav bi gav" };
-const PAGES = { aufenthalt: "aufenthalt-laeuft-ab", abschiebung: "abschiebung-hilfe", sozial: "sozialleistungen-antrag" };
+const PAGES = { aufenthalt: "aufenthalt-laeuft-ab", abschiebung: "abschiebung-hilfe", sozial: "sozialleistungen-antrag", alltag: "alltag-briefvorlagen" };
 const SRC_SOZ = [["§ 25 WoGG","wogg/__25.html"],["§ 7 WoGG","wogg/__7.html"],["§ 6a BKGG","bkgg_1996/__6a.html"],["§ 7 BEEG","beeg/__7.html"],["§ 13 BEEG","beeg/__13.html"],["§ 4 UVG","uhvorschg/__4.html"],["§ 44 SGB XII","sgb_12/__44.html"],["§ 88 SGG","sgg/__88.html"],["§ 75 VwGO","vwgo/__75.html"]];
 const SOURCES = {
   aufenthalt: [["§ 81 AufenthG","aufenthg_2004/__81.html"],["§ 84 AufenthG","aufenthg_2004/__84.html"],["§ 58 VwGO","vwgo/__58.html"],["§ 81 VwGO","vwgo/__81.html"],["§ 29 VwVfG","vwvfg/__29.html"],["§ 1 BerHG","berathig/__1.html"]],
   sozial: SRC_SOZ,
+  alltag: [["§ 56 TKG","tkg_2021/__56.html"],["§ 309 BGB","bgb/__309.html"],["§ 312k BGB","bgb/__312k.html"],["§ 11 VVG","vvg_2008/__11.html"],["§ 13a RDG","rdg/__13a.html"],["§ 195 BGB","bgb/__195.html"],["§ 199 BGB","bgb/__199.html"],["§ 692 ZPO","zpo/__692.html"],["§ 536 BGB","bgb/__536.html"],["§ 536c BGB","bgb/__536c.html"],["§ 556 BGB","bgb/__556.html"],["§ 108 GewO","gewo/__108.html"],["§ 109 GewO","gewo/__109.html"]],
   abschiebung: [["§ 59 AufenthG","aufenthg_2004/__59.html"],["§ 60a AufenthG","aufenthg_2004/__60a.html"],["§ 23a AufenthG","aufenthg_2004/__23a.html"],["§ 11 AufenthG","aufenthg_2004/__11.html"],["§ 84 AufenthG","aufenthg_2004/__84.html"],["§ 74 AsylG","asylvfg_1992/__74.html"],["§ 1 BerHG","berathig/__1.html"]],
 };
 const HELP = [
@@ -123,7 +126,7 @@ ${p.contacts ? `<h2>${esc(p.contactsTitle)}</h2>
 <h2>${esc(u.letters)}</h2>
 <p class="note">${esc(u.lettersNote)}</p>
 ${letters}
-${key === "sozial" ? "" : `<h2>${esc(u.help)}</h2>
+${key === "sozial" || key === "alltag" ? "" : `<h2>${esc(u.help)}</h2>
 <ul class="help">${HELP.map(([n, h]) => `<li><a href="${h}" rel="noopener" target="_blank">${esc(n)} ↗</a></li>`).join("")}</ul>`}
 <p class="other"><strong>${esc(u.other)}:</strong> ${others.map(o => `<a href="${rel(lang, lang, o)}">${esc(t[o].h1)}</a>`).join(" · ")} · <a href="${root(lang)}">${esc(u.home)}</a></p>
 <p class="src"><strong>${esc(u.sources)}:</strong> ${SOURCES[key].map(([n, h]) => `<a href="https://www.gesetze-im-internet.de/${h}" rel="noopener" target="_blank">${n}</a>`).join("")}<br>${esc(u.stand)}: ${STAND}</p>

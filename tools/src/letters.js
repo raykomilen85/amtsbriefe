@@ -27,6 +27,11 @@ const SAMPLE = {
   adate: "15.08.2026",
   benefit: "Wohngeld",
   otherparent: "Mehmet Demir, letzte bekannte Anschrift: Beispielweg 3, 20095 Hamburg",
+  contract: "K-48151623", product: "Mobilfunkvertrag mit der Rufnummer 0151 23456789", policy: "HR-2024-778899", insurance: "Hausratversicherung",
+  creditor: "Muster Online-Shop GmbH", amount: "187,40 €", since: "12.10.2026", deadline: "25.11.2026", period: "01.01.2025 bis 31.12.2025", received: "14.10.2026",
+  job: "Lagerhelferin", empend: "31.10.2026", months: "August und September 2026", persnr: "4711",
+  objection: "Ich habe bei Ihrem Auftraggeber nie einen Vertrag geschlossen und keine Ware erhalten.",
+  defect: "Im Schlafzimmer bildet sich an der Außenwand Schimmel (ca. 1 m²). Fotos liegen bei.",
   hardship: "Ich lebe seit 9 Jahren in Deutschland, spreche Deutsch auf B1-Niveau, arbeite in Vollzeit und meine zwei Kinder gehen hier zur Schule.",
 };
 
@@ -39,6 +44,9 @@ const LABELS = {
   until: "gewünschtes Datum", why: "Ihre Gründe", doctor: "Name des Arztes / der Ärztin",
   date: "Datum der Bescheinigung", month: "Monat (ab wann)", kgnr: "Kindergeldnummer", child: "Name und Geburtsdatum des Kindes",
   vsnr: "Rentenversicherungsnummer", adate: "Datum Ihres Antrags", benefit: "Name der Leistung", otherparent: "Name und letzte Adresse des anderen Elternteils", today: "heutiges Datum", hardship: "Ihre persönliche Situation",
+  contract: "Kunden- oder Vertragsnummer", product: "Art des Vertrags (z. B. Mobilfunkvertrag mit Rufnummer)", policy: "Versicherungsnummer", insurance: "Art der Versicherung",
+  creditor: "Name des Auftraggebers / Gläubigers", amount: "geforderter Betrag", objection: "Ihre Gründe / Einwendungen", since: "seit wann (Datum)", defect: "Beschreibung des Mangels",
+  deadline: "Frist (Datum)", period: "Abrechnungszeitraum", received: "Datum des Erhalts", job: "Ihre Tätigkeit", empend: "Ende des Arbeitsverhältnisses", months: "Monate", persnr: "Personalnummer",
 };
 
 const head = `{{name}}
@@ -244,6 +252,93 @@ am {{adate}} habe ich {{benefit}} beantragt. Bisher habe ich keinen Bescheid erh
 Bitte teilen Sie mir den aktuellen Stand der Bearbeitung mit und ob noch Unterlagen fehlen. Bitte nennen Sie mir außerdem, bis wann ich mit einer Entscheidung rechnen kann.
 
 Ich bitte um eine kurze Antwort innerhalb von zwei Wochen.`,
+  },
+  kuend: {
+    sample: { office: "Muster Mobilfunk GmbH – Kundenservice", officeaddr: "Postfach 10 20 30\n40210 Düsseldorf" },
+    subj: "Kündigung meines Vertrags – Kunden-/Vertragsnummer: {{contract}}",
+    body: `Sehr geehrte Damen und Herren,
+
+hiermit kündige ich meinen Vertrag ({{product}}) fristgerecht zum nächstmöglichen Zeitpunkt.
+
+Name: {{name}}, geboren am {{dob}}
+Kunden-/Vertragsnummer: {{contract}}
+
+Bitte bestätigen Sie mir die Kündigung und das genaue Vertragsende schriftlich (per Brief oder E-Mail). Das SEPA-Lastschriftmandat für diesen Vertrag widerrufe ich zum Vertragsende.
+
+Einer Vertragsverlängerung stimme ich nicht zu. Bitte kontaktieren Sie mich nicht telefonisch zu Werbe- oder Rückgewinnungszwecken.`,
+  },
+  kuendvers: {
+    sample: { office: "Muster Versicherung AG", officeaddr: "Versicherungsplatz 1\n10115 Berlin" },
+    subj: "Kündigung meiner {{insurance}} – Versicherungsnummer: {{policy}}",
+    body: `Sehr geehrte Damen und Herren,
+
+hiermit kündige ich meine {{insurance}} mit der Versicherungsnummer {{policy}} fristgerecht zum Ende der laufenden Versicherungsperiode, hilfsweise zum nächstmöglichen Zeitpunkt.
+
+Name: {{name}}, geboren am {{dob}}
+
+Bitte bestätigen Sie mir die Kündigung und das Datum, zu dem der Vertrag endet, schriftlich. Das SEPA-Lastschriftmandat widerrufe ich zum Vertragsende.`,
+  },
+  inkasso: {
+    sample: { office: "Muster Inkasso GmbH", officeaddr: "Forderungsweg 5\n20095 Hamburg", file: "INK-2026-55123" },
+    subj: "Widerspruch gegen Ihre Forderung – Ihr Zeichen: {{file}}",
+    body: `Sehr geehrte Damen und Herren,
+
+mit Schreiben vom {{bdate}} fordern Sie im Auftrag von {{creditor}} von mir einen Betrag von {{amount}}.
+
+Ich widerspreche dieser Forderung. Sie ist aus meiner Sicht nicht berechtigt:
+{{objection}}
+
+Bitte legen Sie mir die Forderung vollständig und nachvollziehbar dar (§ 13a Rechtsdienstleistungsgesetz): Auftraggeber, Vertragsgegenstand und Datum des Vertragsschlusses, Berechnung von Zinsen und Inkassokosten. Bitte senden Sie mir außerdem eine Kopie des Vertrags bzw. der Unterlagen, auf die Sie die Forderung stützen.
+
+Bis zur Klärung leiste ich keine Zahlung. Mit diesem Schreiben erkenne ich die Forderung nicht an. Bitte antworten Sie mir schriftlich.`,
+  },
+  maengel: {
+    sample: { office: "Muster Wohnbau GmbH – Hausverwaltung", officeaddr: "Am Markt 7\n23552 Lübeck" },
+    subj: "Mängelanzeige – Mietwohnung {{street}}, {{city}}",
+    body: `Sehr geehrte Damen und Herren,
+
+in meiner Mietwohnung ({{street}}, {{city}}) besteht seit dem {{since}} folgender Mangel:
+{{defect}}
+
+Ich zeige Ihnen diesen Mangel hiermit an (§ 536c BGB) und bitte Sie, ihn bis zum {{deadline}} fachgerecht zu beseitigen. Bitte teilen Sie mir rechtzeitig einen Termin mit, damit Handwerker in die Wohnung kommen können. Sie erreichen mich unter {{phone}}.
+
+Ich behalte mir vor, die Miete wegen des Mangels zu mindern (§ 536 BGB). Bis zur Beseitigung zahle ich die Miete nur unter Vorbehalt.`,
+  },
+  nk: {
+    sample: { office: "Muster Wohnbau GmbH – Hausverwaltung", officeaddr: "Am Markt 7\n23552 Lübeck", objection: "Die Kosten für Hausmeister sind gegenüber dem Vorjahr um 60 % gestiegen. Außerdem ist die Wohnfläche mit 72 m² statt 65 m² angesetzt." },
+    subj: "Nebenkostenabrechnung {{period}} – Einwendungen und Bitte um Belegeinsicht",
+    body: `Sehr geehrte Damen und Herren,
+
+Ihre Nebenkostenabrechnung für den Zeitraum {{period}} habe ich am {{received}} erhalten.
+
+Gegen die Abrechnung erhebe ich folgende Einwendungen (§ 556 Abs. 3 BGB):
+{{objection}}
+
+Außerdem bitte ich um Einsicht in die Originalbelege (Rechnungen, Verträge, Verbrauchswerte und Umlageschlüssel). Bitte nennen Sie mir dafür einen Termin bis zum {{deadline}} oder senden Sie mir Kopien.
+
+Eine Nachzahlung leiste ich erst nach Prüfung der Belege.`,
+  },
+  zeugnis: {
+    sample: { office: "Muster Logistik GmbH – Personalabteilung", officeaddr: "Hafenstraße 20\n23568 Lübeck" },
+    subj: "Bitte um ein qualifiziertes Arbeitszeugnis",
+    body: `Sehr geehrte Damen und Herren,
+
+mein Arbeitsverhältnis bei Ihnen als {{job}} endet bzw. endete am {{empend}}.
+
+Ich bitte Sie um ein qualifiziertes Arbeitszeugnis, das sich auch auf Leistung und Verhalten im Arbeitsverhältnis erstreckt (§ 109 Gewerbeordnung).
+
+Bitte senden Sie mir das Zeugnis bis zum {{deadline}} an meine oben genannte Adresse.`,
+  },
+  lohn: {
+    sample: { office: "Muster Logistik GmbH – Personalabteilung", officeaddr: "Hafenstraße 20\n23568 Lübeck" },
+    subj: "Bitte um Lohnabrechnungen – Personalnummer: {{persnr}}",
+    body: `Sehr geehrte Damen und Herren,
+
+für {{months}} habe ich keine Lohnabrechnung erhalten.
+
+Nach § 108 Gewerbeordnung ist mir bei Zahlung des Arbeitsentgelts eine Abrechnung in Textform zu erteilen. Bitte senden Sie mir die fehlenden Abrechnungen bis zum {{deadline}}.
+
+Sollte für diese Monate noch Lohn offen sein, bitte ich um Zahlung bis zum selben Datum.`,
   },
 };
 

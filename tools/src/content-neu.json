@@ -1,0 +1,2212 @@
+{
+ "el": {
+  "ui": {
+   "blank": "Κενό πρότυπο",
+   "example": "Συμπληρωμένο παράδειγμα",
+   "copy": "Αντιγραφή κειμένου",
+   "copied": "Αντιγράφηκε ✓",
+   "print": "Εκτύπωση",
+   "fill": "Πεδία προς συμπλήρωση",
+   "purpose": "Για ποιο σκοπό;",
+   "letters": "Πρότυπα επιστολών",
+   "lettersNote": "Γράφετε πάντα στα γερμανικά προς τις γερμανικές υπηρεσίες. Αντικαταστήστε τα κίτρινα πεδία με τα στοιχεία σας. Κρατήστε αντίγραφο και απόδειξη αποστολής (συστημένη, αναφορά φαξ ή e-mail).",
+   "help": "Δωρεάν βοήθεια",
+   "sources": "Νομική βάση",
+   "stand": "Ενημέρωση",
+   "disclaimer": "Γενικές πληροφορίες, όχι νομική συμβουλή. Ζητήστε από ένα κέντρο συμβουλευτικής ή δικηγόρο να ελέγξει την περίπτωσή σας.",
+   "home": "Όλα τα πρότυπα επιστολών",
+   "other": "Δείτε επίσης",
+   "deadlines": "Προθεσμίες με μια ματιά"
+  },
+  "aufenthalt": {
+   "title": "Λήγει η άδεια διαμονής ή η βίζα στη Γερμανία – τι κάνω; Παράταση, Fiktionsbescheinigung, ένσταση",
+   "desc": "Λήγει η γερμανική άδεια διαμονής ή βίζα σας; Βήμα προς βήμα: έγκαιρη αίτηση, Fiktionsbescheinigung, ακρόαση, απόρριψη. Δωρεάν πρότυπα επιστολών, σε 13 γλώσσες.",
+   "h1": "Λήγει η άδεια διαμονής ή η βίζα στη Γερμανία – τι κάνω;",
+   "intro": "Το σημαντικότερο: κάντε αίτηση παράτασης πριν λήξει η άδειά σας – ακόμη κι αν δεν βρίσκετε ραντεβού. Τότε η άδειά σας παραμένει σε ισχύ μέχρι να αποφασίσει η υπηρεσία.",
+   "steps": [
+    [
+     "Αίτηση πριν την ημερομηνία λήξης",
+     "Αν κάνετε αίτηση πριν λήξει η άδειά σας, αυτή συνεχίζει να ισχύει μέχρι την απόφαση (§ 81(4) Νόμου Διαμονής). Αυτό δεν ισχύει για βίζα Σένγκεν."
+    ],
+    [
+     "Δεν υπάρχει ραντεβού; Κάντε γραπτή αίτηση",
+     "Μην περιμένετε ραντεβού. Στείλτε την αίτηση γραπτώς, με online φόρμα, φαξ ή e-mail πριν τη λήξη και κρατήστε την απόδειξη. Πρότυπο παρακάτω: «Αίτηση παράτασης»."
+    ],
+    [
+     "Ζητήστε Fiktionsbescheinigung",
+     "Η υπηρεσία πρέπει να σας δώσει βεβαίωση για το αποτέλεσμα της αίτησής σας (§ 81(5)). Αποδεικνύει σε εργοδότες, Jobcenter και ιδιοκτήτες ότι η διαμονή σας επιτρέπεται ακόμη. Η παλιά άδεια συνεχίζει με τους όρους της – μαζί και η άδεια εργασίας, αν την περιείχε."
+    ],
+    [
+     "Έχει ήδη λήξει;",
+     "Κάντε αίτηση αμέσως. Σε καθυστερημένη αίτηση η υπηρεσία μπορεί να ορίσει ότι η άδεια συνεχίζει, για να αποφευχθεί δυσανάλογη σκληρότητα – αλλά δεν είναι υποχρεωμένη. Πηγαίνετε ταυτόχρονα σε κέντρο συμβουλευτικής."
+    ],
+    [
+     "Ρωτήστε πριν ταξιδέψετε στο εξωτερικό",
+     "Πριν από κάθε ταξίδι, ρωτήστε την Ausländerbehörde αν μπορείτε να επανέλθετε με τη βεβαίωσή σας."
+    ],
+    [
+     "Λάβατε επιστολή ακρόασης (Anhörung);",
+     "Συνήθως σημαίνει ότι η υπηρεσία σκοπεύει να απορρίψει. Απαντήστε εντός προθεσμίας με τους λόγους και τα έγγραφά σας. Πρότυπο παρακάτω."
+    ],
+    [
+     "Λάβατε απόρριψη;",
+     "Διαβάστε τη «Rechtsbehelfsbelehrung» στο τέλος της απόφασης. Λέει αν πρέπει να υποβάλετε ένσταση (Widerspruch) στην υπηρεσία ή προσφυγή (Klage) στο διοικητικό δικαστήριο – διαφέρει ανά κρατίδιο – και την προθεσμία (συνήθως 1 μήνας). Αν λείπει ή είναι λάθος, ισχύει συνήθως 1 χρόνος (§ 58 VwGO)."
+    ],
+    [
+     "Προσοχή: η ένσταση δεν σας προστατεύει αυτόματα",
+     "Ένσταση ή προσφυγή κατά της απόρριψης άδειας διαμονής δεν έχει ανασταλτικό αποτέλεσμα (§ 84(1) Νόμου Διαμονής). Για να μείνετε μέχρι την απόφαση, συνήθως χρειάζεται επείγουσα αίτηση στο διοικητικό δικαστήριο. Ζητήστε βοήθεια αμέσως."
+    ],
+    [
+     "Προσφυγή χωρίς δικηγόρο",
+     "Μπορείτε να υποβάλετε προσφυγή γραπτώς ή να την καταγράψει η γραμματεία του διοικητικού δικαστηρίου (§ 81 VwGO). Με χαμηλό εισόδημα μπορείτε να πάρετε Beratungshilfe (αίτηση στο τοπικό δικαστήριο, Amtsgericht) ή νομική αρωγή."
+    ]
+   ],
+   "deadlines": [
+    [
+     "Αίτηση παράτασης",
+     "πριν λήξει η άδειά σας"
+    ],
+    [
+     "Απάντηση σε επιστολή ακρόασης",
+     "η προθεσμία της επιστολής"
+    ],
+    [
+     "Ένσταση ή προσφυγή",
+     "συνήθως 1 μήνας από την επίδοση (βλ. Rechtsbehelfsbelehrung)"
+    ],
+    [
+     "Οδηγίες λείπουν ή είναι λάθος",
+     "συνήθως 1 χρόνος (§ 58(2) VwGO)"
+    ]
+   ],
+   "letters": {
+    "verl": [
+     "Αίτηση παράτασης",
+     "Στείλτε την πριν τη λήξη αν δεν βρίσκετε ραντεβού."
+    ],
+    "fikt": [
+     "Αίτημα για Fiktionsbescheinigung",
+     "Αν κάνατε αίτηση εγκαίρως αλλά δεν έχετε ακόμη βεβαίωση."
+    ],
+    "anh": [
+     "Απάντηση σε επιστολή ακρόασης",
+     "Αν η υπηρεσία σκοπεύει να απορρίψει και ζητά τη γνώμη σας."
+    ],
+    "wid": [
+     "Ένσταση κατά της απόρριψης",
+     "Μόνο αν η Rechtsbehelfsbelehrung γράφει «Widerspruch». Αν γράφει «Klage», πηγαίνετε στο διοικητικό δικαστήριο."
+    ],
+    "akte": [
+     "Αίτημα πρόσβασης στον φάκελο",
+     "Για να δείτε τι περιέχει ο φάκελός σας."
+    ]
+   }
+  },
+  "abschiebung": {
+   "title": "Απειλή απέλασης στη Γερμανία – τι κάνω; Προθεσμίες, Duldung, επιτροπή περιπτώσεων ιδιαίτερης σκληρότητας, δωρεάν βοήθεια",
+   "desc": "Λάβατε εντολή αποχώρησης ή προειδοποίηση απέλασης στη Γερμανία; Προθεσμίες, επείγοντα βήματα, Duldung, ιατρική βεβαίωση, επιτροπή σκληρότητας. Δωρεάν πρότυπα επιστολών σε 13 γλώσσες.",
+   "h1": "Απειλή απέλασης στη Γερμανία – τι μετράει τώρα",
+   "intro": "Ενεργήστε αμέσως. Οι προθεσμίες είναι σύντομες και μετά την προθεσμία αποχώρησης η ημερομηνία απέλασης δεν ανακοινώνεται (§ 59(1) Νόμου Διαμονής). Πηγαίνετε σήμερα σε δωρεάν κέντρο συμβουλευτικής.",
+   "steps": [
+    [
+     "Διαβάστε προσεκτικά την επιστολή",
+     "Βρείτε την προθεσμία αποχώρησης (συνήθως 7 έως 30 ημέρες) και τη «Rechtsbehelfsbelehrung» με την προθεσμία για ένσταση ή προσφυγή. Σημειώστε την ημερομηνία παραλαβής."
+    ],
+    [
+     "Ζητήστε συμβουλή σήμερα",
+     "Δωρεάν βοήθεια: κέντρα συμβουλευτικής μεταναστών, συμβούλια προσφύγων και υπηρεσίες νομικής συμβουλής – σύνδεσμοι παρακάτω. Με χαμηλό εισόδημα, το τοπικό δικαστήριο (Amtsgericht) σας δίνει Beratungshilfeschein για δικηγόρο."
+    ],
+    [
+     "Απόφαση ασύλου από τη BAMF;",
+     "Ισχύουν πολύ σύντομες προθεσμίες: προσφυγή συνήθως εντός 2 εβδομάδων, σε ορισμένες περιπτώσεις 1 εβδομάδας (§ 74 Νόμου Ασύλου). Μην περιμένετε ούτε μία ημέρα."
+    ],
+    [
+     "Αίτημα πρόσβασης στον φάκελο",
+     "Εσείς ή ο σύμβουλός σας μπορείτε να δείτε τον φάκελό σας. Πρότυπο παρακάτω."
+    ],
+    [
+     "Άρρωστος/η; Πάρτε αμέσως ιατρική βεβαίωση",
+     "Μια ασθένεια λαμβάνεται υπόψη μόνο αν υποβάλετε αμέσως τεκμηριωμένη ιατρική βεβαίωση. Πρέπει να περιέχει: διάγνωση, σοβαρότητα, κωδικό ICD-10, συνέπειες χωρίς θεραπεία και φάρμακα με τη δραστική ουσία τους (§ 60a(2c), (2d))."
+    ],
+    [
+     "Αδύνατη η απέλαση; Αίτηση για Duldung",
+     "Αν η απέλαση είναι αδύνατη για πραγματικούς ή νομικούς λόγους – π.χ. χωρίς διαβατήριο – πρέπει να ανασταλεί (Duldung, § 60a(2)). Duldung μπορεί να δοθεί και για επείγοντες ανθρωπιστικούς ή προσωπικούς λόγους."
+    ],
+    [
+     "Περισσότερος χρόνος για αποχώρηση",
+     "Η προθεσμία αποχώρησης μπορεί να παραταθεί σε μεμονωμένες περιπτώσεις (§ 59(1)), π.χ. για το σχολείο των παιδιών ή την παράδοση του σπιτιού. Πρότυπο παρακάτω."
+    ],
+    [
+     "Επιτροπή περιπτώσεων ιδιαίτερης σκληρότητας",
+     "Κάθε κρατίδιο έχει επιτροπή σκληρότητας (Härtefallkommission, § 23a). Αποφασίζει μόνη της αν θα αναλάβει μια περίπτωση. Συνήθως αποκλείονται: σοβαρά εγκλήματα ή αν έχει ήδη οριστεί συγκεκριμένη ημερομηνία απέλασης. Καλύτερα μέσω κέντρου συμβουλευτικής."
+    ],
+    [
+     "Απαγόρευση εισόδου",
+     "Μετά την απέλαση ισχύει συνήθως απαγόρευση εισόδου (§ 11). Μπορεί να μειωθεί ή να αρθεί, π.χ. για προσωπικούς λόγους άξιους προστασίας."
+    ],
+    [
+     "Έχετε έτοιμα τα βασικά έγγραφα",
+     "Αντίγραφα διαβατηρίου, αποφάσεων, σύμβασης εργασίας, σχολικών και ιατρικών εγγράφων. Δώστε τον αριθμό τηλεφώνου του συμβούλου ή δικηγόρου σας σε άτομο εμπιστοσύνης."
+    ]
+   ],
+   "deadlines": [
+    [
+     "Εθελοντική αποχώρηση",
+     "συνήθως 7–30 ημέρες (§ 59)"
+    ],
+    [
+     "Ένσταση/προσφυγή (Ausländerbehörde)",
+     "συνήθως 1 μήνας – βλ. Rechtsbehelfsbelehrung"
+    ],
+    [
+     "Προσφυγή κατά απόφασης ασύλου της BAMF",
+     "2 εβδομάδες, σε ορισμένες περιπτώσεις 1 εβδομάδα (§ 74 AsylG)"
+    ],
+    [
+     "Ιατρική βεβαίωση",
+     "χωρίς καθυστέρηση (§ 60a(2d))"
+    ]
+   ],
+   "letters": {
+    "akte": [
+     "Αίτημα πρόσβασης στον φάκελο",
+     "Για να δείτε τι περιέχει ο φάκελός σας."
+    ],
+    "dul": [
+     "Αίτηση για Duldung",
+     "Αν η απέλαση δεν είναι δυνατή, π.χ. χωρίς διαβατήριο."
+    ],
+    "frist": [
+     "Παράταση της προθεσμίας αποχώρησης",
+     "Αν χρειάζεστε περισσότερο χρόνο για να φύγετε οικειοθελώς."
+    ],
+    "arzt": [
+     "Υποβολή ιατρικής βεβαίωσης",
+     "Συνοδευτική επιστολή για τη βεβαίωση του γιατρού σας."
+    ],
+    "hfk": [
+     "Αίτημα προς την επιτροπή σκληρότητας",
+     "Καλύτερα να υποβληθεί μαζί με κέντρο συμβουλευτικής."
+    ]
+   }
+  },
+  "sozial": {
+   "title": "Επίδομα στέγασης, επίδομα τέκνων, γονικό επίδομα, προκαταβολή διατροφής, βασικό εισόδημα, σύνταξη – αιτήσεις & πρότυπα επιστολών",
+   "desc": "Κάντε σωστά αιτήσεις για γερμανικές κοινωνικές παροχές: από πότε πληρώνονται, ποια υπηρεσία είναι αρμόδια, προθεσμίες και δωρεάν πρότυπα επιστολών (άτυπη αίτηση, ερώτηση πορείας). Σε 13 γλώσσες.",
+   "h1": "Αιτήσεις για κοινωνικές παροχές στη Γερμανία – χωρίς να χάσετε χρήματα",
+   "intro": "Η σημαντικότερη συμβουλή: κάντε αίτηση αμέσως – αρκεί μια σύντομη άτυπη επιστολή. Το επίδομα στέγασης, το επίδομα τέκνων (Kinderzuschlag) και το βασικό εισόδημα καταβάλλονται μόνο από τον μήνα που φτάνει η αίτηση. Έντυπα και δικαιολογητικά μπορούν να ακολουθήσουν.",
+   "steps": [
+    [
+     "Επίδομα στέγασης (Wohngeld)",
+     "Αρμόδια: η υπηρεσία επιδόματος στέγασης της πόλης σας. Καταβάλλεται από την πρώτη ημέρα του μήνα της αίτησης (§ 25(2) WoGG). Όσοι λαμβάνουν Grundsicherungsgeld (πρώην Bürgergeld) ή βασικό εισόδημα που καλύπτει το κόστος στέγασης δεν παίρνουν επιπλέον επίδομα στέγασης (§ 7 WoGG)."
+    ],
+    [
+     "Επίδομα τέκνων (Kinderzuschlag)",
+     "Για γονείς με χαμηλό εισόδημα που παίρνουν Kindergeld. Αρμόδια: Familienkasse. Καταβάλλεται από τον μήνα της αίτησης, για 6 μήνες κάθε φορά – μετά νέα αίτηση (§ 6a BKGG)."
+    ],
+    [
+     "Γονικό επίδομα (Elterngeld)",
+     "Αρμόδια: η υπηρεσία Elterngeld του κρατιδίου ή της περιφέρειάς σας. Αναδρομικά μόνο για τους τελευταίους 3 μήνες ζωής του παιδιού πριν τον μήνα που φτάνει η αίτηση (§ 7 BEEG). Γι' αυτό κάντε αίτηση το αργότερο στον 3ο μήνα του παιδιού."
+    ],
+    [
+     "Προκαταβολή διατροφής (Unterhaltsvorschuss)",
+     "Αν ο άλλος γονιός δεν πληρώνει διατροφή. Αρμόδια: υπηρεσία πρόνοιας νέων (Jugendamt). Αναδρομικά το πολύ για τον μήνα πριν την αίτηση – και μόνο αν προσπαθήσατε εύλογα να πάρετε διατροφή (§ 4 UVG)."
+    ],
+    [
+     "Βασικό εισόδημα στα γηρατειά / μειωμένη ικανότητα εργασίας",
+     "Αρμόδια: υπηρεσία κοινωνικής πρόνοιας (Sozialamt). Η αίτηση ισχύει από την πρώτη ημέρα του μήνα που υποβάλλεται (§ 44(2) SGB XII)."
+    ],
+    [
+     "Σύνταξη και ασφαλιστικό ιστορικό",
+     "Αρμόδια: Deutsche Rentenversicherung. Ελέγξτε νωρίς το ιστορικό σας – μπορούν να μετρήσουν και περίοδοι στο εξωτερικό. Δωρεάν γραμμή: 0800 1000 4800."
+    ],
+    [
+     "Καμία απάντηση από την υπηρεσία;",
+     "Στείλτε ερώτηση πορείας (πρότυπο παρακάτω). Χωρίς απόφαση μπορείτε να προσφύγετε για αδράνεια: στο κοινωνικό δικαστήριο μετά από 6 μήνες, μετά από ένσταση μετά από 3 μήνες (§ 88 SGG)· στο διοικητικό δικαστήριο συνήθως μετά από 3 μήνες (§ 75 VwGO). Διαφορές για Elterngeld πάνε στο κοινωνικό δικαστήριο (§ 13 BEEG)· αλλιώς η απόφασή σας αναφέρει το δικαστήριο."
+    ],
+    [
+     "Βρείτε την αρμόδια υπηρεσία",
+     "Καλέστε τον αριθμό υπηρεσιών 115 ή χρησιμοποιήστε την αναζήτηση του Familienportal (σύνδεσμοι παρακάτω). Κρατήστε αντίγραφο και απόδειξη αποστολής κάθε αίτησης."
+    ]
+   ],
+   "deadlines": [
+    [
+     "Επίδομα στέγασης",
+     "από τον μήνα της αίτησης – όχι αναδρομικά"
+    ],
+    [
+     "Επίδομα τέκνων",
+     "από τον μήνα της αίτησης, ανά 6 μήνες"
+    ],
+    [
+     "Γονικό επίδομα",
+     "αναδρομικά έως 3 μήνες ζωής"
+    ],
+    [
+     "Προκαταβολή διατροφής",
+     "αναδρομικά έως 1 μήνα"
+    ],
+    [
+     "Βασικό εισόδημα (SGB XII)",
+     "από την 1η του μήνα της αίτησης"
+    ],
+    [
+     "Προσφυγή για αδράνεια",
+     "κοινωνικό δικαστήριο 6 μήνες (ένσταση 3), διοικητικό συνήθως 3 μήνες"
+    ]
+   ],
+   "contactsTitle": "Σημαντικές επαφές (πανελλαδικά στη Γερμανία)",
+   "contacts": [
+    [
+     "115",
+     "Αριθμός υπηρεσιών για όλες τις ερωτήσεις",
+     "115 (Mo–Fr 8–18 Uhr)",
+     "https://www.115.de/"
+    ],
+    [
+     "Familienkasse",
+     "Kindergeld και Kinderzuschlag (δωρεάν κλήση)",
+     "0800 4 5555 30",
+     "https://www.familienkasse.de/"
+    ],
+    [
+     "Deutsche Rentenversicherung",
+     "Σύνταξη, ασφαλιστικό ιστορικό (δωρεάν κλήση)",
+     "0800 1000 4800",
+     "https://www.deutsche-rentenversicherung.de/"
+    ],
+    [
+     "Familienportal",
+     "Βρείτε υπηρεσία Elterngeld, Jugendamt, υπηρεσία επιδόματος στέγασης",
+     "familienportal.de",
+     "https://familienportal.de/dynamic/action/familienportal/126404/suche"
+    ]
+   ],
+   "letters": {
+    "wohngeld": [
+     "Αίτηση επιδόματος στέγασης (άτυπη)",
+     "Εξασφαλίζει τον μήνα – τα έντυπα αργότερα."
+    ],
+    "kiz": [
+     "Αίτηση Kinderzuschlag",
+     "Προς τη Familienkasse."
+    ],
+    "uvg": [
+     "Αίτηση προκαταβολής διατροφής",
+     "Προς το Jugendamt."
+    ],
+    "grusi": [
+     "Αίτηση βασικού εισοδήματος (άτυπη)",
+     "Προς το Sozialamt."
+    ],
+    "rente": [
+     "Έλεγχος ασφαλιστικού ιστορικού και ενημέρωση σύνταξης",
+     "Προς την Deutsche Rentenversicherung."
+    ],
+    "sach": [
+     "Ερώτηση πορείας",
+     "Αν η υπηρεσία δεν απαντά για πολύ καιρό – για κάθε παροχή."
+    ]
+   }
+  },
+  "alltag": {
+   "title": "Καταγγελία σύμβασης κινητού, ένσταση σε εισπρακτική, αναφορά ελαττωμάτων, έλεγχος κοινοχρήστων στη Γερμανία – δωρεάν πρότυπα επιστολών",
+   "desc": "Πρότυπα επιστολών για την καθημερινότητα στη Γερμανία: καταγγελία (κινητό, ίντερνετ, γυμναστήριο, ασφάλεια), ένσταση σε εισπρακτική, αναφορά ελαττώματος στον ιδιοκτήτη, εκκαθάριση κοινοχρήστων, βεβαίωση εργασίας, εκκαθαριστικό. Προθεσμίες και βοήθεια, σε 13 γλώσσες.",
+   "h1": "Καθημερινότητα στη Γερμανία: καταγγελία συμβάσεων, ένσταση σε εισπρακτική, αναφορά ελαττωμάτων",
+   "intro": "Σημαντικό: γράφετε πάντα και κρατάτε απόδειξη (συστημένη, e-mail, σελίδα επιβεβαίωσης). Μην πληρώνετε βιαστικά μια απαίτηση εισπρακτικής – ελέγξτε πρώτα αν είναι βάσιμη. Βοήθεια: Verbraucherzentrale (κέντρο καταναλωτών) και Mieterverein (σύλλογος ενοικιαστών).",
+   "steps": [
+    [
+     "Καταγγελία σύμβασης κινητού ή ίντερνετ",
+     "Η πρώτη διάρκεια μπορεί να είναι το πολύ 24 μήνες. Αν μετά η σύμβαση ανανεώθηκε αυτόματα, μπορείτε να την καταγγείλετε οποτεδήποτε με προειδοποίηση 1 μήνα (§ 56 TKG). Πρότυπο παρακάτω: «Καταγγελία σύμβασης»."
+    ],
+    [
+     "Γυμναστήριο, συνδρομές και άλλες συμβάσεις διαρκείας",
+     "Όρος που σας δεσμεύει για πάνω από 2 χρόνια είναι άκυρος. Η αυτόματη ανανέωση ισχύει μόνο αν μετά μπορείτε να καταγγείλετε οποτεδήποτε με το πολύ 1 μήνα προειδοποίηση (§ 309 αρ. 9 BGB). Για την καταγγελία δεν μπορεί να απαιτείται αυστηρότερος τύπος από τον κειμενικό – αρκεί τότε ένα e-mail (§ 309 αρ. 13 BGB). Παλαιότερες συμβάσεις μπορεί να έχουν άλλους κανόνες: διαβάστε τη σύμβασή σας."
+    ],
+    [
+     "Εγγραφήκατε online; Χρησιμοποιήστε το κουμπί καταγγελίας",
+     "Αν κλείσατε τη σύμβαση σε ιστοσελίδα, αυτή πρέπει να έχει κουμπί «Verträge hier kündigen» (καταγγελία συμβάσεων εδώ) (§ 312k BGB). Αποθηκεύστε τη σελίδα επιβεβαίωσης και το e-mail. Αν λείπει το κουμπί, μπορείτε να καταγγείλετε οποτεδήποτε χωρίς προειδοποίηση."
+    ],
+    [
+     "Καταγγελία ασφαλιστηρίου",
+     "Η προθεσμία είναι στη σύμβασή σας – επιτρέπονται 1 έως 3 μήνες πριν το τέλος της ασφαλιστικής περιόδου. Αυτόματες ανανεώσεις πάνω από 1 χρόνο κάθε φορά είναι άκυρες. Συμβάσεις άνω των 3 ετών μπορούν να καταγγελθούν στο τέλος του 3ου έτους με προειδοποίηση 3 μηνών (§ 11 VVG)."
+    ],
+    [
+     "Επιστολή από εισπρακτική; Πρώτα ελέγξτε, μετά πληρώστε",
+     "Μην πληρώνετε υπό πίεση. Ήδη η πρώτη επιστολή πρέπει να αναφέρει: τον εντολέα, τη σύμβαση και την ημερομηνία σύναψής της, πώς υπολογίστηκαν τόκοι και έξοδα είσπραξης (§ 13a RDG). Αν η απαίτηση είναι λάθος, κάντε γραπτή ένσταση (πρότυπο παρακάτω). Δωρεάν έλεγχος: ο «Inkasso-Check» της Verbraucherzentrale. Οι απαιτήσεις συνήθως παραγράφονται μετά από 3 χρόνια, από το τέλος του έτους που γεννήθηκαν (§§ 195, 199 BGB)."
+    ],
+    [
+     "Διαταγή πληρωμής (Mahnbescheid) από το τοπικό δικαστήριο",
+     "Πάρτε σοβαρά μια δικαστική διαταγή πληρωμής. Αν αμφισβητείτε την απαίτηση, κάντε αντίρρηση εντός 2 εβδομάδων από την επίδοση (§ 692 ZPO) – ιδανικά με το συνημμένο έντυπο. Ζητήστε βοήθεια αμέσως, π.χ. από τη Verbraucherzentrale."
+    ],
+    [
+     "Αναφέρετε αμέσως ελαττώματα στο σπίτι",
+     "Μούχλα, χαλασμένη θέρμανση, ζημιά από νερό: αναφέρετε το ελάττωμα στον ιδιοκτήτη χωρίς καθυστέρηση (§ 536c BGB) – γραπτώς, με φωτογραφίες και ημερομηνία. Αν δεν το αναφέρετε, μπορεί να οφείλετε αποζημίωση και να χάσετε το δικαίωμα μείωσης ενοικίου. Αν το σπίτι χρησιμοποιείται μόνο εν μέρει, το ενοίκιο μπορεί να μειωθεί (§ 536 BGB). Μην μειώνετε όμως μόνοι σας το ενοίκιο – ρωτήστε πρώτα τον σύλλογο ενοικιαστών."
+    ],
+    [
+     "Ελέγξτε την εκκαθάριση κοινοχρήστων (Nebenkostenabrechnung)",
+     "Ο ιδιοκτήτης πρέπει να στείλει την εκκαθάριση το αργότερο 12 μήνες μετά το τέλος της περιόδου· μετά, κατά κανόνα, δεν μπορεί να απαιτήσει περισσότερα. Οι αντιρρήσεις σας πρέπει να φτάσουν στον ιδιοκτήτη το αργότερο 12 μήνες μετά την παραλαβή (§ 556(3) BGB). Ζητήστε να δείτε τα παραστατικά (πρότυπο παρακάτω). Ο σύλλογος ενοικιαστών συμβουλεύει τα μέλη του."
+    ],
+    [
+     "Βεβαίωση εργασίας και εκκαθαριστικό μισθοδοσίας",
+     "Όταν τελειώνει η εργασία σας δικαιούστε γραπτή βεβαίωση – κατόπιν αιτήματος και με αξιολόγηση απόδοσης και συμπεριφοράς (εκτενής βεβαίωση, § 109 GewO). Με κάθε πληρωμή μισθού ο εργοδότης πρέπει να σας δίνει εκκαθαριστικό σε κειμενική μορφή, εκτός αν δεν άλλαξε τίποτα (§ 108 GewO). Προσέξτε τις αποκλειστικές προθεσμίες (Ausschlussfristen) στη σύμβαση εργασίας ή συλλογική σύμβαση και διεκδικήστε γρήγορα και γραπτώς ό,τι λείπει."
+    ]
+   ],
+   "deadlines": [
+    [
+     "Κινητό/ίντερνετ μετά την ανανέωση",
+     "οποτεδήποτε, προειδοποίηση 1 μήνα (§ 56 TKG)"
+    ],
+    [
+     "Γυμναστήριο/συνδρομή μετά την πρώτη διάρκεια",
+     "το πολύ 1 μήνας προειδοποίηση (§ 309 αρ. 9 BGB)"
+    ],
+    [
+     "Ασφάλεια",
+     "1–3 μήνες πριν το τέλος της ασφαλιστικής περιόδου – βλ. σύμβαση"
+    ],
+    [
+     "Αντίρρηση σε διαταγή πληρωμής",
+     "2 εβδομάδες από την επίδοση"
+    ],
+    [
+     "Ελάττωμα στο σπίτι",
+     "αναφορά χωρίς καθυστέρηση"
+    ],
+    [
+     "Κοινόχρηστα – οι αντιρρήσεις σας",
+     "12 μήνες μετά την παραλαβή"
+    ],
+    [
+     "Παραγραφή (κανονική περίπτωση)",
+     "3 χρόνια από το τέλος του έτους"
+    ]
+   ],
+   "contactsTitle": "Βοήθεια και συμβουλές",
+   "contacts": [
+    [
+     "Verbraucherzentrale – Inkasso-Check",
+     "Δωρεάν online έλεγχος: πρέπει να πληρώσω;",
+     "verbraucherzentrale.de/inkasso-check",
+     "https://www.verbraucherzentrale.de/inkasso-check"
+    ],
+    [
+     "Verbraucherzentrale",
+     "Συμβουλές για συμβάσεις, εισπρακτικές, ασφάλειες – τοπικά κέντρα",
+     "verbraucherzentrale.de",
+     "https://www.verbraucherzentrale.de/"
+    ],
+    [
+     "Deutscher Mieterbund – Mieterverein vor Ort",
+     "Ενοίκιο, ελαττώματα, κοινόχρηστα – αναζήτηση με ταχυδρομικό κώδικα (με συνδρομή μέλους)",
+     "mieterbund.de",
+     "https://mieterbund.de/mieterverein-vor-ort/"
+    ],
+    [
+     "115",
+     "Αριθμός δημόσιας εξυπηρέτησης: ποια υπηρεσία είναι αρμόδια;",
+     "115",
+     "https://www.115.de/"
+    ]
+   ],
+   "letters": {
+    "kuend": [
+     "Καταγγελία σύμβασης (κινητό, ίντερνετ, γυμναστήριο, συνδρομή)",
+     "Για την πρώτη δυνατή ημερομηνία – με αίτημα επιβεβαίωσης."
+    ],
+    "kuendvers": [
+     "Καταγγελία ασφαλιστηρίου",
+     "Στο τέλος της ασφαλιστικής περιόδου."
+    ],
+    "inkasso": [
+     "Ένσταση κατά απαίτησης εισπρακτικής",
+     "Αν η απαίτηση είναι λάθος ή ασαφής."
+    ],
+    "maengel": [
+     "Αναφορά ελαττώματος στον ιδιοκτήτη",
+     "Μούχλα, θέρμανση, νερό – με προθεσμία επισκευής."
+    ],
+    "nk": [
+     "Αντιρρήσεις στην εκκαθάριση κοινοχρήστων",
+     "Με αίτημα να δείτε τα παραστατικά."
+    ],
+    "zeugnis": [
+     "Αίτημα για εκτενή βεβαίωση εργασίας",
+     "Προς τον (πρώην) εργοδότη σας."
+    ],
+    "lohn": [
+     "Αίτημα για εκκαθαριστικά μισθοδοσίας",
+     "Αν λείπουν εκκαθαριστικά."
+    ]
+   }
+  }
+ },
+ "fr": {
+  "ui": {
+   "blank": "Modèle vierge",
+   "example": "Exemple rempli",
+   "copy": "Copier le texte",
+   "copied": "Copié ✓",
+   "print": "Imprimer",
+   "fill": "Champs à remplir",
+   "purpose": "À quoi ça sert ?",
+   "letters": "Modèles de lettres",
+   "lettersNote": "Écrivez toujours en allemand aux administrations allemandes. Remplacez les champs jaunes par vos données. Gardez une copie et une preuve d'envoi (recommandé, rapport de fax ou e-mail).",
+   "help": "Aide gratuite",
+   "sources": "Base juridique",
+   "stand": "État au",
+   "disclaimer": "Informations générales, pas un conseil juridique. Faites vérifier votre situation par un centre de conseil ou un avocat.",
+   "home": "Tous les modèles de lettres",
+   "other": "Voir aussi",
+   "deadlines": "Les délais en un coup d'œil"
+  },
+  "aufenthalt": {
+   "title": "Titre de séjour ou visa qui expire en Allemagne – que faire ? Prolongation, Fiktionsbescheinigung, recours",
+   "desc": "Votre titre de séjour ou visa allemand expire ? Étape par étape : demander à temps, Fiktionsbescheinigung, audition, refus. Modèles de lettres gratuits, en 13 langues.",
+   "h1": "Titre de séjour ou visa qui expire en Allemagne – que faire ?",
+   "intro": "L'essentiel : demandez la prolongation avant l'expiration de votre titre – même si vous n'obtenez pas de rendez-vous. Votre titre reste alors valable jusqu'à la décision de l'administration.",
+   "steps": [
+    [
+     "Demander avant la date d'expiration",
+     "Si vous faites la demande avant l'expiration de votre titre, il reste valable jusqu'à la décision (§ 81(4) loi sur le séjour). Cela ne s'applique pas à un visa Schengen."
+    ],
+    [
+     "Pas de rendez-vous ? Faites la demande par écrit",
+     "N'attendez pas un rendez-vous. Envoyez la demande par écrit, via formulaire en ligne, fax ou e-mail avant l'expiration et gardez la preuve. Modèle ci-dessous : « Demande de prolongation »."
+    ],
+    [
+     "Demander une Fiktionsbescheinigung",
+     "L'administration doit vous remettre une attestation de l'effet de votre demande (§ 81(5)). Elle prouve aux employeurs, au Jobcenter et aux bailleurs que votre séjour est toujours autorisé. Votre ancien titre continue avec ses conditions – y compris l'autorisation de travail s'il la contenait."
+    ],
+    [
+     "Déjà expiré ?",
+     "Faites la demande immédiatement. En cas de demande tardive, l'administration peut ordonner le maintien de votre titre pour éviter une rigueur excessive – mais elle n'y est pas obligée. Allez en même temps dans un centre de conseil."
+    ],
+    [
+     "Demander avant de voyager à l'étranger",
+     "Avant tout voyage, demandez à votre Ausländerbehörde si vous pourrez revenir avec votre attestation."
+    ],
+    [
+     "Reçu une lettre d'audition (Anhörung) ?",
+     "Cela signifie généralement que l'administration envisage un refus. Répondez dans le délai avec vos motifs et documents. Modèle ci-dessous."
+    ],
+    [
+     "Reçu un refus ?",
+     "Lisez la « Rechtsbehelfsbelehrung » à la fin de la décision. Elle indique si vous devez former un recours (Widerspruch) auprès de l'administration ou une action (Klage) devant le tribunal administratif – cela varie selon les Länder – et le délai (en général 1 mois). Si elle manque ou est erronée, c'est en général 1 an (§ 58 VwGO)."
+    ],
+    [
+     "Attention : un recours ne vous protège pas automatiquement",
+     "Un recours ou une action contre le refus d'un titre de séjour n'a pas d'effet suspensif (§ 84(1) loi sur le séjour). Pour pouvoir rester jusqu'à la décision, il faut en général une demande en référé au tribunal administratif. Faites-vous aider immédiatement."
+    ],
+    [
+     "Agir en justice sans avocat",
+     "Vous pouvez introduire une action par écrit ou la faire enregistrer au greffe du tribunal administratif (§ 81 VwGO). Avec un faible revenu, vous pouvez obtenir la Beratungshilfe (demande au tribunal local, Amtsgericht) ou l'aide juridictionnelle."
+    ]
+   ],
+   "deadlines": [
+    [
+     "Demande de prolongation",
+     "avant l'expiration de votre titre"
+    ],
+    [
+     "Réponse à la lettre d'audition",
+     "le délai indiqué dans la lettre"
+    ],
+    [
+     "Recours ou action",
+     "en général 1 mois après la notification (voir Rechtsbehelfsbelehrung)"
+    ],
+    [
+     "Indications absentes ou erronées",
+     "en général 1 an (§ 58(2) VwGO)"
+    ]
+   ],
+   "letters": {
+    "verl": [
+     "Demande de prolongation",
+     "À envoyer avant l'expiration si vous n'obtenez pas de rendez-vous."
+    ],
+    "fikt": [
+     "Demande de Fiktionsbescheinigung",
+     "Si vous avez fait la demande à temps mais n'avez pas encore d'attestation."
+    ],
+    "anh": [
+     "Réponse à une lettre d'audition",
+     "Si l'administration envisage un refus et demande votre avis."
+    ],
+    "wid": [
+     "Recours contre le refus",
+     "Seulement si la Rechtsbehelfsbelehrung indique « Widerspruch ». Si elle indique « Klage », allez au tribunal administratif."
+    ],
+    "akte": [
+     "Demande de consultation du dossier",
+     "Pour voir ce que contient votre dossier."
+    ]
+   }
+  },
+  "abschiebung": {
+   "title": "Menace d'expulsion en Allemagne – que faire ? Délais, Duldung, commission des cas de rigueur, aide gratuite",
+   "desc": "Vous avez reçu une obligation de quitter le territoire ou un avertissement d'expulsion en Allemagne ? Délais, démarches urgentes, Duldung, certificat médical, commission des cas de rigueur. Modèles de lettres gratuits en 13 langues.",
+   "h1": "Menace d'expulsion en Allemagne – ce qui compte maintenant",
+   "intro": "Agissez immédiatement. Les délais sont courts et, après le délai de départ, la date de l'expulsion n'est pas annoncée (§ 59(1) loi sur le séjour). Allez dès aujourd'hui dans un centre de conseil gratuit.",
+   "steps": [
+    [
+     "Lisez attentivement la lettre",
+     "Repérez le délai de départ (normalement 7 à 30 jours) et la « Rechtsbehelfsbelehrung » avec le délai de recours ou d'action. Notez la date de réception."
+    ],
+    [
+     "Faites-vous conseiller aujourd'hui",
+     "Aide gratuite : centres de conseil aux migrants, conseils pour les réfugiés et services de conseil juridique – liens ci-dessous. Avec un faible revenu, le tribunal local (Amtsgericht) vous délivre un Beratungshilfeschein pour un avocat."
+    ],
+    [
+     "Décision d'asile du BAMF ?",
+     "Des délais très courts s'appliquent : action en général sous 2 semaines, dans certains cas 1 semaine (§ 74 loi sur l'asile). N'attendez pas un seul jour."
+    ],
+    [
+     "Demande de consultation du dossier",
+     "Vous ou votre conseiller pouvez consulter votre dossier. Modèle ci-dessous."
+    ],
+    [
+     "Malade ? Obtenez tout de suite un certificat médical",
+     "Une maladie n'est prise en compte que si vous remettez sans délai un certificat médical qualifié. Il doit contenir : diagnostic, gravité, code CIM-10, conséquences sans traitement et médicaments avec leur principe actif (§ 60a(2c), (2d))."
+    ],
+    [
+     "Expulsion impossible ? Demandez une Duldung",
+     "Si l'expulsion est impossible pour des raisons de fait ou de droit – p. ex. sans passeport – elle doit être suspendue (Duldung, § 60a(2)). Une Duldung peut aussi être accordée pour des raisons humanitaires ou personnelles urgentes."
+    ],
+    [
+     "Plus de temps pour partir",
+     "Le délai de départ peut être prolongé dans certains cas (§ 59(1)), p. ex. pour la scolarité des enfants ou la restitution du logement. Modèle ci-dessous."
+    ],
+    [
+     "Commission des cas de rigueur",
+     "Chaque Land a une commission des cas de rigueur (Härtefallkommission, § 23a). Elle décide elle-même de se saisir ou non d'un cas. Généralement exclus : crimes graves, ou si une date d'expulsion concrète est déjà fixée. Passez de préférence par un centre de conseil."
+    ],
+    [
+     "Interdiction d'entrée",
+     "Après une expulsion, une interdiction d'entrée s'applique généralement (§ 11). Elle peut être réduite ou levée, p. ex. pour des raisons personnelles dignes de protection."
+    ],
+    [
+     "Gardez les papiers importants à portée de main",
+     "Copies du passeport, des décisions, du contrat de travail, des documents scolaires et médicaux. Donnez le numéro de votre conseiller ou avocat à une personne de confiance."
+    ]
+   ],
+   "deadlines": [
+    [
+     "Départ volontaire",
+     "en général 7–30 jours (§ 59)"
+    ],
+    [
+     "Recours/action (Ausländerbehörde)",
+     "en général 1 mois – voir Rechtsbehelfsbelehrung"
+    ],
+    [
+     "Action contre une décision d'asile du BAMF",
+     "2 semaines, dans certains cas 1 semaine (§ 74 AsylG)"
+    ],
+    [
+     "Certificat médical",
+     "sans délai (§ 60a(2d))"
+    ]
+   ],
+   "letters": {
+    "akte": [
+     "Demande de consultation du dossier",
+     "Pour voir ce que contient votre dossier."
+    ],
+    "dul": [
+     "Demande de Duldung",
+     "Si l'expulsion n'est pas possible, p. ex. sans passeport."
+    ],
+    "frist": [
+     "Prolongation du délai de départ",
+     "Si vous avez besoin de plus de temps pour partir volontairement."
+    ],
+    "arzt": [
+     "Transmission d'un certificat médical",
+     "Lettre d'accompagnement du certificat de votre médecin."
+    ],
+    "hfk": [
+     "Demande à la commission des cas de rigueur",
+     "De préférence à déposer avec un centre de conseil."
+    ]
+   }
+  },
+  "sozial": {
+   "title": "Aide au logement, complément pour enfants, allocation parentale, avance sur pension alimentaire, revenu de base, retraite – demandes et modèles de lettres",
+   "desc": "Demander correctement les prestations sociales allemandes : à partir de quand elles sont versées, quel service est compétent, délais et modèles de lettres gratuits (demande informelle, relance). En 13 langues.",
+   "h1": "Demander des prestations sociales en Allemagne – sans perdre d'argent",
+   "intro": "Le conseil le plus important : faites la demande immédiatement – une courte lettre informelle suffit. L'aide au logement, le Kinderzuschlag et le revenu de base ne sont versés qu'à partir du mois où la demande arrive. Les formulaires et justificatifs peuvent suivre.",
+   "steps": [
+    [
+     "Aide au logement (Wohngeld)",
+     "Compétent : le service de l'aide au logement de votre commune. Versée à partir du premier jour du mois de la demande (§ 25(2) WoGG). Les bénéficiaires du Grundsicherungsgeld (anciennement Bürgergeld) ou d'un revenu de base couvrant le logement ne reçoivent pas d'aide au logement en plus (§ 7 WoGG)."
+    ],
+    [
+     "Complément pour enfants (Kinderzuschlag)",
+     "Pour les parents à faible revenu qui perçoivent le Kindergeld. Compétent : Familienkasse. Versé à partir du mois de la demande, accordé pour 6 mois – ensuite nouvelle demande (§ 6a BKGG)."
+    ],
+    [
+     "Allocation parentale (Elterngeld)",
+     "Compétent : le service Elterngeld de votre Land ou district. Rétroactif seulement pour les 3 derniers mois de vie de l'enfant avant le mois d'arrivée de la demande (§ 7 BEEG). Faites donc la demande au plus tard au 3e mois de l'enfant."
+    ],
+    [
+     "Avance sur pension alimentaire (Unterhaltsvorschuss)",
+     "Si l'autre parent ne paie pas la pension alimentaire. Compétent : l'office de la jeunesse (Jugendamt). Rétroactif au maximum pour le mois précédant la demande – et seulement si vous avez fait des efforts raisonnables pour obtenir la pension (§ 4 UVG)."
+    ],
+    [
+     "Revenu de base pour personnes âgées / capacité de travail réduite",
+     "Compétent : le service social (Sozialamt). La demande prend effet le premier jour du mois où elle est faite (§ 44(2) SGB XII)."
+    ],
+    [
+     "Retraite et relevé de carrière",
+     "Compétent : Deutsche Rentenversicherung. Faites vérifier votre relevé tôt – les périodes à l'étranger peuvent aussi compter. Ligne gratuite : 0800 1000 4800."
+    ],
+    [
+     "Pas de réponse du service ?",
+     "Envoyez une relance (modèle ci-dessous). Sans décision, vous pouvez agir pour inaction : au tribunal social après 6 mois, après un recours après 3 mois (§ 88 SGG) ; au tribunal administratif généralement après 3 mois (§ 75 VwGO). Les litiges sur l'Elterngeld vont au tribunal social (§ 13 BEEG) ; sinon votre décision indique le tribunal."
+    ],
+    [
+     "Trouver le service compétent",
+     "Appelez le numéro des administrations 115 ou utilisez la recherche du Familienportal (liens ci-dessous). Gardez une copie et une preuve d'envoi de chaque demande."
+    ]
+   ],
+   "deadlines": [
+    [
+     "Aide au logement",
+     "à partir du mois de la demande – pas de rétroactivité"
+    ],
+    [
+     "Complément pour enfants",
+     "à partir du mois de la demande, par périodes de 6 mois"
+    ],
+    [
+     "Allocation parentale",
+     "rétroactif max. 3 mois de vie"
+    ],
+    [
+     "Avance sur pension alimentaire",
+     "rétroactif max. 1 mois"
+    ],
+    [
+     "Revenu de base (SGB XII)",
+     "à partir du 1er du mois de la demande"
+    ],
+    [
+     "Action pour inaction",
+     "tribunal social 6 mois (recours 3), tribunal administratif généralement 3 mois"
+    ]
+   ],
+   "contactsTitle": "Contacts importants (pour toute l'Allemagne)",
+   "contacts": [
+    [
+     "115",
+     "Numéro des administrations pour toutes les questions",
+     "115 (Mo–Fr 8–18 Uhr)",
+     "https://www.115.de/"
+    ],
+    [
+     "Familienkasse",
+     "Kindergeld et Kinderzuschlag (appel gratuit)",
+     "0800 4 5555 30",
+     "https://www.familienkasse.de/"
+    ],
+    [
+     "Deutsche Rentenversicherung",
+     "Retraite, relevé de carrière (appel gratuit)",
+     "0800 1000 4800",
+     "https://www.deutsche-rentenversicherung.de/"
+    ],
+    [
+     "Familienportal",
+     "Trouver le service Elterngeld, le Jugendamt, le service de l'aide au logement",
+     "familienportal.de",
+     "https://familienportal.de/dynamic/action/familienportal/126404/suche"
+    ]
+   ],
+   "letters": {
+    "wohngeld": [
+     "Demande d'aide au logement (informelle)",
+     "Garantit le mois – formulaires plus tard."
+    ],
+    "kiz": [
+     "Demande de Kinderzuschlag",
+     "À la Familienkasse."
+    ],
+    "uvg": [
+     "Demande d'avance sur pension alimentaire",
+     "Au Jugendamt."
+    ],
+    "grusi": [
+     "Demande de revenu de base (informelle)",
+     "Au Sozialamt."
+    ],
+    "rente": [
+     "Vérification du relevé de carrière et information retraite",
+     "À la Deutsche Rentenversicherung."
+    ],
+    "sach": [
+     "Relance sur l'état du dossier",
+     "Si le service ne répond pas pendant longtemps – pour toute prestation."
+    ]
+   }
+  },
+  "alltag": {
+   "title": "Résilier un forfait mobile, contester un recouvrement, signaler des défauts, vérifier les charges en Allemagne – modèles de lettres gratuits",
+   "desc": "Modèles de lettres du quotidien en Allemagne : résiliation (mobile, internet, salle de sport, assurance), contestation d'un recouvrement, signalement de défaut au bailleur, décompte des charges, certificat de travail, fiche de paie. Délais et aide, en 13 langues.",
+   "h1": "Le quotidien en Allemagne : résilier des contrats, contester un recouvrement, signaler des défauts",
+   "intro": "Important : écrivez toujours et gardez une preuve (recommandé, e-mail, page de confirmation). Ne payez pas dans la précipitation une demande d'une société de recouvrement – vérifiez d'abord si elle est fondée. Aide : Verbraucherzentrale (centre de consommateurs) et Mieterverein (association de locataires).",
+   "steps": [
+    [
+     "Résilier un contrat mobile ou internet",
+     "La première durée peut être de 24 mois au maximum. Si le contrat a ensuite été prolongé automatiquement, vous pouvez résilier à tout moment avec un préavis d'1 mois (§ 56 TKG). Modèle ci-dessous : « Résiliation d'un contrat »."
+    ],
+    [
+     "Salle de sport, abonnements et autres contrats en cours",
+     "Une clause qui vous engage plus de 2 ans est nulle. Une prolongation automatique ne vaut que si vous pouvez ensuite résilier à tout moment avec un préavis d'1 mois maximum (§ 309 n° 9 BGB). Aucune forme plus stricte que la forme textuelle ne peut être exigée pour résilier – un e-mail suffit alors (§ 309 n° 13 BGB). Les contrats plus anciens peuvent suivre d'autres règles : lisez votre contrat."
+    ],
+    [
+     "Inscrit en ligne ? Utilisez le bouton de résiliation",
+     "Si vous avez conclu le contrat sur un site web, celui-ci doit proposer un bouton « Verträge hier kündigen » (résilier les contrats ici) (§ 312k BGB). Enregistrez la page de confirmation et l'e-mail. Si le bouton manque, vous pouvez résilier à tout moment sans préavis."
+    ],
+    [
+     "Résilier une assurance",
+     "Le préavis figure dans votre contrat – 1 à 3 mois avant la fin de la période d'assurance sont autorisés. Les prolongations automatiques de plus d'1 an à la fois sont nulles. Les contrats de plus de 3 ans peuvent être résiliés à la fin de la 3e année avec 3 mois de préavis (§ 11 VVG)."
+    ],
+    [
+     "Lettre d'une société de recouvrement ? D'abord vérifier, ensuite payer",
+     "Ne payez pas sous la pression. La première lettre doit déjà indiquer : le créancier, le contrat et sa date de conclusion, le calcul des intérêts et des frais de recouvrement (§ 13a RDG). Si la créance est erronée, contestez par écrit (modèle ci-dessous). Vérification gratuite : l'« Inkasso-Check » de la Verbraucherzentrale. Les créances se prescrivent en général après 3 ans, à compter de la fin de l'année où elles sont nées (§§ 195, 199 BGB)."
+    ],
+    [
+     "Injonction de payer (Mahnbescheid) du tribunal local",
+     "Prenez au sérieux une injonction de payer du tribunal. Si vous contestez la créance, faites opposition dans les 2 semaines suivant la notification (§ 692 ZPO) – idéalement avec le formulaire joint. Faites-vous aider tout de suite, p. ex. par la Verbraucherzentrale."
+    ],
+    [
+     "Signalez immédiatement les défauts du logement",
+     "Moisissure, chauffage en panne, dégât des eaux : signalez le défaut au bailleur sans tarder (§ 536c BGB) – par écrit, avec photos et date. Si vous ne le signalez pas, vous pouvez devoir des dommages-intérêts et perdre le droit à une réduction de loyer. Si le logement n'est utilisable qu'en partie, le loyer peut être réduit (§ 536 BGB). Mais ne réduisez pas le loyer de vous-même – demandez d'abord à l'association de locataires."
+    ],
+    [
+     "Faites vérifier votre décompte de charges (Nebenkostenabrechnung)",
+     "Le bailleur doit envoyer le décompte au plus tard 12 mois après la fin de la période de décompte ; ensuite, en règle générale, il ne peut plus réclamer davantage. Vos objections doivent parvenir au bailleur au plus tard 12 mois après réception du décompte (§ 556(3) BGB). Demandez à voir les justificatifs (modèle ci-dessous). L'association de locataires conseille ses membres."
+    ],
+    [
+     "Certificat de travail et fiche de paie",
+     "À la fin de votre emploi, vous avez droit à un certificat de travail écrit – sur demande avec une évaluation du travail et du comportement (certificat qualifié, § 109 GewO). À chaque paiement du salaire, l'employeur doit vous remettre une fiche de paie sous forme textuelle, sauf si rien n'a changé (§ 108 GewO). Attention aux délais de forclusion (Ausschlussfristen) de votre contrat de travail ou convention collective : réclamez vite par écrit ce qui manque."
+    ]
+   ],
+   "deadlines": [
+    [
+     "Mobile/internet après prolongation",
+     "à tout moment, préavis d'1 mois (§ 56 TKG)"
+    ],
+    [
+     "Salle de sport/abonnement après la première durée",
+     "préavis d'1 mois maximum (§ 309 n° 9 BGB)"
+    ],
+    [
+     "Assurance",
+     "1–3 mois avant la fin de la période d'assurance – voir contrat"
+    ],
+    [
+     "Opposition à une injonction de payer",
+     "2 semaines après la notification"
+    ],
+    [
+     "Défaut dans le logement",
+     "à signaler sans tarder"
+    ],
+    [
+     "Charges – vos objections",
+     "12 mois après réception"
+    ],
+    [
+     "Prescription (cas normal)",
+     "3 ans à compter de la fin de l'année"
+    ]
+   ],
+   "contactsTitle": "Aide et conseil",
+   "contacts": [
+    [
+     "Verbraucherzentrale – Inkasso-Check",
+     "Vérification gratuite en ligne : dois-je payer ?",
+     "verbraucherzentrale.de/inkasso-check",
+     "https://www.verbraucherzentrale.de/inkasso-check"
+    ],
+    [
+     "Verbraucherzentrale",
+     "Conseil sur les contrats, le recouvrement, les assurances – centres locaux",
+     "verbraucherzentrale.de",
+     "https://www.verbraucherzentrale.de/"
+    ],
+    [
+     "Deutscher Mieterbund – Mieterverein vor Ort",
+     "Loyer, défauts, charges – recherche par code postal (adhésion)",
+     "mieterbund.de",
+     "https://mieterbund.de/mieterverein-vor-ort/"
+    ],
+    [
+     "115",
+     "Numéro du service public : quel service est compétent ?",
+     "115",
+     "https://www.115.de/"
+    ]
+   ],
+   "letters": {
+    "kuend": [
+     "Résiliation d'un contrat (mobile, internet, salle de sport, abonnement)",
+     "À la date la plus proche possible – avec demande de confirmation."
+    ],
+    "kuendvers": [
+     "Résiliation d'une assurance",
+     "Pour la fin de la période d'assurance."
+    ],
+    "inkasso": [
+     "Contestation d'une créance de recouvrement",
+     "Si la créance est erronée ou peu claire."
+    ],
+    "maengel": [
+     "Signalement de défaut au bailleur",
+     "Moisissure, chauffage, eau – avec un délai de réparation."
+    ],
+    "nk": [
+     "Objections au décompte de charges",
+     "Avec demande de consultation des justificatifs."
+    ],
+    "zeugnis": [
+     "Demande de certificat de travail qualifié",
+     "À votre (ancien) employeur."
+    ],
+    "lohn": [
+     "Demande de fiches de paie",
+     "Si des fiches de paie manquent."
+    ]
+   }
+  }
+ },
+ "nl": {
+  "ui": {
+   "blank": "Leeg sjabloon",
+   "example": "Ingevuld voorbeeld",
+   "copy": "Tekst kopiëren",
+   "copied": "Gekopieerd ✓",
+   "print": "Afdrukken",
+   "fill": "In te vullen velden",
+   "purpose": "Waarvoor?",
+   "letters": "Briefsjablonen",
+   "lettersNote": "Schrijf Duitse instanties altijd in het Duits. Vervang de gele velden door uw gegevens. Bewaar een kopie en een verzendbewijs (aangetekend, faxrapport of e-mail).",
+   "help": "Gratis hulp",
+   "sources": "Rechtsgrondslag",
+   "stand": "Stand",
+   "disclaimer": "Algemene informatie, geen juridisch advies. Laat uw situatie controleren door een adviescentrum of advocaat.",
+   "home": "Alle briefsjablonen",
+   "other": "Zie ook",
+   "deadlines": "Termijnen in één oogopslag"
+  },
+  "aufenthalt": {
+   "title": "Verblijfsvergunning of visum in Duitsland verloopt – wat nu? Verlenging, Fiktionsbescheinigung, bezwaar",
+   "desc": "Uw Duitse verblijfsvergunning of visum verloopt? Stap voor stap: op tijd aanvragen, Fiktionsbescheinigung, hoorbrief, afwijzing. Gratis briefsjablonen, in 13 talen.",
+   "h1": "Verblijfsvergunning of visum in Duitsland verloopt – wat nu?",
+   "intro": "Het belangrijkste: vraag de verlenging aan voordat uw vergunning verloopt – ook als u geen afspraak krijgt. Uw vergunning blijft dan geldig tot de instantie beslist.",
+   "steps": [
+    [
+     "Aanvragen vóór de vervaldatum",
+     "Vraagt u aan voordat uw vergunning verloopt, dan blijft die geldig tot de beslissing (§ 81(4) Verblijfswet). Dit geldt niet voor een Schengenvisum."
+    ],
+    [
+     "Geen afspraak? Vraag schriftelijk aan",
+     "Wacht niet op een afspraak. Stuur de aanvraag vóór de vervaldatum schriftelijk, via onlineformulier, fax of e-mail, en bewaar het bewijs. Sjabloon hieronder: „Aanvraag verlenging”."
+    ],
+    [
+     "Vraag om een Fiktionsbescheinigung",
+     "De instantie moet u een verklaring geven over het effect van uw aanvraag (§ 81(5)). Die bewijst tegenover werkgevers, het Jobcenter en verhuurders dat uw verblijf nog toegestaan is. Uw oude vergunning loopt door met haar voorwaarden – ook de werktoestemming als die erin stond."
+    ],
+    [
+     "Al verlopen?",
+     "Vraag onmiddellijk aan. Bij een te late aanvraag kan de instantie bepalen dat uw vergunning doorloopt om onredelijke hardheid te voorkomen – maar dat hoeft niet. Ga tegelijk naar een adviescentrum."
+    ],
+    [
+     "Vraag het vóór een reis naar het buitenland",
+     "Vraag vóór elke reis aan uw Ausländerbehörde of u met uw verklaring terug kunt komen."
+    ],
+    [
+     "Een hoorbrief (Anhörung) ontvangen?",
+     "Dit betekent meestal dat de instantie van plan is af te wijzen. Antwoord binnen de termijn met uw redenen en documenten. Sjabloon hieronder."
+    ],
+    [
+     "Een afwijzing ontvangen?",
+     "Lees de „Rechtsbehelfsbelehrung” aan het eind van het besluit. Daarin staat of u bezwaar (Widerspruch) bij de instantie of beroep (Klage) bij de bestuursrechter moet instellen – dat verschilt per deelstaat – en de termijn (meestal 1 maand). Ontbreekt die of is die fout, dan geldt meestal 1 jaar (§ 58 VwGO)."
+    ],
+    [
+     "Let op: bezwaar beschermt u niet automatisch",
+     "Bezwaar of beroep tegen de weigering van een verblijfsvergunning heeft geen schorsende werking (§ 84(1) Verblijfswet). Om tot de beslissing te mogen blijven is meestal een spoedverzoek bij de bestuursrechter nodig. Zoek direct hulp."
+    ],
+    [
+     "Beroep instellen zonder advocaat",
+     "U kunt schriftelijk beroep instellen of het laten opnemen bij de griffie van de bestuursrechter (§ 81 VwGO). Met een laag inkomen kunt u Beratungshilfe krijgen (aanvragen bij het kantongerecht, Amtsgericht) of rechtsbijstand."
+    ]
+   ],
+   "deadlines": [
+    [
+     "Verlengingsaanvraag",
+     "vóór uw vergunning verloopt"
+    ],
+    [
+     "Antwoord op hoorbrief",
+     "de termijn in de brief"
+    ],
+    [
+     "Bezwaar of beroep",
+     "meestal 1 maand na betekening (zie Rechtsbehelfsbelehrung)"
+    ],
+    [
+     "Uitleg ontbreekt of is fout",
+     "meestal 1 jaar (§ 58(2) VwGO)"
+    ]
+   ],
+   "letters": {
+    "verl": [
+     "Aanvraag verlenging",
+     "Stuur vóór de vervaldatum als u geen afspraak krijgt."
+    ],
+    "fikt": [
+     "Verzoek om een Fiktionsbescheinigung",
+     "Als u op tijd hebt aangevraagd maar nog geen verklaring hebt."
+    ],
+    "anh": [
+     "Antwoord op een hoorbrief",
+     "Als de instantie wil afwijzen en om uw standpunt vraagt."
+    ],
+    "wid": [
+     "Bezwaar tegen de afwijzing",
+     "Alleen als in de Rechtsbehelfsbelehrung „Widerspruch” staat. Staat er „Klage”, ga dan naar de bestuursrechter."
+    ],
+    "akte": [
+     "Verzoek om inzage in uw dossier",
+     "Om te zien wat er in uw dossier staat."
+    ]
+   }
+  },
+  "abschiebung": {
+   "title": "Dreigende uitzetting in Duitsland – wat nu? Termijnen, Duldung, hardheidscommissie, gratis hulp",
+   "desc": "Een vertrekplicht of uitzettingsaankondiging ontvangen in Duitsland? Termijnen, dringende stappen, Duldung, medische verklaring, hardheidscommissie. Gratis briefsjablonen in 13 talen.",
+   "h1": "Dreigende uitzetting in Duitsland – wat nu telt",
+   "intro": "Handel onmiddellijk. De termijnen zijn kort en na de vertrektermijn wordt de datum van uitzetting niet aangekondigd (§ 59(1) Verblijfswet). Ga vandaag nog naar een gratis adviescentrum.",
+   "steps": [
+    [
+     "Lees de brief zorgvuldig",
+     "Zoek de vertrektermijn (normaal 7 tot 30 dagen) en de „Rechtsbehelfsbelehrung” met de termijn voor bezwaar of beroep. Noteer de datum van ontvangst."
+    ],
+    [
+     "Vraag vandaag advies",
+     "Gratis hulp: migratieadviescentra, vluchtelingenraden en juridische adviesdiensten – links hieronder. Met een laag inkomen geeft het kantongerecht (Amtsgericht) u een Beratungshilfeschein voor een advocaat."
+    ],
+    [
+     "Asielbesluit van het BAMF?",
+     "Er gelden heel korte termijnen: beroep meestal binnen 2 weken, in bepaalde gevallen 1 week (§ 74 Asielwet). Wacht geen dag."
+    ],
+    [
+     "Verzoek om inzage in uw dossier",
+     "U of uw adviseur mag uw dossier inzien. Sjabloon hieronder."
+    ],
+    [
+     "Ziek? Haal meteen een medische verklaring",
+     "Een ziekte telt alleen mee als u zonder uitstel een gekwalificeerde medische verklaring indient. Die moet bevatten: diagnose, ernst, ICD-10-code, gevolgen zonder behandeling en medicijnen met hun werkzame stof (§ 60a(2c), (2d))."
+    ],
+    [
+     "Uitzetting onmogelijk? Vraag een Duldung aan",
+     "Is uitzetting om feitelijke of juridische redenen onmogelijk – bijv. zonder paspoort – dan moet ze worden opgeschort (Duldung, § 60a(2)). Een Duldung kan ook worden verleend om dringende humanitaire of persoonlijke redenen."
+    ],
+    [
+     "Meer tijd om te vertrekken",
+     "De vertrektermijn kan in individuele gevallen worden verlengd (§ 59(1)), bijv. voor de school van de kinderen of het opzeggen van de woning. Sjabloon hieronder."
+    ],
+    [
+     "Hardheidscommissie",
+     "Elke deelstaat heeft een hardheidscommissie (Härtefallkommission, § 23a). Die beslist zelf of ze een zaak behandelt. Meestal uitgesloten: zware misdrijven, of als er al een concrete uitzettingsdatum vaststaat. Ga bij voorkeur via een adviescentrum."
+    ],
+    [
+     "Inreisverbod",
+     "Na uitzetting geldt meestal een inreisverbod (§ 11). Dat kan worden verkort of opgeheven, bijv. om beschermenswaardige persoonlijke redenen."
+    ],
+    [
+     "Houd belangrijke papieren klaar",
+     "Kopieën van paspoort, besluiten, arbeidscontract, school- en medische documenten. Geef het telefoonnummer van uw adviseur of advocaat aan iemand die u vertrouwt."
+    ]
+   ],
+   "deadlines": [
+    [
+     "Vrijwillig vertrek",
+     "meestal 7–30 dagen (§ 59)"
+    ],
+    [
+     "Bezwaar/beroep (Ausländerbehörde)",
+     "meestal 1 maand – zie Rechtsbehelfsbelehrung"
+    ],
+    [
+     "Beroep tegen asielbesluit van het BAMF",
+     "2 weken, in bepaalde gevallen 1 week (§ 74 AsylG)"
+    ],
+    [
+     "Medische verklaring",
+     "zonder uitstel (§ 60a(2d))"
+    ]
+   ],
+   "letters": {
+    "akte": [
+     "Verzoek om inzage in uw dossier",
+     "Om te zien wat er in uw dossier staat."
+    ],
+    "dul": [
+     "Aanvraag Duldung",
+     "Als uitzetting niet mogelijk is, bijv. zonder paspoort."
+    ],
+    "frist": [
+     "Verlenging van de vertrektermijn",
+     "Als u meer tijd nodig hebt om vrijwillig te vertrekken."
+    ],
+    "arzt": [
+     "Indienen van een medische verklaring",
+     "Begeleidende brief bij de verklaring van uw arts."
+    ],
+    "hfk": [
+     "Verzoek aan de hardheidscommissie",
+     "Bij voorkeur samen met een adviescentrum indienen."
+    ]
+   }
+  },
+  "sozial": {
+   "title": "Huurtoeslag, kindertoeslag, ouderschapsuitkering, voorschot alimentatie, basisinkomen, pensioen – aanvragen & briefsjablonen",
+   "desc": "Duitse sociale uitkeringen goed aanvragen: vanaf wanneer ze worden betaald, welke instantie bevoegd is, termijnen en gratis briefsjablonen (informele aanvraag, navraag stand van zaken). In 13 talen.",
+   "h1": "Sociale uitkeringen aanvragen in Duitsland – zonder geld te verliezen",
+   "intro": "De belangrijkste tip: vraag meteen aan – een korte informele brief is genoeg. Wohngeld, Kinderzuschlag en het basisinkomen worden pas betaald vanaf de maand waarin de aanvraag binnenkomt. Formulieren en bewijsstukken kunnen later volgen.",
+   "steps": [
+    [
+     "Huurtoeslag (Wohngeld)",
+     "Bevoegd: het Wohngeld-loket van uw gemeente. Betaald vanaf de eerste dag van de maand van aanvraag (§ 25(2) WoGG). Wie Grundsicherungsgeld (voorheen Bürgergeld) of een basisinkomen ontvangt dat de woonkosten dekt, krijgt geen extra Wohngeld (§ 7 WoGG)."
+    ],
+    [
+     "Kindertoeslag (Kinderzuschlag)",
+     "Voor ouders met een laag inkomen die Kindergeld krijgen. Bevoegd: Familienkasse. Betaald vanaf de maand van aanvraag, telkens voor 6 maanden – daarna opnieuw aanvragen (§ 6a BKGG)."
+    ],
+    [
+     "Ouderschapsuitkering (Elterngeld)",
+     "Bevoegd: het Elterngeld-loket van uw deelstaat of district. Met terugwerkende kracht alleen voor de laatste 3 levensmaanden van het kind vóór de maand waarin de aanvraag binnenkomt (§ 7 BEEG). Vraag dus uiterlijk in de 3e levensmaand aan."
+    ],
+    [
+     "Voorschot alimentatie (Unterhaltsvorschuss)",
+     "Als de andere ouder geen kinderalimentatie betaalt. Bevoegd: de jeugddienst (Jugendamt). Met terugwerkende kracht hoogstens voor de maand vóór de aanvraag – en alleen als u redelijke moeite hebt gedaan om alimentatie te krijgen (§ 4 UVG)."
+    ],
+    [
+     "Basisinkomen bij ouderdom / verminderde arbeidsgeschiktheid",
+     "Bevoegd: de sociale dienst (Sozialamt). De aanvraag werkt vanaf de eerste dag van de maand waarin ze wordt ingediend (§ 44(2) SGB XII)."
+    ],
+    [
+     "Pensioen en verzekeringsverloop",
+     "Bevoegd: Deutsche Rentenversicherung. Laat uw verzekeringsverloop vroeg controleren – ook perioden in het buitenland kunnen meetellen. Gratis servicenummer: 0800 1000 4800."
+    ],
+    [
+     "Geen antwoord van de instantie?",
+     "Stuur een navraag naar de stand van zaken (sjabloon hieronder). Zonder besluit kunt u beroep wegens niet-beslissen instellen: bij de sociale rechter na 6 maanden, na bezwaar na 3 maanden (§ 88 SGG); bij de bestuursrechter meestal na 3 maanden (§ 75 VwGO). Geschillen over Elterngeld gaan naar de sociale rechter (§ 13 BEEG); anders staat de rechter in uw besluit."
+    ],
+    [
+     "Vind de bevoegde instantie",
+     "Bel het overheidsnummer 115 of gebruik de zoekfunctie van het Familienportal (links hieronder). Bewaar van elke aanvraag een kopie en een verzendbewijs."
+    ]
+   ],
+   "deadlines": [
+    [
+     "Huurtoeslag",
+     "vanaf de maand van aanvraag – niet met terugwerkende kracht"
+    ],
+    [
+     "Kindertoeslag",
+     "vanaf de maand van aanvraag, telkens 6 maanden"
+    ],
+    [
+     "Ouderschapsuitkering",
+     "terugwerkend max. 3 levensmaanden"
+    ],
+    [
+     "Voorschot alimentatie",
+     "terugwerkend max. 1 maand"
+    ],
+    [
+     "Basisinkomen (SGB XII)",
+     "vanaf de 1e van de aanvraagmaand"
+    ],
+    [
+     "Beroep wegens niet-beslissen",
+     "sociale rechter 6 maanden (bezwaar 3), bestuursrechter meestal 3 maanden"
+    ]
+   ],
+   "contactsTitle": "Belangrijke contacten (heel Duitsland)",
+   "contacts": [
+    [
+     "115",
+     "Overheidsnummer voor alle vragen over instanties",
+     "115 (Mo–Fr 8–18 Uhr)",
+     "https://www.115.de/"
+    ],
+    [
+     "Familienkasse",
+     "Kindergeld en Kinderzuschlag (gratis)",
+     "0800 4 5555 30",
+     "https://www.familienkasse.de/"
+    ],
+    [
+     "Deutsche Rentenversicherung",
+     "Pensioen, verzekeringsverloop (gratis)",
+     "0800 1000 4800",
+     "https://www.deutsche-rentenversicherung.de/"
+    ],
+    [
+     "Familienportal",
+     "Vind het Elterngeld-loket, Jugendamt, Wohngeld-loket",
+     "familienportal.de",
+     "https://familienportal.de/dynamic/action/familienportal/126404/suche"
+    ]
+   ],
+   "letters": {
+    "wohngeld": [
+     "Aanvraag huurtoeslag (informeel)",
+     "Stelt de maand veilig – formulieren later."
+    ],
+    "kiz": [
+     "Aanvraag Kinderzuschlag",
+     "Aan de Familienkasse."
+    ],
+    "uvg": [
+     "Aanvraag voorschot alimentatie",
+     "Aan het Jugendamt."
+    ],
+    "grusi": [
+     "Aanvraag basisinkomen (informeel)",
+     "Aan het Sozialamt."
+    ],
+    "rente": [
+     "Controle verzekeringsverloop en pensioenoverzicht",
+     "Aan de Deutsche Rentenversicherung."
+    ],
+    "sach": [
+     "Navraag stand van zaken",
+     "Als de instantie lang niet antwoordt – voor elke uitkering."
+    ]
+   }
+  },
+  "alltag": {
+   "title": "Telefoonabonnement opzeggen, incasso betwisten, gebreken melden, servicekosten controleren in Duitsland – gratis briefsjablonen",
+   "desc": "Briefsjablonen voor het dagelijks leven in Duitsland: opzegging (mobiel, internet, sportschool, verzekering), bezwaar tegen incasso, gebrekenmelding aan verhuurder, servicekostenafrekening, werkgeversverklaring, loonstrook. Termijnen en hulp, in 13 talen.",
+   "h1": "Dagelijks leven in Duitsland: contracten opzeggen, incasso betwisten, gebreken melden",
+   "intro": "Belangrijk: schrijf altijd en bewaar bewijs (aangetekend, e-mail, bevestigingspagina). Betaal een incassovordering niet overhaast – controleer eerst of ze terecht is. Hulp: Verbraucherzentrale (consumentenorganisatie) en Mieterverein (huurdersvereniging).",
+   "steps": [
+    [
+     "Mobiel of internet opzeggen",
+     "De eerste looptijd mag hoogstens 24 maanden zijn. Is het contract daarna automatisch verlengd, dan kunt u altijd opzeggen met 1 maand opzegtermijn (§ 56 TKG). Sjabloon hieronder: „Opzegging van een contract”."
+    ],
+    [
+     "Sportschool, abonnementen en andere lopende contracten",
+     "Een clausule die u langer dan 2 jaar bindt is ongeldig. Een automatische verlenging geldt alleen als u daarna altijd met hoogstens 1 maand kunt opzeggen (§ 309 nr. 9 BGB). Voor opzegging mag geen strengere vorm dan tekstvorm worden geëist – een e-mail is dan genoeg (§ 309 nr. 13 BGB). Voor oudere contracten kunnen andere regels gelden: lees uw contract."
+    ],
+    [
+     "Online afgesloten? Gebruik de opzegknop",
+     "Hebt u het contract op een website afgesloten, dan moet die een knop „Verträge hier kündigen” (contracten hier opzeggen) hebben (§ 312k BGB). Sla de bevestigingspagina en e-mail op. Ontbreekt de knop, dan kunt u altijd zonder opzegtermijn opzeggen."
+    ],
+    [
+     "Een verzekering opzeggen",
+     "De opzegtermijn staat in uw contract – 1 tot 3 maanden vóór het einde van de verzekeringsperiode is toegestaan. Automatische verlengingen van meer dan 1 jaar per keer zijn ongeldig. Contracten langer dan 3 jaar kunt u aan het eind van het 3e jaar opzeggen met 3 maanden opzegtermijn (§ 11 VVG)."
+    ],
+    [
+     "Brief van een incassobureau? Eerst controleren, dan betalen",
+     "Betaal niet onder druk. Al de eerste brief moet vermelden: de opdrachtgever, het contract en de datum van afsluiten, hoe rente en incassokosten zijn berekend (§ 13a RDG). Is de vordering fout, maak dan schriftelijk bezwaar (sjabloon hieronder). Gratis controle: de „Inkasso-Check” van de Verbraucherzentrale. Vorderingen verjaren meestal na 3 jaar, gerekend vanaf het einde van het jaar waarin ze ontstonden (§§ 195, 199 BGB)."
+    ],
+    [
+     "Betalingsbevel (Mahnbescheid) van het kantongerecht",
+     "Neem een gerechtelijk betalingsbevel serieus. Betwist u de vordering, maak dan binnen 2 weken na betekening bezwaar (§ 692 ZPO) – liefst met het bijgevoegde formulier. Zoek meteen hulp, bijv. bij de Verbraucherzentrale."
+    ],
+    [
+     "Meld gebreken in uw woning meteen",
+     "Schimmel, kapotte verwarming, waterschade: meld het gebrek zonder uitstel aan de verhuurder (§ 536c BGB) – schriftelijk, met foto's en datum. Meldt u het niet, dan kunt u schadevergoeding verschuldigd zijn en het recht op huurverlaging verliezen. Is de woning maar deels bruikbaar, dan kan de huur worden verlaagd (§ 536 BGB). Verlaag de huur echter niet op eigen houtje – vraag eerst de huurdersvereniging."
+    ],
+    [
+     "Laat uw servicekostenafrekening (Nebenkostenabrechnung) controleren",
+     "De verhuurder moet de afrekening uiterlijk 12 maanden na het einde van de afrekenperiode sturen; daarna kan hij in de regel niet meer eisen. Uw bezwaren moeten de verhuurder uiterlijk 12 maanden na ontvangst bereiken (§ 556(3) BGB). Vraag om inzage in de bonnen (sjabloon hieronder). De huurdersvereniging adviseert haar leden."
+    ],
+    [
+     "Werkgeversverklaring en loonstrook",
+     "Bij het einde van uw baan hebt u recht op een schriftelijke verklaring – op verzoek ook met beoordeling van prestaties en gedrag (gekwalificeerde verklaring, § 109 GewO). Bij elke loonbetaling moet de werkgever u een loonstrook in tekstvorm geven, tenzij er niets is veranderd (§ 108 GewO). Let op vervaltermijnen (Ausschlussfristen) in uw arbeids- of cao-contract en claim wat ontbreekt snel schriftelijk."
+    ]
+   ],
+   "deadlines": [
+    [
+     "Mobiel/internet na verlenging",
+     "altijd, 1 maand opzegtermijn (§ 56 TKG)"
+    ],
+    [
+     "Sportschool/abonnement na eerste looptijd",
+     "hoogstens 1 maand opzegtermijn (§ 309 nr. 9 BGB)"
+    ],
+    [
+     "Verzekering",
+     "1–3 maanden vóór einde verzekeringsperiode – zie contract"
+    ],
+    [
+     "Bezwaar tegen betalingsbevel",
+     "2 weken na betekening"
+    ],
+    [
+     "Gebrek in de woning",
+     "zonder uitstel melden"
+    ],
+    [
+     "Servicekosten – uw bezwaren",
+     "12 maanden na ontvangst"
+    ],
+    [
+     "Verjaring (normaal geval)",
+     "3 jaar vanaf het einde van het jaar"
+    ]
+   ],
+   "contactsTitle": "Hulp en advies",
+   "contacts": [
+    [
+     "Verbraucherzentrale – Inkasso-Check",
+     "Gratis online check: moet ik betalen?",
+     "verbraucherzentrale.de/inkasso-check",
+     "https://www.verbraucherzentrale.de/inkasso-check"
+    ],
+    [
+     "Verbraucherzentrale",
+     "Advies over contracten, incasso, verzekeringen – lokale adviescentra",
+     "verbraucherzentrale.de",
+     "https://www.verbraucherzentrale.de/"
+    ],
+    [
+     "Deutscher Mieterbund – Mieterverein vor Ort",
+     "Huur, gebreken, servicekosten – zoeken op postcode (lidmaatschap)",
+     "mieterbund.de",
+     "https://mieterbund.de/mieterverein-vor-ort/"
+    ],
+    [
+     "115",
+     "Overheidsnummer: welke instantie is bevoegd?",
+     "115",
+     "https://www.115.de/"
+    ]
+   ],
+   "letters": {
+    "kuend": [
+     "Opzegging van een contract (mobiel, internet, sportschool, abonnement)",
+     "Tegen de vroegst mogelijke datum – met verzoek om bevestiging."
+    ],
+    "kuendvers": [
+     "Opzegging van een verzekering",
+     "Tegen het einde van de verzekeringsperiode."
+    ],
+    "inkasso": [
+     "Bezwaar tegen een incassovordering",
+     "Als de vordering fout of onduidelijk is."
+    ],
+    "maengel": [
+     "Gebrekenmelding aan de verhuurder",
+     "Schimmel, verwarming, water – met termijn voor herstel."
+    ],
+    "nk": [
+     "Bezwaren tegen de servicekostenafrekening",
+     "Met verzoek om inzage in de bonnen."
+    ],
+    "zeugnis": [
+     "Verzoek om een gekwalificeerde werkgeversverklaring",
+     "Aan uw (voormalige) werkgever."
+    ],
+    "lohn": [
+     "Verzoek om loonstroken",
+     "Als loonstroken ontbreken."
+    ]
+   }
+  }
+ },
+ "ro": {
+  "ui": {
+   "blank": "Model gol",
+   "example": "Exemplu completat",
+   "copy": "Copiază textul",
+   "copied": "Copiat ✓",
+   "print": "Imprimă",
+   "fill": "Câmpuri de completat",
+   "purpose": "Pentru ce?",
+   "letters": "Modele de scrisori",
+   "lettersNote": "Scrieți întotdeauna în germană autorităților germane. Înlocuiți câmpurile galbene cu datele dumneavoastră. Păstrați o copie și dovada trimiterii (recomandată, raport de fax sau e-mail).",
+   "help": "Ajutor gratuit",
+   "sources": "Temei juridic",
+   "stand": "Actualizat la",
+   "disclaimer": "Informații generale, nu consiliere juridică. Cereți unui centru de consiliere sau unui avocat să vă verifice cazul.",
+   "home": "Toate modelele de scrisori",
+   "other": "Vezi și",
+   "deadlines": "Termenele pe scurt"
+  },
+  "aufenthalt": {
+   "title": "Permisul de ședere sau viza expiră în Germania – ce fac? Prelungire, Fiktionsbescheinigung, contestație",
+   "desc": "Permisul de ședere sau viza germană expiră? Pas cu pas: cerere la timp, Fiktionsbescheinigung, audiere, refuz. Modele de scrisori gratuite, în 13 limbi.",
+   "h1": "Permisul de ședere sau viza expiră în Germania – ce fac?",
+   "intro": "Cel mai important: cereți prelungirea înainte să expire permisul – chiar dacă nu primiți programare. Atunci permisul rămâne valabil până decide autoritatea.",
+   "steps": [
+    [
+     "Depuneți cererea înainte de data expirării",
+     "Dacă depuneți cererea înainte să expire permisul, acesta rămâne valabil până la decizie (§ 81(4) Legea șederii). Nu se aplică vizei Schengen."
+    ],
+    [
+     "Nicio programare? Depuneți cererea în scris",
+     "Nu așteptați programarea. Trimiteți cererea în scris, prin formular online, fax sau e-mail înainte de expirare și păstrați dovada. Model mai jos: „Cerere de prelungire”."
+    ],
+    [
+     "Cereți o Fiktionsbescheinigung",
+     "Autoritatea trebuie să vă dea o adeverință privind efectul cererii (§ 81(5)). Ea dovedește angajatorilor, Jobcenter și proprietarilor că șederea vă este încă permisă. Vechiul permis continuă cu condițiile lui – inclusiv dreptul de muncă, dacă îl conținea."
+    ],
+    [
+     "A expirat deja?",
+     "Depuneți cererea imediat. La o cerere întârziată, autoritatea poate dispune continuarea permisului pentru a evita o situație deosebit de grea – dar nu este obligată. Mergeți în paralel la un centru de consiliere."
+    ],
+    [
+     "Întrebați înainte de o călătorie în străinătate",
+     "Înainte de orice călătorie, întrebați Ausländerbehörde dacă puteți reintra cu adeverința."
+    ],
+    [
+     "Ați primit o scrisoare de audiere (Anhörung)?",
+     "De obicei înseamnă că autoritatea intenționează să refuze. Răspundeți în termen cu motivele și documentele dumneavoastră. Model mai jos."
+    ],
+    [
+     "Ați primit un refuz?",
+     "Citiți „Rechtsbehelfsbelehrung” de la finalul deciziei. Acolo scrie dacă trebuie să faceți contestație (Widerspruch) la autoritate sau acțiune (Klage) la tribunalul administrativ – diferă de la land la land – și termenul (de regulă 1 lună). Dacă lipsește sau e greșită, se aplică de regulă 1 an (§ 58 VwGO)."
+    ],
+    [
+     "Atenție: contestația nu vă protejează automat",
+     "Contestația sau acțiunea împotriva refuzului permisului de ședere nu are efect suspensiv (§ 84(1) Legea șederii). Pentru a putea rămâne până la decizie, de regulă este nevoie de o cerere urgentă la tribunalul administrativ. Cereți ajutor imediat."
+    ],
+    [
+     "Acțiune în instanță fără avocat",
+     "Puteți depune acțiunea în scris sau o puteți dicta la grefa tribunalului administrativ (§ 81 VwGO). Cu venit mic puteți primi Beratungshilfe (cerere la judecătoria locală, Amtsgericht) sau asistență judiciară."
+    ]
+   ],
+   "deadlines": [
+    [
+     "Cerere de prelungire",
+     "înainte să expire permisul"
+    ],
+    [
+     "Răspuns la scrisoarea de audiere",
+     "termenul din scrisoare"
+    ],
+    [
+     "Contestație sau acțiune",
+     "de regulă 1 lună de la comunicare (vezi Rechtsbehelfsbelehrung)"
+    ],
+    [
+     "Instrucțiuni lipsă sau greșite",
+     "de regulă 1 an (§ 58(2) VwGO)"
+    ]
+   ],
+   "letters": {
+    "verl": [
+     "Cerere de prelungire",
+     "Trimiteți înainte de expirare dacă nu primiți programare."
+    ],
+    "fikt": [
+     "Cerere de Fiktionsbescheinigung",
+     "Dacă ați depus la timp, dar nu aveți încă adeverința."
+    ],
+    "anh": [
+     "Răspuns la o scrisoare de audiere",
+     "Dacă autoritatea vrea să refuze și vă cere punctul de vedere."
+    ],
+    "wid": [
+     "Contestație împotriva refuzului",
+     "Doar dacă în Rechtsbehelfsbelehrung scrie „Widerspruch”. Dacă scrie „Klage”, mergeți la tribunalul administrativ."
+    ],
+    "akte": [
+     "Cerere de consultare a dosarului",
+     "Pentru a vedea ce conține dosarul dumneavoastră."
+    ]
+   }
+  },
+  "abschiebung": {
+   "title": "Amenințare cu expulzarea în Germania – ce fac? Termene, Duldung, comisia pentru cazuri dificile, ajutor gratuit",
+   "desc": "Ați primit obligația de a părăsi țara sau un avertisment de expulzare în Germania? Termene, pași urgenți, Duldung, certificat medical, comisia pentru cazuri dificile. Modele de scrisori gratuite în 13 limbi.",
+   "h1": "Amenințare cu expulzarea în Germania – ce contează acum",
+   "intro": "Acționați imediat. Termenele sunt scurte, iar după termenul de plecare data expulzării nu se anunță (§ 59(1) Legea șederii). Mergeți chiar azi la un centru de consiliere gratuit.",
+   "steps": [
+    [
+     "Citiți cu atenție scrisoarea",
+     "Găsiți termenul de plecare (de obicei 7–30 de zile) și „Rechtsbehelfsbelehrung” cu termenul pentru contestație sau acțiune. Notați data primirii."
+    ],
+    [
+     "Cereți consiliere chiar azi",
+     "Ajutor gratuit: centre de consiliere pentru migranți, consilii pentru refugiați și servicii de consultanță juridică – linkuri mai jos. Cu venit mic, judecătoria locală (Amtsgericht) vă dă un Beratungshilfeschein pentru avocat."
+    ],
+    [
+     "Decizie de azil de la BAMF?",
+     "Se aplică termene foarte scurte: acțiune de regulă în 2 săptămâni, în anumite cazuri 1 săptămână (§ 74 Legea azilului). Nu așteptați nicio zi."
+    ],
+    [
+     "Cerere de consultare a dosarului",
+     "Dumneavoastră sau consilierul puteți vedea dosarul. Model mai jos."
+    ],
+    [
+     "Bolnav? Obțineți imediat un certificat medical",
+     "O boală este luată în considerare doar dacă depuneți fără întârziere un certificat medical calificat. Trebuie să conțină: diagnosticul, gravitatea, codul ICD-10, consecințele fără tratament și medicamentele cu substanța activă (§ 60a(2c), (2d))."
+    ],
+    [
+     "Expulzare imposibilă? Cereți Duldung",
+     "Dacă expulzarea este imposibilă din motive de fapt sau de drept – de ex. fără pașaport – trebuie suspendată (Duldung, § 60a(2)). O Duldung se poate acorda și din motive umanitare sau personale urgente."
+    ],
+    [
+     "Mai mult timp pentru plecare",
+     "Termenul de plecare poate fi prelungit în cazuri individuale (§ 59(1)), de ex. pentru școala copiilor sau predarea locuinței. Model mai jos."
+    ],
+    [
+     "Comisia pentru cazuri dificile",
+     "Fiecare land are o comisie pentru cazuri dificile (Härtefallkommission, § 23a). Ea decide singură dacă preia un caz. De regulă excluse: infracțiuni grave sau dacă există deja o dată concretă de expulzare. Cel mai bine mergeți printr-un centru de consiliere."
+    ],
+    [
+     "Interdicție de intrare",
+     "După expulzare se aplică de regulă o interdicție de intrare (§ 11). Ea poate fi redusă sau ridicată, de ex. din motive personale demne de protecție."
+    ],
+    [
+     "Țineți pregătite actele importante",
+     "Copii după pașaport, decizii, contract de muncă, documente școlare și medicale. Dați numărul de telefon al consilierului sau avocatului unei persoane de încredere."
+    ]
+   ],
+   "deadlines": [
+    [
+     "Plecare voluntară",
+     "de regulă 7–30 de zile (§ 59)"
+    ],
+    [
+     "Contestație/acțiune (Ausländerbehörde)",
+     "de regulă 1 lună – vezi Rechtsbehelfsbelehrung"
+    ],
+    [
+     "Acțiune împotriva deciziei de azil BAMF",
+     "2 săptămâni, în anumite cazuri 1 săptămână (§ 74 AsylG)"
+    ],
+    [
+     "Certificat medical",
+     "fără întârziere (§ 60a(2d))"
+    ]
+   ],
+   "letters": {
+    "akte": [
+     "Cerere de consultare a dosarului",
+     "Pentru a vedea ce conține dosarul dumneavoastră."
+    ],
+    "dul": [
+     "Cerere de Duldung",
+     "Dacă expulzarea nu este posibilă, de ex. fără pașaport."
+    ],
+    "frist": [
+     "Prelungirea termenului de plecare",
+     "Dacă aveți nevoie de mai mult timp pentru a pleca voluntar."
+    ],
+    "arzt": [
+     "Depunerea unui certificat medical",
+     "Scrisoare de însoțire pentru certificatul medicului."
+    ],
+    "hfk": [
+     "Cerere către comisia pentru cazuri dificile",
+     "Cel mai bine depusă împreună cu un centru de consiliere."
+    ]
+   }
+  },
+  "sozial": {
+   "title": "Ajutor pentru locuință, supliment pentru copii, alocație parentală, avans de pensie alimentară, venit de bază, pensie – cereri și modele de scrisori",
+   "desc": "Solicitați corect prestațiile sociale germane: de când se plătesc, ce instituție este competentă, termene și modele de scrisori gratuite (cerere informală, întrebare despre stadiu). În 13 limbi.",
+   "h1": "Cereri de prestații sociale în Germania – fără să pierdeți bani",
+   "intro": "Cel mai important sfat: depuneți cererea imediat – ajunge o scurtă scrisoare informală. Wohngeld, Kinderzuschlag și venitul de bază se plătesc doar din luna în care sosește cererea. Formularele și actele pot veni ulterior.",
+   "steps": [
+    [
+     "Ajutor pentru locuință (Wohngeld)",
+     "Competent: biroul Wohngeld al localității. Se plătește din prima zi a lunii cererii (§ 25(2) WoGG). Cei care primesc Grundsicherungsgeld (fost Bürgergeld) sau venit de bază care acoperă locuința nu primesc în plus Wohngeld (§ 7 WoGG)."
+    ],
+    [
+     "Supliment pentru copii (Kinderzuschlag)",
+     "Pentru părinți cu venit mic care primesc Kindergeld. Competent: Familienkasse. Se plătește din luna cererii, pentru câte 6 luni – apoi cerere nouă (§ 6a BKGG)."
+    ],
+    [
+     "Alocație parentală (Elterngeld)",
+     "Competent: biroul Elterngeld al landului sau districtului. Retroactiv doar pentru ultimele 3 luni de viață ale copilului dinaintea lunii în care sosește cererea (§ 7 BEEG). Deci depuneți cererea cel târziu în a 3-a lună a copilului."
+    ],
+    [
+     "Avans de pensie alimentară (Unterhaltsvorschuss)",
+     "Dacă celălalt părinte nu plătește pensia alimentară. Competent: oficiul pentru tineret (Jugendamt). Retroactiv cel mult pentru luna dinaintea cererii – și doar dacă v-ați străduit rezonabil să obțineți pensia (§ 4 UVG)."
+    ],
+    [
+     "Venit de bază la bătrânețe / capacitate de muncă redusă",
+     "Competent: oficiul de asistență socială (Sozialamt). Cererea produce efecte din prima zi a lunii în care este depusă (§ 44(2) SGB XII)."
+    ],
+    [
+     "Pensie și istoricul de asigurare",
+     "Competent: Deutsche Rentenversicherung. Verificați din timp istoricul – pot conta și perioadele din străinătate. Linie gratuită: 0800 1000 4800."
+    ],
+    [
+     "Niciun răspuns de la instituție?",
+     "Trimiteți o întrebare despre stadiu (model mai jos). Fără decizie puteți face acțiune pentru inacțiune: la tribunalul social după 6 luni, după contestație după 3 luni (§ 88 SGG); la tribunalul administrativ de regulă după 3 luni (§ 75 VwGO). Litigiile privind Elterngeld merg la tribunalul social (§ 13 BEEG); altfel, decizia indică instanța."
+    ],
+    [
+     "Găsiți instituția competentă",
+     "Sunați la numărul autorităților 115 sau folosiți căutarea Familienportal (linkuri mai jos). Păstrați o copie și dovada trimiterii pentru fiecare cerere."
+    ]
+   ],
+   "deadlines": [
+    [
+     "Ajutor pentru locuință",
+     "din luna cererii – nu retroactiv"
+    ],
+    [
+     "Supliment pentru copii",
+     "din luna cererii, câte 6 luni"
+    ],
+    [
+     "Alocație parentală",
+     "retroactiv max. 3 luni de viață"
+    ],
+    [
+     "Avans de pensie alimentară",
+     "retroactiv max. 1 lună"
+    ],
+    [
+     "Venit de bază (SGB XII)",
+     "din data de 1 a lunii cererii"
+    ],
+    [
+     "Acțiune pentru inacțiune",
+     "tribunal social 6 luni (contestație 3), tribunal administrativ de regulă 3 luni"
+    ]
+   ],
+   "contactsTitle": "Contacte importante (în toată Germania)",
+   "contacts": [
+    [
+     "115",
+     "Numărul autorităților pentru toate întrebările",
+     "115 (Mo–Fr 8–18 Uhr)",
+     "https://www.115.de/"
+    ],
+    [
+     "Familienkasse",
+     "Kindergeld și Kinderzuschlag (apel gratuit)",
+     "0800 4 5555 30",
+     "https://www.familienkasse.de/"
+    ],
+    [
+     "Deutsche Rentenversicherung",
+     "Pensie, istoric de asigurare (apel gratuit)",
+     "0800 1000 4800",
+     "https://www.deutsche-rentenversicherung.de/"
+    ],
+    [
+     "Familienportal",
+     "Găsiți biroul Elterngeld, Jugendamt, biroul Wohngeld",
+     "familienportal.de",
+     "https://familienportal.de/dynamic/action/familienportal/126404/suche"
+    ]
+   ],
+   "letters": {
+    "wohngeld": [
+     "Cerere de ajutor pentru locuință (informală)",
+     "Asigură luna – formularele ulterior."
+    ],
+    "kiz": [
+     "Cerere de Kinderzuschlag",
+     "Către Familienkasse."
+    ],
+    "uvg": [
+     "Cerere de avans de pensie alimentară",
+     "Către Jugendamt."
+    ],
+    "grusi": [
+     "Cerere de venit de bază (informală)",
+     "Către Sozialamt."
+    ],
+    "rente": [
+     "Verificarea istoricului de asigurare și informare despre pensie",
+     "Către Deutsche Rentenversicherung."
+    ],
+    "sach": [
+     "Întrebare despre stadiul dosarului",
+     "Dacă instituția nu răspunde mult timp – pentru orice prestație."
+    ]
+   }
+  },
+  "alltag": {
+   "title": "Rezilierea abonamentului de telefon, contestarea recuperării datoriilor, semnalarea defectelor, verificarea utilităților în Germania – modele de scrisori gratuite",
+   "desc": "Modele de scrisori pentru viața de zi cu zi în Germania: reziliere (mobil, internet, sală de sport, asigurare), contestație la firma de recuperare, semnalarea defectelor către proprietar, decontul utilităților, adeverință de muncă, fluturaș de salariu. Termene și ajutor, în 13 limbi.",
+   "h1": "Viața de zi cu zi în Germania: reziliați contracte, contestați datorii, semnalați defecte",
+   "intro": "Important: scrieți întotdeauna și păstrați dovada (recomandată, e-mail, pagină de confirmare). Nu plătiți în grabă o cerere a unei firme de recuperare – verificați întâi dacă este justificată. Ajutor: Verbraucherzentrale (centrul pentru consumatori) și Mieterverein (asociația chiriașilor).",
+   "steps": [
+    [
+     "Rezilierea contractului de mobil sau internet",
+     "Prima perioadă poate dura cel mult 24 de luni. Dacă apoi contractul s-a prelungit automat, îl puteți rezilia oricând cu preaviz de 1 lună (§ 56 TKG). Model mai jos: „Rezilierea unui contract”."
+    ],
+    [
+     "Sală de sport, abonamente și alte contracte în derulare",
+     "O clauză care vă obligă mai mult de 2 ani este nulă. Prelungirea automată se aplică doar dacă apoi puteți rezilia oricând cu preaviz de cel mult 1 lună (§ 309 nr. 9 BGB). Pentru reziliere nu se poate cere o formă mai strictă decât forma text – atunci ajunge un e-mail (§ 309 nr. 13 BGB). Contractele mai vechi pot avea alte reguli: citiți-vă contractul."
+    ],
+    [
+     "V-ați înscris online? Folosiți butonul de reziliere",
+     "Dacă ați încheiat contractul pe un site, acesta trebuie să aibă butonul „Verträge hier kündigen” (reziliați contractele aici) (§ 312k BGB). Salvați pagina de confirmare și e-mailul. Dacă butonul lipsește, puteți rezilia oricând fără preaviz."
+    ],
+    [
+     "Rezilierea unei asigurări",
+     "Preavizul este în contract – sunt permise 1 până la 3 luni înainte de sfârșitul perioadei de asigurare. Prelungirile automate de peste 1 an o dată sunt nule. Contractele mai lungi de 3 ani pot fi reziliate la sfârșitul anului 3 cu preaviz de 3 luni (§ 11 VVG)."
+    ],
+    [
+     "Scrisoare de la o firmă de recuperare? Întâi verificați, apoi plătiți",
+     "Nu plătiți sub presiune. Deja prima scrisoare trebuie să precizeze: creditorul, contractul și data încheierii, cum s-au calculat dobânzile și costurile de recuperare (§ 13a RDG). Dacă pretenția este greșită, contestați în scris (model mai jos). Verificare gratuită: „Inkasso-Check” al Verbraucherzentrale. Creanțele se prescriu de regulă după 3 ani, socotiți de la sfârșitul anului în care au apărut (§§ 195, 199 BGB)."
+    ],
+    [
+     "Somație de plată (Mahnbescheid) de la judecătoria locală",
+     "Luați în serios o somație de plată a instanței. Dacă contestați creanța, faceți opoziție în 2 săptămâni de la comunicare (§ 692 ZPO) – ideal cu formularul anexat. Cereți ajutor imediat, de ex. la Verbraucherzentrale."
+    ],
+    [
+     "Semnalați imediat defectele locuinței",
+     "Mucegai, încălzire defectă, daune de la apă: anunțați defectul proprietarului fără întârziere (§ 536c BGB) – în scris, cu fotografii și dată. Dacă nu îl anunțați, puteți datora despăgubiri și pierde dreptul la reducerea chiriei. Dacă locuința poate fi folosită doar parțial, chiria poate fi redusă (§ 536 BGB). Dar nu reduceți chiria de unul singur – întrebați întâi asociația chiriașilor."
+    ],
+    [
+     "Verificați decontul utilităților (Nebenkostenabrechnung)",
+     "Proprietarul trebuie să trimită decontul cel târziu la 12 luni după sfârșitul perioadei; după aceea, de regulă, nu mai poate cere mai mult. Obiecțiile dumneavoastră trebuie să ajungă la proprietar cel târziu la 12 luni după primirea decontului (§ 556(3) BGB). Cereți să vedeți documentele justificative (model mai jos). Asociația chiriașilor își consiliază membrii."
+    ],
+    [
+     "Adeverință de muncă și fluturaș de salariu",
+     "La încetarea muncii aveți dreptul la o adeverință scrisă – la cerere și cu evaluarea performanței și comportamentului (adeverință calificată, § 109 GewO). La fiecare plată a salariului, angajatorul trebuie să vă dea un fluturaș în formă text, cu excepția cazului în care nu s-a schimbat nimic (§ 108 GewO). Atenție la termenele de decădere (Ausschlussfristen) din contractul de muncă sau contractul colectiv și cereți repede, în scris, ce lipsește."
+    ]
+   ],
+   "deadlines": [
+    [
+     "Mobil/internet după prelungire",
+     "oricând, preaviz de 1 lună (§ 56 TKG)"
+    ],
+    [
+     "Sală/abonament după prima perioadă",
+     "preaviz de cel mult 1 lună (§ 309 nr. 9 BGB)"
+    ],
+    [
+     "Asigurare",
+     "1–3 luni înainte de sfârșitul perioadei de asigurare – vezi contractul"
+    ],
+    [
+     "Opoziție la somația de plată",
+     "2 săptămâni de la comunicare"
+    ],
+    [
+     "Defect în locuință",
+     "se anunță fără întârziere"
+    ],
+    [
+     "Utilități – obiecțiile dumneavoastră",
+     "12 luni după primire"
+    ],
+    [
+     "Prescripție (caz normal)",
+     "3 ani de la sfârșitul anului"
+    ]
+   ],
+   "contactsTitle": "Ajutor și consiliere",
+   "contacts": [
+    [
+     "Verbraucherzentrale – Inkasso-Check",
+     "Verificare online gratuită: trebuie să plătesc?",
+     "verbraucherzentrale.de/inkasso-check",
+     "https://www.verbraucherzentrale.de/inkasso-check"
+    ],
+    [
+     "Verbraucherzentrale",
+     "Consiliere despre contracte, recuperări de datorii, asigurări – centre locale",
+     "verbraucherzentrale.de",
+     "https://www.verbraucherzentrale.de/"
+    ],
+    [
+     "Deutscher Mieterbund – Mieterverein vor Ort",
+     "Chirie, defecte, utilități – căutare după codul poștal (cu calitate de membru)",
+     "mieterbund.de",
+     "https://mieterbund.de/mieterverein-vor-ort/"
+    ],
+    [
+     "115",
+     "Numărul serviciului public: ce instituție este competentă?",
+     "115",
+     "https://www.115.de/"
+    ]
+   ],
+   "letters": {
+    "kuend": [
+     "Rezilierea unui contract (mobil, internet, sală de sport, abonament)",
+     "La cea mai apropiată dată posibilă – cu cerere de confirmare."
+    ],
+    "kuendvers": [
+     "Rezilierea unei asigurări",
+     "La sfârșitul perioadei de asigurare."
+    ],
+    "inkasso": [
+     "Contestație împotriva unei creanțe de recuperare",
+     "Dacă pretenția este greșită sau neclară."
+    ],
+    "maengel": [
+     "Semnalarea defectelor către proprietar",
+     "Mucegai, încălzire, apă – cu termen de reparare."
+    ],
+    "nk": [
+     "Obiecții la decontul utilităților",
+     "Cu cerere de a vedea documentele justificative."
+    ],
+    "zeugnis": [
+     "Cerere de adeverință de muncă calificată",
+     "Către angajatorul (fost) dumneavoastră."
+    ],
+    "lohn": [
+     "Cerere de fluturași de salariu",
+     "Dacă lipsesc fluturașii de salariu."
+    ]
+   }
+  }
+ },
+ "es": {
+  "ui": {
+   "blank": "Plantilla en blanco",
+   "example": "Ejemplo rellenado",
+   "copy": "Copiar texto",
+   "copied": "Copiado ✓",
+   "print": "Imprimir",
+   "fill": "Campos para rellenar",
+   "purpose": "¿Para qué sirve?",
+   "letters": "Plantillas de cartas",
+   "lettersNote": "Escribe siempre en alemán a las autoridades alemanas. Sustituye los campos amarillos por tus datos. Guarda una copia y un justificante de envío (certificado, informe de fax o correo electrónico).",
+   "help": "Ayuda gratuita",
+   "sources": "Base legal",
+   "stand": "Actualizado a",
+   "disclaimer": "Información general, no es asesoramiento jurídico. Pide a un centro de asesoramiento o a un abogado que revise tu caso.",
+   "home": "Todas las plantillas de cartas",
+   "other": "Ver también",
+   "deadlines": "Plazos de un vistazo"
+  },
+  "aufenthalt": {
+   "title": "Tu permiso de residencia o visado caduca en Alemania – ¿qué hacer? Prórroga, Fiktionsbescheinigung, recurso",
+   "desc": "¿Caduca tu permiso de residencia o visado alemán? Paso a paso: solicitar a tiempo, Fiktionsbescheinigung, audiencia, denegación. Plantillas de cartas gratuitas, en 13 idiomas.",
+   "h1": "Tu permiso de residencia o visado caduca en Alemania – ¿qué hacer?",
+   "intro": "Lo más importante: solicita la prórroga antes de que caduque tu permiso – aunque no consigas cita. Así tu permiso sigue siendo válido hasta que la autoridad decida.",
+   "steps": [
+    [
+     "Solicitar antes de la fecha de caducidad",
+     "Si lo solicitas antes de que caduque tu permiso, sigue siendo válido hasta la decisión (§ 81(4) Ley de Residencia). No se aplica a un visado Schengen."
+    ],
+    [
+     "¿Sin cita? Solicítalo por escrito",
+     "No esperes a tener cita. Envía la solicitud por escrito, formulario en línea, fax o correo electrónico antes de la caducidad y guarda el justificante. Plantilla abajo: «Solicitud de prórroga»."
+    ],
+    [
+     "Pide una Fiktionsbescheinigung",
+     "La autoridad debe darte un certificado sobre el efecto de tu solicitud (§ 81(5)). Demuestra a empleadores, al Jobcenter y a arrendadores que tu estancia sigue permitida. Tu permiso anterior continúa con sus condiciones – incluido el permiso de trabajo si lo tenía."
+    ],
+    [
+     "¿Ya ha caducado?",
+     "Solicítalo de inmediato. Ante una solicitud tardía, la autoridad puede ordenar que tu permiso continúe para evitar una dureza desproporcionada – pero no está obligada. Acude a la vez a un centro de asesoramiento."
+    ],
+    [
+     "Pregunta antes de viajar al extranjero",
+     "Antes de cualquier viaje, pregunta a tu Ausländerbehörde si podrás volver a entrar con tu certificado."
+    ],
+    [
+     "¿Has recibido una carta de audiencia (Anhörung)?",
+     "Normalmente significa que la autoridad piensa denegar. Responde dentro del plazo con tus motivos y documentos. Plantilla abajo."
+    ],
+    [
+     "¿Has recibido una denegación?",
+     "Lee la «Rechtsbehelfsbelehrung» al final de la resolución. Indica si debes presentar un recurso (Widerspruch) ante la autoridad o una demanda (Klage) ante el tribunal administrativo – varía según el estado – y el plazo (normalmente 1 mes). Si falta o es errónea, suele aplicarse 1 año (§ 58 VwGO)."
+    ],
+    [
+     "Atención: un recurso no te protege automáticamente",
+     "Un recurso o demanda contra la denegación de un permiso de residencia no tiene efecto suspensivo (§ 84(1) Ley de Residencia). Para poder quedarte hasta la decisión, normalmente hace falta una solicitud urgente al tribunal administrativo. Busca ayuda de inmediato."
+    ],
+    [
+     "Demandar sin abogado",
+     "Puedes presentar la demanda por escrito o hacer que la registren en la secretaría del tribunal administrativo (§ 81 VwGO). Con ingresos bajos puedes obtener Beratungshilfe (solicitud en el juzgado local, Amtsgericht) o asistencia jurídica gratuita."
+    ]
+   ],
+   "deadlines": [
+    [
+     "Solicitud de prórroga",
+     "antes de que caduque tu permiso"
+    ],
+    [
+     "Respuesta a la carta de audiencia",
+     "el plazo indicado en la carta"
+    ],
+    [
+     "Recurso o demanda",
+     "normalmente 1 mes desde la notificación (ver Rechtsbehelfsbelehrung)"
+    ],
+    [
+     "Instrucciones ausentes o erróneas",
+     "normalmente 1 año (§ 58(2) VwGO)"
+    ]
+   ],
+   "letters": {
+    "verl": [
+     "Solicitud de prórroga",
+     "Envíala antes de la caducidad si no consigues cita."
+    ],
+    "fikt": [
+     "Solicitud de Fiktionsbescheinigung",
+     "Si lo solicitaste a tiempo pero aún no tienes certificado."
+    ],
+    "anh": [
+     "Respuesta a una carta de audiencia",
+     "Si la autoridad piensa denegar y te pide tu opinión."
+    ],
+    "wid": [
+     "Recurso contra la denegación",
+     "Solo si la Rechtsbehelfsbelehrung dice «Widerspruch». Si dice «Klage», acude al tribunal administrativo."
+    ],
+    "akte": [
+     "Solicitud de acceso al expediente",
+     "Para ver qué contiene tu expediente."
+    ]
+   }
+  },
+  "abschiebung": {
+   "title": "Amenaza de deportación en Alemania – ¿qué hacer? Plazos, Duldung, comisión de casos de especial dureza, ayuda gratuita",
+   "desc": "¿Has recibido una orden de salida o un aviso de deportación en Alemania? Plazos, pasos urgentes, Duldung, certificado médico, comisión de casos de especial dureza. Plantillas de cartas gratuitas en 13 idiomas.",
+   "h1": "Amenaza de deportación en Alemania – lo que importa ahora",
+   "intro": "Actúa de inmediato. Los plazos son cortos y, tras el plazo de salida, la fecha de la deportación no se anuncia (§ 59(1) Ley de Residencia). Acude hoy mismo a un centro de asesoramiento gratuito.",
+   "steps": [
+    [
+     "Lee la carta con atención",
+     "Busca el plazo de salida (normalmente de 7 a 30 días) y la «Rechtsbehelfsbelehrung» con el plazo para recurrir o demandar. Anota la fecha en que la recibiste."
+    ],
+    [
+     "Pide asesoramiento hoy",
+     "Ayuda gratuita: centros de asesoramiento para migrantes, consejos de refugiados y servicios de asesoría jurídica – enlaces abajo. Con ingresos bajos, el juzgado local (Amtsgericht) te da un Beratungshilfeschein para un abogado."
+    ],
+    [
+     "¿Resolución de asilo de la BAMF?",
+     "Se aplican plazos muy cortos: demanda normalmente en 2 semanas, en ciertos casos 1 semana (§ 74 Ley de Asilo). No esperes ni un día."
+    ],
+    [
+     "Solicitud de acceso al expediente",
+     "Tú o tu asesor podéis ver tu expediente. Plantilla abajo."
+    ],
+    [
+     "¿Enfermo? Consigue ya un certificado médico",
+     "Una enfermedad solo se tiene en cuenta si presentas sin demora un certificado médico cualificado. Debe incluir: diagnóstico, gravedad, código CIE-10, consecuencias sin tratamiento y medicamentos con su principio activo (§ 60a(2c), (2d))."
+    ],
+    [
+     "¿Deportación imposible? Solicita una Duldung",
+     "Si la deportación es imposible por motivos de hecho o de derecho – p. ej. sin pasaporte – debe suspenderse (Duldung, § 60a(2)). También puede concederse una Duldung por motivos humanitarios o personales urgentes."
+    ],
+    [
+     "Más tiempo para salir",
+     "El plazo de salida puede prorrogarse en casos individuales (§ 59(1)), p. ej. por el colegio de los hijos o la entrega de la vivienda. Plantilla abajo."
+    ],
+    [
+     "Comisión de casos de especial dureza",
+     "Cada estado tiene una comisión de casos de especial dureza (Härtefallkommission, § 23a). Ella misma decide si acepta un caso. Normalmente excluidos: delitos graves, o si ya hay una fecha concreta de deportación. Mejor a través de un centro de asesoramiento."
+    ],
+    [
+     "Prohibición de entrada",
+     "Tras una deportación suele aplicarse una prohibición de entrada (§ 11). Puede acortarse o levantarse, p. ej. por motivos personales dignos de protección."
+    ],
+    [
+     "Ten listos los papeles importantes",
+     "Copias del pasaporte, resoluciones, contrato de trabajo, documentos escolares y médicos. Da el teléfono de tu asesor o abogado a una persona de confianza."
+    ]
+   ],
+   "deadlines": [
+    [
+     "Salida voluntaria",
+     "normalmente 7–30 días (§ 59)"
+    ],
+    [
+     "Recurso/demanda (Ausländerbehörde)",
+     "normalmente 1 mes – ver Rechtsbehelfsbelehrung"
+    ],
+    [
+     "Demanda contra resolución de asilo de la BAMF",
+     "2 semanas, en ciertos casos 1 semana (§ 74 AsylG)"
+    ],
+    [
+     "Certificado médico",
+     "sin demora (§ 60a(2d))"
+    ]
+   ],
+   "letters": {
+    "akte": [
+     "Solicitud de acceso al expediente",
+     "Para ver qué contiene tu expediente."
+    ],
+    "dul": [
+     "Solicitud de Duldung",
+     "Si la deportación no es posible, p. ej. sin pasaporte."
+    ],
+    "frist": [
+     "Prórroga del plazo de salida",
+     "Si necesitas más tiempo para salir voluntariamente."
+    ],
+    "arzt": [
+     "Presentación de un certificado médico",
+     "Carta de acompañamiento para el certificado de tu médico."
+    ],
+    "hfk": [
+     "Solicitud a la comisión de casos de especial dureza",
+     "Mejor presentarla junto con un centro de asesoramiento."
+    ]
+   }
+  },
+  "sozial": {
+   "title": "Ayuda a la vivienda, complemento por hijos, prestación parental, anticipo de pensión alimenticia, ingreso básico, pensión – solicitudes y plantillas de cartas",
+   "desc": "Solicita bien las prestaciones sociales alemanas: desde cuándo se pagan, qué oficina es competente, plazos y plantillas de cartas gratuitas (solicitud informal, consulta del estado). En 13 idiomas.",
+   "h1": "Solicitar prestaciones sociales en Alemania – sin perder dinero",
+   "intro": "El consejo más importante: solicítalo de inmediato – basta una carta informal corta. El Wohngeld, el Kinderzuschlag y el ingreso básico solo se pagan desde el mes en que llega la solicitud. Los formularios y documentos pueden enviarse después.",
+   "steps": [
+    [
+     "Ayuda a la vivienda (Wohngeld)",
+     "Competente: la oficina de Wohngeld de tu municipio. Se paga desde el primer día del mes de la solicitud (§ 25(2) WoGG). Quien recibe Grundsicherungsgeld (antes Bürgergeld) o un ingreso básico que cubre la vivienda no recibe además Wohngeld (§ 7 WoGG)."
+    ],
+    [
+     "Complemento por hijos (Kinderzuschlag)",
+     "Para padres con ingresos bajos que reciben Kindergeld. Competente: Familienkasse. Se paga desde el mes de la solicitud, por periodos de 6 meses – después hay que volver a solicitarlo (§ 6a BKGG)."
+    ],
+    [
+     "Prestación parental (Elterngeld)",
+     "Competente: la oficina de Elterngeld de tu estado o distrito. Con carácter retroactivo solo para los últimos 3 meses de vida del niño antes del mes en que llega la solicitud (§ 7 BEEG). Así que solicítalo a más tardar en el 3.er mes del niño."
+    ],
+    [
+     "Anticipo de pensión alimenticia (Unterhaltsvorschuss)",
+     "Si el otro progenitor no paga la pensión alimenticia. Competente: la oficina de juventud (Jugendamt). Retroactivo como máximo para el mes anterior a la solicitud – y solo si hiciste esfuerzos razonables por obtener la pensión (§ 4 UVG)."
+    ],
+    [
+     "Ingreso básico en la vejez / capacidad laboral reducida",
+     "Competente: la oficina de asuntos sociales (Sozialamt). La solicitud tiene efecto desde el primer día del mes en que se presenta (§ 44(2) SGB XII)."
+    ],
+    [
+     "Pensión e historial de cotización",
+     "Competente: Deutsche Rentenversicherung. Haz revisar tu historial pronto – los periodos en el extranjero también pueden contar. Línea gratuita: 0800 1000 4800."
+    ],
+    [
+     "¿La oficina no responde?",
+     "Envía una consulta sobre el estado (plantilla abajo). Sin resolución puedes demandar por inactividad: ante el tribunal social tras 6 meses, tras un recurso tras 3 meses (§ 88 SGG); ante el tribunal administrativo normalmente tras 3 meses (§ 75 VwGO). Los litigios sobre Elterngeld van al tribunal social (§ 13 BEEG); si no, tu resolución indica el tribunal."
+    ],
+    [
+     "Encuentra la oficina competente",
+     "Llama al número de las administraciones 115 o usa el buscador del Familienportal (enlaces abajo). Guarda una copia y un justificante de envío de cada solicitud."
+    ]
+   ],
+   "deadlines": [
+    [
+     "Ayuda a la vivienda",
+     "desde el mes de la solicitud – no retroactiva"
+    ],
+    [
+     "Complemento por hijos",
+     "desde el mes de la solicitud, por periodos de 6 meses"
+    ],
+    [
+     "Prestación parental",
+     "retroactiva máx. 3 meses de vida"
+    ],
+    [
+     "Anticipo de pensión alimenticia",
+     "retroactivo máx. 1 mes"
+    ],
+    [
+     "Ingreso básico (SGB XII)",
+     "desde el día 1 del mes de la solicitud"
+    ],
+    [
+     "Demanda por inactividad",
+     "tribunal social 6 meses (recurso 3), tribunal administrativo normalmente 3 meses"
+    ]
+   ],
+   "contactsTitle": "Contactos importantes (en toda Alemania)",
+   "contacts": [
+    [
+     "115",
+     "Número de las administraciones para todas las dudas",
+     "115 (Mo–Fr 8–18 Uhr)",
+     "https://www.115.de/"
+    ],
+    [
+     "Familienkasse",
+     "Kindergeld y Kinderzuschlag (llamada gratuita)",
+     "0800 4 5555 30",
+     "https://www.familienkasse.de/"
+    ],
+    [
+     "Deutsche Rentenversicherung",
+     "Pensión, historial de cotización (llamada gratuita)",
+     "0800 1000 4800",
+     "https://www.deutsche-rentenversicherung.de/"
+    ],
+    [
+     "Familienportal",
+     "Encontrar la oficina de Elterngeld, el Jugendamt, la oficina de Wohngeld",
+     "familienportal.de",
+     "https://familienportal.de/dynamic/action/familienportal/126404/suche"
+    ]
+   ],
+   "letters": {
+    "wohngeld": [
+     "Solicitud de ayuda a la vivienda (informal)",
+     "Asegura el mes – formularios después."
+    ],
+    "kiz": [
+     "Solicitud de Kinderzuschlag",
+     "A la Familienkasse."
+    ],
+    "uvg": [
+     "Solicitud de anticipo de pensión alimenticia",
+     "Al Jugendamt."
+    ],
+    "grusi": [
+     "Solicitud de ingreso básico (informal)",
+     "Al Sozialamt."
+    ],
+    "rente": [
+     "Revisión del historial de cotización e información sobre la pensión",
+     "A la Deutsche Rentenversicherung."
+    ],
+    "sach": [
+     "Consulta sobre el estado del expediente",
+     "Si la oficina tarda mucho en responder – para cualquier prestación."
+    ]
+   }
+  },
+  "alltag": {
+   "title": "Dar de baja un contrato de móvil, recurrir un cobro de deudas, comunicar defectos, revisar los gastos de comunidad en Alemania – plantillas de cartas gratuitas",
+   "desc": "Plantillas de cartas para el día a día en Alemania: baja (móvil, internet, gimnasio, seguro), oposición a una empresa de cobros, aviso de defectos al arrendador, liquidación de gastos, certificado de trabajo, nómina. Plazos y ayuda, en 13 idiomas.",
+   "h1": "El día a día en Alemania: dar de baja contratos, recurrir cobros, comunicar defectos",
+   "intro": "Importante: escribe siempre y guarda un justificante (certificado, correo electrónico, página de confirmación). No pagues con prisas una reclamación de una empresa de cobros – comprueba primero si está justificada. Ayuda: Verbraucherzentrale (centro de consumidores) y Mieterverein (asociación de inquilinos).",
+   "steps": [
+    [
+     "Dar de baja un contrato de móvil o internet",
+     "La primera duración puede ser de 24 meses como máximo. Si después el contrato se prorrogó automáticamente, puedes darte de baja en cualquier momento con 1 mes de preaviso (§ 56 TKG). Plantilla abajo: «Baja de un contrato»."
+    ],
+    [
+     "Gimnasio, suscripciones y otros contratos en curso",
+     "Una cláusula que te obliga más de 2 años es nula. Una prórroga automática solo vale si después puedes darte de baja en cualquier momento con 1 mes de preaviso como máximo (§ 309 n.º 9 BGB). Para la baja no puede exigirse una forma más estricta que la forma de texto – entonces basta un correo electrónico (§ 309 n.º 13 BGB). Los contratos antiguos pueden tener otras reglas: lee tu contrato."
+    ],
+    [
+     "¿Contratado en línea? Usa el botón de baja",
+     "Si cerraste el contrato en una web, esta debe ofrecer un botón «Verträge hier kündigen» (dar de baja contratos aquí) (§ 312k BGB). Guarda la página de confirmación y el correo. Si falta el botón, puedes darte de baja en cualquier momento sin preaviso."
+    ],
+    [
+     "Dar de baja un seguro",
+     "El plazo de preaviso está en tu contrato – se permiten de 1 a 3 meses antes del final del periodo de seguro. Las prórrogas automáticas de más de 1 año cada vez son nulas. Los contratos de más de 3 años pueden darse de baja al final del 3.er año con 3 meses de preaviso (§ 11 VVG)."
+    ],
+    [
+     "¿Carta de una empresa de cobros? Primero comprueba, luego paga",
+     "No pagues bajo presión. Ya la primera carta debe indicar: el acreedor, el contrato y su fecha de celebración, cómo se calcularon los intereses y los gastos de cobro (§ 13a RDG). Si la reclamación es errónea, oponte por escrito (plantilla abajo). Comprobación gratuita: el «Inkasso-Check» de la Verbraucherzentrale. Las deudas suelen prescribir a los 3 años, contados desde el final del año en que surgieron (§§ 195, 199 BGB)."
+    ],
+    [
+     "Requerimiento de pago (Mahnbescheid) del juzgado local",
+     "Tómate en serio un requerimiento de pago judicial. Si discutes la deuda, oponte en las 2 semanas siguientes a la notificación (§ 692 ZPO) – mejor con el formulario adjunto. Busca ayuda enseguida, p. ej. en la Verbraucherzentrale."
+    ],
+    [
+     "Comunica de inmediato los defectos de tu vivienda",
+     "Moho, calefacción averiada, daños por agua: comunica el defecto al arrendador sin demora (§ 536c BGB) – por escrito, con fotos y fecha. Si no lo comunicas, puedes deber una indemnización y perder el derecho a reducir el alquiler. Si la vivienda solo puede usarse en parte, el alquiler puede reducirse (§ 536 BGB). Pero no reduzcas el alquiler por tu cuenta – pregunta antes a la asociación de inquilinos."
+    ],
+    [
+     "Haz revisar tu liquidación de gastos (Nebenkostenabrechnung)",
+     "El arrendador debe enviar la liquidación como máximo 12 meses después del final del periodo; después, por regla general, no puede reclamar más. Tus objeciones deben llegar al arrendador como máximo 12 meses después de recibir la liquidación (§ 556(3) BGB). Pide ver los justificantes (plantilla abajo). La asociación de inquilinos asesora a sus socios."
+    ],
+    [
+     "Certificado de trabajo y nómina",
+     "Al terminar tu empleo tienes derecho a un certificado escrito – si lo pides, también con valoración del rendimiento y la conducta (certificado cualificado, § 109 GewO). Con cada pago del salario el empleador debe darte una nómina en forma de texto, salvo que nada haya cambiado (§ 108 GewO). Ojo con los plazos de caducidad (Ausschlussfristen) de tu contrato o convenio colectivo y reclama rápido y por escrito lo que falte."
+    ]
+   ],
+   "deadlines": [
+    [
+     "Móvil/internet tras la prórroga",
+     "en cualquier momento, 1 mes de preaviso (§ 56 TKG)"
+    ],
+    [
+     "Gimnasio/suscripción tras la primera duración",
+     "como máximo 1 mes de preaviso (§ 309 n.º 9 BGB)"
+    ],
+    [
+     "Seguro",
+     "1–3 meses antes del final del periodo de seguro – ver contrato"
+    ],
+    [
+     "Oposición a un requerimiento de pago",
+     "2 semanas desde la notificación"
+    ],
+    [
+     "Defecto en la vivienda",
+     "comunicar sin demora"
+    ],
+    [
+     "Gastos de comunidad – tus objeciones",
+     "12 meses tras la recepción"
+    ],
+    [
+     "Prescripción (caso normal)",
+     "3 años desde el final del año"
+    ]
+   ],
+   "contactsTitle": "Ayuda y asesoramiento",
+   "contacts": [
+    [
+     "Verbraucherzentrale – Inkasso-Check",
+     "Comprobación en línea gratuita: ¿tengo que pagar?",
+     "verbraucherzentrale.de/inkasso-check",
+     "https://www.verbraucherzentrale.de/inkasso-check"
+    ],
+    [
+     "Verbraucherzentrale",
+     "Asesoramiento sobre contratos, cobros, seguros – centros locales",
+     "verbraucherzentrale.de",
+     "https://www.verbraucherzentrale.de/"
+    ],
+    [
+     "Deutscher Mieterbund – Mieterverein vor Ort",
+     "Alquiler, defectos, gastos – búsqueda por código postal (con cuota de socio)",
+     "mieterbund.de",
+     "https://mieterbund.de/mieterverein-vor-ort/"
+    ],
+    [
+     "115",
+     "Número del servicio público: ¿qué oficina es competente?",
+     "115",
+     "https://www.115.de/"
+    ]
+   ],
+   "letters": {
+    "kuend": [
+     "Baja de un contrato (móvil, internet, gimnasio, suscripción)",
+     "En la fecha más próxima posible – pidiendo confirmación."
+    ],
+    "kuendvers": [
+     "Baja de un seguro",
+     "Para el final del periodo de seguro."
+    ],
+    "inkasso": [
+     "Oposición a una reclamación de cobro",
+     "Si la reclamación es errónea o poco clara."
+    ],
+    "maengel": [
+     "Aviso de defectos al arrendador",
+     "Moho, calefacción, agua – con plazo para repararlo."
+    ],
+    "nk": [
+     "Objeciones a la liquidación de gastos",
+     "Pidiendo ver los justificantes."
+    ],
+    "zeugnis": [
+     "Solicitud de certificado de trabajo cualificado",
+     "A tu empleador (anterior)."
+    ],
+    "lohn": [
+     "Solicitud de nóminas",
+     "Si faltan nóminas."
+    ]
+   }
+  }
+ }
+}

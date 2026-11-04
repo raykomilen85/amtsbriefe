@@ -3,7 +3,7 @@ pl: {
   ui: { blank: "Pusty wzór", example: "Wypełniony przykład", copy: "Kopiuj tekst", copied: "Skopiowano ✓", print: "Drukuj", fill: "Pola do wypełnienia", purpose: "Do czego?", letters: "Wzory pism", lettersNote: "Pisma do niemieckich urzędów pisze się zawsze po niemiecku. Zastąp żółte pola swoimi danymi. Zachowaj kopię i dowód wysłania (list polecony, raport faksu lub e-mail).", help: "Bezpłatna pomoc", sources: "Podstawa prawna", stand: "Stan na", disclaimer: "Informacje ogólne, nie porada prawna. Niech poradnia lub adwokat sprawdzi Twoją sprawę.", home: "Wszystkie wzory pism", other: "Zobacz też", deadlines: "Terminy w skrócie" },
   aufenthalt: {
     title: "Kończy się zezwolenie na pobyt lub wiza – co robić? Przedłużenie, Fiktionsbescheinigung, sprzeciw",
-    desc: "Kończy się Twoje zezwolenie na pobyt lub wiza w Niemczech? Krok po kroku: wniosek na czas, Fiktionsbescheinigung, wysłuchanie, odmowa. Bezpłatne wzory pism w 8 językach.",
+    desc: "Kończy się Twoje zezwolenie na pobyt lub wiza w Niemczech? Krok po kroku: wniosek na czas, Fiktionsbescheinigung, wysłuchanie, odmowa. Bezpłatne wzory pism w 13 językach.",
     h1: "Kończy się zezwolenie na pobyt lub wiza – co robić?",
     intro: "Najważniejsze: złóż wniosek o przedłużenie przed upływem zezwolenia – nawet jeśli nie dostaniesz terminu. Wtedy zezwolenie obowiązuje do decyzji urzędu.",
     steps: [
@@ -33,7 +33,7 @@ pl: {
   },
   abschiebung: {
     title: "Grozi deportacja (Abschiebung) – co robić? Terminy, Duldung, komisja, bezpłatna pomoc",
-    desc: "Dostałeś wezwanie do wyjazdu lub groźbę deportacji z Niemiec? Terminy, pilne kroki, Duldung, zaświadczenie lekarskie, komisja ds. trudnych przypadków. Wzory w 8 językach.",
+    desc: "Dostałeś wezwanie do wyjazdu lub groźbę deportacji z Niemiec? Terminy, pilne kroki, Duldung, zaświadczenie lekarskie, komisja ds. trudnych przypadków. Wzory w 13 językach.",
     h1: "Grozi deportacja – co jest teraz ważne",
     intro: "Działaj od razu. Terminy są krótkie, a po upływie terminu wyjazdu data deportacji nie jest ogłaszana (§ 59 ust. 1 AufenthG). Jeszcze dziś idź do bezpłatnej poradni.",
     steps: [
@@ -68,7 +68,7 @@ ku: {
   ui: { blank: "Şablona vala", example: "Mînaka tijîkirî", copy: "Nivîsê kopî bike", copied: "Hat kopîkirin ✓", print: "Çap bike", fill: "Qadên ji bo tijîkirinê", purpose: "Ji bo çi?", letters: "Şablonên nameyan", lettersNote: "Nameyên ji daîreyên Almanî re her tim bi Almanî tên nivîsandin. Qadên zer bi agahiyên xwe biguherîne. Kopiyek û belgeya şandinê biparêze (nameya qeydkirî, rapora faksê an e-name).", help: "Alîkariya belaş", sources: "Bingeha qanûnî", stand: "Rewş", disclaimer: "Agahiyên giştî ne, ne şêwirdariya hiqûqî ye. Bila navendeke şêwirdariyê an parêzerek doza te kontrol bike.", home: "Hemû şablonên nameyan", other: "Herwiha binêre", deadlines: "Demên dawî bi kurtî" },
   aufenthalt: {
     title: "Destûra rûniştinê an vîze diqede – çi bikim? Dirêjkirin, Fiktionsbescheinigung, îtîraz",
-    desc: "Destûra rûniştinê an vîzeya te li Almanyayê diqede? Gav bi gav: serlêdana di wextê de, Fiktionsbescheinigung, Anhörung, red. Şablonên nameyan ên belaş bi 8 zimanan.",
+    desc: "Destûra rûniştinê an vîzeya te li Almanyayê diqede? Gav bi gav: serlêdana di wextê de, Fiktionsbescheinigung, Anhörung, red. Şablonên nameyan ên belaş bi 13 zimanan.",
     h1: "Destûra rûniştinê an vîze diqede – çi bikim?",
     intro: "Ya herî girîng: berî ku destûra te biqede, ji bo dirêjkirinê serlêdan bike – heke tu randevûyê nestînî jî. Wê demê destûr heta biryara daîreyê derbasdar dimîne.",
     steps: [
@@ -98,7 +98,7 @@ ku: {
   },
   abschiebung: {
     title: "Metirsiya dersînorkirinê (Abschiebung) – çi bikim? Dem, Duldung, komîsyon, alîkariya belaş",
-    desc: "Fermana derketinê an hişyariya dersînorkirinê ji Almanyayê wergirt? Dem, gavên lezgîn, Duldung, rapora bijîşk, komîsyona rewşên dijwar. Şablonên belaş bi 8 zimanan.",
+    desc: "Fermana derketinê an hişyariya dersînorkirinê ji Almanyayê wergirt? Dem, gavên lezgîn, Duldung, rapora bijîşk, komîsyona rewşên dijwar. Şablonên belaş bi 13 zimanan.",
     h1: "Metirsiya dersînorkirinê – niha çi girîng e",
     intro: "Yekser tevbigere. Dem kurt in, û piştî dawîbûna dema derketinê dîroka dersînorkirinê nayê ragihandin (§ 59 Abs. 1 AufenthG). Îro here navendeke şêwirdariyê ya belaş.",
     steps: [

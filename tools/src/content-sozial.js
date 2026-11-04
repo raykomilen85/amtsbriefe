@@ -11,7 +11,7 @@ const contacts = (w) => [
 module.exports = {
 de: { sozial: {
   title: "Wohngeld, Kinderzuschlag, Elterngeld, Unterhaltsvorschuss, Grundsicherung, Rente – Anträge & Briefvorlagen",
-  desc: "Sozialleistungen richtig beantragen: ab wann gezahlt wird, welche Stelle zuständig ist, Fristen und kostenlose Briefvorlagen (formloser Antrag, Sachstandsanfrage). In 8 Sprachen.",
+  desc: "Sozialleistungen richtig beantragen: ab wann gezahlt wird, welche Stelle zuständig ist, Fristen und kostenlose Briefvorlagen (formloser Antrag, Sachstandsanfrage). In 13 Sprachen.",
   h1: "Sozialleistungen beantragen – ohne Geld zu verlieren",
   intro: "Wichtigster Tipp: Stellen Sie den Antrag sofort – ein kurzer formloser Brief reicht. Wohngeld, Kinderzuschlag und Grundsicherung gibt es erst ab dem Monat, in dem der Antrag eingeht. Formulare und Nachweise können Sie nachreichen.",
   steps: [
@@ -46,7 +46,7 @@ de: { sozial: {
 
 en: { sozial: {
   title: "Housing benefit, child supplement, parental allowance, maintenance advance, basic income, pension – applications & letter templates",
-  desc: "Apply for German social benefits correctly: from when they are paid, which office is responsible, deadlines and free letter templates (informal application, status inquiry). In 8 languages.",
+  desc: "Apply for German social benefits correctly: from when they are paid, which office is responsible, deadlines and free letter templates (informal application, status inquiry). In 13 languages.",
   h1: "Applying for social benefits in Germany – without losing money",
   intro: "Most important tip: apply immediately – a short informal letter is enough. Housing benefit, child supplement and basic income support are only paid from the month the application arrives. Forms and documents can follow later.",
   steps: [
@@ -81,7 +81,7 @@ en: { sozial: {
 
 tr: { sozial: {
   title: "Wohngeld, Kinderzuschlag, Elterngeld, Unterhaltsvorschuss, Grundsicherung, emeklilik – başvurular ve mektup şablonları",
-  desc: "Almanya'da sosyal yardımlara doğru başvurun: ne zamandan itibaren ödenir, hangi kurum yetkili, süreler ve ücretsiz mektup şablonları (serbest başvuru, durum sorgusu). 8 dilde.",
+  desc: "Almanya'da sosyal yardımlara doğru başvurun: ne zamandan itibaren ödenir, hangi kurum yetkili, süreler ve ücretsiz mektup şablonları (serbest başvuru, durum sorgusu). 13 dilde.",
   h1: "Sosyal yardımlara başvuru – para kaybetmeden",
   intro: "En önemli ipucu: Hemen başvurun – kısa, serbest bir mektup yeterlidir. Wohngeld, Kinderzuschlag ve Grundsicherung ancak başvurunun ulaştığı aydan itibaren ödenir. Formları ve belgeleri sonradan gönderebilirsiniz.",
   steps: [
@@ -116,7 +116,7 @@ tr: { sozial: {
 
 bg: { sozial: {
   title: "Wohngeld, Kinderzuschlag, Elterngeld, Unterhaltsvorschuss, Grundsicherung, пенсия – заявления и образци",
-  desc: "Как правилно да кандидатствате за социални помощи в Германия: от кога се плащат, коя служба отговаря, срокове и безплатни образци на писма. На 8 езика.",
+  desc: "Как правилно да кандидатствате за социални помощи в Германия: от кога се плащат, коя служба отговаря, срокове и безплатни образци на писма. На 13 езика.",
   h1: "Социални помощи в Германия – без да губите пари",
   intro: "Най-важното: подайте заявление веднага – кратко неформално писмо е достатъчно. Wohngeld, Kinderzuschlag и Grundsicherung се плащат едва от месеца, в който заявлението пристигне. Формулярите и документите може да изпратите по-късно.",
   steps: [
@@ -186,7 +186,7 @@ ar: { sozial: {
 
 uk: { sozial: {
   title: "Wohngeld, Kinderzuschlag, Elterngeld, Unterhaltsvorschuss, Grundsicherung, пенсія – заяви та шаблони листів",
-  desc: "Як правильно подати на соціальні виплати в Німеччині: з якого місяця платять, яка установа відповідає, строки та безкоштовні шаблони листів. 8 мовами.",
+  desc: "Як правильно подати на соціальні виплати в Німеччині: з якого місяця платять, яка установа відповідає, строки та безкоштовні шаблони листів. 13 мовами.",
   h1: "Соціальні виплати в Німеччині – не втрачаючи гроші",
   intro: "Найважливіше: подайте заяву одразу – достатньо короткого неформального листа. Wohngeld, Kinderzuschlag і Grundsicherung платять лише з місяця, коли заява надійшла. Форми та документи можна надіслати пізніше.",
   steps: [
@@ -221,7 +221,7 @@ uk: { sozial: {
 
 pl: { sozial: {
   title: "Wohngeld, Kinderzuschlag, Elterngeld, Unterhaltsvorschuss, Grundsicherung, emerytura – wnioski i wzory pism",
-  desc: "Jak prawidłowo ubiegać się o świadczenia socjalne w Niemczech: od kiedy są wypłacane, który urząd jest właściwy, terminy i bezpłatne wzory pism. W 8 językach.",
+  desc: "Jak prawidłowo ubiegać się o świadczenia socjalne w Niemczech: od kiedy są wypłacane, który urząd jest właściwy, terminy i bezpłatne wzory pism. W 13 językach.",
   h1: "Świadczenia socjalne w Niemczech – bez utraty pieniędzy",
   intro: "Najważniejsza rada: złóż wniosek od razu – wystarczy krótkie nieformalne pismo. Wohngeld, Kinderzuschlag i Grundsicherung są wypłacane dopiero od miesiąca, w którym wniosek wpłynął. Formularze i dokumenty możesz dosłać później.",
   steps: [
@@ -256,7 +256,7 @@ pl: { sozial: {
 
 ku: { sozial: {
   title: "Wohngeld, Kinderzuschlag, Elterngeld, Unterhaltsvorschuss, Grundsicherung, teqawîtî – serlêdan û şablonên nameyan",
-  desc: "Li Almanyayê serlêdana alîkariyên civakî bi rêkûpêk bike: ji kengê tê dayîn, kîjan daîre berpirsiyar e, dem û şablonên nameyan ên belaş. Bi 8 zimanan.",
+  desc: "Li Almanyayê serlêdana alîkariyên civakî bi rêkûpêk bike: ji kengê tê dayîn, kîjan daîre berpirsiyar e, dem û şablonên nameyan ên belaş. Bi 13 zimanan.",
   h1: "Serlêdana alîkariyên civakî – bê ku pere winda bikî",
   intro: "Şîreta herî girîng: yekser serlêdan bike – nameyeke kurt û ne fermî bes e. Wohngeld, Kinderzuschlag û Grundsicherung tenê ji meha ku serlêdan digihêje têne dayîn. Form û belgeyan dikarî paşê bişînî.",
   steps: [

@@ -5,7 +5,7 @@ de: {
   ui: { blank: "Leere Vorlage", example: "Ausgefülltes Beispiel", copy: "Text kopieren", copied: "Kopiert ✓", print: "Drucken", fill: "Felder zum Ausfüllen", purpose: "Wofür?", letters: "Briefvorlagen", lettersNote: "Briefe an deutsche Behörden schreiben Sie immer auf Deutsch. Ersetzen Sie die gelben Felder durch Ihre Daten. Bewahren Sie eine Kopie und einen Versandnachweis auf (Einschreiben, Fax-Bericht oder E-Mail).", help: "Kostenlose Hilfe", sources: "Rechtsgrundlagen", stand: "Stand", disclaimer: "Allgemeine Informationen, keine Rechtsberatung. Lassen Sie Ihren Fall von einer Beratungsstelle oder einer Anwältin/einem Anwalt prüfen.", home: "Alle Briefvorlagen", other: "Siehe auch", deadlines: "Fristen auf einen Blick" },
   aufenthalt: {
     title: "Aufenthaltserlaubnis läuft ab – was tun? Verlängerung, Fiktionsbescheinigung, Widerspruch",
-    desc: "Visum oder Aufenthaltstitel läuft ab? Schritt für Schritt: rechtzeitig verlängern, Fiktionsbescheinigung, Anhörung, Ablehnung. Mit kostenlosen Briefvorlagen, in 8 Sprachen.",
+    desc: "Visum oder Aufenthaltstitel läuft ab? Schritt für Schritt: rechtzeitig verlängern, Fiktionsbescheinigung, Anhörung, Ablehnung. Mit kostenlosen Briefvorlagen, in 13 Sprachen.",
     h1: "Aufenthaltserlaubnis oder Visum läuft ab – was tun?",
     intro: "Das Wichtigste zuerst: Stellen Sie den Verlängerungsantrag, bevor Ihr Titel abläuft – auch wenn Sie keinen Termin bekommen. Dann gilt Ihr Aufenthaltstitel weiter, bis die Behörde entscheidet.",
     steps: [
@@ -35,7 +35,7 @@ de: {
   },
   abschiebung: {
     title: "Abschiebung droht – was tun? Fristen, Duldung, Härtefall, kostenlose Hilfe",
-    desc: "Ausreiseaufforderung oder Abschiebungsandrohung bekommen? Fristen, sofortige Schritte, Duldung, ärztliche Bescheinigung, Härtefallkommission. Kostenlose Briefvorlagen in 8 Sprachen.",
+    desc: "Ausreiseaufforderung oder Abschiebungsandrohung bekommen? Fristen, sofortige Schritte, Duldung, ärztliche Bescheinigung, Härtefallkommission. Kostenlose Briefvorlagen in 13 Sprachen.",
     h1: "Abschiebung droht – was jetzt wichtig ist",
     intro: "Handeln Sie sofort. Die Fristen sind kurz, und nach Ablauf der Ausreisefrist wird der Termin der Abschiebung nicht angekündigt (§ 59 Abs. 1 AufenthG). Gehen Sie noch heute zu einer kostenlosen Beratungsstelle.",
     steps: [
@@ -70,7 +70,7 @@ en: {
   ui: { blank: "Blank template", example: "Filled example", copy: "Copy text", copied: "Copied ✓", print: "Print", fill: "Fields to fill in", purpose: "What for?", letters: "Letter templates", lettersNote: "Always write letters to German authorities in German. Replace the yellow fields with your details. Keep a copy and proof of sending (registered mail, fax report or email).", help: "Free help", sources: "Legal basis", stand: "As of", disclaimer: "General information, not legal advice. Have your case checked by a counselling centre or a lawyer.", home: "All letter templates", other: "See also", deadlines: "Deadlines at a glance" },
   aufenthalt: {
     title: "Residence permit or visa expiring in Germany – what to do? Extension, Fiktionsbescheinigung, objection",
-    desc: "Your German residence permit or visa is expiring? Step by step: apply in time, Fiktionsbescheinigung, hearing letter, refusal. Free letter templates, in 8 languages.",
+    desc: "Your German residence permit or visa is expiring? Step by step: apply in time, Fiktionsbescheinigung, hearing letter, refusal. Free letter templates, in 13 languages.",
     h1: "Residence permit or visa expiring in Germany – what to do?",
     intro: "Most important: apply for the extension before your permit expires – even if you cannot get an appointment. Your permit then stays valid until the authority decides.",
     steps: [
@@ -100,7 +100,7 @@ en: {
   },
   abschiebung: {
     title: "Facing deportation in Germany – what to do? Deadlines, Duldung, hardship commission, free help",
-    desc: "Received a departure order or deportation warning in Germany? Deadlines, urgent steps, Duldung, medical certificate, hardship commission. Free letter templates in 8 languages.",
+    desc: "Received a departure order or deportation warning in Germany? Deadlines, urgent steps, Duldung, medical certificate, hardship commission. Free letter templates in 13 languages.",
     h1: "Facing deportation in Germany – what matters now",
     intro: "Act immediately. Deadlines are short, and after the departure deadline the date of deportation is not announced (§ 59(1) Residence Act). Go to a free counselling centre today.",
     steps: [
@@ -135,7 +135,7 @@ tr: {
   ui: { blank: "Boş şablon", example: "Doldurulmuş örnek", copy: "Metni kopyala", copied: "Kopyalandı ✓", print: "Yazdır", fill: "Doldurulacak alanlar", purpose: "Ne için?", letters: "Mektup şablonları", lettersNote: "Alman kurumlarına mektuplar her zaman Almanca yazılır. Sarı alanları kendi bilgilerinizle değiştirin. Bir kopyasını ve gönderim kanıtını saklayın (taahhütlü mektup, faks raporu veya e-posta).", help: "Ücretsiz yardım", sources: "Yasal dayanak", stand: "Güncelleme", disclaimer: "Genel bilgidir, hukuki danışmanlık değildir. Durumunuzu bir danışma merkezine veya avukata kontrol ettirin.", home: "Tüm mektup şablonları", other: "Ayrıca bakın", deadlines: "Süreler bir bakışta" },
   aufenthalt: {
     title: "Oturum izni veya vize bitiyor – ne yapmalı? Uzatma, Fiktionsbescheinigung, itiraz",
-    desc: "Almanya'da oturum izniniz veya vizeniz mi bitiyor? Adım adım: zamanında başvuru, Fiktionsbescheinigung, Anhörung, ret kararı. Ücretsiz mektup şablonları, 8 dilde.",
+    desc: "Almanya'da oturum izniniz veya vizeniz mi bitiyor? Adım adım: zamanında başvuru, Fiktionsbescheinigung, Anhörung, ret kararı. Ücretsiz mektup şablonları, 13 dilde.",
     h1: "Oturum izni veya vize bitiyor – ne yapmalı?",
     intro: "En önemlisi: Oturum izniniz bitmeden uzatma başvurusu yapın – randevu alamasanız bile. O zaman izniniz kurum karar verene kadar geçerli kalır.",
     steps: [
@@ -165,7 +165,7 @@ tr: {
   },
   abschiebung: {
     title: "Sınır dışı (Abschiebung) tehlikesi – ne yapmalı? Süreler, Duldung, Härtefall, ücretsiz yardım",
-    desc: "Almanya'da ülkeyi terk etme veya sınır dışı etme yazısı mı aldınız? Süreler, acil adımlar, Duldung, doktor raporu, Härtefallkommission. Ücretsiz mektup şablonları, 8 dilde.",
+    desc: "Almanya'da ülkeyi terk etme veya sınır dışı etme yazısı mı aldınız? Süreler, acil adımlar, Duldung, doktor raporu, Härtefallkommission. Ücretsiz mektup şablonları, 13 dilde.",
     h1: "Sınır dışı edilme tehlikesi – şimdi önemli olanlar",
     intro: "Hemen harekete geçin. Süreler kısadır ve gönüllü ayrılış süresi bittikten sonra sınır dışı etme tarihi önceden bildirilmez (§ 59 Abs. 1 AufenthG). Bugün ücretsiz bir danışma merkezine gidin.",
     steps: [

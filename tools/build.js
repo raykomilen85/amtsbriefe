@@ -1,4 +1,4 @@
-// Builds the static help pages (Aufenthalt, Abschiebung, Sozialleistungen, Alltag) in 8 languages.
+// Builds the static help pages (Aufenthalt, Abschiebung, Sozialleistungen, Alltag) in 13 languages.
 // Usage: node build.js  -> writes into ./out
 const fs = require("fs");
 const path = require("path");
@@ -8,11 +8,12 @@ const SZ = require("./src/content-sozial");
 for (const l of Object.keys(SZ)) C[l].sozial = SZ[l].sozial;
 const AL = require("./src/content-alltag");
 for (const l of Object.keys(AL)) C[l].alltag = AL[l].alltag;
+Object.assign(C, require("./src/content-neu.json")); // el, fr, nl, ro, es
 
 const SITE = "https://amtsbriefe.de";
 const STAND = "04.11.2026";
-const LANGS = [["de","Deutsch"],["tr","Türkçe"],["bg","Български"],["ar","العربية"],["uk","Українська"],["pl","Polski"],["en","English"],["ku","Kurdî"]];
-const STEP = { de: "Schritt für Schritt", tr: "Adım adım", bg: "Стъпка по стъпка", ar: "خطوة بخطوة", uk: "Крок за кроком", pl: "Krok po kroku", en: "Step by step", ku: "Gav bi gav" };
+const LANGS = [["de","Deutsch"],["tr","Türkçe"],["bg","Български"],["ar","العربية"],["uk","Українська"],["pl","Polski"],["en","English"],["el","Ελληνικά"],["fr","Français"],["nl","Nederlands"],["ro","Română"],["es","Español"],["ku","Kurdî"]];
+const STEP = { de: "Schritt für Schritt", tr: "Adım adım", bg: "Стъпка по стъпка", ar: "خطوة بخطوة", uk: "Крок за кроком", pl: "Krok po kroku", en: "Step by step", el: "Βήμα προς βήμα", fr: "Étape par étape", nl: "Stap voor stap", ro: "Pas cu pas", es: "Paso a paso", ku: "Gav bi gav" };
 const PAGES = { aufenthalt: "aufenthalt-laeuft-ab", abschiebung: "abschiebung-hilfe", sozial: "sozialleistungen-antrag", alltag: "alltag-briefvorlagen" };
 const SRC_SOZ = [["§ 25 WoGG","wogg/__25.html"],["§ 7 WoGG","wogg/__7.html"],["§ 6a BKGG","bkgg_1996/__6a.html"],["§ 7 BEEG","beeg/__7.html"],["§ 13 BEEG","beeg/__13.html"],["§ 4 UVG","uhvorschg/__4.html"],["§ 44 SGB XII","sgb_12/__44.html"],["§ 88 SGG","sgg/__88.html"],["§ 75 VwGO","vwgo/__75.html"]];
 const SOURCES = {

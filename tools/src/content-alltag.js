@@ -16,7 +16,7 @@ const L = (a) => ({ kuend: a[0], kuendvers: a[1], inkasso: a[2], maengel: a[3], 
 module.exports = {
 de: { alltag: {
   title: "Handyvertrag kündigen, Inkasso widersprechen, Mängel melden, Nebenkosten prüfen – kostenlose Briefvorlagen",
-  desc: "Briefvorlagen für den Alltag: Kündigung (Handy, Internet, Fitnessstudio, Versicherung), Widerspruch gegen Inkasso, Mängelanzeige, Nebenkostenabrechnung, Arbeitszeugnis, Lohnabrechnung. Fristen und Hilfe, in 8 Sprachen.",
+  desc: "Briefvorlagen für den Alltag: Kündigung (Handy, Internet, Fitnessstudio, Versicherung), Widerspruch gegen Inkasso, Mängelanzeige, Nebenkostenabrechnung, Arbeitszeugnis, Lohnabrechnung. Fristen und Hilfe, in 13 Sprachen.",
   h1: "Alltag: Verträge kündigen, Inkasso widersprechen, Mängel melden",
   intro: "Wichtig: Schreiben Sie immer schriftlich und heben Sie einen Nachweis auf (Einschreiben, E-Mail, Bestätigungsseite). Zahlen Sie eine Inkasso-Forderung nicht vorschnell – prüfen Sie zuerst, ob sie berechtigt ist. Hilfe: Verbraucherzentrale und Mieterverein.",
   steps: [
@@ -54,7 +54,7 @@ de: { alltag: {
 
 en: { alltag: {
   title: "Cancel a phone contract, dispute debt collection, report defects, check utility bills in Germany – free letter templates",
-  desc: "Everyday letter templates for Germany: cancellation (mobile, internet, gym, insurance), objection to debt collection, defect notice to landlord, utility bill, job reference, payslip. Deadlines and help, in 8 languages.",
+  desc: "Everyday letter templates for Germany: cancellation (mobile, internet, gym, insurance), objection to debt collection, defect notice to landlord, utility bill, job reference, payslip. Deadlines and help, in 13 languages.",
   h1: "Everyday life in Germany: cancel contracts, dispute debt collection, report defects",
   intro: "Important: always write, and keep proof (registered mail, email, confirmation page). Do not pay a debt-collection demand in a hurry – first check whether it is justified. Help: Verbraucherzentrale (consumer advice centre) and Mieterverein (tenants’ association).",
   steps: [
@@ -92,7 +92,7 @@ en: { alltag: {
 
 tr: { alltag: {
   title: "Almanya’da telefon sözleşmesi iptali, Inkasso itirazı, ev ayıbı bildirimi, yan gider kontrolü – ücretsiz mektup şablonları",
-  desc: "Günlük hayat için mektup şablonları: fesih (cep telefonu, internet, spor salonu, sigorta), Inkasso talebine itiraz, ev sahibine ayıp bildirimi, yan gider hesabı, iş belgesi, maaş bordrosu. Süreler ve yardım, 8 dilde.",
+  desc: "Günlük hayat için mektup şablonları: fesih (cep telefonu, internet, spor salonu, sigorta), Inkasso talebine itiraz, ev sahibine ayıp bildirimi, yan gider hesabı, iş belgesi, maaş bordrosu. Süreler ve yardım, 13 dilde.",
   h1: "Günlük hayat: sözleşme feshi, Inkasso itirazı, evdeki ayıpları bildirme",
   intro: "Önemli: Her zaman yazılı yazın ve gönderim kanıtını saklayın (taahhütlü mektup, e-posta, onay sayfası). Inkasso taleplerini aceleyle ödemeyin – önce haklı olup olmadığını kontrol edin. Yardım: Verbraucherzentrale (tüketici danışma merkezi) ve Mieterverein (kiracılar derneği).",
   steps: [
@@ -130,7 +130,7 @@ tr: { alltag: {
 
 bg: { alltag: {
   title: "Прекратяване на договор за телефон, възражение срещу инкасо, дефекти в жилището, проверка на сметката за разходи в Германия – безплатни шаблони",
-  desc: "Шаблони за писма в ежедневието: прекратяване (мобилен телефон, интернет, фитнес, застраховка), възражение срещу инкасо, уведомление за дефект до хазяина, сметка за разходи, служебна характеристика, фиш за заплата. Срокове и помощ, на 8 езика.",
+  desc: "Шаблони за писма в ежедневието: прекратяване (мобилен телефон, интернет, фитнес, застраховка), възражение срещу инкасо, уведомление за дефект до хазяина, сметка за разходи, служебна характеристика, фиш за заплата. Срокове и помощ, на 13 езика.",
   h1: "Ежедневие: прекратяване на договори, възражение срещу инкасо, дефекти в жилището",
   intro: "Важно: винаги пишете писмено и пазете доказателство (препоръчано писмо, имейл, страница за потвърждение). Не плащайте прибързано искане от инкасо фирма – първо проверете дали е основателно. Помощ: Verbraucherzentrale (център за защита на потребителите) и Mieterverein (сдружение на наемателите).",
   steps: [
@@ -168,7 +168,7 @@ bg: { alltag: {
 
 ar: { alltag: {
   title: "إلغاء عقد الهاتف، الاعتراض على شركة التحصيل، الإبلاغ عن عيوب السكن، فحص فاتورة التكاليف الجانبية في ألمانيا – نماذج رسائل مجانية",
-  desc: "نماذج رسائل للحياة اليومية: إلغاء العقود (الجوال، الإنترنت، النادي الرياضي، التأمين)، الاعتراض على مطالبة التحصيل، إبلاغ المؤجر بعيب، فاتورة التكاليف الجانبية، شهادة العمل، كشف الراتب. المواعيد والمساعدة، بـ 8 لغات.",
+  desc: "نماذج رسائل للحياة اليومية: إلغاء العقود (الجوال، الإنترنت، النادي الرياضي، التأمين)، الاعتراض على مطالبة التحصيل، إبلاغ المؤجر بعيب، فاتورة التكاليف الجانبية، شهادة العمل، كشف الراتب. المواعيد والمساعدة، بـ 13 لغة.",
   h1: "الحياة اليومية: إلغاء العقود، الاعتراض على التحصيل، الإبلاغ عن عيوب السكن",
   intro: "مهم: اكتب دائماً كتابةً واحتفظ بإثبات الإرسال (بريد مسجل، بريد إلكتروني، صفحة التأكيد). لا تدفع مطالبة شركة تحصيل (Inkasso) على عجل – تحقق أولاً هل هي مستحقة. المساعدة: Verbraucherzentrale (مركز حماية المستهلك) وMieterverein (جمعية المستأجرين).",
   steps: [
@@ -206,7 +206,7 @@ ar: { alltag: {
 
 uk: { alltag: {
   title: "Розірвати договір мобільного зв’язку, заперечити інкасо, повідомити про недоліки житла, перевірити рахунок за комунальні в Німеччині – безкоштовні шаблони",
-  desc: "Шаблони листів для повсякдення: розірвання (мобільний, інтернет, спортзал, страховка), заперечення проти інкасо, повідомлення орендодавцю про недолік, рахунок за комунальні, характеристика з роботи, розрахунковий лист. Строки та допомога, 8 мовами.",
+  desc: "Шаблони листів для повсякдення: розірвання (мобільний, інтернет, спортзал, страховка), заперечення проти інкасо, повідомлення орендодавцю про недолік, рахунок за комунальні, характеристика з роботи, розрахунковий лист. Строки та допомога, 13 мовами.",
   h1: "Повсякдення: розірвати договір, заперечити інкасо, повідомити про недоліки житла",
   intro: "Важливо: завжди пишіть письмово й зберігайте доказ (рекомендований лист, e-mail, сторінка підтвердження). Не поспішайте платити за вимогою колекторів (Inkasso) – спершу перевірте, чи вона обґрунтована. Допомога: Verbraucherzentrale (центр захисту споживачів) і Mieterverein (спілка орендарів).",
   steps: [
@@ -244,7 +244,7 @@ uk: { alltag: {
 
 pl: { alltag: {
   title: "Wypowiedzenie umowy na telefon, sprzeciw wobec windykacji, zgłoszenie wady mieszkania, sprawdzenie rozliczenia kosztów w Niemczech – darmowe wzory pism",
-  desc: "Wzory pism na co dzień: wypowiedzenie (telefon, internet, siłownia, ubezpieczenie), sprzeciw wobec żądania windykacji, zgłoszenie wady wynajmującemu, rozliczenie kosztów dodatkowych, świadectwo pracy, pasek wypłaty. Terminy i pomoc, w 8 językach.",
+  desc: "Wzory pism na co dzień: wypowiedzenie (telefon, internet, siłownia, ubezpieczenie), sprzeciw wobec żądania windykacji, zgłoszenie wady wynajmującemu, rozliczenie kosztów dodatkowych, świadectwo pracy, pasek wypłaty. Terminy i pomoc, w 13 językach.",
   h1: "Codzienne sprawy: wypowiedzenie umowy, sprzeciw wobec windykacji, zgłoszenie wad mieszkania",
   intro: "Ważne: zawsze pisz na piśmie i zachowaj dowód (list polecony, e-mail, strona potwierdzenia). Nie płać pochopnie żądania firmy windykacyjnej (Inkasso) – najpierw sprawdź, czy jest zasadne. Pomoc: Verbraucherzentrale (centrum ochrony konsumentów) i Mieterverein (stowarzyszenie najemców).",
   steps: [
@@ -282,7 +282,7 @@ pl: { alltag: {
 
 ku: { alltag: {
   title: "Li Almanyayê peymana telefonê betal bike, li dijî Inkassoyê îtiraz bike, kêmasiyên xanî ragihîne, hesabê lêçûnên alîgir kontrol bike – şablonên nameyan belaş",
-  desc: "Şablonên nameyan ji bo jiyana rojane: betalkirin (telefon, înternet, salona werzîşê, sîgorte), îtiraz li dijî daxwaza Inkassoyê, ragihandina kêmasiyê ji xwedanxanî re, hesabê lêçûnên alîgir, belgeya kar, bordroya meaşê. Dem û alîkarî, bi 8 zimanan.",
+  desc: "Şablonên nameyan ji bo jiyana rojane: betalkirin (telefon, înternet, salona werzîşê, sîgorte), îtiraz li dijî daxwaza Inkassoyê, ragihandina kêmasiyê ji xwedanxanî re, hesabê lêçûnên alîgir, belgeya kar, bordroya meaşê. Dem û alîkarî, bi 13 zimanan.",
   h1: "Jiyana rojane: betalkirina peymanan, îtiraza Inkassoyê, ragihandina kêmasiyên xanî",
   intro: "Girîng: Her tim bi nivîskî binivîse û delîlê bişandinê biparêze (nameya tomarkirî, e-name, rûpela pejirandinê). Daxwaza Inkassoyê bi lez nede – pêşî kontrol bike ka rast e. Alîkarî: Verbraucherzentrale (navenda xerîdaran) û Mieterverein (komeleya kirêdaran).",
   steps: [

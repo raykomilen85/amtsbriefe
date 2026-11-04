@@ -1,12 +1,12 @@
 // "Alltag" page (contracts, debt collection, tenancy, employment).
 // Facts checked on gesetze-im-internet.de, 04.11.2026:
 // TKG § 56; BGB §§ 195, 199, 309 Nr. 9 + 13, 312k, 536, 536c, 556 Abs. 3; VVG § 11; RDG § 13a; ZPO § 692; GewO §§ 108, 109.
-// Help: Verbraucherzentrale Inkasso-Check article (verified 04.11.2026), mieterbund.de/mieterverein-vor-ort/ (search by PLZ), 115.de.
-const VZ_CHECK = "https://www.verbraucherzentrale.de/wissen/geld-versicherungen/kredit-schulden-insolvenz/inkassoforderung-erhalten-kostenlos-online-checken-23670";
+// Help: verbraucherzentrale.de/inkasso-check (interactive check, verified 04.11.2026), mieterbund.de/mieterverein-vor-ort/ (search by PLZ), 115.de.
+const VZ_CHECK = "https://www.verbraucherzentrale.de/inkasso-check";
 const VZ = "https://www.verbraucherzentrale.de/";
 const MB = "https://mieterbund.de/mieterverein-vor-ort/";
 const contacts = (w) => [
-  ["Verbraucherzentrale – Inkasso-Check", w[0], "Inkasso-Check", VZ_CHECK],
+  ["Verbraucherzentrale – Inkasso-Check", w[0], "verbraucherzentrale.de/inkasso-check", VZ_CHECK],
   ["Verbraucherzentrale", w[1], "verbraucherzentrale.de", VZ],
   ["Deutscher Mieterbund – Mieterverein vor Ort", w[2], "mieterbund.de", MB],
   ["115", w[3], "115", "https://www.115.de/"],

@@ -9,9 +9,9 @@
 <meta name="theme-color" content="#B8357F">
 <meta name="description" content="Brief vom Jobcenter, Finanzamt oder der Ausländerbehörde nicht verstanden? Foto hochladen, kostenlos auf Türkisch, Arabisch, Ukrainisch, Bulgarisch, Polnisch, Englisch, Französisch, Italienisch, Griechisch, Slowakisch oder Kurdisch übersetzen und sehen, bis wann du antworten musst.">
 <meta property="og:title" content="Brief vom Amt übersetzen – kostenlos, mit Frist">
-<meta property="og:description" content="Foto hochladen, übersetzen, Antwortfrist sehen. Kostenlos, im Browser, 15 Sprachen.">
+<meta property="og:description" content="Foto hochladen, übersetzen, Antwortfrist sehen. Kostenlos, im Browser, 13 Sprachen.">
 <meta property="og:url" content="https://amtsbriefe.de/ki-hilfe.html">
-<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebApplication","name":"Amtsbriefe – Brief vom Amt übersetzen","url":"https://amtsbriefe.de/ki-hilfe.html","applicationCategory":"UtilitiesApplication","operatingSystem":"Web","inLanguage":["de","tr","bg","ar","uk","pl","en","fr","it","el","sk","nl","ro","es","ku"],"offers":{"@type":"Offer","price":"0","priceCurrency":"EUR"},"description":"Behördenbrief fotografieren, übersetzen lassen und die Antwortfrist sehen – kostenlos, im Browser, in 15 Sprachen."}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebApplication","name":"Amtsbriefe – Brief vom Amt übersetzen","url":"https://amtsbriefe.de/ki-hilfe.html","applicationCategory":"UtilitiesApplication","operatingSystem":"Web","inLanguage":["de","tr","bg","ar","uk","pl","en","el","fr","nl","ro","es","ku"],"offers":{"@type":"Offer","price":"0","priceCurrency":"EUR"},"description":"Behördenbrief fotografieren, übersetzen lassen und die Antwortfrist sehen – kostenlos, im Browser, in 13 Sprachen."}</script>
 <style>
 :root{
   --paper:#F4F5FB; --sheet:#FFFFFF; --ink:#11132A; --muted:#565B7C; --line:#E1E3F0;
@@ -288,7 +288,8 @@ const $=id=>document.getElementById(id);
 const esc=s=>String(s??"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
 let lang="de",land="",files=[],result=null,origText="",trText="";
 try{lang=localStorage.getItem("bb-lang")||lang;land=localStorage.getItem("bb-land")||"";}catch(e){}
-if(!LANGS.some(l=>l[0]===lang))lang="de";
+const UIL=LANGS.filter(l=>l[0]!=="it"&&l[0]!=="sk"); /* page in 13 languages like the rest of the site; it/sk stay as translation targets */
+if(!UIL.some(l=>l[0]===lang))lang="de";
 if(!LANDS.includes(land))land="";
 let tl=lang==="de"?"tr":lang;
 const fmt=d=>{const p=n=>String(n).padStart(2,"0");return p(d.getUTCDate())+"."+p(d.getUTCMonth()+1)+"."+d.getUTCFullYear();};
@@ -298,7 +299,7 @@ const wd=d=>lang==="ku"?["Yekşem","Duşem","Sêşem","Çarşem","Pêncşem","Î
 function render(){
   document.documentElement.lang=lang;document.documentElement.dir=lang==="ar"?"rtl":"ltr";
   document.title=T(S.title,lang)+" – Amtsbriefe";
-  $("langs").innerHTML=LANGS.map(([c,n])=>`<button type="button" data-lang="${c}" aria-pressed="${c===lang}" lang="${c}">${n}</button>`).join("");
+  $("langs").innerHTML=UIL.map(([c,n])=>`<button type="button" data-lang="${c}" aria-pressed="${c===lang}" lang="${c}">${n}</button>`).join("");
   ["back","k1","k2","sub","s1","drop","dropsub","paste","s2","s3","go","rdl","rletter","rule","rtr","rorig","notr","gtnote","w1","w2","disc"].forEach(k=>{const e=$("t-"+k)||$(k);if(e)e.textContent=T(S[k],lang);});
   $("c1").textContent=$("c2").textContent=T(S.copy,lang);$("gtlink").textContent=T(S.gt,lang);
   const h=T(S.h1,lang);$("t-h1").innerHTML=esc(h[0])+"<span>"+esc(h[1])+"</span>";

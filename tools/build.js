@@ -1,4 +1,4 @@
-// Builds the static help pages (Aufenthalt, Abschiebung, Sozialleistungen, Alltag) in 13 languages.
+// Builds the static help pages (Aufenthalt, Abschiebung, Sozialleistungen, Alltag, Familie & Schule) in 13 languages.
 // Usage: node build.js  -> writes into ./out
 const fs = require("fs");
 const path = require("path");
@@ -9,17 +9,32 @@ for (const l of Object.keys(SZ)) C[l].sozial = SZ[l].sozial;
 const AL = require("./src/content-alltag");
 for (const l of Object.keys(AL)) C[l].alltag = AL[l].alltag;
 Object.assign(C, require("./src/content-neu.json")); // el, fr, nl, ro, es
+// "Familie & Schule" page: one JSON per language in src/familie/; contact URLs are language-independent.
+// Facts checked 05.11.2026: gesetze-im-internet.de (PStG §§ 18-20, 59, 62; SGB VIII §§ 8, 17, 18, 24, 59; BGB §§ 1712, 1713),
+// familienportal.de (Beistandschaft kostenlos; Kita-Suche; Anmeldung Standesamt), bra.nrw.de (§ 43 SchulG NRW).
+const FAM_URLS = [
+  "https://familienportal.de/familienportal/lebenslagen/ausbildung-beruf/kinderbetreuung/wie-finde-ich-einen-kita-platz--155596",
+  "https://familienportal.de/familienportal/lebenslagen/schwangerschaft-geburt/anmeldung-standesamt/anmeldung-kind-standesamt--190402",
+  "https://familienportal.de/familienportal/lebenslagen/trennung/allein-und-getrennt-erziehende-eltern/wie-kann-ich-unterhalt-und-vaterschaft-mit-einem-beistand-regeln--126098",
+  "https://www.115.de/",
+];
+for (const l of Object.keys(C)) {
+  const f = JSON.parse(fs.readFileSync(path.join(__dirname, "src/familie", l + ".json"), "utf8"));
+  f.contacts = f.contacts.map((c, i) => [c[0], c[1], c[2], FAM_URLS[i]]);
+  C[l].familie = f;
+}
 
 const SITE = "https://amtsbriefe.de";
-const STAND = "04.11.2026";
+const STAND = "05.11.2026";
 const LANGS = [["de","Deutsch"],["tr","Türkçe"],["bg","Български"],["ar","العربية"],["uk","Українська"],["pl","Polski"],["en","English"],["el","Ελληνικά"],["fr","Français"],["nl","Nederlands"],["ro","Română"],["es","Español"],["ku","Kurdî"]];
 const STEP = { de: "Schritt für Schritt", tr: "Adım adım", bg: "Стъпка по стъпка", ar: "خطوة بخطوة", uk: "Крок за кроком", pl: "Krok po kroku", en: "Step by step", el: "Βήμα προς βήμα", fr: "Étape par étape", nl: "Stap voor stap", ro: "Pas cu pas", es: "Paso a paso", ku: "Gav bi gav" };
-const PAGES = { aufenthalt: "aufenthalt-laeuft-ab", abschiebung: "abschiebung-hilfe", sozial: "sozialleistungen-antrag", alltag: "alltag-briefvorlagen" };
+const PAGES = { aufenthalt: "aufenthalt-laeuft-ab", abschiebung: "abschiebung-hilfe", sozial: "sozialleistungen-antrag", alltag: "alltag-briefvorlagen", familie: "familie-schule" };
 const SRC_SOZ = [["§ 25 WoGG","wogg/__25.html"],["§ 7 WoGG","wogg/__7.html"],["§ 6a BKGG","bkgg_1996/__6a.html"],["§ 7 BEEG","beeg/__7.html"],["§ 13 BEEG","beeg/__13.html"],["§ 4 UVG","uhvorschg/__4.html"],["§ 44 SGB XII","sgb_12/__44.html"],["§ 88 SGG","sgg/__88.html"],["§ 75 VwGO","vwgo/__75.html"]];
 const SOURCES = {
   aufenthalt: [["§ 81 AufenthG","aufenthg_2004/__81.html"],["§ 84 AufenthG","aufenthg_2004/__84.html"],["§ 58 VwGO","vwgo/__58.html"],["§ 81 VwGO","vwgo/__81.html"],["§ 29 VwVfG","vwvfg/__29.html"],["§ 1 BerHG","berathig/__1.html"]],
   sozial: SRC_SOZ,
   alltag: [["§ 56 TKG","tkg_2021/__56.html"],["§ 309 BGB","bgb/__309.html"],["§ 312k BGB","bgb/__312k.html"],["§ 11 VVG","vvg_2008/__11.html"],["§ 13a RDG","rdg/__13a.html"],["§ 195 BGB","bgb/__195.html"],["§ 199 BGB","bgb/__199.html"],["§ 692 ZPO","zpo/__692.html"],["§ 536 BGB","bgb/__536.html"],["§ 536c BGB","bgb/__536c.html"],["§ 556 BGB","bgb/__556.html"],["§ 108 GewO","gewo/__108.html"],["§ 109 GewO","gewo/__109.html"]],
+  familie: [["§ 18 PStG","pstg/__18.html"],["§ 19 PStG","pstg/__19.html"],["§ 20 PStG","pstg/__20.html"],["§ 59 PStG","pstg/__59.html"],["§ 62 PStG","pstg/__62.html"],["§ 24 SGB VIII","sgb_8/__24.html"],["§ 8 SGB VIII","sgb_8/__8.html"],["§ 17 SGB VIII","sgb_8/__17.html"],["§ 18 SGB VIII","sgb_8/__18.html"],["§ 59 SGB VIII","sgb_8/__59.html"],["§ 1712 BGB","bgb/__1712.html"],["§ 1713 BGB","bgb/__1713.html"]],
   abschiebung: [["§ 59 AufenthG","aufenthg_2004/__59.html"],["§ 60a AufenthG","aufenthg_2004/__60a.html"],["§ 23a AufenthG","aufenthg_2004/__23a.html"],["§ 11 AufenthG","aufenthg_2004/__11.html"],["§ 84 AufenthG","aufenthg_2004/__84.html"],["§ 74 AsylG","asylvfg_1992/__74.html"],["§ 1 BerHG","berathig/__1.html"]],
 };
 const HELP = [
@@ -127,7 +142,7 @@ ${p.contacts ? `<h2>${esc(p.contactsTitle)}</h2>
 <h2>${esc(u.letters)}</h2>
 <p class="note">${esc(u.lettersNote)}</p>
 ${letters}
-${key === "sozial" || key === "alltag" ? "" : `<h2>${esc(u.help)}</h2>
+${key === "sozial" || key === "alltag" || key === "familie" ? "" : `<h2>${esc(u.help)}</h2>
 <ul class="help">${HELP.map(([n, h]) => `<li><a href="${h}" rel="noopener" target="_blank">${esc(n)} ↗</a></li>`).join("")}</ul>`}
 <p class="other"><strong>${esc(u.other)}:</strong> ${others.map(o => `<a href="${rel(lang, lang, o)}">${esc(t[o].h1)}</a>`).join(" · ")} · <a href="${root(lang)}">${esc(u.home)}</a></p>
 <p class="src"><strong>${esc(u.sources)}:</strong> ${SOURCES[key].map(([n, h]) => `<a href="https://www.gesetze-im-internet.de/${h}" rel="noopener" target="_blank">${n}</a>`).join("")}<br>${esc(u.stand)}: ${STAND}</p>

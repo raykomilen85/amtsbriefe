@@ -1,0 +1,40 @@
+{
+  "title": "Birth certificate, Kita place, school excuse note, Jugendamt – free letter templates",
+  "desc": "Family & school: register a birth at the registry office (Standesamt), apply for a birth certificate, register for a Kita place (legal right), excuse notes and leave of absence for school, Beistandschaft and advice from the youth welfare office (Jugendamt). Deadlines, templates, help – in 13 languages.",
+  "h1": "Family & school: registry office, Kita, school, Jugendamt",
+  "intro": "Important: The birth of your child must be reported to the registry office (Standesamt) within one week. Register for a Kita place early. For school, the rules of your federal state (Bundesland) apply – if in doubt, ask the school. The youth welfare office (Jugendamt) advises families; the Beistandschaft for paternity and child support is free of charge.",
+  "steps": [
+    ["Report the birth to the registry office", "A birth must be reported to the registry office (Standesamt) within one week (§ 18 PStG). If your child was born in a hospital or a birth centre, the facility reports the birth (§ 20 PStG) – you give your child's name there. For a home birth, the parents with custody must report the birth themselves (§ 19 PStG). Bring the documents the registry office requires, e.g. passports and marriage certificate – ask beforehand."],
+    ["Apply for a birth certificate", "The birth certificate contains, among other things, the name, sex, place, date and time of birth and the parents (§ 59 PStG). You need it e.g. for child benefit (Kindergeld), parental allowance (Elterngeld) and the health insurance fund. It can be requested by the person themselves, their spouse or civil partner, parents and grandparents, and children and grandchildren (§ 62 PStG). The responsible office is the registry office that registered the birth – usually the registry office at the place of birth. The fee is set by your federal state. Template below."],
+    ["Kita place: legal right from the 1st birthday", "From the 1st birthday until the 3rd birthday, your child has a right to a place in a Kita (day-care centre) or with a childminder; from the 3rd birthday until school, to a place in a Kita (§ 24(2) and (3) SGB VIII). The responsible office is usually the youth welfare office (Jugendamt) of your city or district. Many cities have a Kita portal for registration."],
+    ["Register for a Kita place early and in writing", "Your federal state can require you to report your need to the youth welfare office a certain time in advance (§ 24(6) SGB VIII). So register as early as possible – in addition to registering with the Kitas you would like, also with the youth welfare office, in writing (template below). If you do not get a place, look for a solution together with the youth welfare office, e.g. child day care with a childminder (Kindertagespflege). Get advice before taking legal action."],
+    ["New: all-day care at primary school", "Children who start 1st grade in the school year 2026/2027 or later have a right to all-day care until the start of 5th grade: 8 hours a day on working days; lesson time counts towards this (§ 24(4) SGB VIII). Ask the school or the youth welfare office about registration."],
+    ["Child sick? Inform the school and excuse your child", "How and by when you must excuse your child is set by the school law of your federal state and by the school. Inform the school on the first day of absence if possible, and then hand in a written excuse note (template below). Some schools require a doctor's certificate for longer illness."],
+    ["Exemption from lessons (Beurlaubung)", "For an important reason – e.g. a wedding or funeral in the family – apply to the school for leave of absence in writing in advance (template below). The school decides under state law whether it is granted. Directly before and after the holidays, leave of absence is possible in many states only in exceptional cases, e.g. in North Rhine-Westphalia not to extend the holidays or to travel more cheaply (§ 43 SchulG NRW)."],
+    ["Jugendamt: advice and help for families", "The youth welfare office helps families: advice on parenting questions, on separation and divorce (§ 17 SGB VIII) and on child support and contact (§ 18 SGB VIII). Children and young people can also get advice without their parents knowing if the purpose of the advice would otherwise be at risk (§ 8(3) SGB VIII). At the youth welfare office you can also have e.g. the acknowledgement of paternity, child support obligations and custody declarations officially certified (§ 59 SGB VIII)."],
+    ["Beistandschaft: help with paternity and child support", "On your written application, the youth welfare office helps as an advocate (Beistand) to establish paternity and to claim child support for your child (§ 1712 BGB). The application can be made by the parent with sole custody – with joint custody, by the parent the child lives with (§ 1713 BGB). The Beistandschaft is free of charge and can be ended in writing at any time. If the other parent does not pay child support, see also advance maintenance payment (Unterhaltsvorschuss) on our page on social benefits."]
+  ],
+  "deadlines": [
+    ["Report the birth to the registry office", "within 1 week (§ 18 PStG)"],
+    ["Register for a Kita place", "as early as possible – your federal state can set a deadline"],
+    ["Legal right to a Kita place", "from the 1st birthday"],
+    ["All-day care at primary school", "from 1st grade in the school year 2026/2027"],
+    ["Excuse note for school", "according to the rules of your school / your federal state"],
+    ["Leave of absence from lessons", "apply in writing in advance"]
+  ],
+  "contactsTitle": "Help and information",
+  "contacts": [
+    ["Familienportal – find a Kita place", "Kita search of the federal states and Jugendamt", "familienportal.de"],
+    ["Familienportal – register your child at the registry office", "What to do after the birth", "familienportal.de"],
+    ["Familienportal – Beistandschaft", "Settle child support and paternity with an advocate (Beistand)", "familienportal.de"],
+    ["115", "Public authority number: which office is responsible?", "115"]
+  ],
+  "letters": {
+    "geburtsurk": ["Request for birth certificates (Antrag auf Geburtsurkunden)", "to the registry office – e.g. for child benefit, parental allowance, school"],
+    "kita": ["Registration for a Kita place with the Jugendamt (Anmeldung eines Kita-Platzes beim Jugendamt)", "register your childcare need in writing (§ 24 SGB VIII)"],
+    "krank": ["Excuse note for school (Entschuldigung für die Schule)", "if your child was sick"],
+    "beurlaub": ["Request for leave of absence from lessons (Antrag auf Beurlaubung vom Unterricht)", "for an important reason – submit in advance"],
+    "beistand": ["Application for Beistandschaft at the Jugendamt (Antrag auf Beistandschaft beim Jugendamt)", "help with paternity and child support (§ 1712 BGB)"],
+    "beratung": ["Request for an advice appointment at the Jugendamt (Bitte um einen Beratungstermin beim Jugendamt)", "e.g. for separation, contact, parenting questions"]
+  }
+}

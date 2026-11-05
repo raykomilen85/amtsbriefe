@@ -32,6 +32,7 @@ const SAMPLE = {
   job: "Lagerhelferin", empend: "31.10.2026", months: "August und September 2026", persnr: "4711",
   objection: "Ich habe bei Ihrem Auftraggeber nie einen Vertrag geschlossen und keine Ware erhalten.",
   defect: "Im Schlafzimmer bildet sich an der Außenwand Schimmel (ca. 1 m²). Fotos liegen bei.",
+  copies: "2", person: "Emre Yılmaz, geb. 02.05.2019", bplace: "Lübeck", relation: "Mutter", purpose: "Kindergeld und Anmeldung in der Schule", start: "01.08.2027", hours: "ganztags, ca. 8 Stunden täglich", class: "3b", absent: "03.11.2026 bis 05.11.2026", language: "Türkisch",
   hardship: "Ich lebe seit 9 Jahren in Deutschland, spreche Deutsch auf B1-Niveau, arbeite in Vollzeit und meine zwei Kinder gehen hier zur Schule.",
 };
 
@@ -47,6 +48,7 @@ const LABELS = {
   contract: "Kunden- oder Vertragsnummer", product: "Art des Vertrags (z. B. Mobilfunkvertrag mit Rufnummer)", policy: "Versicherungsnummer", insurance: "Art der Versicherung",
   creditor: "Name des Auftraggebers / Gläubigers", amount: "geforderter Betrag", objection: "Ihre Gründe / Einwendungen", since: "seit wann (Datum)", defect: "Beschreibung des Mangels",
   deadline: "Frist (Datum)", period: "Abrechnungszeitraum", received: "Datum des Erhalts", job: "Ihre Tätigkeit", empend: "Ende des Arbeitsverhältnisses", months: "Monate", persnr: "Personalnummer",
+  copies: "Anzahl", person: "Name, Geburtsname und Geburtsdatum der Person", bplace: "Geburtsort", relation: "Ihr Verhältnis zur Person (z. B. ich selbst, Mutter, Vater)", purpose: "Verwendungszweck", start: "gewünschter Beginn (Datum)", hours: "Betreuungsumfang (Stunden pro Tag)", class: "Klasse", absent: "Zeitraum (von – bis)", language: "Sprache",
 };
 
 const head = `{{name}}
@@ -339,6 +341,89 @@ für {{months}} habe ich keine Lohnabrechnung erhalten.
 Nach § 108 Gewerbeordnung ist mir bei Zahlung des Arbeitsentgelts eine Abrechnung in Textform zu erteilen. Bitte senden Sie mir die fehlenden Abrechnungen bis zum {{deadline}}.
 
 Sollte für diese Monate noch Lohn offen sein, bitte ich um Zahlung bis zum selben Datum.`,
+  },
+  geburtsurk: {
+    sample: { office: "Stadt Musterstadt – Standesamt", officeaddr: "Rathausplatz 1\n12345 Musterstadt" },
+    subj: "Antrag auf Ausstellung von Geburtsurkunden",
+    body: `Sehr geehrte Damen und Herren,
+
+hiermit beantrage ich die Ausstellung von {{copies}} Geburtsurkunde(n) für folgende Person:
+
+Name, Geburtsname und Geburtsdatum: {{person}}
+Geburtsort: {{bplace}}
+Mein Verhältnis zu dieser Person: {{relation}}
+
+Verwendungszweck: {{purpose}}
+
+Eine Kopie meines Ausweises lege ich bei. Bitte teilen Sie mir die Gebühr und die Zahlungsmöglichkeiten mit, falls eine Zahlung im Voraus nötig ist. Bitte senden Sie die Urkunde(n) an meine oben genannte Adresse.`,
+  },
+  kita: {
+    sample: { office: "Landkreis Musterkreis – Jugendamt, Kindertagesbetreuung", officeaddr: "Kreishausstraße 1\n12345 Musterstadt" },
+    subj: "Anmeldung des Betreuungsbedarfs / Antrag auf einen Platz in der Kindertagesbetreuung (§ 24 SGB VIII)",
+    body: `Sehr geehrte Damen und Herren,
+
+hiermit melde ich für mein Kind einen Betreuungsplatz in einer Kindertageseinrichtung oder in der Kindertagespflege an.
+
+Kind: {{child}}
+Gewünschter Beginn: {{start}}
+Gewünschter Betreuungsumfang: {{hours}}
+
+Mein Kind hat einen Rechtsanspruch auf Förderung nach § 24 SGB VIII. Bitte bestätigen Sie mir den Eingang dieser Anmeldung schriftlich und teilen Sie mir mit, ob noch Unterlagen fehlen.
+
+Sollte zum gewünschten Termin kein Platz zur Verfügung stehen, bitte ich um eine schriftliche Mitteilung bzw. einen Bescheid.`,
+  },
+  krank: {
+    sample: { office: "Grundschule Am Markt – Klassenleitung 3b", officeaddr: "Am Markt 3\n23611 Bad Schwartau" },
+    subj: "Entschuldigung für das Fehlen meines Kindes {{child}}, Klasse {{class}}",
+    body: `Sehr geehrte Damen und Herren,
+
+mein Kind {{child}}, Klasse {{class}}, konnte im Zeitraum {{absent}} wegen Krankheit nicht am Unterricht teilnehmen.
+
+Ich bitte, das Fehlen zu entschuldigen. Falls die Schule eine ärztliche Bescheinigung verlangt, reiche ich sie nach.`,
+  },
+  beurlaub: {
+    sample: { office: "Grundschule Am Markt – Schulleitung", officeaddr: "Am Markt 3\n23611 Bad Schwartau", absent: "03.12.2026 bis 04.12.2026", why: "Hochzeit meiner Schwester am 04.12.2026 in Hamburg. Die Einladung lege ich bei." },
+    subj: "Antrag auf Beurlaubung vom Unterricht – {{child}}, Klasse {{class}}",
+    body: `Sehr geehrte Damen und Herren,
+
+hiermit beantrage ich, mein Kind {{child}}, Klasse {{class}}, im Zeitraum {{absent}} vom Unterricht zu beurlauben.
+
+Grund:
+{{why}}
+
+Nachweise lege ich bei. Den versäumten Unterrichtsstoff wird mein Kind selbstständig nacharbeiten.
+
+Bitte teilen Sie mir Ihre Entscheidung schriftlich mit.`,
+  },
+  beistand: {
+    sample: { office: "Landkreis Musterkreis – Jugendamt, Beistandschaften", officeaddr: "Kreishausstraße 1\n12345 Musterstadt" },
+    subj: "Antrag auf Beistandschaft nach § 1712 BGB für mein Kind {{child}}",
+    body: `Sehr geehrte Damen und Herren,
+
+hiermit beantrage ich die Beistandschaft des Jugendamts für mein Kind {{child}} für folgende Aufgaben (Zutreffendes bitte ankreuzen):
+
+[ ] Feststellung der Vaterschaft
+[ ] Geltendmachung von Unterhaltsansprüchen
+
+Das Kind lebt bei mir. Ich habe die alleinige elterliche Sorge bzw. das Kind lebt bei gemeinsamer Sorge in meiner Obhut (§ 1713 BGB).
+
+Anderer Elternteil: {{otherparent}}
+
+Bitte bestätigen Sie mir den Eingang und nennen Sie mir die zuständige Ansprechperson sowie die Unterlagen, die Sie benötigen.`,
+  },
+  beratung: {
+    sample: { office: "Landkreis Musterkreis – Jugendamt, Allgemeiner Sozialer Dienst", officeaddr: "Kreishausstraße 1\n12345 Musterstadt", child: "Emre (7 Jahre) und Elif (4 Jahre)", why: "Ich lebe getrennt vom Vater meiner Kinder. Ich brauche Beratung zum Umgang der Kinder mit dem Vater und zum Unterhalt." },
+    subj: "Bitte um einen Beratungstermin",
+    body: `Sehr geehrte Damen und Herren,
+
+ich bitte um einen Termin für ein Beratungsgespräch beim Jugendamt.
+
+Thema:
+{{why}}
+
+Kind/Kinder: {{child}}
+
+Ich bin am besten unter der oben genannten Telefonnummer erreichbar. Falls nötig, bitte ich um eine Dolmetscherin oder einen Dolmetscher für folgende Sprache: {{language}}.`,
   },
 };
 

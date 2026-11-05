@@ -1,0 +1,41 @@
+{
+  "title": "Convert a driving licence, register a car, register a business, severe disability ID card, care level – free letter templates",
+  "desc": "Car, business, health: convert a foreign driving licence, register and deregister a vehicle, register a business, apply for a severe disability ID card (Schwerbehindertenausweis) and a care level (Pflegegrad), file an objection. Deadlines, templates, help – in 13 languages.",
+  "h1": "Car, business, health: driving licence, vehicle, business, severe disability, care level",
+  "intro": "Important: With a driving licence from a non-EU country, you may only drive for 6 months after moving to Germany – apply for the conversion early. You register a business at the same time as you start it. A care level (Pflegegrad) and severe disability status are only granted on application – apply as early as possible.",
+  "steps": [
+    ["Driving licence from a non-EU country: 6 months", "Once you have your residence in Germany, you may drive with your foreign driving licence for another 6 months. On application, the driving licence authority (Fahrerlaubnisbehörde) can extend this period by a maximum of 6 months if you credibly show that you will not live in Germany for longer than 12 months (§ 29(1) FeV). After that, you need a German driving licence."],
+    ["Have your driving licence converted", "You submit the application to the driving licence authority of your city or district (template below). For driving licences from the countries listed in Annex 11 FeV, the tests as well as the eye test and first-aid course are waived completely or partly. For other countries, you must take the theory and practical test, but no driving school training (§ 31 FeV). You must hand in your foreign driving licence."],
+    ["Driving licence from the EU/EEA", "With a valid EU or EEA driving licence, you may continue to drive in Germany within the scope of your entitlement (§ 28 FeV). An exchange is usually not necessary. Special rules apply to classes C and D (lorry, bus) – ask the driving licence authority."],
+    ["Register a car (registration)", "The responsible office is the vehicle registration authority (Zulassungsbehörde) (§ 6 FZV). Among other things, you need the registration certificate part II (Zulassungsbescheinigung Teil II), the number of your insurance confirmation (eVB) from your car insurer and an authorisation to collect the vehicle tax from your account (§ 13 KraftStG). Many authorities also offer registration online (i-Kfz)."],
+    ["Moving house or deregistering a car", "If your address changes, you must inform the vehicle registration authority without delay; in some places this can be done directly when you re-register at the citizens' office (Bürgeramt) (§ 15 FZV). You can deregister (Außerbetriebsetzung) at the vehicle registration authority or online with the security codes on the registration certificate part I (Zulassungsbescheinigung Teil I) and the number plate seals (§§ 16, 25 FZV)."],
+    ["Register a business – at the same time as you start", "Anyone who starts a business must notify the trade office (Gewerbeamt) at the same time; this also applies to moving, changing and closing the business (§ 14 GewO). Anyone who does not do this or does it too late risks a fine of up to 1,000 euros (§ 146 GewO). Without a German passport: check beforehand whether your residence permit allows gainful employment – this must be stated on it (§ 4a AufenthG)."],
+    ["Self-employed professional? Inform the tax office", "Liberal professions (e.g. translator, doctor, artist) do not need to register a business. However, you must inform the tax office (Finanzamt) within one month that you have started the activity (§ 138 AO)."],
+    ["Apply for a severe disability ID card", "A person is severely disabled if they have a degree of disability (Grad der Behinderung, GdB) of at least 50 (§ 2(2) SGB IX). The GdB is determined on application by the responsible state authority (often called Versorgungsamt); on application you receive an ID card (§ 152 SGB IX). With a GdB of 30 or 40, you can apply to the employment agency (Agentur für Arbeit) for equal status (Gleichstellung) if you otherwise cannot get or keep a suitable job (§ 2(3), § 151 SGB IX). Template below."],
+    ["GdB too low? Objection within 1 month", "You can file an objection against the decision within one month of notification (§ 84 SGG). Request the expert reports and submit new medical findings (template below). Social associations and advice centres offer help."],
+    ["Apply for a care level", "There are 5 care levels (§ 15 SGB XI). You submit the application to the long-term care insurance fund (Pflegekasse) – it belongs to your health insurance fund; you can also apply by telephone. Benefits are paid from the date of application, at the earliest from the time the requirements are met (§ 33 SGB XI). So apply immediately (template below). With your first application, you are entitled to care counselling (Pflegeberatung) (§§ 7a, 7b SGB XI)."],
+    ["Assessment and 25 working days", "The long-term care insurance fund has you assessed by the Medical Service (Medizinischer Dienst) (§ 18 SGB XI). It must decide in writing no later than 25 working days after receiving the application. If it is late, it usually pays 70 euros for each week started (§ 18c SGB XI) – template below. You can file an objection against the decision within one month (§ 84 SGG)."]
+  ],
+  "deadlines": [
+    ["Non-EU driving licence after taking up residence", "6 months, on application a maximum of 6 months longer (§ 29 FeV)"],
+    ["Change of address to the vehicle registration authority", "without delay (§ 15 FZV)"],
+    ["Business registration", "at the same time as you start (§ 14 GewO)"],
+    ["Self-employed professional activity to the tax office", "within 1 month (§ 138 AO)"],
+    ["Care level – decision of the long-term care insurance fund", "no later than 25 working days after application (§ 18c SGB XI)"],
+    ["Objection (GdB, care level)", "1 month after notification (§ 84 SGG)"]
+  ],
+  "contactsTitle": "Help and information",
+  "contacts": [
+    ["Federal Ministry for Transport – online registration (i-Kfz)", "Register, re-register and deregister a car online", "bmv.de"],
+    ["Federal Ministry of Health – In need of care, what now?", "Applying for a care level, assessment, counselling", "bundesgesundheitsministerium.de"],
+    ["115", "Public authority number: which office is responsible?", "115"]
+  ],
+  "letters": {
+    "fs": ["Application to convert a driving licence (Antrag auf Umschreibung des Führerscheins)", "to the driving licence authority (§ 31 FeV), with extension of the deadline (§ 29 FeV)"],
+    "gdb": ["Application for determination of the GdB and a severe disability ID card (Antrag auf Feststellung des GdB und Schwerbehindertenausweis)", "informal application – the form will be sent later"],
+    "gdbwid": ["Objection against the GdB decision (Widerspruch gegen den GdB-Bescheid)", "within 1 month"],
+    "pflege": ["Application for a care level (Antrag auf einen Pflegegrad)", "to the long-term care insurance fund – with a request for care counselling"],
+    "pflegewid": ["Objection against the care level decision (Widerspruch gegen den Pflegegrad-Bescheid)", "within 1 month"],
+    "pflege70": ["Care insurance fund too late: claim 70 euros per week (Pflegekasse zu spät: 70 Euro pro Woche verlangen)", "if there is no decision after 25 working days"]
+  }
+}

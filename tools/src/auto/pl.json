@@ -1,0 +1,41 @@
+{
+  "title": "Wymiana prawa jazdy, rejestracja auta, rejestracja działalności, legitymacja osoby niepełnosprawnej, stopień pielęgnacji – bezpłatne wzory pism",
+  "desc": "Auto, działalność gospodarcza, zdrowie: wymiana zagranicznego prawa jazdy, rejestracja i wyrejestrowanie pojazdu, rejestracja działalności gospodarczej, wniosek o legitymację osoby ze znaczną niepełnosprawnością (Schwerbehindertenausweis) i stopień pielęgnacji (Pflegegrad), sprzeciw. Terminy, wzory, pomoc – w 13 językach.",
+  "h1": "Auto, działalność gospodarcza, zdrowie: prawo jazdy, pojazd, działalność, niepełnosprawność, stopień pielęgnacji",
+  "intro": "Ważne: Z prawem jazdy z państwa spoza UE mogą Państwo po przeprowadzce do Niemiec jeździć tylko przez 6 miesięcy – proszę wcześnie złożyć wniosek o wymianę. Działalność gospodarczą zgłasza się jednocześnie z jej rozpoczęciem. Stopień pielęgnacji (Pflegegrad) i status osoby ze znaczną niepełnosprawnością przyznaje się tylko na wniosek – proszę złożyć go jak najwcześniej.",
+  "steps": [
+    ["Prawo jazdy z państwa spoza UE: 6 miesięcy", "Jeśli mają Państwo miejsce zamieszkania w Niemczech, mogą Państwo jeździć z zagranicznym prawem jazdy jeszcze przez 6 miesięcy. Na wniosek urząd ds. praw jazdy (Fahrerlaubnisbehörde) może przedłużyć ten termin maksymalnie o 6 miesięcy, jeśli uprawdopodobnią Państwo, że nie będą mieszkać w Niemczech dłużej niż 12 miesięcy (§ 29(1) FeV). Potem potrzebują Państwo niemieckiego prawa jazdy."],
+    ["Wymiana prawa jazdy", "Wniosek składa się w urzędzie ds. praw jazdy Państwa miasta lub powiatu (wzór poniżej). W przypadku praw jazdy z państw wymienionych w załączniku 11 FeV egzaminy, badanie wzroku i kurs pierwszej pomocy odpadają w całości lub częściowo. W przypadku innych państw muszą Państwo zdać egzamin teoretyczny i praktyczny, ale bez szkolenia w szkole jazdy (§ 31 FeV). Zagraniczne prawo jazdy muszą Państwo oddać."],
+    ["Prawo jazdy z UE/EOG", "Z ważnym prawem jazdy z UE lub EOG mogą Państwo nadal jeździć w Niemczech w zakresie swoich uprawnień (§ 28 FeV). Wymiana zazwyczaj nie jest konieczna. Dla kategorii C i D (ciężarówka, autobus) obowiązują szczególne zasady – proszę zapytać w urzędzie ds. praw jazdy."],
+    ["Rejestracja auta", "Właściwy jest wydział rejestracji pojazdów (Zulassungsbehörde) (§ 6 FZV). Potrzebują Państwo m.in. dowodu rejestracyjnego część II (Zulassungsbescheinigung Teil II), numeru potwierdzenia ubezpieczenia (eVB) od ubezpieczyciela pojazdu oraz upoważnienia do pobierania podatku od pojazdu z Państwa konta (§ 13 KraftStG). Wiele urzędów oferuje rejestrację także online (i-Kfz)."],
+    ["Przeprowadzka lub wyrejestrowanie auta", "Jeśli zmieni się Państwa adres, muszą Państwo niezwłocznie poinformować wydział rejestracji pojazdów; w niektórych miejscowościach można to zrobić od razu przy przemeldowaniu w urzędzie obywatelskim (Bürgeramt) (§ 15 FZV). Wyrejestrować pojazd (Außerbetriebsetzung) można w wydziale rejestracji pojazdów lub online za pomocą kodów bezpieczeństwa z dowodu rejestracyjnego część I (Zulassungsbescheinigung Teil I) i naklejek na tablicach rejestracyjnych (§§ 16, 25 FZV)."],
+    ["Rejestracja działalności – jednocześnie z rozpoczęciem", "Kto rozpoczyna działalność gospodarczą, musi jednocześnie zgłosić ją w urzędzie ds. działalności gospodarczej (Gewerbeamt); dotyczy to także przeniesienia, zmiany i zakończenia działalności (§ 14 GewO). Kto tego nie zrobi lub zrobi za późno, ryzykuje grzywnę do 1000 euro (§ 146 GewO). Bez niemieckiego paszportu: proszę wcześniej sprawdzić, czy Państwa dokument pobytowy zezwala na działalność zarobkową – musi to być na nim wpisane (§ 4a AufenthG)."],
+    ["Wolny zawód? Poinformować urząd skarbowy", "Wolne zawody (np. tłumaczka, lekarka, artysta) nie wymagają rejestracji działalności gospodarczej. Muszą jednak Państwo w ciągu jednego miesiąca poinformować urząd skarbowy (Finanzamt) o rozpoczęciu działalności (§ 138 AO)."],
+    ["Wniosek o legitymację osoby ze znaczną niepełnosprawnością", "Osobą ze znaczną niepełnosprawnością jest ten, kto ma stopień niepełnosprawności (Grad der Behinderung, GdB) wynoszący co najmniej 50 (§ 2(2) SGB IX). GdB ustala na wniosek właściwy urząd kraju związkowego (często nazywany Versorgungsamt); na wniosek wydawana jest legitymacja (§ 152 SGB IX). Przy GdB 30 lub 40 mogą Państwo złożyć w agencji pracy (Agentur für Arbeit) wniosek o zrównanie (Gleichstellung), jeśli w przeciwnym razie nie mogą Państwo otrzymać lub utrzymać odpowiedniego miejsca pracy (§ 2(3), § 151 SGB IX). Wzór poniżej."],
+    ["GdB za niski? Sprzeciw w ciągu 1 miesiąca", "Od decyzji mogą Państwo wnieść sprzeciw w ciągu jednego miesiąca od jej doręczenia (§ 84 SGG). Proszę zażądać opinii i dosłać nowe wyniki badań lekarskich (wzór poniżej). Pomocy udzielają związki socjalne i poradnie."],
+    ["Wniosek o stopień pielęgnacji", "Istnieje 5 stopni pielęgnacji (§ 15 SGB XI). Wniosek składa się w kasie opieki pielęgnacyjnej (Pflegekasse) – należy ona do Państwa kasy chorych; można go złożyć także telefonicznie. Świadczenia przysługują od dnia złożenia wniosku, najwcześniej od chwili spełnienia warunków (§ 33 SGB XI). Dlatego proszę złożyć wniosek od razu (wzór poniżej). Przy pierwszym wniosku mają Państwo prawo do doradztwa pielęgnacyjnego (Pflegeberatung) (§§ 7a, 7b SGB XI)."],
+    ["Ocena i 25 dni roboczych", "Kasa opieki pielęgnacyjnej zleca ocenę przez Służbę Medyczną (Medizinischer Dienst) (§ 18 SGB XI). Musi ona wydać decyzję na piśmie najpóźniej 25 dni roboczych po wpłynięciu wniosku. Jeśli się spóźni, płaci zazwyczaj 70 euro za każdy rozpoczęty tydzień (§ 18c SGB XI) – wzór poniżej. Od decyzji można wnieść sprzeciw w ciągu jednego miesiąca (§ 84 SGG)."]
+  ],
+  "deadlines": [
+    ["Prawo jazdy spoza UE po zamieszkaniu w Niemczech", "6 miesięcy, na wniosek maksymalnie o 6 miesięcy dłużej (§ 29 FeV)"],
+    ["Zmiana adresu – zgłoszenie w wydziale rejestracji pojazdów", "niezwłocznie (§ 15 FZV)"],
+    ["Rejestracja działalności gospodarczej", "jednocześnie z rozpoczęciem (§ 14 GewO)"],
+    ["Wolny zawód – zgłoszenie w urzędzie skarbowym", "w ciągu 1 miesiąca (§ 138 AO)"],
+    ["Stopień pielęgnacji – decyzja kasy opieki pielęgnacyjnej", "najpóźniej 25 dni roboczych po złożeniu wniosku (§ 18c SGB XI)"],
+    ["Sprzeciw (GdB, stopień pielęgnacji)", "1 miesiąc od doręczenia (§ 84 SGG)"]
+  ],
+  "contactsTitle": "Pomoc i informacje",
+  "contacts": [
+    ["Federalne Ministerstwo Transportu – rejestracja online (i-Kfz)", "Rejestracja, przerejestrowanie i wyrejestrowanie auta online", "bmv.de"],
+    ["Federalne Ministerstwo Zdrowia – Potrzebuję opieki, co teraz?", "Wniosek o stopień pielęgnacji, ocena, doradztwo", "bundesgesundheitsministerium.de"],
+    ["115", "Numer urzędowy: który urząd jest właściwy?", "115"]
+  ],
+  "letters": {
+    "fs": ["Wniosek o wymianę prawa jazdy (Antrag auf Umschreibung des Führerscheins)", "do urzędu ds. praw jazdy (§ 31 FeV), z przedłużeniem terminu (§ 29 FeV)"],
+    "gdb": ["Wniosek o ustalenie GdB i legitymację osoby ze znaczną niepełnosprawnością (Antrag auf Feststellung des GdB und Schwerbehindertenausweis)", "wniosek nieformalny – formularz zostanie dosłany"],
+    "gdbwid": ["Sprzeciw od decyzji w sprawie GdB (Widerspruch gegen den GdB-Bescheid)", "w ciągu 1 miesiąca"],
+    "pflege": ["Wniosek o stopień pielęgnacji (Antrag auf einen Pflegegrad)", "do kasy opieki pielęgnacyjnej – z prośbą o doradztwo pielęgnacyjne"],
+    "pflegewid": ["Sprzeciw od decyzji w sprawie stopnia pielęgnacji (Widerspruch gegen den Pflegegrad-Bescheid)", "w ciągu 1 miesiąca"],
+    "pflege70": ["Kasa opieki pielęgnacyjnej się spóźnia: żądanie 70 euro za tydzień (Pflegekasse zu spät: 70 Euro pro Woche verlangen)", "jeśli po 25 dniach roboczych nie ma decyzji"]
+  }
+}

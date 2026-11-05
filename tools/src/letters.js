@@ -33,6 +33,7 @@ const SAMPLE = {
   objection: "Ich habe bei Ihrem Auftraggeber nie einen Vertrag geschlossen und keine Ware erhalten.",
   defect: "Im Schlafzimmer bildet sich an der Außenwand Schimmel (ca. 1 m²). Fotos liegen bei.",
   copies: "2", person: "Emre Yılmaz, geb. 02.05.2019", bplace: "Lübeck", relation: "Mutter", purpose: "Kindergeld und Anmeldung in der Schule", start: "01.08.2027", hours: "ganztags, ca. 8 Stunden täglich", class: "3b", absent: "03.11.2026 bis 05.11.2026", language: "Türkisch",
+  country: "Türkei", classes: "B", licdate: "12.06.2012", resdate: "01.07.2026", health: "Diabetes Typ 1 seit 2015, Bandscheibenvorfall (LWS) mit dauerhaften Schmerzen, Schwerhörigkeit beidseitig.", kvnr: "A123456789", care: "Pflegegeld (Pflege durch meine Tochter zu Hause)",
   hardship: "Ich lebe seit 9 Jahren in Deutschland, spreche Deutsch auf B1-Niveau, arbeite in Vollzeit und meine zwei Kinder gehen hier zur Schule.",
 };
 
@@ -49,6 +50,7 @@ const LABELS = {
   creditor: "Name des Auftraggebers / Gläubigers", amount: "geforderter Betrag", objection: "Ihre Gründe / Einwendungen", since: "seit wann (Datum)", defect: "Beschreibung des Mangels",
   deadline: "Frist (Datum)", period: "Abrechnungszeitraum", received: "Datum des Erhalts", job: "Ihre Tätigkeit", empend: "Ende des Arbeitsverhältnisses", months: "Monate", persnr: "Personalnummer",
   copies: "Anzahl", person: "Name, Geburtsname und Geburtsdatum der Person", bplace: "Geburtsort", relation: "Ihr Verhältnis zur Person (z. B. ich selbst, Mutter, Vater)", purpose: "Verwendungszweck", start: "gewünschter Beginn (Datum)", hours: "Betreuungsumfang (Stunden pro Tag)", class: "Klasse", absent: "Zeitraum (von – bis)", language: "Sprache",
+  country: "Ausstellungsstaat", classes: "Führerscheinklasse(n)", licdate: "Ausstellungsdatum", resdate: "Datum (seit wann)", health: "Ihre Erkrankungen und Einschränkungen", kvnr: "Versichertennummer (Krankenkassenkarte)", care: "gewünschte Leistung (z. B. Pflegegeld, Pflegedienst)",
 };
 
 const head = `{{name}}
@@ -424,6 +426,91 @@ Thema:
 Kind/Kinder: {{child}}
 
 Ich bin am besten unter der oben genannten Telefonnummer erreichbar. Falls nötig, bitte ich um eine Dolmetscherin oder einen Dolmetscher für folgende Sprache: {{language}}.`,
+  },
+  fs: {
+    sample: { office: "Landkreis Musterkreis – Fahrerlaubnisbehörde", officeaddr: "Kreishausstraße 1\n12345 Musterstadt" },
+    subj: "Antrag auf Erteilung einer deutschen Fahrerlaubnis aufgrund meiner ausländischen Fahrerlaubnis (§ 31 FeV)",
+    body: `Sehr geehrte Damen und Herren,
+
+hiermit beantrage ich die Erteilung einer deutschen Fahrerlaubnis aufgrund meiner ausländischen Fahrerlaubnis (Umschreibung nach § 31 Fahrerlaubnis-Verordnung).
+
+Name: {{name}}, geboren am {{dob}}
+Ausstellungsstaat: {{country}}
+Klasse(n): {{classes}}
+Ausgestellt am: {{licdate}}
+Wohnsitz in Deutschland seit: {{resdate}}
+
+Bitte teilen Sie mir mit, welche Unterlagen und Prüfungen in meinem Fall nötig sind, und nennen Sie mir einen Termin.
+
+Falls die Bearbeitung länger dauert, beantrage ich vorsorglich die Verlängerung der Frist nach § 29 Abs. 1 FeV, in der ich mit meiner ausländischen Fahrerlaubnis fahren darf. Mein Wohnsitz in Deutschland besteht nicht länger als zwölf Monate.`,
+  },
+  gdb: {
+    sample: { office: "Landesamt für soziale Dienste – Feststellung nach dem SGB IX", officeaddr: "Musterallee 10\n12345 Musterstadt" },
+    subj: "Antrag auf Feststellung des Grades der Behinderung und auf einen Schwerbehindertenausweis",
+    body: `Sehr geehrte Damen und Herren,
+
+hiermit beantrage ich die Feststellung meiner Behinderung und des Grades der Behinderung (GdB) nach § 152 SGB IX sowie die Ausstellung eines Schwerbehindertenausweises.
+
+Name: {{name}}, geboren am {{dob}}
+
+Meine gesundheitlichen Einschränkungen:
+{{health}}
+
+Behandelnde Ärztinnen/Ärzte und Kliniken:
+{{doctor}}
+
+Bitte senden Sie mir das Antragsformular und die Schweigepflichtentbindung zu. Das Datum dieses Schreibens soll als Antragsdatum gelten.`,
+  },
+  gdbwid: {
+    sample: { office: "Landesamt für soziale Dienste – Feststellung nach dem SGB IX", officeaddr: "Musterallee 10\n12345 Musterstadt", objection: "Meine Schwerhörigkeit und die dauerhaften Rückenschmerzen wurden nicht berücksichtigt. Neue Befunde meines HNO-Arztes vom 02.11.2026 lege ich bei." },
+    subj: "Widerspruch gegen Ihren Bescheid vom {{bdate}} – Aktenzeichen: {{file}}",
+    body: `Sehr geehrte Damen und Herren,
+
+gegen Ihren Bescheid vom {{bdate}} über die Feststellung meines Grades der Behinderung lege ich Widerspruch ein.
+
+Begründung:
+{{objection}}
+
+Ich bitte um Einsicht in die ärztlichen Unterlagen und Gutachten, auf die sich der Bescheid stützt (bitte Kopien an meine Adresse). Eine ausführliche Begründung reiche ich danach nach.`,
+  },
+  pflege: {
+    sample: { office: "Muster Krankenkasse – Pflegekasse", officeaddr: "Musterstraße 5\n12345 Musterstadt", person: "Fatma Yılmaz (meine Mutter), geb. 03.04.1950" },
+    subj: "Antrag auf Leistungen der Pflegeversicherung (Pflegegrad) – Versichertennummer: {{kvnr}}",
+    body: `Sehr geehrte Damen und Herren,
+
+hiermit beantrage ich Leistungen der Pflegeversicherung und die Feststellung eines Pflegegrades für:
+
+{{person}}
+Versichertennummer: {{kvnr}}
+
+Gewünscht sind zunächst: {{care}}
+
+Bitte beauftragen Sie die Begutachtung und senden Sie mir die nötigen Formulare. Außerdem bitte ich um einen Termin für eine Pflegeberatung nach § 7a SGB XI.
+
+Das Datum dieses Schreibens soll als Antragsdatum gelten.`,
+  },
+  pflegewid: {
+    sample: { office: "Muster Krankenkasse – Pflegekasse", officeaddr: "Musterstraße 5\n12345 Musterstadt", person: "Fatma Yılmaz (meine Mutter), geb. 03.04.1950", objection: "Im Gutachten fehlt, dass meine Mutter nachts mehrmals Hilfe braucht und ihre Medikamente nicht allein einnehmen kann. Ein Pflegetagebuch lege ich bei." },
+    subj: "Widerspruch gegen Ihren Bescheid vom {{bdate}} – Versichertennummer: {{kvnr}}",
+    body: `Sehr geehrte Damen und Herren,
+
+gegen Ihren Bescheid vom {{bdate}} über den Pflegegrad von {{person}} lege ich Widerspruch ein.
+
+Begründung:
+{{objection}}
+
+Bitte senden Sie mir eine Kopie des vollständigen Gutachtens zu. Eine ausführliche Begründung reiche ich danach nach.`,
+  },
+  pflege70: {
+    sample: { office: "Muster Krankenkasse – Pflegekasse", officeaddr: "Musterstraße 5\n12345 Musterstadt", person: "Fatma Yılmaz (meine Mutter), geb. 03.04.1950", adate: "01.09.2026" },
+    subj: "Zahlung nach § 18c Abs. 5 SGB XI – Antrag vom {{adate}}, Versichertennummer: {{kvnr}}",
+    body: `Sehr geehrte Damen und Herren,
+
+am {{adate}} habe ich Leistungen der Pflegeversicherung für {{person}} beantragt. Bis heute habe ich keinen schriftlichen Bescheid erhalten.
+
+Nach § 18c Abs. 1 SGB XI muss die Pflegekasse spätestens 25 Arbeitstage nach Eingang des Antrags entscheiden. Wird diese Frist überschritten, zahlt sie für jede begonnene Woche der Fristüberschreitung 70 Euro (§ 18c Abs. 5 SGB XI).
+
+Bitte entscheiden Sie umgehend über meinen Antrag und zahlen Sie den mir zustehenden Betrag. Bitte teilen Sie mir schriftlich mit, wie viele Wochen Sie berechnet haben.`,
   },
 };
 

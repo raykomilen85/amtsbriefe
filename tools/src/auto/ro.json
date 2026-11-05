@@ -1,0 +1,41 @@
+{
+  "title": "Preschimbarea permisului de conducere, înmatricularea mașinii, înregistrarea unei afaceri, certificat de handicap, grad de îngrijire – modele de scrisori gratuite",
+  "desc": "Mașină, afacere, sănătate: preschimbarea permisului de conducere străin, înmatricularea și radierea mașinii, înregistrarea unei activități comerciale (Gewerbe), cererea pentru certificatul de handicap grav (Schwerbehindertenausweis) și pentru un grad de îngrijire (Pflegegrad), contestație. Termene, modele, ajutor – în 13 limbi.",
+  "h1": "Mașină, afacere, sănătate: permis de conducere, mașină, Gewerbe, handicap grav, grad de îngrijire",
+  "intro": "Important: cu un permis de conducere dintr-un stat din afara UE aveți voie să conduceți în Germania doar 6 luni după mutare – cereți preschimbarea din timp. O activitate comercială (Gewerbe) o înregistrați în același timp cu începerea ei. Gradul de îngrijire (Pflegegrad) și recunoașterea handicapului grav se acordă doar la cerere – depuneți-o cât mai devreme.",
+  "steps": [
+    ["Permis de conducere dintr-un stat din afara UE: 6 luni", "Dacă aveți domiciliul în Germania, mai aveți voie să conduceți 6 luni cu permisul străin. La cerere, autoritatea pentru permise de conducere (Fahrerlaubnisbehörde) poate prelungi termenul cu cel mult 6 luni, dacă dovediți în mod credibil că nu veți locui în Germania mai mult de 12 luni (§ 29(1) FeV). După aceea aveți nevoie de un permis de conducere german."],
+    ["Preschimbarea permisului de conducere", "Cererea o depuneți la Fahrerlaubnisbehörde din orașul sau districtul (Kreis) dumneavoastră (model mai jos). Pentru permisele din statele din anexa 11 FeV nu mai sunt necesare, total sau parțial, examenele, testul de vedere și cursul de prim ajutor. Pentru alte state trebuie să susțineți examenul teoretic și practic, dar fără cursuri la școala de șoferi (§ 31 FeV). Permisul străin trebuie predat."],
+    ["Permis de conducere din UE/SEE", "Cu un permis de conducere valabil din UE sau SEE puteți conduce în continuare în Germania în limita dreptului dumneavoastră (§ 28 FeV). De regulă nu este necesară preschimbarea. Pentru categoriile C și D (camion, autobuz) se aplică reguli speciale – întrebați la Fahrerlaubnisbehörde."],
+    ["Înmatricularea mașinii (Zulassung)", "Competentă este autoritatea de înmatriculare (Zulassungsbehörde) (§ 6 FZV). Aveți nevoie, printre altele, de certificatul de înmatriculare partea a II-a (Zulassungsbescheinigung Teil II), numărul confirmării de asigurare (eVB) de la asigurarea auto și o autorizare de debitare directă a impozitului auto (Kfz-Steuer) din contul dumneavoastră (§ 13 KraftStG). Multe autorități oferă înmatricularea și online (i-Kfz)."],
+    ["Mutare sau radierea mașinii", "Dacă vi se schimbă adresa, trebuie să anunțați imediat Zulassungsbehörde; în unele localități acest lucru se poate face direct la schimbarea domiciliului la biroul cetățenilor (Bürgeramt) (§ 15 FZV). Radierea (Außerbetriebsetzung) o puteți face la Zulassungsbehörde sau online, cu codurile de securitate de pe certificatul de înmatriculare partea I (Zulassungsbescheinigung Teil I) și de pe autocolantele plăcuțelor de înmatriculare (§§ 16, 25 FZV)."],
+    ["Înregistrarea activității comerciale – odată cu începerea", "Cine începe o activitate comercială (Gewerbe) trebuie să o declare în același timp la oficiul pentru activități comerciale (Gewerbeamt); acest lucru este valabil și pentru mutarea, modificarea și încetarea activității (§ 14 GewO). Cine nu face acest lucru sau îl face prea târziu riscă o amendă de până la 1.000 de euro (§ 146 GewO). Fără pașaport german: verificați înainte dacă permisul de ședere vă permite să lucrați – acest lucru trebuie să fie scris pe el (§ 4a AufenthG)."],
+    ["Profesie liberală (freiberuflich)? Informați fiscul", "Profesiile liberale (de ex. traducătoare, medic, artist) nu au nevoie de înregistrarea unui Gewerbe. Dar trebuie să comunice începerea activității în termen de o lună la administrația financiară (Finanzamt) (§ 138 AO)."],
+    ["Cererea pentru certificatul de handicap grav", "Are handicap grav cine are un grad de handicap (Grad der Behinderung (GdB)) de cel puțin 50 (§ 2(2) SGB IX). GdB este stabilit la cerere de autoritatea competentă a landului (numită adesea Versorgungsamt); la cerere primiți un certificat (§ 152 SGB IX). La un GdB de 30 sau 40 puteți cere la agenția pentru ocuparea forței de muncă (Agentur für Arbeit) echivalarea (Gleichstellung), dacă altfel nu puteți obține sau păstra un loc de muncă potrivit (§ 2(3), § 151 SGB IX). Model mai jos."],
+    ["GdB prea mic? Contestație în 1 lună", "Împotriva deciziei puteți face contestație (Widerspruch) în termen de o lună de la comunicare (§ 84 SGG). Cereți expertizele medicale și trimiteți ulterior noi rezultate medicale (model mai jos). Ajutor oferă asociațiile sociale (Sozialverbände) și centrele de consiliere."],
+    ["Cererea pentru un grad de îngrijire", "Există 5 grade de îngrijire (§ 15 SGB XI). Cererea o depuneți la casa de asigurări pentru îngrijire (Pflegekasse) – aceasta aparține de casa dumneavoastră de asigurări de sănătate (Krankenkasse); cererea se poate face și telefonic. Prestațiile se acordă de la data cererii, cel mai devreme de la momentul în care sunt îndeplinite condițiile (§ 33 SGB XI). De aceea, depuneți cererea imediat (model mai jos). La prima cerere aveți dreptul la consiliere privind îngrijirea (Pflegeberatung) (§§ 7a, 7b SGB XI)."],
+    ["Evaluarea și 25 de zile lucrătoare", "Pflegekasse vă trimite la evaluare la serviciul medical (Medizinischer Dienst) (§ 18 SGB XI). Ea trebuie să decidă în scris cel târziu în 25 de zile lucrătoare de la primirea cererii. Dacă întârzie, plătește de regulă 70 de euro pentru fiecare săptămână începută (§ 18c SGB XI) – model mai jos. Împotriva deciziei se poate face contestație în termen de o lună (§ 84 SGG)."]
+  ],
+  "deadlines": [
+    ["Permis din afara UE după stabilirea domiciliului", "6 luni, la cerere cel mult încă 6 luni (§ 29 FeV)"],
+    ["Schimbarea adresei la Zulassungsbehörde", "imediat (§ 15 FZV)"],
+    ["Înregistrarea Gewerbe", "odată cu începerea activității (§ 14 GewO)"],
+    ["Activitate liberală la Finanzamt", "în termen de 1 lună (§ 138 AO)"],
+    ["Grad de îngrijire – decizia Pflegekasse", "cel târziu la 25 de zile lucrătoare după cerere (§ 18c SGB XI)"],
+    ["Contestație (GdB, grad de îngrijire)", "1 lună de la comunicare (§ 84 SGG)"]
+  ],
+  "contactsTitle": "Ajutor și informații",
+  "contacts": [
+    ["Ministerul Federal al Transporturilor – înmatriculare online (i-Kfz)", "Înmatricularea, transcrierea și radierea mașinii online", "bmv.de"],
+    ["Ministerul Federal al Sănătății – Aveți nevoie de îngrijire, ce urmează?", "Cererea pentru grad de îngrijire, evaluare, consiliere", "bundesgesundheitsministerium.de"],
+    ["115", "Numărul autorităților: ce instituție este competentă?", "115"]
+  ],
+  "letters": {
+    "fs": ["Cerere de preschimbare a permisului de conducere (Antrag auf Umschreibung des Führerscheins)", "către Fahrerlaubnisbehörde (§ 31 FeV), cu prelungirea termenului (§ 29 FeV)"],
+    "gdb": ["Cerere de stabilire a GdB și certificat de handicap grav (Antrag auf Feststellung des GdB und Schwerbehindertenausweis)", "cerere fără formular – formularul se trimite ulterior"],
+    "gdbwid": ["Contestație împotriva deciziei privind GdB (Widerspruch gegen den GdB-Bescheid)", "în termen de 1 lună"],
+    "pflege": ["Cerere pentru un grad de îngrijire (Antrag auf einen Pflegegrad)", "către Pflegekasse – cu solicitarea de Pflegeberatung"],
+    "pflegewid": ["Contestație împotriva deciziei privind gradul de îngrijire (Widerspruch gegen den Pflegegrad-Bescheid)", "în termen de 1 lună"],
+    "pflege70": ["Pflegekasse întârzie: cereți 70 de euro pe săptămână (Pflegekasse zu spät: 70 Euro pro Woche verlangen)", "dacă după 25 de zile lucrătoare nu există nicio decizie"]
+  }
+}

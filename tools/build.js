@@ -129,6 +129,7 @@ function page(lang, key) {
 <link rel="canonical" href="${url(lang, key)}">
 ${alts}
 <meta property="og:type" content="article"><meta property="og:title" content="${esc(p.h1)}"><meta property="og:description" content="${esc(p.desc)}"><meta property="og:url" content="${url(lang, key)}"><meta property="og:site_name" content="Amtsbriefe">
+<meta property="og:image" content="https://amtsbriefe.de/og-image.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:image:alt" content="amtsbriefe.de – Briefe an deutsche Ämter, kostenlos, in 13 Sprachen erklärt"><meta name="twitter:card" content="summary_large_image">
 <meta name="theme-color" content="#1F4E8C">
 <link rel="icon" href="data:image/svg+xml,${encodeURIComponent(LOGO.replace(' aria-hidden="true"', ' xmlns="http://www.w3.org/2000/svg"'))}">
 <style>${CSS}</style>

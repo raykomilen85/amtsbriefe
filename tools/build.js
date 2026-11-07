@@ -32,6 +32,7 @@ for (const [dir, key, urls] of [["familie", "familie", FAM_URLS], ["auto", "auto
   C[l][key] = f;
 }
 
+const SEO = require("./src/seo.json"); // short search titles/descriptions
 const SITE = "https://amtsbriefe.de";
 const STAND = "05.11.2026";
 const LANGS = [["de","Deutsch"],["tr","Türkçe"],["bg","Български"],["ar","العربية"],["uk","Українська"],["pl","Polski"],["en","English"],["el","Ελληνικά"],["fr","Français"],["nl","Nederlands"],["ro","Română"],["es","Español"],["ku","Kurdî"]];
@@ -124,8 +125,8 @@ function page(lang, key) {
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>${esc(p.title)} | Amtsbriefe</title>
-<meta name="description" content="${esc(p.desc)}">
+<title>${esc(SEO[lang] && SEO[lang][key] ? SEO[lang][key][0] : p.title + " | Amtsbriefe")}</title>
+<meta name="description" content="${esc(SEO[lang] && SEO[lang][key] ? SEO[lang][key][1] : p.desc)}">
 <link rel="canonical" href="${url(lang, key)}">
 ${alts}
 <meta property="og:type" content="article"><meta property="og:title" content="${esc(p.h1)}"><meta property="og:description" content="${esc(p.desc)}"><meta property="og:url" content="${url(lang, key)}"><meta property="og:site_name" content="Amtsbriefe">

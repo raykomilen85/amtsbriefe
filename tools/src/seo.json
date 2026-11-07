@@ -1,0 +1,107 @@
+{
+  "_comment": "Kurze Suchmaschinen-Titel (max. 60 Zeichen) und Beschreibungen (max. 155 Zeichen). Überschreibt p.title / p.desc nur im <title> und meta description. Stand 07.11.2026.",
+  "de": {
+    "aufenthalt": ["Aufenthaltserlaubnis läuft ab – was tun? | Amtsbriefe", "Visum oder Aufenthaltstitel läuft ab? Rechtzeitig verlängern, Fiktionsbescheinigung, Widerspruch. Kostenlose Briefvorlagen, in 13 Sprachen."],
+    "abschiebung": ["Abschiebung droht – was tun? Fristen & Hilfe | Amtsbriefe", "Ausreiseaufforderung bekommen? Fristen, sofortige Schritte, Duldung, Härtefallkommission. Kostenlose Briefvorlagen und Hilfe in 13 Sprachen."],
+    "sozial": ["Wohngeld, Elterngeld & Co. beantragen | Amtsbriefe", "Wohngeld, Kinderzuschlag, Elterngeld, Unterhaltsvorschuss, Grundsicherung: Fristen, zuständige Stelle, kostenlose Briefvorlagen. In 13 Sprachen."],
+    "alltag": ["Kündigung, Inkasso, Mängel: Briefvorlagen | Amtsbriefe", "Handy oder Fitnessstudio kündigen, Inkasso widersprechen, Mängel melden, Nebenkosten prüfen: kostenlose Briefvorlagen mit Fristen, in 13 Sprachen."],
+    "familie": ["Geburtsurkunde, Kita, Schule: Briefvorlagen | Amtsbriefe", "Geburt anmelden, Kita-Platz beantragen, Entschuldigung für die Schule, Jugendamt: Fristen und kostenlose Briefvorlagen, in 13 Sprachen."],
+    "auto": ["Führerschein, Auto, Gewerbe anmelden | Amtsbriefe", "Führerschein umschreiben, Auto zulassen, Gewerbe anmelden, Schwerbehindertenausweis, Pflegegrad: Fristen und kostenlose Briefvorlagen, 13 Sprachen."]
+  },
+  "en": {
+    "aufenthalt": ["German residence permit expiring – what to do?", "Your residence permit or visa in Germany is expiring? Extend in time, Fiktionsbescheinigung, objection. Free letter templates in 13 languages."],
+    "abschiebung": ["Facing deportation in Germany – what to do?", "Got a departure order in Germany? Deadlines, urgent steps, Duldung, hardship commission. Free letter templates and help in 13 languages."],
+    "sozial": ["German social benefits: how to apply | Amtsbriefe", "Housing benefit, child supplement, parental allowance, basic income: deadlines, responsible office, free letter templates. In 13 languages."],
+    "alltag": ["Cancel contracts, dispute debt collection | Amtsbriefe", "Cancel a phone or gym contract, dispute debt collection, report defects, check utility bills in Germany: free letter templates in 13 languages."],
+    "familie": ["Birth certificate, Kita, school letters | Amtsbriefe", "Register a birth, apply for a Kita place, school excuse notes, Jugendamt: deadlines and free letter templates for Germany, in 13 languages."],
+    "auto": ["Driving licence, car, business in Germany | Amtsbriefe", "Convert a driving licence, register a car or business, disability ID card, care level: deadlines and free letter templates, in 13 languages."]
+  },
+  "tr": {
+    "aufenthalt": ["Oturum izni bitiyor – ne yapmalı? | Amtsbriefe", "Almanya'da oturum izni veya vize mi bitiyor? Zamanında uzatma, Fiktionsbescheinigung, itiraz. Ücretsiz mektup şablonları, 13 dilde."],
+    "abschiebung": ["Sınır dışı (Abschiebung) tehlikesi – ne yapmalı?", "Ausreiseaufforderung mı geldi? Süreler, hemen atılacak adımlar, Duldung, Härtefall. Ücretsiz mektup şablonları ve yardım, 13 dilde."],
+    "sozial": ["Wohngeld, Elterngeld başvurusu | Amtsbriefe", "Wohngeld, Kinderzuschlag, Elterngeld, Unterhaltsvorschuss, Grundsicherung: süreler, yetkili kurum, ücretsiz mektup şablonları. 13 dilde."],
+    "alltag": ["Sözleşme iptali, Inkasso itirazı: şablonlar | Amtsbriefe", "Almanya'da telefon veya spor salonu iptali, Inkasso itirazı, ev ayıbı bildirimi, yan gider kontrolü: ücretsiz mektup şablonları, 13 dilde."],
+    "familie": ["Doğum belgesi, kreş, okul: mektuplar | Amtsbriefe", "Doğum kaydı, kreş yeri başvurusu, okul için mazeret yazısı, Jugendamt: süreler ve ücretsiz mektup şablonları, 13 dilde."],
+    "auto": ["Ehliyet, araç ve Gewerbe kaydı | Amtsbriefe", "Ehliyet değiştirme, araç kaydı, Gewerbe kaydı, ağır engelli kimliği, bakım derecesi: süreler ve ücretsiz mektup şablonları, 13 dilde."]
+  },
+  "bg": {
+    "aufenthalt": ["Разрешението за пребиваване изтича – какво да правя?", "Визата или разрешението за пребиваване в Германия изтича? Удължаване навреме, Fiktionsbescheinigung, възражение. Безплатни образци."],
+    "abschiebung": ["Заплаха от депортиране – какво да правя? | Amtsbriefe", "Получихте Ausreiseaufforderung? Срокове, спешни стъпки, Duldung, комисия за тежки случаи. Безплатни образци на писма и помощ."],
+    "sozial": ["Социални помощи в Германия: заявления | Amtsbriefe", "Wohngeld, Kinderzuschlag, Elterngeld, Unterhaltsvorschuss, Grundsicherung: срокове, отговорна служба, безплатни образци на писма."],
+    "alltag": ["Прекратяване на договор, инкасо: образци | Amtsbriefe", "Прекратяване на договор за телефон, възражение срещу инкасо, дефекти в жилището, сметка за разходи в Германия: безплатни образци."],
+    "familie": ["Акт за раждане, детска градина, училище | Amtsbriefe", "Регистрация на раждане, място в детска градина, извинителна бележка за училище, Jugendamt: срокове и безплатни образци на писма."],
+    "auto": ["Шофьорска книжка, кола, Gewerbe в Германия | Amtsbriefe", "Подмяна на шофьорска книжка, регистрация на кола и занаят, карта за увреждане, степен на грижи: срокове и безплатни образци на писма."]
+  },
+  "ar": {
+    "aufenthalt": ["تنتهي الإقامة أو التأشيرة في ألمانيا – ماذا أفعل؟", "إقامتك أو تأشيرتك في ألمانيا تنتهي؟ التمديد في الوقت المناسب، Fiktionsbescheinigung، الاعتراض. نماذج رسائل مجانية بـ 13 لغة."],
+    "abschiebung": ["خطر الترحيل في ألمانيا – ماذا أفعل؟ | Amtsbriefe", "وصلك أمر مغادرة؟ المهل، الخطوات العاجلة، Duldung، لجنة الحالات الصعبة. نماذج رسائل مجانية ومساعدة بـ 13 لغة."],
+    "sozial": ["المساعدات الاجتماعية في ألمانيا: الطلبات | Amtsbriefe", "Wohngeld وKinderzuschlag وElterngeld وGrundsicherung: المهل، الجهة المختصة، نماذج رسائل مجانية. بـ 13 لغة."],
+    "alltag": ["إلغاء العقود والاعتراض على التحصيل | Amtsbriefe", "إلغاء عقد الهاتف أو النادي، الاعتراض على شركة التحصيل، الإبلاغ عن عيوب السكن في ألمانيا: نماذج رسائل مجانية بـ 13 لغة."],
+    "familie": ["شهادة الميلاد، الحضانة، المدرسة: رسائل | Amtsbriefe", "تسجيل المولود، طلب مكان في الحضانة، عذر غياب للمدرسة، Jugendamt: المهل ونماذج رسائل مجانية بـ 13 لغة."],
+    "auto": ["رخصة القيادة، السيارة، Gewerbe في ألمانيا", "تبديل رخصة القيادة، تسجيل السيارة والنشاط التجاري، بطاقة الإعاقة، درجة الرعاية: المهل ونماذج رسائل مجانية بـ 13 لغة."]
+  },
+  "uk": {
+    "aufenthalt": ["Закінчується дозвіл на проживання – що робити?", "Дозвіл на проживання чи віза в Німеччині закінчується? Продовження вчасно, Fiktionsbescheinigung, заперечення. Безкоштовні шаблони."],
+    "abschiebung": ["Загроза депортації в Німеччині – що робити?", "Отримали Ausreiseaufforderung? Строки, термінові кроки, Duldung, комісія з особливих випадків. Безкоштовні шаблони листів і допомога."],
+    "sozial": ["Соціальні виплати в Німеччині: заяви | Amtsbriefe", "Wohngeld, Kinderzuschlag, Elterngeld, Unterhaltsvorschuss, Grundsicherung: строки, відповідальна установа, безкоштовні шаблони листів."],
+    "alltag": ["Розірвати договір, заперечити інкасо | Amtsbriefe", "Розірвати договір зв’язку чи спортзалу, заперечити інкасо, повідомити про недоліки житла в Німеччині: безкоштовні шаблони листів."],
+    "familie": ["Свідоцтво про народження, садок, школа | Amtsbriefe", "Реєстрація народження, місце в дитсадку, пояснювальна для школи, Jugendamt: строки та безкоштовні шаблони листів, 13 мовами."],
+    "auto": ["Посвідчення водія, авто, Gewerbe | Amtsbriefe", "Обмін посвідчення водія, реєстрація авто й діяльності, посвідчення інвалідності, ступінь догляду: строки та безкоштовні шаблони листів."]
+  },
+  "pl": {
+    "aufenthalt": ["Kończy się pobyt lub wiza w Niemczech – co robić?", "Kończy się zezwolenie na pobyt lub wiza w Niemczech? Przedłużenie na czas, Fiktionsbescheinigung, sprzeciw. Darmowe wzory pism, 13 języków."],
+    "abschiebung": ["Grozi deportacja z Niemiec – co robić? | Amtsbriefe", "Otrzymałeś Ausreiseaufforderung? Terminy, pilne kroki, Duldung, komisja ds. trudnych przypadków. Darmowe wzory pism i pomoc."],
+    "sozial": ["Świadczenia w Niemczech: wnioski i wzory | Amtsbriefe", "Wohngeld, Kinderzuschlag, Elterngeld, Unterhaltsvorschuss, Grundsicherung: terminy, właściwy urząd, darmowe wzory pism. 13 języków."],
+    "alltag": ["Wypowiedzenie umowy, windykacja: wzory pism", "Wypowiedzenie umowy na telefon lub siłownię, sprzeciw wobec windykacji, wady mieszkania, rozliczenie kosztów: darmowe wzory pism."],
+    "familie": ["Akt urodzenia, Kita, szkoła: wzory pism | Amtsbriefe", "Rejestracja urodzenia, miejsce w Kita, usprawiedliwienie do szkoły, Jugendamt: terminy i darmowe wzory pism, w 13 językach."],
+    "auto": ["Prawo jazdy, auto, działalność w Niemczech", "Wymiana prawa jazdy, rejestracja auta i działalności, legitymacja niepełnosprawności, stopień pielęgnacji: terminy i darmowe wzory pism."]
+  },
+  "el": {
+    "aufenthalt": ["Λήγει η άδεια διαμονής στη Γερμανία – τι κάνω;", "Λήγει η άδεια διαμονής ή η βίζα σας στη Γερμανία; Έγκαιρη παράταση, Fiktionsbescheinigung, ένσταση. Δωρεάν πρότυπα επιστολών."],
+    "abschiebung": ["Απειλή απέλασης στη Γερμανία – τι κάνω;", "Λάβατε Ausreiseaufforderung; Προθεσμίες, άμεσα βήματα, Duldung, επιτροπή δύσκολων περιπτώσεων. Δωρεάν πρότυπα επιστολών και βοήθεια."],
+    "sozial": ["Επιδόματα στη Γερμανία: αιτήσεις | Amtsbriefe", "Wohngeld, Kinderzuschlag, Elterngeld, Unterhaltsvorschuss, Grundsicherung: προθεσμίες, αρμόδια υπηρεσία, δωρεάν πρότυπα επιστολών."],
+    "alltag": ["Καταγγελία σύμβασης, εισπρακτική: πρότυπα", "Καταγγελία σύμβασης κινητού ή γυμναστηρίου, ένσταση σε εισπρακτική, ελαττώματα κατοικίας στη Γερμανία: δωρεάν πρότυπα επιστολών."],
+    "familie": ["Πιστοποιητικό γέννησης, Kita, σχολείο | Amtsbriefe", "Δήλωση γέννησης, θέση σε Kita, δικαιολόγηση απουσίας στο σχολείο, Jugendamt: προθεσμίες και δωρεάν πρότυπα επιστολών."],
+    "auto": ["Δίπλωμα, αυτοκίνητο, επιχείρηση στη Γερμανία", "Μετατροπή διπλώματος, ταξινόμηση αυτοκινήτου, δήλωση επιχείρησης, κάρτα αναπηρίας, βαθμός φροντίδας: δωρεάν πρότυπα επιστολών."]
+  },
+  "fr": {
+    "aufenthalt": ["Titre de séjour qui expire en Allemagne : que faire ?", "Votre titre de séjour ou visa expire en Allemagne ? Prolonger à temps, Fiktionsbescheinigung, recours. Modèles de lettres gratuits, 13 langues."],
+    "abschiebung": ["Menace d'expulsion en Allemagne : que faire ?", "Vous avez reçu une Ausreiseaufforderung ? Délais, démarches urgentes, Duldung, commission des cas de rigueur. Modèles de lettres et aide gratuits."],
+    "sozial": ["Prestations sociales en Allemagne : demandes", "Wohngeld, Kinderzuschlag, Elterngeld, Unterhaltsvorschuss, Grundsicherung : délais, service compétent, modèles de lettres gratuits."],
+    "alltag": ["Résiliation, recouvrement : modèles de lettres", "Résilier un forfait mobile ou une salle de sport, contester un recouvrement, signaler des défauts en Allemagne : modèles de lettres gratuits."],
+    "familie": ["Acte de naissance, Kita, école : modèles | Amtsbriefe", "Déclarer une naissance, demander une place en Kita, mot d'excuse pour l'école, Jugendamt : délais et modèles de lettres gratuits."],
+    "auto": ["Permis, voiture, entreprise en Allemagne | Amtsbriefe", "Échanger son permis, immatriculer une voiture, déclarer une activité, carte de handicap, niveau de dépendance : modèles de lettres gratuits."]
+  },
+  "nl": {
+    "aufenthalt": ["Verblijfsvergunning in Duitsland verloopt – wat nu?", "Verloopt je verblijfsvergunning of visum in Duitsland? Op tijd verlengen, Fiktionsbescheinigung, bezwaar. Gratis briefsjablonen, 13 talen."],
+    "abschiebung": ["Dreigende uitzetting in Duitsland – wat nu?", "Ausreiseaufforderung gekregen? Termijnen, dringende stappen, Duldung, hardheidscommissie. Gratis briefsjablonen en hulp in 13 talen."],
+    "sozial": ["Uitkeringen in Duitsland aanvragen | Amtsbriefe", "Wohngeld, Kinderzuschlag, Elterngeld, Unterhaltsvorschuss, Grundsicherung: termijnen, bevoegde instantie, gratis briefsjablonen."],
+    "alltag": ["Opzeggen, incasso betwisten: briefsjablonen", "Telefoon- of sportschoolabonnement opzeggen, incasso betwisten, gebreken melden, servicekosten controleren in Duitsland: gratis sjablonen."],
+    "familie": ["Geboorteakte, kinderopvang, school | Amtsbriefe", "Geboorte aangeven, kinderopvangplaats aanvragen, ziekmelding voor school, Jugendamt: termijnen en gratis voorbeeldbrieven, in 13 talen."],
+    "auto": ["Rijbewijs, auto, bedrijf in Duitsland | Amtsbriefe", "Rijbewijs omzetten, auto inschrijven, bedrijf aanmelden, gehandicaptenpas, zorggraad: termijnen en gratis voorbeeldbrieven, in 13 talen."]
+  },
+  "ro": {
+    "aufenthalt": ["Expiră permisul de ședere în Germania – ce fac?", "Vă expiră permisul de ședere sau viza în Germania? Prelungire la timp, Fiktionsbescheinigung, contestație. Modele de scrisori gratuite."],
+    "abschiebung": ["Amenințare cu expulzarea din Germania – ce fac?", "Ați primit Ausreiseaufforderung? Termene, pași urgenți, Duldung, comisia pentru cazuri dificile. Modele de scrisori și ajutor gratuit."],
+    "sozial": ["Ajutoare sociale în Germania: cereri | Amtsbriefe", "Wohngeld, Kinderzuschlag, Elterngeld, Unterhaltsvorschuss, Grundsicherung: termene, instituția competentă, modele de scrisori gratuite."],
+    "alltag": ["Reziliere, recuperare datorii: modele scrisori", "Reziliați abonamentul de telefon sau sală, contestați recuperarea datoriilor, semnalați defecte în Germania: modele de scrisori gratuite."],
+    "familie": ["Certificat de naștere, grădiniță, școală", "Înregistrarea nașterii, loc la grădiniță, scutire pentru școală, Jugendamt: termene și modele de scrisori gratuite, în 13 limbi."],
+    "auto": ["Permis, mașină, afacere în Germania | Amtsbriefe", "Preschimbarea permisului, înmatricularea mașinii, înregistrarea afacerii, certificat de handicap, grad de îngrijire: modele gratuite."]
+  },
+  "es": {
+    "aufenthalt": ["Caduca tu permiso de residencia en Alemania", "¿Caduca tu permiso de residencia o visado en Alemania? Prórroga a tiempo, Fiktionsbescheinigung, recurso. Plantillas gratis en 13 idiomas."],
+    "abschiebung": ["Amenaza de deportación en Alemania: ¿qué hacer?", "¿Has recibido una Ausreiseaufforderung? Plazos, pasos urgentes, Duldung, comisión de casos de dureza. Plantillas de cartas y ayuda gratis."],
+    "sozial": ["Prestaciones sociales en Alemania: solicitudes", "Wohngeld, Kinderzuschlag, Elterngeld, Unterhaltsvorschuss, Grundsicherung: plazos, oficina competente, plantillas de cartas gratis."],
+    "alltag": ["Dar de baja contratos, cobro de deudas: cartas", "Dar de baja el móvil o el gimnasio, recurrir un cobro de deudas, comunicar defectos de la vivienda en Alemania: plantillas de cartas gratis."],
+    "familie": ["Partida de nacimiento, guardería, colegio | Amtsbriefe", "Registrar un nacimiento, pedir plaza de guardería, justificante para el colegio, Jugendamt: plazos y modelos de cartas gratis, 13 idiomas."],
+    "auto": ["Permiso de conducir, coche, negocio en Alemania", "Canjear el permiso, matricular el coche, dar de alta un negocio, certificado de discapacidad, grado de dependencia: modelos de cartas gratis."]
+  },
+  "ku": {
+    "aufenthalt": ["Destûra rûniştinê diqede – çi bikim? | Amtsbriefe", "Li Almanyayê destûra rûniştinê an vîze diqede? Di wextê de dirêjkirin, Fiktionsbescheinigung, îtîraz. Şablonên nameyan ên belaş, 13 ziman."],
+    "abschiebung": ["Metirsiya dersînorkirinê – çi bikim? | Amtsbriefe", "Ausreiseaufforderung hat? Dem, gavên lezgîn, Duldung, komîsyon. Şablonên nameyan ên belaş û alîkarî, bi 13 zimanan."],
+    "sozial": ["Wohngeld, Elterngeld: serlêdan | Amtsbriefe", "Wohngeld, Kinderzuschlag, Elterngeld, Unterhaltsvorschuss, Grundsicherung: dem, saziya berpirsiyar, şablonên nameyan ên belaş."],
+    "alltag": ["Betalkirina peymanê, Inkasso: şablon | Amtsbriefe", "Li Almanyayê peymana telefonê betal bike, li dijî Inkassoyê îtiraz bike, kêmasiyên xanî ragihîne: şablonên nameyan ên belaş, 13 ziman."],
+    "familie": ["Belgeya jidayikbûnê, Kita, dibistan | Amtsbriefe", "Qeydkirina jidayikbûnê, cihê Kitayê, lêborîna ji bo dibistanê, Jugendamt: dem û şablonên nameyan ên belaş, bi 13 zimanan."],
+    "auto": ["Ehliyet, erebe, karsazî li Almanyayê | Amtsbriefe", "Guhertina ehliyetê, qeydkirina erebe û karsaziyê, nasnameya kêmendamiyê, pileya lênêrînê: dem û şablonên nameyan ên belaş."]
+  }
+}

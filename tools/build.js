@@ -5,6 +5,7 @@ const path = require("path");
 const { SAMPLE, LABELS, LETTERS, head, foot } = require("./src/letters");
 const C = Object.assign({}, require("./src/content-de-en-tr"), require("./src/content-bg-ar-uk"), require("./src/content-pl-ku"));
 const SZ = require("./src/content-sozial");
+const VORL = Object.fromEntries(Object.entries(require("./src/vorlagen-i18n.json")).map(([k, v]) => [k, v.ft[0]]));
 for (const l of Object.keys(SZ)) C[l].sozial = SZ[l].sozial;
 const AL = require("./src/content-alltag");
 for (const l of Object.keys(AL)) C[l].alltag = AL[l].alltag;
@@ -159,7 +160,7 @@ ${key === "sozial" || key === "alltag" || key === "familie" || key === "auto" ? 
 <p class="src"><strong>${esc(u.sources)}:</strong> ${SOURCES[key].map(([n, h]) => `<a href="https://www.gesetze-im-internet.de/${h}" rel="noopener" target="_blank">${n}</a>`).join("")}<br>${esc(u.stand)}: ${STAND}</p>
 <p class="note">${esc(u.disclaimer)}</p>
 </main>
-<footer><div class="wrap"><a href="${root(lang)}">Amtsbriefe</a><a href="${root(lang)}impressum.html">Impressum</a><a href="${root(lang)}datenschutz.html">Datenschutz</a></div></footer>
+<footer><div class="wrap"><a href="${root(lang)}">Amtsbriefe</a><a href="${lang === "de" ? "" : "/" + lang}/vorlagen.html">${VORL[lang] || VORL.de}</a><a href="${root(lang)}impressum.html">Impressum</a><a href="${root(lang)}datenschutz.html">Datenschutz</a></div></footer>
 <script>
 document.querySelectorAll("details .lt").forEach(function(b){
   var bl=b.querySelector("[data-blank]"),ex=b.querySelector("[data-ex]"),v="blank";

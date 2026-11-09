@@ -1,0 +1,70 @@
+{
+ "title": "Yetkili daireyi bulun: Yaşadığım yerden hangi daire sorumlu?",
+ "desc": "Eyalet, ilçe ve belediyeyi seçin, resmî arama sayfasına gidin: Ausländerbehörde, Bürgeramt, Jobcenter, Finanzamt, Amtsgericht. Ücretsiz, 13 dilde.",
+ "h1": "Yetkili daireyi bulun: Eyalet → İlçe → Belediye",
+ "intro": "Yaşadığınız yeri seçin. Belediyenizin (Gemeinde) ve ilçenizin (Kreis) resmî adını ve size yetkili daireyi adresiyle gösteren resmî arama portallarını görürsünüz.",
+ "why": "Hangi dairenin yetkili olduğu, yaşadığınız yere bağlıdır: Bazı işlere belediye veya şehir (Gemeinde, Stadt) bakar, bazılarına ilçe (Kreis), bazılarına da eyalet veya federal bir daire. Bu her eyalette (Bundesland) biraz farklıdır. Bu yüzden tahmini adres vermiyoruz, sizi resmî arama portallarına yönlendiriyoruz.",
+ "lLand": "Eyalet (Bundesland)",
+ "lKreis": "İlçe (Kreis) / ilçeye bağlı olmayan şehir (kreisfreie Stadt)",
+ "lGem": "Belediye / şehir (Gemeinde / Stadt)",
+ "choose": "– lütfen seçin –",
+ "search": "Veya yer adını yazın …",
+ "loading": "Yükleniyor …",
+ "noData": "Belediye listesi yüklenemedi. Eyaletinizin linkleri yine de çalışıyor.",
+ "resTitle": "Yaşadığınız yer – resmî bilgiler",
+ "rGem": "Belediye (Gemeinde)",
+ "rKreis": "İlçe (Kreis)",
+ "rLand": "Eyalet (Bundesland)",
+ "rPlz": "Belediye idaresinin posta kodu (PLZ)",
+ "rAgs": "Resmî belediye kodu (Amtlicher Gemeindeschlüssel)",
+ "rEw": "Nüfus",
+ "copyBtn": "Bilgileri kopyala",
+ "portalTitle": "Resmî arama: Hangi daire yetkili?",
+ "landPortal": "Hizmet portalı {L}",
+ "landPortalNote": "Yer adını ve işinizi yazın – portal size yetkili daireyi adresiyle gösterir.",
+ "fedTitle": "Tüm Almanya için resmî aramalar",
+ "fed": [
+  "Federal devlet, eyaletler ve belediyelerin idari hizmetleri – çoğunlukla yaşadığınız yeri yazarak",
+  "Yakınınızdaki göç danışmanlığı, uyum kursları (Integrationskurs) ve danışma yerleri",
+  "Yakınınızdaki İş Ajansı (Agentur für Arbeit) ve Jobcenter",
+  "Yaşadığınız yer için yetkili vergi dairesi (Finanzamt)",
+  "Posta koduna veya yere göre yetkili sulh mahkemesi (Amtsgericht)",
+  "Resmî daireler bilgi hattı: Hangi daire yetkili?"
+ ],
+ "stepsTitle": "Doğru daireyi böyle bulursunuz",
+ "steps": [
+  [
+   "Yeri seçin",
+   "Yukarıda eyaleti, ilçeyi ve belediyeyi seçin – veya yaşadığınız yerin adını yazın."
+  ],
+  [
+   "Hizmet portalını açın",
+   "Eyaletinizin hizmet portalını açın. Orada yer adını ve işinizi yazın, örneğin „Aufenthaltstitel verlängern“ (oturum iznini uzatmak), „Wohnsitz anmelden“ (adres kaydı yaptırmak) veya „Wohngeld“ (kira yardımı)."
+  ],
+  [
+   "Adresi mektuba yazın",
+   "Portal size yetkili daireyi adresiyle gösterir. Bu adresi mektup şablonlarımızdan birine yazın."
+  ],
+  [
+   "Emin değil misiniz? Sorun",
+   "Belediyenize veya şehir idarenize sorun. Birçok bölgede 115 numaralı resmî bilgi hattı da yardımcı olur."
+  ]
+ ],
+ "faqTitle": "Sık sorulan sorular",
+ "faq": [
+  [
+   "Amtlicher Gemeindeschlüssel (resmî belediye kodu) nedir?",
+   "Almanya'daki her belediyeyi açıkça tanımlayan 8 haneli bir numaradır. İlk 2 rakam eyaleti, sonraki 3 rakam idari bölgeyi ve ilçeyi, son 3 rakam belediyeyi gösterir."
+  ],
+  [
+   "Bu sayfa neden dairenin adresini doğrudan göstermiyor?",
+   "Yetkiler ve adresler değişir ve her eyalette farklıdır. Federal devletin ve eyaletlerin hizmet portallarını idarenin kendisi günceller. Bu yüzden güvenilir kaynak onlardır."
+  ],
+  [
+   "Arama ücretli mi?",
+   "Hayır. Bu sayfa ve linkteki resmî portallar ücretsizdir. Seçiminiz kaydedilmez."
+  ]
+ ],
+ "dataNote": "Belediye listesi: Federal İstatistik Dairesi (Destatis), Gemeindeverzeichnis, durum: {S}.",
+ "linksNote": "Tüm linkler federal devletin ve eyaletlerin resmî portallarına gider (kontrol tarihi: {D})."
+}

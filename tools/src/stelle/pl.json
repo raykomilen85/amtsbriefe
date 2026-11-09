@@ -1,0 +1,70 @@
+{
+ "title": "Znajdź właściwy urząd: Który urząd odpowiada za moją miejscowość?",
+ "desc": "Wybierz land, powiat i gminę i przejdź do oficjalnej wyszukiwarki: Ausländerbehörde, Bürgeramt, Jobcenter, Finanzamt, Amtsgericht. Bezpłatnie, w 13 językach.",
+ "h1": "Znajdź właściwy urząd: Land → Powiat → Gmina",
+ "intro": "Wybierz miejsce zamieszkania. Otrzymasz urzędową nazwę swojej gminy (Gemeinde) i powiatu (Kreis) oraz oficjalne portale wyszukiwania, które podają właściwy urząd z adresem.",
+ "why": "To, który urząd jest właściwy, zależy od miejsca zamieszkania: niektóre sprawy załatwia gmina lub miasto (Gemeinde, Stadt), inne powiat (Kreis), a jeszcze inne urząd krajowy lub federalny. W każdym landzie (Bundesland) jest to uregulowane trochę inaczej. Dlatego nie podajemy zgadywanych adresów, tylko prowadzimy do oficjalnych portali wyszukiwania.",
+ "lLand": "Land (Bundesland)",
+ "lKreis": "Powiat (Kreis) / miasto na prawach powiatu (kreisfreie Stadt)",
+ "lGem": "Gmina / miasto (Gemeinde / Stadt)",
+ "choose": "– proszę wybrać –",
+ "search": "Lub wpisz miejscowość …",
+ "loading": "Ładowanie …",
+ "noData": "Nie udało się załadować listy gmin. Linki dla Twojego landu działają mimo to.",
+ "resTitle": "Twoja miejscowość – dane urzędowe",
+ "rGem": "Gmina (Gemeinde)",
+ "rKreis": "Powiat (Kreis)",
+ "rLand": "Land (Bundesland)",
+ "rPlz": "Kod pocztowy (PLZ) urzędu gminy",
+ "rAgs": "Urzędowy klucz gminy (Amtlicher Gemeindeschlüssel)",
+ "rEw": "Liczba mieszkańców",
+ "copyBtn": "Kopiuj dane",
+ "portalTitle": "Oficjalne wyszukiwanie: Który urząd jest właściwy?",
+ "landPortal": "Portal usług {L}",
+ "landPortalNote": "Wpisz miejscowość i swoją sprawę – portal poda właściwy urząd z adresem.",
+ "fedTitle": "Oficjalne wyszukiwarki dla całych Niemiec",
+ "fed": [
+  "Usługi administracyjne federacji, landów i gmin – zwykle po podaniu miejsca zamieszkania",
+  "Doradztwo dla migrantów, kursy integracyjne i poradnie w pobliżu",
+  "Agencja Pracy (Agentur für Arbeit) i Jobcenter w pobliżu",
+  "Właściwy urząd skarbowy (Finanzamt) dla Twojej miejscowości",
+  "Właściwy sąd rejonowy (Amtsgericht) według kodu pocztowego lub miejscowości",
+  "Numer informacji urzędowej: Który urząd jest właściwy?"
+ ],
+ "stepsTitle": "Jak znaleźć właściwy urząd",
+ "steps": [
+  [
+   "Wybierz miejscowość",
+   "Wybierz powyżej land, powiat i gminę – albo wpisz nazwę swojej miejscowości."
+  ],
+  [
+   "Otwórz portal usług",
+   "Otwórz portal usług swojego landu. Wpisz tam miejscowość i swoją sprawę, np. „Aufenthaltstitel verlängern“ (przedłużenie dokumentu pobytowego), „Wohnsitz anmelden“ (zameldowanie) lub „Wohngeld“ (dodatek mieszkaniowy)."
+  ],
+  [
+   "Wpisz adres do pisma",
+   "Portal poda właściwy urząd z adresem. Wpisz go do jednego z naszych wzorów pism."
+  ],
+  [
+   "Nie masz pewności? Zapytaj",
+   "Zapytaj w urzędzie gminy lub miasta. W wielu regionach pomaga też numer informacji urzędowej 115."
+  ]
+ ],
+ "faqTitle": "Częste pytania",
+ "faq": [
+  [
+   "Co to jest Amtlicher Gemeindeschlüssel (urzędowy klucz gminy)?",
+   "8-cyfrowy numer, który jednoznacznie oznacza każdą gminę w Niemczech. Pierwsze 2 cyfry oznaczają land, kolejne 3 rejencję i powiat, ostatnie 3 gminę."
+  ],
+  [
+   "Dlaczego strona nie pokazuje od razu adresu urzędu?",
+   "Właściwość urzędów i adresy się zmieniają i są różne w każdym landzie. Portale usług federacji i landów prowadzi sama administracja, dlatego są one pewnym źródłem."
+  ],
+  [
+   "Czy wyszukiwanie coś kosztuje?",
+   "Nie. Ta strona i podlinkowane oficjalne portale są bezpłatne. Twój wybór nie jest zapisywany."
+  ]
+ ],
+ "dataNote": "Lista gmin: Federalny Urząd Statystyczny (Destatis), Gemeindeverzeichnis, stan na {S}.",
+ "linksNote": "Wszystkie linki prowadzą do oficjalnych portali federacji i landów (sprawdzono {D})."
+}

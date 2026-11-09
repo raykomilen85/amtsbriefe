@@ -1,0 +1,70 @@
+{
+ "title": "Bevoegde instantie vinden: welke dienst is er voor mijn woonplaats?",
+ "desc": "Kies deelstaat, Kreis en gemeente en ga direct naar de officiële zoekhulp: Ausländerbehörde, Bürgeramt, Jobcenter, Finanzamt, Amtsgericht – gratis, in 13 talen.",
+ "h1": "Bevoegde instantie vinden: deelstaat → Kreis → gemeente",
+ "intro": "Kies uw woonplaats. U krijgt de officiële naam van uw gemeente (Gemeinde) en uw district (Kreis) en de officiële zoekportalen die u de bevoegde instantie met adres geven.",
+ "why": "Welke instantie bevoegd is, hangt af van uw woonplaats: sommige taken doet de gemeente of stad, andere het district (Kreis), andere een instantie van de deelstaat of van de Bondsrepubliek. Dat is in elke deelstaat een beetje anders geregeld. Daarom geven we geen geraden adressen, maar brengen we u naar de officiële zoekportalen.",
+ "lLand": "Deelstaat (Bundesland)",
+ "lKreis": "District / kreisvrije stad (Kreis / kreisfreie Stadt)",
+ "lGem": "Gemeente / stad (Gemeinde / Stadt)",
+ "choose": "– maak een keuze –",
+ "search": "Of typ de plaatsnaam …",
+ "loading": "Laden …",
+ "noData": "De gemeentelijst kon niet worden geladen. De links voor uw deelstaat werken wel.",
+ "resTitle": "Uw woonplaats – officiële gegevens",
+ "rGem": "Gemeente (Gemeinde)",
+ "rKreis": "District (Kreis)",
+ "rLand": "Deelstaat (Bundesland)",
+ "rPlz": "Postcode van het gemeentebestuur",
+ "rAgs": "Officiële gemeentecode (Amtlicher Gemeindeschlüssel)",
+ "rEw": "Inwoners",
+ "copyBtn": "Gegevens kopiëren",
+ "portalTitle": "Officieel zoeken: welke instantie is bevoegd?",
+ "landPortal": "Serviceportaal {L}",
+ "landPortalNote": "Vul uw plaats en uw vraag in – het portaal noemt de bevoegde instantie met adres.",
+ "fedTitle": "Officiële zoekhulpen voor heel Duitsland",
+ "fed": [
+  "Overheidsdiensten van Bondsrepubliek, deelstaten en gemeenten – meestal met uw woonplaats",
+  "Migratieadvies, integratiecursussen en adviescentra bij u in de buurt",
+  "Arbeidsbureau (Agentur für Arbeit) en Jobcenter bij u in de buurt",
+  "Bevoegd Finanzamt (belastingkantoor) voor uw woonplaats",
+  "Bevoegd Amtsgericht (kantongerecht) op postcode of plaats",
+  "Overheidsnummer: welke dienst is bevoegd?"
+ ],
+ "stepsTitle": "Zo vindt u de juiste instantie",
+ "steps": [
+  [
+   "Plaats kiezen",
+   "Kies hierboven deelstaat, district (Kreis) en gemeente (Gemeinde) – of typ de naam van uw woonplaats."
+  ],
+  [
+   "Serviceportaal openen",
+   "Open het serviceportaal van uw deelstaat. Vul daar uw plaats en uw vraag in het Duits in, bijv. „Aufenthaltstitel verlängern“ (verblijfsvergunning verlengen), „Wohnsitz anmelden“ (woonadres inschrijven) of „Wohngeld“ (huurtoeslag)."
+  ],
+  [
+   "Adres in de brief overnemen",
+   "Het portaal noemt de bevoegde instantie met adres. Neem dit over in een van onze briefsjablonen."
+  ],
+  [
+   "Twijfelt u? Vraag het na",
+   "Vraag het na bij uw gemeente of stad. In veel regio’s helpt ook het overheidsnummer 115."
+  ]
+ ],
+ "faqTitle": "Veelgestelde vragen",
+ "faq": [
+  [
+   "Wat is de Amtlicher Gemeindeschlüssel?",
+   "Een nummer van 8 cijfers waarmee elke gemeente in Duitsland eenduidig wordt aangeduid. De eerste 2 cijfers staan voor de deelstaat, de volgende 3 voor regio (Regierungsbezirk) en district (Kreis), de laatste 3 voor de gemeente."
+  ],
+  [
+   "Waarom toont de pagina niet direct het adres van de instantie?",
+   "Bevoegdheden en adressen veranderen en verschillen per deelstaat. De serviceportalen van Bondsrepubliek en deelstaten worden door de overheid zelf bijgehouden en zijn daarom de betrouwbare bron."
+  ],
+  [
+   "Kost het zoeken iets?",
+   "Nee. Deze pagina en de gelinkte officiële portalen zijn gratis. Uw keuze wordt niet opgeslagen."
+  ]
+ ],
+ "dataNote": "Gemeentelijst: Federaal Bureau voor de Statistiek (Destatis), gemeentelijst (Gemeindeverzeichnis), gebiedsstand {S}.",
+ "linksNote": "Alle links gaan naar officiële portalen van Bondsrepubliek en deelstaten (gecontroleerd op {D})."
+}

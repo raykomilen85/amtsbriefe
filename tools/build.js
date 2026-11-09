@@ -38,7 +38,9 @@ const SITE = "https://amtsbriefe.de";
 const STAND = "05.11.2026";
 const LANGS = [["de","Deutsch"],["tr","Türkçe"],["bg","Български"],["ar","العربية"],["uk","Українська"],["pl","Polski"],["en","English"],["el","Ελληνικά"],["fr","Français"],["nl","Nederlands"],["ro","Română"],["es","Español"],["ku","Kurdî"]];
 const STEP = { de: "Schritt für Schritt", tr: "Adım adım", bg: "Стъпка по стъпка", ar: "خطوة بخطوة", uk: "Крок за кроком", pl: "Krok po kroku", en: "Step by step", el: "Βήμα προς βήμα", fr: "Étape par étape", nl: "Stap voor stap", ro: "Pas cu pas", es: "Paso a paso", ku: "Gav bi gav" };
-const PAGES = { aufenthalt: "aufenthalt-laeuft-ab", abschiebung: "abschiebung-hilfe", sozial: "sozialleistungen-antrag", alltag: "alltag-briefvorlagen", familie: "familie-schule", auto: "auto-gewerbe-gesundheit" };
+const PAGES = { aufenthalt: "aufenthalt-laeuft-ab", abschiebung: "abschiebung-hilfe", sozial: "sozialleistungen-antrag", alltag: "alltag-briefvorlagen", familie: "familie-schule", auto: "auto-gewerbe-gesundheit", stelle: "zustaendige-stelle" };
+// "Zuständige Stelle finden" (tools/stelle.js) has its own template; here only its h1 is needed for the cross links.
+for (const l of Object.keys(C)) C[l].stelle = { h1: JSON.parse(fs.readFileSync(path.join(__dirname, "src", "stelle", l + ".json"), "utf8")).h1 };
 const SRC_SOZ = [["§ 25 WoGG","wogg/__25.html"],["§ 7 WoGG","wogg/__7.html"],["§ 6a BKGG","bkgg_1996/__6a.html"],["§ 7 BEEG","beeg/__7.html"],["§ 13 BEEG","beeg/__13.html"],["§ 4 UVG","uhvorschg/__4.html"],["§ 44 SGB XII","sgb_12/__44.html"],["§ 88 SGG","sgg/__88.html"],["§ 75 VwGO","vwgo/__75.html"]];
 const SOURCES = {
   aufenthalt: [["§ 81 AufenthG","aufenthg_2004/__81.html"],["§ 84 AufenthG","aufenthg_2004/__84.html"],["§ 58 VwGO","vwgo/__58.html"],["§ 81 VwGO","vwgo/__81.html"],["§ 29 VwVfG","vwvfg/__29.html"],["§ 1 BerHG","berathig/__1.html"]],
@@ -183,6 +185,7 @@ const out = path.join(__dirname, "..");
 
 const urls = [];
 for (const [lang] of LANGS) for (const key of Object.keys(PAGES)) {
+  if (key === "stelle") continue;
   const dir = lang === "de" ? out : path.join(out, lang);
   fs.mkdirSync(dir, { recursive: true });
   fs.writeFileSync(path.join(dir, PAGES[key] + ".html"), page(lang, key));
@@ -190,3 +193,4 @@ for (const [lang] of LANGS) for (const key of Object.keys(PAGES)) {
 }
 
 console.log("built", urls.length, "pages");
+require("./stelle.js")({ C, CSS, LOGO, LANGS, SITE, VORL, esc, rel, root, url, PAGES, out });

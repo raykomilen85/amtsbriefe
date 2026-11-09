@@ -1,0 +1,70 @@
+{
+ "title": "Trouver le service compétent : quelle administration pour ma commune ?",
+ "desc": "Choisissez Land, Kreis et commune et accédez aux recherches officielles : Ausländerbehörde, Bürgeramt, Jobcenter, Finanzamt, Amtsgericht – gratuit, en 13 langues.",
+ "h1": "Trouver le service compétent : Land → Kreis → commune",
+ "intro": "Choisissez votre lieu de résidence. Vous obtenez le nom officiel de votre commune (Gemeinde) et de votre district (Kreis), ainsi que les portails de recherche officiels qui vous indiquent l’administration compétente avec son adresse.",
+ "why": "L’administration compétente dépend de votre lieu de résidence : certaines tâches sont gérées par la commune ou la ville, d’autres par le district (Kreis), d’autres par une administration du Land ou fédérale. Les règles sont un peu différentes dans chaque Land. C’est pourquoi nous ne donnons pas d’adresses devinées, mais nous vous menons aux portails de recherche officiels.",
+ "lLand": "Land (Bundesland)",
+ "lKreis": "District / ville-district (Kreis / kreisfreie Stadt)",
+ "lGem": "Commune / ville (Gemeinde / Stadt)",
+ "choose": "– veuillez choisir –",
+ "search": "Ou tapez le nom du lieu …",
+ "loading": "Chargement …",
+ "noData": "La liste des communes n’a pas pu être chargée. Les liens pour votre Land fonctionnent quand même.",
+ "resTitle": "Votre lieu – données officielles",
+ "rGem": "Commune (Gemeinde)",
+ "rKreis": "District (Kreis)",
+ "rLand": "Land (Bundesland)",
+ "rPlz": "Code postal de l’administration communale",
+ "rAgs": "Code officiel de la commune (Amtlicher Gemeindeschlüssel)",
+ "rEw": "Habitants",
+ "copyBtn": "Copier les données",
+ "portalTitle": "Recherche officielle : quel service est compétent ?",
+ "landPortal": "Portail de services {L}",
+ "landPortalNote": "Saisissez votre lieu et votre demande – le portail indique le service compétent avec son adresse.",
+ "fedTitle": "Recherches officielles dans toute l’Allemagne",
+ "fed": [
+  "Services administratifs de l’État fédéral, des Länder et des communes – le plus souvent avec votre lieu de résidence",
+  "Conseil aux migrants, cours d’intégration et services de conseil près de chez vous",
+  "Agence pour l’emploi (Agentur für Arbeit) et Jobcenter près de chez vous",
+  "Finanzamt (centre des impôts) compétent pour votre lieu",
+  "Amtsgericht (tribunal cantonal) compétent selon le code postal ou le lieu",
+  "Numéro des administrations : quelle administration est compétente ?"
+ ],
+ "stepsTitle": "Comment trouver le bon service",
+ "steps": [
+  [
+   "Choisir le lieu",
+   "Choisissez ci-dessus le Land, le district (Kreis) et la commune (Gemeinde) – ou tapez le nom de votre lieu."
+  ],
+  [
+   "Ouvrir le portail de services",
+   "Ouvrez le portail de services de votre Land. Saisissez votre lieu et votre demande en allemand, p. ex. „Aufenthaltstitel verlängern“ (prolonger le titre de séjour), „Wohnsitz anmelden“ (déclarer son domicile) ou „Wohngeld“ (aide au logement)."
+  ],
+  [
+   "Reprendre l’adresse dans la lettre",
+   "Le portail indique le service compétent avec son adresse. Reprenez-la dans l’un de nos modèles de lettres."
+  ],
+  [
+   "Pas sûr ? Demandez",
+   "Renseignez-vous auprès de votre commune ou de votre mairie. Dans beaucoup de régions, le numéro des administrations 115 peut aussi vous aider."
+  ]
+ ],
+ "faqTitle": "Questions fréquentes",
+ "faq": [
+  [
+   "Qu’est-ce que l’Amtlicher Gemeindeschlüssel ?",
+   "Un numéro à 8 chiffres qui identifie clairement chaque commune en Allemagne. Les 2 premiers chiffres indiquent le Land, les 3 suivants la circonscription administrative (Regierungsbezirk) et le district (Kreis), les 3 derniers la commune."
+  ],
+  [
+   "Pourquoi la page n’affiche-t-elle pas directement l’adresse de l’administration ?",
+   "Les compétences et les adresses changent et sont différentes selon le Land. Les portails de services de l’État fédéral et des Länder sont mis à jour par l’administration elle-même ; ils sont donc la source sûre."
+  ],
+  [
+   "La recherche est-elle payante ?",
+   "Non. Cette page et les portails officiels en lien sont gratuits. Votre choix n’est pas enregistré."
+  ]
+ ],
+ "dataNote": "Liste des communes : Office fédéral de la statistique (Destatis), répertoire des communes (Gemeindeverzeichnis), état territorial au {S}.",
+ "linksNote": "Tous les liens mènent à des portails officiels de l’État fédéral et des Länder (vérifiés le {D})."
+}

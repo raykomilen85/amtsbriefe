@@ -1,0 +1,70 @@
+{
+ "title": "Daîreya berpirsiyar bibîne: kîjan daîre ji bo cihê min berpirsiyar e?",
+ "desc": "Eyalet, Kreis û Gemeinde hilbijêre û rasterast here lêgerîna fermî: Ausländerbehörde, Bürgeramt, Jobcenter, Finanzamt, Amtsgericht – belaş, bi 13 zimanan.",
+ "h1": "Daîreya berpirsiyar bibîne: eyalet → Kreis → Gemeinde",
+ "intro": "Cihê ku tu lê dijî hilbijêre. Tu navê fermî yê gund an bajarê xwe (Gemeinde) û yê navçeya xwe (Kreis) distînî, û portalên lêgerînê yên fermî yên ku daîreya berpirsiyar bi navnîşanê nîşanî te didin.",
+ "why": "Kîjan daîre berpirsiyar e, bi cihê ku tu lê dijî ve girêdayî ye: hin karan Gemeinde an bajar dike, hinan navçe (Kreis), hinan jî daîreyeke eyaletê an a federal. Ev li her eyaletê hinekî cuda hatiye rêkxistin. Ji ber vê yekê em navnîşanên texmînkirî nadin, lê te dibin portalên lêgerînê yên fermî.",
+ "lLand": "Eyalet (Bundesland)",
+ "lKreis": "Navçe / bajarê serbixwe (Kreis / kreisfreie Stadt)",
+ "lGem": "Gemeinde / bajar (Gemeinde / Stadt)",
+ "choose": "– ji kerema xwe hilbijêre –",
+ "search": "An navê cih binivîse …",
+ "loading": "Tê barkirin …",
+ "noData": "Lîsteya Gemeindeyan nehat barkirin. Lînkên ji bo eyaleta te dîsa jî dixebitin.",
+ "resTitle": "Cihê te – agahiyên fermî",
+ "rGem": "Gemeinde",
+ "rKreis": "Navçe (Kreis)",
+ "rLand": "Eyalet (Bundesland)",
+ "rPlz": "Koda postê ya rêveberiya Gemeinde",
+ "rAgs": "Koda fermî ya Gemeinde (Amtlicher Gemeindeschlüssel)",
+ "rEw": "Niştecih",
+ "copyBtn": "Agahiyan kopî bike",
+ "portalTitle": "Lêgerîna fermî: kîjan daîre berpirsiyar e?",
+ "landPortal": "Portala xizmetê {L}",
+ "landPortalNote": "Cih û daxwaza xwe binivîse – portal daîreya berpirsiyar bi navnîşanê nîşan dide.",
+ "fedTitle": "Lêgerînên fermî ji bo tevahiya Almanyayê",
+ "fed": [
+  "Xizmetên rêveberiyê yên dewleta federal, eyaletan û şaredariyan – bi gelemperî bi cihê ku tu lê dijî",
+  "Şêwirdariya koçberan, kursên entegrasyonê û navendên şêwirdariyê li nêzî te",
+  "Daîreya kar (Agentur für Arbeit) û Jobcenter li herêma te",
+  "Daîreya bacê ya berpirsiyar (Finanzamt) ji bo cihê te",
+  "Dadgeha herêmî ya berpirsiyar (Amtsgericht) li gorî koda postê an cih",
+  "Hejmara daîreyan: kîjan daîre berpirsiyar e?"
+ ],
+ "stepsTitle": "Bi vî awayî daîreya rast bibîne",
+ "steps": [
+  [
+   "Cih hilbijêre",
+   "Li jor eyalet, navçe (Kreis) û Gemeinde hilbijêre – an navê cihê xwe binivîse."
+  ],
+  [
+   "Portala xizmetê veke",
+   "Portala xizmetê ya eyaleta xwe veke. Li wir cih û daxwaza xwe bi almanî binivîse, wek „Aufenthaltstitel verlängern“ (dirêjkirina destûra rûniştinê), „Wohnsitz anmelden“ (qeydkirina cihê rûniştinê) an „Wohngeld“ (alîkariya kirê)."
+  ],
+  [
+   "Navnîşanê têxe nameyê",
+   "Portal daîreya berpirsiyar bi navnîşanê nîşan dide. Wê têxe yek ji şablonên me yên nameyan."
+  ],
+  [
+   "Ne bawer î? Bipirse",
+   "Ji rêveberiya Gemeinde an bajarê xwe bipirse. Li gelek herêman hejmara daîreyan 115 jî alîkariyê dike."
+  ]
+ ],
+ "faqTitle": "Pirsên pir tên pirsîn",
+ "faq": [
+  [
+   "Amtlicher Gemeindeschlüssel çi ye?",
+   "Hejmareke 8 reqemî ye ku her Gemeinde li Almanyayê bi awayekî yekane nîşan dide. 2 reqemên pêşîn eyaletê nîşan didin, 3 yên paşê herêma rêveberiyê (Regierungsbezirk) û navçeyê (Kreis), 3 yên dawî jî Gemeinde."
+  ],
+  [
+   "Çima rûpel navnîşana daîreyê rasterast nîşan nade?",
+   "Berpirsiyarî û navnîşan diguherin û li gorî eyaletê cuda ne. Portalên xizmetê yên dewleta federal û eyaletan ji aliyê rêveberiyê bi xwe ve tên nûkirin, ji ber vê yekê ew çavkaniya ewle ne."
+  ],
+  [
+   "Lêgerîn bi pere ye?",
+   "Na. Ev rûpel û portalên fermî yên bi lînk belaş in. Hilbijartina te nayê tomarkirin."
+  ]
+ ],
+ "dataNote": "Lîsteya Gemeindeyan: Daîreya Statîstîkê ya Federal (Destatis), lîsteya Gemeindeyan (Gemeindeverzeichnis), rewşa herêman {S}.",
+ "linksNote": "Hemû lînk diçin portalên fermî yên dewleta federal û eyaletan (hatine kontrolkirin di {D} de)."
+}

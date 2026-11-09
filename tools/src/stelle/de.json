@@ -1,0 +1,70 @@
+{
+ "title": "Zuständige Stelle finden: Welches Amt ist für meinen Ort zuständig?",
+ "desc": "Bundesland, Kreis und Gemeinde wählen und direkt zum amtlichen Zuständigkeitsfinder: Ausländerbehörde, Bürgeramt, Jobcenter, Finanzamt, Amtsgericht – kostenlos, in 13 Sprachen.",
+ "h1": "Zuständige Stelle finden: Bundesland → Kreis → Gemeinde",
+ "intro": "Wählen Sie Ihren Wohnort. Sie bekommen den amtlichen Namen Ihrer Gemeinde und Ihres Kreises und die offiziellen Suchportale, die Ihnen die zuständige Behörde mit Adresse nennen.",
+ "why": "Welche Behörde zuständig ist, hängt von Ihrem Wohnort ab: Manche Aufgaben erledigt die Gemeinde oder Stadt, andere der Kreis, andere eine Landes- oder Bundesbehörde. Das ist in jedem Bundesland etwas anders geregelt. Deshalb nennen wir keine geratenen Adressen, sondern führen Sie zu den amtlichen Suchportalen.",
+ "lLand": "Bundesland",
+ "lKreis": "Kreis / kreisfreie Stadt",
+ "lGem": "Gemeinde / Stadt",
+ "choose": "– bitte wählen –",
+ "search": "Oder Ort eintippen …",
+ "loading": "Lädt …",
+ "noData": "Die Gemeindeliste konnte nicht geladen werden. Die Links für Ihr Bundesland funktionieren trotzdem.",
+ "resTitle": "Ihr Ort – amtliche Angaben",
+ "rGem": "Gemeinde",
+ "rKreis": "Kreis",
+ "rLand": "Bundesland",
+ "rPlz": "PLZ der Gemeindeverwaltung",
+ "rAgs": "Amtlicher Gemeindeschlüssel",
+ "rEw": "Einwohner",
+ "copyBtn": "Angaben kopieren",
+ "portalTitle": "Offizielle Suche: Welche Stelle ist zuständig?",
+ "landPortal": "Serviceportal {L}",
+ "landPortalNote": "Ort und Anliegen eingeben – das Portal nennt die zuständige Stelle mit Adresse.",
+ "fedTitle": "Bundesweite amtliche Suchen",
+ "fed": [
+  "Verwaltungsleistungen von Bund, Ländern und Kommunen – meist mit Angabe Ihres Wohnorts",
+  "Migrationsberatung, Integrationskurse und Beratungsstellen in Ihrer Nähe",
+  "Agentur für Arbeit und Jobcenter vor Ort",
+  "Zuständiges Finanzamt für Ihren Ort",
+  "Zuständiges Amtsgericht nach Postleitzahl oder Ort",
+  "Behördennummer: Welches Amt ist zuständig?"
+ ],
+ "stepsTitle": "So finden Sie die richtige Stelle",
+ "steps": [
+  [
+   "Ort wählen",
+   "Wählen Sie oben Bundesland, Kreis und Gemeinde – oder tippen Sie den Namen Ihres Ortes ein."
+  ],
+  [
+   "Serviceportal öffnen",
+   "Öffnen Sie das Serviceportal Ihres Bundeslandes. Geben Sie dort Ihren Ort und Ihr Anliegen ein, z. B. „Aufenthaltstitel verlängern“, „Wohnsitz anmelden“ oder „Wohngeld“."
+  ],
+  [
+   "Adresse in den Brief übernehmen",
+   "Das Portal nennt die zuständige Stelle mit Adresse. Übernehmen Sie sie in eine unserer Briefvorlagen."
+  ],
+  [
+   "Unsicher? Nachfragen",
+   "Fragen Sie bei Ihrer Gemeinde- oder Stadtverwaltung nach. In vielen Regionen hilft auch die Behördennummer 115."
+  ]
+ ],
+ "faqTitle": "Häufige Fragen",
+ "faq": [
+  [
+   "Was ist der Amtliche Gemeindeschlüssel?",
+   "Eine 8-stellige Nummer, mit der jede Gemeinde in Deutschland eindeutig gekennzeichnet ist. Die ersten 2 Ziffern stehen für das Bundesland, die nächsten 3 für Regierungsbezirk und Kreis, die letzten 3 für die Gemeinde."
+  ],
+  [
+   "Warum zeigt die Seite keine Behördenadresse direkt an?",
+   "Zuständigkeiten und Adressen ändern sich und sind je nach Bundesland verschieden. Die Serviceportale von Bund und Ländern werden von der Verwaltung selbst gepflegt und sind deshalb die sichere Quelle."
+  ],
+  [
+   "Kostet die Suche etwas?",
+   "Nein. Diese Seite und die verlinkten amtlichen Portale sind kostenlos. Ihre Auswahl wird nicht gespeichert."
+  ]
+ ],
+ "dataNote": "Gemeindeliste: Statistisches Bundesamt (Destatis), Gemeindeverzeichnis, Gebietsstand {S}.",
+ "linksNote": "Alle Links führen zu offiziellen Portalen von Bund und Ländern (geprüft am {D})."
+}

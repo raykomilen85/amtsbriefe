@@ -1,0 +1,70 @@
+{
+ "title": "Find the right office: Which authority is responsible for my town?",
+ "desc": "Choose state, district and town – go to the official office finder: Ausländerbehörde, Bürgeramt, Jobcenter, Finanzamt, Amtsgericht. Free, in 13 languages.",
+ "h1": "Find the right office: State → District → Town",
+ "intro": "Choose where you live. You get the official name of your town (Gemeinde) and your district (Kreis) and the official search portals that tell you which authority is responsible, with its address.",
+ "why": "Which authority is responsible depends on where you live: some tasks are done by the town or city (Gemeinde, Stadt), others by the district (Kreis), others by a state or federal authority. This is a little different in every federal state (Bundesland). That is why we do not give you guessed addresses. We take you to the official search portals.",
+ "lLand": "Federal state (Bundesland)",
+ "lKreis": "District (Kreis) / independent city (kreisfreie Stadt)",
+ "lGem": "Town / city (Gemeinde / Stadt)",
+ "choose": "– please choose –",
+ "search": "Or type your town …",
+ "loading": "Loading …",
+ "noData": "The list of towns could not be loaded. The links for your federal state still work.",
+ "resTitle": "Your town – official details",
+ "rGem": "Town (Gemeinde)",
+ "rKreis": "District (Kreis)",
+ "rLand": "Federal state (Bundesland)",
+ "rPlz": "Postcode (PLZ) of the town administration",
+ "rAgs": "Official municipality key (Amtlicher Gemeindeschlüssel)",
+ "rEw": "Population",
+ "copyBtn": "Copy details",
+ "portalTitle": "Official search: Which office is responsible?",
+ "landPortal": "Service portal {L}",
+ "landPortalNote": "Enter your town and your request – the portal tells you the responsible office with its address.",
+ "fedTitle": "Official searches for all of Germany",
+ "fed": [
+  "Administrative services of the federal government, the states and the towns – usually you enter where you live",
+  "Migration advice, integration courses and advice centres near you",
+  "Employment agency (Agentur für Arbeit) and Jobcenter near you",
+  "The responsible tax office (Finanzamt) for your town",
+  "The responsible local court (Amtsgericht) by postcode or town",
+  "Public service number: Which office is responsible?"
+ ],
+ "stepsTitle": "How to find the right office",
+ "steps": [
+  [
+   "Choose your town",
+   "Above, choose federal state, district and town – or type the name of your town."
+  ],
+  [
+   "Open the service portal",
+   "Open the service portal of your federal state. Enter your town and your request there, for example „Aufenthaltstitel verlängern“ (extend residence permit), „Wohnsitz anmelden“ (register your address) or „Wohngeld“ (housing benefit)."
+  ],
+  [
+   "Put the address in your letter",
+   "The portal tells you the responsible office with its address. Copy it into one of our letter templates."
+  ],
+  [
+   "Not sure? Ask",
+   "Ask your town or city administration. In many regions, the public service number 115 can also help."
+  ]
+ ],
+ "faqTitle": "Frequently asked questions",
+ "faq": [
+  [
+   "What is the Amtlicher Gemeindeschlüssel (official municipality key)?",
+   "An 8-digit number that clearly identifies every town (Gemeinde) in Germany. The first 2 digits stand for the federal state, the next 3 for the administrative region and the district, the last 3 for the town."
+  ],
+  [
+   "Why does this page not show the address of the authority directly?",
+   "Responsibilities and addresses change and are different in each federal state. The service portals of the federal government and the states are kept up to date by the administration itself. That is why they are the safe source."
+  ],
+  [
+   "Does the search cost anything?",
+   "No. This page and the linked official portals are free. Your choice is not saved."
+  ]
+ ],
+ "dataNote": "List of towns: Federal Statistical Office (Destatis), Gemeindeverzeichnis, as of {S}.",
+ "linksNote": "All links lead to official portals of the federal government and the states (checked on {D})."
+}

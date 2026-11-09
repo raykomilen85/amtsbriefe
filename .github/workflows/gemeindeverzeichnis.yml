@@ -1,0 +1,52 @@
+name: Gemeindeverzeichnis (Destatis) aktualisieren
+# Lädt das amtliche Gemeindeverzeichnis GV100AD von destatis.de und erzeugt daten/gv/*.json
+# für die Seite "Zuständige Stelle finden". Läuft monatlich, manuell oder wenn sich Workflow/Skript ändern.
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 4 3 * *"
+  push:
+    branches: [main]
+    paths: [".github/workflows/gemeindeverzeichnis.yml", "tools/gv/gv100.py"]
+permissions:
+  contents: write
+concurrency:
+  group: gemeindeverzeichnis
+  cancel-in-progress: false
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: GV100AD von destatis.de herunterladen
+        run: |
+          set -euo pipefail
+          BASE="https://www.destatis.de"
+          UA="Mozilla/5.0 (compatible; amtsbriefe-bot; +https://amtsbriefe.de)"
+          mkdir -p /tmp/gv && cd /tmp/gv
+          # 1) Übersichtsseite lesen und die aktuelle Quartals-Ausgabe GV100AD finden (Fallback: Jahresausgabe 31.12.2025)
+          curl -fsSL -A "$UA" "$BASE/DE/Themen/Laender-Regionen/Regionales/Gemeindeverzeichnis/_inhalt.html" -o inhalt.html || true
+          LANDING=$(grep -oE '/DE/Themen/Laender-Regionen/Regionales/Gemeindeverzeichnis/Administrativ/Archiv/GV100ADQ/GV100AD[0-9]QAktuell\.html' inhalt.html 2>/dev/null | head -1 || true)
+          [ -n "$LANDING" ] || LANDING="/DE/Themen/Laender-Regionen/Regionales/Gemeindeverzeichnis/Administrativ/Archiv/GV100ADJ/GV100AD_31122025.html"
+          echo "Landing: $BASE$LANDING"
+          curl -fsSL -A "$UA" "$BASE$LANDING" -o landing.html
+          ZIP=$(grep -oE 'href="[^"]*\.zip[^"]*__blob=publicationFile[^"]*"' landing.html | head -1 | sed 's/^href="//;s/"$//;s/&amp;/\&/g' || true)
+          if [ -z "$ZIP" ]; then ZIP=$(grep -oE 'href="[^"]*__blob=publicationFile[^"]*"' landing.html | head -1 | sed 's/^href="//;s/"$//;s/&amp;/\&/g'); fi
+          case "$ZIP" in http*) ;; *) ZIP="$BASE$ZIP";; esac
+          echo "Download: $ZIP"
+          curl -fsSL -A "$UA" "$ZIP" -o gv.zip
+          unzip -o gv.zip
+          FILE=$(ls -S | grep -iE '^GV100AD.*\.(txt|asc)$' | head -1 || true)
+          [ -n "$FILE" ] || FILE=$(find . -type f \( -iname 'GV100AD*.txt' -o -iname 'GV100AD*.asc' \) | head -1)
+          echo "FILE=/tmp/gv/$FILE" >> "$GITHUB_ENV"
+          echo "SRC=$BASE$LANDING" >> "$GITHUB_ENV"
+      - name: JSON erzeugen
+        run: python3 -I tools/gv/gv100.py "$FILE" daten/gv "$SRC"
+      - name: Commit
+        run: |
+          git config user.name "amtsbriefe-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add daten/gv
+          git diff --cached --quiet && echo "keine Änderung" && exit 0
+          git commit -m "Gemeindeverzeichnis (Destatis) aktualisiert"
+          git push

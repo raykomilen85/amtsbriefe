@@ -1,0 +1,70 @@
+{
+ "title": "Găsiți instituția competentă: ce autoritate e pentru localitatea mea?",
+ "desc": "Alegeți landul, Kreis-ul și comuna și mergeți direct la căutarea oficială: Ausländerbehörde, Bürgeramt, Jobcenter, Finanzamt, Amtsgericht – gratuit, în 13 limbi.",
+ "h1": "Găsiți instituția competentă: land → Kreis → comună",
+ "intro": "Alegeți localitatea în care locuiți. Primiți numele oficial al comunei (Gemeinde) și al districtului (Kreis) și portalurile oficiale de căutare care vă arată autoritatea competentă cu adresa ei.",
+ "why": "Ce autoritate este competentă depinde de localitatea în care locuiți: unele sarcini le face comuna sau orașul, altele districtul (Kreis), altele o autoritate a landului sau una federală. Acest lucru este reglementat puțin diferit în fiecare land. De aceea nu dăm adrese ghicite, ci vă trimitem la portalurile oficiale de căutare.",
+ "lLand": "Land (Bundesland)",
+ "lKreis": "District / oraș independent (Kreis / kreisfreie Stadt)",
+ "lGem": "Comună / oraș (Gemeinde / Stadt)",
+ "choose": "– vă rugăm alegeți –",
+ "search": "Sau scrieți localitatea …",
+ "loading": "Se încarcă …",
+ "noData": "Lista comunelor nu a putut fi încărcată. Linkurile pentru landul dumneavoastră funcționează totuși.",
+ "resTitle": "Localitatea dumneavoastră – date oficiale",
+ "rGem": "Comună (Gemeinde)",
+ "rKreis": "District (Kreis)",
+ "rLand": "Land (Bundesland)",
+ "rPlz": "Codul poștal al administrației comunei",
+ "rAgs": "Codul oficial al comunei (Amtlicher Gemeindeschlüssel)",
+ "rEw": "Locuitori",
+ "copyBtn": "Copiați datele",
+ "portalTitle": "Căutare oficială: ce instituție este competentă?",
+ "landPortal": "Portal de servicii {L}",
+ "landPortalNote": "Introduceți localitatea și solicitarea – portalul vă arată instituția competentă cu adresa ei.",
+ "fedTitle": "Căutări oficiale în toată Germania",
+ "fed": [
+  "Servicii administrative ale statului federal, landurilor și comunelor – de obicei cu indicarea localității dumneavoastră",
+  "Consiliere pentru migranți, cursuri de integrare și centre de consiliere în apropiere",
+  "Agenția pentru Muncă (Agentur für Arbeit) și Jobcenter din zona dumneavoastră",
+  "Finanzamt (administrația fiscală) competent pentru localitatea dumneavoastră",
+  "Amtsgericht (judecătoria) competent după codul poștal sau localitate",
+  "Numărul autorităților: ce instituție este competentă?"
+ ],
+ "stepsTitle": "Cum găsiți instituția potrivită",
+ "steps": [
+  [
+   "Alegeți localitatea",
+   "Alegeți mai sus landul, districtul (Kreis) și comuna (Gemeinde) – sau scrieți numele localității."
+  ],
+  [
+   "Deschideți portalul de servicii",
+   "Deschideți portalul de servicii al landului dumneavoastră. Introduceți acolo localitatea și solicitarea în germană, de ex. „Aufenthaltstitel verlängern“ (prelungirea permisului de ședere), „Wohnsitz anmelden“ (înregistrarea domiciliului) sau „Wohngeld“ (ajutor pentru locuință)."
+  ],
+  [
+   "Copiați adresa în scrisoare",
+   "Portalul vă arată instituția competentă cu adresa ei. Copiați-o într-unul din modelele noastre de scrisori."
+  ],
+  [
+   "Nu sunteți sigur? Întrebați",
+   "Întrebați la administrația comunei sau a orașului. În multe regiuni vă ajută și numărul autorităților 115."
+  ]
+ ],
+ "faqTitle": "Întrebări frecvente",
+ "faq": [
+  [
+   "Ce este Amtlicher Gemeindeschlüssel?",
+   "Un număr din 8 cifre care identifică clar fiecare comună din Germania. Primele 2 cifre indică landul, următoarele 3 regiunea administrativă (Regierungsbezirk) și districtul (Kreis), ultimele 3 comuna."
+  ],
+  [
+   "De ce pagina nu arată direct adresa autorității?",
+   "Competențele și adresele se schimbă și sunt diferite de la un land la altul. Portalurile de servicii ale statului federal și ale landurilor sunt actualizate chiar de administrație și de aceea sunt sursa sigură."
+  ],
+  [
+   "Costă ceva căutarea?",
+   "Nu. Această pagină și portalurile oficiale din linkuri sunt gratuite. Alegerea dumneavoastră nu este salvată."
+  ]
+ ],
+ "dataNote": "Lista comunelor: Oficiul Federal de Statistică (Destatis), registrul comunelor (Gemeindeverzeichnis), situația teritorială la {S}.",
+ "linksNote": "Toate linkurile duc la portaluri oficiale ale statului federal și ale landurilor (verificate la {D})."
+}

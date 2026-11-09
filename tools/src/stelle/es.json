@@ -1,0 +1,70 @@
+{
+ "title": "Encontrar la oficina competente: ¿qué organismo me corresponde?",
+ "desc": "Elija estado federado, Kreis y municipio y vaya a la búsqueda oficial: Ausländerbehörde, Bürgeramt, Jobcenter, Finanzamt, Amtsgericht – gratis, en 13 idiomas.",
+ "h1": "Encontrar la oficina competente: estado federado → Kreis → municipio",
+ "intro": "Elija su lugar de residencia. Recibirá el nombre oficial de su municipio (Gemeinde) y de su distrito (Kreis), y los portales de búsqueda oficiales que le indican el organismo competente con su dirección.",
+ "why": "El organismo competente depende de su lugar de residencia: algunas tareas las hace el municipio o la ciudad, otras el distrito (Kreis), otras un organismo del estado federado o del Estado federal. Esto se regula de forma un poco distinta en cada estado federado. Por eso no damos direcciones adivinadas, sino que le llevamos a los portales de búsqueda oficiales.",
+ "lLand": "Estado federado (Bundesland)",
+ "lKreis": "Distrito / ciudad independiente (Kreis / kreisfreie Stadt)",
+ "lGem": "Municipio / ciudad (Gemeinde / Stadt)",
+ "choose": "– elija, por favor –",
+ "search": "O escriba el lugar …",
+ "loading": "Cargando …",
+ "noData": "No se pudo cargar la lista de municipios. Los enlaces para su estado federado funcionan igualmente.",
+ "resTitle": "Su lugar – datos oficiales",
+ "rGem": "Municipio (Gemeinde)",
+ "rKreis": "Distrito (Kreis)",
+ "rLand": "Estado federado (Bundesland)",
+ "rPlz": "Código postal de la administración municipal",
+ "rAgs": "Código oficial del municipio (Amtlicher Gemeindeschlüssel)",
+ "rEw": "Habitantes",
+ "copyBtn": "Copiar datos",
+ "portalTitle": "Búsqueda oficial: ¿qué oficina es competente?",
+ "landPortal": "Portal de servicios {L}",
+ "landPortalNote": "Escriba su lugar y su trámite – el portal indica la oficina competente con su dirección.",
+ "fedTitle": "Búsquedas oficiales en toda Alemania",
+ "fed": [
+  "Servicios administrativos del Estado federal, de los estados federados y de los municipios – casi siempre indicando su lugar de residencia",
+  "Asesoramiento para migrantes, cursos de integración y centros de asesoramiento cerca de usted",
+  "Agencia de Empleo (Agentur für Arbeit) y Jobcenter de su zona",
+  "Finanzamt (oficina de Hacienda) competente para su lugar",
+  "Amtsgericht (juzgado local) competente según código postal o lugar",
+  "Número de las administraciones: ¿qué organismo es competente?"
+ ],
+ "stepsTitle": "Así encuentra la oficina correcta",
+ "steps": [
+  [
+   "Elegir el lugar",
+   "Elija arriba el estado federado, el distrito (Kreis) y el municipio (Gemeinde) – o escriba el nombre de su lugar."
+  ],
+  [
+   "Abrir el portal de servicios",
+   "Abra el portal de servicios de su estado federado. Escriba allí su lugar y su trámite en alemán, p. ej. „Aufenthaltstitel verlängern“ (prorrogar el permiso de residencia), „Wohnsitz anmelden“ (empadronarse) o „Wohngeld“ (ayuda para la vivienda)."
+  ],
+  [
+   "Copiar la dirección en la carta",
+   "El portal indica la oficina competente con su dirección. Cópiela en una de nuestras plantillas de cartas."
+  ],
+  [
+   "¿No está seguro? Pregunte",
+   "Pregunte en la administración de su municipio o ciudad. En muchas regiones también ayuda el número de las administraciones 115."
+  ]
+ ],
+ "faqTitle": "Preguntas frecuentes",
+ "faq": [
+  [
+   "¿Qué es el Amtlicher Gemeindeschlüssel?",
+   "Un número de 8 cifras que identifica de forma única a cada municipio de Alemania. Las 2 primeras cifras indican el estado federado, las 3 siguientes la región administrativa (Regierungsbezirk) y el distrito (Kreis), las 3 últimas el municipio."
+  ],
+  [
+   "¿Por qué la página no muestra directamente la dirección del organismo?",
+   "Las competencias y las direcciones cambian y son distintas según el estado federado. Los portales de servicios del Estado federal y de los estados federados los mantiene la propia administración y por eso son la fuente segura."
+  ],
+  [
+   "¿La búsqueda cuesta algo?",
+   "No. Esta página y los portales oficiales enlazados son gratuitos. Su selección no se guarda."
+  ]
+ ],
+ "dataNote": "Lista de municipios: Oficina Federal de Estadística (Destatis), directorio de municipios (Gemeindeverzeichnis), situación territorial a {S}.",
+ "linksNote": "Todos los enlaces llevan a portales oficiales del Estado federal y de los estados federados (comprobados el {D})."
+}

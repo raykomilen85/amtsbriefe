@@ -11,6 +11,7 @@ const SITE = "https://amtsbriefe.de";
 const STAND = new Date().toISOString().slice(0, 10);
 const STAND_DE = STAND.split("-").reverse().join(".");
 const I = require("./src/vorlagen-i18n.json");
+const X = require("./src/vorlagen-extra.json"); // seitenspezifische Hinweise + FAQ (de/tr/en)
 const LANGS = Object.keys(I);
 const pre = lg => (lg === "de" ? "" : "/" + lg);
 
@@ -121,7 +122,8 @@ for (const lg of LANGS) {
     const fields = [...new Set(["name", "street", "city", ...l.f])]
       .map(k => esc(T(FL[k], lg)) + (lg !== "de" ? ` <span class="de">(${esc(T(FL[k], "de"))})</span>` : "")).concat([esc(l.ref)]);
     const others = items.filter(x => x.l.a === l.a && x !== it);
-    const faq = S.faqs.map(([q, a]) => [fmt(q, { o }), a]);
+    const xt = X[l.id] && X[l.id][lg];
+    const faq = (xt ? [xt.faq] : []).concat(S.faqs.map(([q, a]) => [fmt(q, { o }), a]));
     const body = `<p class="intro">${esc(when)}</p>
 <p><a class="cta" href="/#brief=${l.id}" data-lang="${lg}">${esc(S.fill)}</a><a class="cta ghost" href="/frist-rechner.html">${esc(S.frist)}</a></p>
 <h2>${esc(S.sample)}: ${esc(t)}</h2>
@@ -132,6 +134,7 @@ ${S.de_note ? `<p>${esc(S.de_note)}</p>` : ""}
 <ul>${fields.map(f => `<li>${f}</li>`).join("")}</ul>
 <h2>${esc(S.howto)}</h2>
 <ol class="steps">${S.steps.map(s => `<li>${esc(s)}</li>`).join("")}</ol>
+${xt ? `<h2>${esc(X._h[lg])}</h2>\n<ul class="tips">${xt.tips.map(x => `<li>${esc(x)}</li>`).join("")}</ul>` : ""}
 <h2>${esc(S.faq)}</h2>
 ${faq.map(([q, a]) => `<details><summary>${esc(q)}</summary><p>${esc(a)}</p></details>`).join("\n")}
 ${others.length ? `<h2>${esc(fmt(S.more, { o: it.oFull }))}</h2><ul class="grid">${others.map(x => `<li><a href="${P}/vorlage/${x.slug}.html">${esc(T(x.tObj, lg))}</a></li>`).join("")}</ul>` : ""}

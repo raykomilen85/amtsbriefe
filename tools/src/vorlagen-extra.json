@@ -1,0 +1,1271 @@
+{
+ "_h": {
+  "de": "Gut zu wissen",
+  "tr": "Bilmeniz gerekenler",
+  "en": "Good to know"
+ },
+ "j5": {
+  "de": {
+   "tips": [
+    "Viele Anliegen (Unterlagen hochladen, Änderungen melden, Weiterbewilligung) gehen auch online über jobcenter.digital – oft schneller als ein Termin.",
+    "Geben Sie immer Ihre BG-Nummer (Bedarfsgemeinschaft) an. Sie steht oben auf jedem Bescheid.",
+    "Wenn Sie einen Dolmetscher brauchen, schreiben Sie das in den Brief. Das Jobcenter muss sicherstellen, dass Sie das Gespräch verstehen."
+   ],
+   "faq": [
+    "Muss das Jobcenter mir einen Termin geben?",
+    "Ja, Sie haben Anspruch auf Beratung (§ 14 SGB I). Einen Wunschtermin gibt es nicht, aber das Jobcenter muss Ihr Anliegen in angemessener Zeit bearbeiten."
+   ]
+  },
+  "tr": {
+   "tips": [
+    "Birçok işlem (belge yükleme, değişiklik bildirme, devam başvurusu) jobcenter.digital üzerinden de yapılabilir – çoğu zaman randevudan daha hızlıdır.",
+    "BG numaranızı (Bedarfsgemeinschaft) mutlaka yazın. Her kararın (Bescheid) üst kısmında yazar.",
+    "Tercümana ihtiyacınız varsa bunu mektuba yazın. Jobcenter görüşmeyi anlamanızı sağlamak zorundadır."
+   ],
+   "faq": [
+    "Jobcenter bana randevu vermek zorunda mı?",
+    "Evet, danışmanlık hakkınız vardır (§ 14 SGB I). İstediğiniz tarihi seçemezsiniz, ama Jobcenter talebinizi makul bir sürede ele almalıdır."
+   ]
+  },
+  "en": {
+   "tips": [
+    "Many things (uploading documents, reporting changes, renewal) also work online via jobcenter.digital – often faster than an appointment.",
+    "Always state your BG number (Bedarfsgemeinschaft). It is at the top of every decision letter (Bescheid).",
+    "If you need an interpreter, say so in the letter. The Jobcenter must make sure you understand the meeting."
+   ],
+   "faq": [
+    "Does the Jobcenter have to give me an appointment?",
+    "Yes, you have a right to advice (§ 14 SGB I). You cannot pick the date, but the Jobcenter must deal with your request within a reasonable time."
+   ]
+  }
+ },
+ "j1": {
+  "de": {
+   "tips": [
+    "Rechtsgrundlage: § 84 SGG – 1 Monat ab Bekanntgabe. Fehlt im Bescheid die Rechtsbehelfsbelehrung oder ist sie falsch, gilt 1 Jahr (§ 66 SGG).",
+    "Der Widerspruch ist kostenlos. Eine Begründung ist nicht Pflicht, hilft aber – Sie können sie nachreichen.",
+    "Ein Widerspruch stoppt die Entscheidung im Jobcenter meist nicht (§ 39 SGB II). Wenn es eilt (z. B. kein Geld für Miete), können Sie beim Sozialgericht einen Eilantrag stellen.",
+    "Frist verpasst? Stellen Sie einen Überprüfungsantrag nach § 44 SGB X. Beim Jobcenter wird dann höchstens für 1 Jahr rückwirkend nachgezahlt."
+   ],
+   "faq": [
+    "Kann ich die Akte des Jobcenters einsehen?",
+    "Ja. Nach § 25 SGB X dürfen Sie Ihre Akte einsehen. Das hilft oft, den Widerspruch zu begründen. Schreiben Sie dazu einen kurzen Satz in den Widerspruch."
+   ]
+  },
+  "tr": {
+   "tips": [
+    "Yasal dayanak: § 84 SGG – tebliğden itibaren 1 ay. Kararda itiraz yolu açıklaması (Rechtsbehelfsbelehrung) yoksa veya yanlışsa süre 1 yıldır (§ 66 SGG).",
+    "İtiraz ücretsizdir. Gerekçe zorunlu değildir ama işe yarar – sonradan da gönderebilirsiniz.",
+    "İtiraz, Jobcenter kararını genellikle durdurmaz (§ 39 SGB II). Acil durumda (ör. kira için para yok) Sosyal Mahkemeye (Sozialgericht) acil başvuru yapabilirsiniz.",
+    "Süreyi kaçırdınız mı? § 44 SGB X'e göre yeniden inceleme başvurusu (Überprüfungsantrag) yapın. Jobcenter en fazla 1 yıl geriye dönük ödeme yapar."
+   ],
+   "faq": [
+    "Jobcenter'daki dosyamı görebilir miyim?",
+    "Evet. § 25 SGB X'e göre dosyanızı inceleyebilirsiniz. Bu, itirazınızı gerekçelendirmenize çoğu zaman yardımcı olur. İtiraz mektubuna kısa bir cümle ekleyin."
+   ]
+  },
+  "en": {
+   "tips": [
+    "Legal basis: § 84 SGG – 1 month from notification. If the notice about legal remedies (Rechtsbehelfsbelehrung) is missing or wrong, you have 1 year (§ 66 SGG).",
+    "The objection is free. A reason is not required but helps – you can send it later.",
+    "An objection usually does not stop the Jobcenter's decision (§ 39 SGB II). If it is urgent (e.g. no money for rent), you can apply to the social court (Sozialgericht) for urgent relief.",
+    "Missed the deadline? Make a review request under § 44 SGB X. The Jobcenter then pays back at most 1 year."
+   ],
+   "faq": [
+    "Can I see my Jobcenter file?",
+    "Yes. Under § 25 SGB X you may inspect your file. This often helps you explain your objection. Add a short sentence asking for it in your letter."
+   ]
+  }
+ },
+ "j2": {
+  "de": {
+   "tips": [
+    "Sie müssen Änderungen von sich aus melden (§ 60 SGB I). Wer zu spät meldet, muss zu viel gezahltes Geld zurückzahlen – manchmal kommt ein Bußgeld dazu.",
+    "Legen Sie Nachweise bei: Arbeitsvertrag, Lohnabrechnung, neuer Mietvertrag, Geburtsurkunde.",
+    "Bei neuem Job: Melden Sie ihn schon, wenn Sie den Vertrag unterschreiben – nicht erst beim ersten Lohn.",
+    "Behalten Sie eine Kopie mit Eingangsstempel oder melden Sie die Änderung zusätzlich über jobcenter.digital."
+   ],
+   "faq": [
+    "Was passiert, wenn ich eine Änderung vergessen habe?",
+    "Melden Sie sie sofort nach. Das Jobcenter rechnet neu und fordert zu viel gezahltes Geld zurück. Je früher Sie melden, desto kleiner ist die Rückforderung."
+   ]
+  },
+  "tr": {
+   "tips": [
+    "Değişiklikleri kendiliğinizden bildirmek zorundasınız (§ 60 SGB I). Geç bildiren, fazla ödenen parayı geri öder – bazen para cezası da gelir.",
+    "Belgeleri ekleyin: iş sözleşmesi, maaş bordrosu, yeni kira sözleşmesi, doğum belgesi.",
+    "Yeni işte: Sözleşmeyi imzaladığınızda bildirin – ilk maaşı beklemeyin.",
+    "Giriş damgalı bir kopya saklayın veya değişikliği ayrıca jobcenter.digital üzerinden bildirin."
+   ],
+   "faq": [
+    "Bir değişikliği bildirmeyi unuttuysam ne olur?",
+    "Hemen bildirin. Jobcenter yeniden hesaplar ve fazla ödenen parayı geri ister. Ne kadar erken bildirirseniz geri ödeme o kadar az olur."
+   ]
+  },
+  "en": {
+   "tips": [
+    "You must report changes on your own (§ 60 SGB I). Reporting late means paying back money – sometimes with a fine.",
+    "Add proof: employment contract, payslip, new rental contract, birth certificate.",
+    "New job: report it when you sign the contract – do not wait for the first salary.",
+    "Keep a copy with an entry stamp, or also report the change via jobcenter.digital."
+   ],
+   "faq": [
+    "What if I forgot to report a change?",
+    "Report it right away. The Jobcenter recalculates and asks for overpaid money back. The sooner you report, the smaller the repayment."
+   ]
+  }
+ },
+ "j3": {
+  "de": {
+   "tips": [
+    "Eine Entscheidung kann auch mündlich wirksam sein. Sie haben aber ein Recht auf schriftliche Bestätigung, wenn Sie sie sofort verlangen (§ 33 Abs. 2 SGB X).",
+    "Notieren Sie Datum, Uhrzeit und Namen der Mitarbeiterin oder des Mitarbeiters, die Ihnen etwas gesagt haben.",
+    "Erst mit dem schriftlichen Bescheid läuft die Widerspruchsfrist klar – und Sie haben einen Beweis."
+   ],
+   "faq": [
+    "Wurde mein Antrag nur mündlich abgelehnt – ist das gültig?",
+    "Eine mündliche Ablehnung ist möglich, aber schwer zu überprüfen. Verlangen Sie den Bescheid schriftlich. Danach können Sie Widerspruch einlegen."
+   ]
+  },
+  "tr": {
+   "tips": [
+    "Bir karar sözlü olarak da geçerli olabilir. Ama hemen talep ederseniz yazılı onay hakkınız vardır (§ 33 Abs. 2 SGB X).",
+    "Size bir şey söyleyen görevlinin adını, tarihi ve saati not edin.",
+    "İtiraz süresi ancak yazılı kararla netleşir – ve elinizde kanıt olur."
+   ],
+   "faq": [
+    "Başvurum sadece sözlü reddedildi – bu geçerli mi?",
+    "Sözlü ret mümkündür ama kontrol etmesi zordur. Kararı yazılı isteyin. Sonra itiraz edebilirsiniz."
+   ]
+  },
+  "en": {
+   "tips": [
+    "A decision can be valid even if it was only spoken. But you have a right to written confirmation if you ask for it right away (§ 33(2) SGB X).",
+    "Write down the date, time and name of the staff member who told you.",
+    "Only with a written decision is the objection deadline clear – and you have proof."
+   ],
+   "faq": [
+    "My application was only refused verbally – is that valid?",
+    "A verbal refusal is possible but hard to check. Ask for the decision in writing. Then you can object."
+   ]
+  }
+ },
+ "j4": {
+  "de": {
+   "tips": [
+    "Schreiben Sie vor dem Termin – nicht danach. Eine Absage nach dem Termin wird oft nicht als wichtiger Grund anerkannt.",
+    "Krankheit: Legen Sie eine Arbeitsunfähigkeitsbescheinigung bei. Das Jobcenter kann zusätzlich eine Bescheinigung verlangen, dass Sie nicht zum Termin kommen konnten.",
+    "Seit Juli 2026 (Grundsicherungsgeld) haben wiederholt versäumte Termine härtere Folgen als früher. Reagieren Sie immer.",
+    "Nennen Sie Ersatztermine, an denen Sie können."
+   ],
+   "faq": [
+    "Was ist ein „wichtiger Grund“?",
+    "Zum Beispiel Krankheit mit Attest, ein Vorstellungsgespräch, ein Todesfall in der Familie oder ein Gerichtstermin. Legen Sie immer einen Nachweis bei."
+   ]
+  },
+  "tr": {
+   "tips": [
+    "Randevudan önce yazın – sonra değil. Randevudan sonra yapılan iptal çoğu zaman önemli sebep sayılmaz.",
+    "Hastalık: İş göremezlik raporu (Arbeitsunfähigkeitsbescheinigung) ekleyin. Jobcenter ayrıca randevuya gelemediğinizi gösteren bir belge isteyebilir.",
+    "Temmuz 2026'dan beri (Grundsicherungsgeld) tekrar tekrar kaçırılan randevuların sonuçları eskisinden daha ağırdır. Her zaman cevap verin.",
+    "Gelebileceğiniz alternatif tarihler yazın."
+   ],
+   "faq": [
+    "„Önemli sebep“ nedir?",
+    "Örneğin raporlu hastalık, iş görüşmesi, ailede ölüm veya mahkeme randevusu. Her zaman belge ekleyin."
+   ]
+  },
+  "en": {
+   "tips": [
+    "Write before the appointment – not after. Cancelling afterwards is often not accepted as a good reason.",
+    "Illness: attach a sick note (Arbeitsunfähigkeitsbescheinigung). The Jobcenter may also ask for proof that you could not come to the appointment.",
+    "Since July 2026 (Grundsicherungsgeld), repeatedly missed appointments have harsher consequences than before. Always respond.",
+    "Suggest other dates when you can come."
+   ],
+   "faq": [
+    "What counts as a “good reason”?",
+    "For example illness with a doctor's note, a job interview, a death in the family or a court date. Always attach proof."
+   ]
+  }
+ },
+ "a4": {
+  "de": {
+   "tips": [
+    "Viele Anliegen gehen im Online-Konto auf arbeitsagentur.de (eServices) – auch Arbeitslosmeldung und Veränderungen.",
+    "Geben Sie Ihre Kundennummer an. Sie steht auf jedem Schreiben der Agentur.",
+    "Für Fragen zum Arbeitslosengeld gibt es auch die kostenlose Service-Hotline 0800 4 5555 00."
+   ],
+   "faq": [
+    "Brauche ich einen Termin, um mich arbeitslos zu melden?",
+    "Nein. Die Arbeitslosmeldung geht auch online. Wichtig ist, dass Sie sich spätestens am ersten Tag der Arbeitslosigkeit melden."
+   ]
+  },
+  "tr": {
+   "tips": [
+    "Birçok işlem arbeitsagentur.de'deki çevrimiçi hesapta (eServices) yapılabilir – işsizlik bildirimi ve değişiklikler dahil.",
+    "Müşteri numaranızı (Kundennummer) yazın. Ajansın her yazısında bulunur.",
+    "İşsizlik parası soruları için ücretsiz hat da var: 0800 4 5555 00."
+   ],
+   "faq": [
+    "İşsiz olarak kayıt olmak için randevu gerekir mi?",
+    "Hayır. İşsizlik bildirimi çevrimiçi de yapılabilir. Önemli olan, en geç işsizliğin ilk gününde bildirmenizdir."
+   ]
+  },
+  "en": {
+   "tips": [
+    "Many things work in your online account on arbeitsagentur.de (eServices) – including registering as unemployed and reporting changes.",
+    "Give your customer number (Kundennummer). It is on every letter from the agency.",
+    "For unemployment benefit questions there is also a free hotline: 0800 4 5555 00."
+   ],
+   "faq": [
+    "Do I need an appointment to register as unemployed?",
+    "No. You can also register online. What matters is that you register no later than the first day of unemployment."
+   ]
+  }
+ },
+ "a1": {
+  "de": {
+   "tips": [
+    "Rechtsgrundlage: § 159 SGB III. Eine Sperrzeit wegen Kündigung oder Aufhebungsvertrag dauert in der Regel 12 Wochen und verkürzt auch die Gesamtdauer des Arbeitslosengeldes.",
+    "Entscheidend ist ein „wichtiger Grund“: z. B. gesundheitliche Gründe mit ärztlichem Attest, Mobbing, eine sonst sicher drohende Kündigung durch den Arbeitgeber oder Umzug zum Ehepartner.",
+    "Legen Sie Belege bei: Attest, E-Mails, Zeugenaussagen, Schreiben des Arbeitgebers.",
+    "Während der Sperrzeit sind Sie ab dem zweiten Monat über die Agentur krankenversichert. Wenn Sie kein Geld haben, können Sie Grundsicherungsgeld beim Jobcenter beantragen."
+   ],
+   "faq": [
+    "Lohnt sich ein Widerspruch gegen die Sperrzeit?",
+    "Oft ja – wenn Sie einen wichtigen Grund belegen können. Die Agentur prüft dann neu. Bei Erfolg bekommen Sie das Geld nachgezahlt. Lassen Sie sich im Zweifel bei einer Beratungsstelle oder Gewerkschaft beraten."
+   ]
+  },
+  "tr": {
+   "tips": [
+    "Yasal dayanak: § 159 SGB III. İstifa veya fesih sözleşmesi (Aufhebungsvertrag) nedeniyle verilen ceza süresi (Sperrzeit) genellikle 12 haftadır ve işsizlik parasının toplam süresini de kısaltır.",
+    "Belirleyici olan „önemli sebep“tir: ör. doktor raporlu sağlık sorunları, mobbing, işverenin zaten yapacağı kesin bir fesih veya eşin yanına taşınma.",
+    "Belgeleri ekleyin: rapor, e-postalar, tanık ifadeleri, işveren yazıları.",
+    "Ceza süresinde ikinci aydan itibaren Ajans üzerinden sağlık sigortanız vardır. Paranız yoksa Jobcenter'a Grundsicherungsgeld başvurusu yapabilirsiniz."
+   ],
+   "faq": [
+    "Ceza süresine itiraz etmeye değer mi?",
+    "Çoğu zaman evet – önemli bir sebebi belgeleyebiliyorsanız. Ajans yeniden inceler. Başarılı olursanız para geriye dönük ödenir. Emin değilseniz bir danışma merkezine veya sendikaya danışın."
+   ]
+  },
+  "en": {
+   "tips": [
+    "Legal basis: § 159 SGB III. A blocking period after resigning or a termination agreement (Aufhebungsvertrag) is usually 12 weeks and also shortens the total benefit period.",
+    "What matters is a “good reason”: e.g. health reasons with a doctor's note, bullying, a dismissal by the employer that was certain anyway, or moving to join your spouse.",
+    "Attach proof: doctor's note, emails, witness statements, employer letters.",
+    "During the blocking period you are health-insured via the agency from the second month. If you have no money, you can apply for Grundsicherungsgeld at the Jobcenter."
+   ],
+   "faq": [
+    "Is it worth objecting to the blocking period?",
+    "Often yes – if you can prove a good reason. The agency then reviews the case. If you win, the money is paid back. If in doubt, ask an advice centre or a trade union."
+   ]
+  }
+ },
+ "a2": {
+  "de": {
+   "tips": [
+    "Wer ohne wichtigen Grund nicht zum Termin kommt, bekommt eine Sperrzeit von 1 Woche (§ 159 Abs. 1 Nr. 6 SGB III).",
+    "Sagen Sie vorher ab – telefonisch und schriftlich. Bei Krankheit: Arbeitsunfähigkeitsbescheinigung beilegen.",
+    "Ein Vorstellungsgespräch ist ein guter Grund. Legen Sie die Einladung bei."
+   ],
+   "faq": [
+    "Ich habe den Termin schon verpasst – was nun?",
+    "Schreiben Sie sofort und erklären Sie den Grund mit Nachweis. Wird er anerkannt, gibt es keine Sperrzeit."
+   ]
+  },
+  "tr": {
+   "tips": [
+    "Önemli bir sebep olmadan randevuya gelmeyen 1 haftalık ceza süresi alır (§ 159 Abs. 1 Nr. 6 SGB III).",
+    "Önceden iptal edin – telefonla ve yazılı olarak. Hastalıkta: iş göremezlik raporu ekleyin.",
+    "İş görüşmesi iyi bir sebeptir. Davet yazısını ekleyin."
+   ],
+   "faq": [
+    "Randevuyu zaten kaçırdım – şimdi ne yapmalıyım?",
+    "Hemen yazın ve sebebi belgeyle açıklayın. Kabul edilirse ceza süresi olmaz."
+   ]
+  },
+  "en": {
+   "tips": [
+    "Missing an appointment without a good reason leads to a 1-week blocking period (§ 159(1) no. 6 SGB III).",
+    "Cancel beforehand – by phone and in writing. If ill: attach a sick note.",
+    "A job interview is a good reason. Attach the invitation."
+   ],
+   "faq": [
+    "I already missed the appointment – what now?",
+    "Write immediately and explain the reason with proof. If it is accepted, there is no blocking period."
+   ]
+  }
+ },
+ "a3": {
+  "de": {
+   "tips": [
+    "Rechtsgrundlage: § 38 SGB III. Das gilt auch bei befristeten Verträgen und in der Probezeit.",
+    "Arbeitsuchend melden ist nicht dasselbe wie arbeitslos melden: Arbeitslos melden müssen Sie sich zusätzlich – spätestens am ersten Tag ohne Arbeit.",
+    "Die Meldung geht online, telefonisch oder persönlich. Ein Brief ist ein zusätzlicher Nachweis.",
+    "Bewahren Sie die Kündigung oder den Vertrag mit dem Enddatum auf."
+   ],
+   "faq": [
+    "Ich habe die 3-Monats-Frist verpasst – was passiert?",
+    "Melden Sie sich sofort. Die Agentur kann eine Sperrzeit von 1 Woche verhängen. Wer erst kurzfristig von der Kündigung erfahren hat, muss sich innerhalb von 3 Tagen melden."
+   ]
+  },
+  "tr": {
+   "tips": [
+    "Yasal dayanak: § 38 SGB III. Süreli sözleşmelerde ve deneme süresinde de geçerlidir.",
+    "İş arayan olarak bildirmek, işsiz olarak bildirmekle aynı değildir: Ayrıca en geç işsiz kaldığınız ilk gün işsizlik bildirimi yapmalısınız.",
+    "Bildirim çevrimiçi, telefonla veya şahsen yapılabilir. Mektup ek bir kanıttır.",
+    "Fesih yazısını veya bitiş tarihli sözleşmeyi saklayın."
+   ],
+   "faq": [
+    "3 aylık süreyi kaçırdım – ne olur?",
+    "Hemen bildirin. Ajans 1 haftalık ceza süresi verebilir. Feshi kısa süre önce öğrenen, 3 gün içinde bildirmelidir."
+   ]
+  },
+  "en": {
+   "tips": [
+    "Legal basis: § 38 SGB III. This also applies to fixed-term contracts and during probation.",
+    "Registering as a job seeker is not the same as registering as unemployed: you must also register as unemployed – no later than your first day without work.",
+    "You can register online, by phone or in person. A letter is extra proof.",
+    "Keep the dismissal letter or the contract showing the end date."
+   ],
+   "faq": [
+    "I missed the 3-month deadline – what happens?",
+    "Register right away. The agency may impose a 1-week blocking period. If you only found out about the end shortly before, you must register within 3 days."
+   ]
+  }
+ },
+ "k5": {
+  "de": {
+   "tips": [
+    "Fast alle Krankenkassen haben eine App oder Online-Geschäftsstelle. Bescheinigungen und Anträge gehen dort oft sofort.",
+    "Ihre Versichertennummer (10 Stellen, beginnt mit einem Buchstaben) steht auf der Gesundheitskarte.",
+    "Für Gespräche über Pflege, Krankengeld oder Hilfsmittel lohnt sich ein persönlicher Termin."
+   ],
+   "faq": [
+    "Kann ich auch ohne Termin in die Geschäftsstelle gehen?",
+    "Oft ja, aber Wartezeiten sind möglich. Mit Termin wird Ihr Anliegen meist besser vorbereitet."
+   ]
+  },
+  "tr": {
+   "tips": [
+    "Neredeyse tüm sağlık sigortalarının bir uygulaması veya çevrimiçi şubesi var. Belgeler ve başvurular orada çoğu zaman anında yapılır.",
+    "Sigortalı numaranız (10 hane, harfle başlar) sağlık kartınızın üzerinde yazar.",
+    "Bakım, hastalık parası veya yardımcı araçlar konusunda yüz yüze randevu faydalıdır."
+   ],
+   "faq": [
+    "Randevusuz şubeye gidebilir miyim?",
+    "Çoğu zaman evet, ama beklemeniz gerekebilir. Randevuyla talebiniz genellikle daha iyi hazırlanır."
+   ]
+  },
+  "en": {
+   "tips": [
+    "Almost all health insurers have an app or online office. Certificates and applications often work there instantly.",
+    "Your insurance number (10 characters, starting with a letter) is on your health card.",
+    "For questions about care, sickness benefit or medical aids, an in-person appointment is worth it."
+   ],
+   "faq": [
+    "Can I go to the office without an appointment?",
+    "Often yes, but you may have to wait. With an appointment your matter is usually better prepared."
+   ]
+  }
+ },
+ "k1": {
+  "de": {
+   "tips": [
+    "Rechtsgrundlage: § 10 SGB V. 2026 darf das eigene Einkommen höchstens 565 € im Monat betragen, bei einem Minijob 603 € (ab Januar 2027: 633 €).",
+    "Kinder sind bis 18 Jahre mitversichert, bis 23 wenn sie nicht arbeiten, bis 25 in Schule, Ausbildung oder Studium.",
+    "Sind beide Eltern verheiratet und ein Elternteil privat versichert und verdient mehr, kann die Familienversicherung der Kinder ausgeschlossen sein.",
+    "Legen Sie Heiratsurkunde oder Geburtsurkunde und Einkommensnachweise bei. Viele Kassen haben ein eigenes Formular."
+   ],
+   "faq": [
+    "Kostet die Familienversicherung etwas?",
+    "Nein, sie ist beitragsfrei. Für Ehepartner ist für die Zukunft (frühestens 2028) ein Beitrag im Gespräch – beschlossen ist das noch nicht."
+   ]
+  },
+  "tr": {
+   "tips": [
+    "Yasal dayanak: § 10 SGB V. 2026'da kendi geliriniz ayda en fazla 565 € olabilir, Minijob'da 603 € (Ocak 2027'den itibaren: 633 €).",
+    "Çocuklar 18 yaşına kadar, çalışmıyorlarsa 23'e kadar, okul, meslek eğitimi veya üniversitede 25'e kadar sigortalıdır.",
+    "Evli ebeveynlerden biri özel sigortalıysa ve daha fazla kazanıyorsa, çocukların aile sigortası mümkün olmayabilir.",
+    "Evlilik veya doğum belgesi ve gelir belgeleri ekleyin. Birçok sigortanın kendi formu vardır."
+   ],
+   "faq": [
+    "Aile sigortası ücretli mi?",
+    "Hayır, primsizdir. Eşler için ileride (en erken 2028) prim konuşuluyor – henüz karar verilmedi."
+   ]
+  },
+  "en": {
+   "tips": [
+    "Legal basis: § 10 SGB V. In 2026 your own income may be at most €565 a month, or €603 with a mini-job (from January 2027: €633).",
+    "Children are covered up to 18, up to 23 if not working, and up to 25 while in school, training or university.",
+    "If the parents are married and one is privately insured and earns more, the children may not be able to join the family insurance.",
+    "Attach your marriage or birth certificate and proof of income. Many insurers have their own form."
+   ],
+   "faq": [
+    "Does family insurance cost anything?",
+    "No, it is free. A contribution for spouses is being discussed for the future (2028 at the earliest) – nothing has been decided yet."
+   ]
+  }
+ },
+ "k2": {
+  "de": {
+   "tips": [
+    "Melden Sie eine verlorene oder gestohlene Karte sofort, damit niemand sie missbraucht.",
+    "Bis die neue Karte da ist: Die Arztpraxis kann Ihre Versicherung bei der Kasse prüfen, oder die Kasse schickt eine Ersatzbescheinigung.",
+    "Ab 15 Jahren braucht die Karte ein Foto. Oft können Sie es in der App hochladen.",
+    "Falsche Daten (Name, Geschlecht) müssen Sie mit einem Nachweis melden, z. B. Ausweis oder Heiratsurkunde."
+   ],
+   "faq": [
+    "Kostet eine neue Gesundheitskarte etwas?",
+    "Meist nicht. Bei wiederholtem Verlust kann die Kasse eine Gebühr verlangen."
+   ]
+  },
+  "tr": {
+   "tips": [
+    "Kaybolan veya çalınan kartı hemen bildirin ki kimse kötüye kullanmasın.",
+    "Yeni kart gelene kadar: Doktor muayenehanesi sigortanızı kasadan kontrol edebilir veya kasa bir geçici belge gönderir.",
+    "15 yaşından itibaren kartta fotoğraf gerekir. Çoğu zaman uygulamadan yükleyebilirsiniz.",
+    "Yanlış bilgileri (isim, cinsiyet) belgeyle bildirin, ör. kimlik veya evlilik belgesi."
+   ],
+   "faq": [
+    "Yeni sağlık kartı ücretli mi?",
+    "Genellikle hayır. Tekrar tekrar kaybedilirse kasa ücret isteyebilir."
+   ]
+  },
+  "en": {
+   "tips": [
+    "Report a lost or stolen card immediately so nobody can misuse it.",
+    "Until the new card arrives: the doctor's practice can check your insurance with the insurer, or the insurer sends a substitute certificate.",
+    "From age 15 the card needs a photo. You can often upload it in the app.",
+    "Wrong details (name, gender) must be reported with proof, e.g. ID or marriage certificate."
+   ],
+   "faq": [
+    "Does a new health card cost anything?",
+    "Usually not. If you lose it repeatedly, the insurer may charge a fee."
+   ]
+  }
+ },
+ "k3": {
+  "de": {
+   "tips": [
+    "In der App oder Online-Geschäftsstelle der Kasse bekommen Sie die Bescheinigung oft sofort als PDF.",
+    "Hochschulen bekommen den Versicherungsnachweis inzwischen elektronisch direkt von der Krankenkasse. Sagen Sie der Kasse, an welche Hochschule.",
+    "Geben Sie an, wofür Sie die Bescheinigung brauchen (Arbeitgeber, Jobcenter, Schule) – dann passt der Inhalt."
+   ],
+   "faq": [
+    "Wie lange dauert es per Post?",
+    "Meist einige Tage. Wenn es eilt, fragen Sie nach einer Bescheinigung per E-Mail oder in der App."
+   ]
+  },
+  "tr": {
+   "tips": [
+    "Kasanın uygulamasında veya çevrimiçi şubesinde belgeyi çoğu zaman anında PDF olarak alırsınız.",
+    "Üniversiteler sigorta belgesini artık doğrudan sağlık kasasından elektronik olarak alıyor. Kasaya hangi üniversite olduğunu söyleyin.",
+    "Belgeyi ne için istediğinizi yazın (işveren, Jobcenter, okul) – böylece içeriği doğru olur."
+   ],
+   "faq": [
+    "Postayla ne kadar sürer?",
+    "Genellikle birkaç gün. Acilse e-posta veya uygulama üzerinden isteyin."
+   ]
+  },
+  "en": {
+   "tips": [
+    "In the insurer's app or online office you often get the certificate instantly as a PDF.",
+    "Universities now receive proof of insurance electronically from the insurer. Tell the insurer which university.",
+    "Say what you need it for (employer, Jobcenter, school) – then the content fits."
+   ],
+   "faq": [
+    "How long does it take by post?",
+    "Usually a few days. If urgent, ask for it by email or in the app."
+   ]
+  }
+ },
+ "k4": {
+  "de": {
+   "tips": [
+    "Rechtsgrundlage: § 62 SGB V. Für Ehepartner und Kinder werden Freibeträge vom Haushaltseinkommen abgezogen.",
+    "Wer Grundsicherungsgeld oder Sozialhilfe bekommt, hat eine feste, niedrige Belastungsgrenze von rund 135 € im Jahr (chronisch Kranke rund 68 €).",
+    "Sammeln Sie alle Quittungen: Apotheke, Krankenhaus, Heilmittel, Fahrkosten. Die Apotheke druckt Ihnen auf Wunsch eine Jahresübersicht.",
+    "Viele Kassen erlauben, den Jahresbetrag im Voraus zu zahlen – dann sind Sie gleich ab Januar befreit."
+   ],
+   "faq": [
+    "Bekomme ich zu viel gezahlte Zuzahlungen zurück?",
+    "Ja. Wenn Sie die Grenze im Jahr überschritten haben, erstattet die Kasse den Rest. Den Antrag können Sie auch nachträglich stellen – Quittungen aufbewahren."
+   ]
+  },
+  "tr": {
+   "tips": [
+    "Yasal dayanak: § 62 SGB V. Eş ve çocuklar için hane gelirinden muafiyet tutarları düşülür.",
+    "Grundsicherungsgeld veya sosyal yardım alanların sabit ve düşük bir sınırı vardır: yılda yaklaşık 135 € (kronik hastalar yaklaşık 68 €).",
+    "Tüm makbuzları toplayın: eczane, hastane, tedavi, yol masrafları. Eczane isterseniz yıllık döküm verir.",
+    "Birçok kasa yıllık tutarı önceden ödemenize izin verir – böylece Ocak'tan itibaren muaf olursunuz."
+   ],
+   "faq": [
+    "Fazla ödediğim katkı payları geri ödenir mi?",
+    "Evet. Yıl içinde sınırı aştıysanız kasa farkı iade eder. Başvuruyu sonradan da yapabilirsiniz – makbuzları saklayın."
+   ]
+  },
+  "en": {
+   "tips": [
+    "Legal basis: § 62 SGB V. Allowances for spouse and children are deducted from household income.",
+    "People receiving Grundsicherungsgeld or social assistance have a fixed low limit of about €135 a year (chronically ill: about €68).",
+    "Collect all receipts: pharmacy, hospital, therapies, travel costs. The pharmacy can print a yearly summary.",
+    "Many insurers let you pay the yearly amount in advance – then you are exempt from January."
+   ],
+   "faq": [
+    "Do I get overpaid co-payments back?",
+    "Yes. If you went over the limit in a year, the insurer refunds the difference. You can apply afterwards too – keep the receipts."
+   ]
+  }
+ },
+ "r3": {
+  "de": {
+   "tips": [
+    "Viele Bürgerämter schalten freie Termine früh morgens online frei. Schauen Sie mehrmals nach.",
+    "Manche Leistungen gehen ganz online, z. B. Meldebescheinigung mit Online-Ausweis.",
+    "Für die Anmeldung gilt eine Frist von 2 Wochen. Wenn kein Termin frei ist, hilft dieser Brief als Nachweis."
+   ],
+   "faq": [
+    "Bekomme ich ein Bußgeld, wenn das Amt keinen Termin hat?",
+    "Wenn Sie nachweisen, dass Sie sich rechtzeitig bemüht haben, in der Regel nicht. Darum: schriftlich anfragen und Kopie behalten."
+   ]
+  },
+  "tr": {
+   "tips": [
+    "Birçok belediye boş randevuları sabah erken saatlerde çevrimiçi açar. Birkaç kez kontrol edin.",
+    "Bazı işlemler tamamen çevrimiçidir, ör. çevrimiçi kimlikle ikamet belgesi.",
+    "Adres kaydı için süre 2 haftadır. Randevu yoksa bu mektup kanıt olarak işe yarar."
+   ],
+   "faq": [
+    "Belediyede randevu yoksa ceza alır mıyım?",
+    "Zamanında çaba gösterdiğinizi kanıtlarsanız genellikle hayır. Bu yüzden: yazılı talep edin ve kopyasını saklayın."
+   ]
+  },
+  "en": {
+   "tips": [
+    "Many citizens' offices release free slots online early in the morning. Check several times.",
+    "Some services are fully online, e.g. a registration certificate with the online ID.",
+    "Registration has a 2-week deadline. If no slot is free, this letter helps as proof."
+   ],
+   "faq": [
+    "Will I be fined if the office has no appointment?",
+    "If you can prove you tried in time, usually not. So: ask in writing and keep a copy."
+   ]
+  }
+ },
+ "r1": {
+  "de": {
+   "tips": [
+    "Es gibt die einfache Meldebescheinigung (aktuelle Adresse) und die erweiterte (z. B. mit früheren Adressen). Sagen Sie, welche Sie brauchen.",
+    "Die Gebühr ist je nach Stadt unterschiedlich, meist einige Euro.",
+    "Mit Online-Ausweis (eID) bekommen Sie die Bescheinigung in vielen Städten sofort online."
+   ],
+   "faq": [
+    "Wofür brauche ich eine Meldebescheinigung?",
+    "Zum Beispiel für Kindergeld, Bank, Arbeitgeber, Ausländerbehörde oder Führerscheinstelle."
+   ]
+  },
+  "tr": {
+   "tips": [
+    "Basit ikamet belgesi (güncel adres) ve genişletilmiş belge (ör. eski adreslerle) vardır. Hangisine ihtiyacınız olduğunu yazın.",
+    "Ücret şehre göre değişir, genellikle birkaç euro.",
+    "Çevrimiçi kimlikle (eID) birçok şehirde belgeyi anında çevrimiçi alırsınız."
+   ],
+   "faq": [
+    "İkamet belgesi ne için gerekir?",
+    "Örneğin çocuk parası, banka, işveren, yabancılar dairesi veya ehliyet dairesi için."
+   ]
+  },
+  "en": {
+   "tips": [
+    "There is a simple registration certificate (current address) and an extended one (e.g. with previous addresses). Say which one you need.",
+    "The fee depends on the city, usually a few euros.",
+    "With the online ID (eID) many cities issue it instantly online."
+   ],
+   "faq": [
+    "What do I need a registration certificate for?",
+    "For example child benefit, bank, employer, immigration office or driving licence office."
+   ]
+  }
+ },
+ "r2": {
+  "de": {
+   "tips": [
+    "Rechtsgrundlage: § 17 BMG – Anmeldung innerhalb von 2 Wochen nach dem Einzug. Wer zu spät kommt, riskiert ein Bußgeld.",
+    "Mitbringen: Ausweis oder Pass, Wohnungsgeberbestätigung vom Vermieter, bei Familien die Dokumente aller Personen.",
+    "Ohne Anmeldung gibt es oft keine Steuer-ID, kein Kindergeld und Probleme bei Bank und Ausländerbehörde. Bleiben Sie dran."
+   ],
+   "faq": [
+    "Was mache ich, wenn es keinen Termin innerhalb von 2 Wochen gibt?",
+    "Schicken Sie diesen Brief und behalten Sie eine Kopie. Damit zeigen Sie, dass Sie sich rechtzeitig gemeldet haben."
+   ]
+  },
+  "tr": {
+   "tips": [
+    "Yasal dayanak: § 17 BMG – taşındıktan sonra 2 hafta içinde adres kaydı. Geç kalan para cezası riski taşır.",
+    "Getirin: kimlik veya pasaport, ev sahibinden Wohnungsgeberbestätigung, ailelerde tüm kişilerin belgeleri.",
+    "Kayıt olmadan çoğu zaman vergi numarası, çocuk parası yoktur ve banka ile yabancılar dairesinde sorun çıkar. Takipte kalın."
+   ],
+   "faq": [
+    "2 hafta içinde randevu yoksa ne yapmalıyım?",
+    "Bu mektubu gönderin ve kopyasını saklayın. Böylece zamanında başvurduğunuzu gösterirsiniz."
+   ]
+  },
+  "en": {
+   "tips": [
+    "Legal basis: § 17 BMG – register within 2 weeks of moving in. Being late risks a fine.",
+    "Bring: ID or passport, the landlord's confirmation (Wohnungsgeberbestätigung), for families the documents of everyone.",
+    "Without registration you often get no tax ID, no child benefit and problems with the bank and immigration office. Keep at it."
+   ],
+   "faq": [
+    "What if there is no appointment within 2 weeks?",
+    "Send this letter and keep a copy. It shows you reported in time."
+   ]
+  }
+ },
+ "r4": {
+  "de": {
+   "tips": [
+    "Rechtsgrundlage: § 17 Abs. 2 BMG. Abmelden frühestens 1 Woche vor und spätestens 2 Wochen nach dem Auszug.",
+    "Die Abmeldebestätigung brauchen Sie oft für Rundfunkbeitrag, Krankenkasse, Kindergeld, Bank und Verträge (Handy, Strom).",
+    "Geben Sie Ihre neue Adresse im Ausland an, damit Post und Bescheide Sie erreichen."
+   ],
+   "faq": [
+    "Muss ich mich bei einem Umzug innerhalb Deutschlands abmelden?",
+    "Nein. Sie melden sich nur am neuen Wohnort an. Die alte Stadt wird automatisch informiert."
+   ]
+  },
+  "tr": {
+   "tips": [
+    "Yasal dayanak: § 17 Abs. 2 BMG. Kayıt silme en erken taşınmadan 1 hafta önce, en geç 2 hafta sonra yapılır.",
+    "Kayıt silme belgesi çoğu zaman yayın ücreti (Rundfunkbeitrag), sağlık kasası, çocuk parası, banka ve sözleşmeler (telefon, elektrik) için gerekir.",
+    "Yurt dışındaki yeni adresinizi yazın ki posta ve kararlar size ulaşsın."
+   ],
+   "faq": [
+    "Almanya içinde taşınırken kaydımı sildirmem gerekir mi?",
+    "Hayır. Sadece yeni yerde kayıt olursunuz. Eski şehir otomatik bilgilendirilir."
+   ]
+  },
+  "en": {
+   "tips": [
+    "Legal basis: § 17(2) BMG. Deregister at the earliest 1 week before and at the latest 2 weeks after moving out.",
+    "You often need the deregistration certificate for the broadcasting fee, health insurance, child benefit, bank and contracts (phone, electricity).",
+    "Give your new address abroad so letters and decisions reach you."
+   ],
+   "faq": [
+    "Do I deregister when moving within Germany?",
+    "No. You only register at the new address. The old city is informed automatically."
+   ]
+  }
+ },
+ "r5": {
+  "de": {
+   "tips": [
+    "Der Vermieter ist nach § 19 BMG verpflichtet, die Bestätigung auszustellen. Tut er es nicht, droht ihm ein Bußgeld.",
+    "Fordern Sie die Bestätigung zuerst schriftlich beim Vermieter an und setzen Sie eine kurze Frist.",
+    "Informieren Sie dann die Meldebehörde mit diesem Brief – so ist Ihre eigene Anmeldefrist geschützt."
+   ],
+   "faq": [
+    "Kann ich mich ohne Wohnungsgeberbestätigung anmelden?",
+    "Meist nicht vollständig. Aber wenn Sie dem Amt mitteilen, dass der Vermieter sich weigert, kümmert sich die Behörde darum."
+   ]
+  },
+  "tr": {
+   "tips": [
+    "Ev sahibi § 19 BMG'ye göre bu onayı vermekle yükümlüdür. Vermezse para cezası alabilir.",
+    "Önce ev sahibinden yazılı olarak isteyin ve kısa bir süre verin.",
+    "Sonra bu mektupla nüfus dairesini bilgilendirin – böylece kendi kayıt süreniz korunur."
+   ],
+   "faq": [
+    "Wohnungsgeberbestätigung olmadan kayıt olabilir miyim?",
+    "Genellikle tam olarak hayır. Ama ev sahibinin reddettiğini bildirirseniz daire bununla ilgilenir."
+   ]
+  },
+  "en": {
+   "tips": [
+    "Under § 19 BMG the landlord must issue the confirmation. If not, the landlord risks a fine.",
+    "First ask the landlord in writing and set a short deadline.",
+    "Then inform the registration office with this letter – this protects your own registration deadline."
+   ],
+   "faq": [
+    "Can I register without the landlord's confirmation?",
+    "Usually not completely. But if you tell the office the landlord refuses, the authority will deal with it."
+   ]
+  }
+ },
+ "fa2": {
+  "de": {
+   "tips": [
+    "Die meisten Anliegen gehen über ELSTER (elster.de) – auch Einspruch, Steuererklärung und Fragen.",
+    "Geben Sie die Steuernummer an (steht auf jedem Bescheid) – nicht die Steuer-ID, wenn Sie schon eine Steuernummer haben.",
+    "Gegen einen Steuerbescheid ist der Einspruch innerhalb von 1 Monat möglich (§ 355 AO) – dafür brauchen Sie keinen Termin."
+   ],
+   "faq": [
+    "Hilft mir das Finanzamt bei der Steuererklärung?",
+    "Es beantwortet Fragen, füllt die Erklärung aber nicht für Sie aus. Hilfe bekommen Arbeitnehmer z. B. beim Lohnsteuerhilfeverein."
+   ]
+  },
+  "tr": {
+   "tips": [
+    "İşlemlerin çoğu ELSTER (elster.de) üzerinden yapılır – itiraz, vergi beyannamesi ve sorular dahil.",
+    "Vergi numarasını (Steuernummer) yazın (her kararda bulunur) – zaten varsa Steuer-ID yerine.",
+    "Vergi kararına 1 ay içinde itiraz edebilirsiniz (§ 355 AO) – bunun için randevu gerekmez."
+   ],
+   "faq": [
+    "Vergi dairesi beyannamede yardım eder mi?",
+    "Soruları yanıtlar ama beyannameyi sizin yerinize doldurmaz. Çalışanlar ör. Lohnsteuerhilfeverein'dan yardım alabilir."
+   ]
+  },
+  "en": {
+   "tips": [
+    "Most things work via ELSTER (elster.de) – including objections, tax returns and questions.",
+    "Give your tax number (Steuernummer, on every assessment) – not the tax ID if you already have a tax number.",
+    "You can object to a tax assessment within 1 month (§ 355 AO) – no appointment needed."
+   ],
+   "faq": [
+    "Will the tax office help me with my tax return?",
+    "It answers questions but does not fill in the return for you. Employees can get help e.g. from a Lohnsteuerhilfeverein."
+   ]
+  }
+ },
+ "fa1": {
+  "de": {
+   "tips": [
+    "Antrag bis spätestens 30. November für das laufende Jahr. Die neue Klasse gilt ab dem Monat nach dem Antrag.",
+    "Elterngeld: Wer mit einer günstigeren Steuerklasse mehr Elterngeld bekommen will, muss spätestens 7 Monate vor Beginn des Mutterschutzes wechseln.",
+    "Klasse III/V bringt mehr Geld im Monat, kann aber am Jahresende zu einer Nachzahlung führen. Dann ist eine Steuererklärung Pflicht.",
+    "Das Faktorverfahren (IV mit Faktor) verteilt die Steuer gerechter auf beide."
+   ],
+   "faq": [
+    "Kann ich die Steuerklasse auch online wechseln?",
+    "Ja, über ELSTER mit dem Formular „Antrag auf Steuerklassenwechsel bei Ehegatten/Lebenspartnern“."
+   ]
+  },
+  "tr": {
+   "tips": [
+    "İçinde bulunulan yıl için başvuru en geç 30 Kasım'a kadar. Yeni sınıf başvurudan sonraki aydan itibaren geçerlidir.",
+    "Ebeveyn parası (Elterngeld): Daha uygun vergi sınıfıyla daha fazla Elterngeld almak isteyen, annelik izni başlamadan en geç 7 ay önce değiştirmelidir.",
+    "III/V sınıfı ayda daha fazla para getirir ama yıl sonunda ek ödemeye yol açabilir. Bu durumda vergi beyannamesi zorunludur.",
+    "Faktör yöntemi (faktörlü IV) vergiyi iki kişi arasında daha adil dağıtır."
+   ],
+   "faq": [
+    "Vergi sınıfını çevrimiçi değiştirebilir miyim?",
+    "Evet, ELSTER'de „Antrag auf Steuerklassenwechsel bei Ehegatten/Lebenspartnern“ formuyla."
+   ]
+  },
+  "en": {
+   "tips": [
+    "Apply by 30 November for the current year. The new class applies from the month after the application.",
+    "Parental allowance: to get more Elterngeld with a better tax class, you must switch at least 7 months before maternity protection starts.",
+    "Classes III/V give more money each month but can lead to a back payment at year end. A tax return is then mandatory.",
+    "The factor method (IV with factor) spreads the tax more fairly between both partners."
+   ],
+   "faq": [
+    "Can I change my tax class online?",
+    "Yes, via ELSTER with the form “Antrag auf Steuerklassenwechsel bei Ehegatten/Lebenspartnern”."
+   ]
+  }
+ },
+ "fs2": {
+  "de": {
+   "tips": [
+    "Bringen Sie zum Termin alle Unterlagen mit: Ausweis, biometrisches Foto, Sehtest, Erste-Hilfe-Nachweis und ggf. den alten Führerschein mit Übersetzung.",
+    "Viele Führerscheinstellen haben eine Online-Terminbuchung und eine Checkliste auf ihrer Website.",
+    "Planen Sie Zeit ein: Bis der Führerschein fertig ist, vergehen oft mehrere Wochen."
+   ],
+   "faq": [
+    "Darf ich fahren, während mein Antrag läuft?",
+    "Nur wenn Ihr bisheriger Führerschein noch gültig ist. Ein ausländischer Führerschein aus einem Nicht-EU-Land gilt nur 6 Monate nach dem Umzug."
+   ]
+  },
+  "tr": {
+   "tips": [
+    "Randevuya tüm belgeleri getirin: kimlik, biyometrik fotoğraf, göz testi, ilk yardım belgesi ve gerekirse çevirisiyle eski ehliyet.",
+    "Birçok ehliyet dairesinin çevrimiçi randevu sistemi ve web sitesinde kontrol listesi var.",
+    "Zaman ayırın: Ehliyetin hazır olması çoğu zaman birkaç hafta sürer."
+   ],
+   "faq": [
+    "Başvurum sürerken araba kullanabilir miyim?",
+    "Sadece mevcut ehliyetiniz hâlâ geçerliyse. AB dışı bir ülkenin ehliyeti taşınmadan sonra sadece 6 ay geçerlidir."
+   ]
+  },
+  "en": {
+   "tips": [
+    "Bring all documents to the appointment: ID, biometric photo, eye test, first-aid certificate and, if needed, your old licence with translation.",
+    "Many licence offices offer online booking and a checklist on their website.",
+    "Allow time: it often takes several weeks until the licence is ready."
+   ],
+   "faq": [
+    "May I drive while my application is pending?",
+    "Only if your current licence is still valid. A licence from a non-EU country is only valid for 6 months after moving."
+   ]
+  }
+ },
+ "fs1": {
+  "de": {
+   "tips": [
+    "Die 6 Monate zählen ab dem Tag, an dem Sie Ihren Wohnsitz in Deutschland angemeldet haben. Stellen Sie den Antrag früh – Prüfungen brauchen Zeit.",
+    "Unterlagen: Originalführerschein mit amtlicher Übersetzung, biometrisches Foto, Sehtest, Erste-Hilfe-Kurs, Meldebescheinigung.",
+    "Für Länder ohne vereinfachte Umschreibung (z. B. Türkei) melden Sie sich bei einer Fahrschule an. Pflichtstunden gibt es dabei meist nicht – die Fahrschule entscheidet, wann Sie bereit sind.",
+    "Wer nach 6 Monaten ohne deutschen Führerschein fährt, begeht eine Straftat (Fahren ohne Fahrerlaubnis)."
+   ],
+   "faq": [
+    "Muss ich meinen ausländischen Führerschein abgeben?",
+    "Ja, bei der Umschreibung behält die Behörde den ausländischen Führerschein in der Regel ein und gibt ihn an das Ausstellerland zurück."
+   ]
+  },
+  "tr": {
+   "tips": [
+    "6 ay, Almanya'da ikamet kaydı yaptığınız günden itibaren sayılır. Başvuruyu erken yapın – sınavlar zaman alır.",
+    "Belgeler: resmî çevirisiyle orijinal ehliyet, biyometrik fotoğraf, göz testi, ilk yardım kursu, ikamet belgesi.",
+    "Kolaylaştırılmış dönüşüm olmayan ülkeler için (ör. Türkiye) bir sürücü kursuna kaydolun. Genellikle zorunlu ders saati yoktur – kurs ne zaman hazır olduğunuza karar verir.",
+    "6 aydan sonra Alman ehliyeti olmadan araç kullanmak suçtur (ehliyetsiz sürüş)."
+   ],
+   "faq": [
+    "Yabancı ehliyetimi teslim etmem gerekir mi?",
+    "Evet, dönüşümde daire yabancı ehliyeti genellikle alıkoyar ve veren ülkeye iade eder."
+   ]
+  },
+  "en": {
+   "tips": [
+    "The 6 months count from the day you registered your residence in Germany. Apply early – tests take time.",
+    "Documents: original licence with official translation, biometric photo, eye test, first-aid course, registration certificate.",
+    "For countries without simplified conversion (e.g. Turkey), sign up with a driving school. There are usually no mandatory lessons – the school decides when you are ready.",
+    "Driving without a German licence after 6 months is a criminal offence (driving without a licence)."
+   ],
+   "faq": [
+    "Do I have to hand in my foreign licence?",
+    "Yes, the office usually keeps the foreign licence during conversion and returns it to the issuing country."
+   ]
+  }
+ },
+ "bm1": {
+  "de": {
+   "tips": [
+    "Die Teilnahmeberechtigung gilt in der Regel 1 Jahr. Melden Sie sich in dieser Zeit bei einem Kursträger an.",
+    "Kursträger in Ihrer Nähe finden Sie im BAMF-NAvI (bamf-navi.bamf.de).",
+    "Asylsuchende und Geduldete bekommen nur im Einzelfall einen Integrationskurs. Für sie sollen vor allem Erstorientierungskurse (rund 300 Stunden) ausgebaut werden.",
+    "Wer vom Jobcenter oder der Ausländerbehörde verpflichtet wird, braucht diesen Antrag nicht."
+   ],
+   "faq": [
+    "Was kostet der Integrationskurs?",
+    "2,29 € pro Stunde. Wer Grundsicherungsgeld oder ähnliche Leistungen bekommt, kann vom Kostenbeitrag befreit werden (Antrag vor Kursbeginn)."
+   ]
+  },
+  "tr": {
+   "tips": [
+    "Katılım belgesi (Teilnahmeberechtigung) genellikle 1 yıl geçerlidir. Bu süre içinde bir kurs kurumuna kaydolun.",
+    "Yakınınızdaki kurs kurumlarını BAMF-NAvI'de (bamf-navi.bamf.de) bulursunuz.",
+    "Sığınmacılar ve Duldung sahipleri uyum kursuna sadece istisnai durumlarda katılabilir. Onlar için özellikle ilk oryantasyon kurslarının (yaklaşık 300 saat) genişletilmesi planlanıyor.",
+    "Jobcenter veya yabancılar dairesi tarafından zorunlu tutulanların bu başvuruya ihtiyacı yoktur."
+   ],
+   "faq": [
+    "Uyum kursu ne kadar tutar?",
+    "Saati 2,29 €. Grundsicherungsgeld veya benzer yardım alanlar katkı payından muaf tutulabilir (kurs başlamadan önce başvuru)."
+   ]
+  },
+  "en": {
+   "tips": [
+    "The entitlement (Teilnahmeberechtigung) is usually valid for 1 year. Register with a course provider within that time.",
+    "Find course providers near you in BAMF-NAvI (bamf-navi.bamf.de).",
+    "Asylum seekers and people with a Duldung only get an integration course in individual cases. Initial orientation courses (about 300 hours) are to be expanded for them.",
+    "If the Jobcenter or immigration office obliges you to attend, you do not need this application."
+   ],
+   "faq": [
+    "How much does the integration course cost?",
+    "€2.29 per hour. People receiving Grundsicherungsgeld or similar benefits can be exempted (apply before the course starts)."
+   ]
+  }
+ },
+ "bm2": {
+  "de": {
+   "tips": [
+    "Wer die Abschlussprüfung innerhalb von 2 Jahren nach der ersten Teilnahmeberechtigung besteht, bekommt auf Antrag 50 % des gezahlten Beitrags zurück.",
+    "Die Befreiung gilt nur ab Antrag. Stellen Sie sie vor der ersten Stunde.",
+    "Ändert sich Ihr Einkommen während des Kurses, informieren Sie das BAMF."
+   ],
+   "faq": [
+    "Muss ich zahlen, wenn ich vom Jobcenter geschickt werde?",
+    "Wer Grundsicherungsgeld bekommt und vom Jobcenter verpflichtet wird, ist in der Regel automatisch befreit. Prüfen Sie Ihre Teilnahmeberechtigung."
+   ]
+  },
+  "tr": {
+   "tips": [
+    "Bitirme sınavını ilk katılım belgesinden sonraki 2 yıl içinde geçen, başvuruyla ödediği katkı payının %50'sini geri alır.",
+    "Muafiyet sadece başvuru tarihinden itibaren geçerlidir. İlk dersten önce başvurun.",
+    "Kurs sırasında geliriniz değişirse BAMF'ı bilgilendirin."
+   ],
+   "faq": [
+    "Jobcenter tarafından gönderildiysem ödemem gerekir mi?",
+    "Grundsicherungsgeld alan ve Jobcenter tarafından zorunlu tutulan genellikle otomatik olarak muaftır. Katılım belgenizi kontrol edin."
+   ]
+  },
+  "en": {
+   "tips": [
+    "If you pass the final test within 2 years of your first entitlement, you get 50% of the fee back on request.",
+    "The exemption only applies from the date of application. Apply before the first lesson.",
+    "If your income changes during the course, inform BAMF."
+   ],
+   "faq": [
+    "Do I have to pay if the Jobcenter sends me?",
+    "People on Grundsicherungsgeld who are obliged by the Jobcenter are usually exempt automatically. Check your entitlement letter."
+   ]
+  }
+ },
+ "bm3": {
+  "de": {
+   "tips": [
+    "Der Zuschuss wird über den Kursträger abgerechnet. Geben Sie den Antrag dort ab oder fragen Sie, wie er weitergeleitet wird.",
+    "Bewahren Sie Fahrkarten oder Monatskarten auf.",
+    "Der Zuschuss gilt nur für Tage, an denen Sie wirklich am Kurs teilgenommen haben."
+   ],
+   "faq": [
+    "Bekomme ich den Zuschuss auch, wenn ich mit dem Auto fahre?",
+    "Erstattet werden in der Regel die Kosten für das günstigste öffentliche Verkehrsmittel. Fragen Sie Ihren Kursträger nach den Regeln."
+   ]
+  },
+  "tr": {
+   "tips": [
+    "Destek kurs kurumu üzerinden hesaplanır. Başvuruyu oraya verin veya nasıl iletileceğini sorun.",
+    "Biletleri veya aylık kartları saklayın.",
+    "Destek sadece kursa gerçekten katıldığınız günler için geçerlidir."
+   ],
+   "faq": [
+    "Arabayla gidersem de destek alır mıyım?",
+    "Genellikle en ucuz toplu taşıma masrafı ödenir. Kurallar için kurs kurumunuza sorun."
+   ]
+  },
+  "en": {
+   "tips": [
+    "The subsidy is settled via the course provider. Hand in the application there or ask how it is forwarded.",
+    "Keep your tickets or monthly passes.",
+    "The subsidy only covers days you actually attended."
+   ],
+   "faq": [
+    "Do I get the subsidy if I drive?",
+    "Usually the cost of the cheapest public transport is refunded. Ask your course provider about the rules."
+   ]
+  }
+ },
+ "bm4": {
+  "de": {
+   "tips": [
+    "Warten Sie nach dem Antrag etwa 4 bis 6 Wochen, bevor Sie nachfragen.",
+    "Geben Sie das Datum Ihres Antrags und, falls vorhanden, Ihre BAMF-Kennziffer an.",
+    "Prüfen Sie auch Ihr Postfach im Bundesportal – das BAMF schickt viele Schreiben inzwischen digital."
+   ],
+   "faq": [
+    "Was kann ich tun, wenn das BAMF gar nicht antwortet?",
+    "Nach 3 Monaten ohne Entscheidung ist eine Untätigkeitsklage beim Verwaltungsgericht möglich (§ 75 VwGO). Lassen Sie sich vorher beraten."
+   ]
+  },
+  "tr": {
+   "tips": [
+    "Başvurudan sonra sormadan önce yaklaşık 4–6 hafta bekleyin.",
+    "Başvuru tarihini ve varsa BAMF numaranızı (Kennziffer) yazın.",
+    "Bundesportal'daki posta kutunuzu da kontrol edin – BAMF birçok yazıyı artık dijital gönderiyor."
+   ],
+   "faq": [
+    "BAMF hiç cevap vermezse ne yapabilirim?",
+    "Karar verilmeden 3 ay geçerse idare mahkemesinde hareketsizlik davası (Untätigkeitsklage) açılabilir (§ 75 VwGO). Önce danışın."
+   ]
+  },
+  "en": {
+   "tips": [
+    "Wait about 4 to 6 weeks after applying before asking.",
+    "State the date of your application and, if available, your BAMF reference number.",
+    "Also check your inbox in the Bundesportal – BAMF now sends many letters digitally."
+   ],
+   "faq": [
+    "What can I do if BAMF does not reply at all?",
+    "After 3 months without a decision, an action for failure to act at the administrative court is possible (§ 75 VwGO). Get advice first."
+   ]
+  }
+ },
+ "bf1": {
+  "de": {
+   "tips": [
+    "Am einfachsten über BAföG Digital (bafoeg-digital.de). Der Monat zählt, in dem der Antrag eingeht.",
+    "Fehlende Unterlagen (Einkommen der Eltern, Immatrikulation) können Sie nachreichen – der Monat bleibt gesichert.",
+    "Wer nach dem 18. Geburtstag 5 Jahre gearbeitet hat oder nach Berufsausbildung 3 Jahre, bekommt BAföG oft unabhängig vom Einkommen der Eltern.",
+    "Ein Höchstsatz von rund 1.075 € ist ab April 2027 geplant, aber noch nicht beschlossen."
+   ],
+   "faq": [
+    "Muss ich BAföG zurückzahlen?",
+    "Beim Studium ist die Hälfte ein Zuschuss, die andere Hälfte ein zinsloses Darlehen – höchstens 10.010 € müssen zurückgezahlt werden. Schüler-BAföG ist meist ein voller Zuschuss."
+   ]
+  },
+  "tr": {
+   "tips": [
+    "En kolayı BAföG Digital (bafoeg-digital.de). Başvurunun ulaştığı ay sayılır.",
+    "Eksik belgeleri (ebeveyn geliri, öğrenci belgesi) sonradan gönderebilirsiniz – ay korunur.",
+    "18 yaşından sonra 5 yıl çalışan veya meslek eğitiminden sonra 3 yıl çalışan, BAföG'u çoğu zaman ebeveyn gelirinden bağımsız alır.",
+    "Nisan 2027'den itibaren yaklaşık 1.075 € azami tutar planlanıyor ama henüz kesinleşmedi."
+   ],
+   "faq": [
+    "BAföG'u geri ödemem gerekir mi?",
+    "Üniversitede yarısı hibe, yarısı faizsiz borçtur – en fazla 10.010 € geri ödenir. Öğrenci (Schüler) BAföG'u genellikle tamamen hibedir."
+   ]
+  },
+  "en": {
+   "tips": [
+    "Easiest via BAföG Digital (bafoeg-digital.de). The month in which your application arrives counts.",
+    "You can send missing documents (parents' income, enrolment) later – the month stays secured.",
+    "If you worked 5 years after turning 18, or 3 years after vocational training, you often get BAföG regardless of your parents' income.",
+    "A maximum of about €1,075 is planned from April 2027 but not yet decided."
+   ],
+   "faq": [
+    "Do I have to pay BAföG back?",
+    "For university, half is a grant and half an interest-free loan – at most €10,010 has to be repaid. School BAföG is usually a full grant."
+   ]
+  }
+ },
+ "bf2": {
+  "de": {
+   "tips": [
+    "Prüfen Sie im Bescheid vor allem: angerechnetes Einkommen der Eltern, Ihr Vermögen und die Wohnkosten-Pauschale.",
+    "Sie dürfen Ihre Akte einsehen (§ 25 SGB X). Das hilft, Rechenfehler zu finden.",
+    "Die Begründung können Sie nachreichen – wichtig ist, dass der Widerspruch rechtzeitig ankommt."
+   ],
+   "faq": [
+    "Was passiert, wenn der Widerspruch abgelehnt wird?",
+    "Sie bekommen einen Widerspruchsbescheid. Dagegen können Sie innerhalb von 1 Monat beim Verwaltungsgericht klagen. Für BAföG-Sachen ist das Verfahren gerichtskostenfrei."
+   ]
+  },
+  "tr": {
+   "tips": [
+    "Kararda özellikle şunlara bakın: hesaba katılan ebeveyn geliri, kendi varlığınız ve konut gideri götürü payı.",
+    "Dosyanızı inceleyebilirsiniz (§ 25 SGB X). Bu, hesap hatalarını bulmaya yardımcı olur.",
+    "Gerekçeyi sonradan gönderebilirsiniz – önemli olan itirazın zamanında ulaşmasıdır."
+   ],
+   "faq": [
+    "İtiraz reddedilirse ne olur?",
+    "Bir itiraz kararı (Widerspruchsbescheid) alırsınız. Buna karşı 1 ay içinde idare mahkemesinde dava açabilirsiniz. BAföG davalarında mahkeme masrafı yoktur."
+   ]
+  },
+  "en": {
+   "tips": [
+    "In the decision, check especially: counted parental income, your own assets and the housing allowance.",
+    "You may inspect your file (§ 25 SGB X). This helps find calculation errors.",
+    "You can send the reasons later – what matters is that the objection arrives on time."
+   ],
+   "faq": [
+    "What if the objection is rejected?",
+    "You receive an objection decision. You can sue at the administrative court within 1 month. BAföG cases are free of court fees."
+   ]
+  }
+ },
+ "bf3": {
+  "de": {
+   "tips": [
+    "Typische Gründe: Rente, Arbeitslosigkeit, Krankheit oder Kurzarbeit der Eltern.",
+    "Dazu gehört das Formblatt 7 und Nachweise über das aktuelle Einkommen der Eltern.",
+    "Achtung: Das BAföG wird zunächst unter Vorbehalt gezahlt. Verdienen die Eltern am Ende doch mehr, kann das Amt Geld zurückfordern."
+   ],
+   "faq": [
+    "Bis wann muss ich den Aktualisierungsantrag stellen?",
+    "Vor dem Ende des Bewilligungszeitraums. Am besten sofort, wenn Sie wissen, dass die Eltern weniger verdienen."
+   ]
+  },
+  "tr": {
+   "tips": [
+    "Tipik sebepler: ebeveynlerin emekliliği, işsizliği, hastalığı veya kısa çalışması.",
+    "Buna Formblatt 7 ve ebeveynlerin güncel gelirine dair belgeler eklenir.",
+    "Dikkat: BAföG önce şartlı ödenir. Ebeveynler sonunda daha fazla kazanırsa daire para geri isteyebilir."
+   ],
+   "faq": [
+    "Güncelleme başvurusunu ne zamana kadar yapmalıyım?",
+    "Onay döneminin bitiminden önce. En iyisi, ebeveynlerin daha az kazandığını öğrenir öğrenmez."
+   ]
+  },
+  "en": {
+   "tips": [
+    "Typical reasons: parents' retirement, unemployment, illness or short-time work.",
+    "Add form 7 (Formblatt 7) and proof of the parents' current income.",
+    "Note: BAföG is first paid provisionally. If the parents end up earning more, the office can reclaim money."
+   ],
+   "faq": [
+    "By when must I file the update application?",
+    "Before the end of the approval period. Best right away when you know your parents earn less."
+   ]
+  }
+ },
+ "bf4": {
+  "de": {
+   "tips": [
+    "Viele Fragen beantwortet auch die BAföG-Hotline des Bundes: 0800 223 63 41 (kostenlos).",
+    "Geben Sie Ihr Förderungskennzeichen an – es steht auf dem Bescheid.",
+    "Wenn es um einen Bescheid geht: Notieren Sie die Widerspruchsfrist. Ein Termin hält die Frist nicht an."
+   ],
+   "faq": [
+    "Wo finde ich mein zuständiges BAföG-Amt?",
+    "Für Studierende ist es meist das Studierendenwerk Ihrer Hochschule, für Schüler das Amt Ihrer Stadt oder Ihres Kreises."
+   ]
+  },
+  "tr": {
+   "tips": [
+    "Birçok soruyu federal BAföG hattı da yanıtlar: 0800 223 63 41 (ücretsiz).",
+    "Destek numaranızı (Förderungskennzeichen) yazın – kararda bulunur.",
+    "Bir kararla ilgiliyse: İtiraz süresini not edin. Randevu süreyi durdurmaz."
+   ],
+   "faq": [
+    "Yetkili BAföG dairemi nerede bulurum?",
+    "Üniversite öğrencileri için genellikle üniversitenin Studierendenwerk'i, okul öğrencileri için şehir veya ilçe dairesidir."
+   ]
+  },
+  "en": {
+   "tips": [
+    "The federal BAföG hotline also answers many questions: 0800 223 63 41 (free).",
+    "Give your funding reference (Förderungskennzeichen) – it is on the decision.",
+    "If it is about a decision: note the objection deadline. An appointment does not stop the deadline."
+   ],
+   "faq": [
+    "Where do I find my BAföG office?",
+    "For students it is usually the Studierendenwerk of your university; for school pupils, the office of your city or district."
+   ]
+  }
+ },
+ "b4": {
+  "de": {
+   "tips": [
+    "Läuft Ihr Aufenthaltstitel bald ab, warten Sie nicht auf einen Termin: Stellen Sie den Verlängerungsantrag schriftlich vor dem Ablaufdatum.",
+    "Viele Ausländerbehörden haben inzwischen Online-Anträge oder ein Kontaktformular. Prüfen Sie die Website Ihrer Stadt.",
+    "Nennen Sie Ihr Aktenzeichen, falls vorhanden, und Ihre Telefonnummer."
+   ],
+   "faq": [
+    "Was ist eine Fiktionsbescheinigung?",
+    "Ein Papier, das bestätigt, dass Ihr Aufenthalt weiter erlaubt ist, solange über Ihren rechtzeitigen Antrag nicht entschieden ist. Fragen Sie danach, wenn der Titel abläuft."
+   ]
+  },
+  "tr": {
+   "tips": [
+    "Oturum izniniz yakında bitiyorsa randevu beklemeyin: Uzatma başvurusunu bitiş tarihinden önce yazılı yapın.",
+    "Birçok yabancılar dairesinin artık çevrimiçi başvuru veya iletişim formu var. Şehrinizin web sitesine bakın.",
+    "Varsa dosya numaranızı (Aktenzeichen) ve telefon numaranızı yazın."
+   ],
+   "faq": [
+    "Fiktionsbescheinigung nedir?",
+    "Zamanında yaptığınız başvuru hakkında karar verilene kadar oturumunuzun devam ettiğini onaylayan bir belgedir. İzniniz biterken bunu isteyin."
+   ]
+  },
+  "en": {
+   "tips": [
+    "If your residence permit expires soon, do not wait for an appointment: submit the extension application in writing before the expiry date.",
+    "Many immigration offices now have online applications or a contact form. Check your city's website.",
+    "Give your file number (Aktenzeichen), if any, and your phone number."
+   ],
+   "faq": [
+    "What is a Fiktionsbescheinigung?",
+    "A document confirming that your stay remains allowed while your timely application is being decided. Ask for it when your permit expires."
+   ]
+  }
+ },
+ "b1": {
+  "de": {
+   "tips": [
+    "Stellen Sie den Antrag am besten 6 bis 8 Wochen vor dem Ablaufdatum – auch ohne Termin, schriftlich mit Kopie.",
+    "Mit rechtzeitigem Antrag bekommen Sie eine Fiktionsbescheinigung. Damit dürfen Sie in der Regel weiter arbeiten.",
+    "Typische Unterlagen: Pass, biometrisches Foto, Mietvertrag, Arbeitsvertrag oder Einkommensnachweise, Krankenversicherung.",
+    "Antrag zu spät gestellt? Die Behörde kann die Fortgeltung trotzdem anordnen (§ 81 Abs. 4 Satz 3 AufenthG). Handeln Sie sofort."
+   ],
+   "faq": [
+    "Darf ich ins Ausland reisen, während die Verlängerung läuft?",
+    "Mit einer Fiktionsbescheinigung nach § 81 Abs. 4 AufenthG ist die Wiedereinreise meist möglich, aber nicht in jedem Fall. Fragen Sie vor der Reise die Ausländerbehörde."
+   ]
+  },
+  "tr": {
+   "tips": [
+    "Başvuruyu en iyisi bitiş tarihinden 6–8 hafta önce yapın – randevu olmadan da, yazılı ve kopyalı.",
+    "Zamanında başvurunca Fiktionsbescheinigung alırsınız. Bununla genellikle çalışmaya devam edebilirsiniz.",
+    "Tipik belgeler: pasaport, biyometrik fotoğraf, kira sözleşmesi, iş sözleşmesi veya gelir belgeleri, sağlık sigortası.",
+    "Başvuruyu geç mi yaptınız? Daire yine de devamını onaylayabilir (§ 81 Abs. 4 Satz 3 AufenthG). Hemen harekete geçin."
+   ],
+   "faq": [
+    "Uzatma sürerken yurt dışına çıkabilir miyim?",
+    "§ 81 Abs. 4 AufenthG'ye göre Fiktionsbescheinigung ile tekrar giriş genellikle mümkündür ama her durumda değil. Seyahatten önce yabancılar dairesine sorun."
+   ]
+  },
+  "en": {
+   "tips": [
+    "Apply ideally 6 to 8 weeks before the expiry date – even without an appointment, in writing with a copy.",
+    "With a timely application you get a Fiktionsbescheinigung. With it you can usually keep working.",
+    "Typical documents: passport, biometric photo, rental contract, employment contract or proof of income, health insurance.",
+    "Applied too late? The office can still order that your permit continues (§ 81(4) sentence 3 AufenthG). Act immediately."
+   ],
+   "faq": [
+    "May I travel abroad while the extension is pending?",
+    "With a Fiktionsbescheinigung under § 81(4) AufenthG re-entry is usually possible, but not in every case. Ask the immigration office before travelling."
+   ]
+  }
+ },
+ "b2": {
+  "de": {
+   "tips": [
+    "Lassen Sie den Arbeitgeber das Formular „Erklärung zum Beschäftigungsverhältnis“ ausfüllen und legen Sie es bei.",
+    "Oft muss die Bundesagentur für Arbeit zustimmen. Das dauert meist einige Wochen – rechnen Sie das beim Arbeitsbeginn ein.",
+    "Arbeiten ohne Erlaubnis kann Ihr Aufenthaltsrecht gefährden und für den Arbeitgeber teuer werden."
+   ],
+   "faq": [
+    "Gilt die Erlaubnis für jeden Job?",
+    "Meist nur für die beantragte Stelle. Bei einem Jobwechsel brauchen Sie oft eine neue Erlaubnis. Prüfen Sie die Nebenbestimmung in Ihrem Titel."
+   ]
+  },
+  "tr": {
+   "tips": [
+    "İşverene „Erklärung zum Beschäftigungsverhältnis“ formunu doldurtun ve ekleyin.",
+    "Çoğu zaman Federal İş Ajansı'nın onayı gerekir. Bu genellikle birkaç hafta sürer – işe başlama tarihini buna göre planlayın.",
+    "İzinsiz çalışmak oturum hakkınızı tehlikeye atabilir ve işveren için pahalıya patlayabilir."
+   ],
+   "faq": [
+    "İzin her iş için geçerli mi?",
+    "Genellikle sadece başvurulan iş için. İş değiştirirken çoğu zaman yeni izin gerekir. İzninizdeki ek hükmü kontrol edin."
+   ]
+  },
+  "en": {
+   "tips": [
+    "Have the employer fill in the form “Erklärung zum Beschäftigungsverhältnis” and attach it.",
+    "Often the Federal Employment Agency must agree. This usually takes a few weeks – plan your start date accordingly.",
+    "Working without permission can endanger your residence right and be expensive for the employer."
+   ],
+   "faq": [
+    "Is the permission valid for any job?",
+    "Usually only for the job applied for. When changing jobs you often need a new permission. Check the conditions in your permit."
+   ]
+  }
+ },
+ "b3": {
+  "de": {
+   "tips": [
+    "Warten Sie nach dem Antrag einige Wochen. Bei Ausländerbehörden sind Wartezeiten von mehreren Monaten leider üblich.",
+    "Geben Sie das Datum Ihres Antrags und Ihr Aktenzeichen an. Fragen Sie nach einer Fiktionsbescheinigung, falls Ihr Titel abläuft.",
+    "Nach 3 Monaten ohne Entscheidung ist eine Untätigkeitsklage möglich (§ 75 VwGO). Oft reicht schon die Ankündigung, dass Sie das prüfen."
+   ],
+   "faq": [
+    "Hilft eine Beschwerde beim Bürgermeister?",
+    "Manchmal. Wirksamer sind meist eine schriftliche Sachstandsanfrage mit Frist und – wenn nichts passiert – die Beratung bei einer Migrationsberatungsstelle."
+   ]
+  },
+  "tr": {
+   "tips": [
+    "Başvurudan sonra birkaç hafta bekleyin. Yabancılar dairelerinde ne yazık ki birkaç aylık bekleme olağandır.",
+    "Başvuru tarihinizi ve dosya numaranızı yazın. İzniniz bitiyorsa Fiktionsbescheinigung isteyin.",
+    "Karar verilmeden 3 ay geçerse hareketsizlik davası açılabilir (§ 75 VwGO). Bunu değerlendirdiğinizi yazmak bile çoğu zaman yeterlidir."
+   ],
+   "faq": [
+    "Belediye başkanına şikâyet işe yarar mı?",
+    "Bazen. Genellikle daha etkili olan, süre belirten yazılı bir durum sorgusu ve – bir şey olmazsa – bir göçmen danışma merkezine başvurmaktır."
+   ]
+  },
+  "en": {
+   "tips": [
+    "Wait a few weeks after applying. At immigration offices, waiting several months is unfortunately common.",
+    "State your application date and file number. Ask for a Fiktionsbescheinigung if your permit is expiring.",
+    "After 3 months without a decision, an action for failure to act is possible (§ 75 VwGO). Often just saying you are considering it helps."
+   ],
+   "faq": [
+    "Does complaining to the mayor help?",
+    "Sometimes. More effective is usually a written status request with a deadline and – if nothing happens – advice from a migration counselling centre."
+   ]
+  }
+ }
+}

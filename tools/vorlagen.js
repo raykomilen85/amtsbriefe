@@ -87,6 +87,7 @@ ${alts}
 ${ICON}
 ${STYLE}
 ${ld.map(o => `<script type="application/ld+json">${JSON.stringify(o)}</script>`).join("\n")}
+<script data-goatcounter="https://amtsbriefede.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
 </head>
 <body>
 <header><div class="wrap">${LOGO}
@@ -117,7 +118,7 @@ for (const lg of LANGS) {
     const { l, o } = it, t = T(it.tObj, lg), when = T(it.wObj, lg);
     const rel = `/vorlage/${it.slug}.html`;
     const h1 = `${o}: ${t} – ${S.mv}`;
-    const title = `${o}: ${t} – ${S.mv} | Amtsbriefe`;
+    const title0 = `${o}: ${t} – ${S.mv}`; const title = title0.length > 60 ? title0 : `${title0} | Amtsbriefe`;
     const desc = `${when} ${S.descTail}`.slice(0, 300);
     const fields = [...new Set(["name", "street", "city", ...l.f])]
       .map(k => esc(T(FL[k], lg)) + (lg !== "de" ? ` <span class="de">(${esc(T(FL[k], "de"))})</span>` : "")).concat([esc(l.ref)]);

@@ -139,6 +139,7 @@ ${alts}
 <style>${CSS}</style>
 <script type="application/ld+json">${JSON.stringify(faq)}</script>
 <script type="application/ld+json">${JSON.stringify(crumbs)}</script>
+<script data-goatcounter="https://amtsbriefede.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
 </head>
 <body>
 <header><div class="wrap"><a class="logo" href="${root(lang)}">${LOGO}Amtsbriefe</a>

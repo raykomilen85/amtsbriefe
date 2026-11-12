@@ -53,7 +53,9 @@ for u, c, final in bad: log(f"  {c} {u}" + (f" -> {final}" if final != u else ""
 # 3. Normen
 NORMS = ["aufenthg_2004/__11", "aufenthg_2004/__23a", "aufenthg_2004/__59", "aufenthg_2004/__60a", "aufenthg_2004/__81",
          "aufenthg_2004/__84", "vwgo/__58", "vwgo/__75", "vwgo/__81", "asylvfg_1992/__74", "berathig/__1", "wogg/__7",
-         "wogg/__25", "bkgg_1996/__6a", "beeg/__7", "beeg/__13", "uhvorschg/__4", "sgb_12/__44", "sgg/__88"]
+         "wogg/__25", "bkgg_1996/__6a", "beeg/__7", "beeg/__13", "uhvorschg/__4", "sgb_12/__44", "sgg/__88",
+         # für Vorlagen: Einspruch Finanzamt, Widerspruch Krankenkasse, Überprüfungsantrag Jobcenter
+         "ao_1977/__122", "ao_1977/__347", "ao_1977/__355", "ao_1977/__357", "sgg/__84", "sgg/__66", "sgb_10/__37", "sgb_10/__44", "sgb_2/__40"]
 log("== NORMEN (gesetze-im-internet.de)")
 for n in NORMS:
     c, body, _ = get(f"https://www.gesetze-im-internet.de/{n}.html", body=True)

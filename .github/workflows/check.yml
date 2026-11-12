@@ -12,6 +12,9 @@ jobs:
     timeout-minutes: 25
     steps:
       - uses: actions/checkout@v4
+      - name: Auf GitHub-Pages-Deployment warten
+        if: github.event_name == 'push'
+        run: sleep 150
       - name: Prüfen
         run: python3 -u tools/check.py
       - uses: actions/upload-artifact@v4

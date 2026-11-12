@@ -5257,5 +5257,440 @@
     "Іноді. Зазвичай дієвіше письмовий запит про стан справи зі строком, а якщо нічого не відбувається – консультація в центрі для мігрантів."
    ]
   }
+ },
+ "fa3": {
+  "de": {
+   "tips": [
+    "Der Einspruch ist kostenlos. Er geht schriftlich, elektronisch (z. B. über „Mein ELSTER“) oder mündlich zur Niederschrift beim Finanzamt (§ 357 Abs. 1 AO).",
+    "Achtung: Der Einspruch stoppt die Zahlung nicht. Eine Nachzahlung bleibt fällig, außer Sie beantragen zusätzlich die Aussetzung der Vollziehung und das Finanzamt gewährt sie (§ 361 AO).",
+    "Fehlt im Bescheid die Rechtsbehelfsbelehrung oder ist sie falsch, gilt eine Frist von 1 Jahr (§ 356 Abs. 2 AO)."
+   ],
+   "faq": [
+    "Muss ich den Einspruch begründen?",
+    "Vorgeschrieben ist es nicht, aber sinnvoll: Sie sollen den Bescheid bezeichnen und angeben, was falsch ist, mit Gründen und Belegen (§ 357 Abs. 3 AO). Die Begründung können Sie nachreichen."
+   ]
+  },
+  "tr": {
+   "tips": [
+    "İtiraz ücretsizdir. Yazılı, elektronik (ör. „Mein ELSTER“ üzerinden) veya vergi dairesinde sözlü olarak tutanağa geçirilerek yapılabilir (§ 357 Abs. 1 AO).",
+    "Dikkat: İtiraz ödemeyi durdurmaz. Ek ödeme (Nachzahlung) vadesinde ödenmelidir; ancak ayrıca icranın durdurulmasını (Aussetzung der Vollziehung) talep ederseniz ve vergi dairesi kabul ederse ödeme ertelenir (§ 361 AO).",
+    "Kararda itiraz yolu açıklaması (Rechtsbehelfsbelehrung) yoksa veya yanlışsa süre 1 yıldır (§ 356 Abs. 2 AO)."
+   ],
+   "faq": [
+    "İtirazı gerekçelendirmem gerekiyor mu?",
+    "Zorunlu değil ama faydalıdır: Kararı belirtmeli, neyin yanlış olduğunu gerekçe ve belgelerle yazmalısınız (§ 357 Abs. 3 AO). Gerekçeyi sonradan gönderebilirsiniz."
+   ]
+  },
+  "bg": {
+   "tips": [
+    "Възражението е безплатно. Подава се писмено, електронно (напр. чрез „Mein ELSTER“) или устно за протокол в данъчната служба (§ 357 Abs. 1 AO).",
+    "Внимание: възражението не спира плащането. Доплащането остава дължимо, освен ако допълнително поискате спиране на изпълнението (Aussetzung der Vollziehung) и службата го разреши (§ 361 AO).",
+    "Ако в решението липсва указание за обжалване (Rechtsbehelfsbelehrung) или то е грешно, срокът е 1 година (§ 356 Abs. 2 AO)."
+   ],
+   "faq": [
+    "Трябва ли да обоснова възражението?",
+    "Не е задължително, но е полезно: посочете решението и какво е грешно, с причини и доказателства (§ 357 Abs. 3 AO). Обосновката може да изпратите по-късно."
+   ]
+  },
+  "ar": {
+   "tips": [
+    "الاعتراض مجاني. يُقدَّم كتابياً أو إلكترونياً (مثلاً عبر „Mein ELSTER“) أو شفهياً ليُدوَّن في محضر لدى مكتب الضرائب (§ 357 Abs. 1 AO).",
+    "انتبه: الاعتراض لا يوقف الدفع. يبقى المبلغ الإضافي (Nachzahlung) مستحقاً، إلا إذا طلبت أيضاً وقف التنفيذ (Aussetzung der Vollziehung) ووافق مكتب الضرائب (§ 361 AO).",
+    "إذا لم يتضمن القرار إرشاداً بطرق الطعن (Rechtsbehelfsbelehrung) أو كان خاطئاً، تكون المهلة سنة واحدة (§ 356 Abs. 2 AO)."
+   ],
+   "faq": [
+    "هل يجب أن أذكر سبب الاعتراض؟",
+    "ليس إلزامياً لكنه مفيد: اذكر القرار وما هو الخطأ فيه مع الأسباب والمستندات (§ 357 Abs. 3 AO). يمكنك إرسال التبرير لاحقاً."
+   ]
+  },
+  "uk": {
+   "tips": [
+    "Заперечення безкоштовне. Його подають письмово, електронно (напр. через „Mein ELSTER“) або усно під запис у податковій (§ 357 Abs. 1 AO).",
+    "Увага: заперечення не зупиняє оплату. Доплата залишається до сплати, якщо ви додатково не попросите про зупинення виконання (Aussetzung der Vollziehung) і податкова не погодиться (§ 361 AO).",
+    "Якщо в рішенні немає роз'яснення про оскарження (Rechtsbehelfsbelehrung) або воно неправильне, строк становить 1 рік (§ 356 Abs. 2 AO)."
+   ],
+   "faq": [
+    "Чи потрібно обґрунтовувати заперечення?",
+    "Це не обов'язково, але корисно: вкажіть рішення і що в ньому неправильно, з причинами та доказами (§ 357 Abs. 3 AO). Обґрунтування можна надіслати пізніше."
+   ]
+  },
+  "pl": {
+   "tips": [
+    "Sprzeciw jest bezpłatny. Można go złożyć pisemnie, elektronicznie (np. przez „Mein ELSTER“) lub ustnie do protokołu w urzędzie skarbowym (§ 357 Abs. 1 AO).",
+    "Uwaga: sprzeciw nie wstrzymuje płatności. Dopłata pozostaje wymagalna, chyba że dodatkowo złożysz wniosek o wstrzymanie wykonania (Aussetzung der Vollziehung), a urząd go uwzględni (§ 361 AO).",
+    "Jeśli w decyzji brak pouczenia o środkach odwoławczych (Rechtsbehelfsbelehrung) albo jest ono błędne, termin wynosi 1 rok (§ 356 Abs. 2 AO)."
+   ],
+   "faq": [
+    "Czy muszę uzasadnić sprzeciw?",
+    "Nie jest to obowiązkowe, ale warto: wskaż decyzję i co jest w niej błędne, z powodami i dowodami (§ 357 Abs. 3 AO). Uzasadnienie możesz dosłać później."
+   ]
+  },
+  "en": {
+   "tips": [
+    "The objection is free of charge. You can file it in writing, electronically (e.g. via “Mein ELSTER”) or orally for the record at the tax office (§ 357 Abs. 1 AO).",
+    "Note: the objection does not stop payment. A back payment stays due unless you also apply for suspension of enforcement (Aussetzung der Vollziehung) and the tax office grants it (§ 361 AO).",
+    "If the assessment has no information on legal remedies (Rechtsbehelfsbelehrung) or it is wrong, the deadline is 1 year (§ 356 Abs. 2 AO)."
+   ],
+   "faq": [
+    "Do I have to give reasons for the objection?",
+    "It is not required, but useful: name the assessment and say what is wrong, with reasons and evidence (§ 357 Abs. 3 AO). You can send the reasons later."
+   ]
+  },
+  "ku": {
+   "tips": [
+    "Îtîraz belaş e. Bi nivîskî, bi elektronîkî (mînak bi „Mein ELSTER“) an jî bi devkî ji bo tomarê li Finanzamtê dibe (§ 357 Abs. 1 AO).",
+    "Hişyarî: Îtîraz dayînê naseknîne. Dayîna zêde (Nachzahlung) divê were dayîn, heta ku hûn bi ser de rawestandina bicîhanînê (Aussetzung der Vollziehung) daxwaz nekin û Finanzamt qebûl neke (§ 361 AO).",
+    "Ger di biryarê de agahiya rêyên îtîrazê (Rechtsbehelfsbelehrung) tune be an şaş be, dem 1 sal e (§ 356 Abs. 2 AO)."
+   ],
+   "faq": [
+    "Ma divê ez sedema îtîrazê binivîsim?",
+    "Ne mecbûrî ye, lê bikêr e: biryarê destnîşan bikin û çi şaş e bi sedem û belgeyan binivîsin (§ 357 Abs. 3 AO). Hûn dikarin sedemê paşê bişînin."
+   ]
+  },
+  "el": {
+   "tips": [
+    "Η ένσταση είναι δωρεάν. Υποβάλλεται γραπτώς, ηλεκτρονικά (π.χ. μέσω „Mein ELSTER“) ή προφορικά για καταγραφή στην εφορία (§ 357 Abs. 1 AO).",
+    "Προσοχή: η ένσταση δεν σταματά την πληρωμή. Η πρόσθετη πληρωμή παραμένει οφειλόμενη, εκτός αν ζητήσετε επιπλέον αναστολή εκτέλεσης (Aussetzung der Vollziehung) και η εφορία την εγκρίνει (§ 361 AO).",
+    "Αν στην απόφαση λείπει η ενημέρωση για τα ένδικα μέσα (Rechtsbehelfsbelehrung) ή είναι λάθος, η προθεσμία είναι 1 έτος (§ 356 Abs. 2 AO)."
+   ],
+   "faq": [
+    "Πρέπει να αιτιολογήσω την ένσταση;",
+    "Δεν είναι υποχρεωτικό, αλλά βοηθά: αναφέρετε την απόφαση και τι είναι λάθος, με λόγους και αποδείξεις (§ 357 Abs. 3 AO). Την αιτιολόγηση μπορείτε να τη στείλετε αργότερα."
+   ]
+  },
+  "fr": {
+   "tips": [
+    "La réclamation est gratuite. Elle se fait par écrit, par voie électronique (p. ex. via « Mein ELSTER ») ou oralement, consignée au procès-verbal au centre des impôts (§ 357 Abs. 1 AO).",
+    "Attention : la réclamation ne suspend pas le paiement. Un rappel d'impôt reste dû, sauf si vous demandez en plus la suspension de l'exécution (Aussetzung der Vollziehung) et que le Finanzamt l'accorde (§ 361 AO).",
+    "Si l'avis ne contient pas d'indication des voies de recours (Rechtsbehelfsbelehrung) ou si elle est erronée, le délai est d'un an (§ 356 Abs. 2 AO)."
+   ],
+   "faq": [
+    "Dois-je motiver la réclamation ?",
+    "Ce n'est pas obligatoire, mais utile : indiquez l'avis concerné et ce qui est faux, avec motifs et justificatifs (§ 357 Abs. 3 AO). Vous pouvez envoyer la motivation plus tard."
+   ]
+  },
+  "nl": {
+   "tips": [
+    "Bezwaar is gratis. U dient het schriftelijk, elektronisch (bijv. via „Mein ELSTER“) of mondeling voor proces-verbaal bij het Finanzamt in (§ 357 Abs. 1 AO).",
+    "Let op: bezwaar stopt de betaling niet. Een naheffing blijft verschuldigd, tenzij u ook opschorting van de tenuitvoerlegging (Aussetzung der Vollziehung) aanvraagt en het Finanzamt die toekent (§ 361 AO).",
+    "Ontbreekt in de aanslag de rechtsmiddelenclausule (Rechtsbehelfsbelehrung) of is die onjuist, dan geldt een termijn van 1 jaar (§ 356 Abs. 2 AO)."
+   ],
+   "faq": [
+    "Moet ik mijn bezwaar motiveren?",
+    "Verplicht is het niet, wel verstandig: noem de aanslag en wat er niet klopt, met redenen en bewijs (§ 357 Abs. 3 AO). De motivering kunt u later sturen."
+   ]
+  },
+  "ro": {
+   "tips": [
+    "Contestația este gratuită. Se depune în scris, electronic (de ex. prin „Mein ELSTER“) sau oral, consemnată la Finanzamt (§ 357 Abs. 1 AO).",
+    "Atenție: contestația nu oprește plata. Suma suplimentară rămâne datorată, cu excepția cazului în care cereți și suspendarea executării (Aussetzung der Vollziehung) și Finanzamt o aprobă (§ 361 AO).",
+    "Dacă în decizie lipsește informarea privind căile de atac (Rechtsbehelfsbelehrung) sau este greșită, termenul este de 1 an (§ 356 Abs. 2 AO)."
+   ],
+   "faq": [
+    "Trebuie să motivez contestația?",
+    "Nu este obligatoriu, dar este util: indicați decizia și ce este greșit, cu motive și dovezi (§ 357 Abs. 3 AO). Motivarea o puteți trimite ulterior."
+   ]
+  },
+  "es": {
+   "tips": [
+    "El recurso es gratuito. Se presenta por escrito, por vía electrónica (p. ej. en „Mein ELSTER“) o de forma oral para que conste en acta en la oficina de Hacienda (§ 357 Abs. 1 AO).",
+    "Atención: el recurso no detiene el pago. El pago adicional sigue siendo exigible, salvo que solicites además la suspensión de la ejecución (Aussetzung der Vollziehung) y Hacienda la conceda (§ 361 AO).",
+    "Si la liquidación no incluye información sobre los recursos (Rechtsbehelfsbelehrung) o es incorrecta, el plazo es de 1 año (§ 356 Abs. 2 AO)."
+   ],
+   "faq": [
+    "¿Tengo que fundamentar el recurso?",
+    "No es obligatorio, pero sí útil: indica la liquidación y qué es incorrecto, con motivos y pruebas (§ 357 Abs. 3 AO). Puedes enviar los motivos más tarde."
+   ]
+  }
+ },
+ "k6": {
+  "de": {
+   "tips": [
+    "Ein Bescheid per Post gilt am 4. Tag nach Absendung als bekannt gegeben (§ 37 Abs. 2 SGB X). Ab dann läuft die Monatsfrist.",
+    "Der Widerspruch ist kostenlos. Er geht schriftlich, in bestimmten elektronischen Formen oder zur Niederschrift bei der Krankenkasse (§ 84 Abs. 1 SGG). Eine normale E-Mail reicht dafür in der Regel nicht; sicher ist ein unterschriebener Brief.",
+    "Legen Sie ärztliche Unterlagen bei, z. B. eine Stellungnahme Ihrer Ärztin oder Ihres Arztes, warum die Leistung nötig ist."
+   ],
+   "faq": [
+    "Was passiert, wenn die Krankenkasse den Widerspruch ablehnt?",
+    "Sie bekommen einen Widerspruchsbescheid. Dagegen ist eine Klage beim Sozialgericht möglich; die Frist steht in der Rechtsbehelfsbelehrung am Ende des Widerspruchsbescheids. Lassen Sie sich vorher beraten, z. B. bei einem Sozialverband."
+   ]
+  },
+  "tr": {
+   "tips": [
+    "Postayla gelen bir karar gönderimden sonraki 4. gün tebliğ edilmiş sayılır (§ 37 Abs. 2 SGB X). Bir aylık süre o günden başlar.",
+    "İtiraz ücretsizdir. Yazılı, belirli elektronik biçimlerde veya sağlık sigortasında tutanağa geçirilerek yapılır (§ 84 Abs. 1 SGG). Normal bir e-posta genellikle yeterli değildir; en güvenlisi imzalı bir mektuptur.",
+    "Doktor belgelerini ekleyin, ör. doktorunuzun bu hizmetin neden gerekli olduğunu açıklayan yazısı."
+   ],
+   "faq": [
+    "Sağlık sigortası itirazı reddederse ne olur?",
+    "Bir itiraz kararı (Widerspruchsbescheid) alırsınız. Buna karşı sosyal mahkemede (Sozialgericht) dava açılabilir; süre, itiraz kararının sonundaki Rechtsbehelfsbelehrung kısmında yazar. Önce danışmanlık alın, ör. bir sosyal dernekten (Sozialverband)."
+   ]
+  },
+  "bg": {
+   "tips": [
+    "Решение, изпратено по пощата, се смята за връчено на 4-тия ден след изпращането (§ 37 Abs. 2 SGB X). Оттогава тече едномесечният срок.",
+    "Възражението е безплатно. Подава се писмено, в определени електронни форми или за протокол в здравната каса (§ 84 Abs. 1 SGG). Обикновен имейл по правило не е достатъчен; най-сигурно е подписано писмо.",
+    "Приложете медицински документи, напр. становище от вашия лекар защо услугата е необходима."
+   ],
+   "faq": [
+    "Какво става, ако здравната каса отхвърли възражението?",
+    "Получавате решение по възражението (Widerspruchsbescheid). Срещу него може да заведете дело в социалния съд (Sozialgericht); срокът е посочен в указанието за обжалване в края на решението. Преди това потърсете съвет, напр. в социално сдружение (Sozialverband)."
+   ]
+  },
+  "ar": {
+   "tips": [
+    "القرار المُرسَل بالبريد يُعتبر مُبلَّغاً في اليوم الرابع بعد إرساله (§ 37 Abs. 2 SGB X). ومن ذلك اليوم تبدأ مهلة الشهر.",
+    "الاعتراض مجاني. يُقدَّم كتابياً أو بأشكال إلكترونية معيّنة أو ليُدوَّن في محضر لدى صندوق التأمين (§ 84 Abs. 1 SGG). البريد الإلكتروني العادي لا يكفي عادةً؛ الأضمن رسالة موقَّعة.",
+    "أرفق مستندات طبية، مثل رأي طبيبك يشرح لماذا الخدمة ضرورية."
+   ],
+   "faq": [
+    "ماذا يحدث إذا رفض صندوق التأمين الاعتراض؟",
+    "ستتلقى قرار الاعتراض (Widerspruchsbescheid). يمكنك رفع دعوى ضده أمام المحكمة الاجتماعية (Sozialgericht)؛ والمهلة مكتوبة في إرشاد الطعن في نهاية القرار. استشر جهة مختصة قبل ذلك، مثل جمعية اجتماعية (Sozialverband)."
+   ]
+  },
+  "uk": {
+   "tips": [
+    "Рішення, надіслане поштою, вважається оголошеним на 4-й день після відправлення (§ 37 Abs. 2 SGB X). З цього дня рахується місячний строк.",
+    "Заперечення безкоштовне. Його подають письмово, у певних електронних формах або під запис у лікарняній касі (§ 84 Abs. 1 SGG). Звичайного e-mail зазвичай недостатньо; найнадійніше — підписаний лист.",
+    "Додайте медичні документи, напр. висновок лікаря, чому ця послуга потрібна."
+   ],
+   "faq": [
+    "Що буде, якщо каса відхилить заперечення?",
+    "Ви отримаєте рішення щодо заперечення (Widerspruchsbescheid). Його можна оскаржити до соціального суду (Sozialgericht); строк указано в роз'ясненні наприкінці рішення. Перед цим порадьтеся, напр. у соціальній спілці (Sozialverband)."
+   ]
+  },
+  "pl": {
+   "tips": [
+    "Decyzja wysłana pocztą uważana jest za doręczoną 4. dnia po wysłaniu (§ 37 Abs. 2 SGB X). Od tego dnia biegnie miesięczny termin.",
+    "Sprzeciw jest bezpłatny. Składa się go pisemnie, w określonych formach elektronicznych lub do protokołu w kasie chorych (§ 84 Abs. 1 SGG). Zwykły e-mail z reguły nie wystarcza; najpewniejszy jest podpisany list.",
+    "Dołącz dokumenty lekarskie, np. opinię lekarza, dlaczego świadczenie jest potrzebne."
+   ],
+   "faq": [
+    "Co się stanie, jeśli kasa odrzuci sprzeciw?",
+    "Otrzymasz decyzję w sprawie sprzeciwu (Widerspruchsbescheid). Można ją zaskarżyć do sądu socjalnego (Sozialgericht); termin podany jest w pouczeniu na końcu decyzji. Wcześniej skorzystaj z porady, np. w związku socjalnym (Sozialverband)."
+   ]
+  },
+  "en": {
+   "tips": [
+    "A decision sent by post counts as received on the 4th day after posting (§ 37 Abs. 2 SGB X). The one-month deadline starts then.",
+    "The objection is free. It must be filed in writing, in certain electronic forms or orally for the record at the health insurer (§ 84 Abs. 1 SGG). A normal e-mail is usually not enough; a signed letter is safest.",
+    "Enclose medical documents, e.g. a statement from your doctor explaining why the service is needed."
+   ],
+   "faq": [
+    "What happens if the health insurer rejects the objection?",
+    "You receive an objection decision (Widerspruchsbescheid). You can challenge it at the social court (Sozialgericht); the deadline is stated in the information on legal remedies at the end of that decision. Get advice first, e.g. from a social welfare association (Sozialverband)."
+   ]
+  },
+  "ku": {
+   "tips": [
+    "Biryareke bi postê di roja 4an a piştî şandinê de wekî ragihandî tê hesibandin (§ 37 Abs. 2 SGB X). Dema mehekê ji wê rojê dest pê dike.",
+    "Îtîraz belaş e. Bi nivîskî, bi hin formên elektronîkî an jî ji bo tomarê li sîgorteya tenduristiyê dibe (§ 84 Abs. 1 SGG). E-nameyeke asayî bi gelemperî têrê nake; ya herî ewle nameyeke îmzekirî ye.",
+    "Belgeyên bijîşkî pê ve bikin, mînak nivîsa bijîşkê we ku çima ev xizmet pêwîst e."
+   ],
+   "faq": [
+    "Ger sîgorte îtîrazê red bike çi dibe?",
+    "Hûn biryara îtîrazê (Widerspruchsbescheid) distînin. Li dijî wê dikarin li dadgeha civakî (Sozialgericht) doz vekin; dem di dawiya biryarê de (Rechtsbehelfsbelehrung) nivîsandî ye. Berê şêwirmendiyê bistînin, mînak ji komeleyeke civakî (Sozialverband)."
+   ]
+  },
+  "el": {
+   "tips": [
+    "Μια απόφαση που στάλθηκε ταχυδρομικά θεωρείται ότι κοινοποιήθηκε την 4η ημέρα μετά την αποστολή (§ 37 Abs. 2 SGB X). Από τότε τρέχει η μηνιαία προθεσμία.",
+    "Η ένσταση είναι δωρεάν. Υποβάλλεται γραπτώς, σε ορισμένες ηλεκτρονικές μορφές ή για καταγραφή στο ταμείο υγείας (§ 84 Abs. 1 SGG). Ένα απλό e-mail συνήθως δεν αρκεί· το πιο ασφαλές είναι μια υπογεγραμμένη επιστολή.",
+    "Επισυνάψτε ιατρικά έγγραφα, π.χ. γνωμάτευση του γιατρού σας για το γιατί η παροχή είναι απαραίτητη."
+   ],
+   "faq": [
+    "Τι γίνεται αν το ταμείο απορρίψει την ένσταση;",
+    "Θα λάβετε απόφαση επί της ένστασης (Widerspruchsbescheid). Κατά αυτής μπορείτε να προσφύγετε στο κοινωνικό δικαστήριο (Sozialgericht)· η προθεσμία αναγράφεται στο τέλος της απόφασης. Ζητήστε πρώτα συμβουλή, π.χ. από έναν κοινωνικό σύλλογο (Sozialverband)."
+   ]
+  },
+  "fr": {
+   "tips": [
+    "Une décision envoyée par la poste est réputée notifiée le 4e jour après l'envoi (§ 37 Abs. 2 SGB X). Le délai d'un mois court à partir de ce jour.",
+    "Le recours est gratuit. Il se fait par écrit, sous certaines formes électroniques ou oralement, consigné à la caisse maladie (§ 84 Abs. 1 SGG). Un simple e-mail ne suffit en général pas ; le plus sûr est une lettre signée.",
+    "Joignez des documents médicaux, p. ex. un avis de votre médecin expliquant pourquoi la prestation est nécessaire."
+   ],
+   "faq": [
+    "Que se passe-t-il si la caisse rejette le recours ?",
+    "Vous recevez une décision sur recours (Widerspruchsbescheid). Vous pouvez la contester devant le tribunal social (Sozialgericht) ; le délai figure dans l'indication des voies de recours à la fin de cette décision. Faites-vous conseiller avant, p. ex. par une association sociale (Sozialverband)."
+   ]
+  },
+  "nl": {
+   "tips": [
+    "Een besluit per post geldt als bekendgemaakt op de 4e dag na verzending (§ 37 Abs. 2 SGB X). Vanaf dan loopt de termijn van een maand.",
+    "Bezwaar is gratis. U dient het schriftelijk, in bepaalde elektronische vormen of mondeling voor proces-verbaal bij de zorgverzekeraar in (§ 84 Abs. 1 SGG). Een gewone e-mail is meestal niet genoeg; het veiligst is een ondertekende brief.",
+    "Voeg medische stukken toe, bijv. een verklaring van uw arts waarom de zorg nodig is."
+   ],
+   "faq": [
+    "Wat als de zorgverzekeraar het bezwaar afwijst?",
+    "U krijgt een beslissing op bezwaar (Widerspruchsbescheid). Daartegen kunt u in beroep gaan bij de sociale rechtbank (Sozialgericht); de termijn staat in de rechtsmiddelenclausule aan het einde van die beslissing. Laat u eerst adviseren, bijv. door een sociale belangenvereniging (Sozialverband)."
+   ]
+  },
+  "ro": {
+   "tips": [
+    "O decizie trimisă prin poștă se consideră comunicată în a 4-a zi după expediere (§ 37 Abs. 2 SGB X). De atunci curge termenul de o lună.",
+    "Contestația este gratuită. Se depune în scris, în anumite forme electronice sau oral, consemnată la casa de asigurări (§ 84 Abs. 1 SGG). Un e-mail obișnuit de regulă nu este suficient; cel mai sigur este o scrisoare semnată.",
+    "Atașați documente medicale, de ex. o opinie a medicului care explică de ce prestația este necesară."
+   ],
+   "faq": [
+    "Ce se întâmplă dacă casa respinge contestația?",
+    "Primiți o decizie de soluționare a contestației (Widerspruchsbescheid). Împotriva ei puteți acționa la tribunalul social (Sozialgericht); termenul este scris în informarea privind căile de atac de la sfârșitul deciziei. Cereți înainte sfatul unei asociații sociale (Sozialverband)."
+   ]
+  },
+  "es": {
+   "tips": [
+    "Una resolución enviada por correo se considera notificada el 4.º día tras el envío (§ 37 Abs. 2 SGB X). Desde entonces corre el plazo de un mes.",
+    "El recurso es gratuito. Se presenta por escrito, en ciertas formas electrónicas o de forma oral para que conste en acta en la caja (§ 84 Abs. 1 SGG). Un correo electrónico normal no suele bastar; lo más seguro es una carta firmada.",
+    "Adjunta documentos médicos, p. ej. un informe de tu médico explicando por qué la prestación es necesaria."
+   ],
+   "faq": [
+    "¿Qué pasa si la caja rechaza el recurso?",
+    "Recibirás una resolución del recurso (Widerspruchsbescheid). Contra ella puedes acudir al tribunal social (Sozialgericht); el plazo figura en la información sobre recursos al final de esa resolución. Antes, pide asesoramiento, p. ej. en una asociación social (Sozialverband)."
+   ]
+  }
+ },
+ "j6": {
+  "de": {
+   "tips": [
+    "Stellen Sie den Antrag möglichst noch vor dem Jahreswechsel: Der Nachzahlungszeitraum wird ab Beginn des Jahres gerechnet, in dem Sie den Antrag stellen (§ 44 Abs. 4 SGB X). Ab dem 1. Januar fällt ein weiteres Jahr heraus.",
+    "Nennen Sie das Datum des Bescheids und, wenn möglich, was falsch ist (z. B. Miete zu niedrig angesetzt, Einkommen falsch angerechnet). Ein Formular ist nicht nötig.",
+    "Lehnt das Jobcenter den Antrag ab, können Sie gegen diese Entscheidung innerhalb eines Monats Widerspruch einlegen (§ 84 SGG)."
+   ],
+   "faq": [
+    "Was ist der Unterschied zwischen Widerspruch und Überprüfungsantrag?",
+    "Den Widerspruch legen Sie innerhalb eines Monats nach dem Bescheid ein. Ist diese Frist vorbei, bleibt der Überprüfungsantrag nach § 44 SGB X. Beim Jobcenter geht er bis vier Jahre nach Ablauf des Jahres, in dem der Bescheid bekannt gegeben wurde (§ 40 Abs. 1 SGB II)."
+   ]
+  },
+  "tr": {
+   "tips": [
+    "Başvuruyu mümkünse yılbaşından önce yapın: Geriye dönük ödeme süresi, başvurunun yapıldığı yılın başından itibaren hesaplanır (§ 44 Abs. 4 SGB X). 1 Ocak'tan sonra bir yıl daha kaybedilir.",
+    "Kararın tarihini ve mümkünse neyin yanlış olduğunu yazın (ör. kira düşük hesaplanmış, gelir yanlış sayılmış). Form gerekmez.",
+    "Jobcenter başvuruyu reddederse, bu karara karşı bir ay içinde itiraz edebilirsiniz (§ 84 SGG)."
+   ],
+   "faq": [
+    "İtiraz ile Überprüfungsantrag arasındaki fark nedir?",
+    "İtiraz, karardan sonraki bir ay içinde yapılır. Bu süre geçtiyse § 44 SGB X'e göre Überprüfungsantrag kalır. Jobcenter'de bu, kararın tebliğ edildiği yılın bitiminden itibaren dört yıla kadar mümkündür (§ 40 Abs. 1 SGB II)."
+   ]
+  },
+  "bg": {
+   "tips": [
+    "Подайте заявлението по възможност преди Нова година: периодът за доплащане се смята от началото на годината, в която подавате заявлението (§ 44 Abs. 4 SGB X). След 1 януари отпада още една година.",
+    "Посочете датата на решението и, ако е възможно, какво е грешно (напр. наемът е признат твърде нисък, доходът е отчетен грешно). Не е нужен формуляр.",
+    "Ако Jobcenter откаже, можете да подадете възражение срещу това решение в срок от един месец (§ 84 SGG)."
+   ],
+   "faq": [
+    "Каква е разликата между възражение и Überprüfungsantrag?",
+    "Възражението се подава в срок от един месец след решението. Ако срокът е изтекъл, остава Überprüfungsantrag по § 44 SGB X. При Jobcenter то е възможно до четири години след края на годината, в която решението е връчено (§ 40 Abs. 1 SGB II)."
+   ]
+  },
+  "ar": {
+   "tips": [
+    "قدّم الطلب إن أمكن قبل نهاية السنة: فترة الدفع بأثر رجعي تُحسب من بداية السنة التي تقدّم فيها الطلب (§ 44 Abs. 4 SGB X). بعد 1 يناير تضيع سنة إضافية.",
+    "اذكر تاريخ القرار وإن أمكن ما هو الخطأ (مثلاً الإيجار محسوب أقل من اللازم أو الدخل محسوب خطأً). لا حاجة إلى استمارة.",
+    "إذا رفض الجوب سنتر الطلب، يمكنك الاعتراض على هذا القرار خلال شهر (§ 84 SGG)."
+   ],
+   "faq": [
+    "ما الفرق بين الاعتراض وطلب المراجعة (Überprüfungsantrag)؟",
+    "يُقدَّم الاعتراض خلال شهر من القرار. إذا انتهت هذه المهلة يبقى طلب المراجعة وفق § 44 SGB X. لدى الجوب سنتر يمكن تقديمه حتى أربع سنوات بعد نهاية السنة التي بُلِّغ فيها القرار (§ 40 Abs. 1 SGB II)."
+   ]
+  },
+  "uk": {
+   "tips": [
+    "Подайте заяву бажано до Нового року: період доплати рахується від початку року, в якому ви подаєте заяву (§ 44 Abs. 4 SGB X). Після 1 січня випадає ще один рік.",
+    "Вкажіть дату рішення і, якщо можливо, що в ньому неправильно (напр. оренду враховано занизько, дохід зараховано неправильно). Формуляр не потрібен.",
+    "Якщо Jobcenter відмовить, ви можете подати заперечення проти цього рішення протягом місяця (§ 84 SGG)."
+   ],
+   "faq": [
+    "Яка різниця між запереченням і Überprüfungsantrag?",
+    "Заперечення подають протягом місяця після рішення. Якщо цей строк минув, залишається Überprüfungsantrag за § 44 SGB X. У Jobcenter це можливо до чотирьох років після кінця року, в якому рішення було оголошено (§ 40 Abs. 1 SGB II)."
+   ]
+  },
+  "pl": {
+   "tips": [
+    "Złóż wniosek najlepiej przed końcem roku: okres dopłaty liczy się od początku roku, w którym składasz wniosek (§ 44 Abs. 4 SGB X). Po 1 stycznia przepada kolejny rok.",
+    "Podaj datę decyzji i, jeśli możesz, co jest błędne (np. za nisko uwzględniony czynsz, źle policzony dochód). Formularz nie jest potrzebny.",
+    "Jeśli Jobcenter odmówi, możesz w ciągu miesiąca złożyć sprzeciw wobec tej decyzji (§ 84 SGG)."
+   ],
+   "faq": [
+    "Czym różni się sprzeciw od Überprüfungsantrag?",
+    "Sprzeciw składa się w ciągu miesiąca od decyzji. Gdy termin minął, pozostaje Überprüfungsantrag według § 44 SGB X. W Jobcenter jest to możliwe do czterech lat po końcu roku, w którym doręczono decyzję (§ 40 Abs. 1 SGB II)."
+   ]
+  },
+  "en": {
+   "tips": [
+    "If possible, apply before the turn of the year: the back-payment period is counted from the start of the year in which you apply (§ 44 Abs. 4 SGB X). After 1 January, another year drops out.",
+    "State the date of the decision and, if possible, what is wrong (e.g. rent set too low, income counted incorrectly). No form is needed.",
+    "If the Jobcenter refuses, you can object to that decision within one month (§ 84 SGG)."
+   ],
+   "faq": [
+    "What is the difference between an objection and an Überprüfungsantrag?",
+    "An objection must be filed within one month of the decision. If that deadline has passed, you can still use the Überprüfungsantrag under § 44 SGB X. At the Jobcenter this is possible up to four years after the end of the year in which the decision was notified (§ 40 Abs. 1 SGB II)."
+   ]
+  },
+  "ku": {
+   "tips": [
+    "Heke gengaz be, serlêdanê berî dawiya salê bikin: dema dayîna paşverû ji destpêka sala ku hûn serlêdanê dikin tê hesibandin (§ 44 Abs. 4 SGB X). Piştî 1ê Çileyê saleke din diçe.",
+    "Dîroka biryarê û heke gengaz be çi şaş e binivîsin (mînak kirê kêm hatiye hesibandin, dahat şaş hatiye hesibandin). Form ne pêwîst e.",
+    "Ger Jobcenter red bike, hûn dikarin di nav mehekê de li dijî vê biryarê îtîraz bikin (§ 84 SGG)."
+   ],
+   "faq": [
+    "Ferqa navbera îtîraz û Überprüfungsantrag çi ye?",
+    "Îtîraz di nav mehekê piştî biryarê de tê kirin. Ger ev dem derbas bûbe, Überprüfungsantrag li gorî § 44 SGB X dimîne. Li Jobcenterê ev heta çar salan piştî dawiya sala ku biryar hatiye ragihandin gengaz e (§ 40 Abs. 1 SGB II)."
+   ]
+  },
+  "el": {
+   "tips": [
+    "Αν γίνεται, κάντε την αίτηση πριν από την αλλαγή του έτους: η περίοδος αναδρομικής καταβολής υπολογίζεται από την αρχή του έτους της αίτησης (§ 44 Abs. 4 SGB X). Μετά την 1η Ιανουαρίου χάνεται ακόμη ένα έτος.",
+    "Αναφέρετε την ημερομηνία της απόφασης και, αν μπορείτε, τι είναι λάθος (π.χ. ενοίκιο υπολογισμένο πολύ χαμηλά, εισόδημα λάθος υπολογισμένο). Δεν χρειάζεται έντυπο.",
+    "Αν το Jobcenter απορρίψει την αίτηση, μπορείτε να υποβάλετε ένσταση κατά αυτής της απόφασης εντός ενός μήνα (§ 84 SGG)."
+   ],
+   "faq": [
+    "Ποια είναι η διαφορά μεταξύ ένστασης και Überprüfungsantrag;",
+    "Η ένσταση υποβάλλεται εντός ενός μήνα από την απόφαση. Αν η προθεσμία έχει λήξει, μένει η Überprüfungsantrag κατά § 44 SGB X. Στο Jobcenter είναι δυνατή έως τέσσερα χρόνια μετά το τέλος του έτους κοινοποίησης της απόφασης (§ 40 Abs. 1 SGB II)."
+   ]
+  },
+  "fr": {
+   "tips": [
+    "Si possible, faites la demande avant la fin de l'année : la période de rappel est calculée à partir du début de l'année de la demande (§ 44 Abs. 4 SGB X). Après le 1er janvier, une année de plus est perdue.",
+    "Indiquez la date de la décision et, si possible, ce qui est faux (p. ex. loyer pris en compte trop bas, revenu mal compté). Aucun formulaire n'est nécessaire.",
+    "Si le Jobcenter refuse, vous pouvez former un recours contre cette décision dans un délai d'un mois (§ 84 SGG)."
+   ],
+   "faq": [
+    "Quelle différence entre recours et Überprüfungsantrag ?",
+    "Le recours se fait dans le mois qui suit la décision. Si ce délai est dépassé, il reste la demande de réexamen selon le § 44 SGB X. Au Jobcenter, elle est possible jusqu'à quatre ans après la fin de l'année où la décision a été notifiée (§ 40 Abs. 1 SGB II)."
+   ]
+  },
+  "nl": {
+   "tips": [
+    "Dien het verzoek zo mogelijk vóór de jaarwisseling in: de periode van nabetaling telt vanaf het begin van het jaar waarin u het verzoek doet (§ 44 Abs. 4 SGB X). Na 1 januari valt er nog een jaar af.",
+    "Noem de datum van het besluit en zo mogelijk wat er fout is (bijv. huur te laag berekend, inkomen verkeerd meegeteld). Een formulier is niet nodig.",
+    "Wijst het Jobcenter het verzoek af, dan kunt u binnen een maand bezwaar maken tegen die beslissing (§ 84 SGG)."
+   ],
+   "faq": [
+    "Wat is het verschil tussen bezwaar en Überprüfungsantrag?",
+    "Bezwaar maakt u binnen een maand na het besluit. Is die termijn voorbij, dan blijft het verzoek om herziening volgens § 44 SGB X. Bij het Jobcenter kan dat tot vier jaar na het einde van het jaar waarin het besluit is bekendgemaakt (§ 40 Abs. 1 SGB II)."
+   ]
+  },
+  "ro": {
+   "tips": [
+    "Dacă se poate, depuneți cererea înainte de sfârșitul anului: perioada de plată retroactivă se calculează de la începutul anului în care depuneți cererea (§ 44 Abs. 4 SGB X). După 1 ianuarie se pierde încă un an.",
+    "Indicați data deciziei și, dacă puteți, ce este greșit (de ex. chiria luată în calcul prea mică, venit calculat greșit). Nu este nevoie de formular.",
+    "Dacă Jobcenter respinge cererea, puteți contesta această decizie în termen de o lună (§ 84 SGG)."
+   ],
+   "faq": [
+    "Care este diferența dintre contestație și Überprüfungsantrag?",
+    "Contestația se depune în termen de o lună de la decizie. Dacă termenul a trecut, rămâne cererea de reverificare conform § 44 SGB X. La Jobcenter este posibilă până la patru ani de la sfârșitul anului în care decizia a fost comunicată (§ 40 Abs. 1 SGB II)."
+   ]
+  },
+  "es": {
+   "tips": [
+    "Si puedes, presenta la solicitud antes del cambio de año: el periodo de pago retroactivo se cuenta desde el inicio del año en que la presentas (§ 44 Abs. 4 SGB X). A partir del 1 de enero se pierde otro año.",
+    "Indica la fecha de la resolución y, si puedes, qué está mal (p. ej. alquiler computado demasiado bajo, ingresos mal contados). No hace falta formulario.",
+    "Si el Jobcenter la rechaza, puedes recurrir esa decisión en el plazo de un mes (§ 84 SGG)."
+   ],
+   "faq": [
+    "¿Qué diferencia hay entre recurso y Überprüfungsantrag?",
+    "El recurso se presenta en el mes siguiente a la resolución. Si ese plazo ya pasó, queda la solicitud de revisión según el § 44 SGB X. En el Jobcenter es posible hasta cuatro años después del final del año en que se notificó la resolución (§ 40 Abs. 1 SGB II)."
+   ]
+  }
  }
 }

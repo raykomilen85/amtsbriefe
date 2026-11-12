@@ -56,6 +56,22 @@ const HELP = [
   ["PRO ASYL – Beratung und Informationen","https://www.proasyl.de/"],
 ];
 
+// Passende Briefvorlagen je Hilfeseite (interne Links auf /vorlage/<slug>.html; Titel aus der App in index.html, wie tools/vorlagen.js)
+const REL_TPL = { aufenthalt: ["b1", "b3", "b2", "b4"], abschiebung: ["b3", "b4"], sozial: ["j1", "j6", "j3", "j2", "k6"],
+  alltag: ["fa3", "k6", "r1", "r5"], familie: ["k1", "r1", "bf1"], auto: ["fs1", "fs2", "fa3"] };
+const REL_H = { de: "Passende Briefvorlagen", tr: "İlgili mektup şablonları", bg: "Подходящи шаблони за писма", ar: "نماذج رسائل مناسبة",
+  uk: "Відповідні шаблони листів", pl: "Pasujące wzory pism", en: "Matching letter templates", el: "Σχετικά πρότυπα επιστολών",
+  fr: "Modèles de lettres adaptés", nl: "Passende briefsjablonen", ro: "Modele de scrisori potrivite", es: "Plantillas de cartas relacionadas", ku: "Şablonên nameyan ên têkildar" };
+const TPL = (() => {
+  const vm = require("vm"), idx = fs.readFileSync(path.join(__dirname, "..", "index.html"), "utf8");
+  const js = [...idx.matchAll(/<script[^>]*>([\s\S]*?)<\/script>/g)][2][1], ctx = {}; vm.createContext(ctx);
+  vm.runInContext(js.slice(0, js.indexOf("const landOf")) + ";globalThis.__={L,OFF,TT};", ctx);
+  const { L, OFF, TT } = ctx.__, sl = s => s.toLowerCase().replace(/ä/g, "ae").replace(/ö/g, "oe").replace(/ü/g, "ue").replace(/ß/g, "ss").replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
+  return Object.fromEntries(L.map(l => { const t = l.tt ? TT[l.tt].t : l.t, o = OFF[l.a].n.split(" / ")[0]; return [l.id, { t, o, slug: sl(o + "-" + t.de) }]; }));
+})();
+const relTpl = (lang, key) => !REL_TPL[key] ? "" : `<h2>${esc(REL_H[lang] || REL_H.de)}</h2>
+<ul class="help">${REL_TPL[key].map(id => TPL[id]).map(x => `<li><a href="${lang === "de" ? "" : "/" + lang}/vorlage/${x.slug}.html">${esc(x.o)}: ${esc(x.t[lang] || x.t.de)}</a></li>`).join("")}</ul>
+`;
 const esc = s => String(s).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;");
 const url = (lang, key) => `${SITE}/${lang === "de" ? "" : lang + "/"}${PAGES[key]}.html`;
 const rel = (from, lang, key) => (from === "de" ? "" : "../") + (lang === "de" ? "" : lang + "/") + PAGES[key] + ".html";
@@ -157,7 +173,7 @@ ${p.contacts ? `<h2>${esc(p.contactsTitle)}</h2>
 <h2>${esc(u.letters)}</h2>
 <p class="note">${esc(u.lettersNote)}</p>
 ${letters}
-${key === "sozial" || key === "alltag" || key === "familie" || key === "auto" ? "" : `<h2>${esc(u.help)}</h2>
+${relTpl(lang, key)}${key === "sozial" || key === "alltag" || key === "familie" || key === "auto" ? "" : `<h2>${esc(u.help)}</h2>
 <ul class="help">${HELP.map(([n, h]) => `<li><a href="${h}" rel="noopener" target="_blank">${esc(n)} ↗</a></li>`).join("")}</ul>`}
 <p class="other"><strong>${esc(u.other)}:</strong> ${others.map(o => `<a href="${rel(lang, lang, o)}">${esc(t[o].h1)}</a>`).join(" · ")} · <a href="${root(lang)}">${esc(u.home)}</a></p>
 <p class="src"><strong>${esc(u.sources)}:</strong> ${SOURCES[key].map(([n, h]) => `<a href="https://www.gesetze-im-internet.de/${h}" rel="noopener" target="_blank">${n}</a>`).join("")}<br>${esc(u.stand)}: ${STAND}</p>

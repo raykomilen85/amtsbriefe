@@ -166,7 +166,10 @@ ${help.length ? `<h2>${esc(S.help)}</h2><ul class="grid">${help.map(([p, n]) => 
 // --- Sitemap (alte Vorlagen-Einträge aller Sprachen ersetzen) ---
 const smPath = path.join(ROOT, "sitemap.xml");
 let sm = fs.readFileSync(smPath, "utf8").replace(/<url><loc>https:\/\/amtsbriefe\.de\/(?:[a-z]{2}\/)?(?:vorlage\/[^<]+|vorlagen\.html)<\/loc>[\s\S]*?<\/url>\n?/g, "");
-sm = sm.replace("</urlset>", urls.map(u => `<url><loc>${u}</loc><lastmod>${STAND}</lastmod></url>`).join("\n") + "\n</urlset>");
+const alt = u => { const rel = u.slice(SITE.length).replace(/^\/[a-z]{2}(?=\/)/, "");
+  return LANGS.map(x => `<xhtml:link rel="alternate" hreflang="${x}" href="${SITE}${pre(x)}${rel}"/>`).join("") +
+    `<xhtml:link rel="alternate" hreflang="x-default" href="${SITE}${rel}"/>`; };
+sm = sm.replace("</urlset>", urls.map(u => `<url><loc>${u}</loc><lastmod>${STAND}</lastmod>${alt(u)}</url>`).join("\n") + "\n</urlset>");
 fs.writeFileSync(smPath, sm);
 fs.writeFileSync(path.join(__dirname, "vorlagen-urls.txt"), urls.join("\n") + "\n");
 console.log(`${items.length} Vorlagen × ${LANGS.length} Sprachen + Übersichten = ${urls.length} Seiten`);

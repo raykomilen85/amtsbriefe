@@ -1,0 +1,19 @@
+name: Seiten, Links und Normen prüfen
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: [".github/workflows/check.yml", "tools/check.py"]
+  schedule:
+    - cron: "17 4 * * 1"
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Prüfen
+        run: python3 tools/check.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: check-report
+          path: check-report.txt

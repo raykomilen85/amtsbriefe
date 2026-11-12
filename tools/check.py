@@ -4,7 +4,7 @@
 #  3. Wortlaut der zitierten Normen von gesetze-im-internet.de (Text + SHA-256, zum Vergleich mit dem letzten Lauf)
 #  4. GitHub-Doku: Satz zur IP-Speicherung bei GitHub Pages
 # Aufruf: python3 tools/check.py   (Ergebnis im Job-Log und in check-report.txt als Artefakt)
-import glob, hashlib, html, re, sys, time, urllib.request, urllib.error
+import glob, hashlib, html, re, subprocess, sys, time
 from concurrent.futures import ThreadPoolExecutor
 
 UA = {"User-Agent": "Mozilla/5.0 (amtsbriefe.de link check; +https://amtsbriefe.de/impressum.html)"}
@@ -13,19 +13,15 @@ def log(s=""):
     print(s); out.append(s)
 
 def get(url, body=False):
-    for attempt in range(3):
-        try:
-            req = urllib.request.Request(url, headers=UA)
-            with urllib.request.urlopen(req, timeout=30) as r:
-                return r.status, (r.read().decode("utf-8", "replace") if body else ""), r.geturl()
-        except urllib.error.HTTPError as e:
-            if e.code in (429, 503) and attempt < 2:
-                time.sleep(5); continue
-            return e.code, "", url
-        except Exception as e:
-            if attempt < 2:
-                time.sleep(3); continue
-            return "ERR " + type(e).__name__, "", url
+    # curl mit harter Zeitgrenze (urllib blieb bei manchen Servern hängen)
+    r = subprocess.run(["curl", "-sSL", "--max-time", "25", "--retry", "1", "-A", UA["User-Agent"],
+                        "-o", "-" if body else "/dev/null", "-w", "\n%{http_code} %{url_effective}", url],
+                       capture_output=True, timeout=70)
+    txt = r.stdout.decode("utf-8", "replace")
+    txt, _, tail = txt.rpartition("\n")
+    code, _, final = tail.partition(" ")
+    code = int(code) if code.isdigit() and code != "000" else "ERR " + (r.stderr.decode()[:60].strip() or "timeout")
+    return code, txt, final or url
 
 # 1. eigene Seiten
 sm = open("sitemap.xml", encoding="utf-8").read()

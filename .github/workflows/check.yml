@@ -9,10 +9,11 @@ on:
 jobs:
   check:
     runs-on: ubuntu-latest
+    timeout-minutes: 25
     steps:
       - uses: actions/checkout@v4
       - name: Prüfen
-        run: python3 tools/check.py
+        run: python3 -u tools/check.py
       - uses: actions/upload-artifact@v4
         with:
           name: check-report

@@ -35,7 +35,8 @@ for (const [dir, key, urls] of [["familie", "familie", FAM_URLS], ["auto", "auto
 
 const SEO = require("./src/seo.json"); // short search titles/descriptions
 const SITE = "https://amtsbriefe.de";
-const STAND = "05.11.2026";
+// Rechtsstand zuletzt geprüft am 12.11.2026 (alle zitierten Normen auf gesetze-im-internet.de unverändert).
+const STAND = "12.11.2026";
 const LANGS = [["de","Deutsch"],["tr","Türkçe"],["bg","Български"],["ar","العربية"],["uk","Українська"],["pl","Polski"],["en","English"],["el","Ελληνικά"],["fr","Français"],["nl","Nederlands"],["ro","Română"],["es","Español"],["ku","Kurdî"]];
 const STEP = { de: "Schritt für Schritt", tr: "Adım adım", bg: "Стъпка по стъпка", ar: "خطوة بخطوة", uk: "Крок за кроком", pl: "Krok po kroku", en: "Step by step", el: "Βήμα προς βήμα", fr: "Étape par étape", nl: "Stap voor stap", ro: "Pas cu pas", es: "Paso a paso", ku: "Gav bi gav" };
 const PAGES = { aufenthalt: "aufenthalt-laeuft-ab", abschiebung: "abschiebung-hilfe", sozial: "sozialleistungen-antrag", alltag: "alltag-briefvorlagen", familie: "familie-schule", auto: "auto-gewerbe-gesundheit", stelle: "zustaendige-stelle" };

@@ -1,7 +1,7 @@
 # Prüfung, die im GitHub-Actions-Runner läuft (dort ist das Internet erreichbar):
 #  1. alle Seiten aus sitemap.xml + Impressum/Datenschutz live auf amtsbriefe.de (HTTP-Status)
 #  2. alle externen Links aus den HTML-Dateien (HTTP-Status)
-#  3. Wortlaut der zitierten Normen von gesetze-im-internet.de (Text + SHA-256, zum Vergleich mit dem letzten Lauf)
+#  3. (Normen: gesetze-im-internet.de blockiert den Runner – Prüfung erfolgt manuell)
 #  4. GitHub-Doku: Satz zur IP-Speicherung bei GitHub Pages
 # Aufruf: python3 tools/check.py   (Ergebnis im Job-Log und in check-report.txt als Artefakt)
 import glob, hashlib, html, re, subprocess, sys, time
@@ -37,7 +37,7 @@ for u, c in bad: log(f"  {c} {u}")
 ext = set()
 for f in glob.glob("**/*.html", recursive=True) + ["index.html"]:
     for u in re.findall(r'href="(https?://[^"#]+)', open(f, encoding="utf-8").read()):
-        if "amtsbriefe.de" not in u:
+        if "amtsbriefe.de" not in u and "gesetze-im-internet.de" not in u:
             ext.add(html.unescape(u))
 ext = sorted(ext)
 with ThreadPoolExecutor(6) as ex:
@@ -46,21 +46,9 @@ bad = [(u, r[0], r[2]) for u, r in zip(ext, res) if r[0] != 200]
 log(f"== EXTERNE LINKS: {len(ext)} geprüft, {len(bad)} nicht 200")
 for u, c, final in bad: log(f"  {c} {u}" + (f" -> {final}" if final != u else ""))
 
-# 3. Normen
-NORMS = ["aufenthg_2004/__11", "aufenthg_2004/__23a", "aufenthg_2004/__59", "aufenthg_2004/__60a", "aufenthg_2004/__81",
-         "aufenthg_2004/__84", "vwgo/__58", "vwgo/__75", "vwgo/__81", "asylvfg_1992/__74", "berathig/__1", "wogg/__7",
-         "wogg/__25", "bkgg_1996/__6a", "beeg/__7", "beeg/__13", "uhvorschg/__4", "sgb_12/__44", "sgg/__88",
-         # für Vorlagen: Einspruch Finanzamt, Widerspruch Krankenkasse, Überprüfungsantrag Jobcenter
-         "ao_1977/__122", "ao_1977/__347", "ao_1977/__355", "ao_1977/__357", "sgg/__84", "sgg/__66", "sgb_10/__37", "sgb_10/__44", "sgb_2/__40"]
-log("== NORMEN (gesetze-im-internet.de)")
-for n in NORMS:
-    c, body, _ = get(f"https://www.gesetze-im-internet.de/{n}.html", body=True)
-    m = re.search(r'<div class="jnhtml">([\s\S]*?)</div>\s*</div>\s*</div>', body) or re.search(r'<div class="jnhtml">([\s\S]*)', body)
-    txt = re.sub(r"\s+", " ", html.unescape(re.sub(r"<[^>]+>", " ", m.group(1) if m else ""))).strip()
-    txt = txt.split("Nach oben")[0].split("Impressum")[0].strip()
-    title = re.search(r"<title>([^<]*)</title>", body)
-    log(f"-- {n} [{c}] {title.group(1).strip() if title else ''} sha256={hashlib.sha256(txt.encode()).hexdigest()[:16]}")
-    log("   " + txt[:6000])
+# 3. Normen: gesetze-im-internet.de ist vom GitHub-Runner aus nicht erreichbar (Verbindungs-Timeout, Stand 12.11.2026).
+#    Die Normen werden deshalb bei der täglichen Kontrolle per WebFetch geprüft, nicht hier.
+log("== NORMEN: nicht im Runner prüfbar (gesetze-im-internet.de blockiert Rechenzentrums-IPs) – manuell prüfen")
 
 # 4. GitHub Pages IP-Satz
 log("== GITHUB DOKU")

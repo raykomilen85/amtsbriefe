@@ -118,7 +118,11 @@ for (const lg of LANGS) {
     const { l, o } = it, t = T(it.tObj, lg), when = T(it.wObj, lg);
     const rel = `/vorlage/${it.slug}.html`;
     const h1 = `${o}: ${t} – ${S.mv}`;
-    const title0 = `${o}: ${t} – ${S.mv}`; const title = title0.length > 60 ? title0 : `${title0} | Amtsbriefe`;
+    // Suchmaschinen-Titel: Google kürzt ab ca. 60 Zeichen. Erste Variante nehmen, die passt,
+    // damit "Muster/Vorlage" (Suchbegriff) nicht abgeschnitten wird.
+    const title0 = `${o}: ${t} – ${S.mv}`;
+    const title = [`${title0} | Amtsbriefe`, title0, `${o}: ${t} – ${S.sample}`, `${t} – ${S.mv}`, `${t} – ${S.sample}`, `${o}: ${t}`, t]
+      .find(x => x.length <= 60) || title0;
     const desc = `${when} ${S.descTail}`.slice(0, 300);
     const fields = [...new Set(["name", "street", "city", ...l.f])]
       .map(k => esc(T(FL[k], lg)) + (lg !== "de" ? ` <span class="de">(${esc(T(FL[k], "de"))})</span>` : "")).concat([esc(l.ref)]);

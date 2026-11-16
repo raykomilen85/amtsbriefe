@@ -35,7 +35,10 @@ for (const [dir, key, urls] of [["familie", "familie", FAM_URLS], ["auto", "auto
 
 const SEO = require("./src/seo.json"); // short search titles/descriptions
 const SITE = "https://amtsbriefe.de";
-// Rechtsstand zuletzt geprüft am 12.11.2026 (alle zitierten Normen auf gesetze-im-internet.de unverändert).
+// Rechtsstand je Seite. 16.11.2026: Normen der Seiten aufenthalt, abschiebung, sozial (AufenthG §§ 11, 23a, 59, 60a, 81, 84;
+// VwGO §§ 58, 75, 81; AsylG § 74; BerHG § 1; WoGG §§ 7, 25; BKGG § 6a; BEEG §§ 7, 13; UVG § 4; SGB XII § 44; SGG § 88)
+// auf gesetze-im-internet.de geprüft: Aussagen weiterhin zutreffend. Übrige Seiten zuletzt geprüft am 12.11.2026.
+const STAND_BY = { aufenthalt: "16.11.2026", abschiebung: "16.11.2026", sozial: "16.11.2026" };
 const STAND = "12.11.2026";
 const LANGS = [["de","Deutsch"],["tr","Türkçe"],["bg","Български"],["ar","العربية"],["uk","Українська"],["pl","Polski"],["en","English"],["el","Ελληνικά"],["fr","Français"],["nl","Nederlands"],["ro","Română"],["es","Español"],["ku","Kurdî"]];
 const STEP = { de: "Schritt für Schritt", tr: "Adım adım", bg: "Стъпка по стъпка", ar: "خطوة بخطوة", uk: "Крок за кроком", pl: "Krok po kroku", en: "Step by step", el: "Βήμα προς βήμα", fr: "Étape par étape", nl: "Stap voor stap", ro: "Pas cu pas", es: "Paso a paso", ku: "Gav bi gav" };
@@ -58,8 +61,8 @@ const HELP = [
 ];
 
 // Passende Briefvorlagen je Hilfeseite (interne Links auf /vorlage/<slug>.html; Titel aus der App in index.html, wie tools/vorlagen.js)
-const REL_TPL = { aufenthalt: ["b1", "b3", "b2", "b4"], abschiebung: ["b3", "b4"], sozial: ["j1", "j6", "j3", "j2", "k6"],
-  alltag: ["fa3", "k6", "r1", "r5"], familie: ["k1", "r1", "bf1"], auto: ["fs1", "fs2", "fa3"] };
+const REL_TPL = { aufenthalt: ["b1", "b3", "b2", "b4"], abschiebung: ["b3", "b4"], sozial: ["j1", "j6", "j7", "j3", "j2", "k6"],
+  alltag: ["fa3", "fa4", "k6", "r1", "r5"], familie: ["k1", "r1", "bf1"], auto: ["fs1", "fs2", "fa3"] };
 const REL_H = { de: "Passende Briefvorlagen", tr: "İlgili mektup şablonları", bg: "Подходящи шаблони за писма", ar: "نماذج رسائل مناسبة",
   uk: "Відповідні шаблони листів", pl: "Pasujące wzory pism", en: "Matching letter templates", el: "Σχετικά πρότυπα επιστολών",
   fr: "Modèles de lettres adaptés", nl: "Passende briefsjablonen", ro: "Modele de scrisori potrivite", es: "Plantillas de cartas relacionadas", ku: "Şablonên nameyan ên têkildar" };
@@ -177,7 +180,7 @@ ${letters}
 ${relTpl(lang, key)}${key === "sozial" || key === "alltag" || key === "familie" || key === "auto" ? "" : `<h2>${esc(u.help)}</h2>
 <ul class="help">${HELP.map(([n, h]) => `<li><a href="${h}" rel="noopener" target="_blank">${esc(n)} ↗</a></li>`).join("")}</ul>`}
 <p class="other"><strong>${esc(u.other)}:</strong> ${others.map(o => `<a href="${rel(lang, lang, o)}">${esc(t[o].h1)}</a>`).join(" · ")} · <a href="${root(lang)}">${esc(u.home)}</a></p>
-<p class="src"><strong>${esc(u.sources)}:</strong> ${SOURCES[key].map(([n, h]) => `<a href="https://www.gesetze-im-internet.de/${h}" rel="noopener" target="_blank">${n}</a>`).join("")}<br>${esc(u.stand)}: ${STAND}</p>
+<p class="src"><strong>${esc(u.sources)}:</strong> ${SOURCES[key].map(([n, h]) => `<a href="https://www.gesetze-im-internet.de/${h}" rel="noopener" target="_blank">${n}</a>`).join("")}<br>${esc(u.stand)}: ${STAND_BY[key] || STAND}</p>
 <p class="note">${esc(u.disclaimer)}</p>
 </main>
 <footer><div class="wrap"><a href="${root(lang)}">Amtsbriefe</a><a href="${lang === "de" ? "" : "/" + lang}/vorlagen.html">${VORL[lang] || VORL.de}</a><a href="${root(lang)}impressum.html">Impressum</a><a href="${root(lang)}datenschutz.html">Datenschutz</a></div></footer>

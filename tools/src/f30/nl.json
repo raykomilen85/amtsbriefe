@@ -1,0 +1,118 @@
+{
+ "nav": "De eerste 30 dagen",
+ "title": "Nieuw in Duitsland: de eerste 30 dagen – checklist inschrijving, bank, zorgverzekering",
+ "desc": "Nieuw in Duitsland? Checklist voor de eerste 30 dagen: inschrijving, fiscaal nummer, bankrekening, zorgverzekering, omroepbijdrage, kinderen, Duitse les – 13 talen.",
+ "h1": "Nieuw in Duitsland: de eerste 30 dagen – stap voor stap",
+ "intro": "Deze lijst laat zien wat je na je verhuizing naar Duitsland moet regelen, en in welke volgorde. Vink af wat klaar is – je voortgang wordt alleen op je eigen apparaat opgeslagen.",
+ "lab": {
+  "office": "Waar?",
+  "when": "Wanneer?",
+  "done": "klaar",
+  "progress": "stappen klaar",
+  "reset": "Lijst wissen",
+  "more": "Meer",
+  "tips": "Goede tips",
+  "stand": "Bijgewerkt",
+  "sources": "Bronnen"
+ },
+ "tips": [
+  "Bewaar van elke brief en aanvraag een kopie of foto.",
+  "Open elke brief van een instantie meteen – termijnen lopen vanaf ontvangst.",
+  "Brief niet begrepen? Gebruik onze vertaalhulp en de termijncalculator."
+ ],
+ "steps": [
+  [
+   "Verklaring van de verhuurder (Wohnungsgeberbestätigung)",
+   "Verhuurder",
+   "bij het intrekken",
+   "Je verhuurder moet schriftelijk bevestigen dat je bent ingetrokken. Dit formulier heb je nodig voor de inschrijving."
+  ],
+  [
+   "Inschrijven op je adres (Anmeldung)",
+   "Bürgeramt / bevolkingsregister",
+   "binnen 2 weken na het intrekken (§ 17 BMG)",
+   "Neem je paspoort of ID en de verklaring van de verhuurder mee. Veel steden geven online afspraken."
+  ],
+  [
+   "Wachten op je fiscaal nummer (Steuer-ID)",
+   "komt per post (BZSt)",
+   "enkele weken na de inschrijving",
+   "Na je eerste inschrijving stuurt het Federale Centrale Belastingbureau je Steuer-ID automatisch per post. Goed bewaren – je werkgever heeft het nodig."
+  ],
+  [
+   "Bankrekening openen",
+   "Bank",
+   "zo snel mogelijk",
+   "Iedereen die legaal in de EU verblijft heeft recht op een basisrekening (Basiskonto). De bank moet die binnen 10 werkdagen na de aanvraag aanbieden (§ 31 ZKG)."
+  ],
+  [
+   "Zorgverzekering",
+   "Zorgverzekeraar (Krankenkasse)",
+   "meteen",
+   "In Duitsland moet iedereen die hier woont verzekerd zijn (§ 193 Abs. 3 VVG). Werk je, kies dan een Krankenkasse en geef die door aan je werkgever."
+  ],
+  [
+   "Omroepbijdrage (Rundfunkbeitrag)",
+   "Beitragsservice (rundfunkbeitrag.de)",
+   "na het intrekken",
+   "Je betaalt één bijdrage per woning. Is de woning nog niet aangemeld, dan moet je die aanmelden. Wie bijv. Grundsicherungsgeld of AsylbLG krijgt, kan op aanvraag vrijstelling krijgen."
+  ],
+  [
+   "Verblijfsvergunning controleren",
+   "Vreemdelingendienst",
+   "vóór je visum of vergunning verloopt",
+   "Niet-EU-burgers: vraag je vergunning of verlenging op tijd aan, vóór de vervaldatum."
+  ],
+  [
+   "Werk of geld om van te leven",
+   "Agentur für Arbeit / Jobcenter",
+   "meteen als je hulp nodig hebt",
+   "Schrijf je in als werkzoekende of vraag Grundsicherungsgeld aan. Uitkeringen meestal pas vanaf de aanvraag."
+  ],
+  [
+   "Kinderen: Kindergeld, opvang, school",
+   "Familienkasse, Jugendamt, school",
+   "zo snel mogelijk",
+   "Kindergeld vraag je aan bij de Familienkasse – het recht hangt ook af van je verblijfsstatus. Meld je kind vroeg aan voor de opvang; schoolplichtige kinderen schrijf je in bij de school of het schoolbureau."
+  ],
+  [
+   "Duits leren",
+   "BAMF / cursusaanbieder",
+   "zo snel mogelijk",
+   "Kijk of je recht hebt op een integratiecursus of toelating kunt aanvragen."
+  ]
+ ],
+ "links": [
+  [
+   "v",
+   "rathaus-vermieter-gibt-keine-wohnungsgeberbestaetigung"
+  ],
+  [
+   "v",
+   "rathaus-termin-fuer-die-anmeldung"
+  ],
+  null,
+  null,
+  [
+   "v",
+   "krankenkasse-mitgliedsbescheinigung-anfordern"
+  ],
+  null,
+  [
+   "p",
+   "aufenthalt-laeuft-ab"
+  ],
+  [
+   "p",
+   "grundsicherungsgeld"
+  ],
+  [
+   "p",
+   "familie-schule"
+  ],
+  [
+   "p",
+   "integrationskurs"
+  ]
+ ]
+}

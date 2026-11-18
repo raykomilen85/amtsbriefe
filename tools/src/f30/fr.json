@@ -1,0 +1,118 @@
+{
+ "nav": "Les 30 premiers jours",
+ "title": "Nouveau en Allemagne : les 30 premiers jours – checklist inscription, banque, assurance maladie",
+ "desc": "Nouveau en Allemagne ? Checklist des 30 premiers jours : domicile, identifiant fiscal, compte, assurance maladie, redevance, enfants, allemand – 13 langues.",
+ "h1": "Nouveau en Allemagne : les 30 premiers jours – étape par étape",
+ "intro": "Cette liste montre quoi faire après votre arrivée en Allemagne, et dans quel ordre. Cochez les étapes faites – votre progression est enregistrée uniquement sur votre appareil.",
+ "lab": {
+  "office": "Où ?",
+  "when": "Avant quand ?",
+  "done": "fait",
+  "progress": "étapes faites",
+  "reset": "Réinitialiser la liste",
+  "more": "En savoir plus",
+  "tips": "Bons conseils",
+  "stand": "Mis à jour",
+  "sources": "Sources"
+ },
+ "tips": [
+  "Gardez une copie ou une photo de chaque lettre et demande.",
+  "Ouvrez tout de suite chaque lettre d'une administration – les délais courent dès la réception.",
+  "Lettre incomprise ? Utilisez notre aide à la traduction et le calculateur de délais."
+ ],
+ "steps": [
+  [
+   "Attestation du bailleur (Wohnungsgeberbestätigung)",
+   "Bailleur",
+   "à l'emménagement",
+   "Votre bailleur doit confirmer par écrit votre emménagement. Ce formulaire est nécessaire pour la déclaration de domicile."
+  ],
+  [
+   "Déclarer son domicile (Anmeldung)",
+   "Bürgeramt / bureau des déclarations",
+   "dans les 2 semaines après l'emménagement (§ 17 BMG)",
+   "Apportez passeport ou carte d'identité et l'attestation du bailleur. Beaucoup de villes donnent les rendez-vous en ligne."
+  ],
+  [
+   "Attendre l'identifiant fiscal (Steuer-ID)",
+   "arrive par la poste (BZSt)",
+   "quelques semaines après la déclaration",
+   "Après la première déclaration, l'Office fédéral central des impôts vous envoie automatiquement votre Steuer-ID par la poste. Gardez-le – votre employeur en a besoin."
+  ],
+  [
+   "Ouvrir un compte bancaire",
+   "Banque",
+   "le plus tôt possible",
+   "Toute personne en séjour régulier dans l'UE a droit à un compte de base (Basiskonto). La banque doit le proposer au plus tard 10 jours ouvrables après la demande (§ 31 ZKG)."
+  ],
+  [
+   "Assurance maladie",
+   "Caisse d'assurance maladie (Krankenkasse)",
+   "tout de suite",
+   "En Allemagne, toute personne résidant ici doit être assurée (§ 193 Abs. 3 VVG). Si vous travaillez, choisissez une caisse et indiquez-la à votre employeur."
+  ],
+  [
+   "Redevance audiovisuelle (Rundfunkbeitrag)",
+   "Beitragsservice (rundfunkbeitrag.de)",
+   "après l'emménagement",
+   "On paie une redevance par logement. Si le logement n'est pas encore inscrit, vous devez l'inscrire. Les bénéficiaires p. ex. du Grundsicherungsgeld ou de l'AsylbLG peuvent être exonérés sur demande."
+  ],
+  [
+   "Vérifier son titre de séjour",
+   "Service des étrangers",
+   "avant l'expiration du visa ou du titre",
+   "Citoyens hors UE : demandez votre titre ou sa prolongation à temps, avant l'expiration."
+  ],
+  [
+   "Travail ou argent pour vivre",
+   "Agentur für Arbeit / Jobcenter",
+   "tout de suite si vous avez besoin d'aide",
+   "Inscrivez-vous comme demandeur d'emploi ou demandez le Grundsicherungsgeld. Les prestations ne sont en général versées qu'à partir de la demande."
+  ],
+  [
+   "Enfants : Kindergeld, crèche, école",
+   "Familienkasse, Jugendamt, école",
+   "le plus tôt possible",
+   "Le Kindergeld se demande à la Familienkasse – le droit dépend aussi du statut de séjour. Inscrivez tôt votre enfant en crèche ; inscrivez les enfants d'âge scolaire à l'école ou au service scolaire."
+  ],
+  [
+   "Apprendre l'allemand",
+   "BAMF / organisme de cours",
+   "dès que possible",
+   "Vérifiez si vous avez droit au cours d'intégration ou pouvez demander une admission."
+  ]
+ ],
+ "links": [
+  [
+   "v",
+   "rathaus-vermieter-gibt-keine-wohnungsgeberbestaetigung"
+  ],
+  [
+   "v",
+   "rathaus-termin-fuer-die-anmeldung"
+  ],
+  null,
+  null,
+  [
+   "v",
+   "krankenkasse-mitgliedsbescheinigung-anfordern"
+  ],
+  null,
+  [
+   "p",
+   "aufenthalt-laeuft-ab"
+  ],
+  [
+   "p",
+   "grundsicherungsgeld"
+  ],
+  [
+   "p",
+   "familie-schule"
+  ],
+  [
+   "p",
+   "integrationskurs"
+  ]
+ ]
+}

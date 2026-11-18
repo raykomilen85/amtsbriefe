@@ -1,0 +1,118 @@
+{
+ "nav": "Pierwsze 30 dni",
+ "title": "Nowo w Niemczech: pierwsze 30 dni – lista: meldunek, konto, ubezpieczenie zdrowotne",
+ "desc": "Nowo w Niemczech? Lista na pierwsze 30 dni: meldunek, numer podatkowy, konto, ubezpieczenie zdrowotne, abonament, dzieci, kurs niemieckiego – w 13 językach.",
+ "h1": "Nowo w Niemczech: pierwsze 30 dni – krok po kroku",
+ "intro": "Ta lista pokazuje, co i w jakiej kolejności załatwić po przeprowadzce do Niemiec. Odhaczaj wykonane kroki – postęp jest zapisywany tylko na twoim urządzeniu.",
+ "lab": {
+  "office": "Gdzie?",
+  "when": "Do kiedy?",
+  "done": "zrobione",
+  "progress": "kroków zrobionych",
+  "reset": "Wyczyść listę",
+  "more": "Więcej",
+  "tips": "Dobre rady",
+  "stand": "Stan",
+  "sources": "Źródła"
+ },
+ "tips": [
+  "Zachowuj kopię lub zdjęcie każdego pisma i wniosku.",
+  "Otwieraj każde pismo z urzędu od razu – terminy liczą się od doręczenia.",
+  "Nie rozumiesz pisma? Skorzystaj z naszej pomocy w tłumaczeniu i kalkulatora terminów."
+ ],
+ "steps": [
+  [
+   "Potwierdzenie od wynajmującego (Wohnungsgeberbestätigung)",
+   "Wynajmujący",
+   "przy wprowadzeniu się",
+   "Wynajmujący musi pisemnie potwierdzić twoje wprowadzenie się. Formularz jest potrzebny do meldunku."
+  ],
+  [
+   "Zameldowanie (Anmeldung)",
+   "Bürgeramt / urząd meldunkowy",
+   "w ciągu 2 tygodni od wprowadzenia się (§ 17 BMG)",
+   "Weź paszport lub dowód i potwierdzenie wynajmującego. W wielu miastach terminy online."
+  ],
+  [
+   "Czekaj na numer podatkowy (Steuer-ID)",
+   "przychodzi pocztą (BZSt)",
+   "kilka tygodni po zameldowaniu",
+   "Po pierwszym zameldowaniu Federalny Centralny Urząd Podatkowy wysyła Steuer-ID automatycznie pocztą. Zachowaj – pracodawca go potrzebuje."
+  ],
+  [
+   "Otwórz konto bankowe",
+   "Bank",
+   "jak najszybciej",
+   "Każdy legalnie przebywający w UE ma prawo do konta podstawowego (Basiskonto). Bank musi je zaoferować najpóźniej w 10 dni roboczych od wniosku (§ 31 ZKG)."
+  ],
+  [
+   "Ubezpieczenie zdrowotne",
+   "Kasa chorych (Krankenkasse)",
+   "od razu",
+   "W Niemczech każdy mieszkający tu musi mieć ubezpieczenie zdrowotne (§ 193 Abs. 3 VVG). Jeśli pracujesz, wybierz kasę i podaj ją pracodawcy."
+  ],
+  [
+   "Abonament radiowo-telewizyjny (Rundfunkbeitrag)",
+   "Beitragsservice (rundfunkbeitrag.de)",
+   "po wprowadzeniu się",
+   "Płaci się jedną opłatę za mieszkanie. Jeśli mieszkanie nie jest jeszcze zgłoszone, trzeba je zgłosić. Osoby pobierające np. Grundsicherungsgeld lub świadczenia AsylbLG mogą być zwolnione na wniosek."
+  ],
+  [
+   "Sprawdź dokument pobytowy",
+   "Urząd ds. cudzoziemców",
+   "przed wygaśnięciem wizy lub zezwolenia",
+   "Obywatele spoza UE: złóż wniosek o zezwolenie lub przedłużenie na czas, przed upływem terminu."
+  ],
+  [
+   "Praca lub pieniądze na życie",
+   "Agentur für Arbeit / Jobcenter",
+   "od razu, jeśli potrzebujesz pomocy",
+   "Zarejestruj się jako szukający pracy lub złóż wniosek o Grundsicherungsgeld. Świadczenia zwykle dopiero od dnia wniosku."
+  ],
+  [
+   "Dzieci: Kindergeld, przedszkole, szkoła",
+   "Familienkasse, Jugendamt, szkoła",
+   "jak najszybciej",
+   "O Kindergeld wnioskujesz w Familienkasse – prawo zależy też od statusu pobytu. Wcześnie zapisz dziecko do przedszkola; dzieci w wieku szkolnym zgłoś w szkole lub urzędzie szkolnym."
+  ],
+  [
+   "Nauka niemieckiego",
+   "BAMF / organizator kursu",
+   "jak najszybciej",
+   "Sprawdź, czy masz prawo do kursu integracyjnego lub możesz złożyć wniosek o dopuszczenie."
+  ]
+ ],
+ "links": [
+  [
+   "v",
+   "rathaus-vermieter-gibt-keine-wohnungsgeberbestaetigung"
+  ],
+  [
+   "v",
+   "rathaus-termin-fuer-die-anmeldung"
+  ],
+  null,
+  null,
+  [
+   "v",
+   "krankenkasse-mitgliedsbescheinigung-anfordern"
+  ],
+  null,
+  [
+   "p",
+   "aufenthalt-laeuft-ab"
+  ],
+  [
+   "p",
+   "grundsicherungsgeld"
+  ],
+  [
+   "p",
+   "familie-schule"
+  ],
+  [
+   "p",
+   "integrationskurs"
+  ]
+ ]
+}

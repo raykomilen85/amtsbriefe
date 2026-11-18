@@ -228,3 +228,4 @@ for (const [lang] of LANGS) for (const key of Object.keys(PAGES)) {
 console.log("built", urls.length, "pages");
 require("./stelle.js")({ C, CSS, LOGO, LANGS, SITE, VORL, esc, rel, root, url, PAGES, out });
 require("./about.js")({ CSS, LOGO, LANGS, SITE, VORL, esc, root, out });
+require("./erste30.js")({ CSS, LOGO, LANGS, SITE, VORL, ABOUT_NAV, esc, root, out });

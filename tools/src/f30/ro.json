@@ -1,0 +1,118 @@
+{
+ "nav": "Primele 30 de zile",
+ "title": "Nou în Germania: primele 30 de zile – listă: înregistrare, bancă, asigurare de sănătate",
+ "desc": "Nou în Germania? Listă pentru primele 30 de zile: înregistrarea adresei, cod fiscal, cont, asigurare de sănătate, taxa radio-TV, copii, curs de germană – 13 limbi.",
+ "h1": "Nou în Germania: primele 30 de zile – pas cu pas",
+ "intro": "Lista arată ce faceți după mutarea în Germania și în ce ordine. Bifați pașii făcuți – progresul se salvează doar pe dispozitivul dvs.",
+ "lab": {
+  "office": "Unde?",
+  "when": "Până când?",
+  "done": "gata",
+  "progress": "pași făcuți",
+  "reset": "Resetează lista",
+  "more": "Mai mult",
+  "tips": "Sfaturi utile",
+  "stand": "Actualizat",
+  "sources": "Surse"
+ },
+ "tips": [
+  "Păstrați o copie sau o fotografie a fiecărei scrisori și cereri.",
+  "Deschideți imediat orice scrisoare de la o instituție – termenele curg de la primire.",
+  "Nu ați înțeles o scrisoare? Folosiți ajutorul nostru de traducere și calculatorul de termene."
+ ],
+ "steps": [
+  [
+   "Confirmarea proprietarului (Wohnungsgeberbestätigung)",
+   "Proprietar",
+   "la mutare",
+   "Proprietarul trebuie să confirme în scris că v-ați mutat. Formularul este necesar pentru înregistrare."
+  ],
+  [
+   "Înregistrarea adresei (Anmeldung)",
+   "Bürgeramt / biroul de evidență",
+   "în 2 săptămâni de la mutare (§ 17 BMG)",
+   "Luați pașaportul sau buletinul și confirmarea proprietarului. Multe orașe dau programări online."
+  ],
+  [
+   "Așteptați codul fiscal (Steuer-ID)",
+   "vine prin poștă (BZSt)",
+   "la câteva săptămâni după înregistrare",
+   "După prima înregistrare, Oficiul Federal Central de Impozite vă trimite automat Steuer-ID prin poștă. Păstrați-l – angajatorul are nevoie de el."
+  ],
+  [
+   "Deschideți un cont bancar",
+   "Banca",
+   "cât mai devreme",
+   "Oricine are ședere legală în UE are dreptul la un cont de bază (Basiskonto). Banca trebuie să-l ofere în cel mult 10 zile lucrătoare de la cerere (§ 31 ZKG)."
+  ],
+  [
+   "Asigurarea de sănătate",
+   "Casa de asigurări (Krankenkasse)",
+   "imediat",
+   "În Germania, toți cei care locuiesc aici trebuie să fie asigurați (§ 193 Abs. 3 VVG). Dacă lucrați, alegeți o casă și comunicați-o angajatorului."
+  ],
+  [
+   "Taxa radio-TV (Rundfunkbeitrag)",
+   "Beitragsservice (rundfunkbeitrag.de)",
+   "după mutare",
+   "Se plătește o taxă pe locuință. Dacă locuința nu e încă înregistrată, trebuie s-o înregistrați. Cine primește de ex. Grundsicherungsgeld sau AsylbLG poate fi scutit la cerere."
+  ],
+  [
+   "Verificați permisul de ședere",
+   "Biroul pentru străini",
+   "înainte să expire viza sau permisul",
+   "Cetățeni non-UE: cereți permisul sau prelungirea la timp, înainte de expirare."
+  ],
+  [
+   "Muncă sau bani de trai",
+   "Agentur für Arbeit / Jobcenter",
+   "imediat, dacă aveți nevoie",
+   "Înregistrați-vă ca persoană în căutarea unui loc de muncă sau cereți Grundsicherungsgeld. Prestațiile se dau de regulă doar de la data cererii."
+  ],
+  [
+   "Copii: Kindergeld, grădiniță, școală",
+   "Familienkasse, Jugendamt, școală",
+   "cât mai devreme",
+   "Kindergeld se cere la Familienkasse – dreptul depinde și de statutul de ședere. Înscrieți devreme copilul la grădiniță; copiii de vârstă școlară îi înscrieți la școală sau la inspectorat."
+  ],
+  [
+   "Învățați germana",
+   "BAMF / organizator de curs",
+   "cât mai curând",
+   "Verificați dacă aveți dreptul la cursul de integrare sau puteți cere admiterea."
+  ]
+ ],
+ "links": [
+  [
+   "v",
+   "rathaus-vermieter-gibt-keine-wohnungsgeberbestaetigung"
+  ],
+  [
+   "v",
+   "rathaus-termin-fuer-die-anmeldung"
+  ],
+  null,
+  null,
+  [
+   "v",
+   "krankenkasse-mitgliedsbescheinigung-anfordern"
+  ],
+  null,
+  [
+   "p",
+   "aufenthalt-laeuft-ab"
+  ],
+  [
+   "p",
+   "grundsicherungsgeld"
+  ],
+  [
+   "p",
+   "familie-schule"
+  ],
+  [
+   "p",
+   "integrationskurs"
+  ]
+ ]
+}

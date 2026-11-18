@@ -1,0 +1,118 @@
+{
+ "nav": "Los primeros 30 días",
+ "title": "Nuevo en Alemania: los primeros 30 días – lista empadronamiento, banco, seguro médico",
+ "desc": "¿Recién llegado a Alemania? Lista para los primeros 30 días: empadronamiento, número fiscal, cuenta, seguro médico, tasa de radio, hijos, alemán – 13 idiomas.",
+ "h1": "Nuevo en Alemania: los primeros 30 días – paso a paso",
+ "intro": "Esta lista muestra qué hacer al llegar a Alemania y en qué orden. Marca los pasos hechos: tu progreso solo se guarda en tu dispositivo.",
+ "lab": {
+  "office": "¿Dónde?",
+  "when": "¿Hasta cuándo?",
+  "done": "hecho",
+  "progress": "pasos hechos",
+  "reset": "Reiniciar lista",
+  "more": "Más",
+  "tips": "Buenos consejos",
+  "stand": "Actualizado",
+  "sources": "Fuentes"
+ },
+ "tips": [
+  "Guarda una copia o foto de cada carta y solicitud.",
+  "Abre enseguida toda carta de una oficina: los plazos cuentan desde que la recibes.",
+  "¿No entiendes una carta? Usa nuestra ayuda de traducción y la calculadora de plazos."
+ ],
+ "steps": [
+  [
+   "Confirmación del arrendador (Wohnungsgeberbestätigung)",
+   "Arrendador",
+   "al mudarte",
+   "Tu arrendador debe confirmar por escrito que te has mudado. Necesitas este formulario para empadronarte."
+  ],
+  [
+   "Empadronarte (Anmeldung)",
+   "Bürgeramt / oficina de registro",
+   "en las 2 semanas siguientes a la mudanza (§ 17 BMG)",
+   "Lleva pasaporte o documento de identidad y la confirmación del arrendador. Muchas ciudades dan cita online."
+  ],
+  [
+   "Esperar el número fiscal (Steuer-ID)",
+   "llega por correo (BZSt)",
+   "unas semanas después de empadronarte",
+   "Tras el primer empadronamiento, la Oficina Central Federal de Impuestos te envía tu Steuer-ID automáticamente por correo. Guárdalo: tu empleador lo necesita."
+  ],
+  [
+   "Abrir una cuenta bancaria",
+   "Banco",
+   "lo antes posible",
+   "Toda persona con residencia legal en la UE tiene derecho a una cuenta básica (Basiskonto). El banco debe ofrecerla en un máximo de 10 días hábiles tras la solicitud (§ 31 ZKG)."
+  ],
+  [
+   "Seguro médico",
+   "Caja de seguro médico (Krankenkasse)",
+   "de inmediato",
+   "En Alemania todas las personas que viven aquí deben tener seguro médico (§ 193 Abs. 3 VVG). Si trabajas, elige una caja y comunícasela a tu empleador."
+  ],
+  [
+   "Tasa de radiodifusión (Rundfunkbeitrag)",
+   "Beitragsservice (rundfunkbeitrag.de)",
+   "tras mudarte",
+   "Se paga una tasa por vivienda. Si la vivienda aún no está registrada, debes registrarla. Quien recibe p. ej. Grundsicherungsgeld o prestaciones AsylbLG puede pedir la exención."
+  ],
+  [
+   "Revisar el permiso de residencia",
+   "Oficina de extranjería",
+   "antes de que caduque el visado o permiso",
+   "Ciudadanos de fuera de la UE: solicita el permiso o la prórroga a tiempo, antes de que caduque."
+  ],
+  [
+   "Trabajo o dinero para vivir",
+   "Agentur für Arbeit / Jobcenter",
+   "de inmediato si necesitas ayuda",
+   "Inscríbete como demandante de empleo o solicita Grundsicherungsgeld. Las prestaciones suelen pagarse solo desde la solicitud."
+  ],
+  [
+   "Hijos: Kindergeld, guardería, escuela",
+   "Familienkasse, Jugendamt, escuela",
+   "lo antes posible",
+   "El Kindergeld se pide en la Familienkasse; el derecho depende también del estatus de residencia. Inscribe pronto a tu hijo en la guardería; matricula a los niños en edad escolar en la escuela o la oficina escolar."
+  ],
+  [
+   "Aprender alemán",
+   "BAMF / centro de cursos",
+   "cuanto antes",
+   "Comprueba si tienes derecho al curso de integración o puedes pedir la admisión."
+  ]
+ ],
+ "links": [
+  [
+   "v",
+   "rathaus-vermieter-gibt-keine-wohnungsgeberbestaetigung"
+  ],
+  [
+   "v",
+   "rathaus-termin-fuer-die-anmeldung"
+  ],
+  null,
+  null,
+  [
+   "v",
+   "krankenkasse-mitgliedsbescheinigung-anfordern"
+  ],
+  null,
+  [
+   "p",
+   "aufenthalt-laeuft-ab"
+  ],
+  [
+   "p",
+   "grundsicherungsgeld"
+  ],
+  [
+   "p",
+   "familie-schule"
+  ],
+  [
+   "p",
+   "integrationskurs"
+  ]
+ ]
+}

@@ -1,0 +1,118 @@
+{
+ "nav": "The first 30 days",
+ "title": "New in Germany: the first 30 days – checklist for registration, bank, health insurance",
+ "desc": "New in Germany? Checklist for the first 30 days: registration, tax ID, bank account, health insurance, broadcasting fee, children, German course – in 13 languages.",
+ "h1": "New in Germany: the first 30 days – step by step",
+ "intro": "This list shows what to do after moving to Germany, and in which order. Tick off the steps you have done – your progress is only saved on your device.",
+ "lab": {
+  "office": "Where?",
+  "when": "By when?",
+  "done": "done",
+  "progress": "steps done",
+  "reset": "Reset list",
+  "more": "More",
+  "tips": "Good tips",
+  "stand": "Updated",
+  "sources": "Sources"
+ },
+ "tips": [
+  "Keep a copy or photo of every letter and application.",
+  "Open every letter from an authority immediately – deadlines start when you receive it.",
+  "Don't understand a letter? Use our translation help and the deadline calculator."
+ ],
+ "steps": [
+  [
+   "Get the landlord confirmation (Wohnungsgeberbestätigung)",
+   "Landlord",
+   "when you move in",
+   "Your landlord must confirm in writing that you moved in. You need this form to register."
+  ],
+  [
+   "Register your address (Anmeldung)",
+   "Bürgeramt / registration office",
+   "within 2 weeks of moving in (§ 17 BMG)",
+   "Bring your passport or ID and the landlord confirmation. Many cities give appointments online."
+  ],
+  [
+   "Wait for your tax ID (Steuer-ID)",
+   "comes by post (BZSt)",
+   "a few weeks after registering",
+   "After your first registration, the Federal Central Tax Office sends your tax ID automatically by post. Keep it safe – your employer needs it."
+  ],
+  [
+   "Open a bank account",
+   "Bank",
+   "as early as possible",
+   "Everyone legally resident in the EU has the right to a basic account (Basiskonto). The bank must offer it within 10 business days of your application (§ 31 ZKG)."
+  ],
+  [
+   "Health insurance",
+   "Health insurance fund (Krankenkasse)",
+   "immediately",
+   "Everyone living in Germany must have health insurance (§ 193(3) VVG). If you work, choose a health insurance fund and tell your employer."
+  ],
+  [
+   "Broadcasting fee (Rundfunkbeitrag)",
+   "Beitragsservice (rundfunkbeitrag.de)",
+   "after moving in",
+   "One fee is paid per home. If your home is not registered yet, you must register it. People receiving e.g. Grundsicherungsgeld or AsylbLG benefits can apply for an exemption."
+  ],
+  [
+   "Check your residence permit",
+   "Immigration office (Ausländerbehörde)",
+   "before your visa or permit expires",
+   "Non-EU citizens: apply for your residence permit or extension in good time before it expires."
+  ],
+  [
+   "Work or money to live on",
+   "Agentur für Arbeit / Jobcenter",
+   "immediately if you need help",
+   "Register as a jobseeker or apply for Grundsicherungsgeld. Benefits are usually paid only from the date you apply."
+  ],
+  [
+   "Children: child benefit, daycare, school",
+   "Familienkasse, youth office, school",
+   "as early as possible",
+   "Apply for child benefit (Kindergeld) at the Familienkasse – whether you are entitled also depends on your residence status. Register for a daycare place early; register school-age children with the school or school office."
+  ],
+  [
+   "Learn German",
+   "BAMF / course provider",
+   "as soon as possible",
+   "Check whether you are entitled to an integration course or can apply for admission."
+  ]
+ ],
+ "links": [
+  [
+   "v",
+   "rathaus-vermieter-gibt-keine-wohnungsgeberbestaetigung"
+  ],
+  [
+   "v",
+   "rathaus-termin-fuer-die-anmeldung"
+  ],
+  null,
+  null,
+  [
+   "v",
+   "krankenkasse-mitgliedsbescheinigung-anfordern"
+  ],
+  null,
+  [
+   "p",
+   "aufenthalt-laeuft-ab"
+  ],
+  [
+   "p",
+   "grundsicherungsgeld"
+  ],
+  [
+   "p",
+   "familie-schule"
+  ],
+  [
+   "p",
+   "integrationskurs"
+  ]
+ ]
+}

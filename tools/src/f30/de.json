@@ -1,0 +1,118 @@
+{
+ "nav": "Die ersten 30 Tage",
+ "title": "Neu in Deutschland: Die ersten 30 Tage – Checkliste Anmeldung, Konto, Krankenkasse",
+ "desc": "Neu in Deutschland? Checkliste für die ersten 30 Tage: Anmeldung, Steuer-ID, Konto, Krankenkasse, Rundfunkbeitrag, Kinder, Deutschkurs – in 13 Sprachen.",
+ "h1": "Neu in Deutschland: Die ersten 30 Tage – Schritt für Schritt",
+ "intro": "Diese Liste zeigt, was Sie nach dem Umzug nach Deutschland in welcher Reihenfolge erledigen. Haken Sie erledigte Schritte ab – Ihr Fortschritt wird nur auf Ihrem Gerät gespeichert.",
+ "lab": {
+  "office": "Wo?",
+  "when": "Bis wann?",
+  "done": "erledigt",
+  "progress": "Schritte erledigt",
+  "reset": "Liste zurücksetzen",
+  "more": "Mehr dazu",
+  "tips": "Gute Tipps",
+  "stand": "Stand",
+  "sources": "Quellen"
+ },
+ "tips": [
+  "Bewahren Sie von jedem Brief und Antrag eine Kopie oder ein Foto auf.",
+  "Öffnen Sie jeden Brief vom Amt sofort – Fristen laufen ab dem Zugang.",
+  "Brief nicht verstanden? Nutzen Sie unsere Übersetzungs-Hilfe und den Fristen-Rechner."
+ ],
+ "steps": [
+  [
+   "Wohnungsgeberbestätigung holen",
+   "Vermieter",
+   "beim Einzug",
+   "Ihr Vermieter muss Ihnen den Einzug schriftlich bestätigen. Sie brauchen das Formular für die Anmeldung."
+  ],
+  [
+   "Wohnung anmelden",
+   "Bürgeramt / Meldebehörde",
+   "innerhalb von 2 Wochen nach dem Einzug (§ 17 BMG)",
+   "Bringen Sie Pass oder Ausweis und die Wohnungsgeberbestätigung mit. Viele Städte vergeben Termine online."
+  ],
+  [
+   "Steuer-ID abwarten",
+   "kommt per Post (BZSt)",
+   "einige Wochen nach der Anmeldung",
+   "Nach der ersten Anmeldung schickt das Bundeszentralamt für Steuern Ihnen die Steuer-ID automatisch per Post. Gut aufheben – Ihr Arbeitgeber braucht sie."
+  ],
+  [
+   "Bankkonto eröffnen",
+   "Bank",
+   "so früh wie möglich",
+   "Jeder mit rechtmäßigem Aufenthalt in der EU hat Anspruch auf ein Basiskonto. Die Bank muss es spätestens 10 Geschäftstage nach dem Antrag anbieten (§ 31 ZKG)."
+  ],
+  [
+   "Krankenversicherung",
+   "Krankenkasse",
+   "sofort",
+   "In Deutschland müssen alle mit Wohnsitz hier krankenversichert sein (§ 193 Abs. 3 VVG). Wenn Sie arbeiten, wählen Sie eine Krankenkasse und geben sie Ihrem Arbeitgeber an."
+  ],
+  [
+   "Rundfunkbeitrag",
+   "Beitragsservice (rundfunkbeitrag.de)",
+   "nach dem Einzug",
+   "Pro Wohnung zahlt man einen Beitrag. Ist die Wohnung noch nicht angemeldet, müssen Sie sie anmelden. Wer z. B. Grundsicherungsgeld oder AsylbLG-Leistungen bekommt, kann auf Antrag befreit werden."
+  ],
+  [
+   "Aufenthaltstitel prüfen",
+   "Ausländerbehörde",
+   "vor Ablauf von Visum oder Titel",
+   "Nicht-EU-Bürger: Beantragen Sie Ihren Aufenthaltstitel oder die Verlängerung rechtzeitig vor dem Ablauf."
+  ],
+  [
+   "Arbeit oder Geld zum Leben",
+   "Agentur für Arbeit / Jobcenter",
+   "sofort, wenn Sie Hilfe brauchen",
+   "Melden Sie sich arbeitsuchend oder beantragen Sie Grundsicherungsgeld. Leistungen gibt es meist erst ab dem Antrag."
+  ],
+  [
+   "Kinder: Kindergeld, Kita, Schule",
+   "Familienkasse, Jugendamt, Schule",
+   "so früh wie möglich",
+   "Kindergeld beantragen Sie bei der Familienkasse – ob Sie Anspruch haben, hängt auch vom Aufenthaltsstatus ab. Melden Sie den Kita-Platz früh an; schulpflichtige Kinder melden Sie bei der Schule bzw. dem Schulamt an."
+  ],
+  [
+   "Deutsch lernen",
+   "BAMF / Kursträger",
+   "so bald wie möglich",
+   "Prüfen Sie, ob Sie zum Integrationskurs berechtigt sind oder eine Zulassung beantragen können."
+  ]
+ ],
+ "links": [
+  [
+   "v",
+   "rathaus-vermieter-gibt-keine-wohnungsgeberbestaetigung"
+  ],
+  [
+   "v",
+   "rathaus-termin-fuer-die-anmeldung"
+  ],
+  null,
+  null,
+  [
+   "v",
+   "krankenkasse-mitgliedsbescheinigung-anfordern"
+  ],
+  null,
+  [
+   "p",
+   "aufenthalt-laeuft-ab"
+  ],
+  [
+   "p",
+   "grundsicherungsgeld"
+  ],
+  [
+   "p",
+   "familie-schule"
+  ],
+  [
+   "p",
+   "integrationskurs"
+  ]
+ ]
+}

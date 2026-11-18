@@ -1,0 +1,118 @@
+{
+ "nav": "İlk 30 gün",
+ "title": "Almanya'ya yeni geldiniz: İlk 30 gün – kayıt, banka, sağlık sigortası kontrol listesi",
+ "desc": "Almanya'ya yeni mi geldiniz? İlk 30 gün için kontrol listesi: kayıt, vergi numarası, banka, sağlık sigortası, yayın ücreti, çocuklar, Almanca kursu – 13 dilde.",
+ "h1": "Almanya'ya yeni geldiniz: İlk 30 gün – adım adım",
+ "intro": "Bu liste, Almanya'ya taşındıktan sonra neyi hangi sırayla yapacağınızı gösterir. Bitirdiğiniz adımları işaretleyin – ilerlemeniz sadece kendi cihazınızda kaydedilir.",
+ "lab": {
+  "office": "Nerede?",
+  "when": "Ne zamana kadar?",
+  "done": "tamam",
+  "progress": "adım tamamlandı",
+  "reset": "Listeyi sıfırla",
+  "more": "Daha fazlası",
+  "tips": "İpuçları",
+  "stand": "Güncelleme",
+  "sources": "Kaynaklar"
+ },
+ "tips": [
+  "Her mektubun ve başvurunun bir kopyasını veya fotoğrafını saklayın.",
+  "Resmî daireden gelen her mektubu hemen açın – süreler mektubun size ulaştığı günden başlar.",
+  "Mektubu anlamadınız mı? Çeviri yardımımızı ve süre hesaplayıcıyı kullanın."
+ ],
+ "steps": [
+  [
+   "Ev sahibi onayını alın (Wohnungsgeberbestätigung)",
+   "Ev sahibi",
+   "taşınırken",
+   "Ev sahibiniz taşındığınızı yazılı olarak onaylamak zorundadır. Bu formu kayıt için kullanırsınız."
+  ],
+  [
+   "Adres kaydı (Anmeldung)",
+   "Bürgeramt / nüfus dairesi",
+   "taşındıktan sonra 2 hafta içinde (§ 17 BMG)",
+   "Pasaport veya kimlik ve ev sahibi onayını götürün. Birçok şehirde randevu internetten alınır."
+  ],
+  [
+   "Vergi numarasını bekleyin (Steuer-ID)",
+   "postayla gelir (BZSt)",
+   "kayıttan birkaç hafta sonra",
+   "İlk kayıttan sonra Federal Vergi Merkezi size vergi numaranızı otomatik olarak postayla gönderir. İyi saklayın – işvereniniz ister."
+  ],
+  [
+   "Banka hesabı açın",
+   "Banka",
+   "mümkün olduğunca erken",
+   "AB'de yasal olarak bulunan herkesin temel banka hesabı (Basiskonto) hakkı vardır. Banka bunu başvurudan en geç 10 iş günü sonra sunmak zorundadır (§ 31 ZKG)."
+  ],
+  [
+   "Sağlık sigortası",
+   "Sağlık kasası (Krankenkasse)",
+   "hemen",
+   "Almanya'da oturan herkesin sağlık sigortası olmak zorundadır (§ 193 Abs. 3 VVG). Çalışıyorsanız bir sağlık kasası seçin ve işvereninize bildirin."
+  ],
+  [
+   "Yayın ücreti (Rundfunkbeitrag)",
+   "Beitragsservice (rundfunkbeitrag.de)",
+   "taşındıktan sonra",
+   "Her ev için bir ücret ödenir. Ev henüz kayıtlı değilse kaydettirmeniz gerekir. Örneğin Grundsicherungsgeld veya AsylbLG yardımı alanlar başvuruyla muaf olabilir."
+  ],
+  [
+   "Oturum iznini kontrol edin",
+   "Yabancılar Dairesi",
+   "vize veya izin bitmeden önce",
+   "AB dışı vatandaşlar: Oturum izninizi veya uzatmayı süresi bitmeden zamanında isteyin."
+  ],
+  [
+   "İş veya geçim parası",
+   "Agentur für Arbeit / Jobcenter",
+   "yardıma ihtiyacınız varsa hemen",
+   "İş arayan olarak kaydolun veya Grundsicherungsgeld isteyin. Yardım genelde başvuru gününden itibaren verilir."
+  ],
+  [
+   "Çocuklar: çocuk parası, kreş, okul",
+   "Familienkasse, Jugendamt, okul",
+   "mümkün olduğunca erken",
+   "Çocuk parasını (Kindergeld) Familienkasse'den isteyin – hakkınız olup olmadığı oturum durumunuza da bağlıdır. Kreş yerini erken kaydettirin; okul çağındaki çocukları okula veya okul dairesine kaydettirin."
+  ],
+  [
+   "Almanca öğrenin",
+   "BAMF / kurs kurumu",
+   "en kısa zamanda",
+   "Entegrasyon kursuna hakkınız olup olmadığını ya da kabul isteyip isteyemeyeceğinizi kontrol edin."
+  ]
+ ],
+ "links": [
+  [
+   "v",
+   "rathaus-vermieter-gibt-keine-wohnungsgeberbestaetigung"
+  ],
+  [
+   "v",
+   "rathaus-termin-fuer-die-anmeldung"
+  ],
+  null,
+  null,
+  [
+   "v",
+   "krankenkasse-mitgliedsbescheinigung-anfordern"
+  ],
+  null,
+  [
+   "p",
+   "aufenthalt-laeuft-ab"
+  ],
+  [
+   "p",
+   "grundsicherungsgeld"
+  ],
+  [
+   "p",
+   "familie-schule"
+  ],
+  [
+   "p",
+   "integrationskurs"
+  ]
+ ]
+}

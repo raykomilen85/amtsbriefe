@@ -1,0 +1,118 @@
+{
+ "nav": "30 rojên pêşîn",
+ "title": "Nû li Almanyayê: 30 rojên pêşîn – lîste: tomarkirin, bank, sîgorteya tenduristiyê",
+ "desc": "Nû hatine Almanyayê? Lîste ji bo 30 rojên pêşîn: tomarkirina navnîşanê, hejmara bacê, hesab, sîgorteya tenduristiyê, bacê weşanê, zarok, kursa almanî – 13 ziman.",
+ "h1": "Nû li Almanyayê: 30 rojên pêşîn – gav bi gav",
+ "intro": "Ev lîste nîşan dide ku piştî hatina Almanyayê hûn çi û bi kîjan rêzê bikin. Gavên qedandî nîşan bikin – pêşketina we tenê li ser amûra we tê tomarkirin.",
+ "lab": {
+  "office": "Li ku?",
+  "when": "Heta kengê?",
+  "done": "qediya",
+  "progress": "gav qediyan",
+  "reset": "Lîsteyê paqij bike",
+  "more": "Bêtir",
+  "tips": "Şîretên baş",
+  "stand": "Nûkirin",
+  "sources": "Çavkanî"
+ },
+ "tips": [
+  "Ji her name û serlêdanê kopiyek an wêneyek biparêzin.",
+  "Her nameyeke dezgehê tavilê vekin – dem ji roja gihîştinê dest pê dike.",
+  "Name fam nekir? Alîkariya wergerê û hesabkerê deman bikar bînin."
+ ],
+ "steps": [
+  [
+   "Pejirandina xwediyê xaniyê (Wohnungsgeberbestätigung)",
+   "Xwediyê xaniyê",
+   "dema barkirinê",
+   "Xwediyê xaniyê divê bi nivîskî barkirina we bipejirîne. Ev form ji bo tomarkirinê pêwîst e."
+  ],
+  [
+   "Tomarkirina navnîşanê (Anmeldung)",
+   "Bürgeramt / ofîsa tomarkirinê",
+   "di nav 2 hefteyan de piştî barkirinê (§ 17 BMG)",
+   "Pasaport an nasname û pejirandina xwediyê xaniyê bînin. Gelek bajar randevûyan online didin."
+  ],
+  [
+   "Li benda hejmara bacê (Steuer-ID) bin",
+   "bi postê tê (BZSt)",
+   "çend hefte piştî tomarkirinê",
+   "Piştî tomarkirina yekem, Ofîsa Navendî ya Federal a Bacê Steuer-ID bixweber bi postê dişîne. Biparêzin – karsaz pê re hewce ye."
+  ],
+  [
+   "Hesabê bankê vekin",
+   "Bank",
+   "herî zû",
+   "Her kesê ku bi qanûnî li YE dimîne mafê hesabê bingehîn (Basiskonto) heye. Bank divê herî dereng 10 rojên kar piştî serlêdanê pêşkêş bike (§ 31 ZKG)."
+  ],
+  [
+   "Sîgorteya tenduristiyê",
+   "Kasa tenduristiyê (Krankenkasse)",
+   "tavilê",
+   "Li Almanyayê her kesê ku li vir dijî divê sîgorteya tenduristiyê hebe (§ 193 Abs. 3 VVG). Heke hûn dixebitin, kasayekê hilbijêrin û ji karsazê re bibêjin."
+  ],
+  [
+   "Baca weşanê (Rundfunkbeitrag)",
+   "Beitragsservice (rundfunkbeitrag.de)",
+   "piştî barkirinê",
+   "Ji bo her xaniyekî yek bac tê dayîn. Heke xanî hîn nehatibe tomarkirin, divê hûn tomar bikin. Kesên ku mînak Grundsicherungsgeld an AsylbLG distînin dikarin bi serlêdanê bên bexşandin."
+  ],
+  [
+   "Destûra rûniştinê kontrol bikin",
+   "Daîreya Biyaniyan",
+   "berî ku vîze an destûr biqede",
+   "Hemwelatiyên ne-YE: destûr an dirêjkirinê di wextê de, berî qedandinê, bixwazin."
+  ],
+  [
+   "Kar an pere ji bo jiyanê",
+   "Agentur für Arbeit / Jobcenter",
+   "tavilê heke alîkarî hewce be",
+   "Wekî lêgerînerê kar xwe tomar bikin an Grundsicherungsgeld bixwazin. Alîkarî bi gelemperî tenê ji roja serlêdanê tê dayîn."
+  ],
+  [
+   "Zarok: Kindergeld, kreş, dibistan",
+   "Familienkasse, Jugendamt, dibistan",
+   "herî zû",
+   "Kindergeld ji Familienkasse tê xwestin – maf bi rewşa rûniştinê ve jî girêdayî ye. Zarokê xwe zû li kreşê tomar bikin; zarokên di temenê dibistanê de li dibistanê an ofîsa dibistanan tomar bikin."
+  ],
+  [
+   "Almanî fêr bibin",
+   "BAMF / saziya kursê",
+   "herî zû",
+   "Kontrol bikin ka mafê we yê kursa entegrasyonê heye an hûn dikarin qebûlê bixwazin."
+  ]
+ ],
+ "links": [
+  [
+   "v",
+   "rathaus-vermieter-gibt-keine-wohnungsgeberbestaetigung"
+  ],
+  [
+   "v",
+   "rathaus-termin-fuer-die-anmeldung"
+  ],
+  null,
+  null,
+  [
+   "v",
+   "krankenkasse-mitgliedsbescheinigung-anfordern"
+  ],
+  null,
+  [
+   "p",
+   "aufenthalt-laeuft-ab"
+  ],
+  [
+   "p",
+   "grundsicherungsgeld"
+  ],
+  [
+   "p",
+   "familie-schule"
+  ],
+  [
+   "p",
+   "integrationskurs"
+  ]
+ ]
+}

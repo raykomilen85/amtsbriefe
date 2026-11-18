@@ -126,7 +126,17 @@ for (const lg of LANGS) {
     const title0 = `${o}: ${t} – ${S.mv}`;
     const title = [`${title0} | Amtsbriefe`, title0, `${o}: ${t} – ${S.sample}`, `${t} – ${S.mv}`, `${t} – ${S.sample}`, `${o}: ${t}`, t]
       .find(x => x.length <= 60) || title0;
-    const desc = `${when} ${S.descTail}`.slice(0, 300);
+    // Google zeigt ca. 155 Zeichen: Erklärung kürzen (Satz- bzw. Wortgrenze), Schlusssatz (kostenlose Vorlage) immer behalten.
+    const desc = (() => {
+      const tail = S.descTail, room = 155 - tail.length - 1;
+      if (when.length <= room) return `${when} ${tail}`;
+      const sents = when.match(/[^.!?。]+[.!?。]+/g) || [];
+      let lead = "";
+      for (const x of sents) { if ((lead + x).trim().length <= room) lead += x; else break; }
+      lead = lead.trim();
+      if (!lead) { lead = when.slice(0, room - 1); lead = lead.slice(0, Math.max(lead.lastIndexOf(" "), 40)).replace(/[,;:–-]+$/, "") + "…"; }
+      return `${lead} ${tail}`;
+    })();
     const fields = [...new Set(["name", "street", "city", ...l.f])]
       .map(k => esc(T(FL[k], lg)) + (lg !== "de" ? ` <span class="de">(${esc(T(FL[k], "de"))})</span>` : "")).concat([esc(l.ref)]);
     const others = items.filter(x => x.l.a === l.a && x !== it);

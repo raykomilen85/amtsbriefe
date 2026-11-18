@@ -1,0 +1,98 @@
+{
+ "title": "Curso de integración: admisión, costes, exención, transporte, examen – plantillas gratis",
+ "desc": "Curso de integración 2026: quién puede participar, cuánto cuesta, cómo obtener la exención, la ayuda de transporte y el reembolso del 50 %. Plazos y plantillas en 13 idiomas.",
+ "h1": "Curso de integración: admisión, costes y examen – paso a paso",
+ "intro": "Importante: desde 2026, quienes participan de forma voluntaria solo obtienen plaza de manera limitada. Solicita la exención de la contribución y la ayuda de transporte antes de que empiece el curso: normalmente no se conceden con carácter retroactivo. Si terminas el curso con éxito, puedes recuperar la mitad de la contribución.",
+ "steps": [
+  [
+   "¿Quién puede participar?",
+   "Si la oficina de extranjería o el Jobcenter te obligaron, o tienes derecho (p. ej. con un nuevo permiso de residencia), recibes un derecho de participación (Teilnahmeberechtigung). Los demás deben pedir la admisión al BAMF (§ 44 Abs. 4 AufenthG): desde 2026 solo si hay plazas libres. Prioridad: personas con permiso según el § 24 AufenthG (Ucrania) y alemanes y ciudadanos de la UE cuyo alemán no basta para trabajar o formarse, y sus familias (§ 5 Abs. 4 IntV)."
+  ],
+  [
+   "Pedir la admisión al BAMF",
+   "Presenta una solicitud completa con pruebas. También puedes hacerlo a través de un centro de cursos y pedir a la vez la exención (§ 5 Abs. 1 IntV). La admisión vale un año. Si la rechazan, la resolución explica cómo recurrir."
+  ],
+  [
+   "Contribución y exención",
+   "La contribución es la mitad de la tarifa de reembolso (§ 9 Abs. 1 IntV), normalmente 2,29 € por clase. Previa solicitud, están exentas las personas que reciben Grundsicherungsgeld (SGB II), ayuda social, prestaciones AsylbLG o prestación por desempleo, y los trabajadores con ingresos bajos (§ 9 Abs. 2 IntV). Quien fue obligado por el Jobcenter suele quedar exento automáticamente. Si tu situación cambia, avisa al BAMF de inmediato."
+  ],
+  [
+   "Ayuda para el transporte",
+   "Si estás exento por Grundsicherungsgeld, ayuda social, prestaciones AsylbLG o prestación por desempleo, puedes pedir una ayuda fija para el transporte, antes del inicio de la sección (§ 4a IntV). Normalmente se concede si el curso está a más de 3 km de tu casa."
+  ],
+  [
+   "Asiste con regularidad y pide un certificado",
+   "El centro debe darte, si lo pides, un certificado de asistencia regular, incluso antes de terminar (§ 14 Abs. 6 IntV). La oficina de extranjería y el Jobcenter pueden pedirlo. Justifica las ausencias por escrito. La contribución se paga por toda la sección, aunque faltes (§ 9 Abs. 4 IntV)."
+  ],
+  [
+   "Cambiar de centro",
+   "El cambio es posible por motivos especiales, p. ej. mudanza, cambio entre tiempo parcial y completo, cuidado de hijos, formación o trabajo (§ 14 Abs. 4 IntV). Habla primero con tu centro."
+  ],
+  [
+   "Exámenes y certificado",
+   "El curso termina con el «Deutsch-Test für Zuwanderer» (A2–B1) y el test «Leben in Deutschland» (§ 17 IntV). El BAMF paga los exámenes una vez; si suspendes el de idioma antes de agotar las horas, paga también el segundo intento. Con B1 y el test de orientación aprobado obtienes el «Zertifikat Integrationskurs». Puedes repetir secciones a tu cargo (§ 14 Abs. 5 IntV)."
+  ],
+  [
+   "Si apruebas: 50 % de vuelta",
+   "Si terminas con éxito en los 2 años siguientes a tu primer derecho de participación, el BAMF puede devolverte la mitad de la contribución pagada (§ 9 Abs. 6 IntV). Plantilla abajo."
+  ]
+ ],
+ "deadlines": [
+  [
+   "Admisión por el BAMF",
+   "válida 1 año (§ 5 Abs. 3 IntV)"
+  ],
+  [
+   "Exención de la contribución",
+   "antes de empezar el curso – no retroactiva"
+  ],
+  [
+   "Ayuda para el transporte",
+   "antes del inicio de la sección del curso (§ 4a IntV)"
+  ],
+  [
+   "Contribución (Kostenbeitrag)",
+   "normalmente 2,29 € por clase, al inicio de cada sección"
+  ],
+  [
+   "Duración",
+   "700 clases: curso de idioma + curso de orientación (§ 10 IntV)"
+  ],
+  [
+   "50 % de la contribución de vuelta",
+   "si apruebas en los 2 años siguientes al primer derecho de participación (§ 9 Abs. 6 IntV)"
+  ]
+ ],
+ "contactsTitle": "Oficinas oficiales y ayuda gratuita",
+ "contacts": [
+  [
+   "BAMF-NAvI",
+   "Encuentra centros de cursos y la oficina regional del BAMF",
+   "bamf-navi.bamf.de"
+  ],
+  [
+   "BAMF – cursos de integración",
+   "Información oficial, folletos y formularios",
+   "bamf.de"
+  ],
+  [
+   "Asesoría para migrantes (MBE / JMD)",
+   "Ayuda gratuita con solicitudes",
+   "bamf-navi.bamf.de"
+  ]
+ ],
+ "letters": {
+  "ikbesch": [
+   "Pedir un certificado de asistencia (Bescheinigung über die Teilnahme)",
+   "al centro – p. ej. para el Jobcenter o la oficina de extranjería (§ 14 Abs. 6 IntV)"
+  ],
+  "ikfehl": [
+   "Justificar ausencias en el curso (Entschuldigung)",
+   "al centro – por enfermedad o motivo importante"
+  ],
+  "ikerst": [
+   "Solicitud de reembolso del 50 % (Antrag auf Erstattung)",
+   "al BAMF – tras aprobar (§ 9 Abs. 6 IntV)"
+  ]
+ }
+}

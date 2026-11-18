@@ -1,0 +1,98 @@
+{
+ "title": "Curs de integrare: admitere, costuri, scutire, transport, examen – modele gratuite de scrisori",
+ "desc": "Curs de integrare 2026: cine poate participa, cât costă, cum obțineți scutirea, subvenția de transport și rambursarea a 50%. Termene și modele de scrisori în 13 limbi.",
+ "h1": "Curs de integrare: admitere, costuri și examen – pas cu pas",
+ "intro": "Important: din 2026, voluntarii primesc loc doar în mod limitat. Cereți scutirea de contribuție și subvenția de transport înainte de începerea cursului – de regulă nu se acordă retroactiv. Cine termină cursul cu succes poate primi înapoi jumătate din contribuție.",
+ "steps": [
+  [
+   "Cine poate participa?",
+   "Dacă Biroul pentru străini sau Jobcenterul v-a obligat ori aveți dreptul (de ex. cu un nou permis de ședere), primiți dreptul de participare (Teilnahmeberechtigung). Toți ceilalți trebuie să ceară admiterea la BAMF (§ 44 Abs. 4 AufenthG) – din 2026 doar dacă sunt locuri libere. Prioritate: persoanele cu permis conform § 24 AufenthG (Ucraina), precum și germanii și cetățenii UE a căror germană nu ajunge pentru muncă sau formare, și familiile lor (§ 5 Abs. 4 IntV)."
+  ],
+  [
+   "Cererea de admitere la BAMF",
+   "Depuneți o cerere completă, cu dovezi. O puteți depune și prin organizatorul cursului și cere în același timp scutirea (§ 5 Abs. 1 IntV). Admiterea este valabilă un an. La respingere, decizia arată cum faceți contestație."
+  ],
+  [
+   "Contribuția și scutirea",
+   "Contribuția este jumătate din tariful de rambursare (§ 9 Abs. 1 IntV), de regulă 2,29 € pe lecție. La cerere sunt scutiți beneficiarii de Grundsicherungsgeld (SGB II), ajutor social, prestații AsylbLG sau ajutor de șomaj, precum și angajații cu venit mic (§ 9 Abs. 2 IntV). Cine a fost obligat de Jobcenter este de regulă scutit automat. Dacă situația se schimbă, anunțați imediat BAMF."
+  ],
+  [
+   "Subvenția de transport",
+   "Dacă sunteți scutit din cauza Grundsicherungsgeld, ajutorului social, prestațiilor AsylbLG sau ajutorului de șomaj, puteți cere o subvenție forfetară de transport – înainte de începerea secțiunii (§ 4a IntV). De regulă se acordă dacă cursul este la peste 3 km de casă."
+  ],
+  [
+   "Participați regulat – cereți o adeverință",
+   "Organizatorul trebuie să vă dea, la cerere, o adeverință de participare regulată, chiar înainte de final (§ 14 Abs. 6 IntV). Biroul pentru străini și Jobcenterul o pot cere. Motivați absențele în scris. Contribuția se plătește pentru toată secțiunea, chiar dacă lipsiți (§ 9 Abs. 4 IntV)."
+  ],
+  [
+   "Schimbarea organizatorului",
+   "Schimbarea este posibilă din motive speciale, de ex. mutare, trecere între program parțial și complet, îngrijirea copiilor, formare sau muncă (§ 14 Abs. 4 IntV). Vorbiți întâi cu organizatorul."
+  ],
+  [
+   "Examene și certificat",
+   "Cursul se încheie cu „Deutsch-Test für Zuwanderer” (A2–B1) și testul „Leben in Deutschland” (§ 17 IntV). BAMF plătește examenele o dată; dacă picați testul de limbă înainte să se termine orele, plătește și a doua încercare. Cu B1 și testul de orientare promovat primiți „Zertifikat Integrationskurs”. Puteți repeta secțiuni pe cheltuiala proprie (§ 14 Abs. 5 IntV)."
+  ],
+  [
+   "La succes: 50% înapoi",
+   "Dacă terminați cu succes în 2 ani de la primul drept de participare, BAMF vă poate returna jumătate din contribuția plătită (§ 9 Abs. 6 IntV). Model mai jos."
+  ]
+ ],
+ "deadlines": [
+  [
+   "Admiterea de către BAMF",
+   "valabilă 1 an (§ 5 Abs. 3 IntV)"
+  ],
+  [
+   "Scutirea de contribuție",
+   "înainte de începerea cursului – nu retroactiv"
+  ],
+  [
+   "Subvenția de transport",
+   "înainte de începerea secțiunii de curs (§ 4a IntV)"
+  ],
+  [
+   "Contribuția (Kostenbeitrag)",
+   "de regulă 2,29 € pe lecție, la începutul fiecărei secțiuni"
+  ],
+  [
+   "Durata cursului",
+   "700 de lecții: curs de limbă + curs de orientare (§ 10 IntV)"
+  ],
+  [
+   "50% din contribuție înapoi",
+   "la succes în 2 ani de la primul drept de participare (§ 9 Abs. 6 IntV)"
+  ]
+ ],
+ "contactsTitle": "Instituții oficiale și ajutor gratuit",
+ "contacts": [
+  [
+   "BAMF-NAvI",
+   "Găsiți organizatori de cursuri și biroul regional BAMF",
+   "bamf-navi.bamf.de"
+  ],
+  [
+   "BAMF – cursuri de integrare",
+   "Informații oficiale, broșuri și formulare",
+   "bamf.de"
+  ],
+  [
+   "Consiliere pentru migranți (MBE / JMD)",
+   "Ajutor gratuit la cereri",
+   "bamf-navi.bamf.de"
+  ]
+ ],
+ "letters": {
+  "ikbesch": [
+   "Cerere de adeverință de participare (Bescheinigung über die Teilnahme)",
+   "către organizator – de ex. pentru Jobcenter sau Biroul pentru străini (§ 14 Abs. 6 IntV)"
+  ],
+  "ikfehl": [
+   "Motivarea absențelor (Entschuldigung)",
+   "către organizator – la boală sau motiv important"
+  ],
+  "ikerst": [
+   "Cerere de rambursare a 50% (Antrag auf Erstattung)",
+   "către BAMF – după absolvire cu succes (§ 9 Abs. 6 IntV)"
+  ]
+ }
+}

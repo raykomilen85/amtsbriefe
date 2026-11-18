@@ -1,0 +1,98 @@
+{
+ "title": "Cours d'intégration : admission, coûts, exonération, transport, examen – modèles de lettres gratuits",
+ "desc": "Cours d'intégration 2026 : qui peut participer, combien il coûte, comment obtenir l'exonération, l'aide au transport et le remboursement de 50 %. Délais et modèles en 13 langues.",
+ "h1": "Cours d'intégration : admission, coûts et examen – étape par étape",
+ "intro": "Important : depuis 2026, les participants volontaires n'obtiennent une place que de façon limitée. Demandez l'exonération de la participation aux frais et l'aide au transport avant le début du cours – elles ne sont en général pas accordées rétroactivement. Si vous réussissez le cours, vous pouvez récupérer la moitié de la participation.",
+ "steps": [
+  [
+   "Qui peut participer ?",
+   "Si le service des étrangers ou le Jobcenter vous y a obligé, ou si vous y avez droit (p. ex. avec un nouveau titre de séjour), vous recevez une attestation de droit (Teilnahmeberechtigung). Les autres doivent demander une admission au BAMF (§ 44 Abs. 4 AufenthG) – depuis 2026 seulement s'il reste des places. Priorité : personnes avec un titre selon le § 24 AufenthG (Ukraine), ainsi que les Allemands et citoyens de l'UE dont l'allemand ne suffit pas pour travailler ou se former, et leurs familles (§ 5 Abs. 4 IntV)."
+  ],
+  [
+   "Demander l'admission au BAMF",
+   "Déposez une demande complète avec justificatifs. Vous pouvez aussi la faire via un organisme de cours et demander en même temps l'exonération (§ 5 Abs. 1 IntV). L'admission est valable un an. En cas de refus, la décision indique comment faire opposition."
+  ],
+  [
+   "Participation aux frais et exonération",
+   "La participation est la moitié du taux de remboursement des frais (§ 9 Abs. 1 IntV), en général 2,29 € par leçon. Sur demande, sont exonérés les bénéficiaires du Grundsicherungsgeld (SGB II), de l'aide sociale, des prestations AsylbLG ou de l'allocation chômage, ainsi que les salariés à faible revenu (§ 9 Abs. 2 IntV). Les personnes obligées par le Jobcenter sont en général exonérées automatiquement. Si votre situation change, informez immédiatement le BAMF."
+  ],
+  [
+   "Aide aux frais de transport",
+   "Si vous êtes exonéré en raison du Grundsicherungsgeld, de l'aide sociale, des prestations AsylbLG ou de l'allocation chômage, vous pouvez demander une aide forfaitaire au transport – avant le début de la partie du cours (§ 4a IntV). Elle est en général accordée si le cours est à plus de 3 km de chez vous."
+  ],
+  [
+   "Venir régulièrement – demander une attestation",
+   "L'organisme doit, sur demande, vous délivrer une attestation de participation régulière, même avant la fin du cours (§ 14 Abs. 6 IntV). Le service des étrangers et le Jobcenter peuvent l'exiger. Excusez vos absences par écrit. La participation est due pour toute la partie du cours, même en cas d'absence (§ 9 Abs. 4 IntV)."
+  ],
+  [
+   "Changer d'organisme",
+   "Un changement est possible pour des raisons particulières, p. ex. déménagement, passage entre temps partiel et temps plein, garde d'enfants, formation ou travail (§ 14 Abs. 4 IntV). Parlez d'abord à votre organisme."
+  ],
+  [
+   "Examens et certificat",
+   "Le cours se termine par le « Deutsch-Test für Zuwanderer » (A2–B1) et le test « Leben in Deutschland » (§ 17 IntV). Le BAMF paie les examens une fois ; si vous échouez au test de langue avant la fin des heures, il paie aussi une deuxième tentative. Avec le B1 et le test d'orientation réussi, vous obtenez le « Zertifikat Integrationskurs ». Vous pouvez répéter des parties du cours à vos frais (§ 14 Abs. 5 IntV)."
+  ],
+  [
+   "En cas de réussite : 50 % remboursés",
+   "Si vous réussissez dans les 2 ans suivant votre premier droit de participation, le BAMF peut vous rembourser la moitié de la participation payée (§ 9 Abs. 6 IntV). Modèle ci-dessous."
+  ]
+ ],
+ "deadlines": [
+  [
+   "Admission par le BAMF",
+   "valable 1 an (§ 5 Abs. 3 IntV)"
+  ],
+  [
+   "Exonération de la participation",
+   "avant le début du cours – pas rétroactive"
+  ],
+  [
+   "Aide aux frais de transport",
+   "avant le début de la partie du cours (§ 4a IntV)"
+  ],
+  [
+   "Participation aux frais (Kostenbeitrag)",
+   "en général 2,29 € par leçon, au début de chaque partie"
+  ],
+  [
+   "Durée du cours",
+   "700 leçons : cours de langue + cours d'orientation (§ 10 IntV)"
+  ],
+  [
+   "50 % remboursés",
+   "en cas de réussite dans les 2 ans suivant le premier droit de participation (§ 9 Abs. 6 IntV)"
+  ]
+ ],
+ "contactsTitle": "Services officiels et aide gratuite",
+ "contacts": [
+  [
+   "BAMF-NAvI",
+   "Trouver les organismes de cours et le bureau régional du BAMF",
+   "bamf-navi.bamf.de"
+  ],
+  [
+   "BAMF – cours d'intégration",
+   "Informations officielles, notices et formulaires",
+   "bamf.de"
+  ],
+  [
+   "Conseil aux migrants (MBE / JMD)",
+   "Aide gratuite pour les demandes",
+   "bamf-navi.bamf.de"
+  ]
+ ],
+ "letters": {
+  "ikbesch": [
+   "Demander une attestation de participation (Bescheinigung über die Teilnahme)",
+   "à l'organisme – p. ex. pour le Jobcenter ou le service des étrangers (§ 14 Abs. 6 IntV)"
+  ],
+  "ikfehl": [
+   "Excuse pour absence au cours (Entschuldigung)",
+   "à l'organisme – en cas de maladie ou de raison importante"
+  ],
+  "ikerst": [
+   "Demande de remboursement de 50 % (Antrag auf Erstattung)",
+   "au BAMF – après réussite (§ 9 Abs. 6 IntV)"
+  ]
+ }
+}

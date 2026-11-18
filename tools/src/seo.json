@@ -6,6 +6,7 @@
     "sozial": ["Wohngeld, Elterngeld & Co. beantragen | Amtsbriefe", "Wohngeld, Kinderzuschlag, Elterngeld, Unterhaltsvorschuss, Grundsicherung: Fristen, zuständige Stelle, kostenlose Briefvorlagen. In 13 Sprachen."],
     "alltag": ["Kündigung, Inkasso, Mängel: Briefvorlagen | Amtsbriefe", "Handy oder Fitnessstudio kündigen, Inkasso widersprechen, Mängel melden, Nebenkosten prüfen: kostenlose Briefvorlagen mit Fristen, in 13 Sprachen."],
     "familie": ["Geburtsurkunde, Kita, Schule: Briefvorlagen | Amtsbriefe", "Geburt anmelden, Kita-Platz beantragen, Entschuldigung für die Schule, Jugendamt: Fristen und kostenlose Briefvorlagen, in 13 Sprachen."],
+    "integ": ["Integrationskurs 2026: Zulassung, Kosten, Befreiung", "Wer darf zum Integrationskurs, was kostet er, wie gibt es Befreiung, Fahrtkosten und 50 % zurück? Fristen und kostenlose Briefvorlagen, in 13 Sprachen."],
     "auto": ["Führerschein, Auto, Gewerbe anmelden | Amtsbriefe", "Führerschein umschreiben, Auto zulassen, Gewerbe anmelden, Schwerbehindertenausweis, Pflegegrad: Fristen und kostenlose Briefvorlagen, 13 Sprachen."]
   },
   "en": {
@@ -14,6 +15,7 @@
     "sozial": ["German social benefits: how to apply | Amtsbriefe", "Housing benefit, child supplement, parental allowance, basic income: deadlines, responsible office, free letter templates. In 13 languages."],
     "alltag": ["Cancel contracts, dispute debt collection | Amtsbriefe", "Cancel a phone or gym contract, dispute debt collection, report defects, check utility bills in Germany: free letter templates in 13 languages."],
     "familie": ["Birth certificate, Kita, school letters | Amtsbriefe", "Register a birth, apply for a Kita place, school excuse notes, Jugendamt: deadlines and free letter templates for Germany, in 13 languages."],
+    "integ": ["Integration course Germany 2026: admission, costs, exemption", "Who can join the integration course, what it costs, how to get an exemption, travel subsidy and 50% back. Deadlines and free letter templates, 13 languages."],
     "auto": ["Driving licence, car, business in Germany | Amtsbriefe", "Convert a driving licence, register a car or business, disability ID card, care level: deadlines and free letter templates, in 13 languages."]
   },
   "tr": {
@@ -22,6 +24,7 @@
     "sozial": ["Wohngeld, Elterngeld başvurusu | Amtsbriefe", "Wohngeld, Kinderzuschlag, Elterngeld, Unterhaltsvorschuss, Grundsicherung: süreler, yetkili kurum, ücretsiz mektup şablonları. 13 dilde."],
     "alltag": ["Sözleşme iptali, Inkasso itirazı: şablonlar | Amtsbriefe", "Almanya'da telefon veya spor salonu iptali, Inkasso itirazı, ev ayıbı bildirimi, yan gider kontrolü: ücretsiz mektup şablonları, 13 dilde."],
     "familie": ["Doğum belgesi, kreş, okul: mektuplar | Amtsbriefe", "Doğum kaydı, kreş yeri başvurusu, okul için mazeret yazısı, Jugendamt: süreler ve ücretsiz mektup şablonları, 13 dilde."],
+    "integ": ["Entegrasyon kursu 2026: kabul, ücret, muafiyet", "Entegrasyon kursuna kim katılabilir, ücreti ne kadar, muafiyet, yol parası ve %50 iade nasıl alınır? Süreler ve ücretsiz mektup şablonları, 13 dilde."],
     "auto": ["Ehliyet, araç ve Gewerbe kaydı | Amtsbriefe", "Ehliyet değiştirme, araç kaydı, Gewerbe kaydı, ağır engelli kimliği, bakım derecesi: süreler ve ücretsiz mektup şablonları, 13 dilde."]
   },
   "bg": {
@@ -30,6 +33,7 @@
     "sozial": ["Социални помощи в Германия: заявления | Amtsbriefe", "Wohngeld, Kinderzuschlag, Elterngeld, Unterhaltsvorschuss, Grundsicherung: срокове, отговорна служба, безплатни образци на писма."],
     "alltag": ["Прекратяване на договор, инкасо: образци | Amtsbriefe", "Прекратяване на договор за телефон, възражение срещу инкасо, дефекти в жилището, сметка за разходи в Германия: безплатни образци."],
     "familie": ["Акт за раждане, детска градина, училище | Amtsbriefe", "Регистрация на раждане, място в детска градина, извинителна бележка за училище, Jugendamt: срокове и безплатни образци на писма."],
+    "integ": ["Интеграционен курс 2026: допускане, такса, освобождаване", "Кой може да участва в интеграционния курс, колко струва, как да получите освобождаване, пътни и 50 % обратно. Срокове и безплатни шаблони на 13 езика."],
     "auto": ["Шофьорска книжка, кола, Gewerbe в Германия | Amtsbriefe", "Подмяна на шофьорска книжка, регистрация на кола и занаят, карта за увреждане, степен на грижи: срокове и безплатни образци на писма."]
   },
   "ar": {
@@ -38,6 +42,7 @@
     "sozial": ["المساعدات الاجتماعية في ألمانيا: الطلبات | Amtsbriefe", "Wohngeld وKinderzuschlag وElterngeld وGrundsicherung: المهل، الجهة المختصة، نماذج رسائل مجانية. بـ 13 لغة."],
     "alltag": ["إلغاء العقود والاعتراض على التحصيل | Amtsbriefe", "إلغاء عقد الهاتف أو النادي، الاعتراض على شركة التحصيل، الإبلاغ عن عيوب السكن في ألمانيا: نماذج رسائل مجانية بـ 13 لغة."],
     "familie": ["شهادة الميلاد، الحضانة، المدرسة: رسائل | Amtsbriefe", "تسجيل المولود، طلب مكان في الحضانة، عذر غياب للمدرسة، Jugendamt: المهل ونماذج رسائل مجانية بـ 13 لغة."],
+    "integ": ["دورة الاندماج 2026: القبول والرسوم والإعفاء", "من يحق له دورة الاندماج، كم تكلف، كيف تحصل على الإعفاء وبدل المواصلات واسترداد 50٪؟ المهل ونماذج رسائل مجانية بـ13 لغة."],
     "auto": ["رخصة القيادة، السيارة، Gewerbe في ألمانيا", "تبديل رخصة القيادة، تسجيل السيارة والنشاط التجاري، بطاقة الإعاقة، درجة الرعاية: المهل ونماذج رسائل مجانية بـ 13 لغة."]
   },
   "uk": {
@@ -46,6 +51,7 @@
     "sozial": ["Соціальні виплати в Німеччині: заяви | Amtsbriefe", "Wohngeld, Kinderzuschlag, Elterngeld, Unterhaltsvorschuss, Grundsicherung: строки, відповідальна установа, безкоштовні шаблони листів."],
     "alltag": ["Розірвати договір, заперечити інкасо | Amtsbriefe", "Розірвати договір зв’язку чи спортзалу, заперечити інкасо, повідомити про недоліки житла в Німеччині: безкоштовні шаблони листів."],
     "familie": ["Свідоцтво про народження, садок, школа | Amtsbriefe", "Реєстрація народження, місце в дитсадку, пояснювальна для школи, Jugendamt: строки та безкоштовні шаблони листів, 13 мовами."],
+    "integ": ["Інтеграційний курс 2026: допуск, вартість, звільнення", "Хто може піти на інтеграційний курс, скільки він коштує, як отримати звільнення, доплату на проїзд і 50 % назад. Строки й безкоштовні шаблони, 13 мовами."],
     "auto": ["Посвідчення водія, авто, Gewerbe | Amtsbriefe", "Обмін посвідчення водія, реєстрація авто й діяльності, посвідчення інвалідності, ступінь догляду: строки та безкоштовні шаблони листів."]
   },
   "pl": {
@@ -54,6 +60,7 @@
     "sozial": ["Świadczenia w Niemczech: wnioski i wzory | Amtsbriefe", "Wohngeld, Kinderzuschlag, Elterngeld, Unterhaltsvorschuss, Grundsicherung: terminy, właściwy urząd, darmowe wzory pism. 13 języków."],
     "alltag": ["Wypowiedzenie umowy, windykacja: wzory pism", "Wypowiedzenie umowy na telefon lub siłownię, sprzeciw wobec windykacji, wady mieszkania, rozliczenie kosztów: darmowe wzory pism."],
     "familie": ["Akt urodzenia, Kita, szkoła: wzory pism | Amtsbriefe", "Rejestracja urodzenia, miejsce w Kita, usprawiedliwienie do szkoły, Jugendamt: terminy i darmowe wzory pism, w 13 językach."],
+    "integ": ["Kurs integracyjny 2026: dopuszczenie, koszty, zwolnienie", "Kto może iść na kurs integracyjny, ile kosztuje, jak dostać zwolnienie, dopłatę do dojazdów i 50% zwrotu. Terminy i darmowe wzory pism, 13 języków."],
     "auto": ["Prawo jazdy, auto, działalność w Niemczech", "Wymiana prawa jazdy, rejestracja auta i działalności, legitymacja niepełnosprawności, stopień pielęgnacji: terminy i darmowe wzory pism."]
   },
   "el": {
@@ -62,6 +69,7 @@
     "sozial": ["Επιδόματα στη Γερμανία: αιτήσεις | Amtsbriefe", "Wohngeld, Kinderzuschlag, Elterngeld, Unterhaltsvorschuss, Grundsicherung: προθεσμίες, αρμόδια υπηρεσία, δωρεάν πρότυπα επιστολών."],
     "alltag": ["Καταγγελία σύμβασης, εισπρακτική: πρότυπα", "Καταγγελία σύμβασης κινητού ή γυμναστηρίου, ένσταση σε εισπρακτική, ελαττώματα κατοικίας στη Γερμανία: δωρεάν πρότυπα επιστολών."],
     "familie": ["Πιστοποιητικό γέννησης, Kita, σχολείο | Amtsbriefe", "Δήλωση γέννησης, θέση σε Kita, δικαιολόγηση απουσίας στο σχολείο, Jugendamt: προθεσμίες και δωρεάν πρότυπα επιστολών."],
+    "integ": ["Μάθημα ένταξης 2026: εισαγωγή, κόστος, απαλλαγή", "Ποιος μπορεί στο μάθημα ένταξης, πόσο κοστίζει, πώς παίρνετε απαλλαγή, επίδομα μετακίνησης και 50% πίσω. Προθεσμίες και δωρεάν πρότυπα, 13 γλώσσες."],
     "auto": ["Δίπλωμα, αυτοκίνητο, επιχείρηση στη Γερμανία", "Μετατροπή διπλώματος, ταξινόμηση αυτοκινήτου, δήλωση επιχείρησης, κάρτα αναπηρίας, βαθμός φροντίδας: δωρεάν πρότυπα επιστολών."]
   },
   "fr": {
@@ -70,6 +78,7 @@
     "sozial": ["Prestations sociales en Allemagne : demandes", "Wohngeld, Kinderzuschlag, Elterngeld, Unterhaltsvorschuss, Grundsicherung : délais, service compétent, modèles de lettres gratuits."],
     "alltag": ["Résiliation, recouvrement : modèles de lettres", "Résilier un forfait mobile ou une salle de sport, contester un recouvrement, signaler des défauts en Allemagne : modèles de lettres gratuits."],
     "familie": ["Acte de naissance, Kita, école : modèles | Amtsbriefe", "Déclarer une naissance, demander une place en Kita, mot d'excuse pour l'école, Jugendamt : délais et modèles de lettres gratuits."],
+    "integ": ["Cours d'intégration 2026 : admission, coûts, exonération", "Qui peut suivre le cours d'intégration, combien il coûte, comment obtenir l'exonération, l'aide au transport et 50 % remboursés. Délais et modèles, 13 langues."],
     "auto": ["Permis, voiture, entreprise en Allemagne | Amtsbriefe", "Échanger son permis, immatriculer une voiture, déclarer une activité, carte de handicap, niveau de dépendance : modèles de lettres gratuits."]
   },
   "nl": {
@@ -78,6 +87,7 @@
     "sozial": ["Uitkeringen in Duitsland aanvragen | Amtsbriefe", "Wohngeld, Kinderzuschlag, Elterngeld, Unterhaltsvorschuss, Grundsicherung: termijnen, bevoegde instantie, gratis briefsjablonen."],
     "alltag": ["Opzeggen, incasso betwisten: briefsjablonen", "Telefoon- of sportschoolabonnement opzeggen, incasso betwisten, gebreken melden, servicekosten controleren in Duitsland: gratis sjablonen."],
     "familie": ["Geboorteakte, kinderopvang, school | Amtsbriefe", "Geboorte aangeven, kinderopvangplaats aanvragen, ziekmelding voor school, Jugendamt: termijnen en gratis voorbeeldbrieven, in 13 talen."],
+    "integ": ["Integratiecursus 2026: toelating, kosten, vrijstelling", "Wie mag naar de integratiecursus, wat kost het, hoe krijg je vrijstelling, reiskosten en 50% terug? Termijnen en gratis briefsjablonen, 13 talen."],
     "auto": ["Rijbewijs, auto, bedrijf in Duitsland | Amtsbriefe", "Rijbewijs omzetten, auto inschrijven, bedrijf aanmelden, gehandicaptenpas, zorggraad: termijnen en gratis voorbeeldbrieven, in 13 talen."]
   },
   "ro": {
@@ -86,6 +96,7 @@
     "sozial": ["Ajutoare sociale în Germania: cereri | Amtsbriefe", "Wohngeld, Kinderzuschlag, Elterngeld, Unterhaltsvorschuss, Grundsicherung: termene, instituția competentă, modele de scrisori gratuite."],
     "alltag": ["Reziliere, recuperare datorii: modele scrisori", "Reziliați abonamentul de telefon sau sală, contestați recuperarea datoriilor, semnalați defecte în Germania: modele de scrisori gratuite."],
     "familie": ["Certificat de naștere, grădiniță, școală", "Înregistrarea nașterii, loc la grădiniță, scutire pentru școală, Jugendamt: termene și modele de scrisori gratuite, în 13 limbi."],
+    "integ": ["Curs de integrare 2026: admitere, costuri, scutire", "Cine poate merge la cursul de integrare, cât costă, cum obțineți scutire, transport și 50% înapoi. Termene și modele gratuite de scrisori, 13 limbi."],
     "auto": ["Permis, mașină, afacere în Germania | Amtsbriefe", "Preschimbarea permisului, înmatricularea mașinii, înregistrarea afacerii, certificat de handicap, grad de îngrijire: modele gratuite."]
   },
   "es": {
@@ -94,6 +105,7 @@
     "sozial": ["Prestaciones sociales en Alemania: solicitudes", "Wohngeld, Kinderzuschlag, Elterngeld, Unterhaltsvorschuss, Grundsicherung: plazos, oficina competente, plantillas de cartas gratis."],
     "alltag": ["Dar de baja contratos, cobro de deudas: cartas", "Dar de baja el móvil o el gimnasio, recurrir un cobro de deudas, comunicar defectos de la vivienda en Alemania: plantillas de cartas gratis."],
     "familie": ["Partida de nacimiento, guardería, colegio | Amtsbriefe", "Registrar un nacimiento, pedir plaza de guardería, justificante para el colegio, Jugendamt: plazos y modelos de cartas gratis, 13 idiomas."],
+    "integ": ["Curso de integración 2026: admisión, costes, exención", "Quién puede ir al curso de integración, cuánto cuesta, cómo conseguir exención, transporte y 50 % de vuelta. Plazos y plantillas gratis, 13 idiomas."],
     "auto": ["Permiso de conducir, coche, negocio en Alemania", "Canjear el permiso, matricular el coche, dar de alta un negocio, certificado de discapacidad, grado de dependencia: modelos de cartas gratis."]
   },
   "ku": {
@@ -102,6 +114,7 @@
     "sozial": ["Wohngeld, Elterngeld: serlêdan | Amtsbriefe", "Wohngeld, Kinderzuschlag, Elterngeld, Unterhaltsvorschuss, Grundsicherung: dem, saziya berpirsiyar, şablonên nameyan ên belaş."],
     "alltag": ["Betalkirina peymanê, Inkasso: şablon | Amtsbriefe", "Li Almanyayê peymana telefonê betal bike, li dijî Inkassoyê îtiraz bike, kêmasiyên xanî ragihîne: şablonên nameyan ên belaş, 13 ziman."],
     "familie": ["Belgeya jidayikbûnê, Kita, dibistan | Amtsbriefe", "Qeydkirina jidayikbûnê, cihê Kitayê, lêborîna ji bo dibistanê, Jugendamt: dem û şablonên nameyan ên belaş, bi 13 zimanan."],
+    "integ": ["Kursa entegrasyonê 2026: qebûl, lêçûn, bexşandin", "Kî dikare biçe kursa entegrasyonê, çiqas lêçûn e, çawa bexşandin, rêwîtî û 50% paşve tê girtin? Dem û şablonên belaş, 13 ziman."],
     "auto": ["Ehliyet, erebe, karsazî li Almanyayê | Amtsbriefe", "Guhertina ehliyetê, qeydkirina erebe û karsaziyê, nasnameya kêmendamiyê, pileya lênêrînê: dem û şablonên nameyan ên belaş."]
   }
 }

@@ -1,6 +1,7 @@
 // German letter templates (letters to German authorities are always written in German).
 // {{key}} = field to fill in. SAMPLE holds example values for the "filled example" view.
 const SAMPLE = {
+  course: "Integrationskurs, Kurs-Nr. 2026-117", kstart: "14.09.2026", bnr: "BAMF-Kennziffer 123456789", certdate: "10.11.2026", firstdate: "01.03.2025", iban: "DE00 1234 5678 9012 3456 78",
   name: "Ayşe Yılmaz",
   street: "Musterstraße 12",
   city: "23611 Bad Schwartau",
@@ -38,6 +39,7 @@ const SAMPLE = {
 };
 
 const LABELS = {
+  course: "Kurs (Bezeichnung / Kursnummer)", kstart: "Kursbeginn (Datum)", bnr: "BAMF-Kennziffer / Nummer der Teilnahmeberechtigung", certdate: "Datum des Zertifikats", firstdate: "Datum der ersten Teilnahmeberechtigung", iban: "IBAN",
   name: "Vor- und Nachname", street: "Straße und Hausnummer", city: "PLZ und Ort",
   dob: "Geburtsdatum", nat: "Staatsangehörigkeit", file: "Aktenzeichen",
   office: "Name der Behörde", officeaddr: "Adresse der Behörde", title: "Art des Aufenthaltstitels",
@@ -511,6 +513,44 @@ am {{adate}} habe ich Leistungen der Pflegeversicherung für {{person}} beantrag
 Nach § 18c Abs. 1 SGB XI muss die Pflegekasse spätestens 25 Arbeitstage nach Eingang des Antrags entscheiden. Wird diese Frist überschritten, zahlt sie für jede begonnene Woche der Fristüberschreitung 70 Euro (§ 18c Abs. 5 SGB XI).
 
 Bitte entscheiden Sie umgehend über meinen Antrag und zahlen Sie den mir zustehenden Betrag. Bitte teilen Sie mir schriftlich mit, wie viele Wochen Sie berechnet haben.`,
+  },
+  ikbesch: {
+    sample: { office: "Sprachschule Muster – Integrationskurse", officeaddr: "Musterstraße 1\n23552 Lübeck", purpose: "Vorlage beim Jobcenter" },
+    subj: "Bitte um Bescheinigung über die ordnungsgemäße Teilnahme am Integrationskurs (§ 14 Abs. 6 IntV)",
+    body: `Sehr geehrte Damen und Herren,
+
+ich nehme seit dem {{kstart}} an Ihrem Integrationskurs teil ({{course}}).
+
+Nach § 14 Abs. 6 IntV bitte ich Sie, mir eine Bescheinigung über meine bisherige ordnungsgemäße Teilnahme auszustellen. Ich benötige sie für: {{purpose}}.
+
+Bitte senden Sie mir die Bescheinigung an meine oben genannte Adresse oder geben Sie sie mir im Kurs.`,
+  },
+  ikfehl: {
+    sample: { office: "Sprachschule Muster – Integrationskurse", officeaddr: "Musterstraße 1\n23552 Lübeck", absent: "10.11.2026 bis 12.11.2026", why: "Ich war krank. Die Arbeitsunfähigkeitsbescheinigung lege ich bei." },
+    subj: "Entschuldigung für Fehlzeiten im Integrationskurs – {{course}}",
+    body: `Sehr geehrte Damen und Herren,
+
+ich konnte im Zeitraum {{absent}} nicht am Integrationskurs ({{course}}) teilnehmen.
+
+Grund:
+{{why}}
+
+Einen Nachweis lege ich bei bzw. reiche ich nach. Ich bitte, die Fehlzeit zu entschuldigen. Den versäumten Unterrichtsstoff arbeite ich nach.`,
+  },
+  ikerst: {
+    sample: { office: "Bundesamt für Migration und Flüchtlinge – Regionalstelle", officeaddr: "Musterstraße 1\n12345 Musterstadt" },
+    subj: "Antrag auf Erstattung von 50 % des Kostenbeitrags zum Integrationskurs (§ 9 Abs. 6 IntV) – {{bnr}}",
+    body: `Sehr geehrte Damen und Herren,
+
+ich habe den Integrationskurs erfolgreich abgeschlossen (Zertifikat Integrationskurs vom {{certdate}}). Meine erste Teilnahmeberechtigung wurde am {{firstdate}} ausgestellt. Der erfolgreiche Abschluss liegt damit innerhalb von zwei Jahren.
+
+Hiermit beantrage ich nach § 9 Abs. 6 IntV die Erstattung von 50 Prozent des von mir gezahlten Kostenbeitrags.
+
+Bitte überweisen Sie den Betrag auf folgendes Konto:
+Kontoinhaber/in: {{name}}
+IBAN: {{iban}}
+
+Eine Kopie des Zertifikats und Nachweise über die gezahlten Kostenbeiträge lege ich bei.`,
   },
 };
 

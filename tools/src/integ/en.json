@@ -1,0 +1,98 @@
+{
+ "title": "Integration course: admission, costs, exemption, travel costs, test – free letter templates",
+ "desc": "Integration course 2026: who can take part, what it costs, how to get an exemption, travel subsidy and a 50% refund. Deadlines and letter templates in 13 languages.",
+ "h1": "Integration course: admission, costs and test – step by step",
+ "intro": "Important: since 2026, voluntary participants only get a place to a limited extent. Apply for the fee exemption and the travel subsidy before the course starts – they are usually not granted retroactively. If you complete the course successfully, you can get half of the fee back.",
+ "steps": [
+  [
+   "Who can take part?",
+   "If the immigration office or the Jobcenter obliged you to attend, or you have a right to it (e.g. with a new residence permit), you get a certificate of entitlement (Teilnahmeberechtigung). Everyone else must apply to the BAMF for admission (§ 44(4) AufenthG) – since 2026 only if places are free. Priority: people with a residence permit under § 24 AufenthG (Ukraine) and Germans and EU citizens whose German is not enough for work or training, plus their families (§ 5(4) IntV)."
+  ],
+  [
+   "Apply to the BAMF for admission",
+   "Submit a complete application with proof. You can also apply through a course provider and apply for the fee exemption at the same time (§ 5(1) IntV). Admission is valid for one year. If you are refused, the decision explains how to object."
+  ],
+  [
+   "Course fee – and how to be exempted",
+   "The fee is half of the cost reimbursement rate (§ 9(1) IntV), usually €2.29 per lesson. On application, people receiving Grundsicherungsgeld (SGB II), social assistance, AsylbLG benefits or unemployment benefit, and low-income employees are exempt (§ 9(2) IntV). If the Jobcenter obliged you to attend, you are usually exempt automatically. If your situation changes, tell the BAMF immediately."
+  ],
+  [
+   "Travel cost subsidy",
+   "If you are exempt because of Grundsicherungsgeld, social assistance, AsylbLG benefits or unemployment benefit, you can apply for a flat-rate travel subsidy – before the course section starts (§ 4a IntV). It is usually granted if the course is more than 3 km from your home."
+  ],
+  [
+   "Attend regularly – ask for a certificate",
+   "On request, the course provider must give you a certificate of regular attendance, even before the course ends (§ 14(6) IntV). The immigration office and the Jobcenter can ask for it. Excuse absences in writing. You pay the fee for the whole course section, even if you miss classes (§ 9(4) IntV)."
+  ],
+  [
+   "Changing the course provider",
+   "A change is possible for special reasons, e.g. moving house, switching between part-time and full-time, childcare, training or work (§ 14(4) IntV). Talk to your course provider first."
+  ],
+  [
+   "Final tests and certificate",
+   "The course ends with the 'Deutsch-Test für Zuwanderer' (A2–B1) and the 'Leben in Deutschland' test (§ 17 IntV). The BAMF pays for the tests once; if you fail the language test before your hours run out, it also pays for a second try. With B1 and a passed orientation test you get the 'Zertifikat Integrationskurs'. You can repeat course sections at your own cost (§ 14(5) IntV)."
+  ],
+  [
+   "If successful: 50% back",
+   "If you complete the course successfully within 2 years of your first entitlement, the BAMF can refund half of the fee you paid (§ 9(6) IntV). Template below."
+  ]
+ ],
+ "deadlines": [
+  [
+   "Admission by the BAMF",
+   "valid for 1 year (§ 5(3) IntV)"
+  ],
+  [
+   "Exemption from the course fee",
+   "apply before the course starts – not retroactive"
+  ],
+  [
+   "Travel cost subsidy",
+   "apply before the course section starts (§ 4a IntV)"
+  ],
+  [
+   "Course fee (Kostenbeitrag)",
+   "usually €2.29 per lesson, due at the start of each course section"
+  ],
+  [
+   "Course length",
+   "700 lessons: language course + orientation course (§ 10 IntV)"
+  ],
+  [
+   "50% of the fee back",
+   "if successful within 2 years of your first entitlement (§ 9(6) IntV)"
+  ]
+ ],
+ "contactsTitle": "Official offices and free help",
+ "contacts": [
+  [
+   "BAMF-NAvI",
+   "Find course providers and your BAMF regional office",
+   "bamf-navi.bamf.de"
+  ],
+  [
+   "BAMF – Integration courses",
+   "Official information, leaflets and forms",
+   "bamf.de"
+  ],
+  [
+   "Migration counselling (MBE / JMD)",
+   "Free help with applications",
+   "bamf-navi.bamf.de"
+  ]
+ ],
+ "letters": {
+  "ikbesch": [
+   "Request a certificate of attendance (Bescheinigung über die Teilnahme)",
+   "to the course provider – e.g. for the Jobcenter or immigration office (§ 14(6) IntV)"
+  ],
+  "ikfehl": [
+   "Excuse for missed classes (Entschuldigung)",
+   "to the course provider – if you were ill or had an important reason"
+  ],
+  "ikerst": [
+   "Application for a 50% fee refund (Antrag auf Erstattung)",
+   "to the BAMF – after completing successfully (§ 9(6) IntV)"
+  ]
+ }
+}

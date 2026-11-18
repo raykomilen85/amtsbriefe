@@ -1,0 +1,90 @@
+{
+ "title": "Grundsicherungsgeld în loc de Bürgergeld: reducere, audiere, contestație – modele gratuite",
+ "desc": "Din 1 iulie 2026 Bürgergeld se numește Grundsicherungsgeld. Ce se întâmplă la încălcarea obligațiilor, programări ratate sau audiere? Termene și modele în 13 limbi.",
+ "h1": "Grundsicherungsgeld (fost Bürgergeld): reducere, audiere, contestație",
+ "intro": "Important: din 1 iulie 2026 Bürgergeld se numește „Grundsicherungsgeld”. Deciziile dvs. anterioare rămân valabile; în scrisori poate apărea încă o vreme „Bürgergeld”. Dacă primiți o scrisoare de audiere (Anhörung), răspundeți repede, în scris, cu dovezi pentru un motiv important.",
+ "steps": [
+  [
+   "Ce s-a schimbat?",
+   "La 1 iulie 2026 Bürgergeld a fost înlocuit de Grundsicherungsgeld. Deciziile existente rămân valabile. Cererile, deciziile și scrisorile sunt adaptate treptat – poate apărea încă „Bürgergeld”. Obligațiile de cooperare au devenit mai stricte."
+  ],
+  [
+   "Ce obligații aveți?",
+   "Este încălcare dacă, deși ați fost avertizat în scris, nu dovediți eforturile cerute de căutare a unui loc de muncă sau refuzați ori abandonați o muncă, o formare sau o măsură potrivită – inclusiv cursul de integrare sau cursul de limbă profesională (§ 31 SGB II). Nu se aplică dacă explicați și dovediți un motiv important."
+  ],
+  [
+   "Ce se întâmplă la încălcare?",
+   "Grundsicherungsgeld se reduce cu 30% din suma de bază timp de trei luni (§§ 31a, 31b SGB II). Dacă vă îndepliniți obligațiile sau vă declarați serios dispus, reducerea se anulează – cel mai devreme după o lună. Plata pentru chirie și încălzire nu se reduce. În caz de dificultate excepțională nu există reducere."
+  ],
+  [
+   "Programările la Jobcenter",
+   "Dacă ratați repetat programări fără motiv important, se reduce de fiecare dată cu 30% timp de o lună (§ 32 SGB II). Anulați din timp și trimiteți dovadă, de ex. un certificat medical."
+  ],
+  [
+   "Atenție: refuzul unei munci potrivite",
+   "Dacă refuzați o muncă potrivită disponibilă imediat, dreptul la suma de bază poate dispărea complet; chiria și încălzirea se plătesc atunci proprietarului (§ 31a Abs. 7 SGB II). Cereți imediat ajutor la un serviciu de consiliere."
+  ],
+  [
+   "Audierea – șansa dvs.",
+   "Înainte de a decide o reducere, Jobcenterul trebuie să vă asculte (§ 24 SGB X). Puteți cere o audiere personală (§ 31a Abs. 2 SGB II). Răspundeți la timp, explicați motivul și atașați dovezi. Model mai jos."
+  ],
+  [
+   "Contestație și ajutor gratuit",
+   "Puteți contesta decizia de reducere în termen de o lună (§ 84 SGG). Ajutor gratuit: consiliere socială (Caritas, Diakonie, AWO), consiliere pentru migranți și certificat de asistență juridică (Beratungshilfe) de la judecătorie."
+  ]
+ ],
+ "deadlines": [
+  [
+   "Răspuns la audiere",
+   "până la termenul din scrisoare (§ 24 SGB X)"
+  ],
+  [
+   "Contestație împotriva deciziei",
+   "1 lună de la comunicare (§ 84 SGG)"
+  ],
+  [
+   "Reducere la încălcarea obligațiilor",
+   "30% din suma de bază timp de 3 luni (§§ 31a, 31b SGB II)"
+  ],
+  [
+   "Programare ratată repetat",
+   "de fiecare dată 30% timp de 1 lună (§ 32 SGB II)"
+  ],
+  [
+   "Stabilirea reducerii",
+   "doar în 6 luni de la încălcare (§ 31b SGB II)"
+  ],
+  [
+   "Decizie greșită, termen ratat",
+   "cerere de reexaminare posibilă (§ 44 SGB X)"
+  ]
+ ],
+ "contactsTitle": "Informații oficiale și ajutor gratuit",
+ "contacts": [
+  [
+   "Arbeitsagentur – Grundsicherungsgeld înlocuiește Bürgergeld",
+   "Informații oficiale despre reformă",
+   "arbeitsagentur.de"
+  ],
+  [
+   "BAMF-NAvI – consiliere pentru migranți",
+   "Consiliere gratuită lângă dvs.",
+   "bamf-navi.bamf.de"
+  ],
+  [
+   "115",
+   "Numărul instituțiilor: ce Jobcenter este competent?",
+   "115"
+  ]
+ ],
+ "letters": {
+  "gsanh": [
+   "Răspuns la audiere înainte de reducere (Stellungnahme zur Anhörung)",
+   "către Jobcenter – explicați motivul important, atașați dovezi"
+  ],
+  "gswid": [
+   "Contestație împotriva reducerii (Widerspruch gegen eine Minderung)",
+   "către Jobcenter – în termen de o lună (§ 84 SGG)"
+  ]
+ }
+}

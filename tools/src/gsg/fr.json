@@ -1,0 +1,90 @@
+{
+ "title": "Grundsicherungsgeld au lieu du Bürgergeld : réduction, audition, recours – modèles gratuits",
+ "desc": "Depuis le 1er juillet 2026, le Bürgergeld s'appelle Grundsicherungsgeld. Que se passe-t-il en cas de manquement, de rendez-vous manqué ou d'audition ? Délais et modèles, 13 langues.",
+ "h1": "Grundsicherungsgeld (ex-Bürgergeld) : réduction, audition, recours",
+ "intro": "Important : depuis le 1er juillet 2026, le Bürgergeld s'appelle « Grundsicherungsgeld ». Vos décisions actuelles restent valables ; les lettres peuvent encore mentionner « Bürgergeld » quelque temps. Si vous recevez une lettre d'audition (Anhörung), répondez vite et par écrit, avec des preuves d'un motif important.",
+ "steps": [
+  [
+   "Qu'est-ce qui a changé ?",
+   "Le 1er juillet 2026, le Bürgergeld a été remplacé par le Grundsicherungsgeld. Les décisions existantes restent valables. Formulaires, décisions et lettres sont adaptés peu à peu – « Bürgergeld » peut encore y figurer. Les obligations de coopération sont plus strictes."
+  ],
+  [
+   "Quelles sont vos obligations ?",
+   "Il y a manquement si, malgré un avertissement écrit, vous ne justifiez pas les recherches d'emploi demandées ou refusez ou abandonnez un travail, une formation ou une mesure raisonnable – y compris un cours d'intégration ou de langue professionnelle (§ 31 SGB II). Ce n'est pas le cas si vous expliquez et prouvez un motif important."
+  ],
+  [
+   "Que se passe-t-il en cas de manquement ?",
+   "Le Grundsicherungsgeld est réduit de 30 % du montant de base pendant trois mois (§§ 31a, 31b SGB II). Si vous remplissez vos obligations ou vous déclarez sérieusement prêt à le faire, la réduction est levée – au plus tôt après un mois. Le loyer et le chauffage ne sont pas réduits. En cas de difficulté exceptionnelle, pas de réduction."
+  ],
+  [
+   "Rendez-vous au Jobcenter",
+   "Si vous manquez des rendez-vous à plusieurs reprises sans motif important, la prestation est réduite à chaque fois de 30 % pendant un mois (§ 32 SGB II). Annulez à l'avance et envoyez une preuve, p. ex. un certificat médical."
+  ],
+  [
+   "Attention : refus d'un travail raisonnable",
+   "Si vous refusez un travail raisonnable disponible immédiatement, le droit au montant de base peut disparaître entièrement ; le loyer et le chauffage sont alors versés au bailleur (§ 31a Abs. 7 SGB II). Demandez tout de suite l'aide d'un service de conseil."
+  ],
+  [
+   "L'audition – votre chance",
+   "Avant de décider une réduction, le Jobcenter doit vous entendre (§ 24 SGB X). Vous pouvez demander une audition en personne (§ 31a Abs. 2 SGB II). Répondez dans le délai, expliquez votre motif et joignez des preuves. Modèle ci-dessous."
+  ],
+  [
+   "Recours et aide gratuite",
+   "Vous pouvez contester une décision de réduction dans un délai d'un mois (§ 84 SGG). Aide gratuite : services sociaux (Caritas, Diakonie, AWO), conseil aux migrants et bon d'aide juridique (Beratungshilfe) du tribunal d'instance."
+  ]
+ ],
+ "deadlines": [
+  [
+   "Réponse à une audition",
+   "avant le délai indiqué dans la lettre (§ 24 SGB X)"
+  ],
+  [
+   "Recours contre une décision",
+   "1 mois après la notification (§ 84 SGG)"
+  ],
+  [
+   "Réduction pour manquement",
+   "30 % du montant de base pendant 3 mois (§§ 31a, 31b SGB II)"
+  ],
+  [
+   "Rendez-vous manqués à répétition",
+   "à chaque fois 30 % pendant 1 mois (§ 32 SGB II)"
+  ],
+  [
+   "Décision de réduction",
+   "seulement dans les 6 mois après le manquement (§ 31b SGB II)"
+  ],
+  [
+   "Décision erronée, délai dépassé",
+   "demande de réexamen possible (§ 44 SGB X)"
+  ]
+ ],
+ "contactsTitle": "Informations officielles et aide gratuite",
+ "contacts": [
+  [
+   "Arbeitsagentur – Grundsicherungsgeld remplace le Bürgergeld",
+   "Informations officielles sur la réforme",
+   "arbeitsagentur.de"
+  ],
+  [
+   "BAMF-NAvI – conseil aux migrants",
+   "Conseil gratuit près de chez vous",
+   "bamf-navi.bamf.de"
+  ],
+  [
+   "115",
+   "Numéro des administrations : quel Jobcenter est compétent ?",
+   "115"
+  ]
+ ],
+ "letters": {
+  "gsanh": [
+   "Réponse à une audition avant réduction (Stellungnahme zur Anhörung)",
+   "au Jobcenter – expliquer le motif important, joindre des preuves"
+  ],
+  "gswid": [
+   "Recours contre une réduction (Widerspruch gegen eine Minderung)",
+   "au Jobcenter – dans un délai d'un mois (§ 84 SGG)"
+  ]
+ }
+}

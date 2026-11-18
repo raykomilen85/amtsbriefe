@@ -1,0 +1,90 @@
+{
+ "title": "Grundsicherungsgeld instead of Bürgergeld: benefit cuts, hearing, objection – free letter templates",
+ "desc": "Since 1 July 2026 Bürgergeld is called Grundsicherungsgeld. What happens if you breach a duty, miss appointments or get a hearing letter? Deadlines and templates, 13 languages.",
+ "h1": "Grundsicherungsgeld (formerly Bürgergeld): cuts, hearing, objection",
+ "intro": "Important: since 1 July 2026, Bürgergeld is called 'Grundsicherungsgeld'. Your existing decisions remain valid; letters may still say 'Bürgergeld' for a while. If you receive a hearing letter (Anhörung), answer quickly in writing and attach proof of an important reason.",
+ "steps": [
+  [
+   "What has changed?",
+   "On 1 July 2026 Bürgergeld was replaced by Grundsicherungsgeld. Existing decisions remain valid. Forms, decisions and letters are being updated step by step – they may still say 'Bürgergeld'. The duties to cooperate have become stricter."
+  ],
+  [
+   "What are your duties?",
+   "It is a breach of duty if, despite a written warning, you do not prove the job-search efforts required or you refuse or quit reasonable work, training or a measure – including an integration course or job-related German course (§ 31 SGB II). This does not apply if you explain and prove an important reason."
+  ],
+  [
+   "What happens after a breach?",
+   "Grundsicherungsgeld is cut by 30% of the standard rate for three months (§§ 31a, 31b SGB II). If you meet your duties or seriously declare you are willing to, the cut is lifted – after one month at the earliest. Payments for rent and heating are not cut. In cases of exceptional hardship there is no cut."
+  ],
+  [
+   "Jobcenter appointments",
+   "If you repeatedly miss appointments without an important reason, the benefit is cut by 30% of the standard rate for one month each time (§ 32 SGB II). Cancel appointments you cannot attend in advance and send proof, e.g. a doctor's note."
+  ],
+  [
+   "Careful: refusing reasonable work",
+   "If you refuse reasonable work that is available immediately, your entitlement to the standard rate can be removed completely; rent and heating are then paid to the landlord (§ 31a(7) SGB II). Get help from a counselling service immediately."
+  ],
+  [
+   "The hearing – your chance",
+   "Before the Jobcenter decides on a cut, it must hear you (§ 24 SGB X). You can ask to be heard in person (§ 31a(2) SGB II). Reply on time, explain your important reason and attach proof. Template below."
+  ],
+  [
+   "Objection and free help",
+   "You can object to a decision on a cut within one month (§ 84 SGG). Free help is available from social counselling (Caritas, Diakonie, AWO), migration counselling and with a legal-aid certificate (Beratungshilfe) from the local court."
+  ]
+ ],
+ "deadlines": [
+  [
+   "Reply to a hearing letter",
+   "by the deadline in the letter (§ 24 SGB X)"
+  ],
+  [
+   "Objection to a decision",
+   "1 month after notification (§ 84 SGG)"
+  ],
+  [
+   "Cut for a breach of duty",
+   "30% of the standard rate for 3 months (§§ 31a, 31b SGB II)"
+  ],
+  [
+   "Repeatedly missed appointment",
+   "30% of the standard rate for 1 month each time (§ 32 SGB II)"
+  ],
+  [
+   "Deciding on a cut",
+   "only within 6 months of the breach (§ 31b SGB II)"
+  ],
+  [
+   "Wrong decision, deadline missed",
+   "request for review possible (§ 44 SGB X)"
+  ]
+ ],
+ "contactsTitle": "Official information and free help",
+ "contacts": [
+  [
+   "Arbeitsagentur – Grundsicherungsgeld replaces Bürgergeld",
+   "Official information on the reform",
+   "arbeitsagentur.de"
+  ],
+  [
+   "BAMF-NAvI – migration counselling",
+   "Free counselling near you",
+   "bamf-navi.bamf.de"
+  ],
+  [
+   "115",
+   "Public service number: which Jobcenter is responsible?",
+   "115"
+  ]
+ ],
+ "letters": {
+  "gsanh": [
+   "Reply to a hearing before a cut (Stellungnahme zur Anhörung)",
+   "to the Jobcenter – explain your important reason, attach proof"
+  ],
+  "gswid": [
+   "Objection to a cut (Widerspruch gegen eine Minderung)",
+   "to the Jobcenter – within one month (§ 84 SGG)"
+  ]
+ }
+}

@@ -1,0 +1,90 @@
+{
+ "title": "Grundsicherungsgeld statt Bürgergeld: Minderung, Anhörung, Widerspruch – kostenlose Briefvorlagen",
+ "desc": "Seit 1. Juli 2026 heißt das Bürgergeld Grundsicherungsgeld. Was gilt bei Pflichtverletzung, Meldeversäumnis und Anhörung? Fristen und Briefvorlagen, 13 Sprachen.",
+ "h1": "Grundsicherungsgeld (früher Bürgergeld): Minderung, Anhörung, Widerspruch",
+ "intro": "Wichtig: Seit dem 1. Juli 2026 heißt das Bürgergeld „Grundsicherungsgeld“. Ihre bisherigen Bescheide gelten weiter; in Briefen kann vorübergehend noch „Bürgergeld“ stehen. Bekommen Sie eine Anhörung, antworten Sie schnell und schriftlich und legen Sie Nachweise für einen wichtigen Grund bei.",
+ "steps": [
+  [
+   "Was hat sich geändert?",
+   "Zum 1. Juli 2026 wurde das Bürgergeld durch das Grundsicherungsgeld ersetzt. Bisherige Bescheide gelten inhaltlich weiter. Anträge, Bescheide und Schreiben werden nach und nach angepasst – darin kann noch „Bürgergeld“ stehen. Die Mitwirkungspflichten sind strenger geworden."
+  ],
+  [
+   "Welche Pflichten haben Sie?",
+   "Eine Pflichtverletzung liegt vor, wenn Sie trotz schriftlicher Belehrung geforderte Eigenbemühungen nicht nachweisen oder eine zumutbare Arbeit, Ausbildung oder Maßnahme ablehnen oder abbrechen – auch einen Integrationskurs oder Berufssprachkurs (§ 31 SGB II). Das gilt nicht, wenn Sie einen wichtigen Grund darlegen und nachweisen."
+  ],
+  [
+   "Was passiert bei einer Pflichtverletzung?",
+   "Das Grundsicherungsgeld wird um 30 % des Regelbedarfs gemindert, für drei Monate (§§ 31a, 31b SGB II). Erfüllen Sie Ihre Pflichten oder erklären Sie sich ernsthaft dazu bereit, wird die Minderung aufgehoben – frühestens nach einem Monat. Die Zahlung für Miete und Heizung wird nicht gekürzt. Bei einer außergewöhnlichen Härte gibt es keine Minderung."
+  ],
+  [
+   "Termine beim Jobcenter",
+   "Versäumen Sie Termine wiederholt ohne wichtigen Grund, wird jeweils um 30 % des Regelbedarfs für einen Monat gemindert (§ 32 SGB II). Sagen Sie Termine, die Sie nicht wahrnehmen können, vorher ab und schicken Sie einen Nachweis, z. B. eine ärztliche Bescheinigung."
+  ],
+  [
+   "Achtung: zumutbare Arbeit abgelehnt",
+   "Lehnen Sie eine zumutbare Arbeit ab, die sofort möglich ist, kann der Anspruch in Höhe des Regelbedarfs ganz entfallen; Miete und Heizung werden dann an den Vermieter gezahlt (§ 31a Abs. 7 SGB II). Holen Sie in diesem Fall sofort Hilfe bei einer Beratungsstelle."
+  ],
+  [
+   "Die Anhörung – Ihre Chance",
+   "Bevor das Jobcenter eine Minderung feststellt, muss es Sie anhören (§ 24 SGB X). Sie können eine persönliche Anhörung verlangen (§ 31a Abs. 2 SGB II). Antworten Sie fristgerecht, erklären Sie Ihren wichtigen Grund und legen Sie Nachweise bei. Vorlage unten."
+  ],
+  [
+   "Widerspruch und kostenlose Hilfe",
+   "Gegen einen Minderungsbescheid können Sie innerhalb eines Monats Widerspruch einlegen (§ 84 SGG). Kostenlose Hilfe gibt es bei Sozialberatungen (Caritas, Diakonie, AWO), bei der Migrationsberatung und mit einem Beratungshilfeschein vom Amtsgericht."
+  ]
+ ],
+ "deadlines": [
+  [
+   "Antwort auf eine Anhörung",
+   "bis zur Frist im Brief (§ 24 SGB X)"
+  ],
+  [
+   "Widerspruch gegen einen Bescheid",
+   "1 Monat ab Bekanntgabe (§ 84 SGG)"
+  ],
+  [
+   "Minderung bei Pflichtverletzung",
+   "30 % des Regelbedarfs für 3 Monate (§§ 31a, 31b SGB II)"
+  ],
+  [
+   "Wiederholt Termin versäumt",
+   "jeweils 30 % des Regelbedarfs für 1 Monat (§ 32 SGB II)"
+  ],
+  [
+   "Feststellung einer Minderung",
+   "nur bis 6 Monate nach der Pflichtverletzung (§ 31b SGB II)"
+  ],
+  [
+   "Falscher Bescheid, Frist verpasst",
+   "Überprüfungsantrag möglich (§ 44 SGB X)"
+  ]
+ ],
+ "contactsTitle": "Offizielle Informationen und kostenlose Hilfe",
+ "contacts": [
+  [
+   "Arbeitsagentur – Grundsicherungsgeld löst Bürgergeld ab",
+   "Offizielle Informationen zur Reform",
+   "arbeitsagentur.de"
+  ],
+  [
+   "BAMF-NAvI – Migrationsberatung",
+   "Kostenlose Beratung in Ihrer Nähe",
+   "bamf-navi.bamf.de"
+  ],
+  [
+   "115",
+   "Behördennummer: Welches Jobcenter ist zuständig?",
+   "115"
+  ]
+ ],
+ "letters": {
+  "gsanh": [
+   "Antwort auf eine Anhörung vor einer Minderung",
+   "an das Jobcenter – wichtigen Grund erklären, Nachweise beilegen"
+  ],
+  "gswid": [
+   "Widerspruch gegen eine Minderung",
+   "an das Jobcenter – innerhalb eines Monats (§ 84 SGG)"
+  ]
+ }
+}

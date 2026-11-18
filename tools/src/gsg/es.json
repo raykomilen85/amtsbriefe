@@ -1,0 +1,90 @@
+{
+ "title": "Grundsicherungsgeld en vez de Bürgergeld: recorte, audiencia, recurso – plantillas gratis",
+ "desc": "Desde el 1 de julio de 2026 el Bürgergeld se llama Grundsicherungsgeld. ¿Qué pasa si incumples un deber, faltas a una cita o recibes una audiencia? Plazos y plantillas, 13 idiomas.",
+ "h1": "Grundsicherungsgeld (antes Bürgergeld): recorte, audiencia, recurso",
+ "intro": "Importante: desde el 1 de julio de 2026 el Bürgergeld se llama «Grundsicherungsgeld». Tus resoluciones anteriores siguen vigentes; en las cartas puede seguir apareciendo «Bürgergeld» un tiempo. Si recibes una carta de audiencia (Anhörung), responde rápido y por escrito y adjunta pruebas de un motivo importante.",
+ "steps": [
+  [
+   "¿Qué ha cambiado?",
+   "El 1 de julio de 2026 el Bürgergeld fue sustituido por el Grundsicherungsgeld. Las resoluciones existentes siguen vigentes. Solicitudes, resoluciones y cartas se adaptan poco a poco: aún puede aparecer «Bürgergeld». Los deberes de colaboración son más estrictos."
+  ],
+  [
+   "¿Qué deberes tienes?",
+   "Hay incumplimiento si, pese a un aviso por escrito, no acreditas la búsqueda de empleo exigida o rechazas o abandonas un trabajo, una formación o una medida razonable, incluido un curso de integración o de alemán profesional (§ 31 SGB II). No se aplica si explicas y pruebas un motivo importante."
+  ],
+  [
+   "¿Qué pasa tras un incumplimiento?",
+   "El Grundsicherungsgeld se reduce un 30 % de la cuantía básica durante tres meses (§§ 31a, 31b SGB II). Si cumples tus deberes o te declaras seriamente dispuesto, el recorte se levanta, como pronto tras un mes. El alquiler y la calefacción no se recortan. En casos de dificultad excepcional no hay recorte."
+  ],
+  [
+   "Citas en el Jobcenter",
+   "Si faltas repetidamente sin motivo importante, se recorta cada vez un 30 % durante un mes (§ 32 SGB II). Cancela antes las citas a las que no puedas ir y envía un justificante, p. ej. un certificado médico."
+  ],
+  [
+   "Cuidado: rechazar un trabajo razonable",
+   "Si rechazas un trabajo razonable disponible de inmediato, el derecho a la cuantía básica puede desaparecer por completo; el alquiler y la calefacción se pagan entonces al arrendador (§ 31a Abs. 7 SGB II). Busca ayuda de inmediato en un servicio de asesoría."
+  ],
+  [
+   "La audiencia: tu oportunidad",
+   "Antes de decidir un recorte, el Jobcenter debe escucharte (§ 24 SGB X). Puedes pedir que sea en persona (§ 31a Abs. 2 SGB II). Responde a tiempo, explica tu motivo y adjunta pruebas. Plantilla abajo."
+  ],
+  [
+   "Recurso y ayuda gratuita",
+   "Puedes recurrir una resolución de recorte en el plazo de un mes (§ 84 SGG). Ayuda gratuita: asesoría social (Caritas, Diakonie, AWO), asesoría para migrantes y un vale de asistencia jurídica (Beratungshilfe) del juzgado local."
+  ]
+ ],
+ "deadlines": [
+  [
+   "Respuesta a una audiencia",
+   "antes del plazo de la carta (§ 24 SGB X)"
+  ],
+  [
+   "Recurso contra una resolución",
+   "1 mes desde la notificación (§ 84 SGG)"
+  ],
+  [
+   "Recorte por incumplimiento",
+   "30 % de la cuantía básica durante 3 meses (§§ 31a, 31b SGB II)"
+  ],
+  [
+   "Faltar varias veces a una cita",
+   "cada vez 30 % durante 1 mes (§ 32 SGB II)"
+  ],
+  [
+   "Decisión sobre el recorte",
+   "solo en los 6 meses siguientes al incumplimiento (§ 31b SGB II)"
+  ],
+  [
+   "Resolución errónea, plazo vencido",
+   "solicitud de revisión posible (§ 44 SGB X)"
+  ]
+ ],
+ "contactsTitle": "Información oficial y ayuda gratuita",
+ "contacts": [
+  [
+   "Arbeitsagentur – Grundsicherungsgeld sustituye al Bürgergeld",
+   "Información oficial sobre la reforma",
+   "arbeitsagentur.de"
+  ],
+  [
+   "BAMF-NAvI – asesoría para migrantes",
+   "Asesoría gratuita cerca de ti",
+   "bamf-navi.bamf.de"
+  ],
+  [
+   "115",
+   "Número de la administración: ¿qué Jobcenter es competente?",
+   "115"
+  ]
+ ],
+ "letters": {
+  "gsanh": [
+   "Respuesta a una audiencia antes del recorte (Stellungnahme zur Anhörung)",
+   "al Jobcenter – explica el motivo importante, adjunta pruebas"
+  ],
+  "gswid": [
+   "Recurso contra un recorte (Widerspruch gegen eine Minderung)",
+   "al Jobcenter – en el plazo de un mes (§ 84 SGG)"
+  ]
+ }
+}

@@ -580,6 +580,31 @@ Begründung:
 
 Ich bitte Sie, meinen Antrag erneut zu prüfen und mich zum Integrationskurs zuzulassen. Bitte bestätigen Sie mir den Eingang dieses Widerspruchs schriftlich.`,
   },
+  gsanh: {
+    sample: { office: "Jobcenter Musterstadt", officeaddr: "Musterstraße 1\n12345 Musterstadt", file: "BG-Nummer 12345BG0012345", reason: "Am 05.11.2026 war ich krank und konnte den Termin nicht wahrnehmen. Die Arbeitsunfähigkeitsbescheinigung lege ich bei." },
+    subj: "Stellungnahme zur Anhörung vom {{bdate}} – {{file}}",
+    body: `Sehr geehrte Damen und Herren,
+
+mit Schreiben vom {{bdate}} haben Sie mich zu einer möglichen Minderung meines Grundsicherungsgeldes angehört. Hierzu nehme ich wie folgt Stellung:
+
+{{reason}}
+
+Ich hatte damit einen wichtigen Grund (§ 31 Abs. 1 Satz 2 bzw. § 32 Abs. 1 Satz 2 SGB II). Nachweise lege ich bei. Ich bin bereit, meinen Pflichten nachzukommen.
+
+Ich bitte Sie, von einer Minderung abzusehen. Sollten noch Fragen offen sein, bitte ich um eine persönliche Anhörung (§ 31a Abs. 2 SGB II).`,
+  },
+  gswid: {
+    sample: { office: "Jobcenter Musterstadt", officeaddr: "Musterstraße 1\n12345 Musterstadt", file: "BG-Nummer 12345BG0012345", reason: "Ich hatte einen wichtigen Grund: Am 05.11.2026 war ich krank. Die Arbeitsunfähigkeitsbescheinigung habe ich bereits mit meiner Stellungnahme eingereicht; sie wurde im Bescheid nicht berücksichtigt." },
+    subj: "Widerspruch gegen den Bescheid vom {{bdate}} über die Minderung des Grundsicherungsgeldes – {{file}}",
+    body: `Sehr geehrte Damen und Herren,
+
+gegen Ihren Bescheid vom {{bdate}} ({{file}}), mit dem Sie eine Minderung meines Grundsicherungsgeldes festgestellt haben, lege ich Widerspruch ein.
+
+Begründung:
+{{reason}}
+
+Nachweise lege ich bei. Ich beantrage, den Bescheid aufzuheben und die einbehaltenen Beträge nachzuzahlen. Bitte bestätigen Sie mir den Eingang dieses Widerspruchs schriftlich.`,
+  },
 };
 
 module.exports = { SAMPLE, LABELS, LETTERS, head, foot };

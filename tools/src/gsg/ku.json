@@ -1,0 +1,90 @@
+{
+ "title": "Grundsicherungsgeld li şûna Bürgergeld: kêmkirin, guhdarî, îtîraz – şablonên belaş",
+ "desc": "Ji 1ê Tîrmeha 2026an ve navê Bürgergeld Grundsicherungsgeld e. Di binpêkirina erkan, randevûya winda an nameya guhdariyê de çi dibe? Dem û şablon bi 13 zimanan.",
+ "h1": "Grundsicherungsgeld (berê Bürgergeld): kêmkirin, guhdarî, îtîraz",
+ "intro": "Girîng: ji 1ê Tîrmeha 2026an ve navê Bürgergeld „Grundsicherungsgeld“ e. Biryarên we yên berê derbasdar dimînin; di nameyan de demekê din jî dibe ku „Bürgergeld“ binivîse. Heke nameyeke guhdariyê (Anhörung) bistînin, zû û bi nivîskî bersiv bidin û belgeyên sedemeke girîng zêde bikin.",
+ "steps": [
+  [
+   "Çi guherî?",
+   "Di 1ê Tîrmeha 2026an de Grundsicherungsgeld cihê Bürgergeld girt. Biryarên berê derbasdar in. Serlêdan, biryar û name hêdî hêdî tên guhertin – dibe ku hîn „Bürgergeld“ tê de binivîse. Erkên hevkariyê hişktir bûn."
+  ],
+  [
+   "Erkên we çi ne?",
+   "Binpêkirin e, heke hûn tevî hişyariya nivîskî hewldanên lêgerîna kar ên xwestî îspat nekin an karekî, perwerdeyekê an tedbîreke guncav red bikin an bihêlin – kursa entegrasyonê an kursa zimanê pîşeyî jî tê de (§ 31 SGB II). Heke hûn sedemeke girîng rave û îspat bikin, ev derbasdar nîne."
+  ],
+  [
+   "Piştî binpêkirinê çi dibe?",
+   "Grundsicherungsgeld bi 30% ji mîqdara bingehîn ji bo sê mehan tê kêmkirin (§§ 31a, 31b SGB II). Heke hûn erkên xwe bînin cih an bi cidî amadebûna xwe ragihînin, kêmkirin tê rakirin – herî zû piştî mehekê. Dayîna kirê û germkirinê nayê kêmkirin. Di zehmetiya awarte de kêmkirin tune."
+  ],
+  [
+   "Randevûyên Jobcenter",
+   "Heke hûn bê sedemeke girîng dîsa û dîsa randevûyan winda bikin, her car bi 30% ji bo mehekê tê kêmkirin (§ 32 SGB II). Randevûyan berê betal bikin û belge bişînin, mînak rapora doktor."
+  ],
+  [
+   "Hişyarî: redkirina karê guncav",
+   "Heke hûn karekî guncav ê ku tavilê gengaz e red bikin, mafê mîqdara bingehîn dikare bi tevahî biqede; kirê û germkirin wê demê ji xwediyê xaniyê re tên dayîn (§ 31a Abs. 7 SGB II). Tavilê ji şêwirdariyê alîkarî bixwazin."
+  ],
+  [
+   "Guhdarî – derfeta we",
+   "Berî ku Jobcenter li ser kêmkirinê biryar bide, divê guh bide we (§ 24 SGB X). Hûn dikarin guhdariya rû bi rû bixwazin (§ 31a Abs. 2 SGB II). Di wextê de bersiv bidin, sedema xwe rave bikin û belgeyan zêde bikin. Şablon li jêr."
+  ],
+  [
+   "Îtîraz û alîkariya belaş",
+   "Li dijî biryara kêmkirinê hûn dikarin di nav mehekê de îtîraz bikin (§ 84 SGG). Alîkariya belaş: şêwirdariya civakî (Caritas, Diakonie, AWO), şêwirdariya koçberan û belgeya alîkariya hiqûqî (Beratungshilfe) ji dadgeha herêmî."
+  ]
+ ],
+ "deadlines": [
+  [
+   "Bersiva guhdariyê",
+   "heta dema di nameyê de (§ 24 SGB X)"
+  ],
+  [
+   "Îtîraz li dijî biryarê",
+   "1 meh piştî ragihandinê (§ 84 SGG)"
+  ],
+  [
+   "Kêmkirin ji ber binpêkirina erkan",
+   "30% ji mîqdara bingehîn ji bo 3 mehan (§§ 31a, 31b SGB II)"
+  ],
+  [
+   "Randevû dîsa winda kirin",
+   "her car 30% ji bo 1 mehê (§ 32 SGB II)"
+  ],
+  [
+   "Biryara kêmkirinê",
+   "tenê heta 6 mehan piştî binpêkirinê (§ 31b SGB II)"
+  ],
+  [
+   "Biryara xelet, dem derbas bû",
+   "serlêdana ji nû ve kontrolê gengaz e (§ 44 SGB X)"
+  ]
+ ],
+ "contactsTitle": "Agahiyên fermî û alîkariya belaş",
+ "contacts": [
+  [
+   "Arbeitsagentur – Grundsicherungsgeld li şûna Bürgergeld",
+   "Agahiyên fermî li ser reformê",
+   "arbeitsagentur.de"
+  ],
+  [
+   "BAMF-NAvI – şêwirdariya koçberan",
+   "Şêwirdariya belaş li nêzî we",
+   "bamf-navi.bamf.de"
+  ],
+  [
+   "115",
+   "Hejmara dezgehan: kîjan Jobcenter berpirsiyar e?",
+   "115"
+  ]
+ ],
+ "letters": {
+  "gsanh": [
+   "Bersiva guhdariyê berî kêmkirinê (Stellungnahme zur Anhörung)",
+   "ji Jobcenter re – sedema girîng rave bikin, belgeyan zêde bikin"
+  ],
+  "gswid": [
+   "Îtîraz li dijî kêmkirinê (Widerspruch gegen eine Minderung)",
+   "ji Jobcenter re – di nav mehekê de (§ 84 SGG)"
+  ]
+ }
+}

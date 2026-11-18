@@ -1,0 +1,90 @@
+{
+ "title": "Bürgergeld yerine Grundsicherungsgeld: kesinti, Anhörung, itiraz – ücretsiz mektup şablonları",
+ "desc": "1 Temmuz 2026'dan beri Bürgergeld'in adı Grundsicherungsgeld. Yükümlülük ihlali, randevuya gitmeme ve Anhörung'da ne olur? Süreler ve şablonlar, 13 dilde.",
+ "h1": "Grundsicherungsgeld (eski adı Bürgergeld): kesinti, Anhörung, itiraz",
+ "intro": "Önemli: 1 Temmuz 2026'dan beri Bürgergeld'in adı „Grundsicherungsgeld“. Eski kararlarınız geçerliliğini koruyor; mektuplarda bir süre daha „Bürgergeld“ yazabilir. Bir Anhörung (görüş isteme) mektubu alırsanız hızlı ve yazılı cevap verin, önemli nedeninizin belgelerini ekleyin.",
+ "steps": [
+  [
+   "Ne değişti?",
+   "1 Temmuz 2026'da Bürgergeld'in yerini Grundsicherungsgeld aldı. Eski kararların içeriği geçerli. Başvurular, kararlar ve mektuplar yavaş yavaş uyarlanıyor – içinde hâlâ „Bürgergeld“ yazabilir. İşbirliği yükümlülükleri sıkılaştı."
+  ],
+  [
+   "Yükümlülükleriniz neler?",
+   "Yazılı uyarıya rağmen istenen iş arama çabalarını belgelemezseniz ya da makul bir işi, meslek eğitimini veya tedbiri reddeder ya da bırakırsanız – entegrasyon kursu veya mesleki dil kursu dahil – yükümlülük ihlali sayılır (§ 31 SGB II). Önemli bir nedeni açıklayıp belgelerseniz bu geçerli değildir."
+  ],
+  [
+   "İhlalde ne olur?",
+   "Grundsicherungsgeld, temel ihtiyaç tutarının %30'u kadar 3 ay kesilir (§§ 31a, 31b SGB II). Yükümlülüğünüzü yerine getirir ya da ciddi şekilde hazır olduğunuzu bildirirseniz kesinti kaldırılır – en erken 1 ay sonra. Kira ve ısınma ödemesi kesilmez. Olağanüstü zorluk durumunda kesinti yapılmaz."
+  ],
+  [
+   "Jobcenter randevuları",
+   "Önemli bir neden olmadan randevuları tekrar tekrar kaçırırsanız, her seferinde temel ihtiyacın %30'u 1 ay kesilir (§ 32 SGB II). Gidemeyeceğiniz randevuları önceden iptal edin ve belge gönderin, örneğin doktor raporu."
+  ],
+  [
+   "Dikkat: makul bir işi reddetmek",
+   "Hemen başlanabilecek makul bir işi reddederseniz, temel ihtiyaç tutarındaki hak tamamen düşebilir; kira ve ısınma doğrudan ev sahibine ödenir (§ 31a Abs. 7 SGB II). Böyle bir durumda hemen bir danışma yerinden yardım alın."
+  ],
+  [
+   "Anhörung – sizin fırsatınız",
+   "Jobcenter kesinti kararı vermeden önce sizi dinlemek zorundadır (§ 24 SGB X). Yüz yüze dinlenmeyi isteyebilirsiniz (§ 31a Abs. 2 SGB II). Süresinde cevap verin, önemli nedeninizi açıklayın ve belgeleri ekleyin. Şablon aşağıda."
+  ],
+  [
+   "İtiraz ve ücretsiz yardım",
+   "Kesinti kararına 1 ay içinde itiraz edebilirsiniz (§ 84 SGG). Ücretsiz yardım: sosyal danışma (Caritas, Diakonie, AWO), göçmen danışmanlığı ve Amtsgericht'ten alınan Beratungshilfe belgesi."
+  ]
+ ],
+ "deadlines": [
+  [
+   "Anhörung'a cevap",
+   "mektupta yazan süreye kadar (§ 24 SGB X)"
+  ],
+  [
+   "Karara itiraz",
+   "kararın bildirilmesinden itibaren 1 ay (§ 84 SGG)"
+  ],
+  [
+   "Yükümlülük ihlalinde kesinti",
+   "temel ihtiyaç tutarının %30'u, 3 ay (§§ 31a, 31b SGB II)"
+  ],
+  [
+   "Randevuya tekrar gitmemek",
+   "her seferinde temel ihtiyacın %30'u, 1 ay (§ 32 SGB II)"
+  ],
+  [
+   "Kesintinin tespiti",
+   "ihlalden sonra sadece 6 ay içinde (§ 31b SGB II)"
+  ],
+  [
+   "Yanlış karar, süre kaçtı",
+   "yeniden inceleme başvurusu mümkün (§ 44 SGB X)"
+  ]
+ ],
+ "contactsTitle": "Resmî bilgiler ve ücretsiz yardım",
+ "contacts": [
+  [
+   "Arbeitsagentur – Grundsicherungsgeld löst Bürgergeld ab",
+   "Reform hakkında resmî bilgi",
+   "arbeitsagentur.de"
+  ],
+  [
+   "BAMF-NAvI – göçmen danışmanlığı",
+   "Yakınınızda ücretsiz danışma",
+   "bamf-navi.bamf.de"
+  ],
+  [
+   "115",
+   "Resmî daireler hattı: Hangi Jobcenter yetkili?",
+   "115"
+  ]
+ ],
+ "letters": {
+  "gsanh": [
+   "Kesinti öncesi Anhörung'a cevap (Stellungnahme zur Anhörung)",
+   "Jobcenter'a – önemli nedeni açıklayın, belgeleri ekleyin"
+  ],
+  "gswid": [
+   "Kesintiye itiraz (Widerspruch gegen eine Minderung)",
+   "Jobcenter'a – 1 ay içinde (§ 84 SGG)"
+  ]
+ }
+}

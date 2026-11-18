@@ -1,0 +1,90 @@
+{
+ "title": "Grundsicherungsgeld in plaats van Bürgergeld: korting, hoorzitting, bezwaar – gratis sjablonen",
+ "desc": "Sinds 1 juli 2026 heet het Bürgergeld Grundsicherungsgeld. Wat gebeurt er bij plichtverzuim, gemiste afspraken of een hoorbrief? Termijnen en sjablonen in 13 talen.",
+ "h1": "Grundsicherungsgeld (vroeger Bürgergeld): korting, hoorzitting, bezwaar",
+ "intro": "Belangrijk: sinds 1 juli 2026 heet het Bürgergeld „Grundsicherungsgeld”. Je huidige besluiten blijven geldig; in brieven kan nog even „Bürgergeld” staan. Krijg je een hoorbrief (Anhörung), antwoord dan snel en schriftelijk en voeg bewijs van een belangrijke reden toe.",
+ "steps": [
+  [
+   "Wat is er veranderd?",
+   "Op 1 juli 2026 werd het Bürgergeld vervangen door het Grundsicherungsgeld. Bestaande besluiten blijven gelden. Formulieren, besluiten en brieven worden stap voor stap aangepast – er kan nog „Bürgergeld” in staan. De medewerkingsplichten zijn strenger geworden."
+  ],
+  [
+   "Wat zijn je plichten?",
+   "Plichtverzuim is het als je ondanks een schriftelijke waarschuwing de gevraagde sollicitatie-inspanningen niet aantoont of passend werk, een opleiding of maatregel weigert of afbreekt – ook een integratiecursus of beroepstaalcursus (§ 31 SGB II). Dat geldt niet als je een belangrijke reden uitlegt en bewijst."
+  ],
+  [
+   "Wat gebeurt er bij verzuim?",
+   "Het Grundsicherungsgeld wordt drie maanden met 30% van het basisbedrag verlaagd (§§ 31a, 31b SGB II). Kom je je plichten na of verklaar je je serieus bereid, dan vervalt de korting – op zijn vroegst na een maand. Huur en verwarming worden niet gekort. Bij uitzonderlijke hardheid is er geen korting."
+  ],
+  [
+   "Afspraken bij het Jobcenter",
+   "Mis je zonder belangrijke reden herhaaldelijk afspraken, dan wordt telkens 30% gekort voor een maand (§ 32 SGB II). Zeg afspraken vooraf af en stuur bewijs, bijv. een doktersverklaring."
+  ],
+  [
+   "Let op: passend werk weigeren",
+   "Weiger je passend werk dat direct mogelijk is, dan kan het recht op het basisbedrag helemaal vervallen; huur en verwarming gaan dan naar de verhuurder (§ 31a Abs. 7 SGB II). Zoek meteen hulp bij een adviesdienst."
+  ],
+  [
+   "De hoorzitting – jouw kans",
+   "Voordat het Jobcenter tot korting besluit, moet het je horen (§ 24 SGB X). Je kunt een persoonlijk gesprek vragen (§ 31a Abs. 2 SGB II). Antwoord op tijd, leg je belangrijke reden uit en voeg bewijs toe. Sjabloon hieronder."
+  ],
+  [
+   "Bezwaar en gratis hulp",
+   "Tegen een kortingsbesluit kun je binnen een maand bezwaar maken (§ 84 SGG). Gratis hulp: sociaal advies (Caritas, Diakonie, AWO), migratieadvies en een bewijs voor rechtsbijstand (Beratungshilfe) van de kantonrechter."
+  ]
+ ],
+ "deadlines": [
+  [
+   "Antwoord op een hoorbrief",
+   "vóór de termijn in de brief (§ 24 SGB X)"
+  ],
+  [
+   "Bezwaar tegen een besluit",
+   "1 maand na bekendmaking (§ 84 SGG)"
+  ],
+  [
+   "Korting bij plichtverzuim",
+   "30% van het basisbedrag gedurende 3 maanden (§§ 31a, 31b SGB II)"
+  ],
+  [
+   "Herhaaldelijk afspraak gemist",
+   "telkens 30% gedurende 1 maand (§ 32 SGB II)"
+  ],
+  [
+   "Besluit over korting",
+   "alleen binnen 6 maanden na het verzuim (§ 31b SGB II)"
+  ],
+  [
+   "Fout besluit, termijn gemist",
+   "verzoek om herziening mogelijk (§ 44 SGB X)"
+  ]
+ ],
+ "contactsTitle": "Officiële informatie en gratis hulp",
+ "contacts": [
+  [
+   "Arbeitsagentur – Grundsicherungsgeld vervangt Bürgergeld",
+   "Officiële informatie over de hervorming",
+   "arbeitsagentur.de"
+  ],
+  [
+   "BAMF-NAvI – migratieadvies",
+   "Gratis advies bij jou in de buurt",
+   "bamf-navi.bamf.de"
+  ],
+  [
+   "115",
+   "Overheidsnummer: welk Jobcenter is bevoegd?",
+   "115"
+  ]
+ ],
+ "letters": {
+  "gsanh": [
+   "Antwoord op een hoorbrief vóór korting (Stellungnahme zur Anhörung)",
+   "aan het Jobcenter – belangrijke reden uitleggen, bewijs toevoegen"
+  ],
+  "gswid": [
+   "Bezwaar tegen een korting (Widerspruch gegen eine Minderung)",
+   "aan het Jobcenter – binnen een maand (§ 84 SGG)"
+  ]
+ }
+}

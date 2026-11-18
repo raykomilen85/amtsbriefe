@@ -1,0 +1,55 @@
+{
+ "nav": "Your rights",
+ "title": "Your rights with German authorities: 10 rights everyone in Germany should know",
+ "desc": "Objection, file access, a lawyer for €15, minimum wage €13.90, basic bank account, daycare place: 10 rights explained simply – with source and template, in 13 languages.",
+ "h1": "Do you know your rights? 10 rights with authorities and in daily life",
+ "intro": "Many people don't use their rights because they don't know them. Here are 10 important rights in plain language – each with the law as a source and a link to a matching letter template.",
+ "lab": {
+  "src": "Source",
+  "go": "Matching help",
+  "note": "This page is not legal advice. For your individual case, advice centres or lawyers can help.",
+  "stand": "Updated"
+ },
+ "cards": [
+  [
+   "Lodge an objection (Widerspruch)",
+   "You can object to a decision (Bescheid) – usually within one month of receiving it. The exact deadline is in the legal notice (Rechtsbehelfsbelehrung) at the end of the letter. An objection is free; a signed letter is enough, and reasons can follow later."
+  ],
+  [
+   "See your file (Akteneinsicht)",
+   "While a procedure is running, you may see your file at the authority as far as you need it for your rights, and get copies. That way you see what the authority bases its decision on."
+  ],
+  [
+   "Ask for the decision in writing",
+   "If the authority only told you something orally, you can demand written confirmation of the decision – if you ask immediately and have a legitimate interest. You can best object to a written decision."
+  ],
+  [
+   "Request for review (Überprüfungsantrag)",
+   "Missed the deadline? For social benefits (e.g. Jobcenter) you can request a review if a decision was wrong. The authority must then check it again. Back payments are only made for a limited period."
+  ],
+  [
+   "A lawyer for €15: Beratungshilfe",
+   "If you have little money, the local court (Amtsgericht) where you live gives you a legal-aid certificate (Beratungshilfeschein). With it a lawyer advises you outside court; you pay at most €15, and the lawyer can waive it."
+  ],
+  [
+   "Free migration advice",
+   "Migration advice for adults (MBE, age 27+) and youth migration services (JMD, age 12–27) give free, confidential advice – on letters, residence, work, housing and German courses. Online advice in many languages also exists."
+  ],
+  [
+   "Minimum wage",
+   "Since 1 January 2026 the statutory minimum wage is €13.90 gross per hour, rising to €14.60 on 1 January 2027. It applies to employees aged 18 and over, including minijobs. Write down your working hours."
+  ],
+  [
+   "A basic bank account for everyone",
+   "Everyone legally resident in the EU – including asylum seekers and people with a Duldung – has the right to a basic account (Basiskonto). The bank must offer it within 10 business days of a complete application."
+  ],
+  [
+   "Right to a daycare place",
+   "From their first birthday every child has the right to a place in daycare or with a childminder, and from age three until school to a kindergarten place. Register your need early with the youth office or the town."
+  ],
+  [
+   "Exemption from the broadcasting fee",
+   "People receiving e.g. Grundsicherungsgeld, social assistance, AsylbLG benefits or BAföG can apply for an exemption from the broadcasting fee (Rundfunkbeitrag). It is not automatic – you must apply to the Beitragsservice and enclose your decision letter."
+  ]
+ ]
+}

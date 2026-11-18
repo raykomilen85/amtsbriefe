@@ -1,0 +1,55 @@
+{
+ "nav": "Haklarınız",
+ "title": "Resmî dairelere karşı haklarınız: Almanya'da herkesin bilmesi gereken 10 hak",
+ "desc": "İtiraz, dosya inceleme, 15 €'ya avukat, asgari ücret 13,90 €, temel banka hesabı, kreş yeri: 10 hak kolayca anlatıldı – kaynak ve şablonla, 13 dilde.",
+ "h1": "Haklarınızı biliyor musunuz? Resmî dairelere karşı ve günlük hayatta 10 hak",
+ "intro": "Birçok kişi haklarını bilmediği için kullanmıyor. İşte basit dille 10 önemli hak – her biri kanun kaynağı ve uygun mektup şablonu bağlantısıyla.",
+ "lab": {
+  "src": "Kaynak",
+  "go": "Uygun yardım",
+  "note": "Bu sayfa hukuki danışmanlık değildir. Kişisel durumunuz için danışma merkezleri veya avukatlar yardımcı olur.",
+  "stand": "Güncelleme"
+ },
+ "cards": [
+  [
+   "İtiraz etmek (Widerspruch)",
+   "Bir karara (Bescheid) itiraz edebilirsiniz – genelde mektubun size ulaşmasından sonraki bir ay içinde. Kesin süre mektubun sonundaki itiraz bilgisinde (Rechtsbehelfsbelehrung) yazar. İtiraz ücretsizdir; imzalı bir mektup yeterlidir, gerekçe sonra gönderilebilir."
+  ],
+  [
+   "Dosyanızı incelemek (Akteneinsicht)",
+   "Bir işlem sürerken haklarınız için gerekiyorsa dairedeki dosyanızı görebilir ve kopya isteyebilirsiniz. Böylece dairenin kararını neye dayandırdığını görürsünüz."
+  ],
+  [
+   "Kararı yazılı istemek",
+   "Daire size bir şeyi sadece sözlü söylediyse, kararı yazılı onaylamasını isteyebilirsiniz – bunu hemen isterseniz ve haklı bir menfaatiniz varsa. İtiraz en iyi yazılı bir karara karşı yapılır."
+  ],
+  [
+   "Yeniden inceleme başvurusu (Überprüfungsantrag)",
+   "Süreyi mi kaçırdınız? Sosyal yardımlarda (ör. Jobcenter) bir karar yanlışsa yeniden inceleme başvurusu yapabilirsiniz. Daire kararı tekrar incelemek zorundadır. Geriye dönük ödeme sadece sınırlı bir süre için yapılır."
+  ],
+  [
+   "15 €'ya avukat: Beratungshilfe",
+   "Geliri az olan kişi oturduğu yerdeki sulh mahkemesinden (Amtsgericht) danışma yardım belgesi (Beratungshilfeschein) alır. Bununla bir avukat sizi mahkeme dışında danışmanlık verir; en fazla 15 € ödersiniz, avukat bunu da almayabilir."
+  ],
+  [
+   "Ücretsiz göçmen danışmanlığı",
+   "Yetişkinler için göç danışmanlığı (MBE, 27 yaş üstü) ve gençlik göç servisleri (JMD, 12–27 yaş) ücretsiz ve gizli danışmanlık verir – mektuplar, oturum, iş, ev ve Almanca kursu konusunda. Birçok dilde online danışmanlık da vardır."
+  ],
+  [
+   "Asgari ücret (Mindestlohn)",
+   "1 Ocak 2026'dan beri yasal asgari ücret saat başı brüt 13,90 €'dur, 1 Ocak 2027'den itibaren 14,60 €. 18 yaşından büyük çalışanlar için geçerlidir, Minijob'da da. Çalışma saatlerinizi not edin."
+  ],
+  [
+   "Herkese temel banka hesabı",
+   "AB'de yasal olarak bulunan herkesin – sığınmacılar ve Duldung sahipleri dahil – temel banka hesabı (Basiskonto) hakkı vardır. Banka bunu eksiksiz başvurudan en geç 10 iş günü sonra sunmak zorundadır."
+  ],
+  [
+   "Kreş yeri hakkı",
+   "Her çocuğun birinci doğum gününden itibaren kreşte veya bakıcı annede (Tagesmutter) yer hakkı vardır; üç yaşından okula kadar kreş/anaokulu yeri hakkı vardır. İhtiyacınızı erkenden Jugendamt'a veya belediyeye bildirin."
+  ],
+  [
+   "Yayın ücretinden muafiyet",
+   "Örneğin Grundsicherungsgeld, sosyal yardım, AsylbLG yardımı veya BAföG alanlar başvuruyla yayın ücretinden (Rundfunkbeitrag) muaf olabilir. Muafiyet otomatik değildir – Beitragsservice'e başvurup kararı eklemeniz gerekir."
+  ]
+ ]
+}

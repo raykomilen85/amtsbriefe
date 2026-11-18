@@ -1,0 +1,55 @@
+{
+ "nav": "Vos droits",
+ "title": "Vos droits face aux administrations : 10 droits que tout le monde en Allemagne devrait connaître",
+ "desc": "Recours, accès au dossier, avocat pour 15 €, salaire minimum 13,90 €, compte de base, place en crèche : 10 droits expliqués simplement – avec source et modèle, 13 langues.",
+ "h1": "Connaissez-vous vos droits ? 10 droits face aux administrations et au quotidien",
+ "intro": "Beaucoup de gens n'utilisent pas leurs droits parce qu'ils ne les connaissent pas. Voici 10 droits importants en langage simple – chacun avec la loi comme source et un lien vers un modèle de lettre.",
+ "lab": {
+  "src": "Source",
+  "go": "Aide adaptée",
+  "note": "Cette page n'est pas un conseil juridique. Pour votre cas, les centres de conseil ou les avocats peuvent aider.",
+  "stand": "Mis à jour"
+ },
+ "cards": [
+  [
+   "Former un recours (Widerspruch)",
+   "Vous pouvez contester une décision (Bescheid) – en général dans un délai d'un mois après réception. Le délai exact figure dans la Rechtsbehelfsbelehrung à la fin de la lettre. Le recours est gratuit ; une lettre signée suffit, les motifs peuvent suivre."
+  ],
+  [
+   "Consulter son dossier (Akteneinsicht)",
+   "Pendant une procédure, vous pouvez consulter votre dossier à l'administration dans la mesure où vous en avez besoin pour vos droits, et obtenir des copies. Vous voyez ainsi sur quoi se fonde la décision."
+  ],
+  [
+   "Exiger la décision par écrit",
+   "Si l'administration ne vous a dit quelque chose qu'oralement, vous pouvez exiger une confirmation écrite – si vous la demandez immédiatement et avez un intérêt légitime. Un recours est plus simple contre une décision écrite."
+  ],
+  [
+   "Demande de réexamen (Überprüfungsantrag)",
+   "Délai dépassé ? Pour les prestations sociales (p. ex. Jobcenter), vous pouvez demander un réexamen si une décision était erronée. L'administration doit la revérifier. Les rappels ne sont versés que pour une période limitée."
+  ],
+  [
+   "Un avocat pour 15 € : Beratungshilfe",
+   "Si vous avez peu de revenus, le tribunal cantonal (Amtsgericht) de votre domicile vous délivre un Beratungshilfeschein. Avec lui, un avocat vous conseille hors procès ; vous payez au plus 15 €, que l'avocat peut aussi annuler."
+  ],
+  [
+   "Conseil migratoire gratuit",
+   "Le conseil migratoire pour adultes (MBE, dès 27 ans) et les services migratoires jeunesse (JMD, 12–27 ans) conseillent gratuitement et confidentiellement – lettres, séjour, travail, logement, cours d'allemand. Un conseil en ligne existe aussi en de nombreuses langues."
+  ],
+  [
+   "Salaire minimum",
+   "Depuis le 1er janvier 2026, le salaire minimum légal est de 13,90 € brut de l'heure, puis 14,60 € au 1er janvier 2027. Il s'applique aux salariés dès 18 ans, aussi en minijob. Notez vos heures de travail."
+  ],
+  [
+   "Un compte de base pour tous",
+   "Toute personne en séjour régulier dans l'UE – y compris demandeurs d'asile et personnes avec Duldung – a droit à un compte de base (Basiskonto). La banque doit le proposer au plus tard 10 jours ouvrables après une demande complète."
+  ],
+  [
+   "Droit à une place en crèche",
+   "Dès son premier anniversaire, chaque enfant a droit à une place en crèche ou chez une assistante maternelle, et de trois ans jusqu'à l'école à une place en jardin d'enfants. Signalez tôt votre besoin au Jugendamt ou à la ville."
+  ],
+  [
+   "Exonération de la redevance",
+   "Les bénéficiaires p. ex. du Grundsicherungsgeld, de l'aide sociale, de l'AsylbLG ou du BAföG peuvent demander l'exonération du Rundfunkbeitrag. Elle n'est pas automatique – il faut la demander au Beitragsservice en joignant la décision."
+  ]
+ ]
+}

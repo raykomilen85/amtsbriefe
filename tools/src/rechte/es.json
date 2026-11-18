@@ -1,0 +1,55 @@
+{
+ "nav": "Tus derechos",
+ "title": "Tus derechos ante la administración: 10 derechos que todos en Alemania deberían conocer",
+ "desc": "Recurso, acceso al expediente, abogado por 15 €, salario mínimo 13,90 €, cuenta básica, plaza en guardería: 10 derechos explicados fácil – con fuente y plantilla, 13 idiomas.",
+ "h1": "¿Conoces tus derechos? 10 derechos ante la administración y en el día a día",
+ "intro": "Mucha gente no usa sus derechos porque no los conoce. Aquí tienes 10 derechos importantes en lenguaje sencillo, cada uno con la ley como fuente y un enlace a una plantilla de carta.",
+ "lab": {
+  "src": "Fuente",
+  "go": "Ayuda adecuada",
+  "note": "Esta página no es asesoramiento jurídico. Para tu caso concreto pueden ayudarte centros de asesoramiento o abogados.",
+  "stand": "Actualizado"
+ },
+ "cards": [
+  [
+   "Presentar un recurso (Widerspruch)",
+   "Puedes recurrir una resolución (Bescheid), normalmente en el plazo de un mes desde que la recibes. El plazo exacto figura en la Rechtsbehelfsbelehrung al final de la carta. El recurso es gratuito; basta una carta firmada y los motivos pueden enviarse después."
+  ],
+  [
+   "Ver tu expediente (Akteneinsicht)",
+   "Mientras dura un procedimiento puedes consultar tu expediente en la oficina, en la medida en que lo necesites para tus derechos, y pedir copias. Así ves en qué se basa la decisión."
+  ],
+  [
+   "Exigir la decisión por escrito",
+   "Si la oficina solo te dijo algo de palabra, puedes exigir una confirmación por escrito, si la pides de inmediato y tienes un interés legítimo. Es más fácil recurrir una resolución escrita."
+  ],
+  [
+   "Solicitud de revisión (Überprüfungsantrag)",
+   "¿Se te pasó el plazo? En prestaciones sociales (p. ej. Jobcenter) puedes pedir una revisión si una resolución era incorrecta. La oficina debe revisarla de nuevo. Los pagos atrasados solo se abonan por un periodo limitado."
+  ],
+  [
+   "Abogado por 15 €: Beratungshilfe",
+   "Si tienes pocos ingresos, el juzgado local (Amtsgericht) de tu domicilio te da un Beratungshilfeschein. Con él, un abogado te asesora fuera de juicio; pagas como máximo 15 €, y el abogado puede perdonártelos."
+  ],
+  [
+   "Asesoramiento migratorio gratuito",
+   "El asesoramiento migratorio para adultos (MBE, desde 27 años) y los servicios migratorios juveniles (JMD, 12–27 años) asesoran gratis y de forma confidencial: cartas, residencia, trabajo, vivienda y curso de alemán. También hay asesoramiento online en muchos idiomas."
+  ],
+  [
+   "Salario mínimo",
+   "Desde el 1 de enero de 2026 el salario mínimo legal es de 13,90 € brutos por hora, y desde el 1 de enero de 2027, 14,60 €. Se aplica a trabajadores desde los 18 años, también en minijobs. Apunta tus horas de trabajo."
+  ],
+  [
+   "Cuenta básica para todos",
+   "Toda persona con residencia legal en la UE, incluidos solicitantes de asilo y personas con Duldung, tiene derecho a una cuenta básica (Basiskonto). El banco debe ofrecerla en un máximo de 10 días hábiles tras la solicitud completa."
+  ],
+  [
+   "Derecho a plaza en guardería",
+   "Desde su primer cumpleaños, todo niño tiene derecho a una plaza en guardería o con una cuidadora, y desde los tres años hasta la escuela a una plaza en jardín de infancia. Comunica pronto tu necesidad al Jugendamt o al ayuntamiento."
+  ],
+  [
+   "Exención de la tasa de radiodifusión",
+   "Quien recibe p. ej. Grundsicherungsgeld, ayuda social, prestaciones AsylbLG o BAföG puede pedir la exención del Rundfunkbeitrag. No es automática: debes solicitarla al Beitragsservice adjuntando la resolución."
+  ]
+ ]
+}

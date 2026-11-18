@@ -1,0 +1,55 @@
+{
+ "nav": "Drepturile dvs.",
+ "title": "Drepturile dvs. față de autorități: 10 drepturi pe care oricine din Germania ar trebui să le știe",
+ "desc": "Contestație, acces la dosar, avocat cu 15 €, salariu minim 13,90 €, cont de bază, loc la grădiniță: 10 drepturi explicate simplu – cu sursă și model, 13 limbi.",
+ "h1": "Vă cunoașteți drepturile? 10 drepturi față de autorități și în viața de zi cu zi",
+ "intro": "Mulți oameni nu își folosesc drepturile pentru că nu le cunosc. Iată 10 drepturi importante pe înțelesul tuturor – fiecare cu legea ca sursă și un link spre un model de scrisoare.",
+ "lab": {
+  "src": "Sursă",
+  "go": "Ajutor potrivit",
+  "note": "Această pagină nu este consultanță juridică. Pentru cazul dvs. ajută centrele de consiliere sau avocații.",
+  "stand": "Actualizat"
+ },
+ "cards": [
+  [
+   "Contestație (Widerspruch)",
+   "Împotriva unei decizii (Bescheid) puteți face contestație – de regulă în termen de o lună de la primire. Termenul exact este în Rechtsbehelfsbelehrung de la finalul scrisorii. Contestația e gratuită; ajunge o scrisoare semnată, motivarea poate veni ulterior."
+  ],
+  [
+   "Acces la dosar (Akteneinsicht)",
+   "Cât timp procedura este în curs, puteți vedea dosarul la autoritate, în măsura în care aveți nevoie pentru drepturile dvs., și puteți primi copii. Vedeți astfel pe ce se bazează decizia."
+  ],
+  [
+   "Decizia în scris",
+   "Dacă autoritatea v-a spus ceva doar verbal, puteți cere confirmarea scrisă a deciziei – dacă o cereți imediat și aveți un interes legitim. Contestația se face cel mai bine împotriva unei decizii scrise."
+  ],
+  [
+   "Cerere de reexaminare (Überprüfungsantrag)",
+   "Ați ratat termenul? La prestațiile sociale (de ex. Jobcenter) puteți cere reexaminarea dacă o decizie a fost greșită. Autoritatea trebuie s-o verifice din nou. Plățile retroactive se fac doar pentru o perioadă limitată."
+  ],
+  [
+   "Avocat cu 15 €: Beratungshilfe",
+   "Cine are venituri mici primește de la judecătoria (Amtsgericht) de domiciliu un Beratungshilfeschein. Cu el, un avocat vă consiliază în afara instanței; plătiți cel mult 15 €, iar avocatul poate renunța la ei."
+  ],
+  [
+   "Consiliere gratuită pentru migranți",
+   "Consilierea pentru migranți adulți (MBE, de la 27 de ani) și serviciile pentru tineri migranți (JMD, 12–27 de ani) oferă consiliere gratuită și confidențială – scrisori, ședere, muncă, locuință, curs de germană. Există și consiliere online în multe limbi."
+  ],
+  [
+   "Salariul minim",
+   "De la 1 ianuarie 2026 salariul minim legal este 13,90 € brut pe oră, iar de la 1 ianuarie 2027 – 14,60 €. Se aplică angajaților de la 18 ani, inclusiv în minijob. Notați-vă orele lucrate."
+  ],
+  [
+   "Cont de bază pentru toți",
+   "Oricine are ședere legală în UE – inclusiv solicitanții de azil și persoanele cu Duldung – are dreptul la un cont de bază (Basiskonto). Banca trebuie să-l ofere în cel mult 10 zile lucrătoare de la cererea completă."
+  ],
+  [
+   "Dreptul la un loc la grădiniță",
+   "De la prima aniversare, fiecare copil are dreptul la un loc la creșă sau la o bonă de zi, iar de la trei ani până la școală la un loc la grădiniță. Anunțați din timp nevoia la Jugendamt sau la primărie."
+  ],
+  [
+   "Scutire de taxa radio-TV",
+   "Cine primește de ex. Grundsicherungsgeld, ajutor social, AsylbLG sau BAföG poate cere scutirea de Rundfunkbeitrag. Nu se face automat – trebuie să depuneți cererea la Beitragsservice și să atașați decizia."
+  ]
+ ]
+}

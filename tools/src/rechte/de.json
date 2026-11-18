@@ -1,0 +1,55 @@
+{
+ "nav": "Ihre Rechte",
+ "title": "Ihre Rechte gegenüber Ämtern: 10 Rechte, die jeder in Deutschland kennen sollte",
+ "desc": "Widerspruch, Akteneinsicht, Beratungshilfe für 15 €, Mindestlohn 13,90 €, Basiskonto, Kita-Platz: 10 Rechte einfach erklärt – mit Quelle und Vorlage, in 13 Sprachen.",
+ "h1": "Kennen Sie Ihre Rechte? 10 Rechte gegenüber Ämtern und im Alltag",
+ "intro": "Viele Menschen nutzen ihre Rechte nicht, weil sie sie nicht kennen. Hier sind 10 wichtige Rechte in einfacher Sprache – jeweils mit Gesetz als Quelle und einem Link zur passenden Briefvorlage.",
+ "lab": {
+  "src": "Quelle",
+  "go": "Passende Hilfe",
+  "note": "Diese Seite ist keine Rechtsberatung. Im Einzelfall helfen Beratungsstellen oder Anwälte.",
+  "stand": "Stand"
+ },
+ "cards": [
+  [
+   "Widerspruch einlegen",
+   "Gegen einen Bescheid können Sie Widerspruch einlegen – meist innerhalb eines Monats nach Zugang. Die genaue Frist steht in der Rechtsbehelfsbelehrung am Ende des Briefes. Der Widerspruch ist kostenlos; ein unterschriebener Brief reicht, die Begründung kann später folgen."
+  ],
+  [
+   "Akteneinsicht",
+   "Während eines Verfahrens dürfen Sie Ihre Akte beim Amt einsehen, soweit Sie das für Ihre Rechte brauchen, und sich Kopien geben lassen. So sehen Sie, worauf das Amt seine Entscheidung stützt."
+  ],
+  [
+   "Entscheidung schriftlich verlangen",
+   "Hat Ihnen das Amt etwas nur mündlich gesagt, können Sie verlangen, dass es die Entscheidung schriftlich bestätigt – wenn Sie das sofort verlangen und ein berechtigtes Interesse haben. Nur gegen einen schriftlichen Bescheid können Sie gut Widerspruch einlegen."
+  ],
+  [
+   "Überprüfungsantrag",
+   "Frist verpasst? Bei Sozialleistungen (z. B. Jobcenter) können Sie einen Überprüfungsantrag stellen, wenn ein Bescheid falsch war. Das Amt muss ihn dann noch einmal prüfen. Nachzahlungen gibt es nur für eine begrenzte Zeit zurück."
+  ],
+  [
+   "Anwalt für 15 €: Beratungshilfe",
+   "Wer wenig Geld hat, bekommt beim Amtsgericht am Wohnort einen Beratungshilfeschein. Damit berät Sie ein Anwalt außerhalb eines Gerichtsverfahrens; Sie zahlen höchstens 15 €, der Anwalt kann sie Ihnen auch erlassen."
+  ],
+  [
+   "Kostenlose Migrationsberatung",
+   "Die Migrationsberatung für Erwachsene (MBE, ab 27 Jahren) und die Jugendmigrationsdienste (JMD, 12 bis 27 Jahre) beraten kostenlos und vertraulich – zu Briefen, Aufenthalt, Arbeit, Wohnung und Deutschkurs. Es gibt auch Online-Beratung in vielen Sprachen."
+  ],
+  [
+   "Mindestlohn",
+   "Seit 1. Januar 2026 beträgt der gesetzliche Mindestlohn 13,90 € brutto pro Stunde, ab 1. Januar 2027 14,60 €. Er gilt für Beschäftigte ab 18 Jahren, auch im Minijob. Notieren Sie Ihre Arbeitsstunden."
+  ],
+  [
+   "Basiskonto für alle",
+   "Jeder, der sich rechtmäßig in der EU aufhält – auch Asylsuchende und Geduldete –, hat Anspruch auf ein Basiskonto. Die Bank muss es spätestens 10 Geschäftstage nach dem vollständigen Antrag anbieten."
+  ],
+  [
+   "Recht auf einen Kita-Platz",
+   "Ab dem ersten Geburtstag hat jedes Kind Anspruch auf einen Platz in einer Kita oder bei einer Tagesmutter, ab drei Jahren bis zur Schule auf einen Kita-Platz. Melden Sie den Bedarf früh beim Jugendamt oder bei der Stadt an."
+  ],
+  [
+   "Befreiung vom Rundfunkbeitrag",
+   "Wer z. B. Grundsicherungsgeld, Sozialhilfe, AsylbLG-Leistungen oder BAföG bekommt, kann sich auf Antrag vom Rundfunkbeitrag befreien lassen. Die Befreiung gilt nicht automatisch – Sie müssen sie beim Beitragsservice beantragen und den Bescheid beilegen."
+  ]
+ ]
+}

@@ -1,0 +1,55 @@
+{
+ "nav": "Twoje prawa",
+ "title": "Twoje prawa wobec urzędów: 10 praw, które każdy w Niemczech powinien znać",
+ "desc": "Odwołanie, wgląd w akta, prawnik za 15 €, płaca minimalna 13,90 €, konto podstawowe, miejsce w przedszkolu: 10 praw prosto – ze źródłem i wzorem, 13 języków.",
+ "h1": "Czy znasz swoje prawa? 10 praw wobec urzędów i na co dzień",
+ "intro": "Wiele osób nie korzysta ze swoich praw, bo ich nie zna. Oto 10 ważnych praw prostym językiem – każde z przepisem jako źródłem i linkiem do wzoru pisma.",
+ "lab": {
+  "src": "Źródło",
+  "go": "Pomocne",
+  "note": "Ta strona nie jest poradą prawną. W konkretnej sprawie pomogą poradnie lub prawnicy.",
+  "stand": "Stan"
+ },
+ "cards": [
+  [
+   "Odwołanie (Widerspruch)",
+   "Od decyzji (Bescheid) możesz się odwołać – zwykle w ciągu miesiąca od doręczenia. Dokładny termin jest w pouczeniu (Rechtsbehelfsbelehrung) na końcu pisma. Odwołanie jest bezpłatne; wystarczy podpisane pismo, uzasadnienie można dosłać później."
+  ],
+  [
+   "Wgląd w akta (Akteneinsicht)",
+   "W trakcie postępowania możesz zobaczyć swoje akta w urzędzie, o ile potrzebujesz tego dla swoich praw, i dostać kopie. Zobaczysz, na czym urząd opiera decyzję."
+  ],
+  [
+   "Żądanie decyzji na piśmie",
+   "Jeśli urząd powiedział coś tylko ustnie, możesz żądać pisemnego potwierdzenia decyzji – jeśli poprosisz od razu i masz uzasadniony interes. Najłatwiej odwołać się od pisemnej decyzji."
+  ],
+  [
+   "Wniosek o ponowne rozpatrzenie (Überprüfungsantrag)",
+   "Termin minął? Przy świadczeniach socjalnych (np. Jobcenter) możesz złożyć wniosek o ponowne rozpatrzenie, jeśli decyzja była błędna. Urząd musi ją sprawdzić jeszcze raz. Wyrównanie wypłaca się tylko za ograniczony czas."
+  ],
+  [
+   "Prawnik za 15 €: Beratungshilfe",
+   "Kto ma mało pieniędzy, dostaje w sądzie rejonowym (Amtsgericht) w miejscu zamieszkania Beratungshilfeschein. Z nim prawnik doradza ci poza sądem; płacisz najwyżej 15 €, prawnik może je umorzyć."
+  ],
+  [
+   "Bezpłatne doradztwo migracyjne",
+   "Doradztwo migracyjne dla dorosłych (MBE, od 27 lat) i młodzieżowe służby migracyjne (JMD, 12–27 lat) doradzają bezpłatnie i poufnie – w sprawie pism, pobytu, pracy, mieszkania i kursu niemieckiego. Jest też doradztwo online w wielu językach."
+  ],
+  [
+   "Płaca minimalna",
+   "Od 1 stycznia 2026 r. ustawowa płaca minimalna wynosi 13,90 € brutto za godzinę, od 1 stycznia 2027 r. 14,60 €. Dotyczy pracowników od 18 lat, także w minijobie. Zapisuj godziny pracy."
+  ],
+  [
+   "Konto podstawowe dla wszystkich",
+   "Każdy legalnie przebywający w UE – także osoby ubiegające się o azyl i z Duldung – ma prawo do konta podstawowego (Basiskonto). Bank musi je zaoferować najpóźniej w 10 dni roboczych od kompletnego wniosku."
+  ],
+  [
+   "Prawo do miejsca w przedszkolu",
+   "Od pierwszych urodzin każde dziecko ma prawo do miejsca w żłobku/przedszkolu lub u opiekunki dziennej, a od trzech lat do szkoły – do miejsca w przedszkolu. Zgłoś potrzebę wcześnie w Jugendamt lub w gminie."
+  ],
+  [
+   "Zwolnienie z abonamentu",
+   "Kto pobiera np. Grundsicherungsgeld, pomoc społeczną, świadczenia AsylbLG lub BAföG, może na wniosek być zwolniony z Rundfunkbeitrag. To nie dzieje się automatycznie – trzeba złożyć wniosek w Beitragsservice i dołączyć decyzję."
+  ]
+ ]
+}

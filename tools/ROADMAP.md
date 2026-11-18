@@ -28,3 +28,4 @@ Allgemeine Abnahmekriterien für jeden Punkt:
 ## Log
 - 19.11.2026: Plan angelegt; A, A2, 2 und 3 erledigt.
 - 19.11.2026: Punkte 4, 5 und 6 erledigt. Offen nur Punkt 7 (datengetrieben).
+- 19.11.2026: Indexierung beantragt (Search Console): was-tun, erste-30-tage, ihre-rechte (de+tr), grundsicherungsgeld (de). Tageskontingent erschöpft. Noch beantragen: integrationskurs, ueber-uns (de), tr/grundsicherungsgeld, tr/integrationskurs. IndexNow für alle 13 Sprachen gesendet.

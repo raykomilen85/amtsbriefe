@@ -1,0 +1,38 @@
+{
+ "nav": "Ce fac?",
+ "title": "Ce fac? Ghid pentru situația dvs. – scrisoare, sosire, loc de muncă, copil, mutare, ședere",
+ "desc": "Scrisoare de la o autoritate, nou în Germania, ați pierdut jobul, s-a născut un copil, mutare, expiră șederea? Răspundeți la 3 întrebări – vă arătăm pașii următori.",
+ "h1": "Ce fac? Pașii următori în 3 întrebări",
+ "intro": "Alegeți situația. Primiți ghiduri, modele și instrumente potrivite. Răspunsurile rămân pe dispozitivul dvs.",
+ "q1": "1. Ce s-a întâmplat?",
+ "opts": [
+  "Am primit o scrisoare de la o autoritate",
+  "Sunt nou în Germania",
+  "Mi-am pierdut locul de muncă",
+  "S-a născut un copil",
+  "M-am mutat",
+  "Permisul meu de ședere expiră curând"
+ ],
+ "q2": "2. Cetățenia dvs.",
+ "eu": "UE / SEE / Elveția",
+ "noneu": "Non-UE",
+ "q3": "3. În ce land locuiți?",
+ "none": "nu știu / nu contează",
+ "show": "Arată pașii următori",
+ "res": "Pașii dvs. următori",
+ "restart": "Începe din nou",
+ "tips": [
+  "Verificați întâi termenul din scrisoare. Puteți traduce scrisoarea și răspunde cu un model.",
+  "Începeți cu lista pentru primele 30 de zile: înregistrare în 2 săptămâni, cont, asigurare de sănătate.",
+  "Înregistrați-vă imediat ca persoană în căutarea unui loc de muncă la Agentur für Arbeit – întârzierea poate însemna Sperrzeit. Dacă banii nu ajung, cereți Grundsicherungsgeld.",
+  "Cereți certificatul de naștere, Kindergeld și Elterngeld. Anunțați din timp nevoia de grădiniță.",
+  "Înregistrați noua locuință în 2 săptămâni la Bürgeramt și comunicați noua adresă la Jobcenter, casa de asigurări și bancă.",
+  "Cereți prelungirea la biroul pentru străini la timp, înainte de expirare."
+ ],
+ "eunote": "Cetățenii UE nu au nevoie, de regulă, de permis de ședere pentru a locui și lucra în Germania.",
+ "ki": "Ajutor AI: înțelegeți scrisoarea",
+ "frist": "Calculator de termene",
+ "agentur": "Model: înregistrare în căutarea unui loc de muncă",
+ "portal": "Portalul online al landului dvs.",
+ "stelleL": "Găsiți instituția competentă"
+}

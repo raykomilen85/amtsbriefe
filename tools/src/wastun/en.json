@@ -1,0 +1,38 @@
+{
+ "nav": "What to do?",
+ "title": "What to do? Guide for your situation – letter, arrival, job, child, moving, residence",
+ "desc": "Letter from an authority, new in Germany, lost your job, baby born, moved, residence permit expiring? Answer 3 questions – we show the next steps. 13 languages.",
+ "h1": "What to do? Your next steps in 3 questions",
+ "intro": "Choose your situation. You get matching guides, templates and tools. Your answers stay on your device.",
+ "q1": "1. What happened?",
+ "opts": [
+  "I got a letter from an authority",
+  "I am new in Germany",
+  "I lost my job",
+  "A child was born",
+  "I moved house",
+  "My residence permit expires soon"
+ ],
+ "q2": "2. Your citizenship",
+ "eu": "EU / EEA / Switzerland",
+ "noneu": "Non-EU",
+ "q3": "3. Which federal state do you live in?",
+ "none": "don't know / doesn't matter",
+ "show": "Show next steps",
+ "res": "Your next steps",
+ "restart": "Start again",
+ "tips": [
+  "First check the deadline in the letter. You can have the letter translated and reply with a template.",
+  "Start with the first-30-days checklist: register within 2 weeks, bank account, health insurance.",
+  "Register as a jobseeker with the Agentur für Arbeit immediately – being late can mean a benefit block (Sperrzeit). If money is not enough, apply for Grundsicherungsgeld.",
+  "Apply for the birth certificate, child benefit (Kindergeld) and parental allowance (Elterngeld). Register your daycare need early.",
+  "Register your new home within 2 weeks at the Bürgeramt and tell the Jobcenter, health insurance and bank your new address.",
+  "Apply for the extension at the immigration office in good time before it expires."
+ ],
+ "eunote": "EU citizens generally do not need a residence permit to live and work in Germany.",
+ "ki": "AI help: understand a letter",
+ "frist": "Deadline calculator",
+ "agentur": "Template: register as jobseeker",
+ "portal": "Online portal of your state",
+ "stelleL": "Find the right office"
+}

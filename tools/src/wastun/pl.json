@@ -1,0 +1,38 @@
+{
+ "nav": "Co robić?",
+ "title": "Co robić? Przewodnik dla twojej sytuacji – pismo, przyjazd, praca, dziecko, przeprowadzka, pobyt",
+ "desc": "Pismo z urzędu, nowo w Niemczech, utrata pracy, narodziny dziecka, przeprowadzka, kończy się pobyt? Odpowiedz na 3 pytania – pokażemy następne kroki. 13 języków.",
+ "h1": "Co robić? Następne kroki w 3 pytaniach",
+ "intro": "Wybierz swoją sytuację. Dostaniesz pasujące przewodniki, wzory i narzędzia. Odpowiedzi zostają na twoim urządzeniu.",
+ "q1": "1. Co się stało?",
+ "opts": [
+  "Dostałem/am pismo z urzędu",
+  "Jestem nowo w Niemczech",
+  "Straciłem/am pracę",
+  "Urodziło się dziecko",
+  "Przeprowadziłem/am się",
+  "Wkrótce kończy się mój dokument pobytowy"
+ ],
+ "q2": "2. Twoje obywatelstwo",
+ "eu": "UE / EOG / Szwajcaria",
+ "noneu": "Spoza UE",
+ "q3": "3. W którym kraju związkowym mieszkasz?",
+ "none": "nie wiem / bez znaczenia",
+ "show": "Pokaż następne kroki",
+ "res": "Twoje następne kroki",
+ "restart": "Zacznij od nowa",
+ "tips": [
+  "Najpierw sprawdź termin w piśmie. Możesz przetłumaczyć pismo i odpowiedzieć według wzoru.",
+  "Zacznij od listy na pierwsze 30 dni: meldunek w ciągu 2 tygodni, konto, ubezpieczenie zdrowotne.",
+  "Od razu zarejestruj się w Agentur für Arbeit jako szukający pracy – spóźnienie może oznaczać Sperrzeit. Jeśli brakuje pieniędzy, złóż wniosek o Grundsicherungsgeld.",
+  "Złóż wnioski o akt urodzenia, Kindergeld i Elterngeld. Wcześnie zgłoś potrzebę miejsca w przedszkolu.",
+  "Zamelduj nowe mieszkanie w ciągu 2 tygodni w Bürgeramt i podaj nowy adres Jobcenter, kasie chorych i bankowi.",
+  "Złóż wniosek o przedłużenie w urzędzie ds. cudzoziemców na czas, przed upływem terminu."
+ ],
+ "eunote": "Obywatele UE z reguły nie potrzebują dokumentu pobytowego, by mieszkać i pracować w Niemczech.",
+ "ki": "Pomoc AI: zrozumieć pismo",
+ "frist": "Kalkulator terminów",
+ "agentur": "Wzór: rejestracja jako szukający pracy",
+ "portal": "Portal online twojego landu",
+ "stelleL": "Znajdź właściwy urząd"
+}

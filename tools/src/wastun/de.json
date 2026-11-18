@@ -1,0 +1,38 @@
+{
+ "nav": "Was tun?",
+ "title": "Was tun? Wegweiser für Ihre Situation – Brief, Ankunft, Job, Kind, Umzug, Aufenthalt",
+ "desc": "Brief vom Amt, neu in Deutschland, Job verloren, Kind geboren, Umzug, Aufenthalt läuft ab? Beantworten Sie 3 Fragen – wir zeigen die nächsten Schritte. 13 Sprachen.",
+ "h1": "Was tun? In 3 Fragen zu Ihren nächsten Schritten",
+ "intro": "Wählen Sie Ihre Situation. Sie bekommen passende Wegweiser, Vorlagen und Werkzeuge. Ihre Antworten bleiben auf Ihrem Gerät.",
+ "q1": "1. Was ist passiert?",
+ "opts": [
+  "Ich habe einen Brief vom Amt bekommen",
+  "Ich bin neu in Deutschland",
+  "Ich habe meine Arbeit verloren",
+  "Ein Kind wurde geboren",
+  "Ich bin umgezogen",
+  "Mein Aufenthaltstitel läuft bald ab"
+ ],
+ "q2": "2. Ihre Staatsangehörigkeit",
+ "eu": "EU / EWR / Schweiz",
+ "noneu": "Nicht-EU",
+ "q3": "3. In welchem Bundesland wohnen Sie?",
+ "none": "weiß nicht / egal",
+ "show": "Nächste Schritte zeigen",
+ "res": "Ihre nächsten Schritte",
+ "restart": "Neu starten",
+ "tips": [
+  "Prüfen Sie zuerst die Frist im Brief. Sie können den Brief übersetzen lassen und mit einer Vorlage antworten.",
+  "Starten Sie mit der Checkliste für die ersten 30 Tage: Anmeldung innerhalb von 2 Wochen, Konto, Krankenkasse.",
+  "Melden Sie sich sofort bei der Agentur für Arbeit arbeitsuchend – zu spät kann eine Sperrzeit bedeuten. Reicht das Geld nicht, beantragen Sie Grundsicherungsgeld.",
+  "Beantragen Sie Geburtsurkunde, Kindergeld und Elterngeld. Melden Sie den Kita-Bedarf früh an.",
+  "Melden Sie Ihre neue Wohnung innerhalb von 2 Wochen beim Bürgeramt an und teilen Sie die neue Adresse Jobcenter, Krankenkasse und Bank mit.",
+  "Beantragen Sie die Verlängerung rechtzeitig vor dem Ablauf bei der Ausländerbehörde."
+ ],
+ "eunote": "EU-Bürger brauchen für Aufenthalt und Arbeit in Deutschland grundsätzlich keinen Aufenthaltstitel.",
+ "ki": "KI-Hilfe: Brief verstehen",
+ "frist": "Fristen-Rechner",
+ "agentur": "Vorlage: Arbeitsuchend melden",
+ "portal": "Online-Portal Ihres Bundeslandes",
+ "stelleL": "Zuständige Stelle finden"
+}

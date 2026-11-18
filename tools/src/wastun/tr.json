@@ -1,0 +1,38 @@
+{
+ "nav": "Ne yapmalı?",
+ "title": "Ne yapmalı? Durumunuza göre yol gösterici – mektup, yeni geliş, iş, çocuk, taşınma, oturum",
+ "desc": "Resmî mektup, Almanya'ya yeni geliş, işini kaybetme, çocuk doğumu, taşınma, oturum bitiyor mu? 3 soruyu cevaplayın – sonraki adımları gösterelim. 13 dilde.",
+ "h1": "Ne yapmalı? 3 soruda sonraki adımlarınız",
+ "intro": "Durumunuzu seçin. Uygun rehberleri, şablonları ve araçları görün. Cevaplarınız cihazınızda kalır.",
+ "q1": "1. Ne oldu?",
+ "opts": [
+  "Resmî daireden mektup aldım",
+  "Almanya'ya yeni geldim",
+  "İşimi kaybettim",
+  "Çocuğum doğdu",
+  "Taşındım",
+  "Oturum iznim yakında bitiyor"
+ ],
+ "q2": "2. Vatandaşlığınız",
+ "eu": "AB / AEA / İsviçre",
+ "noneu": "AB dışı",
+ "q3": "3. Hangi eyalette oturuyorsunuz?",
+ "none": "bilmiyorum / fark etmez",
+ "show": "Sonraki adımları göster",
+ "res": "Sonraki adımlarınız",
+ "restart": "Yeniden başla",
+ "tips": [
+  "Önce mektuptaki süreyi kontrol edin. Mektubu çevirtebilir ve bir şablonla cevap verebilirsiniz.",
+  "İlk 30 gün kontrol listesiyle başlayın: 2 hafta içinde adres kaydı, banka hesabı, sağlık sigortası.",
+  "Hemen Agentur für Arbeit'a iş arayan olarak kaydolun – geç kalmak ceza süresi (Sperrzeit) demek olabilir. Para yetmezse Grundsicherungsgeld isteyin.",
+  "Doğum belgesi, çocuk parası (Kindergeld) ve ebeveyn parası (Elterngeld) için başvurun. Kreş ihtiyacını erken bildirin.",
+  "Yeni evinizi 2 hafta içinde Bürgeramt'ta kaydettirin ve yeni adresi Jobcenter'a, sağlık kasasına ve bankaya bildirin.",
+  "Uzatmayı süre bitmeden zamanında Yabancılar Dairesi'nden isteyin."
+ ],
+ "eunote": "AB vatandaşları Almanya'da yaşamak ve çalışmak için kural olarak oturum iznine ihtiyaç duymaz.",
+ "ki": "Yapay zekâ yardımı: mektubu anla",
+ "frist": "Süre hesaplayıcı",
+ "agentur": "Şablon: İş arayan olarak kayıt",
+ "portal": "Eyaletinizin online portalı",
+ "stelleL": "Yetkili daireyi bul"
+}

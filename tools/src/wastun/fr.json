@@ -1,0 +1,38 @@
+{
+ "nav": "Que faire ?",
+ "title": "Que faire ? Guide selon votre situation – lettre, arrivée, emploi, enfant, déménagement, séjour",
+ "desc": "Lettre d'une administration, nouveau en Allemagne, emploi perdu, naissance, déménagement, titre de séjour qui expire ? Répondez à 3 questions – nous montrons les étapes suivantes.",
+ "h1": "Que faire ? Vos prochaines étapes en 3 questions",
+ "intro": "Choisissez votre situation. Vous obtenez guides, modèles et outils adaptés. Vos réponses restent sur votre appareil.",
+ "q1": "1. Que s'est-il passé ?",
+ "opts": [
+  "J'ai reçu une lettre d'une administration",
+  "Je suis nouveau en Allemagne",
+  "J'ai perdu mon emploi",
+  "Un enfant est né",
+  "J'ai déménagé",
+  "Mon titre de séjour expire bientôt"
+ ],
+ "q2": "2. Votre nationalité",
+ "eu": "UE / EEE / Suisse",
+ "noneu": "Hors UE",
+ "q3": "3. Dans quel Land habitez-vous ?",
+ "none": "je ne sais pas / peu importe",
+ "show": "Afficher les étapes",
+ "res": "Vos prochaines étapes",
+ "restart": "Recommencer",
+ "tips": [
+  "Vérifiez d'abord le délai dans la lettre. Vous pouvez faire traduire la lettre et répondre avec un modèle.",
+  "Commencez par la checklist des 30 premiers jours : déclaration de domicile sous 2 semaines, compte, assurance maladie.",
+  "Inscrivez-vous tout de suite comme demandeur d'emploi à l'Agentur für Arbeit – un retard peut entraîner une Sperrzeit. Si l'argent ne suffit pas, demandez le Grundsicherungsgeld.",
+  "Demandez l'acte de naissance, le Kindergeld et l'Elterngeld. Signalez tôt le besoin de crèche.",
+  "Déclarez votre nouveau logement sous 2 semaines au Bürgeramt et donnez la nouvelle adresse au Jobcenter, à la caisse maladie et à la banque.",
+  "Demandez la prolongation au service des étrangers à temps, avant l'expiration."
+ ],
+ "eunote": "Les citoyens de l'UE n'ont en principe pas besoin de titre de séjour pour vivre et travailler en Allemagne.",
+ "ki": "Aide IA : comprendre une lettre",
+ "frist": "Calculateur de délais",
+ "agentur": "Modèle : s'inscrire comme demandeur d'emploi",
+ "portal": "Portail en ligne de votre Land",
+ "stelleL": "Trouver le service compétent"
+}

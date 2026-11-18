@@ -230,3 +230,4 @@ require("./stelle.js")({ C, CSS, LOGO, LANGS, SITE, VORL, esc, rel, root, url, P
 require("./about.js")({ CSS, LOGO, LANGS, SITE, VORL, esc, root, out });
 require("./erste30.js")({ CSS, LOGO, LANGS, SITE, VORL, ABOUT_NAV, esc, root, out });
 require("./rechte.js")({ CSS, LOGO, LANGS, SITE, VORL, ABOUT_NAV, esc, root, out });
+require("./wastun.js")({ CSS, LOGO, LANGS, SITE, VORL, ABOUT_NAV, esc, root, out });

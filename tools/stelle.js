@@ -137,6 +137,7 @@ function show(ags){var g=data&&data.g.filter(function(x){return x[0]===ags})[0];
  res.hidden=false;res.dataset.txt=g[1]+", "+g[2]+"\\n"+(kr?kr[1]+"\\n":"")+L[ags.slice(0,2)][0];}
 $("res-copy").onclick=function(){var b=this,o=b.textContent,t=res.dataset.txt||"";var done=function(){b.textContent=T.copied;setTimeout(function(){b.textContent=o},1800)};
  try{navigator.clipboard.writeText(t).then(done,done)}catch(e){done()}};
+try{var pl=new URLSearchParams(location.search).get("land");if(pl&&L[pl]){land.value=pl;land.onchange()}}catch(e){}
 })();
 </script>
 </body>

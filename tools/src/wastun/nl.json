@@ -1,0 +1,38 @@
+{
+ "nav": "Wat nu?",
+ "title": "Wat nu? Wegwijzer voor uw situatie – brief, aankomst, werk, kind, verhuizing, verblijf",
+ "desc": "Brief van een instantie, nieuw in Duitsland, baan kwijt, kind geboren, verhuisd, verblijfsvergunning verloopt? Beantwoord 3 vragen – wij tonen de volgende stappen.",
+ "h1": "Wat nu? Uw volgende stappen in 3 vragen",
+ "intro": "Kies uw situatie. U krijgt passende wegwijzers, sjablonen en hulpmiddelen. Uw antwoorden blijven op uw apparaat.",
+ "q1": "1. Wat is er gebeurd?",
+ "opts": [
+  "Ik kreeg een brief van een instantie",
+  "Ik ben nieuw in Duitsland",
+  "Ik ben mijn baan kwijt",
+  "Er is een kind geboren",
+  "Ik ben verhuisd",
+  "Mijn verblijfsvergunning verloopt binnenkort"
+ ],
+ "q2": "2. Uw nationaliteit",
+ "eu": "EU / EER / Zwitserland",
+ "noneu": "Buiten de EU",
+ "q3": "3. In welke deelstaat woont u?",
+ "none": "weet ik niet / maakt niet uit",
+ "show": "Volgende stappen tonen",
+ "res": "Uw volgende stappen",
+ "restart": "Opnieuw beginnen",
+ "tips": [
+  "Controleer eerst de termijn in de brief. U kunt de brief laten vertalen en met een sjabloon antwoorden.",
+  "Begin met de checklist voor de eerste 30 dagen: inschrijving binnen 2 weken, bankrekening, zorgverzekering.",
+  "Meld u meteen als werkzoekende bij de Agentur für Arbeit – te laat kan een Sperrzeit betekenen. Is het geld niet genoeg, vraag dan Grundsicherungsgeld aan.",
+  "Vraag geboorteakte, Kindergeld en Elterngeld aan. Meld vroeg uw behoefte aan kinderopvang.",
+  "Schrijf uw nieuwe woning binnen 2 weken in bij het Bürgeramt en geef het nieuwe adres door aan Jobcenter, zorgverzekeraar en bank.",
+  "Vraag de verlenging op tijd aan bij de vreemdelingendienst, vóór de vervaldatum."
+ ],
+ "eunote": "EU-burgers hebben in principe geen verblijfsvergunning nodig om in Duitsland te wonen en te werken.",
+ "ki": "AI-hulp: brief begrijpen",
+ "frist": "Termijncalculator",
+ "agentur": "Sjabloon: inschrijven als werkzoekende",
+ "portal": "Onlineportaal van uw deelstaat",
+ "stelleL": "Bevoegde instantie vinden"
+}

@@ -1,0 +1,38 @@
+{
+ "nav": "Çi bikim?",
+ "title": "Çi bikim? Rêber li gorî rewşa we – name, hatin, kar, zarok, barkirin, rûniştin",
+ "desc": "Nameyek ji dezgehê, nû li Almanyayê, kar winda kir, zarok çêbû, bar kir, destûra rûniştinê diqede? Bersiva 3 pirsan bidin – em gavên din nîşan didin. 13 ziman.",
+ "h1": "Çi bikim? Gavên we yên din bi 3 pirsan",
+ "intro": "Rewşa xwe hilbijêrin. Hûn rêber, şablon û amûrên guncav distînin. Bersivên we li ser amûra we dimînin.",
+ "q1": "1. Çi qewimî?",
+ "opts": [
+  "Min nameyek ji dezgehê wergirt",
+  "Ez nû li Almanyayê me",
+  "Min karê xwe winda kir",
+  "Zarokek çêbû",
+  "Min bar kir",
+  "Destûra rûniştina min zû diqede"
+ ],
+ "q2": "2. Hemwelatiya we",
+ "eu": "YE / DEA / Swîsre",
+ "noneu": "Ne-YE",
+ "q3": "3. Hûn li kîjan eyaletê dijîn?",
+ "none": "nizanim / ne girîng e",
+ "show": "Gavên din nîşan bide",
+ "res": "Gavên we yên din",
+ "restart": "Ji nû ve dest pê bike",
+ "tips": [
+  "Pêşî dema di nameyê de kontrol bikin. Hûn dikarin nameyê wergerînin û bi şablonekê bersiv bidin.",
+  "Bi lîsteya 30 rojên pêşîn dest pê bikin: tomarkirin di nav 2 hefteyan de, hesab, sîgorteya tenduristiyê.",
+  "Tavilê li Agentur für Arbeit wekî lêgerînerê kar xwe tomar bikin – derengmayîn dikare Sperrzeit be. Heke pere têr nake, Grundsicherungsgeld bixwazin.",
+  "Belgeya jidayikbûnê, Kindergeld û Elterngeld bixwazin. Hewcedariya kreşê zû ragihînin.",
+  "Xaniyê nû di nav 2 hefteyan de li Bürgeramt tomar bikin û navnîşana nû ji Jobcenter, kasa tenduristiyê û bankê re bibêjin.",
+  "Dirêjkirinê li Daîreya Biyaniyan di wextê de, berî qedandinê, bixwazin."
+ ],
+ "eunote": "Hemwelatiyên YE bi gelemperî ji bo jiyan û kar li Almanyayê destûra rûniştinê hewce nakin.",
+ "ki": "Alîkariya AI: nameyê fam bike",
+ "frist": "Hesabkerê deman",
+ "agentur": "Şablon: wekî lêgerînerê kar tomarbûn",
+ "portal": "Portala online ya eyaleta we",
+ "stelleL": "Daîreya berpirsiyar bibîne"
+}

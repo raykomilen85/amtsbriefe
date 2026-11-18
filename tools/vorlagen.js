@@ -14,6 +14,8 @@ const I = require("./src/vorlagen-i18n.json");
 const X = require("./src/vorlagen-extra.json"); // seitenspezifische Hinweise + FAQ (de/tr/en)
 const LANGS = Object.keys(I);
 const pre = lg => (lg === "de" ? "" : "/" + lg);
+const KI_T = {"de": "Brief vom Amt übersetzen", "tr": "Resmî mektubu çevir", "bg": "Преведи писмо от институция", "ar": "ترجمة رسالة الدائرة", "uk": "Перекласти лист установи", "pl": "Przetłumacz pismo z urzędu", "en": "Translate a letter from an office", "el": "Μετάφραση επιστολής από υπηρεσία", "fr": "Traduire une lettre d'une administration", "nl": "Een brief van een instantie vertalen", "ro": "Traduceți o scrisoare de la o instituție", "es": "Traducir una carta de una oficina", "ku": "Nameya saziyê wergerîne"};
+const KI_TXT = {"de": "Brief vom Amt bekommen und nicht verstanden? Foto hochladen – kostenlos übersetzen, Frist und Dringlichkeit sehen.", "tr": "Kurumdan mektup geldi ve anlamadın mı? Fotoğrafını yükle – ücretsiz çeviri, son tarih ve aciliyet.", "bg": "Получихте писмо от институция и не го разбирате? Качете снимка – безплатен превод, срок и спешност.", "ar": "وصلتك رسالة من دائرة ولم تفهمها؟ ارفع صورة – ترجمة مجانية مع المهلة ومدى الاستعجال.", "uk": "Отримали лист від установи й не розумієте його? Завантажте фото – безкоштовний переклад, строк і терміновість.", "pl": "Dostałeś pismo z urzędu i go nie rozumiesz? Wgraj zdjęcie – darmowe tłumaczenie, termin i pilność.", "en": "Got a letter from an office and don't understand it? Upload a photo – free translation, deadline and urgency.", "el": "Λάβατε επιστολή από υπηρεσία και δεν την καταλαβαίνετε; Ανεβάστε μια φωτογραφία – δωρεάν μετάφραση, προθεσμία και βαθμός επείγοντος.", "fr": "Vous avez reçu une lettre d'une administration et ne la comprenez pas ? Chargez une photo – traduction gratuite, délai et urgence.", "nl": "Een brief van een instantie gekregen en snap je hem niet? Upload een foto – gratis vertaling, termijn en urgentie.", "ro": "Ai primit o scrisoare de la o instituție și n-o înțelegi? Încarcă o fotografie – traducere gratuită, termen și urgență.", "es": "¿Recibiste una carta de una oficina y no la entiendes? Sube una foto: traducción gratuita, plazo y urgencia.", "ku": "Nameyek ji saziyê hat û tu jê fam nakî? Wêneyekî bar bike – wergera belaş, roja dawî û lezgînî."};
 
 // --- Daten aus der App in index.html lesen (gleiche Quelle wie die App, nichts doppelt pflegen) ---
 const idx = fs.readFileSync(path.join(ROOT, "index.html"), "utf8");
@@ -96,9 +98,10 @@ ${ld.map(o => `<script type="application/ld+json">${JSON.stringify(o)}</script>`
 <nav class="crumb">${crumbs.map(([n, u]) => u ? `<a href="${u}">${esc(n)}</a>` : esc(n)).join(" › ")}</nav>
 <h1>${esc(h1)}</h1>
 ${body}
+<p class="note noprint">${esc(KI_TXT[lg] || KI_TXT.de)}</p><a class="cta noprint" href="/ki-hilfe.html">${esc(KI_T[lg] || KI_T.de)} →</a>
 <p class="note">${esc(S.disc)} ${esc(S.stand)}: ${STAND_DE}</p>
 </main>
-<footer><div class="wrap"><a href="/">Amtsbriefe</a><a href="${pre(lg)}/vorlagen.html">${esc(S.ft[0])}</a><a href="/frist-rechner.html">${esc(S.ft[1])}</a><a href="/woerterbuch.html">${esc(S.ft[2])}</a><a href="/impressum.html">Impressum</a><a href="/datenschutz.html">Datenschutz</a></div></footer>
+<footer><div class="wrap"><a href="/">Amtsbriefe</a><a href="${pre(lg)}/vorlagen.html">${esc(S.ft[0])}</a><a href="/ki-hilfe.html">${esc(KI_T[lg] || KI_T.de)}</a><a href="/frist-rechner.html">${esc(S.ft[1])}</a><a href="/woerterbuch.html">${esc(S.ft[2])}</a><a href="/impressum.html">Impressum</a><a href="/datenschutz.html">Datenschutz</a></div></footer>
 <script>document.querySelectorAll("[data-copy]").forEach(function(b){b.onclick=function(){var t=document.getElementById(b.dataset.copy).textContent,o=b.textContent,d=function(){b.textContent=${JSON.stringify(S.copied)};setTimeout(function(){b.textContent=o},1800)};try{navigator.clipboard.writeText(t).then(d,d)}catch(e){d()}}});
 document.querySelectorAll("[data-lang]").forEach(function(a){a.addEventListener("click",function(){try{localStorage.setItem("bb-lang",a.dataset.lang)}catch(e){}})});</script>
 </body>

@@ -61,6 +61,10 @@
   [
    "50% of the fee back",
    "if successful within 2 years of your first entitlement (§ 9(6) IntV)"
+  ],
+  [
+   "Objection to refused admission",
+   "1 month after receiving the decision – see the legal instructions (§ 70 VwGO)"
   ]
  ],
  "contactsTitle": "Official offices and free help",
@@ -93,6 +97,14 @@
   "ikerst": [
    "Application for a 50% fee refund (Antrag auf Erstattung)",
    "to the BAMF – after completing successfully (§ 9(6) IntV)"
+  ],
+  "ikwechsel": [
+   "Change course provider (Wechsel des Kursträgers)",
+   "to your current provider – confirmation of hours attended (§ 14(4) IntV)"
+  ],
+  "ikwid": [
+   "Objection to refused admission (Widerspruch)",
+   "to the BAMF – within the deadline in the decision"
   ]
  }
 }

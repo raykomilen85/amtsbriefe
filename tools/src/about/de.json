@@ -1,0 +1,29 @@
+{
+ "nav": "Über uns",
+ "title": "Über Amtsbriefe – wer hinter der Seite steht",
+ "desc": "Amtsbriefe ist eine kostenlose, private Website für Briefe an deutsche Ämter. Wer sie macht, wie Inhalte geprüft werden und was sie nicht ist.",
+ "h1": "Über Amtsbriefe",
+ "intro": "Amtsbriefe ist eine kostenlose, private Website. Sie hilft Menschen in Deutschland – vor allem neu Zugewanderten –, Briefe von Ämtern zu verstehen und richtig zu beantworten.",
+ "sec": [
+  [
+   "Wer steht dahinter?",
+   "Ich heiße Milen Yakimov und wohne in Bad Schwartau. Ich besuche selbst einen Integrationskurs in Lübeck. Ich weiß aus eigener Erfahrung, wie schwer ein Brief vom Jobcenter, vom Finanzamt oder von der Ausländerbehörde zu verstehen ist – und wie wichtig es ist, keine Frist zu verpassen. Deshalb habe ich diese Seite gebaut."
+  ],
+  [
+   "Was Sie hier finden",
+   "Fertige Musterbriefe auf Deutsch mit Erklärungen in 13 Sprachen, einen Fristen-Rechner, eine Hilfe zum Übersetzen von Briefen, ein Wörterbuch für Amtsdeutsch und Schritt-für-Schritt-Seiten zu Aufenthalt, Sozialleistungen, Familie, Integrationskurs und mehr."
+  ],
+  [
+   "Wie wir Inhalte prüfen",
+   "Rechtliche Angaben prüfen wir mit amtlichen Quellen, vor allem mit den Gesetzestexten auf gesetze-im-internet.de und den Seiten der Behörden. Auf jeder Seite stehen die Quellen und das Datum der letzten Prüfung. Die Texte werden mit Hilfe von KI (Claude) geschrieben und übersetzt und regelmäßig kontrolliert. Wenn Sie einen Fehler finden, schreiben Sie uns bitte."
+  ],
+  [
+   "Was Amtsbriefe nicht ist",
+   "Wir sind keine Behörde und keine Rechtsberatung. Ihre Briefe werden nicht an uns übertragen; Besuche zählen wir anonym ohne Cookies. Bei Widerspruch, Kürzungen oder Fragen zum Aufenthalt helfen kostenlose Beratungsstellen, z. B. die Migrationsberatung (MBE) oder der Jugendmigrationsdienst."
+  ],
+  [
+   "Kontakt",
+   "E-Mail: raykomilen85@gmail.com. Impressum und Datenschutz finden Sie unten auf jeder Seite."
+  ]
+ ]
+}

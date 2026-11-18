@@ -1,0 +1,29 @@
+{
+ "nav": "O nas",
+ "title": "O Amtsbriefe – kto stoi za stroną",
+ "desc": "Amtsbriefe to darmowa, prywatna strona z pismami do niemieckich urzędów. Kto ją tworzy, jak sprawdzamy treści i czym nie jest.",
+ "h1": "O Amtsbriefe",
+ "intro": "Amtsbriefe to darmowa, prywatna strona. Pomaga ludziom w Niemczech – zwłaszcza nowo przybyłym – rozumieć pisma z urzędów i poprawnie na nie odpowiadać.",
+ "sec": [
+  [
+   "Kto za tym stoi?",
+   "Nazywam się Milen Yakimov i mieszkam w Bad Schwartau. Sam chodzę na kurs integracyjny w Lubece. Z własnego doświadczenia wiem, jak trudno zrozumieć pismo z Jobcenter, urzędu skarbowego czy urzędu ds. cudzoziemców – i jak ważne jest, by nie przegapić terminu. Dlatego zbudowałem tę stronę."
+  ],
+  [
+   "Co tu znajdziesz",
+   "Gotowe wzory pism po niemiecku z wyjaśnieniami w 13 językach, kalkulator terminów, pomoc w tłumaczeniu pism, słownik języka urzędowego i strony krok po kroku o pobycie, świadczeniach, rodzinie, kursie integracyjnym i innych."
+  ],
+  [
+   "Jak sprawdzamy treści",
+   "Informacje prawne sprawdzamy w źródłach urzędowych, przede wszystkim w tekstach ustaw na gesetze-im-internet.de i na stronach urzędów. Na każdej stronie są źródła i data ostatniej kontroli. Teksty są pisane i tłumaczone z pomocą AI (Claude) i regularnie sprawdzane. Jeśli znajdziesz błąd, napisz do nas."
+  ],
+  [
+   "Czym Amtsbriefe nie jest",
+   "Nie jesteśmy urzędem i nie udzielamy porad prawnych. Twoje pisma nie są do nas przesyłane; wizyty liczymy anonimowo, bez cookies. Przy odwołaniach, obniżkach świadczeń lub sprawach pobytu pomagają bezpłatne poradnie, np. doradztwo dla migrantów (MBE) lub Jugendmigrationsdienst."
+  ],
+  [
+   "Kontakt",
+   "E-mail: raykomilen85@gmail.com. Impressum i ochrona danych – na dole każdej strony."
+  ]
+ ]
+}

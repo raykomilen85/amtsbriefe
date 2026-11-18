@@ -61,6 +61,10 @@
   [
    "50 % de la contribución de vuelta",
    "si apruebas en los 2 años siguientes al primer derecho de participación (§ 9 Abs. 6 IntV)"
+  ],
+  [
+   "Recurso contra la denegación de admisión",
+   "1 mes desde que recibes la resolución – mira las instrucciones de recurso (§ 70 VwGO)"
   ]
  ],
  "contactsTitle": "Oficinas oficiales y ayuda gratuita",
@@ -93,6 +97,14 @@
   "ikerst": [
    "Solicitud de reembolso del 50 % (Antrag auf Erstattung)",
    "al BAMF – tras aprobar (§ 9 Abs. 6 IntV)"
+  ],
+  "ikwechsel": [
+   "Cambiar de centro (Wechsel des Kursträgers)",
+   "al centro actual – confirmación de las horas cursadas (§ 14 Abs. 4 IntV)"
+  ],
+  "ikwid": [
+   "Recurso contra la denegación (Widerspruch)",
+   "al BAMF – dentro del plazo de la resolución"
   ]
  }
 }

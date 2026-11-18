@@ -1,6 +1,7 @@
 // German letter templates (letters to German authorities are always written in German).
 // {{key}} = field to fill in. SAMPLE holds example values for the "filled example" view.
 const SAMPLE = {
+  newprov: "Volkshochschule Musterstadt, Kurs-Nr. 2026-204",
   course: "Integrationskurs, Kurs-Nr. 2026-117", kstart: "14.09.2026", bnr: "BAMF-Kennziffer 123456789", certdate: "10.11.2026", firstdate: "01.03.2025", iban: "DE00 1234 5678 9012 3456 78",
   name: "Ayşe Yılmaz",
   street: "Musterstraße 12",
@@ -39,6 +40,7 @@ const SAMPLE = {
 };
 
 const LABELS = {
+  newprov: "neuer Kursträger (Name, Kursnummer)",
   course: "Kurs (Bezeichnung / Kursnummer)", kstart: "Kursbeginn (Datum)", bnr: "BAMF-Kennziffer / Nummer der Teilnahmeberechtigung", certdate: "Datum des Zertifikats", firstdate: "Datum der ersten Teilnahmeberechtigung", iban: "IBAN",
   name: "Vor- und Nachname", street: "Straße und Hausnummer", city: "PLZ und Ort",
   dob: "Geburtsdatum", nat: "Staatsangehörigkeit", file: "Aktenzeichen",
@@ -551,6 +553,32 @@ Kontoinhaber/in: {{name}}
 IBAN: {{iban}}
 
 Eine Kopie des Zertifikats und Nachweise über die gezahlten Kostenbeiträge lege ich bei.`,
+  },
+  ikwechsel: {
+    sample: { office: "Sprachschule Muster – Integrationskurse", officeaddr: "Musterstraße 1\n23552 Lübeck", why: "Ich ziehe am 01.12.2026 nach Hamburg um." },
+    subj: "Wechsel des Kursträgers (§ 14 Abs. 4 IntV) – {{course}}",
+    body: `Sehr geehrte Damen und Herren,
+
+ich nehme an Ihrem Integrationskurs teil ({{course}}) und möchte den Kursträger wechseln.
+
+Grund:
+{{why}}
+
+Neuer Kursträger: {{newprov}}
+
+Bitte bestätigen Sie mir schriftlich, welche Kursabschnitte und wie viele Unterrichtsstunden ich bei Ihnen besucht habe, und unterstützen Sie den Wechsel. Nachweise zum Grund lege ich bei.`,
+  },
+  ikwid: {
+    sample: { office: "Bundesamt für Migration und Flüchtlinge – Regionalstelle", officeaddr: "Musterstraße 1\n12345 Musterstadt", reason: "Ich besitze eine Aufenthaltserlaubnis nach § 24 AufenthG und gehöre damit zu den vorrangig zu berücksichtigenden Personen (§ 5 Abs. 4 IntV). Eine Kopie lege ich bei." },
+    subj: "Widerspruch gegen die Ablehnung meiner Zulassung zum Integrationskurs – Bescheid vom {{bdate}}, {{file}}",
+    body: `Sehr geehrte Damen und Herren,
+
+gegen Ihren Bescheid vom {{bdate}} ({{file}}), mit dem Sie meinen Antrag auf Zulassung zum Integrationskurs abgelehnt haben, lege ich Widerspruch ein.
+
+Begründung:
+{{reason}}
+
+Ich bitte Sie, meinen Antrag erneut zu prüfen und mich zum Integrationskurs zuzulassen. Bitte bestätigen Sie mir den Eingang dieses Widerspruchs schriftlich.`,
   },
 };
 

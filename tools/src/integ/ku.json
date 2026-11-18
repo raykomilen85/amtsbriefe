@@ -61,6 +61,10 @@
   [
    "50% ji pereyê paşve",
    "bi serkeftinê di nav 2 salan de piştî mafê yekem ê beşdariyê (§ 9 Abs. 6 IntV)"
+  ],
+  [
+   "Îtîraz li dijî redkirina qebûlê",
+   "1 meh piştî gihîştina biryarê – li agahiyên îtîrazê yên di biryarê de binêre (§ 70 VwGO)"
   ]
  ],
  "contactsTitle": "Saziyên fermî û alîkariya belaş",
@@ -93,6 +97,14 @@
   "ikerst": [
    "Serlêdana vegerandina 50% (Antrag auf Erstattung)",
    "ji BAMF re – piştî qedandina bi serkeftî (§ 9 Abs. 6 IntV)"
+  ],
+  "ikwechsel": [
+   "Guhertina saziya kursê (Wechsel des Kursträgers)",
+   "ji saziya niha re – pejirandina saetên ku we xwendine (§ 14 Abs. 4 IntV)"
+  ],
+  "ikwid": [
+   "Îtîraz li dijî redkirinê (Widerspruch)",
+   "ji BAMF re – di nav dema ku di biryarê de ye"
   ]
  }
 }

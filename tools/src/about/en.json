@@ -1,0 +1,29 @@
+{
+ "nav": "About us",
+ "title": "About Amtsbriefe – who is behind the site",
+ "desc": "Amtsbriefe is a free, private website for letters to German authorities. Who runs it, how content is checked and what it is not.",
+ "h1": "About Amtsbriefe",
+ "intro": "Amtsbriefe is a free, private website. It helps people in Germany – especially newcomers – understand letters from authorities and answer them correctly.",
+ "sec": [
+  [
+   "Who is behind it?",
+   "My name is Milen Yakimov and I live in Bad Schwartau. I attend an integration course in Lübeck myself. I know from experience how hard it is to understand a letter from the Jobcenter, the tax office or the immigration office – and how important it is not to miss a deadline. That is why I built this site."
+  ],
+  [
+   "What you find here",
+   "Ready-made sample letters in German with explanations in 13 languages, a deadline calculator, help with translating letters, a dictionary of official German and step-by-step pages on residence, benefits, family, the integration course and more."
+  ],
+  [
+   "How we check content",
+   "We check legal information against official sources, above all the legal texts on gesetze-im-internet.de and the authorities' websites. Every page shows its sources and the date of the last check. The texts are written and translated with the help of AI (Claude) and checked regularly. If you find a mistake, please write to us."
+  ],
+  [
+   "What Amtsbriefe is not",
+   "We are not an authority and we do not give legal advice. Your letters are not sent to us; we count visits anonymously without cookies. For objections, benefit cuts or residence questions, free counselling services help, e.g. migration counselling (MBE) or the youth migration service (JMD)."
+  ],
+  [
+   "Contact",
+   "Email: raykomilen85@gmail.com. Legal notice and privacy policy are at the bottom of every page."
+  ]
+ ]
+}

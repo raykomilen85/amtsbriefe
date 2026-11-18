@@ -61,6 +61,10 @@
   [
    "Zwrot 50% opłaty",
    "przy sukcesie w ciągu 2 lat od pierwszego uprawnienia (§ 9 Abs. 6 IntV)"
+  ],
+  [
+   "Sprzeciw wobec odmowy dopuszczenia",
+   "1 miesiąc od doręczenia decyzji – patrz pouczenie w decyzji (§ 70 VwGO)"
   ]
  ],
  "contactsTitle": "Urzędy i bezpłatna pomoc",
@@ -93,6 +97,14 @@
   "ikerst": [
    "Wniosek o zwrot 50% opłaty (Antrag auf Erstattung)",
    "do BAMF – po ukończeniu z sukcesem (§ 9 Abs. 6 IntV)"
+  ],
+  "ikwechsel": [
+   "Zmiana organizatora kursu (Wechsel des Kursträgers)",
+   "do obecnego organizatora – potwierdzenie odbytych godzin (§ 14 Abs. 4 IntV)"
+  ],
+  "ikwid": [
+   "Sprzeciw wobec odmowy dopuszczenia (Widerspruch)",
+   "do BAMF – w terminie podanym w decyzji"
   ]
  }
 }

@@ -61,6 +61,10 @@
   [
    "50% van de bijdrage terug",
    "bij succes binnen 2 jaar na het eerste deelnamerecht (§ 9 Abs. 6 IntV)"
+  ],
+  [
+   "Bezwaar tegen weigering van toelating",
+   "1 maand na ontvangst van het besluit – zie de rechtsmiddelenclausule (§ 70 VwGO)"
   ]
  ],
  "contactsTitle": "Officiële instanties en gratis hulp",
@@ -93,6 +97,14 @@
   "ikerst": [
    "Aanvraag 50% terugbetaling (Antrag auf Erstattung)",
    "aan het BAMF – na succesvolle afronding (§ 9 Abs. 6 IntV)"
+  ],
+  "ikwechsel": [
+   "Van aanbieder wisselen (Wechsel des Kursträgers)",
+   "aan je huidige aanbieder – bevestiging van gevolgde uren (§ 14 Abs. 4 IntV)"
+  ],
+  "ikwid": [
+   "Bezwaar tegen weigering (Widerspruch)",
+   "aan het BAMF – binnen de termijn in het besluit"
   ]
  }
 }

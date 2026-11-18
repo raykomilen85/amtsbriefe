@@ -1,0 +1,29 @@
+{
+ "nav": "Sobre nosotros",
+ "title": "Sobre Amtsbriefe – quién está detrás de la web",
+ "desc": "Amtsbriefe es una web gratuita y privada para cartas a oficinas alemanas. Quién la hace, cómo se revisa el contenido y qué no es.",
+ "h1": "Sobre Amtsbriefe",
+ "intro": "Amtsbriefe es una web gratuita y privada. Ayuda a las personas en Alemania – sobre todo a quienes acaban de llegar – a entender las cartas de las oficinas y a responder bien.",
+ "sec": [
+  [
+   "¿Quién está detrás?",
+   "Me llamo Milen Yakimov y vivo en Bad Schwartau. Yo mismo hago un curso de integración en Lübeck. Sé por experiencia lo difícil que es entender una carta del Jobcenter, de Hacienda o de la oficina de extranjería, y lo importante que es no perder un plazo. Por eso creé esta web."
+  ],
+  [
+   "Qué encuentras aquí",
+   "Cartas modelo listas en alemán con explicaciones en 13 idiomas, una calculadora de plazos, ayuda para traducir cartas, un diccionario de alemán administrativo y páginas paso a paso sobre residencia, prestaciones, familia, curso de integración y más."
+  ],
+  [
+   "Cómo revisamos el contenido",
+   "Revisamos la información jurídica con fuentes oficiales, sobre todo los textos legales de gesetze-im-internet.de y las webs de las oficinas. Cada página indica sus fuentes y la fecha de la última revisión. Los textos se escriben y traducen con ayuda de IA (Claude) y se revisan con regularidad. Si encuentras un error, escríbenos."
+  ],
+  [
+   "Qué no es Amtsbriefe",
+   "No somos una oficina pública ni damos asesoramiento jurídico. Tus cartas no se nos envían; contamos las visitas de forma anónima, sin cookies. Para recursos, recortes o preguntas de residencia ayudan servicios de asesoría gratuitos, p. ej. la asesoría para migrantes (MBE) o el Jugendmigrationsdienst."
+  ],
+  [
+   "Contacto",
+   "Correo: raykomilen85@gmail.com. Aviso legal y privacidad al pie de cada página."
+  ]
+ ]
+}

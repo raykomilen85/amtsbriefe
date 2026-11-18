@@ -61,6 +61,10 @@
   [
    "50 % remboursés",
    "en cas de réussite dans les 2 ans suivant le premier droit de participation (§ 9 Abs. 6 IntV)"
+  ],
+  [
+   "Opposition au refus d'admission",
+   "1 mois après réception de la décision – voir les voies de recours indiquées (§ 70 VwGO)"
   ]
  ],
  "contactsTitle": "Services officiels et aide gratuite",
@@ -93,6 +97,14 @@
   "ikerst": [
    "Demande de remboursement de 50 % (Antrag auf Erstattung)",
    "au BAMF – après réussite (§ 9 Abs. 6 IntV)"
+  ],
+  "ikwechsel": [
+   "Changer d'organisme (Wechsel des Kursträgers)",
+   "à l'organisme actuel – confirmation des heures suivies (§ 14 Abs. 4 IntV)"
+  ],
+  "ikwid": [
+   "Opposition au refus d'admission (Widerspruch)",
+   "au BAMF – dans le délai indiqué dans la décision"
   ]
  }
 }

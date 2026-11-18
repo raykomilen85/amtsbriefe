@@ -61,6 +61,10 @@
   [
    "50% din contribuție înapoi",
    "la succes în 2 ani de la primul drept de participare (§ 9 Abs. 6 IntV)"
+  ],
+  [
+   "Contestație împotriva refuzului admiterii",
+   "1 lună de la primirea deciziei – vezi instrucțiunile din decizie (§ 70 VwGO)"
   ]
  ],
  "contactsTitle": "Instituții oficiale și ajutor gratuit",
@@ -93,6 +97,14 @@
   "ikerst": [
    "Cerere de rambursare a 50% (Antrag auf Erstattung)",
    "către BAMF – după absolvire cu succes (§ 9 Abs. 6 IntV)"
+  ],
+  "ikwechsel": [
+   "Schimbarea organizatorului (Wechsel des Kursträgers)",
+   "către organizatorul actual – confirmarea orelor frecventate (§ 14 Abs. 4 IntV)"
+  ],
+  "ikwid": [
+   "Contestație împotriva refuzului (Widerspruch)",
+   "către BAMF – în termenul din decizie"
   ]
  }
 }

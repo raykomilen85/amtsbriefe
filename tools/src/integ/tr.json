@@ -61,6 +61,10 @@
   [
    "Ücretin %50'si geri",
    "ilk katılım belgesinden sonraki 2 yıl içinde başarı halinde (§ 9 Abs. 6 IntV)"
+  ],
+  [
+   "Kabul reddine itiraz",
+   "kararın size ulaşmasından itibaren 1 ay – kararın sonundaki açıklamaya bakın (§ 70 VwGO)"
   ]
  ],
  "contactsTitle": "Resmî yerler ve ücretsiz yardım",
@@ -93,6 +97,14 @@
   "ikerst": [
    "Kurs ücretinin %50'sinin iadesi (Antrag auf Erstattung)",
    "BAMF'a – başarıyla bitirdikten sonra (§ 9 Abs. 6 IntV)"
+  ],
+  "ikwechsel": [
+   "Kurs kurumunu değiştirme (Wechsel des Kursträgers)",
+   "mevcut kurs kurumuna – katıldığınız saatlerin onayı (§ 14 Abs. 4 IntV)"
+  ],
+  "ikwid": [
+   "Kabul reddine itiraz (Widerspruch)",
+   "BAMF'a – kararda yazan süre içinde"
   ]
  }
 }

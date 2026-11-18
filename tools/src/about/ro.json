@@ -1,0 +1,29 @@
+{
+ "nav": "Despre noi",
+ "title": "Despre Amtsbriefe – cine este în spatele site-ului",
+ "desc": "Amtsbriefe este un site gratuit și privat pentru scrisori către instituțiile germane. Cine îl face, cum se verifică conținutul și ce nu este.",
+ "h1": "Despre Amtsbriefe",
+ "intro": "Amtsbriefe este un site gratuit și privat. Ajută oamenii din Germania – mai ales nou-veniții – să înțeleagă scrisorile instituțiilor și să răspundă corect.",
+ "sec": [
+  [
+   "Cine este în spate?",
+   "Mă numesc Milen Yakimov și locuiesc în Bad Schwartau. Și eu urmez un curs de integrare în Lübeck. Știu din experiență cât de greu este să înțelegi o scrisoare de la Jobcenter, fisc sau Biroul pentru străini – și cât de important este să nu ratezi un termen. De aceea am făcut acest site."
+  ],
+  [
+   "Ce găsiți aici",
+   "Modele de scrisori gata făcute în germană, cu explicații în 13 limbi, un calculator de termene, ajutor la traducerea scrisorilor, un dicționar de germană administrativă și pagini pas cu pas despre ședere, prestații, familie, cursul de integrare și altele."
+  ],
+  [
+   "Cum verificăm conținutul",
+   "Verificăm informațiile juridice după surse oficiale, mai ales textele legilor de pe gesetze-im-internet.de și site-urile instituțiilor. Pe fiecare pagină sunt sursele și data ultimei verificări. Textele sunt scrise și traduse cu ajutorul AI (Claude) și verificate regulat. Dacă găsiți o greșeală, scrieți-ne."
+  ],
+  [
+   "Ce nu este Amtsbriefe",
+   "Nu suntem o instituție și nu oferim consultanță juridică. Scrisorile dvs. nu ne sunt trimise; numărăm vizitele anonim, fără cookies. Pentru contestații, reduceri sau întrebări despre ședere ajută servicii gratuite de consiliere, de ex. consilierea pentru migranți (MBE) sau Jugendmigrationsdienst."
+  ],
+  [
+   "Contact",
+   "E-mail: raykomilen85@gmail.com. Impressum și protecția datelor – în partea de jos a fiecărei pagini."
+  ]
+ ]
+}

@@ -1,0 +1,29 @@
+{
+ "nav": "À propos",
+ "title": "À propos d'Amtsbriefe – qui est derrière le site",
+ "desc": "Amtsbriefe est un site gratuit et privé pour les lettres aux administrations allemandes. Qui le fait, comment le contenu est vérifié et ce qu'il n'est pas.",
+ "h1": "À propos d'Amtsbriefe",
+ "intro": "Amtsbriefe est un site gratuit et privé. Il aide les personnes en Allemagne – surtout les nouveaux arrivants – à comprendre les lettres des administrations et à y répondre correctement.",
+ "sec": [
+  [
+   "Qui est derrière ?",
+   "Je m'appelle Milen Yakimov et j'habite à Bad Schwartau. Je suis moi-même un cours d'intégration à Lübeck. Je sais par expérience combien il est difficile de comprendre une lettre du Jobcenter, du fisc ou du service des étrangers – et combien il est important de ne pas manquer un délai. C'est pourquoi j'ai créé ce site."
+  ],
+  [
+   "Ce que vous trouvez ici",
+   "Des modèles de lettres prêts en allemand avec des explications en 13 langues, un calculateur de délais, une aide à la traduction des lettres, un dictionnaire de l'allemand administratif et des pages étape par étape sur le séjour, les prestations, la famille, le cours d'intégration et plus."
+  ],
+  [
+   "Comment nous vérifions",
+   "Nous vérifions les informations juridiques avec des sources officielles, surtout les textes de loi sur gesetze-im-internet.de et les sites des administrations. Chaque page indique ses sources et la date du dernier contrôle. Les textes sont rédigés et traduits avec l'aide de l'IA (Claude) et contrôlés régulièrement. Si vous trouvez une erreur, écrivez-nous."
+  ],
+  [
+   "Ce qu'Amtsbriefe n'est pas",
+   "Nous ne sommes pas une administration et ne donnons pas de conseil juridique. Vos lettres ne nous sont pas envoyées ; nous comptons les visites de façon anonyme, sans cookies. Pour un recours, une réduction de prestations ou des questions de séjour, des services de conseil gratuits aident, p. ex. le conseil aux migrants (MBE) ou le Jugendmigrationsdienst."
+  ],
+  [
+   "Contact",
+   "E-mail : raykomilen85@gmail.com. Mentions légales et protection des données en bas de chaque page."
+  ]
+ ]
+}

@@ -61,6 +61,10 @@
   [
    "50 % des Kostenbeitrags zurück",
    "bei Erfolg innerhalb von 2 Jahren nach der ersten Teilnahmeberechtigung (§ 9 Abs. 6 IntV)"
+  ],
+  [
+   "Widerspruch gegen Ablehnung der Zulassung",
+   "1 Monat ab Zugang des Bescheids – siehe Rechtsbehelfsbelehrung (§ 70 VwGO)"
   ]
  ],
  "contactsTitle": "Offizielle Stellen und kostenlose Hilfe",
@@ -93,6 +97,14 @@
   "ikerst": [
    "Antrag auf Erstattung von 50 % des Kostenbeitrags",
    "beim BAMF – nach erfolgreichem Abschluss (§ 9 Abs. 6 IntV)"
+  ],
+  "ikwechsel": [
+   "Kursträger wechseln (Umzug, Arbeit, Kinderbetreuung …)",
+   "beim bisherigen Kursträger – Bestätigung der besuchten Stunden (§ 14 Abs. 4 IntV)"
+  ],
+  "ikwid": [
+   "Widerspruch gegen Ablehnung der Zulassung",
+   "beim BAMF – innerhalb der Frist im Bescheid"
   ]
  }
 }

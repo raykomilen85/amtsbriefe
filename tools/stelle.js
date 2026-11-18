@@ -5,6 +5,7 @@
 // BZSt-Finanzamtsuche, Orts- und Gerichtsverzeichnis der Justiz, 115.de). No authority addresses are guessed.
 const fs = require("fs");
 const path = require("path");
+const ABOUT_NAV = {"de": "Über uns", "tr": "Hakkımızda", "bg": "За нас", "ar": "من نحن", "uk": "Про нас", "pl": "O nas", "en": "About us", "el": "Σχετικά με εμάς", "fr": "À propos", "nl": "Over ons", "ro": "Despre noi", "es": "Sobre nosotros", "ku": "Derbarê me de"};
 const LINKS_CHECKED = "09.11.2026";
 // AGS Land key → [name, official portal]
 const LAENDER = {
@@ -106,7 +107,7 @@ ${s.faq.map(([q, a]) => `<details><summary>${esc(q)}</summary><p class="lt">${es
 <p class="src" id="src">${esc(s.linksNote.replace("{D}", LINKS_CHECKED))}<br><span id="src-gv"></span></p>
 <p class="note">${esc(u.disclaimer)}</p>
 </main>
-<footer><div class="wrap"><a href="${root(lang)}">Amtsbriefe</a><a href="${lang === "de" ? "" : "/" + lang}/vorlagen.html">${VORL[lang] || VORL.de}</a><a href="${root(lang)}impressum.html">Impressum</a><a href="${root(lang)}datenschutz.html">Datenschutz</a></div></footer>
+<footer><div class="wrap"><a href="${root(lang)}">Amtsbriefe</a><a href="${lang === "de" ? "" : "/" + lang}/vorlagen.html">${VORL[lang] || VORL.de}</a><a href="${lang === "de" ? "" : "/" + lang}/ueber-uns.html">${ABOUT_NAV[lang]}</a><a href="${root(lang)}impressum.html">Impressum</a><a href="${root(lang)}datenschutz.html">Datenschutz</a></div></footer>
 <script>
 (function(){
 var T=${JSON.stringify(T)},L=${JSON.stringify(LAENDER)};

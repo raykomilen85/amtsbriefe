@@ -1,0 +1,29 @@
+{
+ "nav": "Hakkımızda",
+ "title": "Amtsbriefe hakkında – sitenin arkasında kim var",
+ "desc": "Amtsbriefe, Alman resmî daireleri için ücretsiz, özel bir sitedir. Kim yapıyor, içerikler nasıl kontrol ediliyor ve ne değildir.",
+ "h1": "Amtsbriefe hakkında",
+ "intro": "Amtsbriefe ücretsiz, özel bir sitedir. Almanya'daki insanlara – özellikle yeni gelenlere – resmî dairelerden gelen mektupları anlamada ve doğru cevaplamada yardım eder.",
+ "sec": [
+  [
+   "Arkasında kim var?",
+   "Adım Milen Yakimov, Bad Schwartau'da yaşıyorum. Ben de Lübeck'te bir entegrasyon kursuna gidiyorum. Jobcenter, Finanzamt veya Yabancılar Dairesi'nden gelen bir mektubu anlamanın ne kadar zor olduğunu ve bir süreyi kaçırmamanın ne kadar önemli olduğunu kendi deneyimimden biliyorum. Bu yüzden bu siteyi yaptım."
+  ],
+  [
+   "Burada neler var",
+   "Almanca hazır mektup şablonları ve 13 dilde açıklamalar, süre hesaplayıcı, mektup çeviri yardımı, resmî Almanca sözlüğü ve oturum, sosyal yardımlar, aile, entegrasyon kursu gibi konularda adım adım sayfalar."
+  ],
+  [
+   "İçerikleri nasıl kontrol ediyoruz",
+   "Hukuki bilgileri resmî kaynaklarla, özellikle gesetze-im-internet.de'deki kanun metinleri ve dairelerin sayfalarıyla kontrol ediyoruz. Her sayfada kaynaklar ve son kontrol tarihi yazar. Metinler yapay zekâ (Claude) yardımıyla yazılıp çevriliyor ve düzenli olarak kontrol ediliyor. Bir hata bulursanız lütfen bize yazın."
+  ],
+  [
+   "Amtsbriefe ne değildir",
+   "Resmî bir daire değiliz ve hukuki danışmanlık vermiyoruz. Mektuplarınız bize gönderilmez; ziyaretleri çerez kullanmadan anonim sayıyoruz. İtiraz, kesinti veya oturum sorularında göçmen danışmanlığı (MBE) veya gençlik göç servisi (JMD) gibi ücretsiz danışma yerleri yardım eder."
+  ],
+  [
+   "İletişim",
+   "E-posta: raykomilen85@gmail.com. Künye (Impressum) ve gizlilik bilgileri her sayfanın altında."
+  ]
+ ]
+}

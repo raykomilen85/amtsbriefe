@@ -1,0 +1,37 @@
+{
+ "title": "Leaving Germany: deregistration and checklist – free letter templates",
+ "desc": "Moving abroad: deregister at the Bürgeramt, residence permit, broadcasting fee, health insurance, Familienkasse, ending your tenancy. Deadlines and templates, 13 languages.",
+ "h1": "Leaving Germany: deregistration and what else you need to do",
+ "intro": "Important: If you move abroad for good, deregister at the Bürgeramt (Abmeldung) – at the earliest one week before you move out, at the latest two weeks after. With the deregistration certificate you then inform the broadcasting fee office, your health insurance, the Familienkasse and other offices.",
+ "steps": [
+  ["Give notice on your flat in time", "As a tenant you give notice in writing, with your signature (§ 568 BGB). Legal notice period: notice by the 3rd working day of a month, ending at the end of the month after next – so about three months (§ 573c BGB). Also check your rental contract. Template below."],
+  ["Deregister at the Bürgeramt", "If you move out and do not move into a new home in Germany, you must deregister within two weeks after moving out – at the earliest one week before (§ 17 Abs. 2 BMG). Your municipality decides whether this is also possible by post or online: ask there. If you do not deregister, you risk a fine (§ 54 BMG)."],
+  ["Keep the deregistration certificate", "You get an official certificate of deregistration free of charge (§ 24 Abs. 2 BMG). Many offices want it as proof, e.g. the broadcasting fee office, health insurance, Familienkasse or companies you have contracts with. Make copies."],
+  ["Residence permit: talk to the Ausländerbehörde first", "A residence permit expires if you leave for a reason that is not temporary, or if you stay abroad for more than six months (§ 51 Abs. 1 Nr. 6 and 7 AufenthG). Other rules apply to some permits, e.g. Daueraufenthalt – EU (§ 51 Abs. 9 AufenthG). Might you want to come back? Talk to the Ausländerbehörde before you leave – it can set a longer period. EU citizens do not need a residence permit."],
+  ["Deregister from the broadcasting fee", "Deregister your flat at the Beitragsservice – easiest online with your contribution number (Beitragsnummer). Choose moving abroad as the reason and send proof, e.g. the deregistration certificate. Template below if you prefer to send a letter."],
+  ["Familienkasse, Jobcenter and other benefits", "If you receive child benefit (Kindergeld), you must report changes to the Familienkasse immediately (§ 68 Abs. 1 EStG). If you receive social benefits (e.g. Grundsicherungsgeld, unemployment benefit, Wohngeld), you must report changes immediately to the office that pays (§ 60 SGB I). Otherwise you may have to pay money back."],
+  ["Inform your health insurance", "Tell your health insurance that you are moving away and ask on which date your insurance ends. Find out early how you will be insured in the new country. Template below."],
+  ["Contracts, bank account, tax office, pension", "Cancel contracts such as electricity, internet, mobile phone and insurance (templates in the everyday letters). Do not close your bank account too early: deposit, tax refund or last salary often come later. Tell the tax office (Finanzamt) your new address. Deutsche Rentenversicherung answers questions about your pension."]
+ ],
+ "deadlines": [
+  ["Deregistration at the Bürgeramt", "at the earliest 1 week before, at the latest 2 weeks after moving out (§ 17 Abs. 2 BMG)"],
+  ["Without deregistration", "fine of up to €1,000 possible (§ 54 BMG)"],
+  ["Notice on a rented flat", "by the 3rd working day of a month, to the end of the month after next (§ 573c BGB)"],
+  ["Residence permit (non-EU)", "expires when leaving for good or after 6 months abroad (§ 51 AufenthG)"],
+  ["Familienkasse, Jobcenter, employment agency", "report changes immediately (§ 68 EStG, § 60 SGB I)"]
+ ],
+ "contactsTitle": "Official offices",
+ "contacts": [
+  ["Rundfunkbeitrag – deregister your flat", "Online form, contribution number needed", "rundfunkbeitrag.de"],
+  ["Familienkasse", "Child benefit: report changes", "arbeitsagentur.de"],
+  ["Deutsche Rentenversicherung", "Pension questions when moving away", "deutsche-rentenversicherung.de"],
+  ["115", "Public service number: which Bürgeramt is responsible?", "115"]
+ ],
+ "letters": {
+  "wzmiet": ["Notice on a rented flat", "to the landlord – in writing, signed (§ 568 BGB)"],
+  "wzrb": ["Deregistration from the broadcasting fee", "to the Beitragsservice – enclose the deregistration certificate"],
+  "wzkk": ["Moving abroad: letter to the health insurance", "ask when the insurance ends"],
+  "wzfk": ["Moving abroad: letter to the Familienkasse", "report immediately (§ 68 EStG)"]
+ },
+ "nav": "Leaving Germany"
+}

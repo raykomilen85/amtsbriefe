@@ -1,0 +1,37 @@
+{
+ "title": "Wyjazd z Niemiec: wymeldowanie i lista spraw – bezpłatne wzory pism",
+ "desc": "Przeprowadzka za granicę: wymeldowanie w Bürgeramt, dokument pobytowy, abonament RTV, kasa chorych, Familienkasse, wypowiedzenie najmu. Terminy i wzory, 13 języków.",
+ "h1": "Wyjazd z Niemiec: wymeldowanie i co jeszcze trzeba załatwić",
+ "intro": "Ważne: Jeśli wyjeżdżasz na stałe za granicę, wymelduj się w Bürgeramt (Abmeldung) – najwcześniej tydzień przed wyprowadzką, najpóźniej dwa tygodnie po niej. Z zaświadczeniem o wymeldowaniu poinformuj potem urząd opłat RTV (Rundfunkbeitrag), kasę chorych, Familienkasse i inne urzędy.",
+ "steps": [
+  ["Wypowiedz najem na czas", "Jako najemca wypowiadasz umowę na piśmie, z podpisem (§ 568 BGB). Termin ustawowy: wypowiedzenie najpóźniej do 3. dnia roboczego miesiąca, ze skutkiem na koniec następnego po kolejnym miesiąca – czyli ok. trzy miesiące (§ 573c BGB). Sprawdź też swoją umowę najmu. Wzór poniżej."],
+  ["Wymelduj się w Bürgeramt", "Kto się wyprowadza i nie zamieszkuje w nowym mieszkaniu w Niemczech, musi się wymeldować w ciągu dwóch tygodni po wyprowadzce – najwcześniej tydzień wcześniej (§ 17 Abs. 2 BMG). Czy można to zrobić także pocztą lub online, decyduje gmina: zapytaj tam. Kto się nie wymelduje, ryzykuje grzywnę (§ 54 BMG)."],
+  ["Zachowaj zaświadczenie o wymeldowaniu", "Otrzymujesz bezpłatnie urzędowe potwierdzenie wymeldowania (§ 24 Abs. 2 BMG). Wiele instytucji chce je zobaczyć jako dowód, np. Rundfunkbeitrag, kasa chorych, Familienkasse lub firmy, z którymi masz umowy. Zrób kopie."],
+  ["Dokument pobytowy: najpierw do Ausländerbehörde", "Dokument pobytowy wygasa, jeśli wyjeżdżasz z powodu, który nie jest tymczasowy, albo zostajesz za granicą dłużej niż sześć miesięcy (§ 51 Abs. 1 Nr. 6 i 7 AufenthG). Dla niektórych dokumentów obowiązują inne zasady, np. Daueraufenthalt – EU (§ 51 Abs. 9 AufenthG). Może zechcesz wrócić? Porozmawiaj z Ausländerbehörde przed wyjazdem – może ustalić dłuższy termin. Obywatele UE nie potrzebują dokumentu pobytowego."],
+  ["Wyrejestrowanie z opłaty RTV", "Wyrejestruj mieszkanie w Beitragsservice – najprościej online z numerem składki (Beitragsnummer). Jako powód wybierz przeprowadzkę za granicę i wyślij dowód, np. zaświadczenie o wymeldowaniu. Wzór poniżej, jeśli wolisz wysłać list."],
+  ["Familienkasse, Jobcenter i inne świadczenia", "Kto pobiera zasiłek na dziecko (Kindergeld), musi natychmiast zgłaszać zmiany do Familienkasse (§ 68 Abs. 1 EStG). Kto pobiera świadczenia socjalne (np. Grundsicherungsgeld, zasiłek dla bezrobotnych, Wohngeld), musi natychmiast zgłaszać zmiany instytucji, która płaci (§ 60 SGB I). Inaczej grozi zwrot pieniędzy."],
+  ["Poinformuj kasę chorych", "Powiadom kasę chorych o wyjeździe i zapytaj, z jakim dniem kończy się Twoje ubezpieczenie. Wcześnie sprawdź, jak będziesz ubezpieczony w nowym kraju. Wzór poniżej."],
+  ["Umowy, konto, urząd skarbowy, emerytura", "Wypowiedz umowy na prąd, internet, telefon i ubezpieczenia (wzory w pismach na co dzień). Nie zamykaj konta za wcześnie: kaucja, zwrot podatku lub ostatnia pensja często przychodzą później. Podaj urzędowi skarbowemu (Finanzamt) nowy adres. Na pytania o emeryturę odpowiada Deutsche Rentenversicherung."]
+ ],
+ "deadlines": [
+  ["Wymeldowanie w Bürgeramt", "najwcześniej 1 tydzień przed, najpóźniej 2 tygodnie po wyprowadzce (§ 17 Abs. 2 BMG)"],
+  ["Bez wymeldowania", "możliwa grzywna do 1000 € (§ 54 BMG)"],
+  ["Wypowiedzenie najmu mieszkania", "do 3. dnia roboczego miesiąca, na koniec następnego po kolejnym miesiąca (§ 573c BGB)"],
+  ["Dokument pobytowy (spoza UE)", "wygasa przy wyjeździe na stałe lub po 6 miesiącach za granicą (§ 51 AufenthG)"],
+  ["Familienkasse, Jobcenter, agencja pracy", "zmiany zgłaszać natychmiast (§ 68 EStG, § 60 SGB I)"]
+ ],
+ "contactsTitle": "Urzędy",
+ "contacts": [
+  ["Rundfunkbeitrag – wyrejestrowanie mieszkania", "Formularz online, potrzebny numer składki", "rundfunkbeitrag.de"],
+  ["Familienkasse", "Zasiłek na dziecko: zgłaszanie zmian", "arbeitsagentur.de"],
+  ["Deutsche Rentenversicherung", "Pytania o emeryturę przy wyjeździe", "deutsche-rentenversicherung.de"],
+  ["115", "Numer urzędów: który Bürgeramt jest właściwy?", "115"]
+ ],
+ "letters": {
+  "wzmiet": ["Wypowiedzenie umowy najmu", "do wynajmującego – na piśmie, z podpisem (§ 568 BGB)"],
+  "wzrb": ["Wyrejestrowanie z opłaty RTV", "do Beitragsservice – dołącz zaświadczenie o wymeldowaniu"],
+  "wzkk": ["Wyjazd: pismo do kasy chorych", "zapytaj, kiedy kończy się ubezpieczenie"],
+  "wzfk": ["Wyjazd: pismo do Familienkasse", "zgłoś natychmiast (§ 68 EStG)"]
+ },
+ "nav": "Wyjazd z Niemiec"
+}

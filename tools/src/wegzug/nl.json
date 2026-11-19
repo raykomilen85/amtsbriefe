@@ -1,0 +1,37 @@
+{
+ "title": "Duitsland verlaten: uitschrijving en checklist – gratis briefsjablonen",
+ "desc": "Verhuizen naar het buitenland: uitschrijven bij het Bürgeramt, verblijfsvergunning, omroepbijdrage, zorgverzekering, Familienkasse, huur opzeggen. Termijnen, 13 talen.",
+ "h1": "Duitsland verlaten: uitschrijving en wat u verder moet regelen",
+ "intro": "Belangrijk: Verhuist u voorgoed naar het buitenland, schrijf u dan uit bij het Bürgeramt (Abmeldung) – op zijn vroegst een week voor de verhuizing, uiterlijk twee weken erna. Met het bewijs van uitschrijving informeert u daarna de omroepbijdrage (Rundfunkbeitrag), uw zorgverzekering, de Familienkasse en andere instanties.",
+ "steps": [
+  ["Huur op tijd opzeggen", "Als huurder zegt u schriftelijk op, met uw handtekening (§ 568 BGB). Wettelijke termijn: opzeggen uiterlijk op de 3e werkdag van een maand, tegen het einde van de maand daarna plus één – dus ongeveer drie maanden (§ 573c BGB). Kijk ook in uw huurcontract. Sjabloon hieronder."],
+  ["Uitschrijven bij het Bürgeramt", "Wie verhuist en geen nieuwe woning in Duitsland betrekt, moet zich binnen twee weken na de verhuizing uitschrijven – op zijn vroegst een week ervoor (§ 17 Abs. 2 BMG). Of het ook per post of online kan, beslist uw gemeente: vraag het daar. Wie zich niet uitschrijft, riskeert een boete (§ 54 BMG)."],
+  ["Bewijs van uitschrijving bewaren", "U krijgt gratis een officieel bewijs van uitschrijving (§ 24 Abs. 2 BMG). Veel instanties willen het als bewijs zien, bijv. Rundfunkbeitrag, zorgverzekering, Familienkasse of bedrijven waarmee u een contract hebt. Maak kopieën."],
+  ["Verblijfsvergunning: eerst naar de Ausländerbehörde", "Een verblijfsvergunning vervalt als u vertrekt om een reden die niet tijdelijk is, of als u langer dan zes maanden in het buitenland blijft (§ 51 Abs. 1 Nr. 6 en 7 AufenthG). Voor sommige vergunningen gelden andere regels, bijv. Daueraufenthalt – EU (§ 51 Abs. 9 AufenthG). Wilt u misschien terugkomen? Praat vóór vertrek met de Ausländerbehörde – die kan een langere termijn bepalen. EU-burgers hebben geen verblijfsvergunning nodig."],
+  ["Afmelden voor de omroepbijdrage", "Meld uw woning af bij de Beitragsservice – het makkelijkst online met uw bijdragenummer (Beitragsnummer). Kies als reden de verhuizing naar het buitenland en stuur een bewijs mee, bijv. het bewijs van uitschrijving. Sjabloon hieronder als u liever een brief stuurt."],
+  ["Familienkasse, Jobcenter en andere uitkeringen", "Wie kinderbijslag (Kindergeld) krijgt, moet wijzigingen direct aan de Familienkasse melden (§ 68 Abs. 1 EStG). Wie sociale uitkeringen krijgt (bijv. Grundsicherungsgeld, werkloosheidsuitkering, Wohngeld), moet wijzigingen direct melden aan de instantie die betaalt (§ 60 SGB I). Anders moet u misschien geld terugbetalen."],
+  ["Zorgverzekering informeren", "Meld uw verhuizing aan uw zorgverzekering en vraag op welke datum uw verzekering eindigt. Zoek op tijd uit hoe u in het nieuwe land verzekerd bent. Sjabloon hieronder."],
+  ["Contracten, bankrekening, belastingdienst, pensioen", "Zeg contracten op zoals stroom, internet, mobiel en verzekeringen (sjablonen bij de brieven voor het dagelijks leven). Sluit uw rekening niet te vroeg: borg, belastingteruggave of laatste loon komen vaak later. Geef uw nieuwe adres door aan het Finanzamt. Vragen over pensioen beantwoordt de Deutsche Rentenversicherung."]
+ ],
+ "deadlines": [
+  ["Uitschrijving bij het Bürgeramt", "op zijn vroegst 1 week voor, uiterlijk 2 weken na de verhuizing (§ 17 Abs. 2 BMG)"],
+  ["Zonder uitschrijving", "boete tot € 1.000 mogelijk (§ 54 BMG)"],
+  ["Huur opzeggen", "uiterlijk 3e werkdag van de maand, tegen het einde van de maand daarna plus één (§ 573c BGB)"],
+  ["Verblijfsvergunning (niet-EU)", "vervalt bij definitief vertrek of na 6 maanden in het buitenland (§ 51 AufenthG)"],
+  ["Familienkasse, Jobcenter, arbeidsbureau", "wijzigingen direct melden (§ 68 EStG, § 60 SGB I)"]
+ ],
+ "contactsTitle": "Officiële instanties",
+ "contacts": [
+  ["Rundfunkbeitrag – woning afmelden", "Online formulier, bijdragenummer nodig", "rundfunkbeitrag.de"],
+  ["Familienkasse", "Kinderbijslag: wijzigingen melden", "arbeitsagentur.de"],
+  ["Deutsche Rentenversicherung", "Pensioenvragen bij vertrek", "deutsche-rentenversicherung.de"],
+  ["115", "Overheidsnummer: welk Bürgeramt is bevoegd?", "115"]
+ ],
+ "letters": {
+  "wzmiet": ["Opzegging van de huurwoning", "aan de verhuurder – schriftelijk, ondertekend (§ 568 BGB)"],
+  "wzrb": ["Afmelding omroepbijdrage", "aan de Beitragsservice – bewijs van uitschrijving bijvoegen"],
+  "wzkk": ["Vertrek: brief aan de zorgverzekering", "vraag wanneer de verzekering eindigt"],
+  "wzfk": ["Vertrek: brief aan de Familienkasse", "direct melden (§ 68 EStG)"]
+ },
+ "nav": "Duitsland verlaten"
+}

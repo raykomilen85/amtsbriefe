@@ -40,6 +40,7 @@ const SAMPLE = {
 };
 
 const LABELS = {
+  newaddr: "neue Anschrift im Ausland", bnum: "Beitragsnummer (Rundfunkbeitrag)",
   newprov: "neuer Kursträger (Name, Kursnummer)",
   course: "Kurs (Bezeichnung / Kursnummer)", kstart: "Kursbeginn (Datum)", bnr: "BAMF-Kennziffer / Nummer der Teilnahmeberechtigung", certdate: "Datum des Zertifikats", firstdate: "Datum der ersten Teilnahmeberechtigung", iban: "IBAN",
   name: "Vor- und Nachname", street: "Straße und Hausnummer", city: "PLZ und Ort",
@@ -604,6 +605,59 @@ Begründung:
 {{reason}}
 
 Nachweise lege ich bei. Ich beantrage, den Bescheid aufzuheben und die einbehaltenen Beträge nachzuzahlen. Bitte bestätigen Sie mir den Eingang dieses Widerspruchs schriftlich.`,
+  },
+  // Wegzug ins Ausland (/wegzug-ausland.html). Geprüft 19.11.2026: § 568, § 573c BGB; § 17 Abs. 2, § 24 Abs. 2 BMG; § 68 Abs. 1 EStG.
+  wzmiet: {
+    sample: { office: "Wohnbau Muster GmbH", officeaddr: "Hauptstraße 5\n23611 Bad Schwartau", until: "28.02.2027", date: "01.03.2027", newaddr: "Atatürk Cad. 15, 34000 İstanbul, Türkei" },
+    subj: "Kündigung des Mietvertrags – Wohnung {{street}}, {{city}}",
+    body: `Sehr geehrte Damen und Herren,
+
+hiermit kündige ich den Mietvertrag über die Wohnung {{street}}, {{city}} fristgerecht zum {{until}}, hilfsweise zum nächstmöglichen Termin. Ich ziehe dauerhaft ins Ausland.
+
+Bitte bestätigen Sie mir den Eingang der Kündigung und das Mietende schriftlich. Für die Übergabe der Wohnung bitte ich um einen Terminvorschlag.
+
+Bitte zahlen Sie die Mietkaution nach der Abrechnung auf folgendes Konto zurück: {{iban}}
+
+Meine neue Anschrift ab {{date}}:
+{{newaddr}}`,
+  },
+  wzrb: {
+    sample: { office: "ARD ZDF Deutschlandradio Beitragsservice", officeaddr: "50656 Köln", until: "28.02.2027", bnum: "123 456 789", newaddr: "Atatürk Cad. 15, 34000 İstanbul, Türkei" },
+    subj: "Abmeldung der Wohnung wegen Umzug ins Ausland – Beitragsnummer {{bnum}}",
+    body: `Sehr geehrte Damen und Herren,
+
+hiermit melde ich meine Wohnung {{street}}, {{city}} zum {{until}} ab. Ich ziehe dauerhaft ins Ausland und beziehe keine neue Wohnung in Deutschland.
+
+Als Nachweis lege ich die Abmeldebestätigung der Meldebehörde bei.
+
+Bitte bestätigen Sie mir die Abmeldung schriftlich. Sollte ich zu viel gezahlt haben, überweisen Sie den Betrag bitte auf folgendes Konto: {{iban}}
+
+Meine neue Anschrift:
+{{newaddr}}`,
+  },
+  wzkk: {
+    sample: { office: "Muster Krankenkasse", officeaddr: "Postfach 1234\n23501 Lübeck", until: "28.02.2027", newaddr: "Atatürk Cad. 15, 34000 İstanbul, Türkei" },
+    subj: "Wegzug ins Ausland – Versichertennummer {{kvnr}}",
+    body: `Sehr geehrte Damen und Herren,
+
+hiermit teile ich Ihnen mit, dass ich am {{until}} dauerhaft ins Ausland ziehe. Die Abmeldebestätigung der Meldebehörde lege ich bei.
+
+Bitte teilen Sie mir schriftlich mit, zu welchem Datum meine Versicherung bei Ihnen endet und was ich bis dahin beachten muss. Bitte schicken Sie mir außerdem eine Bescheinigung über meine Versicherungszeiten bei Ihnen.
+
+Meine neue Anschrift ab {{until}}:
+{{newaddr}}`,
+  },
+  wzfk: {
+    sample: { office: "Familienkasse Musterstadt", officeaddr: "Musterstraße 1\n12345 Musterstadt", until: "28.02.2027", newaddr: "Atatürk Cad. 15, 34000 İstanbul, Türkei" },
+    subj: "Änderungsmitteilung: Wegzug ins Ausland – Kindergeldnummer {{kgnr}}",
+    body: `Sehr geehrte Damen und Herren,
+
+hiermit teile ich Ihnen mit, dass ich zusammen mit meinem Kind {{child}} am {{until}} dauerhaft ins Ausland ziehe (Mitteilung nach § 68 Abs. 1 EStG). Die Abmeldebestätigung der Meldebehörde lege ich bei.
+
+Bitte prüfen Sie meinen Anspruch auf Kindergeld und teilen Sie mir das Ergebnis schriftlich mit.
+
+Meine neue Anschrift ab {{until}}:
+{{newaddr}}`,
   },
 };
 

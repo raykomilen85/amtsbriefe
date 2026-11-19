@@ -1,0 +1,37 @@
+{
+ "title": "Salir de Alemania: baja del padrón y lista de trámites – plantillas gratis",
+ "desc": "Mudarse al extranjero: baja en el Bürgeramt, permiso de residencia, tasa de radio y TV, seguro médico, Familienkasse, fin del alquiler. Plazos y plantillas, 13 idiomas.",
+ "h1": "Salir de Alemania: baja del padrón y qué más tienes que hacer",
+ "intro": "Importante: si te mudas al extranjero de forma permanente, date de baja en el Bürgeramt (Abmeldung) – como muy pronto una semana antes de dejar la vivienda, como muy tarde dos semanas después. Con el certificado de baja informa después a la tasa de radio y TV (Rundfunkbeitrag), a tu seguro médico, a la Familienkasse y a otras oficinas.",
+ "steps": [
+  ["Rescindir el alquiler a tiempo", "Como inquilino, rescindes por escrito y con tu firma (§ 568 BGB). Plazo legal: rescisión a más tardar el 3.er día hábil de un mes, con efecto al final del mes siguiente al próximo – es decir, unos tres meses (§ 573c BGB). Revisa también tu contrato de alquiler. Plantilla abajo."],
+  ["Darse de baja en el Bürgeramt", "Quien deja su vivienda y no se muda a otra en Alemania debe darse de baja en las dos semanas siguientes – como muy pronto una semana antes (§ 17 Abs. 2 BMG). Si también se puede por correo o en línea lo decide tu municipio: pregunta allí. Quien no se da de baja puede recibir una multa (§ 54 BMG)."],
+  ["Guardar el certificado de baja", "Recibes gratis un certificado oficial de la baja (§ 24 Abs. 2 BMG). Muchas oficinas lo piden como prueba, p. ej. Rundfunkbeitrag, seguro médico, Familienkasse o empresas con las que tienes contratos. Haz copias."],
+  ["Permiso de residencia: primero a la Ausländerbehörde", "El permiso de residencia se extingue si sales por un motivo que no es temporal o si te quedas más de seis meses en el extranjero (§ 51 Abs. 1 Nr. 6 y 7 AufenthG). Para algunos permisos hay otras reglas, p. ej. Daueraufenthalt – EU (§ 51 Abs. 9 AufenthG). ¿Quizá quieras volver? Habla con la Ausländerbehörde antes de irte – puede fijar un plazo más largo. Los ciudadanos de la UE no necesitan permiso de residencia."],
+  ["Darse de baja de la tasa de radio y TV", "Da de baja tu vivienda en el Beitragsservice – lo más fácil, en línea con tu número de contribución (Beitragsnummer). Elige como motivo la mudanza al extranjero y envía una prueba, p. ej. el certificado de baja. Plantilla abajo si prefieres enviar una carta."],
+  ["Familienkasse, Jobcenter y otras ayudas", "Quien cobra la ayuda por hijos (Kindergeld) debe comunicar los cambios de inmediato a la Familienkasse (§ 68 Abs. 1 EStG). Quien cobra prestaciones sociales (p. ej. Grundsicherungsgeld, prestación por desempleo, Wohngeld) debe comunicar los cambios de inmediato a la oficina que paga (§ 60 SGB I). Si no, pueden pedirte que devuelvas dinero."],
+  ["Informar al seguro médico", "Comunica a tu seguro médico que te mudas y pregunta en qué fecha termina tu seguro. Infórmate pronto de cómo estarás asegurado en el nuevo país. Plantilla abajo."],
+  ["Contratos, cuenta bancaria, Hacienda, pensión", "Cancela contratos de luz, internet, móvil y seguros (plantillas en las cartas para el día a día). No cierres tu cuenta demasiado pronto: la fianza, la devolución de impuestos o el último sueldo suelen llegar después. Comunica tu nueva dirección al Finanzamt. Las preguntas sobre la pensión las responde la Deutsche Rentenversicherung."]
+ ],
+ "deadlines": [
+  ["Baja en el Bürgeramt", "como muy pronto 1 semana antes, como muy tarde 2 semanas después de la mudanza (§ 17 Abs. 2 BMG)"],
+  ["Sin baja", "posible multa de hasta 1.000 € (§ 54 BMG)"],
+  ["Rescisión del alquiler", "hasta el 3.er día hábil del mes, al final del mes siguiente al próximo (§ 573c BGB)"],
+  ["Permiso de residencia (no UE)", "se extingue al salir definitivamente o tras 6 meses en el extranjero (§ 51 AufenthG)"],
+  ["Familienkasse, Jobcenter, agencia de empleo", "comunicar los cambios de inmediato (§ 68 EStG, § 60 SGB I)"]
+ ],
+ "contactsTitle": "Oficinas oficiales",
+ "contacts": [
+  ["Rundfunkbeitrag – dar de baja la vivienda", "Formulario en línea, se necesita el número de contribución", "rundfunkbeitrag.de"],
+  ["Familienkasse", "Ayuda por hijos: comunicar cambios", "arbeitsagentur.de"],
+  ["Deutsche Rentenversicherung", "Preguntas sobre la pensión al mudarse", "deutsche-rentenversicherung.de"],
+  ["115", "Número de las administraciones: ¿qué Bürgeramt es competente?", "115"]
+ ],
+ "letters": {
+  "wzmiet": ["Rescisión del contrato de alquiler", "al arrendador – por escrito y firmada (§ 568 BGB)"],
+  "wzrb": ["Baja de la tasa de radio y TV", "al Beitragsservice – adjunta el certificado de baja"],
+  "wzkk": ["Mudanza: carta al seguro médico", "pregunta cuándo termina el seguro"],
+  "wzfk": ["Mudanza: carta a la Familienkasse", "comunicar de inmediato (§ 68 EStG)"]
+ },
+ "nav": "Salir de Alemania"
+}

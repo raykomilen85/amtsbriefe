@@ -1,0 +1,37 @@
+{
+ "title": "Quitter l'Allemagne : désinscription et liste des démarches – modèles gratuits",
+ "desc": "Départ à l'étranger : désinscription au Bürgeramt, titre de séjour, redevance audiovisuelle, caisse maladie, Familienkasse, fin du bail. Délais et modèles, 13 langues.",
+ "h1": "Quitter l'Allemagne : désinscription et autres démarches à faire",
+ "intro": "Important : si vous partez vivre à l'étranger, désinscrivez-vous au Bürgeramt (Abmeldung) – au plus tôt une semaine avant de quitter le logement, au plus tard deux semaines après. Avec l'attestation de désinscription, informez ensuite le service de la redevance (Rundfunkbeitrag), votre caisse maladie, la Familienkasse et les autres services.",
+ "steps": [
+  ["Résilier le bail à temps", "En tant que locataire, vous résiliez par écrit, avec votre signature (§ 568 BGB). Délai légal : résiliation au plus tard le 3e jour ouvrable d'un mois, pour la fin du mois suivant le mois prochain – donc environ trois mois (§ 573c BGB). Vérifiez aussi votre contrat de location. Modèle ci-dessous."],
+  ["Se désinscrire au Bürgeramt", "Qui quitte son logement sans emménager dans un nouveau logement en Allemagne doit se désinscrire dans les deux semaines après le départ – au plus tôt une semaine avant (§ 17 Abs. 2 BMG). C'est la commune qui décide si c'est possible aussi par courrier ou en ligne : renseignez-vous. Qui ne se désinscrit pas risque une amende (§ 54 BMG)."],
+  ["Garder l'attestation de désinscription", "Vous recevez gratuitement une attestation officielle de désinscription (§ 24 Abs. 2 BMG). Beaucoup de services la demandent comme preuve, p. ex. Rundfunkbeitrag, caisse maladie, Familienkasse ou entreprises avec qui vous avez un contrat. Faites des copies."],
+  ["Titre de séjour : d'abord à l'Ausländerbehörde", "Un titre de séjour prend fin si vous partez pour une raison qui n'est pas temporaire ou si vous restez plus de six mois à l'étranger (§ 51 Abs. 1 Nr. 6 et 7 AufenthG). D'autres règles valent pour certains titres, p. ex. Daueraufenthalt – EU (§ 51 Abs. 9 AufenthG). Vous voulez peut-être revenir ? Parlez à l'Ausländerbehörde avant de partir – elle peut fixer un délai plus long. Les citoyens de l'UE n'ont pas besoin de titre de séjour."],
+  ["Se désinscrire de la redevance audiovisuelle", "Désinscrivez votre logement auprès du Beitragsservice – le plus simple en ligne avec votre numéro de cotisation (Beitragsnummer). Choisissez comme motif le départ à l'étranger et envoyez une preuve, p. ex. l'attestation de désinscription. Modèle ci-dessous si vous préférez écrire."],
+  ["Familienkasse, Jobcenter et autres prestations", "Qui reçoit les allocations familiales (Kindergeld) doit signaler tout changement immédiatement à la Familienkasse (§ 68 Abs. 1 EStG). Qui reçoit des prestations sociales (p. ex. Grundsicherungsgeld, allocation chômage, Wohngeld) doit signaler les changements immédiatement au service qui paie (§ 60 SGB I). Sinon, on peut vous demander de rembourser."],
+  ["Informer la caisse maladie", "Informez votre caisse maladie de votre départ et demandez à quelle date votre assurance se termine. Renseignez-vous tôt sur votre assurance dans le nouveau pays. Modèle ci-dessous."],
+  ["Contrats, compte, impôts, retraite", "Résiliez les contrats d'électricité, d'internet, de téléphone et d'assurance (modèles dans les lettres du quotidien). Ne fermez pas votre compte trop tôt : caution, remboursement d'impôt ou dernier salaire arrivent souvent plus tard. Donnez votre nouvelle adresse au Finanzamt. La Deutsche Rentenversicherung répond aux questions sur la retraite."]
+ ],
+ "deadlines": [
+  ["Désinscription au Bürgeramt", "au plus tôt 1 semaine avant, au plus tard 2 semaines après le départ (§ 17 Abs. 2 BMG)"],
+  ["Sans désinscription", "amende possible jusqu'à 1 000 € (§ 54 BMG)"],
+  ["Résiliation du bail", "avant le 3e jour ouvrable du mois, pour la fin du mois suivant le prochain (§ 573c BGB)"],
+  ["Titre de séjour (hors UE)", "prend fin en cas de départ définitif ou après 6 mois à l'étranger (§ 51 AufenthG)"],
+  ["Familienkasse, Jobcenter, agence pour l'emploi", "signaler les changements immédiatement (§ 68 EStG, § 60 SGB I)"]
+ ],
+ "contactsTitle": "Services officiels",
+ "contacts": [
+  ["Rundfunkbeitrag – désinscrire le logement", "Formulaire en ligne, numéro de cotisation nécessaire", "rundfunkbeitrag.de"],
+  ["Familienkasse", "Allocations familiales : signaler un changement", "arbeitsagentur.de"],
+  ["Deutsche Rentenversicherung", "Questions de retraite en cas de départ", "deutsche-rentenversicherung.de"],
+  ["115", "Numéro des services publics : quel Bürgeramt est compétent ?", "115"]
+ ],
+ "letters": {
+  "wzmiet": ["Résiliation du bail", "au bailleur – par écrit, signée (§ 568 BGB)"],
+  "wzrb": ["Désinscription de la redevance audiovisuelle", "au Beitragsservice – joindre l'attestation de désinscription"],
+  "wzkk": ["Départ : lettre à la caisse maladie", "demander la date de fin de l'assurance"],
+  "wzfk": ["Départ : lettre à la Familienkasse", "signaler immédiatement (§ 68 EStG)"]
+ },
+ "nav": "Quitter l'Allemagne"
+}

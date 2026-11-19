@@ -1,0 +1,37 @@
+{
+ "title": "Deutschland verlassen: Abmeldung und Checkliste – kostenlose Briefvorlagen",
+ "desc": "Wegzug ins Ausland: Abmeldung beim Bürgeramt, Aufenthaltstitel, Rundfunkbeitrag, Krankenkasse, Familienkasse, Wohnung kündigen. Fristen und Vorlagen, 13 Sprachen.",
+ "h1": "Deutschland verlassen: Abmeldung und was Sie sonst erledigen müssen",
+ "intro": "Wichtig: Wenn Sie dauerhaft ins Ausland ziehen, melden Sie sich beim Bürgeramt ab – frühestens eine Woche vor dem Auszug, spätestens zwei Wochen danach. Mit der Abmeldebestätigung informieren Sie dann Rundfunkbeitrag, Krankenkasse, Familienkasse und andere Stellen.",
+ "steps": [
+  ["Wohnung rechtzeitig kündigen", "Als Mieter kündigen Sie schriftlich, mit Ihrer Unterschrift (§ 568 BGB). Gesetzliche Frist: Kündigung spätestens am 3. Werktag eines Monats zum Ende des übernächsten Monats – also rund drei Monate (§ 573c BGB). Schauen Sie auch in Ihren Mietvertrag. Vorlage unten."],
+  ["Beim Bürgeramt abmelden", "Wer auszieht und keine neue Wohnung in Deutschland bezieht, muss sich innerhalb von zwei Wochen nach dem Auszug abmelden – frühestens eine Woche vorher (§ 17 Abs. 2 BMG). Ob das auch per Post oder online geht, entscheidet Ihre Gemeinde: Fragen Sie dort nach. Wer sich nicht abmeldet, riskiert ein Bußgeld (§ 54 BMG)."],
+  ["Abmeldebestätigung aufbewahren", "Sie bekommen kostenlos eine amtliche Bestätigung über die Abmeldung (§ 24 Abs. 2 BMG). Viele Stellen wollen sie als Nachweis sehen, z. B. Rundfunkbeitrag, Krankenkasse, Familienkasse oder Vertragspartner. Machen Sie Kopien."],
+  ["Aufenthaltstitel: vorher zur Ausländerbehörde", "Ein Aufenthaltstitel erlischt, wenn Sie nicht nur vorübergehend ausreisen oder länger als sechs Monate im Ausland bleiben (§ 51 Abs. 1 Nr. 6 und 7 AufenthG). Für manche Titel gelten andere Regeln, z. B. Daueraufenthalt – EU (§ 51 Abs. 9 AufenthG). Möchten Sie vielleicht zurückkommen? Sprechen Sie vor der Ausreise mit der Ausländerbehörde – sie kann eine längere Frist bestimmen. EU-Bürger brauchen keinen Aufenthaltstitel."],
+  ["Rundfunkbeitrag abmelden", "Melden Sie Ihre Wohnung beim Beitragsservice ab – am einfachsten online mit Ihrer Beitragsnummer. Wählen Sie als Grund den Umzug ins Ausland und schicken Sie einen Nachweis mit, z. B. die Abmeldebestätigung. Vorlage unten, falls Sie lieber einen Brief schicken."],
+  ["Familienkasse, Jobcenter und andere Leistungen", "Wer Kindergeld bekommt, muss Änderungen sofort der Familienkasse mitteilen (§ 68 Abs. 1 EStG). Wer Sozialleistungen bekommt (z. B. Grundsicherungsgeld, Arbeitslosengeld, Wohngeld), muss Änderungen sofort der zahlenden Stelle mitteilen (§ 60 SGB I). Sonst drohen Rückforderungen."],
+  ["Krankenkasse informieren", "Teilen Sie Ihrer Krankenkasse den Wegzug mit und fragen Sie, zu welchem Datum Ihre Versicherung endet. Klären Sie früh, wie Sie im neuen Land versichert sind. Vorlage unten."],
+  ["Verträge, Konto, Finanzamt, Rente", "Kündigen Sie Verträge wie Strom, Internet, Handy und Versicherungen (Vorlagen bei den Alltagsbriefen). Schließen Sie Ihr Konto nicht zu früh: Kaution, Steuererstattung oder letzter Lohn kommen oft später. Teilen Sie dem Finanzamt Ihre neue Adresse mit. Fragen zur Rente beantwortet die Deutsche Rentenversicherung."]
+ ],
+ "deadlines": [
+  ["Abmeldung beim Bürgeramt", "frühestens 1 Woche vor, spätestens 2 Wochen nach dem Auszug (§ 17 Abs. 2 BMG)"],
+  ["Ohne Abmeldung", "Bußgeld bis 1.000 € möglich (§ 54 BMG)"],
+  ["Kündigung der Mietwohnung", "bis zum 3. Werktag eines Monats zum Ende des übernächsten Monats (§ 573c BGB)"],
+  ["Aufenthaltstitel (nicht EU)", "erlischt bei dauerhafter Ausreise oder nach 6 Monaten im Ausland (§ 51 AufenthG)"],
+  ["Familienkasse, Jobcenter, Agentur für Arbeit", "Änderungen sofort mitteilen (§ 68 EStG, § 60 SGB I)"]
+ ],
+ "contactsTitle": "Offizielle Stellen",
+ "contacts": [
+  ["Rundfunkbeitrag – Wohnung abmelden", "Online-Formular, Beitragsnummer nötig", "rundfunkbeitrag.de"],
+  ["Familienkasse", "Kindergeld: Änderungen mitteilen", "arbeitsagentur.de"],
+  ["Deutsche Rentenversicherung", "Fragen zur Rente bei Wegzug", "deutsche-rentenversicherung.de"],
+  ["115", "Behördennummer: Welches Bürgeramt ist zuständig?", "115"]
+ ],
+ "letters": {
+  "wzmiet": ["Kündigung der Mietwohnung", "an den Vermieter – schriftlich, mit Unterschrift (§ 568 BGB)"],
+  "wzrb": ["Abmeldung beim Rundfunkbeitrag", "an den Beitragsservice – Abmeldebestätigung beilegen"],
+  "wzkk": ["Wegzug: Mitteilung an die Krankenkasse", "Ende der Versicherung erfragen"],
+  "wzfk": ["Wegzug: Mitteilung an die Familienkasse", "sofort mitteilen (§ 68 EStG)"]
+ },
+ "nav": "Deutschland verlassen"
+}

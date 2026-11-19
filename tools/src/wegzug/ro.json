@@ -1,0 +1,37 @@
+{
+ "title": "Plecarea din Germania: radierea domiciliului și lista de pași – modele gratuite",
+ "desc": "Mutare în străinătate: radiere la Bürgeramt, permis de ședere, taxa radio-TV, casa de asigurări, Familienkasse, rezilierea chiriei. Termene și modele, 13 limbi.",
+ "h1": "Plecarea din Germania: radierea domiciliului și ce mai trebuie să faceți",
+ "intro": "Important: Dacă vă mutați definitiv în străinătate, radiați-vă domiciliul la Bürgeramt (Abmeldung) – cel mai devreme cu o săptămână înainte de mutare, cel târziu la două săptămâni după. Cu adeverința de radiere anunțați apoi serviciul taxei radio-TV (Rundfunkbeitrag), casa de asigurări de sănătate, Familienkasse și alte instituții.",
+ "steps": [
+  ["Reziliați chiria la timp", "Ca chiriaș, reziliați în scris, cu semnătura dvs. (§ 568 BGB). Termen legal: rezilierea până cel târziu în a 3-a zi lucrătoare a lunii, cu efect la sfârșitul lunii de după luna următoare – deci cam trei luni (§ 573c BGB). Verificați și contractul de închiriere. Model mai jos."],
+  ["Radierea la Bürgeramt", "Cine se mută și nu ocupă o locuință nouă în Germania trebuie să se radieze în două săptămâni după mutare – cel mai devreme cu o săptămână înainte (§ 17 Abs. 2 BMG). Dacă se poate și prin poștă sau online decide primăria: întrebați acolo. Cine nu se radiază riscă o amendă (§ 54 BMG)."],
+  ["Păstrați adeverința de radiere", "Primiți gratuit o adeverință oficială de radiere (§ 24 Abs. 2 BMG). Multe instituții o cer ca dovadă, de ex. Rundfunkbeitrag, casa de asigurări, Familienkasse sau firmele cu care aveți contracte. Faceți copii."],
+  ["Permisul de ședere: întâi la Ausländerbehörde", "Permisul de ședere expiră dacă plecați dintr-un motiv care nu este temporar sau dacă stați în străinătate mai mult de șase luni (§ 51 Abs. 1 Nr. 6 și 7 AufenthG). Pentru unele permise sunt alte reguli, de ex. Daueraufenthalt – EU (§ 51 Abs. 9 AufenthG). Poate doriți să vă întoarceți? Vorbiți cu Ausländerbehörde înainte de plecare – poate stabili un termen mai lung. Cetățenii UE nu au nevoie de permis de ședere."],
+  ["Radierea de la taxa radio-TV", "Radiați locuința la Beitragsservice – cel mai simplu online, cu numărul de contribuție (Beitragsnummer). Alegeți ca motiv mutarea în străinătate și trimiteți o dovadă, de ex. adeverința de radiere. Model mai jos, dacă preferați o scrisoare."],
+  ["Familienkasse, Jobcenter și alte ajutoare", "Cine primește alocație pentru copii (Kindergeld) trebuie să anunțe imediat schimbările la Familienkasse (§ 68 Abs. 1 EStG). Cine primește ajutoare sociale (de ex. Grundsicherungsgeld, ajutor de șomaj, Wohngeld) trebuie să anunțe imediat schimbările instituției care plătește (§ 60 SGB I). Altfel vi se pot cere banii înapoi."],
+  ["Anunțați casa de asigurări de sănătate", "Spuneți casei de asigurări că vă mutați și întrebați de la ce dată se termină asigurarea. Aflați din timp cum veți fi asigurat în noua țară. Model mai jos."],
+  ["Contracte, cont bancar, fisc, pensie", "Reziliați contractele de curent, internet, telefon și asigurări (modele la scrisorile pentru viața de zi cu zi). Nu închideți contul prea devreme: garanția, restituirea de impozit sau ultimul salariu vin des mai târziu. Comunicați noua adresă la Finanzamt. La întrebări despre pensie răspunde Deutsche Rentenversicherung."]
+ ],
+ "deadlines": [
+  ["Radierea la Bürgeramt", "cel mai devreme cu 1 săptămână înainte, cel târziu la 2 săptămâni după mutare (§ 17 Abs. 2 BMG)"],
+  ["Fără radiere", "amendă posibilă de până la 1.000 € (§ 54 BMG)"],
+  ["Rezilierea chiriei", "până în a 3-a zi lucrătoare a lunii, pentru sfârșitul lunii de după luna următoare (§ 573c BGB)"],
+  ["Permis de ședere (non-UE)", "expiră la plecarea definitivă sau după 6 luni în străinătate (§ 51 AufenthG)"],
+  ["Familienkasse, Jobcenter, agenția de muncă", "anunțați schimbările imediat (§ 68 EStG, § 60 SGB I)"]
+ ],
+ "contactsTitle": "Instituții oficiale",
+ "contacts": [
+  ["Rundfunkbeitrag – radierea locuinței", "Formular online, e nevoie de numărul de contribuție", "rundfunkbeitrag.de"],
+  ["Familienkasse", "Alocația pentru copii: anunțarea schimbărilor", "arbeitsagentur.de"],
+  ["Deutsche Rentenversicherung", "Întrebări despre pensie la plecare", "deutsche-rentenversicherung.de"],
+  ["115", "Numărul autorităților: ce Bürgeramt este competent?", "115"]
+ ],
+ "letters": {
+  "wzmiet": ["Rezilierea contractului de închiriere", "către proprietar – în scris, semnat (§ 568 BGB)"],
+  "wzrb": ["Radierea de la taxa radio-TV", "către Beitragsservice – anexați adeverința de radiere"],
+  "wzkk": ["Plecare: scrisoare către casa de asigurări", "întrebați când se termină asigurarea"],
+  "wzfk": ["Plecare: scrisoare către Familienkasse", "anunțați imediat (§ 68 EStG)"]
+ },
+ "nav": "Plecarea din Germania"
+}

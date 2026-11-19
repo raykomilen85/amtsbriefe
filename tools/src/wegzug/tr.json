@@ -1,0 +1,37 @@
+{
+ "title": "Almanya'dan ayrılmak: Abmeldung ve kontrol listesi – ücretsiz mektup şablonları",
+ "desc": "Yurt dışına taşınma: Bürgeramt'ta kayıt silme, oturum izni, yayın ücreti, sağlık sigortası, Familienkasse, ev sözleşmesi feshi. Süreler ve şablonlar, 13 dilde.",
+ "h1": "Almanya'dan ayrılmak: Abmeldung ve yapmanız gereken diğer işler",
+ "intro": "Önemli: Kalıcı olarak yurt dışına taşınıyorsanız Bürgeramt'ta kaydınızı sildirin (Abmeldung) – en erken taşınmadan bir hafta önce, en geç taşındıktan iki hafta sonra. Aldığınız kayıt silme belgesiyle yayın ücreti (Rundfunkbeitrag), sağlık sigortası, Familienkasse ve diğer kurumlara haber verin.",
+ "steps": [
+  ["Kira sözleşmesini zamanında feshedin", "Kiracı olarak sözleşmeyi yazılı ve imzalı feshedersiniz (§ 568 BGB). Yasal süre: fesih en geç ayın 3. iş gününe kadar yapılır ve sonraki ikinci ayın sonunda geçerli olur – yani yaklaşık üç ay (§ 573c BGB). Kira sözleşmenize de bakın. Şablon aşağıda."],
+  ["Bürgeramt'ta kaydınızı sildirin", "Evinden çıkan ve Almanya'da yeni bir eve taşınmayan kişi, taşındıktan sonra iki hafta içinde kaydını sildirmek zorundadır – en erken bir hafta önceden (§ 17 Abs. 2 BMG). Posta veya internet üzerinden yapılıp yapılamayacağına belediyeniz karar verir: oraya sorun. Kaydını sildirmeyen kişiye para cezası verilebilir (§ 54 BMG)."],
+  ["Kayıt silme belgesini saklayın", "Kayıt silme için ücretsiz resmi bir belge alırsınız (§ 24 Abs. 2 BMG). Birçok kurum bu belgeyi kanıt olarak ister, örneğin yayın ücreti, sağlık sigortası, Familienkasse veya sözleşme yaptığınız firmalar. Fotokopilerini alın."],
+  ["Oturum izni: önce Yabancılar Dairesi'ne gidin", "Oturum izni, yurt dışına geçici olmayan bir nedenle çıkarsanız veya altı aydan uzun yurt dışında kalırsanız sona erer (§ 51 Abs. 1 Nr. 6 ve 7 AufenthG). Bazı izinler için başka kurallar geçerlidir, örneğin Daueraufenthalt – EU (§ 51 Abs. 9 AufenthG). Belki geri dönmek istiyor musunuz? Ayrılmadan önce Yabancılar Dairesi ile konuşun – daha uzun bir süre belirleyebilir. AB vatandaşlarının oturum iznine ihtiyacı yoktur."],
+  ["Yayın ücretinden (Rundfunkbeitrag) çıkış", "Evinizi Beitragsservice'ten sildirin – en kolayı internetten, katkı numaranızla (Beitragsnummer). Neden olarak yurt dışına taşınmayı seçin ve kanıt gönderin, örneğin kayıt silme belgesi. Mektup göndermek isterseniz şablon aşağıda."],
+  ["Familienkasse, Jobcenter ve diğer yardımlar", "Çocuk parası (Kindergeld) alan kişi değişiklikleri hemen Familienkasse'ye bildirmek zorundadır (§ 68 Abs. 1 EStG). Sosyal yardım alan kişi (örneğin Grundsicherungsgeld, işsizlik parası, Wohngeld) değişiklikleri hemen ödeme yapan kuruma bildirmelidir (§ 60 SGB I). Aksi halde paranın geri istenmesi söz konusu olabilir."],
+  ["Sağlık sigortasına haber verin", "Sağlık sigortanıza taşınacağınızı bildirin ve sigortanızın hangi tarihte bittiğini sorun. Yeni ülkede nasıl sigortalı olacağınızı erkenden öğrenin. Şablon aşağıda."],
+  ["Sözleşmeler, banka hesabı, vergi dairesi, emeklilik", "Elektrik, internet, telefon ve sigorta gibi sözleşmeleri feshedin (şablonlar günlük mektuplar sayfasında). Banka hesabınızı çok erken kapatmayın: depozito, vergi iadesi veya son maaş çoğu zaman sonra gelir. Yeni adresinizi vergi dairesine (Finanzamt) bildirin. Emeklilikle ilgili sorularınızı Deutsche Rentenversicherung yanıtlar."]
+ ],
+ "deadlines": [
+  ["Bürgeramt'ta kayıt silme", "taşınmadan en erken 1 hafta önce, en geç 2 hafta sonra (§ 17 Abs. 2 BMG)"],
+  ["Kayıt silinmezse", "1.000 €'ya kadar para cezası olabilir (§ 54 BMG)"],
+  ["Kira sözleşmesinin feshi", "ayın 3. iş gününe kadar, sonraki ikinci ayın sonuna (§ 573c BGB)"],
+  ["Oturum izni (AB dışı)", "kalıcı ayrılışta veya yurt dışında 6 aydan sonra sona erer (§ 51 AufenthG)"],
+  ["Familienkasse, Jobcenter, iş ajansı", "değişiklikleri hemen bildirin (§ 68 EStG, § 60 SGB I)"]
+ ],
+ "contactsTitle": "Resmi kurumlar",
+ "contacts": [
+  ["Rundfunkbeitrag – evi sildirme", "İnternet formu, katkı numarası gerekli", "rundfunkbeitrag.de"],
+  ["Familienkasse", "Çocuk parası: değişiklikleri bildirme", "arbeitsagentur.de"],
+  ["Deutsche Rentenversicherung", "Taşınırken emeklilik soruları", "deutsche-rentenversicherung.de"],
+  ["115", "Resmi daire numarası: Hangi Bürgeramt yetkili?", "115"]
+ ],
+ "letters": {
+  "wzmiet": ["Kira sözleşmesinin feshi", "ev sahibine – yazılı ve imzalı (§ 568 BGB)"],
+  "wzrb": ["Yayın ücretinden (Rundfunkbeitrag) çıkış", "Beitragsservice'e – kayıt silme belgesini ekleyin"],
+  "wzkk": ["Taşınma: sağlık sigortasına bildirim", "sigortanın bitiş tarihini sorun"],
+  "wzfk": ["Taşınma: Familienkasse'ye bildirim", "hemen bildirin (§ 68 EStG)"]
+ },
+ "nav": "Almanya'dan ayrılmak"
+}

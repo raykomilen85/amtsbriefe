@@ -1,0 +1,37 @@
+{
+ "title": "Ji Almanyayê derketin: Abmeldung û lîsteya karan – şablonên belaş",
+ "desc": "Barkirina derveyî welêt: Abmeldung li Bürgeramt, destûra mayînê, bacê radyo û TV, sîgorteya tenduristiyê, Familienkasse, kirê betalkirin. Dem û şablon, 13 ziman.",
+ "h1": "Ji Almanyayê derketin: Abmeldung û karên din ên ku divê hûn bikin",
+ "intro": "Girîng: Heke hûn bi mayînde diçin derveyî welêt, qeyda xwe li Bürgeramt jê bibin (Abmeldung) – herî zû hefteyek berî derketinê, herî dereng du hefte piştî wê. Bi belgeya Abmeldung paşê Rundfunkbeitrag, sîgorteya tenduristiyê, Familienkasse û saziyên din agahdar bikin.",
+ "steps": [
+  ["Kirêya xaniyê di wextê de betal bikin", "Wek kirêdar hûn bi nivîskî û bi îmzeya xwe betal dikin (§ 568 BGB). Dema qanûnî: betalkirin herî dereng heta roja 3yemîn a xebatê ya mehekê, ji bo dawiya meha piştî meha bê – yanî nêzî sê mehan (§ 573c BGB). Li peymana kirêyê jî binêrin. Şablon li jêr."],
+  ["Li Bürgeramt qeyda xwe jê bibin", "Kesê ku ji xaniyê xwe derdikeve û li Almanyayê naçe xaniyekî nû, divê di nav du hefteyan de piştî derketinê qeyda xwe jê bibe – herî zû hefteyek berê (§ 17 Abs. 2 BMG). Gelo bi postê an online jî dibe, şaredarî biryar dide: li wir bipirsin. Kesê ku qeyda xwe jê nebe, dibe ku cezayê pereyan bixwe (§ 54 BMG)."],
+  ["Belgeya Abmeldung biparêzin", "Hûn belaş belgeyeke fermî ya Abmeldung distînin (§ 24 Abs. 2 BMG). Gelek sazî wê wek delîl dixwazin, mînak Rundfunkbeitrag, sîgorteya tenduristiyê, Familienkasse an şîrketên ku peymana we bi wan re heye. Kopî çêkin."],
+  ["Destûra mayînê: berê biçin Ausländerbehörde", "Destûra mayînê bi dawî dibe heke hûn ji ber sedemekê ku ne demkî ye derkevin, an zêdetirî şeş mehan li derve bimînin (§ 51 Abs. 1 Nr. 6 û 7 AufenthG). Ji bo hin destûran qaîdeyên din hene, mînak Daueraufenthalt – EU (§ 51 Abs. 9 AufenthG). Dibe ku hûn bixwazin vegerin? Berî çûnê bi Ausländerbehörde re biaxivin – ew dikare demeke dirêjtir diyar bike. Hemwelatiyên YE ne hewceyî destûra mayînê ne."],
+  ["Ji bacê radyo û TV derketin", "Xaniyê xwe li Beitragsservice jê bibin – ya herî hêsan online bi hejmara beşdariyê (Beitragsnummer). Wek sedem barkirina derveyî welêt hilbijêrin û delîlekê bişînin, mînak belgeya Abmeldung. Heke hûn nameyê tercîh dikin, şablon li jêr e."],
+  ["Familienkasse, Jobcenter û alîkariyên din", "Kesê ku pereyê zarokan (Kindergeld) distîne, divê guhertinan yekser ji Familienkasse re bêje (§ 68 Abs. 1 EStG). Kesê ku alîkariyên civakî distîne (mînak Grundsicherungsgeld, pereyê bêkariyê, Wohngeld), divê guhertinan yekser ji saziya ku dide re bêje (§ 60 SGB I). Wekî din dibe ku pere paşde bên xwestin."],
+  ["Sîgorteya tenduristiyê agahdar bikin", "Ji sîgorteya xwe re bêjin ku hûn bar dikin û bipirsin sîgorteya we di kîjan rojê de bi dawî dibe. Zû fêr bibin ka hûn ê li welatê nû çawa sîgortekirî bin. Şablon li jêr."],
+  ["Peyman, hesabê bankê, Finanzamt, teqawîdî", "Peymanên wek elektrîk, înternet, telefon û sîgorteyan betal bikin (şablon di nameyên jiyana rojane de). Hesabê bankê zû negirin: depozîto, vegerandina bacê an meaşê dawî pir caran paşê tên. Navnîşana xwe ya nû ji Finanzamt re bêjin. Pirsên li ser teqawîdiyê Deutsche Rentenversicherung bersiv dide."]
+ ],
+ "deadlines": [
+  ["Abmeldung li Bürgeramt", "herî zû 1 hefte berî, herî dereng 2 hefte piştî derketinê (§ 17 Abs. 2 BMG)"],
+  ["Bê Abmeldung", "cezayê heta 1.000 € gengaz e (§ 54 BMG)"],
+  ["Betalkirina kirêya xaniyê", "heta roja 3yemîn a xebatê ya mehê, ji bo dawiya meha piştî meha bê (§ 573c BGB)"],
+  ["Destûra mayînê (ne YE)", "bi derketina mayînde an piştî 6 mehan li derve bi dawî dibe (§ 51 AufenthG)"],
+  ["Familienkasse, Jobcenter, ajansa kar", "guhertinan yekser bêjin (§ 68 EStG, § 60 SGB I)"]
+ ],
+ "contactsTitle": "Saziyên fermî",
+ "contacts": [
+  ["Rundfunkbeitrag – xanî jê birin", "Forma online, hejmara beşdariyê pêwîst e", "rundfunkbeitrag.de"],
+  ["Familienkasse", "Pereyê zarokan: guhertin ragihandin", "arbeitsagentur.de"],
+  ["Deutsche Rentenversicherung", "Pirsên teqawîdiyê dema barkirinê", "deutsche-rentenversicherung.de"],
+  ["115", "Hejmara saziyan: kîjan Bürgeramt berpirsiyar e?", "115"]
+ ],
+ "letters": {
+  "wzmiet": ["Betalkirina peymana kirêyê", "ji xwediyê xanî re – bi nivîskî, bi îmze (§ 568 BGB)"],
+  "wzrb": ["Ji bacê radyo û TV derketin", "ji Beitragsservice re – belgeya Abmeldung lê zêde bikin"],
+  "wzkk": ["Barkirin: name ji sîgorteya tenduristiyê re", "bipirsin sîgorte kengî bi dawî dibe"],
+  "wzfk": ["Barkirin: name ji Familienkasse re", "yekser ragihînin (§ 68 EStG)"]
+ },
+ "nav": "Ji Almanyayê derketin"
+}

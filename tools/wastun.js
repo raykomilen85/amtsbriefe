@@ -14,7 +14,7 @@ module.exports = function ({ CSS, LOGO, LANGS, SITE, VORL, ABOUT_NAV, esc, root,
   const url = l => `${SITE}/${l === "de" ? "" : l + "/"}${SLUG}.html`;
   const rel = (from, l) => (from === "de" ? "" : "../") + (l === "de" ? "" : l + "/") + SLUG + ".html";
   // resource keys per situation; "nonEU:" only for non-EU, "EU:" only for EU
-  const RULES = [["ki", "frist", "vorl", "rechte", "stelle"], ["f30", "integ", "nonEU:aufent", "rechte", "stelle"], ["agentur", "gsg", "sozial", "frist", "rechte"], ["familie", "sozial", "rechte", "stelle"], ["f30", "stelle", "alltag"], ["nonEU:aufent", "nonEU:abschieb", "EU:f30", "stelle", "rechte"]];
+  const RULES = [["ki", "frist", "vorl", "rechte", "stelle"], ["f30", "integ", "nonEU:aufent", "rechte", "stelle"], ["agentur", "gsg", "sozial", "frist", "rechte"], ["familie", "sozial", "rechte", "stelle"], ["f30", "stelle", "alltag", "wegzug"], ["nonEU:aufent", "nonEU:abschieb", "EU:f30", "stelle", "rechte"]];
   const extra = `.wz fieldset{border:1px solid #d6dde8;border-radius:12px;padding:.8rem 1rem;margin:0 0 .9rem;background:#fff}.wz legend{font-weight:700;padding:0 .3rem}
 .wz label.o{display:flex;gap:.6rem;align-items:center;padding:.45rem 0;font-size:1.02rem;cursor:pointer}.wz input[type=radio]{width:1.25rem;height:1.25rem}
 .wz select{width:100%;padding:.5rem;font-size:1rem;border-radius:8px}.wz .go{background:#1F4E8C;color:#fff;border:0;border-radius:10px;padding:.75rem 1.2rem;font-size:1.05rem;font-weight:700;cursor:pointer}
@@ -25,7 +25,7 @@ module.exports = function ({ CSS, LOGO, LANGS, SITE, VORL, ABOUT_NAV, esc, root,
     const RES = { ki: [w.ki, root(lang) + "ki-hilfe.html"], frist: [w.frist, root(lang) + "frist-rechner.html"], vorl: [VORL[lang] || VORL.de, p + "/vorlagen.html"],
       rechte: [t("rechte"), p + "/ihre-rechte.html"], stelle: [w.stelleL, p + "/zustaendige-stelle.html"], f30: [t("f30"), p + "/erste-30-tage.html"], integ: [t("integ"), p + "/integrationskurs.html"],
       aufent: [t("aufent"), p + "/aufenthalt-laeuft-ab.html"], abschieb: [t("abschieb"), p + "/abschiebung-hilfe.html"], agentur: [w.agentur, p + "/vorlage/agentur-fuer-arbeit-arbeitsuchend-melden.html"],
-      gsg: [t("gsg"), p + "/grundsicherungsgeld.html"], sozial: [t("sozial"), p + "/sozialleistungen-antrag.html"], familie: [t("familie"), p + "/familie-schule.html"], alltag: [t("alltag"), p + "/alltag-briefvorlagen.html"] };
+      gsg: [t("gsg"), p + "/grundsicherungsgeld.html"], sozial: [t("sozial"), p + "/sozialleistungen-antrag.html"], familie: [t("familie"), p + "/familie-schule.html"], alltag: [t("alltag"), p + "/alltag-briefvorlagen.html"], wegzug: [t("wegzug"), p + "/wegzug-ausland.html"] };
     const cfg = { R: RULES, RES, tips: w.tips, eunote: w.eunote, portal: w.portal, L: Object.fromEntries(Object.entries(LAND).map(([k, v]) => [k, v[1]])) };
     const ld = { "@context": "https://schema.org", "@type": "WebApplication", name: w.h1, url: url(lang), inLanguage: lang, applicationCategory: "UtilitiesApplication", operatingSystem: "Any", offers: { "@type": "Offer", price: "0", priceCurrency: "EUR" }, description: w.desc };
     const html = `<!doctype html>

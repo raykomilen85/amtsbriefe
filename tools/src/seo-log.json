@@ -64,5 +64,65 @@
    "impressions": 497,
    "avg_position": 24.3
   }
+ },
+ {
+  "date": "2026-11-19",
+  "run": 2,
+  "query": "wymeldowanie z niemiec",
+  "page": "/pl/vorlage/rathaus-abmeldung-bei-umzug-ins-ausland.html",
+  "position": 9.0,
+  "impressions": 1,
+  "top5": [
+   "polskiebiuro24.de",
+   "platformarozliczeniowa.eu",
+   "dojczland.info",
+   "stuttgart.de",
+   "mainz.de"
+  ],
+  "changes": [
+   "Titel (pl): Wymeldowanie z Niemiec (Abmeldung) – wzór pisma i termin",
+   "Tipp: Bußgeld bis 1.000 € (§ 54 BMG), 13 Sprachen",
+   "FAQ: Abmeldung per Post/E-Mail/online, Vollmacht, Ausweiskopie, 13 Sprachen",
+   "Seite gesamt: 22 Impr., Pos. 18,5"
+  ]
+ },
+ {
+  "date": "2026-11-19",
+  "run": 2,
+  "query": "finanzamt druki zmiana klasy podatkowej",
+  "page": "/pl/vorlage/finanzamt-steuerklasse-wechseln.html",
+  "position": 20.0,
+  "impressions": 1,
+  "top5": [
+   "berlin.de",
+   "polskidoradca.de",
+   "berlin.de",
+   "formulare-bfinv.de",
+   "platformarozliczeniowa.eu"
+  ],
+  "changes": [
+   "Titel (pl): Zmiana klasy podatkowej w Niemczech – wniosek i wzór",
+   "Inhalt bereits in Lauf 1 ergänzt (FAQ Heirat)",
+   "Seite gesamt: 20 Impr., Pos. 29,5"
+  ]
+ },
+ {
+  "date": "2026-11-19",
+  "run": 2,
+  "query": "jobcenter veränderungsmitteilung english (Ersatzanfrage, Seite ohne eigene Anfrage in SC)",
+  "page": "/en/vorlage/jobcenter-veraenderungsmitteilung.html",
+  "position": 32.2,
+  "impressions": 26,
+  "top5": [
+   "verwaltungsportal.hessen.de",
+   "arbeitsagentur.de",
+   "arbeitsagentur.de",
+   "arbeitsagentur.de",
+   "arbeitsagentur.de"
+  ],
+  "changes": [
+   "Titel (en): Jobcenter Veränderungsmitteilung in English – template",
+   "FAQ: welche Änderungen melden, unverzüglich (§ 60 SGB I), 13 Sprachen"
+  ]
  }
 ]

@@ -29,3 +29,4 @@ Allgemeine Abnahmekriterien für jeden Punkt:
 - 19.11.2026: Plan angelegt; A, A2, 2 und 3 erledigt.
 - 19.11.2026: Punkte 4, 5 und 6 erledigt. Offen nur Punkt 7 (datengetrieben).
 - 19.11.2026: Indexierung beantragt (Search Console): was-tun, erste-30-tage, ihre-rechte (de+tr), grundsicherungsgeld (de). Am selben Abend nachgeholt: integrationskurs, ueber-uns, tr/grundsicherungsgeld, tr/integrationskurs. Alle neuen Seiten (de+tr) beantragt. IndexNow für alle 13 Sprachen gesendet.
+- 19.11.2026: Search Console (28 Tage, 497 Impressionen) für Punkt 7 ausgewertet: Häufungen bei „Steuerklasse ändern/wechseln“ (~13 Impr., de/uk/pl) und „Abmeldung / Deutschland verlassen“ (~10 Impr., de/pl/fr). Vorschlag an Milen geschickt, noch NICHT eingetragen (wartet auf Zustimmung). GoatCounter im Browser nicht lesbar.

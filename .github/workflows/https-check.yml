@@ -6,7 +6,7 @@ on:
     paths: [".github/workflows/https-check.yml"]
 permissions:
   contents: read
-  pages: write
+  pages: read
 jobs:
   https:
     runs-on: ubuntu-latest
@@ -15,12 +15,6 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
         run: gh api repos/${{ github.repository }}/pages || true
-      - name: HTTPS erzwingen versuchen (https_enforced=true)
-        env:
-          GH_TOKEN: ${{ github.token }}
-        run: |
-          gh api -X PUT repos/${{ github.repository }}/pages -F https_enforced=true && echo "OK: HTTPS erzwungen" || echo "NICHT MOEGLICH mit GITHUB_TOKEN - bitte in Settings > Pages 'Enforce HTTPS' anhaken"
-          gh api repos/${{ github.repository }}/pages --jq '.https_enforced' || true
       - name: DNS
         run: |
           for h in amtsbriefe.de www.amtsbriefe.de; do

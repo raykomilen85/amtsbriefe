@@ -81,7 +81,7 @@ const REL_H = { de: "Passende Briefvorlagen", tr: "İlgili mektup şablonları",
   fr: "Modèles de lettres adaptés", nl: "Passende briefsjablonen", ro: "Modele de scrisori potrivite", es: "Plantillas de cartas relacionadas", ku: "Şablonên nameyan ên têkildar" };
 const TPL = (() => {
   const vm = require("vm"), idx = fs.readFileSync(path.join(__dirname, "..", "index.html"), "utf8");
-  const js = [...idx.matchAll(/<script[^>]*>([\s\S]*?)<\/script>/g)][2][1], ctx = {}; vm.createContext(ctx);
+  const js = [...idx.matchAll(/<script[^>]*>([\s\S]*?)<\/script>/g)].filter(m => !m[1].includes('location.protocol=="http:"'))[2][1], ctx = {}; vm.createContext(ctx);
   vm.runInContext(js.slice(0, js.indexOf("const landOf")) + ";globalThis.__={L,OFF,TT};", ctx);
   const { L, OFF, TT } = ctx.__, sl = s => s.toLowerCase().replace(/ä/g, "ae").replace(/ö/g, "oe").replace(/ü/g, "ue").replace(/ß/g, "ss").replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
   return Object.fromEntries(L.map(l => { const t = l.tt ? TT[l.tt].t : l.t, o = OFF[l.a].n.split(" / ")[0]; return [l.id, { t, o, slug: sl(o + "-" + t.de) }]; }));
@@ -160,6 +160,7 @@ function page(lang, key) {
 <html lang="${lang}" dir="${dir}">
 <head>
 <meta charset="utf-8">
+<script>if(location.protocol=="http:"&&location.hostname.slice(-13)=="amtsbriefe.de")location.replace("https:"+location.href.slice(5))</script>
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>${esc(SEO[lang] && SEO[lang][key] ? SEO[lang][key][0] : p.title + " | Amtsbriefe")}</title>
 <meta name="description" content="${esc(SEO[lang] && SEO[lang][key] ? SEO[lang][key][1] : p.desc)}">

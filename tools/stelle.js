@@ -61,6 +61,7 @@ module.exports = function ({ C, CSS, LOGO, LANGS, SITE, VORL, esc, rel, root, ur
 <html lang="${lang}" dir="${dir}">
 <head>
 <meta charset="utf-8">
+<script>if(location.protocol=="http:"&&location.hostname.slice(-13)=="amtsbriefe.de")location.replace("https:"+location.href.slice(5))</script>
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>${esc(s.title)}</title>
 <meta name="description" content="${esc(s.desc)}">

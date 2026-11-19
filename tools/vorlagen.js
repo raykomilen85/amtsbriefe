@@ -23,7 +23,7 @@ const KI_TXT = {"de": "Brief vom Amt bekommen und nicht verstanden? Foto hochlad
 
 // --- Daten aus der App in index.html lesen (gleiche Quelle wie die App, nichts doppelt pflegen) ---
 const idx = fs.readFileSync(path.join(ROOT, "index.html"), "utf8");
-const js = [...idx.matchAll(/<script[^>]*>([\s\S]*?)<\/script>/g)][2][1];
+const js = [...idx.matchAll(/<script[^>]*>([\s\S]*?)<\/script>/g)].filter(m => !m[1].includes('location.protocol=="http:"'))[2][1];
 const ctx = {}; vm.createContext(ctx);
 vm.runInContext(js.slice(0, js.indexOf("const landOf")) + ";globalThis.__={L,OFF,TT,FL};", ctx);
 const { L, OFF, TT, FL } = ctx.__;
@@ -82,6 +82,7 @@ function page({ lg, rel, title, desc, h1, crumbs, body, ld }) {
 <html lang="${lg}" dir="${dir}">
 <head>
 <meta charset="utf-8">
+<script>if(location.protocol=="http:"&&location.hostname.slice(-13)=="amtsbriefe.de")location.replace("https:"+location.href.slice(5))</script>
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>${esc(title)}</title>
 <meta name="description" content="${esc(desc)}">

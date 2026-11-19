@@ -15,6 +15,7 @@ function page(key, file, deTitle) {
 <html lang="de">
 <head>
 <meta charset="utf-8">
+<script>if(location.protocol=="http:"&&location.hostname.slice(-13)=="amtsbriefe.de")location.replace("https:"+location.href.slice(5))</script>
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>${deTitle} – Amtsbriefe</title>
 <meta name="robots" content="noindex">

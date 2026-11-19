@@ -1,0 +1,68 @@
+[
+ {
+  "date": "2026-11-19",
+  "query": "bürgergeld appeal letter sample",
+  "page": "/en/vorlage/jobcenter-widerspruch-gegen-einen-bescheid.html",
+  "position": 21.4,
+  "impressions": 18,
+  "top5": [
+   "talentsingermany.de",
+   "xplainly.app",
+   "docugov.ai",
+   "jobcenter-kreis-steinfurt.de",
+   "eshkal.com"
+  ],
+  "changes": [
+   "Tipp: 3 Monate Frist bei Bekanntgabe im Ausland (§ 84 SGG), 13 Sprachen",
+   "FAQ: Widerspruch abgelehnt -> Klage Sozialgericht 1 Monat (§ 87 SGG), gerichtskostenfrei (§ 183 SGG), Beratungshilfe",
+   "Titel nicht geändert (am 18.11. geändert)"
+  ]
+ },
+ {
+  "date": "2026-11-19",
+  "query": "antrag auf befreiung vom kostenbeitrag zum integrationskurs",
+  "page": "/vorlage/bamf-befreiung-vom-kostenbeitrag.html",
+  "position": 7.7,
+  "impressions": 3,
+  "top5": [
+   "bamf.de",
+   "verwaltung.bund.de",
+   "lra-aic-fdb.de",
+   "landkreis-stade.de",
+   "inlingua-braunschweig.de"
+  ],
+  "changes": [
+   "Tipp: Online-Antrag über verwaltung.bund.de mit BundID",
+   "FAQ: Geringverdiener – 33 % BBG (§ 9 Abs. 2 IntV), 2026 ca. 2.788,50 €/Monat, Nachweise",
+   "Titel nicht geändert (am 18.11. geändert)"
+  ]
+ },
+ {
+  "date": "2026-11-19",
+  "query": "як змінити податковий клас в німеччині",
+  "page": "/uk/vorlage/finanzamt-steuerklasse-wechseln.html",
+  "position": 11.0,
+  "impressions": 1,
+  "top5": [
+   "laruhelpsukraine.com",
+   "intertax24.com",
+   "familienportal.nrw",
+   "neotax.eu",
+   "heidelberg-hilft-ukraine.de"
+  ],
+  "changes": [
+   "Titel (uk): Як змінити податковий клас у Німеччині – зразок заяви",
+   "FAQ: Klasse IV automatisch nach Heirat (§ 39e Abs. 3 EStG), mehrmaliger Wechsel (§ 39 Abs. 6 EStG), 13 Sprachen",
+   "Hinweis: Seite 24 Impr./Pos. 10,1; Anfrage selbst nur 1 Impr. (keine Anfrage ≥3 sonst im Bereich 3–40)"
+  ]
+ },
+ {
+  "date": "2026-11-19",
+  "note": "Technik: vorlagen.js unterstützt jetzt mehrere FAQ-Paare je Vorlage in vorlagen-extra.json",
+  "totals28d": {
+   "clicks": 3,
+   "impressions": 497,
+   "avg_position": 24.3
+  }
+ }
+]

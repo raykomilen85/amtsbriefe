@@ -1,0 +1,34 @@
+name: HTTPS / Zertifikat prüfen
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: [".github/workflows/https-check.yml"]
+permissions:
+  contents: read
+  pages: read
+jobs:
+  https:
+    runs-on: ubuntu-latest
+    steps:
+      - name: GitHub-Pages-Einstellungen (https_enforced, Zertifikat)
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh api repos/${{ github.repository }}/pages || true
+      - name: DNS
+        run: |
+          for h in amtsbriefe.de www.amtsbriefe.de; do
+            echo "== $h"; dig +short A $h; dig +short AAAA $h; dig +short CNAME $h; dig +short CAA $h
+          done
+      - name: Zertifikat
+        run: |
+          for h in amtsbriefe.de www.amtsbriefe.de; do
+            echo "== $h"
+            echo | timeout 20 openssl s_client -servername $h -connect $h:443 2>/dev/null \
+              | openssl x509 -noout -subject -issuer -dates -ext subjectAltName || echo "kein Zertifikat"
+          done
+      - name: HTTP-Antworten
+        run: |
+          for u in http://amtsbriefe.de/ https://amtsbriefe.de/ http://www.amtsbriefe.de/ https://www.amtsbriefe.de/; do
+            echo "== $u"; curl -sS -o /dev/null --max-time 20 -w "%{http_code} -> %{redirect_url}\n" "$u" || true
+          done

@@ -1,3 +1,4 @@
+const NAVL = require("./navlinks.js");
 // "Ihre Rechte" page (10 cards) in 13 languages (content: src/rechte/<lang>.json). Called from build.js.
 const fs = require("fs");
 const path = require("path");
@@ -59,7 +60,7 @@ ${f.cards.map(([h, t], i) => `<article id="r${i + 1}"><h2><span>${i + 1}</span>$
 <p class="note">${esc(L.note)}</p>
 <p><small>${esc(L.stand)}: ${STAND}</small></p>
 </main>
-<footer><div class="wrap"><a href="${root(lang)}">Amtsbriefe</a><a href="${pre(lang)}/vorlagen.html">${VORL[lang] || VORL.de}</a><a href="${pre(lang)}/ueber-uns.html">${ABOUT_NAV[lang]}</a><a href="${root(lang)}impressum.html">Impressum</a><a href="${root(lang)}datenschutz.html">Datenschutz</a></div></footer>
+<footer><div class="wrap"><a href="${root(lang)}">Amtsbriefe</a>${NAVL(lang)}<a href="${pre(lang)}/vorlagen.html">${VORL[lang] || VORL.de}</a><a href="${pre(lang)}/ueber-uns.html">${ABOUT_NAV[lang]}</a><a href="${root(lang)}impressum.html">Impressum</a><a href="${root(lang)}datenschutz.html">Datenschutz</a></div></footer>
 </body>
 </html>
 `;

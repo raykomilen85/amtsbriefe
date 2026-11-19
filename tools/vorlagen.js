@@ -1,3 +1,4 @@
+const NAVL = require("./navlinks.js");
 // Erzeugt statische, von Google lesbare Einzelseiten für jede Briefvorlage aus index.html – in 13 Sprachen:
 //   /vorlage/<slug>.html, /<lang>/vorlage/<slug>.html   (eine Seite pro Vorlage und Sprache)
 //   /vorlagen.html,       /<lang>/vorlagen.html         (Übersicht aller Vorlagen nach Behörde)
@@ -104,7 +105,7 @@ ${body}
 <p class="note noprint">${esc(KI_TXT[lg] || KI_TXT.de)}</p><a class="cta noprint" href="/ki-hilfe.html">${esc(KI_T[lg] || KI_T.de)} →</a>
 <p class="note">${esc(S.disc)} ${esc(S.stand)}: ${STAND_DE}</p>
 </main>
-<footer><div class="wrap"><a href="/">Amtsbriefe</a><a href="${pre(lg)}/vorlagen.html">${esc(S.ft[0])}</a><a href="/ki-hilfe.html">${esc(KI_T[lg] || KI_T.de)}</a><a href="/frist-rechner.html">${esc(S.ft[1])}</a><a href="/woerterbuch.html">${esc(S.ft[2])}</a><a href="${pre(lg)}/ueber-uns.html">${ABOUT_NAV[lg]}</a><a href="/impressum.html">Impressum</a><a href="/datenschutz.html">Datenschutz</a></div></footer>
+<footer><div class="wrap"><a href="/">Amtsbriefe</a>${NAVL(lg)}<a href="${pre(lg)}/vorlagen.html">${esc(S.ft[0])}</a><a href="/ki-hilfe.html">${esc(KI_T[lg] || KI_T.de)}</a><a href="/frist-rechner.html">${esc(S.ft[1])}</a><a href="/woerterbuch.html">${esc(S.ft[2])}</a><a href="${pre(lg)}/ueber-uns.html">${ABOUT_NAV[lg]}</a><a href="/impressum.html">Impressum</a><a href="/datenschutz.html">Datenschutz</a></div></footer>
 <script>document.querySelectorAll("[data-copy]").forEach(function(b){b.onclick=function(){var t=document.getElementById(b.dataset.copy).textContent,o=b.textContent,d=function(){b.textContent=${JSON.stringify(S.copied)};setTimeout(function(){b.textContent=o},1800)};try{navigator.clipboard.writeText(t).then(d,d)}catch(e){d()}}});
 document.querySelectorAll("[data-lang]").forEach(function(a){a.addEventListener("click",function(){try{localStorage.setItem("bb-lang",a.dataset.lang)}catch(e){}})});</script>
 </body>

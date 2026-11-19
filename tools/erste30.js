@@ -1,3 +1,4 @@
+const NAVL = require("./navlinks.js");
 // "Die ersten 30 Tage" checklist page in 13 languages (content: src/f30/<lang>.json). Called from build.js.
 const fs = require("fs");
 const path = require("path");
@@ -58,7 +59,7 @@ ${f.steps.map(([h, o, w, t], i) => `<li id="s${i + 1}"><label><input type="check
 <ul>${SRC.map(([n, u]) => `<li><a href="${u}" rel="noopener">${n}</a></li>`).join("")}</ul>
 <p><small>${esc(L.stand)}: ${STAND}</small></p>
 </main>
-<footer><div class="wrap"><a href="${root(lang)}">Amtsbriefe</a><a href="${pre(lang)}/vorlagen.html">${VORL[lang] || VORL.de}</a><a href="${pre(lang)}/ueber-uns.html">${ABOUT_NAV[lang]}</a><a href="${root(lang)}impressum.html">Impressum</a><a href="${root(lang)}datenschutz.html">Datenschutz</a></div></footer>
+<footer><div class="wrap"><a href="${root(lang)}">Amtsbriefe</a>${NAVL(lang)}<a href="${pre(lang)}/vorlagen.html">${VORL[lang] || VORL.de}</a><a href="${pre(lang)}/ueber-uns.html">${ABOUT_NAV[lang]}</a><a href="${root(lang)}impressum.html">Impressum</a><a href="${root(lang)}datenschutz.html">Datenschutz</a></div></footer>
 <script>
 (function(){var K="ab-erste30",s={};try{s=JSON.parse(localStorage.getItem(K)||"{}")||{}}catch(e){}
 var bx=document.querySelectorAll("#chk input"),n=bx.length;

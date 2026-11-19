@@ -1,3 +1,4 @@
+const NAVL = require("./navlinks.js");
 // Builds the static help pages (Aufenthalt, Abschiebung, Sozialleistungen, Alltag, Familie & Schule, Auto/Gewerbe/Gesundheit) in 13 languages.
 // Usage: node build.js  -> writes into ./out
 const fs = require("fs");
@@ -195,7 +196,7 @@ ${relTpl(lang, key)}${key === "sozial" || key === "alltag" || key === "familie" 
 <p class="src"><strong>${esc(u.sources)}:</strong> ${SOURCES[key].map(([n, h]) => `<a href="https://www.gesetze-im-internet.de/${h}" rel="noopener" target="_blank">${n}</a>`).join("")}<br>${esc(u.stand)}: ${STAND_BY[key] || STAND}</p>
 <p class="note">${esc(u.disclaimer)}</p>
 </main>
-<footer><div class="wrap"><a href="${root(lang)}">Amtsbriefe</a><a href="${lang === "de" ? "" : "/" + lang}/vorlagen.html">${VORL[lang] || VORL.de}</a><a href="${lang === "de" ? "" : "/" + lang}/ueber-uns.html">${ABOUT_NAV[lang]}</a><a href="${root(lang)}impressum.html">Impressum</a><a href="${root(lang)}datenschutz.html">Datenschutz</a></div></footer>
+<footer><div class="wrap"><a href="${root(lang)}">Amtsbriefe</a>${NAVL(lang)}<a href="${lang === "de" ? "" : "/" + lang}/vorlagen.html">${VORL[lang] || VORL.de}</a><a href="${lang === "de" ? "" : "/" + lang}/ueber-uns.html">${ABOUT_NAV[lang]}</a><a href="${root(lang)}impressum.html">Impressum</a><a href="${root(lang)}datenschutz.html">Datenschutz</a></div></footer>
 <script>
 document.querySelectorAll("details .lt").forEach(function(b){
   var bl=b.querySelector("[data-blank]"),ex=b.querySelector("[data-ex]"),v="blank";

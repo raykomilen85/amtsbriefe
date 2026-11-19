@@ -1,3 +1,4 @@
+const NAVL = require("./navlinks.js");
 // "Über uns" page in 13 languages (content: src/about/<lang>.json). Called from build.js.
 const fs = require("fs");
 const path = require("path");
@@ -35,7 +36,7 @@ ${LANGS.map(([l]) => `<link rel="alternate" hreflang="${l}" href="${url(l)}">`).
 <p class="intro">${esc(a.intro)}</p>
 ${a.sec.map(([h, t]) => `<h2>${esc(h)}</h2>\n<p>${esc(t).replace(/raykomilen85@gmail\.com/, '<a href="mailto:raykomilen85@gmail.com">raykomilen85@gmail.com</a>')}</p>`).join("\n")}
 </main>
-<footer><div class="wrap"><a href="${root(lang)}">Amtsbriefe</a><a href="${lang === "de" ? "" : "/" + lang}/vorlagen.html">${VORL[lang] || VORL.de}</a><a href="${lang === "de" ? "" : "/" + lang}/ueber-uns.html">${a.nav}</a><a href="${root(lang)}impressum.html">Impressum</a><a href="${root(lang)}datenschutz.html">Datenschutz</a></div></footer>
+<footer><div class="wrap"><a href="${root(lang)}">Amtsbriefe</a>${NAVL(lang)}<a href="${lang === "de" ? "" : "/" + lang}/vorlagen.html">${VORL[lang] || VORL.de}</a><a href="${lang === "de" ? "" : "/" + lang}/ueber-uns.html">${a.nav}</a><a href="${root(lang)}impressum.html">Impressum</a><a href="${root(lang)}datenschutz.html">Datenschutz</a></div></footer>
 </body>
 </html>
 `;

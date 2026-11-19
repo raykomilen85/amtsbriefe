@@ -1,3 +1,4 @@
+const NAVL = require("./navlinks.js");
 // "Was tun?" rule-based wizard in 13 languages (content: src/wastun/<lang>.json). Called from build.js.
 const fs = require("fs");
 const path = require("path");
@@ -59,7 +60,7 @@ ${LANGS.map(([l]) => `<link rel="alternate" hreflang="${l}" href="${url(l)}">`).
 </form>
 <section id="res" hidden aria-live="polite"><h2>${esc(w.res)}</h2><p id="tip"></p><ul id="list"></ul><button class="again" type="button" id="again">${esc(w.restart)}</button></section>
 </main>
-<footer><div class="wrap"><a href="${root(lang)}">Amtsbriefe</a><a href="${p}/vorlagen.html">${VORL[lang] || VORL.de}</a><a href="${p}/ueber-uns.html">${ABOUT_NAV[lang]}</a><a href="${root(lang)}impressum.html">Impressum</a><a href="${root(lang)}datenschutz.html">Datenschutz</a></div></footer>
+<footer><div class="wrap"><a href="${root(lang)}">Amtsbriefe</a>${NAVL(lang)}<a href="${p}/vorlagen.html">${VORL[lang] || VORL.de}</a><a href="${p}/ueber-uns.html">${ABOUT_NAV[lang]}</a><a href="${root(lang)}impressum.html">Impressum</a><a href="${root(lang)}datenschutz.html">Datenschutz</a></div></footer>
 <script>
 (function(){var C=${JSON.stringify(cfg)};var f=document.getElementById("wz"),res=document.getElementById("res");
 function esc(s){return String(s).replace(/[&<>"]/g,function(c){return{"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]})}

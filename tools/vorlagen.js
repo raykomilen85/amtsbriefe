@@ -20,8 +20,9 @@ const TITLE_OVR = {"pl/rathaus-abmeldung-bei-umzug-ins-ausland": "Wymeldowanie z
 const DESC_OVR = {"uk/finanzamt-steuerklasse-wechseln": "Податковий клас для подружжя: заява до Finanzamt або онлайн через ELSTER, на поточний рік – до 30 листопада. Безкоштовний зразок, 13 мов.", "pl/finanzamt-steuerklasse-wechseln": "Zmiana klasy podatkowej dla małżonków: wniosek do Finanzamt lub przez ELSTER, na bieżący rok do 30 listopada. Bezpłatny wzór, 13 języków.", "de/jobcenter-widerspruch-gegen-einen-bescheid": "Änderungsbescheid oder Bewilligungsbescheid vom Jobcenter falsch? Widerspruch innerhalb eines Monats – kostenloses Muster, in 13 Sprachen erklärt.", "de/bafoeg-amt-widerspruch-gegen-bafoeg-bescheid": "BAföG-Bescheid zu niedrig oder abgelehnt? Widerspruch innerhalb eines Monats nach Bekanntgabe – kostenloses Muster zum Ausfüllen, in 13 Sprachen."};
 // Passende Seiten je Vorlage (Hilfeseite = "p:<datei>", andere Vorlage = "v:<id>"), aus Search-Console-Daten 22.11.2026.
 // Inhalte der zugehörigen FAQ (vorlagen-extra.json) geprüft am 22.11.2026: § 44 Abs. 4 AufenthG, verwaltung.bund.de (Zulassung zum
-// Integrationskurs, Stand 14.08.2026), § 48 SGB X, § 84 SGG, § 3 Abs. 1 Nr. 12, § 17, § 19 Abs. 6 BMG, § 39 Abs. 6 EStG.
-const REL = {"bm1": ["p:integrationskurs"], "j2": ["v:j1"], "r4": ["p:wegzug-ausland"]};
+// Integrationskurs, Stand 14.08.2026), § 48 SGB X, § 84 SGG, § 3 Abs. 1 Nr. 12, § 17, § 19 Abs. 6 BMG, § 39 Abs. 6 EStG;
+// r5/bf2/b2: § 19 Abs. 2–4, § 54 BMG, § 70 VwGO, § 68 SGB I, § 44 SGB X, § 4a AufenthG, § 36 Abs. 2 BeschV, arbeitsagentur.de-Formular.
+const REL = {"bm1": ["p:integrationskurs"], "j2": ["v:j1"], "r4": ["p:wegzug-ausland"], "r5": ["p:erste-30-tage"], "bf2": ["f:"], "b2": ["p:zustaendige-stelle"]};
 const REL_H = {"de": "Passende Seiten", "tr": "İlgili sayfalar", "bg": "Свързани страници", "ar": "صفحات ذات صلة", "uk": "Пов'язані сторінки", "pl": "Powiązane strony", "en": "Related pages", "el": "Σχετικές σελίδες", "fr": "Pages liées", "nl": "Passende pagina's", "ro": "Pagini potrivite", "es": "Páginas relacionadas", "ku": "Rûpelên têkildar"};
 const ABOUT_NAV = {"de": "Über uns", "tr": "Hakkımızda", "bg": "За нас", "ar": "من نحن", "uk": "Про нас", "pl": "O nas", "en": "About us", "el": "Σχετικά με εμάς", "fr": "À propos", "nl": "Over ons", "ro": "Despre noi", "es": "Sobre nosotros", "ku": "Derbarê me de"};
 const KI_T = {"de": "Brief vom Amt übersetzen", "tr": "Resmî mektubu çevir", "bg": "Преведи писмо от институция", "ar": "ترجمة رسالة الدائرة", "uk": "Перекласти лист установи", "pl": "Przetłumacz pismo z urzędu", "en": "Translate a letter from an office", "el": "Μετάφραση επιστολής από υπηρεσία", "fr": "Traduire une lettre d'une administration", "nl": "Een brief van een instantie vertalen", "ro": "Traduceți o scrisoare de la o instituție", "es": "Traducir una carta de una oficina", "ku": "Nameya saziyê wergerîne"};
@@ -154,6 +155,7 @@ for (const lg of LANGS) {
     const xt = X[l.id] && X[l.id][lg];
     const faq = (xt && xt.faq ? xt.faq.reduce((a, v, i) => (i % 2 ? a[a.length - 1].push(v) : a.push([v]), a), []) : []).concat(S.faqs.map(([q, a]) => [fmt(q, { o }), a]));
     const relLinks = (REL[l.id] || []).map(r => {
+      if (r === "f:") return ["/frist-rechner.html", S.frist];
       if (r.startsWith("p:")) { const n = helpTitle(lg, r.slice(2)); return n ? [`${P}/${r.slice(2)}.html`, n] : null; }
       const x = items.find(y => y.l.id === r.slice(2)); return x ? [`${P}/vorlage/${x.slug}.html`, T(x.tObj, lg)] : null;
     }).filter(Boolean);

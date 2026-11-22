@@ -1,0 +1,94 @@
+{
+ "title": "Health insurance: family insurance, membership certificate, co-payments – free templates",
+ "desc": "Health insurance in Germany: choosing and changing your fund, family insurance (2026 limit), membership certificate, exemption from co-payments. 13 languages.",
+ "h1": "Health insurance fund (Krankenkasse) in Germany: family insurance, certificates and co-payments",
+ "intro": "Important: anyone who lives in Germany needs health insurance. Spouses and children without their own income can often be insured through you free of charge (Familienversicherung). Apply for this at your health insurance fund and tell your employer immediately which fund you are with.",
+ "nav": "Health insurance",
+ "steps": [
+  [
+   "Who must be insured?",
+   "Employees are compulsorily insured in statutory health insurance, and so are, for example, people receiving unemployment benefit (Arbeitslosengeld) (§ 5 Abs. 1 SGB V). People who have no other cover in case of illness are also required to be insured in many cases (§ 5 Abs. 1 Nr. 13 SGB V). If in doubt, ask a health insurance fund."
+  ],
+  [
+   "Choosing a health insurance fund",
+   "From the age of 15 you choose your health insurance fund yourself. The fund you choose may not refuse you (§ 175 Abs. 1 SGB V). Tell your employer immediately which fund you have chosen. If you do not do this within two weeks, the employer registers you with the fund where you were last insured (§ 175 Abs. 3 SGB V)."
+  ],
+  [
+   "Changing your health insurance fund",
+   "You are bound to your fund for at least 12 months. After that you can switch at the end of the month after next. You simply register with the new fund; it informs the old fund, and you then do not need to cancel yourself (§ 175 Abs. 2 und 4 SGB V)."
+  ],
+  [
+   "Family insurance (Familienversicherung)",
+   "Spouses, registered civil partners and children are insured free of charge if they live in Germany, are not compulsorily insured themselves or self-employed as their main job, and their total income is regularly not more than one seventh of the reference amount (Bezugsgröße) (§ 10 Abs. 1 SGB V). In 2026 this is 565 € a month, with a mini-job up to 603 €. The fund sends you a questionnaire for this. Template below."
+  ],
+  [
+   "Until when are children insured?",
+   "Children are insured up to 18, up to 23 if they are not working, and up to 25 if they go to school, do vocational training, study or do voluntary service (§ 10 Abs. 2 SGB V)."
+  ],
+  [
+   "Membership certificate (Mitgliedsbescheinigung)",
+   "Employers, the Jobcenter, universities or the immigration office (Ausländerbehörde) often ask for proof of your insurance. You get the membership certificate from your fund – often also in the fund's app or online portal. Template below."
+  ],
+  [
+   "Co-payments and exemption",
+   "For medicines, hospital stays and other services, adults pay co-payments (Zuzahlungen) – but at most 2 % of their gross income per year, chronically ill people usually 1 % (§ 62 Abs. 1 SGB V). When the limit is reached, the fund confirms that you pay no more co-payments for the rest of the year. Keep all receipts for this. Template below."
+  ],
+  [
+   "Health card",
+   "Show your electronic health card (Gesundheitskarte) at every visit to the doctor. If it is lost, broken or your name has changed, ask your fund for a new card. Template below."
+  ],
+  [
+   "You do not agree? Objection and help",
+   "You can file a written objection (Widerspruch) against a decision of the health insurance fund within one month (§ 84 SGG). Free, independent advice is available from the Independent Patient Counselling service (Unabhängige Patientenberatung, UPD) and from migration counselling."
+  ]
+ ],
+ "deadlines": [
+  [
+   "Tell your employer about your fund",
+   "immediately – otherwise after 2 weeks registration with your last fund (§ 175 Abs. 3 SGB V)"
+  ],
+  [
+   "Bound to the health insurance fund",
+   "at least 12 months (§ 175 Abs. 4 SGB V)"
+  ],
+  [
+   "Change takes effect",
+   "at the end of the month after next (§ 175 Abs. 4 SGB V)"
+  ],
+  [
+   "Family insurance: income limit 2026",
+   "565 € a month, with mini-job 603 € (§ 10 Abs. 1 SGB V)"
+  ],
+  [
+   "Children insured",
+   "up to 18 / 23 / 25 years (§ 10 Abs. 2 SGB V)"
+  ],
+  [
+   "Co-payments at most",
+   "2 % of gross income per year, chronically ill 1 % (§ 62 SGB V)"
+  ],
+  [
+   "Objection to a decision",
+   "1 month after notification (§ 84 SGG)"
+  ]
+ ],
+ "contactsTitle": "Official offices and free help",
+ "contacts": [
+  [
+   "Independent Patient Counselling (UPD)",
+   "Free, independent advice on health insurance and health",
+   "patientenberatung.de"
+  ],
+  [
+   "Federal Ministry of Health",
+   "Official answers on health insurance",
+   "bundesgesundheitsministerium.de"
+  ],
+  [
+   "Migration counselling (MBE / JMD)",
+   "Free help with letters and applications",
+   "bamf-navi.bamf.de"
+  ]
+ ],
+ "letters": {}
+}

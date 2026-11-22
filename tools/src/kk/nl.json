@@ -1,0 +1,94 @@
+{
+ "title": "Krankenkasse: gezinsverzekering, lidmaatschapsbewijs, eigen bijdragen – gratis sjablonen",
+ "desc": "Zorgverzekering in Duitsland: Krankenkasse kiezen en wisselen, gezinsverzekering (grens 2026), lidmaatschapsbewijs, vrijstelling eigen bijdragen. 13 talen.",
+ "h1": "Zorgverzekering (Krankenkasse) in Duitsland: gezinsverzekering, bewijzen en eigen bijdragen",
+ "intro": "Belangrijk: Wie in Duitsland woont, heeft een zorgverzekering nodig. Echtgenoten en kinderen zonder eigen inkomen kunnen vaak gratis via u meeverzekerd worden (Familienversicherung). Vraag dat aan bij uw Krankenkasse en vertel uw werkgever meteen bij welke Krankenkasse u bent.",
+ "nav": "Krankenkasse",
+ "steps": [
+  [
+   "Wie moet verzekerd zijn?",
+   "Werknemers in loondienst zijn verplicht verzekerd in de wettelijke zorgverzekering, net als bijvoorbeeld mensen met een werkloosheidsuitkering (Arbeitslosengeld) (§ 5 Abs. 1 SGB V). Ook wie geen andere dekking bij ziekte heeft, is in veel gevallen verzekeringsplichtig (§ 5 Abs. 1 Nr. 13 SGB V). Twijfelt u, vraag het dan na bij een Krankenkasse."
+  ],
+  [
+   "Krankenkasse kiezen",
+   "Vanaf 15 jaar kiest u zelf uw Krankenkasse. De gekozen Krankenkasse mag u niet weigeren (§ 175 Abs. 1 SGB V). Vertel uw werkgever meteen welke Krankenkasse u hebt gekozen. Doet u dat niet binnen twee weken, dan meldt hij u aan bij de Krankenkasse waar u het laatst verzekerd was (§ 175 Abs. 3 SGB V)."
+  ],
+  [
+   "Van Krankenkasse wisselen",
+   "U zit minstens 12 maanden vast aan uw Krankenkasse. Daarna kunt u wisselen tegen het einde van de maand na de volgende maand. U meldt zich gewoon aan bij de nieuwe Krankenkasse; die informeert de oude, en zelf opzeggen hoeft dan niet (§ 175 Abs. 2 und 4 SGB V)."
+  ],
+  [
+   "Gezinsverzekering (Familienversicherung)",
+   "Echtgenoten, geregistreerde partners en kinderen zijn gratis meeverzekerd als ze in Duitsland wonen, niet zelf verplicht verzekerd of als hoofdberoep zelfstandig zijn en hun totale inkomen regelmatig niet hoger is dan een zevende van de referentiegrootheid (Bezugsgröße) (§ 10 Abs. 1 SGB V). In 2026 is dat 565 € per maand, met een minijob tot 603 €. De Krankenkasse stuurt u daarvoor een vragenlijst. Sjabloon hieronder."
+  ],
+  [
+   "Tot wanneer zijn kinderen meeverzekerd?",
+   "Kinderen zijn meeverzekerd tot 18 jaar, tot 23 jaar als ze niet werken, en tot 25 jaar als ze naar school gaan, een opleiding volgen, studeren of een vrijwilligersdienst (Freiwilligendienst) doen (§ 10 Abs. 2 SGB V)."
+  ],
+  [
+   "Lidmaatschapsbewijs (Mitgliedsbescheinigung)",
+   "Werkgever, Jobcenter, hogeschool of vreemdelingendienst (Ausländerbehörde) vragen vaak om een bewijs van uw verzekering. Het lidmaatschapsbewijs krijgt u van uw Krankenkasse – vaak ook in de app of op het online portaal van de Krankenkasse. Sjabloon hieronder."
+  ],
+  [
+   "Eigen bijdragen en vrijstelling",
+   "Voor medicijnen, ziekenhuis en andere zorg betalen volwassenen eigen bijdragen (Zuzahlungen) – maar per jaar hoogstens 2 % van hun bruto-inkomsten, chronisch zieken meestal 1 % (§ 62 Abs. 1 SGB V). Is de grens bereikt, dan bevestigt de Krankenkasse dat u de rest van het jaar niets meer bijbetaalt. Bewaar daarvoor alle kwitanties. Sjabloon hieronder."
+  ],
+  [
+   "Gezondheidskaart",
+   "Laat uw elektronische gezondheidskaart (Gesundheitskarte) bij elk doktersbezoek zien. Is de kaart kwijt of kapot, of is uw naam veranderd, vraag dan bij uw Krankenkasse een nieuwe kaart aan. Sjabloon hieronder."
+  ],
+  [
+   "Niet eens? Bezwaar en hulp",
+   "Tegen een besluit van de Krankenkasse kunt u binnen een maand schriftelijk bezwaar (Widerspruch) maken (§ 84 SGG). Gratis, onafhankelijk advies krijgt u bij de Unabhängige Patientenberatung (UPD) en bij migratieadvies."
+  ]
+ ],
+ "deadlines": [
+  [
+   "Werkgever informeren over uw Krankenkasse",
+   "meteen – anders na 2 weken aanmelding bij de laatste Krankenkasse (§ 175 Abs. 3 SGB V)"
+  ],
+  [
+   "Gebonden aan de Krankenkasse",
+   "minstens 12 maanden (§ 175 Abs. 4 SGB V)"
+  ],
+  [
+   "Wissel gaat in",
+   "tegen het einde van de maand na de volgende maand (§ 175 Abs. 4 SGB V)"
+  ],
+  [
+   "Gezinsverzekering: inkomensgrens 2026",
+   "565 € per maand, met minijob 603 € (§ 10 Abs. 1 SGB V)"
+  ],
+  [
+   "Kinderen meeverzekerd",
+   "tot 18 / 23 / 25 jaar (§ 10 Abs. 2 SGB V)"
+  ],
+  [
+   "Eigen bijdragen hoogstens",
+   "2 % van de bruto-inkomsten per jaar, chronisch ziek 1 % (§ 62 SGB V)"
+  ],
+  [
+   "Bezwaar tegen een besluit",
+   "1 maand na bekendmaking (§ 84 SGG)"
+  ]
+ ],
+ "contactsTitle": "Officiële instanties en gratis hulp",
+ "contacts": [
+  [
+   "Unabhängige Patientenberatung (UPD)",
+   "Gratis, onafhankelijk advies over zorgverzekering en gezondheid",
+   "patientenberatung.de"
+  ],
+  [
+   "Bundesgesundheitsministerium (federaal ministerie van Volksgezondheid)",
+   "Officiële antwoorden over de zorgverzekering",
+   "bundesgesundheitsministerium.de"
+  ],
+  [
+   "Migratieadvies (MBE / JMD)",
+   "Gratis hulp bij brieven en aanvragen",
+   "bamf-navi.bamf.de"
+  ]
+ ],
+ "letters": {}
+}

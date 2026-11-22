@@ -1,0 +1,94 @@
+{
+ "title": "Lettre du Jobcenter : décision, audition, convocation – que faire ? Modèles gratuits",
+ "desc": "Décision d'attribution, de modification ou de remboursement, audition, convocation, coopération, renouvellement : ce que veut dire la lettre et quel délai s'applique. 13 langues.",
+ "h1": "Lettre du Jobcenter : que signifie-t-elle et que devez-vous faire ?",
+ "intro": "Important : ouvrez tout de suite le courrier du Jobcenter et regardez la date et le délai. Une lettre envoyée par la poste est considérée comme notifiée le quatrième jour après l'envoi – le délai commence à ce moment-là. Contre une décision (Bescheid), vous avez en général un mois pour faire un recours (Widerspruch).",
+ "nav": "Lettre du Jobcenter",
+ "steps": [
+  [
+   "Décision d'attribution (Bewilligungsbescheid) : combien recevez-vous ?",
+   "La décision indique combien d'argent vous recevez et pour quelle période. En général, elle vaut pour un an ; si la décision est provisoire ou si le loyer et le chauffage sont trop élevés, souvent seulement pour six mois (§ 41 Abs. 3 SGB II). Vérifiez le montant de base, le loyer, le chauffage et les revenus pris en compte. Si quelque chose est faux, faites un recours."
+  ],
+  [
+   "Décision de modification (Änderungsbescheid)",
+   "Si votre revenu, votre loyer ou votre foyer change, le Jobcenter refait le calcul et envoie une décision de modification (Änderungsbescheid). Comparez-la avec l'ancienne décision. Vous pouvez aussi faire un recours contre elle dans un délai d'un mois (§ 84 SGG)."
+  ],
+  [
+   "Décision d'annulation et de remboursement (Aufhebungs- und Erstattungsbescheid)",
+   "Si le Jobcenter a trop payé, il peut annuler l'attribution et demander le remboursement (§ 50 SGB X). Avant, vous recevez en général une lettre d'audition (Anhörung). Un recours n'arrête pas automatiquement l'annulation (§ 39 SGB II). Si vous ne pouvez pas tout payer en une fois, demandez par écrit un paiement échelonné."
+  ],
+  [
+   "Audition (Anhörung) : votre chance de répondre",
+   "Avant de réduire votre argent ou de vous demander un remboursement, le Jobcenter doit vous entendre (§ 24 SGB X). Répondez par écrit dans le délai, expliquez les raisons et joignez des preuves. Vous trouverez un modèle sur la page sur le Grundsicherungsgeld."
+  ],
+  [
+   "Convocation (Meldeaufforderung)",
+   "Vous devez venir aux rendez-vous auxquels le Jobcenter vous convoque (§ 59 SGB II avec § 309 SGB III). Un recours contre la convocation n'a pas d'effet suspensif (§ 39 SGB II). Si vous ne pouvez pas venir, annulez à l'avance et envoyez une preuve. Si vous manquez des rendez-vous à plusieurs reprises sans motif important, l'argent est réduit (§ 32 SGB II)."
+  ],
+  [
+   "Demande d'envoyer des documents (Mitwirkung)",
+   "Si le Jobcenter demande des documents, envoyez-les dans le délai. Si vous ne coopérez pas, la prestation peut être refusée ou retirée en tout ou en partie – mais seulement après un avertissement écrit et un délai raisonnable (§ 66 Abs. 3 SGB I). S'il vous manque une preuve, écrivez pourquoi et à quelle date vous l'enverrez."
+  ],
+  [
+   "Ne pas oublier le renouvellement (Weiterbewilligung)",
+   "Les prestations sont versées seulement sur demande et pas pour la période avant la demande ; la demande prend effet au premier jour du mois (§ 37 SGB II). Faites donc la demande de renouvellement (Weiterbewilligungsantrag) avant la fin de la période d'attribution, par exemple en ligne sur jobcenter.digital."
+  ],
+  [
+   "Voyager seulement avec accord",
+   "Vous devez être joignable pour le Jobcenter. Pour une absence en dehors de votre zone proche, il vous faut d'abord l'accord du Jobcenter ; sans motif important, il est en général donné pour trois semaines par an au maximum (§ 7b SGB II). Demandez par écrit avant chaque voyage."
+  ],
+  [
+   "Pas d'accord ? Recours et aide",
+   "Faites un recours écrit dans un délai d'un mois après la notification (§ 84 SGG) ; vous pouvez envoyer la justification plus tard. Délai dépassé ? Faites une demande de réexamen (Überprüfungsantrag, § 44 SGB X). Une aide gratuite existe auprès des services de conseil social, du conseil aux migrants et avec un bon d'aide au conseil juridique (Beratungshilfeschein) du tribunal cantonal (Amtsgericht)."
+  ]
+ ],
+ "deadlines": [
+  [
+   "Lettre par la poste considérée comme notifiée",
+   "le 4e jour après l'envoi (§ 37 Abs. 2 SGB X)"
+  ],
+  [
+   "Recours contre une décision",
+   "1 mois après la notification (§ 84 SGG)"
+  ],
+  [
+   "Réponse à une audition",
+   "avant le délai indiqué dans la lettre (§ 24 SGB X)"
+  ],
+  [
+   "Envoyer les documents manquants",
+   "avant le délai indiqué dans la lettre – avec avertissement écrit préalable sur les conséquences (§ 66 SGB I)"
+  ],
+  [
+   "Période d'attribution",
+   "en général 12 mois, parfois 6 (§ 41 Abs. 3 SGB II)"
+  ],
+  [
+   "Demande de renouvellement",
+   "avant la fin de la période d'attribution (§ 37 SGB II)"
+  ],
+  [
+   "Absence sans motif important",
+   "seulement avec accord, en général 3 semaines par an au maximum (§ 7b SGB II)"
+  ]
+ ],
+ "contactsTitle": "Services officiels et aide gratuite",
+ "contacts": [
+  [
+   "jobcenter.digital",
+   "Faire des demandes, envoyer des documents, signaler des changements",
+   "arbeitsagentur.de"
+  ],
+  [
+   "Grundsicherungsgeld – Bundesagentur für Arbeit",
+   "Informations officielles sur le passage du Bürgergeld",
+   "arbeitsagentur.de"
+  ],
+  [
+   "Conseil aux migrants (MBE / JMD)",
+   "Aide gratuite pour les lettres et les demandes",
+   "bamf-navi.bamf.de"
+  ]
+ ],
+ "letters": {}
+}

@@ -1,0 +1,94 @@
+{
+ "title": "Krankenkasse: Familienversicherung, Mitgliedsbescheinigung, katkı payları – ücretsiz şablonlar",
+ "desc": "Almanya'da sağlık sigortası: kasa seçmek ve değiştirmek, Familienversicherung (2026 sınırı), Mitgliedsbescheinigung, katkı payı muafiyeti. 13 dilde.",
+ "h1": "Almanya'da Krankenkasse: aile sigortası, belgeler ve katkı payları",
+ "intro": "Önemli: Almanya'da yaşayan herkesin sağlık sigortası olmalıdır. Kendi geliri olmayan eş ve çocuklar çoğu zaman sizin üzerinizden ücretsiz sigortalı olabilir (Familienversicherung). Bunu sağlık sigortası kasanıza (Krankenkasse) başvurarak isteyin ve işvereninize hangi kasada olduğunuzu hemen söyleyin.",
+ "nav": "Krankenkasse",
+ "steps": [
+  [
+   "Kim sigortalı olmak zorunda?",
+   "Çalışan işçiler yasal sağlık sigortasında zorunlu sigortalıdır; örneğin işsizlik parası (Arbeitslosengeld) alanlar da öyle (§ 5 Abs. 1 SGB V). Hastalık durumunda başka bir güvencesi olmayanlar da birçok durumda sigortalı olmak zorundadır (§ 5 Abs. 1 Nr. 13 SGB V). Emin değilseniz bir sağlık sigortası kasasına sorun."
+  ],
+  [
+   "Kasa seçmek",
+   "15 yaşından itibaren sağlık sigortası kasanızı kendiniz seçersiniz. Seçtiğiniz kasa sizi reddedemez (§ 175 Abs. 1 SGB V). İşvereninize hangi kasayı seçtiğinizi hemen söyleyin. Bunu iki hafta içinde yapmazsanız, işveren sizi en son sigortalı olduğunuz kasaya kaydeder (§ 175 Abs. 3 SGB V)."
+  ],
+  [
+   "Kasa değiştirmek",
+   "Kasanıza en az 12 ay bağlısınız. Bundan sonra, bir sonraki ayı izleyen ayın sonunda kasa değiştirebilirsiniz. Sadece yeni kasaya kaydolursunuz; yeni kasa eski kasaya haber verir, ayrıca kendiniz fesih yapmanız gerekmez (§ 175 Abs. 2 und 4 SGB V)."
+  ],
+  [
+   "Aile sigortası (Familienversicherung)",
+   "Eşler, kayıtlı hayat arkadaşları ve çocuklar şu durumda ücretsiz sigortalıdır: Almanya'da yaşıyorlarsa, kendileri zorunlu sigortalı veya ana meslek olarak serbest çalışan değillerse ve toplam gelirleri düzenli olarak referans tutarın (Bezugsgröße) yedide birini geçmiyorsa (§ 10 Abs. 1 SGB V). 2026'da bu ayda 565 €, Minijob ile 603 €'ya kadar. Kasa bunun için size bir soru formu gönderir. Şablon aşağıda."
+  ],
+  [
+   "Çocuklar ne zamana kadar sigortalı?",
+   "Çocuklar 18 yaşına kadar, çalışmıyorlarsa 23 yaşına kadar, okula gidiyor, meslek eğitimi yapıyor, üniversitede okuyor veya gönüllü hizmet yapıyorlarsa 25 yaşına kadar sigortalıdır (§ 10 Abs. 2 SGB V)."
+  ],
+  [
+   "Üyelik belgesi (Mitgliedsbescheinigung)",
+   "İşveren, Jobcenter, üniversite veya yabancılar dairesi (Ausländerbehörde) sigortanız için çoğu zaman belge ister. Mitgliedsbescheinigung'u kasanızdan alırsınız – çoğu zaman kasanın uygulamasında veya online portalında da. Şablon aşağıda."
+  ],
+  [
+   "Katkı payları ve muafiyet",
+   "İlaç, hastane ve başka hizmetler için yetişkinler katkı payı (Zuzahlung) öder – ama yılda en fazla brüt gelirlerinin %2'si, kronik hastalar genellikle %1 (§ 62 Abs. 1 SGB V). Sınıra ulaşıldığında kasa, yılın geri kalanında artık katkı payı ödemediğinizi belgeler. Bunun için tüm makbuzları toplayın. Şablon aşağıda."
+  ],
+  [
+   "Sağlık kartı",
+   "Her doktor ziyaretinde elektronik sağlık kartınızı (Gesundheitskarte) gösterin. Kart kaybolduysa, bozulduysa veya adınız değiştiyse, kasanızdan yeni kart isteyin. Şablon aşağıda."
+  ],
+  [
+   "Katılmıyor musunuz? İtiraz ve yardım",
+   "Kasanın bir kararına karşı bir ay içinde yazılı itiraz (Widerspruch) edebilirsiniz (§ 84 SGG). Ücretsiz ve bağımsız danışmanlık: Bağımsız Hasta Danışmanlığı (Unabhängige Patientenberatung, UPD) ve göçmen danışmanlığı."
+  ]
+ ],
+ "deadlines": [
+  [
+   "İşvereninize kasanızı bildirmek",
+   "hemen – yoksa 2 hafta sonra son kasaya kayıt (§ 175 Abs. 3 SGB V)"
+  ],
+  [
+   "Kasaya bağlılık",
+   "en az 12 ay (§ 175 Abs. 4 SGB V)"
+  ],
+  [
+   "Değişiklik geçerli olur",
+   "bir sonraki ayı izleyen ayın sonunda (§ 175 Abs. 4 SGB V)"
+  ],
+  [
+   "Familienversicherung: 2026 gelir sınırı",
+   "ayda 565 €, Minijob ile 603 € (§ 10 Abs. 1 SGB V)"
+  ],
+  [
+   "Çocuklar sigortalı",
+   "18 / 23 / 25 yaşına kadar (§ 10 Abs. 2 SGB V)"
+  ],
+  [
+   "Katkı payı en fazla",
+   "yılda brüt gelirin %2'si, kronik hastalarda %1 (§ 62 SGB V)"
+  ],
+  [
+   "Karara itiraz",
+   "kararın bildirilmesinden itibaren 1 ay (§ 84 SGG)"
+  ]
+ ],
+ "contactsTitle": "Resmî kurumlar ve ücretsiz yardım",
+ "contacts": [
+  [
+   "Bağımsız Hasta Danışmanlığı (UPD)",
+   "Sağlık sigortası ve sağlık hakkında ücretsiz, bağımsız danışmanlık",
+   "patientenberatung.de"
+  ],
+  [
+   "Federal Sağlık Bakanlığı",
+   "Sağlık sigortası hakkında resmî cevaplar",
+   "bundesgesundheitsministerium.de"
+  ],
+  [
+   "Göçmen danışmanlığı (MBE / JMD)",
+   "Mektup ve başvurularda ücretsiz yardım",
+   "bamf-navi.bamf.de"
+  ]
+ ],
+ "letters": {}
+}

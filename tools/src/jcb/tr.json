@@ -1,0 +1,94 @@
+{
+ "title": "Jobcenter'dan mektup: Bescheid, Anhörung, davet – ne yapmalı? Ücretsiz şablonlar",
+ "desc": "Bewilligungs-, Änderungs- veya Erstattungsbescheid, Anhörung, davet, işbirliği, Weiterbewilligung: mektup ne anlama gelir, hangi süre geçerli? 13 dilde.",
+ "h1": "Jobcenter'dan mektup: Ne anlama gelir ve ne yapmalısınız?",
+ "intro": "Önemli: Jobcenter'dan gelen postayı hemen açın, tarihe ve süreye dikkat edin. Postayla gönderilen bir mektup, gönderildikten sonraki dördüncü gün bildirilmiş sayılır – süre o günden itibaren işler. Bir karara (Bescheid) karşı itiraz (Widerspruch) için genellikle bir ay süreniz vardır.",
+ "nav": "Jobcenter'dan mektup",
+ "steps": [
+  [
+   "Bewilligungsbescheid: Ne kadar alıyorsunuz?",
+   "Karar, hangi dönem için ne kadar para alacağınızı gösterir. Genellikle bir yıl geçerlidir; karar geçiciyse ya da kira ve ısınma giderleri çok yüksekse, çoğu zaman sadece altı ay (§ 41 Abs. 3 SGB II). Temel ihtiyaç tutarını (Regelbedarf), kirayı, ısınmayı ve hesaba katılan geliri kontrol edin. Bir şey yanlışsa itiraz (Widerspruch) edin."
+  ],
+  [
+   "Änderungsbescheid (değişiklik kararı)",
+   "Geliriniz, kiranız veya haneniz değişirse Jobcenter yeniden hesaplar ve bir Änderungsbescheid gönderir. Bunu eski kararla karşılaştırın. Buna karşı da bir ay içinde itiraz edebilirsiniz (§ 84 SGG)."
+  ],
+  [
+   "Aufhebungs- und Erstattungsbescheid (geri ödeme)",
+   "Jobcenter fazla ödeme yaptıysa, onayı kaldırabilir ve parayı geri isteyebilir (§ 50 SGB X). Bundan önce genellikle bir Anhörung (görüş isteme) mektubu alırsınız. İtiraz, kaldırma kararını otomatik olarak durdurmaz (§ 39 SGB II). Tek seferde ödeyemiyorsanız, yazılı olarak taksitle ödeme (Ratenzahlung) isteyin."
+  ],
+  [
+   "Anhörung: Cevap verme fırsatınız",
+   "Jobcenter paranızı kesmeden veya geri istemeden önce sizi dinlemek zorundadır (§ 24 SGB X). Süre içinde yazılı cevap verin, nedenleri açıklayın ve belgeleri ekleyin. Bir şablonu Grundsicherungsgeld sayfasında bulabilirsiniz."
+  ],
+  [
+   "Davet (Meldeaufforderung)",
+   "Jobcenter'ın sizi davet ettiği randevulara gitmek zorundasınız (§ 59 SGB II ile § 309 SGB III). Buna karşı itirazın erteleyici etkisi yoktur (§ 39 SGB II). Gidemiyorsanız önceden haber verin ve belge gönderin. Önemli bir neden olmadan randevuları tekrar tekrar kaçırırsanız, paranız kesilir (§ 32 SGB II)."
+  ],
+  [
+   "Belge gönderme talebi (Mitwirkung)",
+   "Jobcenter belge isterse, süre içinde gönderin. İşbirliği yapmayan kişinin yardımı tamamen veya kısmen reddedilebilir ya da geri alınabilir – ama ancak yazılı bir uyarıdan ve uygun bir süreden sonra (§ 66 Abs. 3 SGB I). Bir belgeniz eksikse, nedenini ve ne zamana kadar göndereceğinizi yazın."
+  ],
+  [
+   "Weiterbewilligung'u unutmayın",
+   "Yardım sadece başvuru ile verilir, başvurudan önceki dönem için verilmez; başvuru ayın birinci gününe kadar geriye etkilidir (§ 37 SGB II). Bu yüzden devam başvurusunu (Weiterbewilligungsantrag) onay döneminin bitiminden önce yapın, örneğin internetten jobcenter.digital üzerinden."
+  ],
+  [
+   "Seyahat sadece izinle",
+   "Jobcenter size ulaşabilmelidir. Yakın çevrenin dışında bulunmak için önceden Jobcenter'ın iznine ihtiyacınız var; önemli bir neden yoksa bu izin genellikle yılda en fazla üç hafta verilir (§ 7b SGB II). Her seyahatten önce yazılı olarak sorun."
+  ],
+  [
+   "Katılmıyor musunuz? İtiraz ve yardım",
+   "Bildirimden sonra bir ay içinde yazılı itiraz edin (§ 84 SGG); gerekçeyi sonra gönderebilirsiniz. Süreyi kaçırdınız mı? Yeniden inceleme başvurusu (Überprüfungsantrag) yapın (§ 44 SGB X). Ücretsiz yardım: sosyal danışma yerleri, göçmen danışmanlığı ve Amtsgericht'ten alınan Beratungshilfeschein (hukuki yardım belgesi)."
+  ]
+ ],
+ "deadlines": [
+  [
+   "Postayla gelen mektup bildirilmiş sayılır",
+   "gönderildikten sonraki 4. gün (§ 37 Abs. 2 SGB X)"
+  ],
+  [
+   "Karara itiraz",
+   "kararın bildirilmesinden itibaren 1 ay (§ 84 SGG)"
+  ],
+  [
+   "Anhörung'a cevap",
+   "mektupta yazan süreye kadar (§ 24 SGB X)"
+  ],
+  [
+   "Eksik belgeleri göndermek",
+   "mektupta yazan süreye kadar – öncesinde sonuçlar hakkında yazılı uyarı (§ 66 SGB I)"
+  ],
+  [
+   "Onay dönemi (Bewilligungszeitraum)",
+   "genellikle 12 ay, bazen 6 (§ 41 Abs. 3 SGB II)"
+  ],
+  [
+   "Devam başvurusu (Weiterbewilligungsantrag)",
+   "onay döneminin bitiminden önce (§ 37 SGB II)"
+  ],
+  [
+   "Önemli neden olmadan uzakta olmak",
+   "sadece izinle, genellikle yılda en fazla 3 hafta (§ 7b SGB II)"
+  ]
+ ],
+ "contactsTitle": "Resmî kurumlar ve ücretsiz yardım",
+ "contacts": [
+  [
+   "jobcenter.digital",
+   "Başvuru yapmak, belge yüklemek, değişiklik bildirmek",
+   "arbeitsagentur.de"
+  ],
+  [
+   "Grundsicherungsgeld – Bundesagentur für Arbeit (Federal İş Ajansı)",
+   "Bürgergeld'den geçiş hakkında resmî bilgi",
+   "arbeitsagentur.de"
+  ],
+  [
+   "Göçmen danışmanlığı (MBE / JMD)",
+   "Mektup ve başvurularda ücretsiz yardım",
+   "bamf-navi.bamf.de"
+  ]
+ ],
+ "letters": {}
+}

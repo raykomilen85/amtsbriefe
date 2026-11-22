@@ -1,0 +1,94 @@
+{
+ "title": "Caisse d'assurance maladie : assurance familiale, attestation d'affiliation, participations – modèles gratuits",
+ "desc": "Assurance maladie en Allemagne : choisir et changer de caisse, assurance familiale (plafond 2026), attestation d'affiliation, dispense de participations. 13 langues.",
+ "h1": "Caisse d'assurance maladie en Allemagne : assurance familiale, attestations et participations",
+ "intro": "Important : toute personne qui vit en Allemagne doit avoir une assurance maladie. Le conjoint et les enfants sans revenu propre peuvent souvent être assurés gratuitement avec vous (Familienversicherung). Faites la demande auprès de votre caisse d'assurance maladie (Krankenkasse) et dites tout de suite à votre employeur à quelle caisse vous êtes affilié.",
+ "nav": "Caisse d'assurance maladie",
+ "steps": [
+  [
+   "Qui doit être assuré ?",
+   "Les salariés sont assurés obligatoirement dans l'assurance maladie légale, de même par exemple que les personnes qui touchent l'Arbeitslosengeld (§ 5 Abs. 1 SGB V). Une personne qui n'a pas d'autre protection en cas de maladie est aussi, dans beaucoup de cas, obligée de s'assurer (§ 5 Abs. 1 Nr. 13 SGB V). En cas de doute, renseignez-vous auprès d'une caisse d'assurance maladie."
+  ],
+  [
+   "Choisir une caisse d'assurance maladie",
+   "À partir de 15 ans, vous choisissez vous-même votre caisse. La caisse choisie ne peut pas vous refuser (§ 175 Abs. 1 SGB V). Dites tout de suite à votre employeur quelle caisse vous avez choisie. Si vous ne le faites pas dans les deux semaines, il vous inscrit auprès de la caisse où vous étiez assuré en dernier (§ 175 Abs. 3 SGB V)."
+  ],
+  [
+   "Changer de caisse d'assurance maladie",
+   "Vous êtes lié à votre caisse pendant au moins 12 mois. Ensuite, vous pouvez changer pour la fin du mois qui suit le mois prochain. Vous vous inscrivez simplement auprès de la nouvelle caisse ; elle informe l'ancienne caisse et vous n'avez alors pas besoin de résilier vous-même (§ 175 Abs. 2 und 4 SGB V)."
+  ],
+  [
+   "Assurance familiale (Familienversicherung)",
+   "Les conjoints, les partenaires enregistrés et les enfants sont assurés gratuitement s'ils vivent en Allemagne, ne sont pas eux-mêmes assurés obligatoirement ni travailleurs indépendants à titre principal, et si leur revenu total ne dépasse pas régulièrement un septième du montant de référence (Bezugsgröße) (§ 10 Abs. 1 SGB V). En 2026, cela fait 565 € par mois, avec un minijob jusqu'à 603 €. La caisse vous envoie pour cela un questionnaire. Modèle ci-dessous."
+  ],
+  [
+   "Jusqu'à quand les enfants sont-ils assurés ?",
+   "Les enfants sont assurés jusqu'à 18 ans, jusqu'à 23 ans s'ils n'exercent pas d'activité professionnelle, et jusqu'à 25 ans s'ils vont à l'école, font une formation professionnelle, font des études ou un service volontaire (§ 10 Abs. 2 SGB V)."
+  ],
+  [
+   "Attestation d'affiliation (Mitgliedsbescheinigung)",
+   "L'employeur, le Jobcenter, l'université ou l'Ausländerbehörde demandent souvent une preuve de votre assurance. Vous recevez l'attestation d'affiliation de votre caisse – souvent aussi dans l'application ou sur le portail en ligne de la caisse. Modèle ci-dessous."
+  ],
+  [
+   "Participations et dispense",
+   "Pour les médicaments, l'hôpital et d'autres prestations, les adultes paient des participations (Zuzahlungen) – mais au maximum 2 % de leurs revenus bruts par an, en général 1 % pour les malades chroniques (§ 62 Abs. 1 SGB V). Quand le plafond est atteint, la caisse atteste que vous ne payez plus rien jusqu'à la fin de l'année. Pour cela, gardez tous les reçus. Modèle ci-dessous."
+  ],
+  [
+   "Carte d'assurance maladie",
+   "Montrez votre carte électronique d'assurance maladie (Gesundheitskarte) à chaque visite chez le médecin. Si elle est perdue, abîmée ou si votre nom a changé, demandez une nouvelle carte à votre caisse. Modèle ci-dessous."
+  ],
+  [
+   "Pas d'accord ? Recours et aide",
+   "Contre une décision de la caisse d'assurance maladie, vous pouvez faire un recours écrit (Widerspruch) dans un délai d'un mois (§ 84 SGG). Un conseil gratuit et indépendant existe auprès de l'Unabhängige Patientenberatung (UPD) et du conseil aux migrants."
+  ]
+ ],
+ "deadlines": [
+  [
+   "Informer l'employeur de votre caisse",
+   "tout de suite – sinon après 2 semaines inscription à la dernière caisse (§ 175 Abs. 3 SGB V)"
+  ],
+  [
+   "Engagement envers la caisse",
+   "au moins 12 mois (§ 175 Abs. 4 SGB V)"
+  ],
+  [
+   "Le changement prend effet",
+   "à la fin du mois qui suit le mois prochain (§ 175 Abs. 4 SGB V)"
+  ],
+  [
+   "Assurance familiale : plafond de revenu 2026",
+   "565 € par mois, avec minijob 603 € (§ 10 Abs. 1 SGB V)"
+  ],
+  [
+   "Enfants assurés",
+   "jusqu'à 18 / 23 / 25 ans (§ 10 Abs. 2 SGB V)"
+  ],
+  [
+   "Participations au maximum",
+   "2 % des revenus bruts par an, malades chroniques 1 % (§ 62 SGB V)"
+  ],
+  [
+   "Recours contre une décision",
+   "1 mois après la notification (§ 84 SGG)"
+  ]
+ ],
+ "contactsTitle": "Services officiels et aide gratuite",
+ "contacts": [
+  [
+   "Conseil indépendant aux patients (UPD)",
+   "Conseil gratuit et indépendant sur la caisse d'assurance maladie et la santé",
+   "patientenberatung.de"
+  ],
+  [
+   "Ministère fédéral de la Santé",
+   "Réponses officielles sur l'assurance maladie",
+   "bundesgesundheitsministerium.de"
+  ],
+  [
+   "Conseil aux migrants (MBE / JMD)",
+   "Aide gratuite pour les lettres et les demandes",
+   "bamf-navi.bamf.de"
+  ]
+ ],
+ "letters": {}
+}

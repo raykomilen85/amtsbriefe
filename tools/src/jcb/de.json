@@ -1,0 +1,34 @@
+{
+ "title": "Brief vom Jobcenter: Bescheid, Anhörung, Einladung – was tun? Kostenlose Vorlagen",
+ "desc": "Bewilligungs-, Änderungs- oder Erstattungsbescheid, Anhörung, Einladung, Mitwirkung, Weiterbewilligung: was der Brief bedeutet, welche Frist gilt. 13 Sprachen.",
+ "h1": "Brief vom Jobcenter: Was bedeutet er und was müssen Sie tun?",
+ "intro": "Wichtig: Öffnen Sie Post vom Jobcenter sofort und achten Sie auf Datum und Frist. Ein Brief per Post gilt am vierten Tag nach dem Absenden als bekanntgegeben – ab dann läuft die Frist. Gegen einen Bescheid haben Sie in der Regel einen Monat Zeit für einen Widerspruch.",
+ "nav": "Brief vom Jobcenter",
+ "steps": [
+  ["Bewilligungsbescheid: Wie viel bekommen Sie?", "Der Bescheid zeigt, wie viel Geld Sie für welchen Zeitraum bekommen. In der Regel gilt er für ein Jahr; ist die Entscheidung vorläufig oder sind Miete und Heizung zu hoch, oft nur für sechs Monate (§ 41 Abs. 3 SGB II). Prüfen Sie Regelbedarf, Miete, Heizung und das angerechnete Einkommen. Stimmt etwas nicht, legen Sie Widerspruch ein."],
+  ["Änderungsbescheid", "Ändern sich Ihr Einkommen, Ihre Miete oder Ihr Haushalt, rechnet das Jobcenter neu und schickt einen Änderungsbescheid. Vergleichen Sie ihn mit dem alten Bescheid. Auch dagegen ist ein Widerspruch innerhalb eines Monats möglich (§ 84 SGG)."],
+  ["Aufhebungs- und Erstattungsbescheid", "Hat das Jobcenter zu viel gezahlt, kann es die Bewilligung aufheben und das Geld zurückfordern (§ 50 SGB X). Vorher bekommen Sie in der Regel eine Anhörung. Ein Widerspruch stoppt die Aufhebung nicht automatisch (§ 39 SGB II). Können Sie nicht auf einmal zahlen, fragen Sie schriftlich nach einer Ratenzahlung."],
+  ["Anhörung: Ihre Chance zu antworten", "Bevor das Jobcenter Ihnen Geld kürzt oder zurückfordert, muss es Sie anhören (§ 24 SGB X). Antworten Sie innerhalb der Frist schriftlich, erklären Sie die Gründe und legen Sie Nachweise bei. Eine Vorlage finden Sie auf der Seite zum Grundsicherungsgeld."],
+  ["Einladung (Meldeaufforderung)", "Sie müssen zu Terminen kommen, zu denen das Jobcenter Sie einlädt (§ 59 SGB II mit § 309 SGB III). Ein Widerspruch dagegen hat keine aufschiebende Wirkung (§ 39 SGB II). Können Sie nicht kommen, sagen Sie vorher ab und schicken Sie einen Nachweis. Versäumen Sie Termine wiederholt ohne wichtigen Grund, wird das Geld gemindert (§ 32 SGB II)."],
+  ["Aufforderung, Unterlagen zu schicken (Mitwirkung)", "Fordert das Jobcenter Unterlagen an, schicken Sie sie innerhalb der Frist. Wer nicht mitwirkt, dem kann die Leistung ganz oder teilweise versagt oder entzogen werden – aber erst nach einem schriftlichen Hinweis und einer angemessenen Frist (§ 66 Abs. 3 SGB I). Fehlt Ihnen ein Nachweis, schreiben Sie, warum, und bis wann Sie ihn nachreichen."],
+  ["Weiterbewilligung nicht vergessen", "Leistungen gibt es nur auf Antrag und nicht für die Zeit vor dem Antrag; der Antrag wirkt auf den Ersten des Monats zurück (§ 37 SGB II). Stellen Sie den Weiterbewilligungsantrag deshalb vor dem Ende des Bewilligungszeitraums, zum Beispiel online über jobcenter.digital."],
+  ["Verreisen nur mit Zustimmung", "Sie müssen für das Jobcenter erreichbar sein. Für eine Abwesenheit außerhalb des näheren Bereichs brauchen Sie vorher die Zustimmung des Jobcenters; ohne wichtigen Grund gibt es sie in der Regel für höchstens drei Wochen im Jahr (§ 7b SGB II). Fragen Sie vor jeder Reise schriftlich an."],
+  ["Nicht einverstanden? Widerspruch und Hilfe", "Legen Sie innerhalb eines Monats nach der Bekanntgabe schriftlich Widerspruch ein (§ 84 SGG); die Begründung können Sie nachreichen. Frist verpasst? Stellen Sie einen Überprüfungsantrag (§ 44 SGB X). Kostenlose Hilfe gibt es bei Sozialberatungen, der Migrationsberatung und mit einem Beratungshilfeschein vom Amtsgericht."]
+ ],
+ "deadlines": [
+  ["Brief per Post gilt als bekanntgegeben", "am 4. Tag nach dem Absenden (§ 37 Abs. 2 SGB X)"],
+  ["Widerspruch gegen einen Bescheid", "1 Monat ab Bekanntgabe (§ 84 SGG)"],
+  ["Antwort auf eine Anhörung", "bis zur Frist im Brief (§ 24 SGB X)"],
+  ["Unterlagen nachreichen", "bis zur Frist im Brief – vorher schriftlicher Hinweis auf die Folgen (§ 66 SGB I)"],
+  ["Bewilligungszeitraum", "in der Regel 12 Monate, manchmal 6 (§ 41 Abs. 3 SGB II)"],
+  ["Weiterbewilligungsantrag", "vor dem Ende des Bewilligungszeitraums (§ 37 SGB II)"],
+  ["Abwesenheit ohne wichtigen Grund", "nur mit Zustimmung, in der Regel höchstens 3 Wochen im Jahr (§ 7b SGB II)"]
+ ],
+ "contactsTitle": "Offizielle Stellen und kostenlose Hilfe",
+ "contacts": [
+  ["jobcenter.digital", "Anträge stellen, Unterlagen hochladen, Änderungen melden", "arbeitsagentur.de"],
+  ["Grundsicherungsgeld – Bundesagentur für Arbeit", "Offizielle Informationen zur Umstellung vom Bürgergeld", "arbeitsagentur.de"],
+  ["Migrationsberatung (MBE / JMD)", "Kostenlose Hilfe bei Briefen und Anträgen", "bamf-navi.bamf.de"]
+ ],
+ "letters": {}
+}

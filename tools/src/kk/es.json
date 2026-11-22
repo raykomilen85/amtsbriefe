@@ -1,0 +1,94 @@
+{
+ "title": "Seguro médico (Krankenkasse): seguro familiar, certificado de afiliación, copagos – plantillas gratis",
+ "desc": "Seguro médico en Alemania: elegir y cambiar de caja, seguro familiar (límite 2026), certificado de afiliación, exención de copagos. 13 idiomas.",
+ "h1": "Seguro médico en Alemania: seguro familiar, certificados y copagos",
+ "intro": "Importante: quien vive en Alemania necesita un seguro médico. Los cónyuges y los hijos sin ingresos propios a menudo pueden estar asegurados gratis a través de ti (Familienversicherung). Solicítalo en tu caja de seguro médico (Krankenkasse) y di enseguida a tu empleador en qué caja estás.",
+ "nav": "Seguro médico",
+ "steps": [
+  [
+   "¿Quién tiene que estar asegurado?",
+   "Los trabajadores por cuenta ajena tienen seguro obligatorio en el seguro médico público, igual que, por ejemplo, las personas que cobran prestación por desempleo (Arbeitslosengeld) (§ 5 Abs. 1 SGB V). También quien no tiene otra cobertura en caso de enfermedad está obligado a asegurarse en muchos casos (§ 5 Abs. 1 Nr. 13 SGB V). Si tienes dudas, pregunta en una caja de seguro médico."
+  ],
+  [
+   "Elegir la caja de seguro médico",
+   "A partir de los 15 años eliges tú mismo tu caja. La caja elegida no puede rechazarte (§ 175 Abs. 1 SGB V). Di enseguida a tu empleador qué caja has elegido. Si no lo haces en dos semanas, él te inscribe en la caja en la que estuviste asegurado por última vez (§ 175 Abs. 3 SGB V)."
+  ],
+  [
+   "Cambiar de caja",
+   "Estás vinculado a tu caja como mínimo 12 meses. Después puedes cambiar con efecto al final del mes siguiente al próximo. Simplemente te inscribes en la nueva caja; esta informa a la antigua y entonces no necesitas cancelar tú mismo el seguro anterior (§ 175 Abs. 2 und 4 SGB V)."
+  ],
+  [
+   "Seguro familiar (Familienversicherung)",
+   "Los cónyuges, las parejas de hecho registradas y los hijos están asegurados gratis si viven en Alemania, no tienen ellos mismos seguro obligatorio ni son autónomos como actividad principal y sus ingresos totales no superan de forma regular una séptima parte de la magnitud de referencia (Bezugsgröße) (§ 10 Abs. 1 SGB V). En 2026 son 565 € al mes, con un minijob hasta 603 €. La caja te envía para ello un cuestionario. Plantilla abajo."
+  ],
+  [
+   "¿Hasta cuándo están asegurados los hijos?",
+   "Los hijos están asegurados hasta los 18 años, hasta los 23 si no trabajan, y hasta los 25 si van a la escuela, hacen una formación profesional, estudian o hacen un servicio de voluntariado (Freiwilligendienst) (§ 10 Abs. 2 SGB V)."
+  ],
+  [
+   "Certificado de afiliación (Mitgliedsbescheinigung)",
+   "El empleador, el Jobcenter, la universidad o la oficina de extranjería (Ausländerbehörde) piden a menudo un justificante de tu seguro. El certificado de afiliación te lo da tu caja, a menudo también en la app o en el portal en línea de la caja. Plantilla abajo."
+  ],
+  [
+   "Copagos y exención",
+   "Por medicamentos, hospital y otras prestaciones, los adultos pagan copagos (Zuzahlungen), pero como máximo el 2 % de sus ingresos brutos al año; las personas con enfermedades crónicas, normalmente el 1 % (§ 62 Abs. 1 SGB V). Cuando se alcanza el límite, la caja certifica que no pagas más copagos el resto del año. Para ello guarda todos los recibos. Plantilla abajo."
+  ],
+  [
+   "Tarjeta sanitaria",
+   "Muestra tu tarjeta sanitaria electrónica (Gesundheitskarte) en cada visita al médico. Si la pierdes, está rota o tu nombre ha cambiado, pide una tarjeta nueva a tu caja. Plantilla abajo."
+  ],
+  [
+   "¿No estás de acuerdo? Recurso y ayuda",
+   "Contra una resolución de la caja puedes presentar un recurso (Widerspruch) por escrito en el plazo de un mes (§ 84 SGG). Hay asesoramiento gratuito e independiente en la Unabhängige Patientenberatung (UPD) y en la asesoría para migrantes."
+  ]
+ ],
+ "deadlines": [
+  [
+   "Informar al empleador sobre tu caja",
+   "enseguida; si no, tras 2 semanas inscripción en la última caja (§ 175 Abs. 3 SGB V)"
+  ],
+  [
+   "Vinculación a la caja",
+   "mínimo 12 meses (§ 175 Abs. 4 SGB V)"
+  ],
+  [
+   "El cambio tiene efecto",
+   "al final del mes siguiente al próximo (§ 175 Abs. 4 SGB V)"
+  ],
+  [
+   "Seguro familiar: límite de ingresos 2026",
+   "565 € al mes, con minijob 603 € (§ 10 Abs. 1 SGB V)"
+  ],
+  [
+   "Hijos asegurados",
+   "hasta 18 / 23 / 25 años (§ 10 Abs. 2 SGB V)"
+  ],
+  [
+   "Copagos como máximo",
+   "2 % de los ingresos brutos al año, enfermedad crónica 1 % (§ 62 SGB V)"
+  ],
+  [
+   "Recurso contra una resolución",
+   "1 mes desde la notificación (§ 84 SGG)"
+  ]
+ ],
+ "contactsTitle": "Oficinas oficiales y ayuda gratuita",
+ "contacts": [
+  [
+   "Unabhängige Patientenberatung (UPD)",
+   "Asesoramiento gratuito e independiente sobre seguro médico y salud",
+   "patientenberatung.de"
+  ],
+  [
+   "Ministerio Federal de Sanidad (Bundesgesundheitsministerium)",
+   "Respuestas oficiales sobre el seguro médico",
+   "bundesgesundheitsministerium.de"
+  ],
+  [
+   "Asesoría para migrantes (MBE / JMD)",
+   "Ayuda gratuita con cartas y solicitudes",
+   "bamf-navi.bamf.de"
+  ]
+ ],
+ "letters": {}
+}

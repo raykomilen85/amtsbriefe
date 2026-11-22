@@ -40,7 +40,13 @@ const GSG_URLS = ["https://www.arbeitsagentur.de/grundsicherung-loest-buergergel
 // "Deutschland verlassen" page (/wegzug-ausland.html). Facts checked 19.11.2026 on gesetze-im-internet.de: BMG §§ 17 Abs. 2, 24 Abs. 2, 54;
 // AufenthG § 51 Abs. 1 Nr. 6, 7, Abs. 4, 9; EStG § 68 Abs. 1; SGB I § 60; BGB §§ 568, 573c; rundfunkbeitrag.de (Online-Abmeldung, Grund „ins Ausland verzogen“, Beitragsnummer nötig).
 const WEGZUG_URLS = ["https://www.rundfunkbeitrag.de/buergerinnen-und-buerger/formulare/abmelden", "https://www.arbeitsagentur.de/familie-und-kinder", "https://www.deutsche-rentenversicherung.de/", "https://www.115.de/"];
-for (const [dir, key, urls] of [["familie", "familie", FAM_URLS], ["auto", "auto", AUTO_URLS], ["integ", "integ", INTEG_URLS], ["gsg", "gsg", GSG_URLS], ["wegzug", "wegzug", WEGZUG_URLS]]) for (const l of Object.keys(C)) {
+// "Brief vom Jobcenter" page (/jobcenter-briefe.html). Facts checked 22.11.2026 on gesetze-im-internet.de: SGB X §§ 24, 37 Abs. 2 (4. Tag), 44, 50;
+// SGB II §§ 7b (Erreichbarkeit, Zustimmung, i. d. R. max. 3 Wochen), 32, 37 (Antrag wirkt auf den Monatsersten zurück), 39, 41 Abs. 3 (1 Jahr / 6 Monate), 59 mit § 309 SGB III; SGB I § 66 Abs. 3; SGG § 84.
+const JCB_URLS = ["https://www.arbeitsagentur.de/grundsicherung", "https://www.arbeitsagentur.de/grundsicherung-loest-buergergeld-ab", "https://bamf-navi.bamf.de/de/Themen/Migrationsberatung/"];
+// "Krankenkasse" page (/krankenkasse.html). Facts checked 22.11.2026 on gesetze-im-internet.de: SGB V §§ 5 Abs. 1 Nr. 1, 2, 13; 10 Abs. 1, 2; 62 Abs. 1; 175 Abs. 1–4;
+// SVBezGrV 2026 § 1 (Bezugsgröße 3 955 €/Monat → 1/7 = 565 €); SGB IV § 8 Abs. 1a (Geringfügigkeitsgrenze = Mindestlohn 13,90 € × 130 / 3, aufgerundet = 603 €); SGG § 84.
+const KK_URLS = ["https://patientenberatung.de/", "https://www.bundesgesundheitsministerium.de/themen/krankenversicherung", "https://bamf-navi.bamf.de/de/Themen/Migrationsberatung/"];
+for (const [dir, key, urls] of [["familie", "familie", FAM_URLS], ["auto", "auto", AUTO_URLS], ["integ", "integ", INTEG_URLS], ["gsg", "gsg", GSG_URLS], ["wegzug", "wegzug", WEGZUG_URLS], ["jcb", "jcb", JCB_URLS], ["kk", "kk", KK_URLS]]) for (const l of Object.keys(C)) {
   const f = JSON.parse(fs.readFileSync(path.join(__dirname, "src", dir, l + ".json"), "utf8"));
   f.contacts = f.contacts.map((c, i) => [c[0], c[1], c[2], urls[i]]);
   C[l][key] = f;
@@ -52,11 +58,11 @@ const SITE = "https://amtsbriefe.de";
 // Rechtsstand je Seite. 16.11.2026: Normen der Seiten aufenthalt, abschiebung, sozial (AufenthG §§ 11, 23a, 59, 60a, 81, 84;
 // VwGO §§ 58, 75, 81; AsylG § 74; BerHG § 1; WoGG §§ 7, 25; BKGG § 6a; BEEG §§ 7, 13; UVG § 4; SGB XII § 44; SGG § 88)
 // auf gesetze-im-internet.de geprüft: Aussagen weiterhin zutreffend. Übrige Seiten zuletzt geprüft am 12.11.2026.
-const STAND_BY = { wegzug: "19.11.2026", gsg: "19.11.2026", aufenthalt: "16.11.2026", abschiebung: "16.11.2026", sozial: "16.11.2026", integ: "19.11.2026" };
+const STAND_BY = { jcb: "22.11.2026", kk: "22.11.2026", wegzug: "19.11.2026", gsg: "19.11.2026", aufenthalt: "16.11.2026", abschiebung: "16.11.2026", sozial: "16.11.2026", integ: "22.11.2026" };
 const STAND = "12.11.2026";
 const LANGS = [["de","Deutsch"],["tr","Türkçe"],["bg","Български"],["ar","العربية"],["uk","Українська"],["pl","Polski"],["en","English"],["el","Ελληνικά"],["fr","Français"],["nl","Nederlands"],["ro","Română"],["es","Español"],["ku","Kurdî"]];
 const STEP = { de: "Schritt für Schritt", tr: "Adım adım", bg: "Стъпка по стъпка", ar: "خطوة بخطوة", uk: "Крок за кроком", pl: "Krok po kroku", en: "Step by step", el: "Βήμα προς βήμα", fr: "Étape par étape", nl: "Stap voor stap", ro: "Pas cu pas", es: "Paso a paso", ku: "Gav bi gav" };
-const PAGES = { aufenthalt: "aufenthalt-laeuft-ab", abschiebung: "abschiebung-hilfe", sozial: "sozialleistungen-antrag", alltag: "alltag-briefvorlagen", familie: "familie-schule", auto: "auto-gewerbe-gesundheit", stelle: "zustaendige-stelle", integ: "integrationskurs", gsg: "grundsicherungsgeld", wegzug: "wegzug-ausland" };
+const PAGES = { aufenthalt: "aufenthalt-laeuft-ab", abschiebung: "abschiebung-hilfe", sozial: "sozialleistungen-antrag", alltag: "alltag-briefvorlagen", familie: "familie-schule", auto: "auto-gewerbe-gesundheit", stelle: "zustaendige-stelle", integ: "integrationskurs", gsg: "grundsicherungsgeld", wegzug: "wegzug-ausland", jcb: "jobcenter-briefe", kk: "krankenkasse" };
 // "Zuständige Stelle finden" (tools/stelle.js) has its own template; here only its h1 is needed for the cross links.
 for (const l of Object.keys(C)) C[l].stelle = { h1: JSON.parse(fs.readFileSync(path.join(__dirname, "src", "stelle", l + ".json"), "utf8")).h1 };
 const SRC_SOZ = [["§ 25 WoGG","wogg/__25.html"],["§ 7 WoGG","wogg/__7.html"],["§ 6a BKGG","bkgg_1996/__6a.html"],["§ 7 BEEG","beeg/__7.html"],["§ 13 BEEG","beeg/__13.html"],["§ 4 UVG","uhvorschg/__4.html"],["§ 44 SGB XII","sgb_12/__44.html"],["§ 88 SGG","sgg/__88.html"],["§ 75 VwGO","vwgo/__75.html"]];
@@ -69,6 +75,8 @@ const SOURCES = {
   gsg: [["§ 31 SGB II", "sgb_2/__31.html"], ["§ 31a SGB II", "sgb_2/__31a.html"], ["§ 31b SGB II", "sgb_2/__31b.html"], ["§ 32 SGB II", "sgb_2/__32.html"], ["§ 24 SGB X", "sgb_10/__24.html"], ["§ 44 SGB X", "sgb_10/__44.html"], ["§ 84 SGG", "sgg/__84.html"]],
   integ: [["§ 44 AufenthG","aufenthg_2004/__44.html"],["§ 5 IntV","intv/__5.html"],["§ 9 IntV","intv/__9.html"],["§ 4a IntV","intv/__4a.html"],["§ 10 IntV","intv/__10.html"],["§ 14 IntV","intv/__14.html"],["§ 17 IntV","intv/__17.html"],["§ 70 VwGO","vwgo/__70.html"]],
   wegzug: [["§ 17 BMG","bmg/__17.html"],["§ 24 BMG","bmg/__24.html"],["§ 54 BMG","bmg/__54.html"],["§ 51 AufenthG","aufenthg_2004/__51.html"],["§ 68 EStG","estg/__68.html"],["§ 60 SGB I","sgb_1/__60.html"],["§ 568 BGB","bgb/__568.html"],["§ 573c BGB","bgb/__573c.html"]],
+  jcb: [["§ 37 SGB X","sgb_10/__37.html"],["§ 24 SGB X","sgb_10/__24.html"],["§ 50 SGB X","sgb_10/__50.html"],["§ 44 SGB X","sgb_10/__44.html"],["§ 37 SGB II","sgb_2/__37.html"],["§ 39 SGB II","sgb_2/__39.html"],["§ 41 SGB II","sgb_2/__41.html"],["§ 59 SGB II","sgb_2/__59.html"],["§ 7b SGB II","sgb_2/__7b.html"],["§ 32 SGB II","sgb_2/__32.html"],["§ 66 SGB I","sgb_1/__66.html"],["§ 84 SGG","sgg/__84.html"]],
+  kk: [["§ 5 SGB V","sgb_5/__5.html"],["§ 10 SGB V","sgb_5/__10.html"],["§ 175 SGB V","sgb_5/__175.html"],["§ 62 SGB V","sgb_5/__62.html"],["§ 1 SVBezGrV 2026","svbezgrv_2026/__1.html"],["§ 8 SGB IV","sgb_4/__8.html"],["§ 84 SGG","sgg/__84.html"]],
   abschiebung: [["§ 59 AufenthG","aufenthg_2004/__59.html"],["§ 60a AufenthG","aufenthg_2004/__60a.html"],["§ 23a AufenthG","aufenthg_2004/__23a.html"],["§ 11 AufenthG","aufenthg_2004/__11.html"],["§ 84 AufenthG","aufenthg_2004/__84.html"],["§ 74 AsylG","asylvfg_1992/__74.html"],["§ 1 BerHG","berathig/__1.html"]],
 };
 const HELP = [
@@ -79,7 +87,7 @@ const HELP = [
 
 // Passende Briefvorlagen je Hilfeseite (interne Links auf /vorlage/<slug>.html; Titel aus der App in index.html, wie tools/vorlagen.js)
 const REL_TPL = { aufenthalt: ["b1", "b3", "b2", "b4"], abschiebung: ["b3", "b4"], sozial: ["j1", "j6", "j7", "j3", "j2", "k6"],
-  alltag: ["fa3", "fa4", "k6", "r1", "r5"], familie: ["k1", "r1", "bf1"], auto: ["fs1", "fs2", "fa3"], integ: ["bm1", "bm2", "bm3", "bm4"], gsg: ["j1", "j4", "j6", "j7", "j3"], wegzug: ["r4", "j2", "k3"] };
+  alltag: ["fa3", "fa4", "k6", "r1", "r5"], familie: ["k1", "r1", "bf1"], auto: ["fs1", "fs2", "fa3"], integ: ["bm1", "bm2", "bm3", "bm4"], gsg: ["j1", "j4", "j6", "j7", "j3"], wegzug: ["r4", "j2", "k3"], jcb: ["j1", "j2", "j3", "j6", "j7", "j4", "j5"], kk: ["k1", "k3", "k4", "k2", "k6", "k5"] };
 const REL_H = { de: "Passende Briefvorlagen", tr: "İlgili mektup şablonları", bg: "Подходящи шаблони за писма", ar: "نماذج رسائل مناسبة",
   uk: "Відповідні шаблони листів", pl: "Pasujące wzory pism", en: "Matching letter templates", el: "Σχετικά πρότυπα επιστολών",
   fr: "Modèles de lettres adaptés", nl: "Passende briefsjablonen", ro: "Modele de scrisori potrivite", es: "Plantillas de cartas relacionadas", ku: "Şablonên nameyan ên têkildar" };
@@ -192,10 +200,10 @@ ${alts}
 <ol class="steps">${p.steps.map(([h, x]) => `<li><h3>${esc(h)}</h3><p>${esc(x)}</p></li>`).join("")}</ol>
 ${p.contacts ? `<h2>${esc(p.contactsTitle)}</h2>
 <table class="ct">${p.contacts.map(([n, w, c, h]) => `<tr><td><a href="${h}" rel="noopener" target="_blank">${esc(n)} ↗</a><br><small>${esc(w)}</small></td><td>${esc(c)}</td></tr>`).join("")}</table>` : ""}
-<h2>${esc(u.letters)}</h2>
+${letters ? `<h2>${esc(u.letters)}</h2>
 <p class="note">${esc(u.lettersNote)}</p>
-${letters}
-${relTpl(lang, key)}${key === "sozial" || key === "alltag" || key === "familie" || key === "auto" || key === "integ" || key === "gsg" || key === "wegzug" ? "" : `<h2>${esc(u.help)}</h2>
+${letters}` : ""}
+${relTpl(lang, key)}${key === "sozial" || key === "alltag" || key === "familie" || key === "auto" || key === "integ" || key === "gsg" || key === "wegzug" || key === "jcb" || key === "kk" ? "" : `<h2>${esc(u.help)}</h2>
 <ul class="help">${HELP.map(([n, h]) => `<li><a href="${h}" rel="noopener" target="_blank">${esc(n)} ↗</a></li>`).join("")}</ul>`}
 <p class="other"><strong>${esc(u.other)}:</strong> ${others.map(o => `<a href="${rel(lang, lang, o)}">${esc(t[o].h1)}</a>`).join(" · ")} · <a href="${root(lang)}">${esc(u.home)}</a></p>
 <p class="src"><strong>${esc(u.sources)}:</strong> ${SOURCES[key].map(([n, h]) => `<a href="https://www.gesetze-im-internet.de/${h}" rel="noopener" target="_blank">${n}</a>`).join("")}<br>${esc(u.stand)}: ${STAND_BY[key] || STAND}</p>

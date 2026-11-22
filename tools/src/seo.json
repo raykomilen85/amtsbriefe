@@ -1,6 +1,8 @@
 {
   "_comment": "Kurze Suchmaschinen-Titel (max. 60 Zeichen) und Beschreibungen (max. 155 Zeichen). Überschreibt p.title / p.desc nur im <title> und meta description. Stand 07.11.2026.",
   "de": {
+    "jcb": ["Brief vom Jobcenter – was tun? Bescheid, Anhörung, Termin", "Bewilligungs-, Änderungs- oder Erstattungsbescheid, Anhörung, Einladung, Unterlagen, Weiterbewilligung: Fristen und Vorlagen, in 13 Sprachen erklärt."],
+    "kk": ["Krankenkasse: Familienversicherung, Bescheinigung, Wechsel", "Krankenkasse wählen und wechseln, Familienversicherung (Grenze 2026: 565 €), Mitgliedsbescheinigung, Zuzahlungsbefreiung. Vorlagen, 13 Sprachen."],
     "wegzug": ["Deutschland verlassen: Abmeldung & Checkliste", "Wegzug ins Ausland: Abmeldung beim Bürgeramt, Aufenthaltstitel, Rundfunkbeitrag, Krankenkasse, Familienkasse. Fristen und Briefvorlagen, 13 Sprachen."],
     "aufenthalt": ["Aufenthaltserlaubnis läuft ab – was tun? | Amtsbriefe", "Visum oder Aufenthaltstitel läuft ab? Rechtzeitig verlängern, Fiktionsbescheinigung, Widerspruch. Kostenlose Briefvorlagen, in 13 Sprachen."],
     "abschiebung": ["Abschiebung droht – was tun? Fristen & Hilfe | Amtsbriefe", "Ausreiseaufforderung bekommen? Fristen, sofortige Schritte, Duldung, Härtefallkommission. Kostenlose Briefvorlagen und Hilfe in 13 Sprachen."],
@@ -12,6 +14,8 @@
     "auto": ["Führerschein, Auto, Gewerbe anmelden | Amtsbriefe", "Führerschein umschreiben, Auto zulassen, Gewerbe anmelden, Schwerbehindertenausweis, Pflegegrad: Fristen und kostenlose Briefvorlagen, 13 Sprachen."]
   },
   "en": {
+    "jcb": ["Letter from the Jobcenter – what to do? Decision, hearing", "Bewilligungs-, Änderungs- or Erstattungsbescheid, hearing, invitation, documents, continued payment: deadlines and templates in 13 languages."],
+    "kk": ["Health insurance: family insurance, certificate, switching", "Choose and change your health insurance fund, family insurance (2026 limit: 565 €), membership certificate, co-payment exemption. Templates, 13 languages."],
     "wegzug": ["Leaving Germany: deregistration (Abmeldung) checklist", "Moving abroad: deregister at the Bürgeramt, residence permit, broadcasting fee, health insurance, Familienkasse. Deadlines and templates, 13 languages."],
     "aufenthalt": ["German residence permit expiring – what to do?", "Your residence permit or visa in Germany is expiring? Extend in time, Fiktionsbescheinigung, objection. Free letter templates in 13 languages."],
     "abschiebung": ["Facing deportation in Germany – what to do?", "Got a departure order in Germany? Deadlines, urgent steps, Duldung, hardship commission. Free letter templates and help in 13 languages."],
@@ -23,6 +27,8 @@
     "auto": ["Driving licence, car, business in Germany | Amtsbriefe", "Convert a driving licence, register a car or business, disability ID card, care level: deadlines and free letter templates, in 13 languages."]
   },
   "tr": {
+    "jcb": ["Jobcenter'dan mektup – ne yapmalı? Bescheid, Anhörung, davet", "Bewilligungs-, Änderungs- veya Erstattungsbescheid, Anhörung, davet, belgeler, Weiterbewilligung: süreler ve şablonlar, 13 dilde açıklandı."],
+    "kk": ["Krankenkasse: aile sigortası, belge, kasa değiştirme", "Kasa seçmek ve değiştirmek, Familienversicherung (2026 sınırı: 565 €), Mitgliedsbescheinigung, katkı payı muafiyeti. Şablonlar, 13 dilde."],
     "wegzug": ["Almanya'dan ayrılmak: Abmeldung ve kontrol listesi", "Yurt dışına taşınma: Bürgeramt'ta kayıt silme, oturum izni, Rundfunkbeitrag, sağlık sigortası, Familienkasse. Süreler ve mektup şablonları, 13 dilde."],
     "aufenthalt": ["Oturum izni bitiyor – ne yapmalı? | Amtsbriefe", "Almanya'da oturum izni veya vize mi bitiyor? Zamanında uzatma, Fiktionsbescheinigung, itiraz. Ücretsiz mektup şablonları, 13 dilde."],
     "abschiebung": ["Sınır dışı (Abschiebung) tehlikesi – ne yapmalı?", "Ausreiseaufforderung mı geldi? Süreler, hemen atılacak adımlar, Duldung, Härtefall. Ücretsiz mektup şablonları ve yardım, 13 dilde."],
@@ -34,6 +40,8 @@
     "auto": ["Ehliyet, araç ve Gewerbe kaydı | Amtsbriefe", "Ehliyet değiştirme, araç kaydı, Gewerbe kaydı, ağır engelli kimliği, bakım derecesi: süreler ve ücretsiz mektup şablonları, 13 dilde."]
   },
   "bg": {
+    "jcb": ["Писмо от Jobcenter – какво да правя? Решение, изслушване", "Bewilligungs-, Änderungs- или Erstattungsbescheid, изслушване, покана, документи, продължаване: срокове и шаблони на 13 езика."],
+    "kk": ["Здравна каса: семейна осигуровка, удостоверение, смяна", "Избор и смяна на каса, семейна осигуровка (граница 2026: 565 €), удостоверение за членство, освобождаване от доплащания. Шаблони, 13 езика."],
     "wegzug": ["Напускане на Германия: отписване и списък", "Преместване в чужбина: отписване в Bürgeramt, разрешение за пребиваване, Rundfunkbeitrag, здравна каса, Familienkasse. Срокове и шаблони, 13 езика."],
     "aufenthalt": ["Разрешението за пребиваване изтича – какво да правя?", "Визата или разрешението за пребиваване в Германия изтича? Удължаване навреме, Fiktionsbescheinigung, възражение. Безплатни образци."],
     "abschiebung": ["Заплаха от депортиране – какво да правя? | Amtsbriefe", "Получихте Ausreiseaufforderung? Срокове, спешни стъпки, Duldung, комисия за тежки случаи. Безплатни образци на писма и помощ."],
@@ -45,6 +53,8 @@
     "auto": ["Шофьорска книжка, кола, Gewerbe в Германия | Amtsbriefe", "Подмяна на шофьорска книжка, регистрация на кола и занаят, карта за увреждане, степен на грижи: срокове и безплатни образци на писма."]
   },
   "ar": {
+    "jcb": ["رسالة من مركز العمل – ماذا أفعل؟ قرار، استماع، موعد", "قرار المنح أو التعديل أو الاسترداد، الاستماع، الدعوة، المستندات، تمديد المنح: المهل والنماذج، مشروحة بـ13 لغة."],
+    "kk": ["صندوق التأمين الصحي: التأمين العائلي، الشهادة، التغيير", "اختيار صندوق التأمين الصحي وتغييره، التأمين العائلي (حد 2026: 565 €)، شهادة العضوية، الإعفاء من المساهمات. نماذج، بـ13 لغة."],
     "wegzug": ["مغادرة ألمانيا: إلغاء تسجيل السكن وقائمة المهام", "الانتقال إلى الخارج: Abmeldung في Bürgeramt، الإقامة، رسوم البث، التأمين الصحي، Familienkasse. المواعيد ونماذج الرسائل بـ13 لغة."],
     "aufenthalt": ["تنتهي الإقامة أو التأشيرة في ألمانيا – ماذا أفعل؟", "إقامتك أو تأشيرتك في ألمانيا تنتهي؟ التمديد في الوقت المناسب، Fiktionsbescheinigung، الاعتراض. نماذج رسائل مجانية بـ 13 لغة."],
     "abschiebung": ["خطر الترحيل في ألمانيا – ماذا أفعل؟ | Amtsbriefe", "وصلك أمر مغادرة؟ المهل، الخطوات العاجلة، Duldung، لجنة الحالات الصعبة. نماذج رسائل مجانية ومساعدة بـ 13 لغة."],
@@ -56,6 +66,8 @@
     "auto": ["رخصة القيادة، السيارة، Gewerbe في ألمانيا", "تبديل رخصة القيادة، تسجيل السيارة والنشاط التجاري، بطاقة الإعاقة، درجة الرعاية: المهل ونماذج رسائل مجانية بـ 13 لغة."]
   },
   "uk": {
+    "jcb": ["Лист від Jobcenter – що робити? Рішення, слухання, прийом", "Рішення про призначення, зміну чи повернення, слухання, запрошення, документи, продовження: строки й шаблони, пояснено 13 мовами."],
+    "kk": ["Лікарняна каса: сімейне страхування, довідка, зміна каси", "Вибір і зміна каси, сімейне страхування (межа 2026: 565 €), довідка про членство, звільнення від доплат. Шаблони, 13 мов."],
     "wegzug": ["Виїзд з Німеччини: зняття з реєстрації (Abmeldung)", "Переїзд за кордон: Abmeldung у Bürgeramt, посвідка, Rundfunkbeitrag, лікарняна каса, Familienkasse. Строки і шаблони листів, 13 мовами."],
     "aufenthalt": ["Закінчується дозвіл на проживання – що робити?", "Дозвіл на проживання чи віза в Німеччині закінчується? Продовження вчасно, Fiktionsbescheinigung, заперечення. Безкоштовні шаблони."],
     "abschiebung": ["Загроза депортації в Німеччині – що робити?", "Отримали Ausreiseaufforderung? Строки, термінові кроки, Duldung, комісія з особливих випадків. Безкоштовні шаблони листів і допомога."],
@@ -67,6 +79,8 @@
     "auto": ["Посвідчення водія, авто, Gewerbe | Amtsbriefe", "Обмін посвідчення водія, реєстрація авто й діяльності, посвідчення інвалідності, ступінь догляду: строки та безкоштовні шаблони листів."]
   },
   "pl": {
+    "jcb": ["Pismo z Jobcenter – co robić? Decyzja, wysłuchanie, termin", "Decyzja o przyznaniu, zmianie lub zwrocie, wysłuchanie, zaproszenie, dokumenty, dalsze przyznanie: terminy i wzory, wyjaśnione w 13 językach."],
+    "kk": ["Kasa chorych: ubezpieczenie rodzinne, zaświadczenie, zmiana", "Wybór i zmiana kasy, ubezpieczenie rodzinne (limit 2026: 565 €), zaświadczenie o członkostwie, zwolnienie z dopłat. Wzory, 13 języków."],
     "wegzug": ["Wyjazd z Niemiec: wymeldowanie (Abmeldung) i lista", "Przeprowadzka za granicę: wymeldowanie w Bürgeramt, dokument pobytowy, Rundfunkbeitrag, kasa chorych, Familienkasse. Terminy i wzory pism, 13 języków."],
     "aufenthalt": ["Kończy się pobyt lub wiza w Niemczech – co robić?", "Kończy się zezwolenie na pobyt lub wiza w Niemczech? Przedłużenie na czas, Fiktionsbescheinigung, sprzeciw. Darmowe wzory pism, 13 języków."],
     "abschiebung": ["Grozi deportacja z Niemiec – co robić? | Amtsbriefe", "Otrzymałeś Ausreiseaufforderung? Terminy, pilne kroki, Duldung, komisja ds. trudnych przypadków. Darmowe wzory pism i pomoc."],
@@ -78,6 +92,8 @@
     "auto": ["Prawo jazdy, auto, działalność w Niemczech", "Wymiana prawa jazdy, rejestracja auta i działalności, legitymacja niepełnosprawności, stopień pielęgnacji: terminy i darmowe wzory pism."]
   },
   "el": {
+    "jcb": ["Επιστολή από Jobcenter – τι κάνω; Απόφαση, ακρόαση, ραντεβού", "Απόφαση έγκρισης, τροποποίησης ή επιστροφής, ακρόαση, πρόσκληση, έγγραφα, συνέχιση: προθεσμίες και πρότυπα, εξηγημένα σε 13 γλώσσες."],
+    "kk": ["Ταμείο υγείας: οικογενειακή ασφάλιση, βεβαίωση, αλλαγή", "Επιλογή και αλλαγή ταμείου, οικογενειακή ασφάλιση (όριο 2026: 565 €), βεβαίωση μέλους, απαλλαγή από συμμετοχές. Πρότυπα, 13 γλώσσες."],
     "wegzug": ["Αναχώρηση από τη Γερμανία: Abmeldung και λίστα", "Μετακόμιση στο εξωτερικό: Abmeldung στο Bürgeramt, άδεια διαμονής, Rundfunkbeitrag, ασφάλιση υγείας, Familienkasse. Προθεσμίες και πρότυπα, 13 γλώσσες."],
     "aufenthalt": ["Λήγει η άδεια διαμονής στη Γερμανία – τι κάνω;", "Λήγει η άδεια διαμονής ή η βίζα σας στη Γερμανία; Έγκαιρη παράταση, Fiktionsbescheinigung, ένσταση. Δωρεάν πρότυπα επιστολών."],
     "abschiebung": ["Απειλή απέλασης στη Γερμανία – τι κάνω;", "Λάβατε Ausreiseaufforderung; Προθεσμίες, άμεσα βήματα, Duldung, επιτροπή δύσκολων περιπτώσεων. Δωρεάν πρότυπα επιστολών και βοήθεια."],
@@ -89,6 +105,8 @@
     "auto": ["Δίπλωμα, αυτοκίνητο, επιχείρηση στη Γερμανία", "Μετατροπή διπλώματος, ταξινόμηση αυτοκινήτου, δήλωση επιχείρησης, κάρτα αναπηρίας, βαθμός φροντίδας: δωρεάν πρότυπα επιστολών."]
   },
   "fr": {
+    "jcb": ["Lettre du Jobcenter – que faire ? Décision, audition, RDV", "Décision d'attribution, de modification ou de remboursement, audition, convocation, documents, renouvellement : délais et modèles en 13 langues."],
+    "kk": ["Assurance maladie : famille, attestation, changer de caisse", "Choisir et changer de caisse, assurance familiale (plafond 2026 : 565 €), attestation d'affiliation, dispense de participations. Modèles, 13 langues."],
     "wegzug": ["Quitter l'Allemagne : désinscription (Abmeldung)", "Départ à l'étranger : désinscription au Bürgeramt, titre de séjour, redevance, caisse maladie, Familienkasse. Délais et modèles de lettres, 13 langues."],
     "aufenthalt": ["Titre de séjour qui expire en Allemagne : que faire ?", "Votre titre de séjour ou visa expire en Allemagne ? Prolonger à temps, Fiktionsbescheinigung, recours. Modèles de lettres gratuits, 13 langues."],
     "abschiebung": ["Menace d'expulsion en Allemagne : que faire ?", "Vous avez reçu une Ausreiseaufforderung ? Délais, démarches urgentes, Duldung, commission des cas de rigueur. Modèles de lettres et aide gratuits."],
@@ -100,6 +118,8 @@
     "auto": ["Permis, voiture, entreprise en Allemagne | Amtsbriefe", "Échanger son permis, immatriculer une voiture, déclarer une activité, carte de handicap, niveau de dépendance : modèles de lettres gratuits."]
   },
   "nl": {
+    "jcb": ["Brief van het Jobcenter: besluit, hoorbrief, afspraak", "Toekennings-, wijzigings- of terugvorderingsbesluit, hoorbrief, uitnodiging, documenten, verlenging: termijnen en sjablonen, uitgelegd in 13 talen."],
+    "kk": ["Krankenkasse: gezinsverzekering, bewijs, wisselen", "Krankenkasse kiezen en wisselen, gezinsverzekering (grens 2026: 565 €), lidmaatschapsbewijs, vrijstelling eigen bijdragen. Sjablonen, 13 talen."],
     "wegzug": ["Duitsland verlaten: uitschrijving (Abmeldung)", "Verhuizen naar het buitenland: uitschrijven bij het Bürgeramt, verblijfsvergunning, omroepbijdrage, zorgverzekering, Familienkasse. Termijnen, 13 talen."],
     "aufenthalt": ["Verblijfsvergunning in Duitsland verloopt – wat nu?", "Verloopt je verblijfsvergunning of visum in Duitsland? Op tijd verlengen, Fiktionsbescheinigung, bezwaar. Gratis briefsjablonen, 13 talen."],
     "abschiebung": ["Dreigende uitzetting in Duitsland – wat nu?", "Ausreiseaufforderung gekregen? Termijnen, dringende stappen, Duldung, hardheidscommissie. Gratis briefsjablonen en hulp in 13 talen."],
@@ -111,6 +131,8 @@
     "auto": ["Rijbewijs, auto, bedrijf in Duitsland | Amtsbriefe", "Rijbewijs omzetten, auto inschrijven, bedrijf aanmelden, gehandicaptenpas, zorggraad: termijnen en gratis voorbeeldbrieven, in 13 talen."]
   },
   "ro": {
+    "jcb": ["Scrisoare de la Jobcenter: decizie, audiere, programare", "Decizie de aprobare, modificare sau restituire, audiere, invitație, documente, prelungire: termene și modele, explicate în 13 limbi."],
+    "kk": ["Krankenkasse: asigurarea de familie, adeverință, schimbare", "Alegerea și schimbarea casei de asigurări, asigurarea de familie (limita 2026: 565 €), adeverința de membru, scutirea de coplăți. Modele, 13 limbi."],
     "wegzug": ["Plecarea din Germania: radierea (Abmeldung) și pași", "Mutare în străinătate: radiere la Bürgeramt, permis de ședere, Rundfunkbeitrag, casa de asigurări, Familienkasse. Termene și modele de scrisori, 13 limbi."],
     "aufenthalt": ["Expiră permisul de ședere în Germania – ce fac?", "Vă expiră permisul de ședere sau viza în Germania? Prelungire la timp, Fiktionsbescheinigung, contestație. Modele de scrisori gratuite."],
     "abschiebung": ["Amenințare cu expulzarea din Germania – ce fac?", "Ați primit Ausreiseaufforderung? Termene, pași urgenți, Duldung, comisia pentru cazuri dificile. Modele de scrisori și ajutor gratuit."],
@@ -122,6 +144,8 @@
     "auto": ["Permis, mașină, afacere în Germania | Amtsbriefe", "Preschimbarea permisului, înmatricularea mașinii, înregistrarea afacerii, certificat de handicap, grad de îngrijire: modele gratuite."]
   },
   "es": {
+    "jcb": ["Carta del Jobcenter: ¿qué hacer? Resolución, audiencia, cita", "Resolución de concesión, modificación o reembolso, audiencia, citación, documentos, renovación: plazos y plantillas, explicado en 13 idiomas."],
+    "kk": ["Seguro médico: seguro familiar, certificado, cambio de caja", "Elegir y cambiar de Krankenkasse, seguro familiar (límite 2026: 565 €), certificado de afiliación, exención de copagos. Plantillas, 13 idiomas."],
     "wegzug": ["Salir de Alemania: baja del padrón (Abmeldung)", "Mudarse al extranjero: baja en el Bürgeramt, permiso de residencia, tasa de radio y TV, seguro médico, Familienkasse. Plazos y plantillas, 13 idiomas."],
     "aufenthalt": ["Caduca tu permiso de residencia en Alemania", "¿Caduca tu permiso de residencia o visado en Alemania? Prórroga a tiempo, Fiktionsbescheinigung, recurso. Plantillas gratis en 13 idiomas."],
     "abschiebung": ["Amenaza de deportación en Alemania: ¿qué hacer?", "¿Has recibido una Ausreiseaufforderung? Plazos, pasos urgentes, Duldung, comisión de casos de dureza. Plantillas de cartas y ayuda gratis."],
@@ -133,6 +157,8 @@
     "auto": ["Permiso de conducir, coche, negocio en Alemania", "Canjear el permiso, matricular el coche, dar de alta un negocio, certificado de discapacidad, grado de dependencia: modelos de cartas gratis."]
   },
   "ku": {
+    "jcb": ["Nameya Jobcenter – çi bikin? Biryar, guhdarî, randevû", "Biryara pejirandinê, guhertinê an vegerandinê, guhdarî, vexwendin, belge, domandin: dem û şablon, bi 13 zimanan hatine ravekirin."],
+    "kk": ["Krankenkasse: sîgorteya malbatê, belge, guhertina kasê", "Krankenkasse hilbijartin û guhertin, sîgorteya malbatê (sînor 2026: 565 €), belgeya endamtiyê, azadbûna ji Zuzahlung. Şablon, 13 ziman."],
     "wegzug": ["Ji Almanyayê derketin: Abmeldung û lîste", "Barkirina derveyî welêt: Abmeldung li Bürgeramt, destûra mayînê, Rundfunkbeitrag, sîgorteya tenduristiyê, Familienkasse. Dem û şablon, 13 ziman."],
     "aufenthalt": ["Destûra rûniştinê diqede – çi bikim? | Amtsbriefe", "Li Almanyayê destûra rûniştinê an vîze diqede? Di wextê de dirêjkirin, Fiktionsbescheinigung, îtîraz. Şablonên nameyan ên belaş, 13 ziman."],
     "abschiebung": ["Metirsiya dersînorkirinê – çi bikim? | Amtsbriefe", "Ausreiseaufforderung hat? Dem, gavên lezgîn, Duldung, komîsyon. Şablonên nameyan ên belaş û alîkarî, bi 13 zimanan."],

@@ -1,0 +1,94 @@
+{
+ "title": "Carta del Jobcenter: resolución, audiencia, citación – ¿qué hacer? Plantillas gratis",
+ "desc": "Resolución de concesión, de modificación o de reembolso, audiencia, citación, colaboración, renovación: qué significa la carta y qué plazo rige. 13 idiomas.",
+ "h1": "Carta del Jobcenter: ¿qué significa y qué tienes que hacer?",
+ "intro": "Importante: abre enseguida las cartas del Jobcenter y fíjate en la fecha y el plazo. Una carta enviada por correo se considera notificada el cuarto día después del envío; desde ese día corre el plazo. Contra una resolución (Bescheid) tienes normalmente un mes para presentar un recurso (Widerspruch).",
+ "nav": "Carta del Jobcenter",
+ "steps": [
+  [
+   "Resolución de concesión (Bewilligungsbescheid): ¿cuánto recibes?",
+   "La resolución muestra cuánto dinero recibes y para qué periodo. Normalmente vale para un año; si la decisión es provisional o el alquiler y la calefacción son demasiado altos, a menudo solo para seis meses (§ 41 Abs. 3 SGB II). Revisa la cuantía básica (Regelbedarf), el alquiler, la calefacción y los ingresos que se tienen en cuenta. Si algo no está bien, presenta un recurso."
+  ],
+  [
+   "Resolución de modificación (Änderungsbescheid)",
+   "Si cambian tus ingresos, tu alquiler o tu hogar, el Jobcenter vuelve a calcular y te envía una resolución de modificación. Compárala con la resolución anterior. También contra ella puedes recurrir en el plazo de un mes (§ 84 SGG)."
+  ],
+  [
+   "Resolución de revocación y reembolso (Aufhebungs- und Erstattungsbescheid)",
+   "Si el Jobcenter ha pagado de más, puede revocar la concesión y reclamar el dinero (§ 50 SGB X). Antes, normalmente recibes una carta de audiencia (Anhörung). Un recurso no detiene automáticamente la revocación (§ 39 SGB II). Si no puedes pagar de una vez, pide por escrito un pago a plazos."
+  ],
+  [
+   "Audiencia (Anhörung): tu oportunidad de responder",
+   "Antes de recortarte dinero o reclamártelo, el Jobcenter debe escucharte (§ 24 SGB X). Responde por escrito dentro del plazo, explica los motivos y adjunta pruebas. Encontrarás una plantilla en la página sobre el Grundsicherungsgeld."
+  ],
+  [
+   "Citación (Meldeaufforderung)",
+   "Tienes que acudir a las citas a las que te convoca el Jobcenter (§ 59 SGB II con § 309 SGB III). Un recurso contra la citación no tiene efecto suspensivo (§ 39 SGB II). Si no puedes ir, cancela antes y envía un justificante. Si faltas repetidamente a citas sin motivo importante, se reduce el dinero (§ 32 SGB II)."
+  ],
+  [
+   "Petición de documentos (Mitwirkung)",
+   "Si el Jobcenter te pide documentos, envíalos dentro del plazo. A quien no colabora se le puede denegar o retirar la prestación total o parcialmente, pero solo después de un aviso por escrito y un plazo razonable (§ 66 Abs. 3 SGB I). Si te falta un justificante, escribe por qué y hasta cuándo lo enviarás."
+  ],
+  [
+   "No olvides la renovación",
+   "Las prestaciones solo se dan si las solicitas y no para el tiempo anterior a la solicitud; la solicitud tiene efecto desde el día 1 del mes (§ 37 SGB II). Por eso, presenta la solicitud de renovación (Weiterbewilligungsantrag) antes de que termine el periodo de concesión, por ejemplo en línea en jobcenter.digital."
+  ],
+  [
+   "Viajar solo con permiso",
+   "Tienes que estar localizable para el Jobcenter. Para ausentarte fuera de la zona cercana necesitas antes el permiso del Jobcenter; sin motivo importante, normalmente se da como máximo para tres semanas al año (§ 7b SGB II). Pídelo por escrito antes de cada viaje."
+  ],
+  [
+   "¿No estás de acuerdo? Recurso y ayuda",
+   "Presenta un recurso por escrito en el plazo de un mes desde la notificación (§ 84 SGG); puedes enviar los motivos más tarde. ¿Se te pasó el plazo? Presenta una solicitud de revisión (Überprüfungsantrag) (§ 44 SGB X). Hay ayuda gratuita en asesorías sociales, en la asesoría para migrantes y con un vale de asistencia jurídica (Beratungshilfeschein) del juzgado local (Amtsgericht)."
+  ]
+ ],
+ "deadlines": [
+  [
+   "Carta por correo considerada notificada",
+   "el 4.º día después del envío (§ 37 Abs. 2 SGB X)"
+  ],
+  [
+   "Recurso contra una resolución",
+   "1 mes desde la notificación (§ 84 SGG)"
+  ],
+  [
+   "Respuesta a una audiencia",
+   "hasta el plazo indicado en la carta (§ 24 SGB X)"
+  ],
+  [
+   "Enviar documentos que faltan",
+   "hasta el plazo indicado en la carta; antes, aviso por escrito de las consecuencias (§ 66 SGB I)"
+  ],
+  [
+   "Periodo de concesión",
+   "normalmente 12 meses, a veces 6 (§ 41 Abs. 3 SGB II)"
+  ],
+  [
+   "Solicitud de renovación",
+   "antes del final del periodo de concesión (§ 37 SGB II)"
+  ],
+  [
+   "Ausencia sin motivo importante",
+   "solo con permiso, normalmente como máximo 3 semanas al año (§ 7b SGB II)"
+  ]
+ ],
+ "contactsTitle": "Oficinas oficiales y ayuda gratuita",
+ "contacts": [
+  [
+   "jobcenter.digital",
+   "Presentar solicitudes, subir documentos, comunicar cambios",
+   "arbeitsagentur.de"
+  ],
+  [
+   "Grundsicherungsgeld – Bundesagentur für Arbeit",
+   "Información oficial sobre el cambio desde el Bürgergeld",
+   "arbeitsagentur.de"
+  ],
+  [
+   "Asesoría para migrantes (MBE / JMD)",
+   "Ayuda gratuita con cartas y solicitudes",
+   "bamf-navi.bamf.de"
+  ]
+ ],
+ "letters": {}
+}

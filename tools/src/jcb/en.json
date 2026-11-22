@@ -1,0 +1,94 @@
+{
+ "title": "Letter from the Jobcenter: decision, hearing, invitation – what to do? Free templates",
+ "desc": "Bewilligungs-, Änderungs- or Erstattungsbescheid, hearing, invitation, cooperation, continued payment: what the letter means and which deadline applies. 13 languages.",
+ "h1": "Letter from the Jobcenter: what does it mean and what must you do?",
+ "intro": "Important: open post from the Jobcenter immediately and check the date and the deadline. A letter sent by post counts as delivered (bekanntgegeben) on the fourth day after it was sent – the deadline starts then. You usually have one month to file an objection (Widerspruch) against a decision (Bescheid).",
+ "nav": "Letter from the Jobcenter",
+ "steps": [
+  [
+   "Bewilligungsbescheid: how much do you get?",
+   "The decision shows how much money you get and for which period. Usually it is valid for one year; if the decision is provisional or your rent and heating are too high, often only for six months (§ 41 Abs. 3 SGB II). Check the standard rate (Regelbedarf), rent, heating and the income that was counted. If something is wrong, file an objection (Widerspruch)."
+  ],
+  [
+   "Änderungsbescheid (amended decision)",
+   "If your income, your rent or your household changes, the Jobcenter calculates again and sends an amended decision (Änderungsbescheid). Compare it with the old decision. You can also object to it within one month (§ 84 SGG)."
+  ],
+  [
+   "Aufhebungs- und Erstattungsbescheid (paying money back)",
+   "If the Jobcenter paid too much, it can cancel the approval and ask for the money back (§ 50 SGB X). Before that, you usually get a hearing letter (Anhörung). An objection does not automatically stop the cancellation (§ 39 SGB II). If you cannot pay everything at once, ask in writing to pay in instalments (Ratenzahlung)."
+  ],
+  [
+   "Hearing (Anhörung): your chance to reply",
+   "Before the Jobcenter cuts your money or asks for it back, it must hear you (§ 24 SGB X). Reply in writing within the deadline, explain the reasons and attach proof. You will find a template on the Grundsicherungsgeld page."
+  ],
+  [
+   "Invitation (Meldeaufforderung)",
+   "You must come to appointments the Jobcenter invites you to (§ 59 SGB II with § 309 SGB III). An objection against the invitation does not suspend it (§ 39 SGB II). If you cannot come, cancel in advance and send proof. If you repeatedly miss appointments without an important reason, your money is reduced (§ 32 SGB II)."
+  ],
+  [
+   "Request to send documents (Mitwirkung)",
+   "If the Jobcenter asks for documents, send them within the deadline. If you do not cooperate, the benefit can be refused or withdrawn completely or partly – but only after a written warning and a reasonable deadline (§ 66 Abs. 3 SGB I). If you are missing a document, write why and by when you will send it."
+  ],
+  [
+   "Do not forget continued payment (Weiterbewilligung)",
+   "Benefits are only paid on application and not for the time before the application; the application counts back to the first day of the month (§ 37 SGB II). So submit the application for continued payment (Weiterbewilligungsantrag) before the end of the approval period, for example online at jobcenter.digital."
+  ],
+  [
+   "Travel only with permission",
+   "The Jobcenter must be able to reach you. To be away outside the local area, you need the Jobcenter's permission in advance; without an important reason, it is usually given for at most three weeks a year (§ 7b SGB II). Ask in writing before every trip."
+  ],
+  [
+   "You do not agree? Objection and help",
+   "File a written objection within one month after notification (§ 84 SGG); you can send the reasons later. Missed the deadline? Submit a request for review (Überprüfungsantrag) (§ 44 SGB X). Free help is available from social counselling services, migration counselling and with a legal-aid certificate (Beratungshilfeschein) from the local court (Amtsgericht)."
+  ]
+ ],
+ "deadlines": [
+  [
+   "Letter by post counts as delivered",
+   "on the 4th day after it was sent (§ 37 Abs. 2 SGB X)"
+  ],
+  [
+   "Objection to a decision",
+   "1 month after notification (§ 84 SGG)"
+  ],
+  [
+   "Reply to a hearing letter",
+   "by the deadline in the letter (§ 24 SGB X)"
+  ],
+  [
+   "Sending missing documents",
+   "by the deadline in the letter – before that, a written warning about the consequences (§ 66 SGB I)"
+  ],
+  [
+   "Approval period (Bewilligungszeitraum)",
+   "usually 12 months, sometimes 6 (§ 41 Abs. 3 SGB II)"
+  ],
+  [
+   "Application for continued payment",
+   "before the end of the approval period (§ 37 SGB II)"
+  ],
+  [
+   "Absence without an important reason",
+   "only with permission, usually at most 3 weeks a year (§ 7b SGB II)"
+  ]
+ ],
+ "contactsTitle": "Official offices and free help",
+ "contacts": [
+  [
+   "jobcenter.digital",
+   "Submit applications, upload documents, report changes",
+   "arbeitsagentur.de"
+  ],
+  [
+   "Grundsicherungsgeld – Federal Employment Agency (Bundesagentur für Arbeit)",
+   "Official information on the change from Bürgergeld",
+   "arbeitsagentur.de"
+  ],
+  [
+   "Migration counselling (MBE / JMD)",
+   "Free help with letters and applications",
+   "bamf-navi.bamf.de"
+  ]
+ ],
+ "letters": {}
+}

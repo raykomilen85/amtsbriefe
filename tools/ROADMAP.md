@@ -38,3 +38,4 @@ Allgemeine Abnahmekriterien für jeden Punkt:
 - 19.11.2026: IndexNow für /wegzug-ausland.html (13 Sprachen) gesendet. Search Console: Tageskontingent erschöpft – noch beantragen: wegzug-ausland (de) und tr/wegzug-ausland.
 - 22.11.2026: Lauf vom Sa 21.11. nachgeholt (Task war pausiert). Alle Punkte außer 7 erledigt. Search Console: Indexierung beantragt für wegzug-ausland (de) und tr/wegzug-ausland. Daten (28 Tage bis 20.11.) unverändert: 3 Klicks, 497 Impressionen – Vorschlag für Punkt 7 an Milen geschickt, wartet auf Zustimmung.
 - 22.11.2026: Milen hat alle drei Vorschläge freigegeben („hepsini yap“): 7b, 7c, 7d erledigt. Übersetzungen von Claude (bitte von Muttersprachlern gegenlesen).
+- 22.11.2026: Search Console: Indexierung beantragt für jobcenter-briefe, krankenkasse (de+tr) und integrationskurs (de); außerdem SEO-Seiten vom 19.11. IndexNow (über Chrome) für alle 13 Sprachen von jobcenter-briefe, krankenkasse, integrationskurs, Startseite und Vorlage bm1.

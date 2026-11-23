@@ -124,7 +124,22 @@ document.querySelectorAll("[data-lang]").forEach(function(a){a.addEventListener(
 const crumbLD = list => ({ "@context": "https://schema.org", "@type": "BreadcrumbList",
   itemListElement: list.map(([n, u], i) => ({ "@type": "ListItem", position: i + 1, name: n, item: SITE + u })) });
 
-const urls = [];
+const urls = [], LASTMOD = {};
+// Datum (Stand, dateModified, sitemap lastmod) nur ändern, wenn sich der Inhalt wirklich geändert hat.
+// Sonst bekäme Google bei jedem Lauf für alle Seiten ein neues lastmod – das macht lastmod wertlos
+// und verschwendet Crawl-Budget (Search Console 23.11.2026: 280 Seiten „Keşfedildi – dizine eklenmemiş“).
+const OLD_LM = {};
+for (const m of (fs.existsSync(path.join(ROOT, "sitemap.xml")) ? fs.readFileSync(path.join(ROOT, "sitemap.xml"), "utf8") : "").matchAll(/<loc>([^<]+)<\/loc><lastmod>([^<]+)<\/lastmod>/g)) OLD_LM[m[1]] = m[2];
+function writeIfChanged(file, html, url) {
+  const norm = (x, isoD) => isoD ? x.split(isoD).join("D").split(isoD.split("-").reverse().join(".")).join("D") : x;
+  if (fs.existsSync(file)) {
+    const old = fs.readFileSync(file, "utf8"), m = old.match(/"dateModified":"(\d{4}-\d{2}-\d{2})"/) || old.match(/(\d{2})\.(\d{2})\.(\d{4})<\/p>\s*<\/main>/);
+    const oldD = m ? (m.length === 4 ? `${m[3]}-${m[2]}-${m[1]}` : m[1]) : null;
+    if (oldD && norm(old, oldD) === norm(html, STAND)) { LASTMOD[url] = oldD; return; }
+    if (old === html) { LASTMOD[url] = OLD_LM[url] || STAND; return; }
+  }
+  fs.writeFileSync(file, html); LASTMOD[url] = STAND;
+}
 for (const lg of LANGS) {
   const S = I[lg], P = pre(lg);
   fs.mkdirSync(path.join(ROOT, lg === "de" ? "" : lg, "vorlage"), { recursive: true });
@@ -178,7 +193,7 @@ ${relLinks.length ? `<h2>${esc(REL_H[lg])}</h2><ul class="grid">${relLinks.map((
     const ld = [crumbLD([["Amtsbriefe", "/"], [S.tmpl, `${P}/vorlagen.html`], [t, P + rel]]),
       { "@context": "https://schema.org", "@type": "FAQPage", inLanguage: lg, mainEntity: faq.map(([q, a]) => ({ "@type": "Question", name: q, acceptedAnswer: { "@type": "Answer", text: a } })) },
       { "@context": "https://schema.org", "@type": "Article", headline: h1, inLanguage: lg, dateModified: STAND, publisher: { "@type": "Organization", name: "Amtsbriefe", url: SITE + "/" } }];
-    fs.writeFileSync(path.join(ROOT, lg === "de" ? "" : lg, "vorlage", it.slug + ".html"), page({ lg, rel, title, desc, h1, crumbs, body, ld }));
+    writeIfChanged(path.join(ROOT, lg === "de" ? "" : lg, "vorlage", it.slug + ".html"), page({ lg, rel, title, desc, h1, crumbs, body, ld }), SITE + P + rel);
     urls.push(SITE + P + rel);
   }
 
@@ -189,11 +204,11 @@ ${relLinks.length ? `<h2>${esc(REL_H[lg])}</h2><ul class="grid">${relLinks.map((
   const hubBody = `<p class="intro">${esc(fmt(S.hubIntro, { n: items.length }))}</p>
 ${Object.entries(groups).map(([o, list]) => `<h2>${esc(o)}</h2><ul class="grid">${list.map(x => { const w = T(x.wObj, lg); return `<li><a href="${P}/vorlage/${x.slug}.html">${esc(T(x.tObj, lg))}<small>${esc(w.slice(0, 90))}${w.length > 90 ? "…" : ""}</small></a></li>`; }).join("")}</ul>`).join("\n")}
 ${help.length ? `<h2>${esc(S.help)}</h2><ul class="grid">${help.map(([p, n]) => `<li><a href="${P}/${p}.html">${esc(n)}</a></li>`).join("")}</ul>` : ""}`;
-  fs.writeFileSync(path.join(ROOT, lg === "de" ? "" : lg, "vorlagen.html"), page({ lg, rel: "/vorlagen.html",
+  writeIfChanged(path.join(ROOT, lg === "de" ? "" : lg, "vorlagen.html"), page({ lg, rel: "/vorlagen.html",
     title: `${S.hubTitle} | Amtsbriefe`, desc: fmt(S.hubIntro, { n: items.length }).slice(0, 300),
     h1: S.hubH1, crumbs: [["Amtsbriefe", "/"], [S.tmpl, null]], body: hubBody,
     ld: [crumbLD([["Amtsbriefe", "/"], [S.tmpl, `${P}/vorlagen.html`]]),
-      { "@context": "https://schema.org", "@type": "ItemList", itemListElement: items.map((x, i) => ({ "@type": "ListItem", position: i + 1, url: `${SITE}${P}/vorlage/${x.slug}.html`, name: T(x.tObj, lg) })) }] }));
+      { "@context": "https://schema.org", "@type": "ItemList", itemListElement: items.map((x, i) => ({ "@type": "ListItem", position: i + 1, url: `${SITE}${P}/vorlage/${x.slug}.html`, name: T(x.tObj, lg) })) }] }), SITE + P + "/vorlagen.html");
   urls.push(SITE + P + "/vorlagen.html");
 }
 
@@ -203,7 +218,7 @@ let sm = fs.readFileSync(smPath, "utf8").replace(/<url><loc>https:\/\/amtsbriefe
 const alt = u => { const rel = u.slice(SITE.length).replace(/^\/[a-z]{2}(?=\/)/, "");
   return LANGS.map(x => `<xhtml:link rel="alternate" hreflang="${x}" href="${SITE}${pre(x)}${rel}"/>`).join("") +
     `<xhtml:link rel="alternate" hreflang="x-default" href="${SITE}${rel}"/>`; };
-sm = sm.replace("</urlset>", urls.map(u => `<url><loc>${u}</loc><lastmod>${STAND}</lastmod>${alt(u)}</url>`).join("\n") + "\n</urlset>");
+sm = sm.replace("</urlset>", urls.map(u => `<url><loc>${u}</loc><lastmod>${LASTMOD[u] || STAND}</lastmod>${alt(u)}</url>`).join("\n") + "\n</urlset>");
 fs.writeFileSync(smPath, sm);
 fs.writeFileSync(path.join(__dirname, "vorlagen-urls.txt"), urls.join("\n") + "\n");
 console.log(`${items.length} Vorlagen × ${LANGS.length} Sprachen + Übersichten = ${urls.length} Seiten`);

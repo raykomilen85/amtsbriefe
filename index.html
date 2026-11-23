@@ -273,7 +273,7 @@ footer p{margin:0 0 6px;max-width:80ch}
   <div class="help" id="help"></div>
   <h2 class="sec-h" id="t-faq"></h2>
   <div class="faq" id="faq"></div>
-  <section class="ueber" id="ueber" lang="de">
+  <section class="ueber" id="ueber" lang="de" dir="ltr">
     <h2 class="sec-h">Was ist Amtsbriefe?</h2>
     <p>Amtsbriefe ist eine kostenlose Sammlung von Briefvorlagen für deutsche Behörden. Hier findest du fertig formulierte Briefe an das Jobcenter, die Agentur für Arbeit, die Ausländerbehörde, die Krankenkasse, das Bürgeramt und das Finanzamt – zum Beispiel einen Widerspruch gegen einen Bescheid, eine Bitte um einen neuen Termin, eine Fristverlängerung oder eine Sachstandsanfrage. Jede Vorlage gibt es leer und als ausgefülltes Beispiel. Die Briefe selbst sind immer auf Deutsch, die Erklärungen gibt es in 13 Sprachen: Deutsch, Türkisch, Bulgarisch, Arabisch, Ukrainisch, Polnisch, Englisch, Griechisch, Französisch, Niederländisch, Rumänisch, Spanisch und Kurdisch.</p>
     <h3>Hilfe nach Thema</h3>
@@ -648,7 +648,7 @@ const today=()=>{const d=new Date();return String(d.getDate()).padStart(2,"0")+"
 const titleOf=l=>T(l.tt?TT[l.tt].t:l.t,lang), whenOf=l=>T(l.tt?TT[l.tt].w:l.w,lang);
 function fill(str,mode){return str.replace(/\{\{(\w+)\}\}/g,(m,k)=>{const x=fmt(k); if(mode==="txt") return x||"[ ___ ]"; return x?esc(x).replace(/\n/g,"<br>"):'<mark class="gap">'+esc(T(FL[k],lang))+'</mark>';});}
 function render(){
-  const R=document.documentElement; R.lang=lang; if($("ueber")) $("ueber").hidden=lang!=="de"; $("app").dir=lang==="ar"?"rtl":"ltr"; document.querySelector("footer").dir=$("app").dir;
+  const R=document.documentElement; R.lang=lang; /* Abschnitt „Was ist Amtsbriefe?“ bleibt in allen Sprachen sichtbar (Links für Google, 23.11.2026) */ $("app").dir=lang==="ar"?"rtl":"ltr"; document.querySelector("footer").dir=$("app").dir;
   $("langs").innerHTML=LANGS.map(([c,n])=>`<button type="button" data-l="${c}" aria-pressed="${c===lang}">${n}</button>`).join("");
   $("t-tag").textContent=T(UI.tag,lang); $("q").placeholder=T(UI.qph,lang); $("t-topics").textContent=T(UI.topics,lang); $("t-help").textContent=T(UI.help,lang); $("t-helpi").textContent=T(UI.helpi,lang); $("t-faq").textContent=T(UI.faq,lang);
   $("topics").innerHTML=TOPICS.map(t=>`<button type="button" data-topic="${t.k}" style="--c:${t.c}" aria-pressed="${t.k===topic}"><svg viewBox="0 0 24 24" aria-hidden="true">${t.i}</svg><span><b>${esc(T(t.t,lang))}</b><br><small>${t.o.map(o=>esc(OFF[o].n)).join(" · ")}</small></span></button>`).join("");

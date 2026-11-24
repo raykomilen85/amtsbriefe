@@ -124,5 +124,70 @@
    "Titel (en): Jobcenter Veränderungsmitteilung in English – template",
    "FAQ: welche Änderungen melden, unverzüglich (§ 60 SGB I), 13 Sprachen"
   ]
+ },
+ {
+  "date": "2026-11-24",
+  "query": "attestation de domicile en allemand",
+  "page": "/fr/vorlage/rathaus-meldebescheinigung-beantragen.html",
+  "position": 12.0,
+  "impressions": 1,
+  "top5": [
+   "linguee.fr",
+   "context.reverso.net",
+   "fr.pons.com",
+   "wunderflats.com",
+   "linguee.de"
+  ],
+  "changes": [
+   "Titel (fr): Attestation de domicile en allemand : Meldebescheinigung",
+   "FAQ: Meldebescheinigung (§ 18 BMG) vs. Meldebestätigung (§ 24 Abs. 2 BMG) vs. Wohnungsgeberbestätigung (§ 19 BMG), 13 Sprachen",
+   "Tipp: elektronische Meldebescheinigung kostenlos (§ 18 Abs. 3 BMG), 13 Sprachen"
+  ]
+ },
+ {
+  "date": "2026-11-24",
+  "query": "anmeldung arbeitsamt / arbeitsamt anmeldung",
+  "page": "/vorlage/agentur-fuer-arbeit-arbeitsuchend-melden.html",
+  "position": 8.0,
+  "impressions": 2,
+  "top5": [
+   "arbeitsagentur.de",
+   "arbeitsagentur.de",
+   "arbeitsagentur.de",
+   "arbeitsagentur.de",
+   "arbeitsagentur.de"
+  ],
+  "changes": [
+   "FAQ: Anmeldung Online-Portal (Passwort+BA-Secure/TOTP, Passkey, BundID); Arbeitslosmeldung online nur mit eID (§ 141 Abs. 1 SGB III, § 36a SGB I), 13 Sprachen",
+   "Tipp: Arbeitslosmeldung bis 3 Monate vorher (§ 141 Abs. 1 SGB III), 13 Sprachen",
+   "Titel nicht geändert (globale Titelkürzung 16.11. < 14 Tage)"
+  ]
+ },
+ {
+  "date": "2026-11-24",
+  "query": "przygotowanie pism do krankenkasse po polsku",
+  "page": "/pl/krankenkasse.html (Annahme, Seite in SC nicht einzeln geprüft)",
+  "position": 7.0,
+  "impressions": 2,
+  "top5": [
+   "polskiebiuro24.de",
+   "krankenkassen.de",
+   "facebook.com",
+   "tlumaczniemcy.pl",
+   "refundacja.de"
+  ],
+  "changes": [
+   "Neuer Schritt im Krankenkasse-Wegweiser: Amtssprache Deutsch, Übersetzung/Kosten, Fristwahrung (§ 19 Abs. 1, 2, 4 SGB X), 13 Sprachen",
+   "Titel nicht geändert (Seite seit 22.11.)"
+  ]
+ },
+ {
+  "date": "2026-11-24",
+  "note": "Search-Console-Daten seit 20.11. unverändert; 7 Tage: 0 Klicks, 6 Impressionen (alle 16.–17.11.), seit 18.11. keine Impressionen. Nur 2 Anfragen erfüllten ≥3 Impr./Pos. 3–40 (beide am 19.11. bearbeitet) → Long-Tail mit 1–2 Impressionen gewählt.",
+  "totals28d": {
+   "clicks": 3,
+   "impressions": 497,
+   "avg_position": 24.3
+  }
  }
 ]

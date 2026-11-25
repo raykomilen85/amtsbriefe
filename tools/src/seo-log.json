@@ -190,5 +190,69 @@
    "avg_position": 24.3
   },
   "indexing": "SC Indexierung beantragt: fr/vorlage/rathaus-meldebescheinigung-beantragen (war indexiert), vorlage/agentur-fuer-arbeit-arbeitsuchend-melden und pl/krankenkasse (beide 'URL Google unbekannt'). IndexNow für alle 3 gesendet."
+ },
+ {
+  "date": "2026-11-25",
+  "query": "jobcentre appointment online",
+  "page": "/en/vorlage/jobcenter-termin-anfragen.html (Annahme)",
+  "position": 57.0,
+  "impressions": 1,
+  "top5": [
+   "gov.uk",
+   "gov.uk",
+   "wikipedia.com",
+   "understandingucdev.dwp.gov.uk",
+   "gds.blog.gov.uk"
+  ],
+  "top5_source": "WebSearch (Chrome nicht erreichbar)",
+  "changes": [
+   "FAQ: Termin online über jobcenter.digital, Benutzerkonto BA (Quelle arbeitsagentur.de/grundsicherung/online-services-im-ueberblick), 13 Sprachen"
+  ]
+ },
+ {
+  "date": "2026-11-25",
+  "query": "bescheinigung der krankenkasse / mitgliedsbescheinigung krankenkasse",
+  "page": "/vorlage/krankenkasse-mitgliedsbescheinigung-anfordern.html",
+  "position": 51.0,
+  "impressions": 1,
+  "top5": [
+   "aok.de",
+   "aok.de",
+   "kkh.de",
+   "kkh.de",
+   "mobil-krankenkasse.de"
+  ],
+  "top5_source": "WebSearch",
+  "changes": [
+   "Tipp: Arbeitgeber braucht keine Papierbescheinigung, Rückmeldung elektronisch (§ 175 Abs. 3 SGB V), 13 Sprachen",
+   "FAQ: keine Kasse genannt -> nach 2 Wochen letzte Kasse (§ 175 Abs. 3 SGB V), 13 Sprachen"
+  ]
+ },
+ {
+  "date": "2026-11-25",
+  "query": "wniosek o wymeldowanie osoby niemieszkającej",
+  "page": "/pl/vorlage/rathaus-abmeldung-bei-umzug-ins-ausland.html",
+  "position": 5.0,
+  "impressions": 1,
+  "top5": [
+   "bonn.de",
+   "jakiwniosek.pl",
+   "jakiwniosek.pl",
+   "jakiwniosek.pl",
+   "jakiwniosek.pl"
+  ],
+  "top5_source": "WebSearch",
+  "changes": [
+   "FAQ: andere Person abmelden? Nur selbst/Vollmacht (§ 17 Abs. 2, 3 BMG), Mitteilung an Meldebehörde -> Berichtigung von Amts wegen (§ 6 Abs. 1, 3 BMG), 13 Sprachen"
+  ]
+ },
+ {
+  "date": "2026-11-25",
+  "note": "Diagnose Impressionen: SC Tageswerte 9.–12.11. je ~90–115 Impressionen, 13.11. 22, 14.–17.11. 2–4, 18.–23.11. 0. Technik live geprüft (GitHub Action https-check, Googlebot-UA): alle Seiten 200, kein noindex/X-Robots-Tag, Canonical korrekt, http/www -> 301 https, robots.txt ok, Sitemap 745 URLs. Kein technischer Block gefunden; Manuelle Maßnahmen/Sicherheitsprobleme nicht geprüft (Chrome getrennt).",
+  "totals28d": {
+   "clicks": 3,
+   "impressions": 497,
+   "avg_position": 24.3
+  }
  }
 ]

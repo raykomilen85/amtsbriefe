@@ -248,11 +248,12 @@
  },
  {
   "date": "2026-11-25",
-  "note": "Diagnose Impressionen: SC Tageswerte 9.–12.11. je ~90–115 Impressionen, 13.11. 22, 14.–17.11. 2–4, 18.–23.11. 0. Technik live geprüft (GitHub Action https-check, Googlebot-UA): alle Seiten 200, kein noindex/X-Robots-Tag, Canonical korrekt, http/www -> 301 https, robots.txt ok, Sitemap 745 URLs. Kein technischer Block gefunden; Manuelle Maßnahmen/Sicherheitsprobleme nicht geprüft (Chrome getrennt).",
+  "note": "Diagnose Impressionen: SC Tageswerte 9.–12.11. je ~90–115 Impressionen, 13.11. 22, 14.–17.11. 2–4, 18.–23.11. 0. Technik live geprüft (GitHub Action https-check, Googlebot-UA): alle Seiten 200, kein noindex/X-Robots-Tag, Canonical korrekt, http/www -> 301 https, robots.txt ok, Sitemap 745 URLs. Kein technischer Block gefunden; Manuelle Maßnahmen/Sicherheitsprobleme nicht geprüft (Chrome getrennt). Nachtrag (Chrome wieder da): Manuelle Maßnahmen und Sicherheitsprobleme: keine. pl/vorlage/rathaus-abmeldung-bei-umzug-ins-ausland (früher Pos. 5–9) und en/vorlage/jobcenter-termin-anfragen: 'Tarandı – dizine eklenmemiş' (aus dem Index gefallen); vorlage/krankenkasse-mitgliedsbescheinigung-anfordern: 'URL Google unbekannt'. Sitemap zuletzt am 19.11. gelesen (628 URLs, erfolgreich).",
   "totals28d": {
    "clicks": 3,
    "impressions": 497,
    "avg_position": 24.3
-  }
+  },
+  "indexing": "SC Indexierung beantragt 25.11. für die 3 geänderten URLs (alle 'Dizine eklenmesi istendi')."
  }
 ]

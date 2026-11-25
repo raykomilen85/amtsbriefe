@@ -32,3 +32,14 @@ jobs:
           for u in http://amtsbriefe.de/ https://amtsbriefe.de/ http://www.amtsbriefe.de/ https://www.amtsbriefe.de/; do
             echo "== $u"; curl -sS -o /dev/null --max-time 20 -w "%{http_code} -> %{redirect_url}\n" "$u" || true
           done
+      - name: Googlebot-Sicht (Status, X-Robots-Tag, robots-Meta, Canonical)
+        run: |
+          UA="Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)"
+          for p in / robots.txt sitemap.xml vorlage/rathaus-meldebescheinigung-beantragen.html fr/vorlage/rathaus-meldebescheinigung-beantragen.html vorlage/agentur-fuer-arbeit-arbeitsuchend-melden.html pl/krankenkasse.html en/vorlage/jobcenter-widerspruch-gegen-einen-bescheid.html; do
+            u="https://amtsbriefe.de/$p"; [ "$p" = "/" ] && u="https://amtsbriefe.de/"
+            echo "== $u"
+            curl -sS -A "$UA" -D - -o body.html --max-time 20 "$u" | grep -iE "^(HTTP|x-robots|location|content-type|cache-control|last-modified)" || true
+            grep -oiE '<meta name="robots"[^>]*>|<link rel="canonical"[^>]*>' body.html | head -3 || true
+            wc -c < body.html
+          done
+          echo "== sitemap URLs"; curl -sS --max-time 20 https://amtsbriefe.de/sitemap.xml | grep -o "<loc>" | wc -l

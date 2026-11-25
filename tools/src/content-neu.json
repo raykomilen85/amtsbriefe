@@ -126,7 +126,7 @@
     ],
     [
      "Άρρωστος/η; Πάρτε αμέσως ιατρική βεβαίωση",
-     "Μια ασθένεια λαμβάνεται υπόψη μόνο αν υποβάλετε αμέσως τεκμηριωμένη ιατρική βεβαίωση. Πρέπει να περιέχει: διάγνωση, σοβαρότητα, κωδικό ICD-10, συνέπειες χωρίς θεραπεία και φάρμακα με τη δραστική ουσία τους (§ 60a(2c), (2d))."
+     "Κατά κανόνα, μια ασθένεια λαμβάνεται υπόψη μόνο αν υποβάλετε αμέσως τεκμηριωμένη ιατρική βεβαίωση. Πρέπει να περιέχει: διάγνωση, σοβαρότητα, κωδικό ICD-10, αναμενόμενες συνέπειες και φάρμακα με τη δραστική ουσία τους (§ 60a(2c), (2d))."
     ],
     [
      "Αδύνατη η απέλαση; Αίτηση για Duldung",
@@ -568,7 +568,7 @@
     ],
     [
      "Malade ? Obtenez tout de suite un certificat médical",
-     "Une maladie n'est prise en compte que si vous remettez sans délai un certificat médical qualifié. Il doit contenir : diagnostic, gravité, code CIM-10, conséquences sans traitement et médicaments avec leur principe actif (§ 60a(2c), (2d))."
+     "En règle générale, une maladie n'est prise en compte que si vous remettez sans délai un certificat médical qualifié. Il doit contenir : diagnostic, gravité, code CIM-10, conséquences prévisibles et médicaments avec leur principe actif (§ 60a(2c), (2d))."
     ],
     [
      "Expulsion impossible ? Demandez une Duldung",
@@ -1010,7 +1010,7 @@
     ],
     [
      "Ziek? Haal meteen een medische verklaring",
-     "Een ziekte telt alleen mee als u zonder uitstel een gekwalificeerde medische verklaring indient. Die moet bevatten: diagnose, ernst, ICD-10-code, gevolgen zonder behandeling en medicijnen met hun werkzame stof (§ 60a(2c), (2d))."
+     "Een ziekte telt in de regel alleen mee als u zonder uitstel een gekwalificeerde medische verklaring indient. Die moet bevatten: diagnose, ernst, ICD-10-code, te verwachten gevolgen en medicijnen met hun werkzame stof (§ 60a(2c), (2d))."
     ],
     [
      "Uitzetting onmogelijk? Vraag een Duldung aan",
@@ -1452,7 +1452,7 @@
     ],
     [
      "Bolnav? Obțineți imediat un certificat medical",
-     "O boală este luată în considerare doar dacă depuneți fără întârziere un certificat medical calificat. Trebuie să conțină: diagnosticul, gravitatea, codul ICD-10, consecințele fără tratament și medicamentele cu substanța activă (§ 60a(2c), (2d))."
+     "De regulă, o boală este luată în considerare doar dacă depuneți fără întârziere un certificat medical calificat. Trebuie să conțină: diagnosticul, gravitatea, codul ICD-10, consecințele probabile și medicamentele cu substanța activă (§ 60a(2c), (2d))."
     ],
     [
      "Expulzare imposibilă? Cereți Duldung",
@@ -1894,7 +1894,7 @@
     ],
     [
      "¿Enfermo? Consigue ya un certificado médico",
-     "Una enfermedad solo se tiene en cuenta si presentas sin demora un certificado médico cualificado. Debe incluir: diagnóstico, gravedad, código CIE-10, consecuencias sin tratamiento y medicamentos con su principio activo (§ 60a(2c), (2d))."
+     "Por regla general, una enfermedad solo se tiene en cuenta si presentas sin demora un certificado médico cualificado. Debe incluir: diagnóstico, gravedad, código CIE-10, consecuencias previsibles y medicamentos con su principio activo (§ 60a(2c), (2d))."
     ],
     [
      "¿Deportación imposible? Solicita una Duldung",

@@ -58,7 +58,7 @@ const SITE = "https://amtsbriefe.de";
 // Rechtsstand je Seite. 16.11.2026: Normen der Seiten aufenthalt, abschiebung, sozial (AufenthG §§ 11, 23a, 59, 60a, 81, 84;
 // VwGO §§ 58, 75, 81; AsylG § 74; BerHG § 1; WoGG §§ 7, 25; BKGG § 6a; BEEG §§ 7, 13; UVG § 4; SGB XII § 44; SGG § 88)
 // auf gesetze-im-internet.de geprüft: Aussagen weiterhin zutreffend. Übrige Seiten zuletzt geprüft am 12.11.2026.
-const STAND_BY = { jcb: "22.11.2026", kk: "22.11.2026", wegzug: "19.11.2026", gsg: "19.11.2026", aufenthalt: "16.11.2026", abschiebung: "16.11.2026", sozial: "16.11.2026", integ: "22.11.2026" };
+const STAND_BY = { jcb: "22.11.2026", kk: "25.11.2026", wegzug: "19.11.2026", gsg: "19.11.2026", aufenthalt: "16.11.2026", abschiebung: "25.11.2026", sozial: "16.11.2026", integ: "22.11.2026" };
 const STAND = "12.11.2026";
 const LANGS = [["de","Deutsch"],["tr","Türkçe"],["bg","Български"],["ar","العربية"],["uk","Українська"],["pl","Polski"],["en","English"],["el","Ελληνικά"],["fr","Français"],["nl","Nederlands"],["ro","Română"],["es","Español"],["ku","Kurdî"]];
 const STEP = { de: "Schritt für Schritt", tr: "Adım adım", bg: "Стъпка по стъпка", ar: "خطوة بخطوة", uk: "Крок за кроком", pl: "Krok po kroku", en: "Step by step", el: "Βήμα προς βήμα", fr: "Étape par étape", nl: "Stap voor stap", ro: "Pas cu pas", es: "Paso a paso", ku: "Gav bi gav" };

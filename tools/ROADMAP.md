@@ -8,7 +8,7 @@ wenn ALLE Abnahmekriterien erfüllt sind. Dann hier abhaken (Datum + Commit) und
 
 Allgemeine Abnahmekriterien für jeden Punkt:
 - in allen 13 Sprachen (de, tr, bg, ar, uk, pl, en, el, fr, nl, ro, es, ku); Musterbriefe bleiben Deutsch
-- jede Rechtsaussage mit amtlicher Quelle (gesetze-im-internet.de – über Chrome lesen, WebFetch ist dort gesperrt –,
+- jede Rechtsaussage mit amtlicher Quelle (gesetze-im-internet.de – seit 25.11.2026 per WebFetch/web-fetch-Agent lesbar (getestet), Chrome nur als Ersatz –,
   bamf.de, arbeitsagentur.de, Behördenseiten); Quellen und „Stand“ auf der Seite; nichts erfinden; keine Einzelfall-Rechtsberatung
 - Seite in sitemap.xml (alle 13 Sprachen, hreflang), von der Startseite und passenden Seiten verlinkt, SEO-Titel ≤ 60, Beschreibung ≤ 155 Zeichen
 - Playwright bei 390 px: kein horizontales Scrollen, keine JS-Fehler, Sprachwechsel funktioniert
@@ -47,3 +47,4 @@ Allgemeine Abnahmekriterien für jeden Punkt:
 - 23.11.2026: Indexierungsanalyse (Search Console): 91 indexiert, 280 „Keşfedildi – dizine eklenmemiş“ (noch nicht gecrawlt), 192 „Tarandı – dizine eklenmemiş“ (letzter Crawl ≤ 16.11., also vor den Verbesserungen); alle Sprachen gleich betroffen; Sitemap ok (628 erkannt). Maßnahmen: tools/vorlagen.js ändert Stand/dateModified/lastmod nur noch bei echter Inhaltsänderung (vorher bei jedem Lauf alle 533 Seiten → lastmod wertlos, Crawl-Budget verschwendet); Startseite verlinkt jetzt statisch alle 13 Sprach-Übersichten (/xx/vorlagen.html). Keine Seiten auf noindex gesetzt: auch dünne Termin-Vorlagen haben Impressionen.
 - 23.11.2026: Startseite: Abschnitt „Was ist Amtsbriefe?“ (31 Links) wird nicht mehr bei Nicht-Deutsch ausgeblendet – Googlebot rendert meist mit englischer Browsersprache und sah ihn bisher als versteckt.
 - 25.11.2026: SEO-Technik-Audit aller 747 Seiten: 63 Titel > 60 und 53 Beschreibungen > 155 Zeichen (erste-30-tage, ihre-rechte, was-tun, zustaendige-stelle, Vorlagen-Übersichten, integrationskurs en/fr, 2 Vorlagen) gekürzt – jetzt 0. 4 doppelte <title> (z. B. „Termin anfragen“ bei 2 Ämtern, ro/fr/el) behoben: tools/vorlagen.js nimmt bei gleichen Vorlagentiteln immer das Amt in den Titel. Vorlagen-Übersicht hat eigene kurze Beschreibung (hubDesc). Keine toten internen Links, alle Sitemap-URLs vorhanden. Search Console: Chrome nicht erreichbar, Indexierungsanträge weiter offen.
+- 25.11.2026: Wartung: alle Normen per web-fetch-Agent gegen gesetze-im-internet.de geprüft (funktioniert jetzt); 4 Präzisierungen in 13 Sprachen (§ 19 Abs. 4 SGB X, § 84 Abs. 2 SGG, § 60a Abs. 2c/2d, § 11 AufenthG), Commit b9e37e2.
